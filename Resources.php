@@ -8,7 +8,7 @@
 
 $resourcePaths = array(
 	'localBasePath' => __DIR__,
-	'remoteExtPath' => 'MainPage'
+	'remoteExtPath' => 'TwnMainPage'
 );
 
 $wgResourceModules['ext.translate.mainpage'] = array(

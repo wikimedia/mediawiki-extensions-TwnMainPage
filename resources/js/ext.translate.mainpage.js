@@ -72,7 +72,7 @@
 			};
 
 			req = api.post( options );
-			req.fail( function () { window.alert( 'Failure' ); } )
+			req.fail( function () { window.alert( 'Failure' ); } );
 			req.done( function () {
 				var options, req,
 					api = new mw.Api();

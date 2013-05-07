@@ -479,3 +479,13 @@ button.button.green:active {
 	}
 
 }
+
+/* Non-JS cleanups */
+
+.client-nojs .uls-trigger {
+	visibility: hidden;
+}
+
+.client-nojs .grid .project-actions {
+	display: block;
+}

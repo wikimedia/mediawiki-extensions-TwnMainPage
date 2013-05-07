@@ -27,6 +27,15 @@ class SpecialTwnMainPage extends SpecialPage {
 
 		$out = $this->getOutput();
 		$out->setArticleBodyOnly( true );
+		// Default modules copied from OutputPage::addDefaultModules
+		$out->addModules( array(
+			'mediawiki.user',
+			'mediawiki.page.startup',
+			'mediawiki.page.ready',
+		) );
+
+		$out->addModuleStyles( 'jquery.uls.grid' );
+		$out->addModuleStyles( 'ext.translate.mainpage' );
 		$out->addModules( 'ext.translate.mainpage' );
 		$out->addHtml( $out->headElement( $this->getSkin() ) );
 		$out->addHTML( Html::openElement( 'div', array(
@@ -37,6 +46,7 @@ class SpecialTwnMainPage extends SpecialPage {
 		$out->addHTML( $this->searchBar() );
 		$out->addHTML( $this->projectSelector() );
 		$out->addHTML( $this->footer() );
+		$out->addHtml( $out->getBottomScripts() );
 		$out->addHtml( '</body></html>' );
 	}
 

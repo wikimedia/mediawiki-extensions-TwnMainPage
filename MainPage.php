@@ -38,7 +38,7 @@ $wgMainPageImages = array();
 $wgExtensionFunctions[] = function ()  {
 	global $wgMainPageImages, $wgExtensionAssetsPath;
 	$wgMainPageImages[] = array(
-		'url' => "$wgExtensionAssetsPath/MainPage/resources/banners/dance.jpg",
+		'url' => "$wgExtensionAssetsPath/TwnMainPage/resources/banners/dance.jpg",
 		'attribution' => '<a href="http://www.flickr.com/photos/ldhendrix/7389351416/">CC-BY ldhendrix</a>',
 	);
 	return true;

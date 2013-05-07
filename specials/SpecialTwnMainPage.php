@@ -51,46 +51,45 @@ class SpecialTwnMainPage extends SpecialPage {
 	}
 
 	public function header() {
-		$out = Html::openElement( 'div', array( 'class' => 'row twn-mainpage-header' ) );
-		$out .= Html::openElement( 'div', array( 'class' => 'eight columns twn-mainpage-title' ) );
-		$out .= Html::element( 'div',
-			array(
-				'class' => 'twn-brand-name',
-				'lang' => 'en',
-			)
-			, 'translatewiki.net' );
-		$out .= Html::element( 'div',
-			array(
-				'class' => 'twn-brand-motto',
-			)
-			, $this->msg( 'twnmp-brand-motto' )->text() );
-		$out .= Html::closeElement( 'div' );
-		$out .= Html::openElement( 'div', array( 'class' => 'four columns twn-mainpage-personal-actions' ) );
-		$out .= Html::element( 'span',
-			array(
-				'class' => 'uls-trigger',
-			)
-			, Language::fetchLanguageName( $this->getLanguage()->getCode() ) );
-		if ( $this->getUser()->isLoggedIn() ) {
-			$out .= Html::element( 'a',
-				array(
-					'class' => 'login username text-right',
-					'href' => Title::makeTitle( NS_USER, $this->getUser()->getName() )->getLocalUrl(),
-				)
-				, $this->getUser()->getName() );
-		} else {
-			$out .= Html::element( 'a',
-				array(
-					'class' => 'login text-right',
-					'href' => SpecialPage::getTitleFor( 'Userlogin' )
-						->getLocalUrl( array( 'returnto' => 'Special:MainPage' ) ),
-				)
-				, $this->msg( 'twnmp-login' )->text() );
-		}
-		$out .= Html::closeElement( 'div' );
-		$out .= Html::closeElement( 'div' );
+		global $wgSitename;
 
-		return $out;
+		$sitenameEsc = htmlspecialchars( $wgSitename );
+		$sitemottoEsc = $this->msg( 'twnmp-brand-motto' )->escaped();
+
+		$code = $this->getLanguage()->getCode();
+		$languageName = TranslateUtils::getLanguageName( $code, $code );
+		$uls = Html::element( 'span', array( 'class' => 'uls-trigger' ), $languageName );
+
+		$user = $this->getUser();
+		if ( $user->isLoggedIn() ) {
+			$params = array(
+				'class' => 'login username text-right',
+				'href' => $user->getUserPage()->getLocalUrl(),
+			);
+			$userLink = Html::element( 'a', $params, $user->getName() );
+		} else {
+			$login = SpecialPage::getTitleFor( 'Userlogin' );
+			$params = array(
+				'class' => 'login text-right',
+				'href' => $login->getLocalUrl( array( 'returnto' => 'Special:MainPage' ) ),
+			);
+			$userLink = Html::element( 'a', $params, $this->msg( 'twnmp-login' )->text() );
+		}
+
+		$html = <<<HTML
+<div class="row twn-mainpage-header">
+	<div class="eight columns twn-mainpage-title">
+		<div class="twn-brand-name">$sitenameEsc</div>
+		<div class="twn-brand-motto">$sitemottoEsc</div>
+	</div>
+	<div class="four columns twn-mainpage-personal-actions">
+		$uls
+		$userLink
+	</div>
+</div>
+HTML;
+
+		return $html;
 	}
 
 	public function searchBar() {

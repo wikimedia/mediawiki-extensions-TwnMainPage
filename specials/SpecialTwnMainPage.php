@@ -437,7 +437,7 @@ HTML;
 
 	public function userStats() {
 		$languageCode = $this->getLanguage()->getCode();
-		$languageName = TranslateUtils::getLanguageName( $languageCode );
+		$languageName = TranslateUtils::getLanguageName( $languageCode, $languageCode );
 
 		$stale = 60 * 5;
 		$expired = 60 * 60 * 12;

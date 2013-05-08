@@ -337,6 +337,46 @@ $messages['fr'] = array(
 	'twnmp-choose-fill-account-details' => 'Compléter tous les détails de votre compte',
 );
 
+/** Galician (galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'twnmp-desc' => 'Proporciona a páxina principal de translatewiki.net',
+	'twnmp-mainpage' => 'Portada',
+	'twnmp-s-translators' => 'tradutores',
+	'twnmp-s-projects' => 'proxectos',
+	'twnmp-s-languages' => 'linguas',
+	'twnmp-s-messages' => 'mensaxes a traducir',
+	'twnmp-bannerwho' => 'Imaxe $1',
+	'twnmp-show-more-projects' => 'Mostrar máis proxectos...',
+	'twnmp-brand-motto' => 'Comunidade de tradución de código aberto',
+	'twnmp-login' => 'Rexistro',
+	'twnmp-search-placeholder' => 'Atope e corrixa traducións',
+	'twnmp-search-button' => 'Buscar',
+	'twnmp-search-choose-project' => 'Escolla un proxecto a traducir',
+	'twnmp-translate-link' => 'Traducir',
+	'twnmp-proofread-link' => 'Corrixir',
+	'twnmp-translate-button' => 'Traducir',
+	'twnmp-proofread-button' => 'Corrixir',
+	'twnmp-your-translations-stats' => 'As súas estatísticas de tradución',
+	'twnmp-your-view-language-stats' => 'Ollar as estatísticas da lingua',
+	'twnmp-translations-per-month' => 'traducións ao mes',
+	'twnmp-reviews-per-month' => 'revisións ao mes',
+	'twnmp-translations-translator-ranking' => 'Quedou $2{{GENDER:$1|º|ª}} de $3 tradutores<br />en $4',
+	'twnmp-bottom-help' => 'Axuda',
+	'twnmp-bottom-special-pages' => 'Páxinas especiais',
+	'twnmp-bottom-languages-supported' => 'Linguas soportadas',
+	'twnmp-bottom-about' => 'Acerca de',
+	'twnmp-signup-username-placeholder' => 'Nome de usuario',
+	'twnmp-signup-password-placeholder' => 'Contrasinal',
+	'twnmp-signup-email-placeholder' => 'Correo electrónico',
+	'twnmp-create-account-button' => 'Crear a conta',
+	'twnmp-become-translator' => 'Fágase tradutor',
+	'twnmp-choose-languages-you-know' => 'Escolla as linguas que coñece',
+	'twnmp-choose-another-language' => 'Elixir outra lingua...',
+	'twnmp-choose-fill-account-details' => 'Encha os detalles da súa conta',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  */
@@ -418,6 +458,38 @@ $messages['ja'] = array(
 	'twnmp-choose-fill-account-details' => 'アカウント情報を記入してください',
 );
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'twnmp-mainpage' => 'Haaptsäit',
+	'twnmp-s-translators' => 'Iwwersetzer',
+	'twnmp-s-projects' => 'Projeten',
+	'twnmp-s-languages' => 'Sproochen',
+	'twnmp-s-messages' => "Message fir z'iwwersetzen",
+	'twnmp-bannerwho' => 'Bild $1',
+	'twnmp-show-more-projects' => 'Méi Projete weisen...',
+	'twnmp-search-choose-project' => "E Projet eraussiche fir z'iwwersetzen",
+	'twnmp-translate-link' => 'Iwwersetzen',
+	'twnmp-proofread-link' => 'Iwwerliesen',
+	'twnmp-translate-button' => 'Iwwersetzen',
+	'twnmp-proofread-button' => 'Iwwerliesen',
+	'twnmp-your-translations-stats' => 'Är Statistike vun der Iwwersetzung',
+	'twnmp-your-view-language-stats' => 'Sproochstatistike weisen',
+	'twnmp-translations-per-month' => 'Iwwersetzunge pro Mount',
+	'twnmp-bottom-help' => 'Hëllef',
+	'twnmp-bottom-special-pages' => 'Spezialsäiten',
+	'twnmp-bottom-languages-supported' => 'Ënnerstëtzte Sproochen',
+	'twnmp-bottom-about' => 'Iwwer',
+	'twnmp-signup-username-placeholder' => 'Benotzernumm',
+	'twnmp-signup-password-placeholder' => 'Passwuert',
+	'twnmp-signup-email-placeholder' => 'E-Mail',
+	'twnmp-create-account-button' => 'Benotzerkont uleeën',
+	'twnmp-become-translator' => 'Iwwersetzer ginn',
+	'twnmp-choose-languages-you-know' => 'Sproochen eraussichen déi Dir kënnt',
+	'twnmp-choose-another-language' => 'Eng aner Sprooch eraussichen...',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
@@ -469,6 +541,31 @@ $messages['nl'] = array(
 	'twnmp-s-languages' => 'Talen',
 	'twnmp-s-messages' => 'Vertaaleenheden',
 	'twnmp-bannerwho' => 'Afbeelding: $1',
+	'twnmp-login' => 'Aanmelden',
+	'twnmp-search-placeholder' => 'Vertalingen vinden en aanpassen',
+	'twnmp-search-button' => 'Zoeken',
+	'twnmp-search-choose-project' => 'Kies een te vertalen project',
+	'twnmp-translate-link' => 'Vertalen',
+	'twnmp-proofread-link' => 'Controleren',
+	'twnmp-translate-button' => 'Vertalen',
+	'twnmp-proofread-button' => 'Controleren',
+	'twnmp-your-translations-stats' => 'Uw vertaalstatistieken',
+	'twnmp-your-view-language-stats' => 'Taalstatistieken bekijken',
+	'twnmp-translations-per-month' => 'Vertalingen/maand',
+	'twnmp-reviews-per-month' => 'Gecontroleerd/maand',
+	'twnmp-translations-translator-ranking' => '{{GENDER:$1|Positie}} $2 van $3 vertalers<br />in het $4',
+	'twnmp-bottom-help' => 'Hulp',
+	'twnmp-bottom-special-pages' => "Speciale pagina's",
+	'twnmp-bottom-languages-supported' => 'Ondersteunde talen',
+	'twnmp-bottom-about' => 'Over',
+	'twnmp-signup-username-placeholder' => 'Gebruikersnaam',
+	'twnmp-signup-password-placeholder' => 'Wachtwoord',
+	'twnmp-signup-email-placeholder' => 'E-mailadres',
+	'twnmp-create-account-button' => 'Registreren',
+	'twnmp-become-translator' => 'Word vertaler',
+	'twnmp-choose-languages-you-know' => 'Kies talen die u kent',
+	'twnmp-choose-another-language' => 'Kies een andere taal...',
+	'twnmp-choose-fill-account-details' => 'Geef uw gebruikersgegevens op',
 );
 
 /** Telugu (తెలుగు)

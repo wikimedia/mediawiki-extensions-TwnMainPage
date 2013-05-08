@@ -68,7 +68,7 @@
 				username: username,
 				email: email,
 				password: password,
-				token: $form.find( 'input[name="wpSandboxToken"]' ).val(),
+				token: $form.find( 'input[name="wpSandboxToken"]' ).val()
 			};
 
 			req = api.post( options );
@@ -81,10 +81,10 @@
 					action: 'login',
 					lgname: username,
 					lgpassword: password
-				}
+				};
 
 				req = api.post( options );
-				req.fail( function () { window.alert( 'Failure2' ); } )
+				req.fail( function () { window.alert( 'Failure2' ); } );
 				req.done( function ( data ) {
 					var req,
 						api = new mw.Api();

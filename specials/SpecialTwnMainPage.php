@@ -106,6 +106,7 @@ class SpecialTwnMainPage extends SpecialPage {
 				'placeholder' => $this->msg( 'twnmp-search-placeholder' )->text(),
 				'type' => 'search',
 				'name' => 'query',
+				'dir' => $this->getLanguage()->getDir(),
 			) );
 
 		$out .= Html::element( 'button',

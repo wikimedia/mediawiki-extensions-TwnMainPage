@@ -38,15 +38,17 @@ class SpecialTwnMainPage extends SpecialPage {
 		$out->addModuleStyles( 'ext.translate.mainpage' );
 		$out->addModules( 'ext.translate.mainpage' );
 		$out->addHTML( $out->headElement( $this->getSkin() ) );
-		$out->addHTML( Html::openElement( 'div', array(
-			'class' => 'grid twn-mainpage',
-		) ) );
+		$out->addHTML( Html::openElement(
+			'div',
+			array( 'class' => 'grid twn-mainpage' )
+		) );
 		$out->addHTML( $this->header() );
 		$out->addHTML( $this->banner() );
 		$out->addHTML( $this->searchBar() );
 		$out->addHTML( $this->projectSelector() );
 		$out->addHTML( $this->footer() );
 		$out->addHTML( $out->getBottomScripts() );
+		$out->addHTML( Html::closeElement( 'div' ) ); // grid twn-mainpage
 		$out->addHTML( '</body></html>' );
 	}
 

@@ -37,7 +37,7 @@ class SpecialTwnMainPage extends SpecialPage {
 		$out->addModuleStyles( 'jquery.uls.grid' );
 		$out->addModuleStyles( 'ext.translate.mainpage' );
 		$out->addModules( 'ext.translate.mainpage' );
-		$out->addHtml( $out->headElement( $this->getSkin() ) );
+		$out->addHTML( $out->headElement( $this->getSkin() ) );
 		$out->addHTML( Html::openElement( 'div', array(
 			'class' => 'grid twn-mainpage',
 		) ) );
@@ -46,8 +46,8 @@ class SpecialTwnMainPage extends SpecialPage {
 		$out->addHTML( $this->searchBar() );
 		$out->addHTML( $this->projectSelector() );
 		$out->addHTML( $this->footer() );
-		$out->addHtml( $out->getBottomScripts() );
-		$out->addHtml( '</body></html>' );
+		$out->addHTML( $out->getBottomScripts() );
+		$out->addHTML( '</body></html>' );
 	}
 
 	public function header() {

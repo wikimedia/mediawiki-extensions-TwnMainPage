@@ -214,6 +214,46 @@ $messages['af'] = array(
 	'twnmp-stats-number-k' => '$1k',
 );
 
+/** Bengali (বাংলা)
+ * @author Bellayet
+ */
+$messages['bn'] = array(
+	'twnmp-desc' => 'translatewiki.net প্রধান পাতা রয়েছে',
+	'twnmp-mainpage' => 'প্রধান পাতা',
+	'twnmp-s-translators' => 'অনুবাদকগণ',
+	'twnmp-s-projects' => 'প্রকল্পসমূহ',
+	'twnmp-s-languages' => 'ভাষাসমূহ',
+	'twnmp-s-messages' => 'অনুবাদের জন্য বার্তাসমূহ',
+	'twnmp-bannerwho' => 'চিত্র $1',
+	'twnmp-show-more-projects' => 'আরও প্রকল্প দেখাও...',
+	'twnmp-brand-motto' => 'ওপেন সোর্স অনুবাদ সম্প্রদায়',
+	'twnmp-login' => 'প্রবেশ',
+	'twnmp-search-placeholder' => 'অনুবাদ অনুসন্ধান এবং ঠিক করুন',
+	'twnmp-search-button' => 'অনুসন্ধান করুন',
+	'twnmp-search-choose-project' => 'অনুবাদের জন্য কোনো প্রকল্প পছন্দ করুন',
+	'twnmp-translate-link' => 'অনুবাদ',
+	'twnmp-proofread-link' => 'প্রুফরিড',
+	'twnmp-translate-button' => 'অনুবাদ',
+	'twnmp-proofread-button' => 'প্রুফরিড',
+	'twnmp-your-translations-stats' => 'আপনার অনুবাদ পরিসংখ্যান',
+	'twnmp-your-view-language-stats' => 'ভাষার পরিসংখ্যান দেখাও',
+	'twnmp-translations-per-month' => 'অনুবাদ/মাস',
+	'twnmp-reviews-per-month' => 'পর্যালোচনা/মাস',
+	'twnmp-translations-translator-ranking' => '{{GENDER:$1|র‍্যাংক}} $4 ভাষায় $3 অনুবাদকের মধ্যে $2 নম্বর',
+	'twnmp-bottom-help' => 'সাহায্য',
+	'twnmp-bottom-special-pages' => 'বিশেষ পাতাসমূহ',
+	'twnmp-bottom-languages-supported' => 'সমর্থিত ভাষাসমূহ',
+	'twnmp-bottom-about' => 'পরিচিতি',
+	'twnmp-signup-username-placeholder' => 'ব্যবহারকারী নাম',
+	'twnmp-signup-password-placeholder' => 'শব্দচাবি (Password)',
+	'twnmp-signup-email-placeholder' => 'ইমেইল',
+	'twnmp-create-account-button' => 'অ্যাকাউন্ট তৈরি করুন',
+	'twnmp-become-translator' => 'অনুবাদক হোন',
+	'twnmp-choose-languages-you-know' => 'আপনি যে ভাষাসমূহ জানেন তা নির্বাচন করুন',
+	'twnmp-choose-another-language' => 'অন্য একটি ভাষা নির্বাচন করুন...',
+	'twnmp-choose-fill-account-details' => 'আপনার অ্যাকাউন্ট বিস্তারিত পূরণ করুন',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  * @author Se4598
@@ -458,6 +498,46 @@ $messages['ja'] = array(
 	'twnmp-choose-fill-account-details' => 'アカウント情報を記入してください',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'twnmp-desc' => 'translatewiki.net 대문을 제공합니다',
+	'twnmp-mainpage' => '대문',
+	'twnmp-s-translators' => '번역자',
+	'twnmp-s-projects' => '프로젝트',
+	'twnmp-s-languages' => '언어',
+	'twnmp-s-messages' => '번역할 메시지',
+	'twnmp-bannerwho' => '그림: $1',
+	'twnmp-show-more-projects' => '더 많은 프로젝트 보기...',
+	'twnmp-brand-motto' => '오픈 소스 번역 커뮤니티',
+	'twnmp-login' => '로그인',
+	'twnmp-search-placeholder' => '번역 찾아서 교정하기',
+	'twnmp-search-button' => '찾기',
+	'twnmp-search-choose-project' => '번역할 프로젝트를 선택하세요',
+	'twnmp-translate-link' => '번역',
+	'twnmp-proofread-link' => '교정하기',
+	'twnmp-translate-button' => '번역',
+	'twnmp-proofread-button' => '교정하기',
+	'twnmp-your-translations-stats' => '내 번역 통계',
+	'twnmp-your-view-language-stats' => '언어 통계 보기',
+	'twnmp-translations-per-month' => '번역/월',
+	'twnmp-reviews-per-month' => '검토/월',
+	'twnmp-translations-translator-ranking' => '번역자 $3명 중 $2{{GENDER:$1|위}}<br />$4',
+	'twnmp-bottom-help' => '도움말',
+	'twnmp-bottom-special-pages' => '특수 문서',
+	'twnmp-bottom-languages-supported' => '지원하는 언어',
+	'twnmp-bottom-about' => '소개',
+	'twnmp-signup-username-placeholder' => '사용자 이름',
+	'twnmp-signup-password-placeholder' => '비밀번호',
+	'twnmp-signup-email-placeholder' => '이메일',
+	'twnmp-create-account-button' => '계정 만들기',
+	'twnmp-become-translator' => '번역자가 되세요',
+	'twnmp-choose-languages-you-know' => '당신이 알고 있는 언어를 선택하세요',
+	'twnmp-choose-another-language' => '다른 언어 선택...',
+	'twnmp-choose-fill-account-details' => '내 계정 정보를 채우세요',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -568,6 +648,44 @@ $messages['nl'] = array(
 	'twnmp-choose-languages-you-know' => 'Kies talen die u kent',
 	'twnmp-choose-another-language' => 'Kies een andere taal...',
 	'twnmp-choose-fill-account-details' => 'Geef uw gebruikersgegevens op',
+);
+
+/** Swedish (svenska)
+ * @author WikiPhoenix
+ */
+$messages['sv'] = array(
+	'twnmp-mainpage' => 'Huvudsida',
+	'twnmp-s-translators' => 'Översättare',
+	'twnmp-s-projects' => 'Projekt',
+	'twnmp-s-languages' => 'Språk',
+	'twnmp-s-messages' => 'Meddelanden att översätta',
+	'twnmp-bannerwho' => 'Bild $1',
+	'twnmp-show-more-projects' => 'Visa fler projekt...',
+	'twnmp-login' => 'Logga in',
+	'twnmp-search-placeholder' => 'Hitta och korrigera översättningar',
+	'twnmp-search-button' => 'Hitta',
+	'twnmp-search-choose-project' => 'Välj ett projekt att översätta',
+	'twnmp-translate-link' => 'Översätt',
+	'twnmp-proofread-link' => 'Korrekturläs',
+	'twnmp-translate-button' => 'Översätt',
+	'twnmp-proofread-button' => 'Korrekturläs',
+	'twnmp-your-translations-stats' => 'Din översättningsstatistik',
+	'twnmp-your-view-language-stats' => 'Visa språkstatistik',
+	'twnmp-translations-per-month' => 'Översättningar/månad',
+	'twnmp-reviews-per-month' => 'Granskningar/månad',
+	'twnmp-translations-translator-ranking' => '{{GENDER:$1|Rankad}} som $2 av $3 översättare<br />på $4',
+	'twnmp-bottom-help' => 'Hjälp',
+	'twnmp-bottom-special-pages' => 'Specialsidor',
+	'twnmp-bottom-languages-supported' => 'Språk som stöds',
+	'twnmp-bottom-about' => 'Om',
+	'twnmp-signup-username-placeholder' => 'Användarnamn',
+	'twnmp-signup-password-placeholder' => 'Lösenord',
+	'twnmp-signup-email-placeholder' => 'E-post',
+	'twnmp-create-account-button' => 'Skapa konto',
+	'twnmp-become-translator' => 'Bli en översättare',
+	'twnmp-choose-languages-you-know' => 'Välj språken du kan',
+	'twnmp-choose-another-language' => 'Välj ett annat språk...',
+	'twnmp-choose-fill-account-details' => 'Fyll i dina kontouppgifter',
 );
 
 /** Telugu (తెలుగు)

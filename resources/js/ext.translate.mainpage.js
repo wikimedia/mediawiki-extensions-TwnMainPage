@@ -12,8 +12,12 @@
 		$tiles = $( '.project-tile' );
 
 		$tiles.hover(
-			function () { $( this ).find( '.project-actions' ).removeClass( 'hide' ); },
-			function () { $( this ).find( '.project-actions' ).addClass( 'hide' ); }
+			function () {
+				$( this ).find( '.project-actions' ).removeClass( 'hide' );
+			},
+			function () {
+				$( this ).find( '.project-actions' ).addClass( 'hide' );
+			}
 		);
 
 		if ( $tiles.length !== 8 ) {
@@ -72,7 +76,9 @@
 			};
 
 			req = api.post( options );
-			req.fail( function () { window.alert( 'Failure' ); } );
+			req.fail( function () {
+				window.alert( 'Failure' );
+			} );
 			req.done( function () {
 				var options, req,
 					api = new mw.Api();
@@ -84,13 +90,15 @@
 				};
 
 				req = api.post( options );
-				req.fail( function () { window.alert( 'Failure2' ); } );
+				req.fail( function () {
+					window.alert( 'Failure2' );
+				} );
 				req.done( function ( data ) {
 					var req,
 						api = new mw.Api();
 
 					req = api.post( $.extend( {}, { lgtoken: data.login.token }, options ) );
-					req.done( function ( ) {
+					req.done( function () {
 						window.location.reload();
 					} );
 				} );

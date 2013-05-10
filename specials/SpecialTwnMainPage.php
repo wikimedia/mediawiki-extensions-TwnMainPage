@@ -138,7 +138,6 @@ HTML;
 			}
 		}
 
-
 		$out .= implode( "\n\n", $tiles );
 		$out .= Html::closeElement( 'div' );
 
@@ -156,7 +155,7 @@ HTML;
 		}
 
 		$uiLanguage = $this->getLanguage();
-		$stats = MessageGroupStats::forItem( $group->getId(),$uiLanguage->getCode() );
+		$stats = MessageGroupStats::forItem( $group->getId(), $uiLanguage->getCode() );
 		$statsbar = StatsBar::getNew( $group->getId(), $uiLanguage->getCode(), $stats );
 
 		$translated = $stats[MessageGroupStats::TRANSLATED];
@@ -169,20 +168,21 @@ HTML;
 		$image = Html::element( 'img', array( 'src' => $url, 'width' => '100%' ) );
 		$label = htmlspecialchars( $group->getLabel( $this->getContext() ) );
 		$stats = $statsbar->getHtml( $this->getContext() );
+		// @todo FIXME i18n: Hard coded percentage character twice.
 		$acts =
 			Html::element( 'span', array( 'class' => 'translate' ), "$translated%" ) .
-			Html::element( 'span', array( 'class' => 'proofread' ), "$proofread%" );
+				Html::element( 'span', array( 'class' => 'proofread' ), "$proofread%" );
 
 		$title = SpecialPage::getTitleFor( 'Translate' );
 		$translate = Html::element( 'a', array(
-				'class' => 'translate',
-				'href' => $title->getLocalUrl( array( 'group' => $group->getId() ) )
-			), $this->msg( 'twnmp-translate-button' )->text() );
+			'class' => 'translate',
+			'href' => $title->getLocalUrl( array( 'group' => $group->getId() ) )
+		), $this->msg( 'twnmp-translate-button' )->text() );
 
 		$proofread = Html::element( 'a', array(
-				'class' => 'proofread',
-				'href' => $title->getLocalUrl( array( 'group' => $group->getId(), 'action' => 'proofread' ) )
-			), $this->msg( 'twnmp-proofread-button' )->text() );
+			'class' => 'proofread',
+			'href' => $title->getLocalUrl( array( 'group' => $group->getId(), 'action' => 'proofread' ) )
+		), $this->msg( 'twnmp-proofread-button' )->text() );
 
 		$out = <<<HTML
 <div class="three columns twn-mainpage-project-tile">
@@ -241,7 +241,7 @@ HTML;
 		$out = Html::openElement( 'div', array( 'class' => 'row twn-mainpage-footer' ) );
 		$out .= Html::element( 'a', array(
 			'class' => 'three column',
-			'href' =>Title::newFromText( 'Special:MyLanguage/Project:About' )->getLocalUrl(),
+			'href' => Title::newFromText( 'Special:MyLanguage/Project:About' )->getLocalUrl(),
 		), $this->msg( 'twnmp-bottom-about' )->text() );
 		$out .= Html::element( 'a', array(
 			'class' => 'three column',

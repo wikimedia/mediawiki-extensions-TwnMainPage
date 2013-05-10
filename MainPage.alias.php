@@ -1,4 +1,10 @@
 <?php
+/**
+ * Special page aliases for extension TwnMainPage.
+ *
+ * @file
+ * @ingroup Extensions
+ */
 
 $specialPageAliases = array();
 

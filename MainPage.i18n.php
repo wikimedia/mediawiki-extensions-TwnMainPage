@@ -1,4 +1,10 @@
 <?php
+/**
+ * Internationalisation file for extension TwnMainPage.
+ *
+ * @file
+ * @ingroup Extensions
+ */
 
 $messages = array();
 

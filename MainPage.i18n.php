@@ -214,6 +214,19 @@ $messages['af'] = array(
 	'twnmp-stats-number-k' => '$1k',
 );
 
+/** Bulgarian (български)
+ * @author DCLXVI
+ */
+$messages['bg'] = array(
+	'twnmp-bottom-special-pages' => 'Специални страници',
+	'twnmp-bottom-languages-supported' => 'Поддържани езици',
+	'twnmp-bottom-about' => 'Относно',
+	'twnmp-signup-username-placeholder' => 'Потребителско име',
+	'twnmp-signup-password-placeholder' => 'Парола',
+	'twnmp-signup-email-placeholder' => 'Електронна поща',
+	'twnmp-create-account-button' => 'Създаване на сметка',
+);
+
 /** Bengali (বাংলা)
  * @author Bellayet
  */
@@ -552,7 +565,7 @@ $messages['ko'] = array(
 	'twnmp-show-more-projects' => '더 많은 프로젝트 보기...',
 	'twnmp-brand-motto' => '오픈 소스 번역 커뮤니티',
 	'twnmp-login' => '로그인',
-	'twnmp-search-placeholder' => '번역 찾아서 교정하기',
+	'twnmp-search-placeholder' => '번역을 찾아서 교정하기',
 	'twnmp-search-button' => '찾기',
 	'twnmp-search-choose-project' => '번역할 프로젝트를 선택하세요',
 	'twnmp-translate-link' => '번역',
@@ -582,6 +595,7 @@ $messages['ko'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
+	'twnmp-desc' => "Stellt d'translatewiki.net-Haaptsäit zur Verfügung",
 	'twnmp-mainpage' => 'Haaptsäit',
 	'twnmp-s-translators' => 'Iwwersetzer',
 	'twnmp-s-projects' => 'Projeten',
@@ -589,6 +603,9 @@ $messages['lb'] = array(
 	'twnmp-s-messages' => "Message fir z'iwwersetzen",
 	'twnmp-bannerwho' => 'Bild $1',
 	'twnmp-show-more-projects' => 'Méi Projete weisen...',
+	'twnmp-login' => 'Aloggen',
+	'twnmp-search-placeholder' => 'Iwwersetzunge fannen a verbesseren',
+	'twnmp-search-button' => 'Fannen',
 	'twnmp-search-choose-project' => "E Projet eraussiche fir z'iwwersetzen",
 	'twnmp-translate-link' => 'Iwwersetzen',
 	'twnmp-proofread-link' => 'Iwwerliesen',
@@ -597,6 +614,7 @@ $messages['lb'] = array(
 	'twnmp-your-translations-stats' => 'Är Statistike vun der Iwwersetzung',
 	'twnmp-your-view-language-stats' => 'Sproochstatistike weisen',
 	'twnmp-translations-per-month' => 'Iwwersetzunge pro Mount',
+	'twnmp-reviews-per-month' => 'Nogekuckt pro Mount',
 	'twnmp-bottom-help' => 'Hëllef',
 	'twnmp-bottom-special-pages' => 'Spezialsäiten',
 	'twnmp-bottom-languages-supported' => 'Ënnerstëtzte Sproochen',
@@ -608,6 +626,7 @@ $messages['lb'] = array(
 	'twnmp-become-translator' => 'Iwwersetzer ginn',
 	'twnmp-choose-languages-you-know' => 'Sproochen eraussichen déi Dir kënnt',
 	'twnmp-choose-another-language' => 'Eng aner Sprooch eraussichen...',
+	'twnmp-choose-fill-account-details' => 'Setzt Detailer an Äre Benotzerkont derbäi',
 );
 
 /** Macedonian (македонски)

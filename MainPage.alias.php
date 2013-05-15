@@ -31,6 +31,11 @@ $specialPageAliases['lb'] = array(
 	'TwnMainPage' => array( 'Haaptsäit' ),
 );
 
+/** Dutch (Nederlands) */
+$specialPageAliases['nl'] = array(
+	'TwnMainPage' => array( 'Startpagina' ),
+);
+
 /** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
 	'TwnMainPage' => array( '主頁' ),

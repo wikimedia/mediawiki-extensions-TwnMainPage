@@ -904,6 +904,19 @@ $messages['te'] = array(
 	'twnmp-choose-fill-account-details' => 'మీ ఖాతా వివరాలను పూరించండి',
 );
 
+/** Simplified Chinese (中文（简体）‎)
+ * @author Timothy Gu
+ */
+$messages['zh-hans'] = array(
+	'twnmp-mainpage' => '首页',
+	'twnmp-s-translators' => '译者',
+	'twnmp-s-projects' => '项目',
+	'twnmp-s-languages' => '语言',
+	'twnmp-s-messages' => '需要翻译的词条',
+	'twnmp-bannerwho' => '图片：$1',
+	'twnmp-show-more-projects' => '显示更多的项目...',
+);
+
 /** Traditional Chinese (中文（繁體）‎)
  * @author Simon Shek
  */

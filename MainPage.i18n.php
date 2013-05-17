@@ -829,10 +829,51 @@ $messages['ro'] = array(
 	'twnmp-choose-fill-account-details' => 'Completați detaliile contului dumnevoastră',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'twnmp-desc' => "Dèje 'a pàgene prengepàle de translatewiki.net",
+	'twnmp-mainpage' => 'Pàgena Prengepàle',
+	'twnmp-s-translators' => 'Tradutture',
+	'twnmp-s-projects' => 'Pruggette',
+	'twnmp-s-languages' => 'Lènghe',
+	'twnmp-s-messages' => 'Messàgge da traducere',
+	'twnmp-bannerwho' => 'Immaggine $1',
+	'twnmp-show-more-projects' => 'Fà vedè cchiù pruggette...',
+	'twnmp-brand-motto' => "Iapre 'a comunitate origgenale de traduzione",
+	'twnmp-login' => 'Tràse',
+	'twnmp-search-placeholder' => 'Iacchie e corregge le traduziune',
+	'twnmp-search-button' => 'Iacchie',
+	'twnmp-search-choose-project' => "Scacchie 'nu proggette da traducere",
+	'twnmp-translate-link' => 'Traduce',
+	'twnmp-proofread-link' => 'Corregge',
+	'twnmp-translate-button' => 'Traduce',
+	'twnmp-proofread-button' => 'Corregge',
+	'twnmp-your-translations-stats' => 'Le statisteche de le traduziune tune',
+	'twnmp-your-view-language-stats' => "'Ndruche le statisteche d'a lènghe",
+	'twnmp-translations-per-month' => 'Traduziune/mese',
+	'twnmp-reviews-per-month' => 'Revisite/mese',
+	'twnmp-translations-translator-ranking' => "{{GENDER:$1|Posizionate}} $2 de $3 tradutture<br />jndr'à $4",
+	'twnmp-bottom-help' => 'Aijute',
+	'twnmp-bottom-special-pages' => 'Pàggene speciale',
+	'twnmp-bottom-languages-supported' => 'Lènghe supportate',
+	'twnmp-bottom-about' => 'Sus a',
+	'twnmp-signup-username-placeholder' => 'Nome utende',
+	'twnmp-signup-password-placeholder' => 'Passuord',
+	'twnmp-signup-email-placeholder' => 'E-mail',
+	'twnmp-create-account-button' => "Ccreje 'nu cunde utende",
+	'twnmp-become-translator' => "Devinde 'nu traduttore",
+	'twnmp-choose-languages-you-know' => "Scacchie 'na lènghe ca canusce",
+	'twnmp-choose-another-language' => "Scacchie 'n'otra lènghe...",
+	'twnmp-choose-fill-account-details' => "Inghie le dettaglie d'u cunde tune",
+);
+
 /** Swedish (svenska)
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
+	'twnmp-desc' => 'Tillhandahåller translatewiki.net:s huvudsida',
 	'twnmp-mainpage' => 'Huvudsida',
 	'twnmp-s-translators' => 'Översättare',
 	'twnmp-s-projects' => 'Projekt',

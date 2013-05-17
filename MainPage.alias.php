@@ -31,6 +31,16 @@ $specialPageAliases['lb'] = array(
 	'TwnMainPage' => array( 'Haaptsäit' ),
 );
 
+/** Macedonian (македонски) */
+$specialPageAliases['mk'] = array(
+	'TwnMainPage' => array( 'ГлавнаСтраница' ),
+);
+
+/** Marathi (मराठी) */
+$specialPageAliases['mr'] = array(
+	'TwnMainPage' => array( 'मुखपृष्ठ' ),
+);
+
 /** Dutch (Nederlands) */
 $specialPageAliases['nl'] = array(
 	'TwnMainPage' => array( 'Startpagina' ),

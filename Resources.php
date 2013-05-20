@@ -3,7 +3,7 @@
  * JavaScript and CSS resource definitions.
  *
  * @file
- * @license GPL2+
+ * @license GPL-2.0+
  */
 
 $resourcePaths = array(
@@ -14,13 +14,14 @@ $resourcePaths = array(
 $wgResourceModules['ext.translate.mainpage'] = array(
 	'scripts' => 'resources/js/ext.translate.mainpage.js',
 	'dependencies' => array(
-		'ext.translate.mainpage.icons',
-		'ext.uls.interface',
 		'ext.translate.groupselector',
+		'ext.translate.mainpage.icons',
 		'ext.translate.statsbar',
-		'mediawiki.util',
-		'mediawiki.Uri',
+		'ext.uls.interface',
+		'mediawiki.api.login',
 		'mediawiki.language',
+		'mediawiki.Uri',
+		'mediawiki.util',
 	),
 	'messages' => array(
 		'twnmp-show-more-projects',

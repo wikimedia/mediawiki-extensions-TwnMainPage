@@ -58,6 +58,12 @@ $messages['en'] = array(
 	'twnmp-choose-another-language' => 'Choose another language...',
 	'twnmp-choose-fill-account-details' => 'Fill in your account details',
 
+	'twnmp-join-community' => 'Join the community',
+	'twnmp-join-community-desc' => 'If you are a developer interested in documenting translations, or just exploring the platform, you are also welcome.',
+	'twnmp-join-community-reason' => 'Why are you interested in joining?',
+	'twnmp-create-account-cancel' => 'Cancel',
+	'twnmp-join-community-info' => 'Not a translator? You can still join the community.',
+
 	'twnmp-stats-number-k' => '$1k',
 	'twnmp-select-target-language' => 'Select language',
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|One message|$1 messages}}',
@@ -232,6 +238,11 @@ If "k" is a good thousands marker in your language, do not translate this messag
 
 Parameters:
 * $1 - total number of messages.',
+	'twnmp-join-community' => 'Header in the signup form for non-translators',
+	'twnmp-join-community-desc' => 'Not for non-translators who are signing up via the main page',
+	'twnmp-join-community-reason' => 'Label for a text area',
+	'twnmp-create-account-cancel' => 'A button',
+	'twnmp-join-community-info' => 'A note at the end of the sign up form in the main page',
 );
 
 /** Afrikaans (Afrikaans)

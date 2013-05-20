@@ -258,8 +258,35 @@
 	}
 
 	$( document ).ready( function () {
+		var $form = $( '.login-widget' ), $submit;
+
 		signupLanguageSelector();
-		$( '.login-widget' ).on( 'submit', loginFormHandler );
+		$form.on( 'submit', loginFormHandler );
+
+		$form.find( '.dev-signup' ).click( function () {
+			$form.find( '.only-dev' ).removeClass( 'hide' );
+			$form.find( '.only-nondev' ).addClass( 'hide' );
+			$form.find( '.required' ).trigger( 'change' );
+		} );
+
+		$form.find( 'button.cancel' ).click( function ( e ) {
+			e.preventDefault();
+			$form.find( '.only-dev' ).addClass( 'hide' );
+			$form.find( '.only-nondev' ).removeClass( 'hide' );
+			$form.find( '.required' ).trigger( 'change' );
+		} );
+
+		$submit = $form.find( 'button[type=submit]' );
+		$submit.prop( 'disabled', true );
+		$form.on( 'change keyup', '.required', function () {
+			var anyEmpty = false;
+
+			$form.find( '.required:visible' ).each( function () {
+				anyEmpty = anyEmpty || $( this ).val().trim() === '';
+			} );
+			$submit.prop( 'disabled', anyEmpty );
+		} );
+
 		setupProjectTiles();
 	} );
 }( jQuery, mediaWiki ) );

@@ -58,6 +58,7 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Amire80
+ * @author Lloffiwr
  * @author Nike
  * @author Shirayuki
  */
@@ -93,7 +94,7 @@ See example: [[Special:MainPage]]',
 
 See example: [[Special:MainPage]]',
 	'twnmp-show-more-projects' => 'Shown in large font in a box at the bottom of the main page next to boxes with icons and names of other projects.',
-	'twnmp-brand-motto' => 'A motto shown under the site name at the top of the main page.',
+	'twnmp-brand-motto' => 'A motto shown under the site name at the top of the main page. See [[Thread:Support/About MediaWiki:Twnmp-brand-motto/en/reply (3)|discussion]] for alternative wording.',
 	'twnmp-login' => 'A link for logging in.
 {{Identical|Log in}}',
 	'twnmp-search-placeholder' => 'A placeholder for the search box on the main page.',
@@ -220,6 +221,46 @@ $messages['af'] = array(
 	'twnmp-stats-number-k' => '$1k',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'twnmp-desc' => 'Ufre la páxina principal de translatewiki.net',
+	'twnmp-mainpage' => 'Portada',
+	'twnmp-s-translators' => 'Traductores',
+	'twnmp-s-projects' => 'Proyeutos',
+	'twnmp-s-languages' => 'Llingües',
+	'twnmp-s-messages' => 'Mensaxes a traducir',
+	'twnmp-bannerwho' => 'Imaxe $1',
+	'twnmp-show-more-projects' => 'Ver más proyeutos...',
+	'twnmp-brand-motto' => 'Comunidá de traducción de códigu abiertu',
+	'twnmp-login' => 'Aniciar sesión',
+	'twnmp-search-placeholder' => 'Alcontrar y correxir traducciones',
+	'twnmp-search-button' => 'Alcontrar',
+	'twnmp-search-choose-project' => 'Escueya un proyeutu pa traducir',
+	'twnmp-translate-link' => 'Traducir',
+	'twnmp-proofread-link' => 'Correxir',
+	'twnmp-translate-button' => 'Traducir',
+	'twnmp-proofread-button' => 'Correxir',
+	'twnmp-your-translations-stats' => 'Les sos estadístiques de traducción',
+	'twnmp-your-view-language-stats' => 'Ver estadístiques de llingua',
+	'twnmp-translations-per-month' => 'traducciones/mes',
+	'twnmp-reviews-per-month' => 'Revisiones/mes',
+	'twnmp-translations-translator-ranking' => 'Ta {{GENDER:$1|nel puestu}} $2 de $3 traductores<br />pal $4',
+	'twnmp-bottom-help' => 'Ayuda',
+	'twnmp-bottom-special-pages' => 'Páxines especiales',
+	'twnmp-bottom-languages-supported' => 'Llingües sofitaes',
+	'twnmp-bottom-about' => 'Tocante a',
+	'twnmp-signup-username-placeholder' => "Nome d'usuariu",
+	'twnmp-signup-password-placeholder' => 'Contraseña',
+	'twnmp-signup-email-placeholder' => 'Corréu',
+	'twnmp-create-account-button' => 'Crear una cuenta',
+	'twnmp-become-translator' => 'Faigase traductor',
+	'twnmp-choose-languages-you-know' => 'Esbille les llingües que sabe',
+	'twnmp-choose-another-language' => 'Escoyer otra llingua...',
+	'twnmp-choose-fill-account-details' => 'Rellene los detalles de la cuenta de so',
+);
+
 /** Bulgarian (български)
  * @author DCLXVI
  */
@@ -271,6 +312,78 @@ $messages['bn'] = array(
 	'twnmp-choose-languages-you-know' => 'আপনি যে ভাষাসমূহ জানেন তা নির্বাচন করুন',
 	'twnmp-choose-another-language' => 'অন্য একটি ভাষা নির্বাচন করুন...',
 	'twnmp-choose-fill-account-details' => 'আপনার অ্যাকাউন্ট বিস্তারিত পূরণ করুন',
+);
+
+/** Breton (brezhoneg)
+ * @author Y-M D
+ */
+$messages['br'] = array(
+	'twnmp-mainpage' => 'Degemer',
+	'twnmp-s-translators' => 'Troerien',
+	'twnmp-s-projects' => 'Raktresoù',
+	'twnmp-s-languages' => 'Yezhoù',
+	'twnmp-s-messages' => 'Kemennadennoù da dreiñ',
+	'twnmp-bannerwho' => 'Skeudenn $1',
+	'twnmp-show-more-projects' => 'Diskouez raktresoù ouzhpenn...',
+	'twnmp-login' => 'Kevreañ',
+	'twnmp-search-button' => 'Klask',
+	'twnmp-search-choose-project' => 'Dibab ur raktres da dreiñ',
+	'twnmp-translate-link' => 'Treiñ',
+	'twnmp-translate-button' => 'Treiñ',
+	'twnmp-your-translations-stats' => 'Ho stadegoù treiñ',
+	'twnmp-your-view-language-stats' => 'Diskouez ar stadegoù yezh',
+	'twnmp-translations-per-month' => 'Troidigezh/miz',
+	'twnmp-bottom-help' => 'Skoazell',
+	'twnmp-bottom-special-pages' => 'Pajennoù dibar',
+	'twnmp-bottom-languages-supported' => 'Yezhoù skoret',
+	'twnmp-bottom-about' => 'Diwar-benn',
+	'twnmp-signup-username-placeholder' => 'Anv implijer',
+	'twnmp-signup-password-placeholder' => 'Ger-tremen',
+	'twnmp-signup-email-placeholder' => 'Postel',
+	'twnmp-create-account-button' => 'Krouiñ ur gont',
+	'twnmp-become-translator' => 'Dont da vezañ troer',
+	'twnmp-choose-languages-you-know' => 'Dibabit ar yezhoù a anavezit',
+	'twnmp-choose-another-language' => 'Dibab ur yezh all...',
+	'twnmp-choose-fill-account-details' => 'Klokaat titouroù ho kont',
+);
+
+/** Welsh (Cymraeg)
+ * @author Lloffiwr
+ */
+$messages['cy'] = array(
+	'twnmp-desc' => 'Yn darparu hafan translatewiki.net',
+	'twnmp-mainpage' => 'Hafan',
+	'twnmp-s-translators' => 'o gyfieithwyr',
+	'twnmp-s-projects' => 'o brosiectau',
+	'twnmp-s-languages' => 'o ieithoedd',
+	'twnmp-s-messages' => "o negeseuon i'w cyfieithu",
+	'twnmp-bannerwho' => 'Llun $1',
+	'twnmp-show-more-projects' => 'Dangos rhagor o brosiectau...',
+	'twnmp-brand-motto' => 'Cymuned cyfieithu meddalwedd agored',
+	'twnmp-login' => 'Mewngofnodi',
+	'twnmp-search-placeholder' => "Canfod cyfieithiadau a'u newid",
+	'twnmp-search-button' => 'Canfydder',
+	'twnmp-search-choose-project' => "Dewis prosiect i'w gyfieithu",
+	'twnmp-translate-link' => 'Cyfieithu',
+	'twnmp-proofread-link' => 'Adolygu',
+	'twnmp-translate-button' => 'Cyfieithu',
+	'twnmp-proofread-button' => 'Adolygu',
+	'twnmp-your-translations-stats' => 'Ystadegau eich gwaith cyfieithu',
+	'twnmp-your-view-language-stats' => "Ystadegau'r iaith",
+	'twnmp-translations-translator-ranking' => '{{GENDER:$1|Rhif}} $2 o ran gweithgarwch ymhlith<br />y $3 cyfieithydd $4',
+	'twnmp-bottom-help' => 'Cymorth',
+	'twnmp-bottom-special-pages' => 'Tudalennau arbennig',
+	'twnmp-bottom-languages-supported' => 'Ieithoedd a gynhelir',
+	'twnmp-bottom-about' => 'Amdanom',
+	'twnmp-signup-username-placeholder' => 'Enw Defnyddiwr',
+	'twnmp-signup-password-placeholder' => 'Cyfrinair',
+	'twnmp-signup-email-placeholder' => 'E-bost',
+	'twnmp-create-account-button' => 'Creer y cyfrif',
+	'twnmp-become-translator' => 'Ymuno i gyfieithu',
+	'twnmp-choose-languages-you-know' => 'Dewis eich ieithoedd',
+	'twnmp-choose-another-language' => 'Dewis iaith arall...',
+	'twnmp-choose-fill-account-details' => 'Rhoi manylion eich cyfrif',
+	'twnmp-stats-number-k' => '$1 mil',
 );
 
 /** German (Deutsch)
@@ -597,6 +710,48 @@ $messages['ko'] = array(
 	'twnmp-choose-fill-account-details' => '내 계정 정보를 채우세요',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'twnmp-desc' => '{{GRAMMAR:Gen M |{{ucfirst:{{SITENAME}}}}}} {{int:mainpage}}.',
+	'twnmp-mainpage' => '{{int:mainpage}}',
+	'twnmp-s-translators' => 'Övversäzer',
+	'twnmp-s-projects' => 'Projäkte',
+	'twnmp-s-languages' => 'Schprooche',
+	'twnmp-s-messages' => 'Täxte un Nohreeschte för ze Övversäze',
+	'twnmp-bannerwho' => 'Dat Beld es $1',
+	'twnmp-show-more-projects' => 'Mieh aanzeije ...',
+	'twnmp-brand-motto' => 'Jemeinschaff vun Övversäzer för offe Quälle',
+	'twnmp-login' => 'Enlogge',
+	'twnmp-search-placeholder' => 'Fengk Övversäzonge un donn se bäßer maache wann nüüdesch',
+	'twnmp-search-button' => 'Lohß Jonn!',
+	'twnmp-search-choose-project' => 'Söhk Der e Projäk uß, woh De jät vun övversäze wells:',
+	'twnmp-translate-link' => 'Övversäze',
+	'twnmp-proofread-link' => 'Jääjelässe',
+	'twnmp-translate-button' => 'Övversäze!',
+	'twnmp-proofread-button' => 'Jääjelässe!',
+	'twnmp-your-translations-stats' => 'Ding Schtatistike fun de Övversäzonge.',
+	'twnmp-your-view-language-stats' => 'Schtatistike för de Schprooche',
+	'twnmp-translations-per-month' => 'Övversäzonge em Mohnd',
+	'twnmp-reviews-per-month' => 'Jääjejelässe em Mohnd',
+	'twnmp-translations-translator-ranking' => '{{GENDER:$1|De Nommer}} $2 vun dä $3 {{PLURAL:$|Övversäzer}}<br />
+noh $4',
+	'twnmp-bottom-help' => 'Hölp',
+	'twnmp-bottom-special-pages' => '{{int:specialpages}}',
+	'twnmp-bottom-languages-supported' => 'Ongerschtöz Schprooche',
+	'twnmp-bottom-about' => 'Övver {{GRAMMAR:Nominativ|{{ucfirst:{{SITENAME}}}}}}',
+	'twnmp-signup-username-placeholder' => 'Dinge Naame als Metmaacher',
+	'twnmp-signup-password-placeholder' => 'E Paßwoot för Desch',
+	'twnmp-signup-email-placeholder' => 'De Addräß för Ding <i lang="en">e-mail</i>',
+	'twnmp-create-account-button' => 'Donn ene neue Zohjang aanlääje',
+	'twnmp-become-translator' => 'Donn Övversäzer wääde',
+	'twnmp-choose-languages-you-know' => 'Söhk di Schprooche uß, di De kanns',
+	'twnmp-choose-another-language' => 'Söhg_en andere Schprooch us{{int:ellipsis}}',
+	'twnmp-choose-fill-account-details' => 'De Einzelheite övver Dinge Zohjang:',
+	'twnmp-stats-number-k' => '$1<small>&nbsp;Dousend</small>',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -887,6 +1042,7 @@ $messages['sv'] = array(
 	'twnmp-s-messages' => 'Meddelanden att översätta',
 	'twnmp-bannerwho' => 'Bild $1',
 	'twnmp-show-more-projects' => 'Visa fler projekt...',
+	'twnmp-brand-motto' => 'Gemenskap för översättningar med öppen källkod',
 	'twnmp-login' => 'Logga in',
 	'twnmp-search-placeholder' => 'Hitta och korrigera översättningar',
 	'twnmp-search-button' => 'Hitta',
@@ -912,6 +1068,14 @@ $messages['sv'] = array(
 	'twnmp-choose-languages-you-know' => 'Välj språken du kan',
 	'twnmp-choose-another-language' => 'Välj ett annat språk...',
 	'twnmp-choose-fill-account-details' => 'Fyll i dina kontouppgifter',
+);
+
+/** Swahili (Kiswahili)
+ * @author Lloffiwr
+ */
+$messages['sw'] = array(
+	'twnmp-mainpage' => 'Mwanzo',
+	'twnmp-login' => 'Ingia',
 );
 
 /** Telugu (తెలుగు)

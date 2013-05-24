@@ -830,6 +830,7 @@ $messages['mk'] = array(
 	'twnmp-choose-languages-you-know' => 'Укажете ги јазиците што ги владеете',
 	'twnmp-choose-another-language' => 'Друг јазик...',
 	'twnmp-choose-fill-account-details' => 'Пополнете ги податоците за сметката',
+	'twnmp-stats-number-k' => '$1 илј.',
 );
 
 /** Norwegian Bokmål (norsk bokmål)
@@ -1028,6 +1029,31 @@ $messages['roa-tara'] = array(
 	'twnmp-choose-languages-you-know' => "Scacchie 'na lènghe ca canusce",
 	'twnmp-choose-another-language' => "Scacchie 'n'otra lènghe...",
 	'twnmp-choose-fill-account-details' => "Inghie le dettaglie d'u cunde tune",
+);
+
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Milicevic01
+ */
+$messages['sr-ec'] = array(
+	'twnmp-mainpage' => 'Главна страна',
+	'twnmp-s-translators' => 'Преводиоци',
+	'twnmp-s-projects' => 'Пројекти',
+	'twnmp-s-languages' => 'Језици',
+	'twnmp-bannerwho' => 'Слика $1',
+	'twnmp-login' => 'Пријавите се',
+	'twnmp-search-button' => 'Пронађи',
+	'twnmp-translate-link' => 'Преведи',
+	'twnmp-proofread-link' => 'Провера',
+	'twnmp-translate-button' => 'Преведи',
+	'twnmp-proofread-button' => 'Провера',
+	'twnmp-bottom-help' => 'Помоћ',
+	'twnmp-bottom-special-pages' => 'Посебне странице',
+	'twnmp-bottom-languages-supported' => 'Подржани језици',
+	'twnmp-bottom-about' => 'О програму',
+	'twnmp-signup-username-placeholder' => 'Корисничко име',
+	'twnmp-signup-password-placeholder' => 'Лозинка',
+	'twnmp-signup-email-placeholder' => 'Е-пошта',
+	'twnmp-create-account-button' => 'Отвори налог',
 );
 
 /** Swedish (svenska)

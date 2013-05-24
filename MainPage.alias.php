@@ -13,6 +13,11 @@ $specialPageAliases['en'] = array(
 	'TwnMainPage' => array( 'MainPage' ),
 );
 
+/** Asturian (asturianu) */
+$specialPageAliases['ast'] = array(
+	'TwnMainPage' => array( 'Portada' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'TwnMainPage' => array( 'Hauptseite' ),

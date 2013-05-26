@@ -165,7 +165,10 @@ HTML;
 			$proofread = round( 100 * $proofread / $stats[MessageGroupStats::TOTAL] );
 		}
 
-		$image = Html::element( 'img', array( 'src' => $url, 'width' => '100%' ) );
+		$image = Html::element(
+			'img',
+			array( 'src' => $url, 'width' => '100%', 'alt' => '' )
+		);
 		$label = htmlspecialchars( $group->getLabel( $this->getContext() ) );
 		$stats = $statsbar->getHtml( $this->getContext() );
 		// @todo FIXME i18n: Hard coded percentage character twice.

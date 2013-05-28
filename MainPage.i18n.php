@@ -1108,12 +1108,15 @@ $messages['sw'] = array(
  * @author Veeven
  */
 $messages['te'] = array(
+	'twnmp-mainpage' => 'మొదటి పేజీ',
 	'twnmp-s-translators' => 'అనువాదకులు',
 	'twnmp-s-projects' => 'ప్రాజెక్టులు',
 	'twnmp-s-languages' => 'భాషలు',
 	'twnmp-s-messages' => 'అనువదించాల్సిన సందేశాలు',
 	'twnmp-bannerwho' => 'చిత్రం $1',
 	'twnmp-show-more-projects' => 'మరిన్ని ప్రాజెక్టులను చూపించు...',
+	'twnmp-brand-motto' => 'బహిరంగాకర అనువాద సమాజం',
+	'twnmp-login' => 'ప్రవేశించండి',
 	'twnmp-search-placeholder' => 'అనువాదాలను కనుగొని సరిదిద్దండి',
 	'twnmp-search-button' => 'వెతుకు',
 	'twnmp-search-choose-project' => 'అనువదించడానికి ప్రాజెక్టును ఎంచుకోండి',

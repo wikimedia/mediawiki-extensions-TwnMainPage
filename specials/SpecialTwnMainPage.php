@@ -37,6 +37,10 @@ class SpecialTwnMainPage extends SpecialPage {
 		$out->addModuleStyles( 'jquery.uls.grid' );
 		$out->addModuleStyles( 'ext.translate.mainpage' );
 		$out->addModules( 'ext.translate.mainpage' );
+		// Forcing wgULSPosition to personal to mimick that behavior regardless
+		// of the position of the uls trigger in other pages.
+		$out->addJsConfigVars( 'wgULSPosition', 'personal' );
+
 		$out->addHTML( $out->headElement( $this->getSkin() ) );
 		$out->addHTML( Html::openElement(
 			'div',

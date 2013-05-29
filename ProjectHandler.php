@@ -32,8 +32,9 @@ class ProjectHandler {
 	 * functions in PHP this modifies passed list in place.
 	 * @param MessageGroup[] $groups
 	 * @param string $language Language code.
+	 * @param array $stats Message group stats.
 	 */
-	public static function sortByPriority( &$groups, $language ) {
+	public static function sortByPriority( &$groups, $language, array $stats ) {
 		foreach ( $groups as $index => $g ) {
 			$supported = $g->getTranslatableLanguages();
 			if ( is_array( $supported ) && !isset( $supported[$language] ) ) {
@@ -41,9 +42,9 @@ class ProjectHandler {
 			}
 		}
 
-		usort( $groups, function ( $a, $b ) use ( $language ) {
-			$aStats = MessageGroupStats::forItem( $a->getId(), $language );
-			$bStats = MessageGroupStats::forItem( $b->getId(), $language );
+		usort( $groups, function ( $a, $b ) use ( $stats ) {
+			$aStats = $stats[$a->getId()];
+			$bStats = $stats[$b->getId()];
 
 			$aVal = $aStats[MessageGroupStats::PROOFREAD];
 			$bVal = $bStats[MessageGroupStats::PROOFREAD];

@@ -49,6 +49,8 @@ class SpecialTwnMainPage extends SpecialPage {
 		$out->addHTML( $this->footer() );
 		$out->addHTML( $out->getBottomScripts() );
 		$out->addHTML( Html::closeElement( 'div' ) ); // grid twn-mainpage
+		// Enable this if you need useful debugging information
+		// $out->addHtml( MWDebug::getDebugHTML( $this->getContext() ) );
 		$out->addHTML( '</body></html>' );
 	}
 
@@ -127,12 +129,15 @@ HTML;
 		$out .= Html::openElement( 'div', array( 'class' => 'row twn-mainpage-project-tiles' ) );
 
 		$projects = ProjectHandler::getProjects();
-		ProjectHandler::sortByPriority( $projects, $this->getLanguage()->getCode() );
+		$language = $this->getLanguage()->getCode();
+		MessageGroupStats::setTimeLimit( 1 );
+		$stats = MessageGroupStats::forLanguage( $language );
+		ProjectHandler::sortByPriority( $projects, $language, $stats );
 
 		$tiles = array();
 
 		foreach ( $projects as $group ) {
-			$tiles[] = $this->makeGroupTile( $group );
+			$tiles[] = $this->makeGroupTile( $group, $stats[$group->getId()] );
 			if ( count( $tiles ) === 8 ) {
 				break;
 			}
@@ -144,7 +149,7 @@ HTML;
 		return $out;
 	}
 
-	protected function makeGroupTile( MessageGroup $group ) {
+	protected function makeGroupTile( MessageGroup $group, array $stats ) {
 		$urls = TranslateUtils::getIcon( $group, 100 );
 		if ( isset( $urls['vector'] ) ) {
 			$url = $urls['vector'];
@@ -155,7 +160,6 @@ HTML;
 		}
 
 		$uiLanguage = $this->getLanguage();
-		$stats = MessageGroupStats::forItem( $group->getId(), $uiLanguage->getCode() );
 		$statsbar = StatsBar::getNew( $group->getId(), $uiLanguage->getCode(), $stats );
 
 		$translated = $stats[MessageGroupStats::TRANSLATED];
@@ -272,7 +276,7 @@ HTML;
 		$conds = array(
 			'rc_title' . $dbr->buildLike( $dbr->anyString(), '/', $dbr->anyString() ),
 			'rc_namespace' => $wgTranslateMessageNamespaces,
-			'rc_timestamp > ' . $dbr->timestamp( TS_DB, wfTimeStamp( TS_UNIX ) - 60 * 60 * 24 * $period ),
+			'rc_timestamp > ' . $dbr->timestamp( wfTimeStamp( TS_UNIX ) - 60 * 60 * 24 * $period ),
 			'rc_bot' => 0,
 		);
 		$options = array( 'GROUP BY' => 'lang', 'HAVING' => 'count > 20' );
@@ -281,6 +285,7 @@ HTML;
 
 		$count = 0;
 		foreach ( $res as $row ) {
+			// TODO: this has awful performance
 			if ( Language::isKnownLanguageTag( $row->lang ) ) {
 				$count++;
 			}

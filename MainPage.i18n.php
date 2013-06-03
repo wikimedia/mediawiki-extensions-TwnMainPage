@@ -60,6 +60,7 @@ $messages['en'] = array(
  * @author Amire80
  * @author Lloffiwr
  * @author Nike
+ * @author Purodha
  * @author Shirayuki
  */
 $messages['qqq'] = array(
@@ -115,7 +116,8 @@ Pressing the button brings the user to the translation editor in proofread mode.
 
 See example: [[Special:MainPage]]",
 	'twnmp-your-view-language-stats' => "A link that appears under the user's translation statistics.",
-	'twnmp-translations-per-month' => "Appears in the user's statistics box near a number.
+	'twnmp-translations-per-month' => "Used in [[Special:Mainpage]].
+Appears in the user's statistics box near a number.
 Means that the users performs that number of translations every month.
 Translate it in a way that is natural to your language - you don't have to use the '/' character.",
 	'twnmp-reviews-per-month' => "Appears in the user's statistics box near a number.
@@ -174,7 +176,8 @@ See [[Special:MainPage]] as an anonymous user.',
 	'twnmp-choose-fill-account-details' => 'A heading for the personal details (username, password and email) form.
 
 See [[Special:MainPage]] as an anonymous user.',
-	'twnmp-stats-number-k' => '$1 is the number of the thousands of messages or users on the site.
+	'twnmp-stats-number-k' => 'Used in [[Special:Mainpage]].
+$1 is the number of the thousands of messages or users on the site.
 It can be a fraction, for example "4.9".
 The message should be short, to fit in the box. If you have to translate it and cannot make it short, notify [[Support]].
 If "k" is a good thousands marker in your language, do not translate this message.',
@@ -386,8 +389,49 @@ $messages['cy'] = array(
 	'twnmp-stats-number-k' => '$1 mil',
 );
 
+/** Danish (dansk)
+ * @author Peter Alberti
+ */
+$messages['da'] = array(
+	'twnmp-desc' => 'Giver translatewiki.nets forside',
+	'twnmp-mainpage' => 'Forside',
+	'twnmp-s-translators' => 'Oversættere',
+	'twnmp-s-projects' => 'Projekter',
+	'twnmp-s-languages' => 'Sprog',
+	'twnmp-s-messages' => 'Beskeder at oversætte',
+	'twnmp-bannerwho' => 'Billede $1',
+	'twnmp-show-more-projects' => 'Vis flere projekter...',
+	'twnmp-brand-motto' => 'Open source-oversættelsesfællesskab',
+	'twnmp-login' => 'Log på',
+	'twnmp-search-placeholder' => 'Find og ret oversættelser',
+	'twnmp-search-button' => 'Find',
+	'twnmp-search-choose-project' => 'Vælg et projekt at oversætte',
+	'twnmp-translate-link' => 'Oversæt',
+	'twnmp-proofread-link' => 'Læs korrektur',
+	'twnmp-translate-button' => 'Oversæt',
+	'twnmp-proofread-button' => 'Læs korrektur',
+	'twnmp-your-translations-stats' => 'Din oversættelsesstatistik',
+	'twnmp-your-view-language-stats' => 'Se sprogstatistik',
+	'twnmp-translations-per-month' => 'Oversættelser/måned',
+	'twnmp-reviews-per-month' => 'Korrekturlæsninger/måned',
+	'twnmp-translations-translator-ranking' => '{{GENDER:$1|Nummer}} $2 af $3 oversættere<br />for $4',
+	'twnmp-bottom-help' => 'Hjælp',
+	'twnmp-bottom-special-pages' => 'Specialsider',
+	'twnmp-bottom-languages-supported' => 'Understøttede sprog',
+	'twnmp-bottom-about' => 'Om',
+	'twnmp-signup-username-placeholder' => 'Brugernavn',
+	'twnmp-signup-password-placeholder' => 'Adgangskode',
+	'twnmp-signup-email-placeholder' => 'E-mail',
+	'twnmp-create-account-button' => 'Opret en konto',
+	'twnmp-become-translator' => 'Bliv en oversætter',
+	'twnmp-choose-languages-you-know' => 'Vælg de sprog, du kan',
+	'twnmp-choose-another-language' => 'Vælg et andet sprog...',
+	'twnmp-choose-fill-account-details' => 'Udfyld dine kontooplysninger',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
+ * @author Purodha
  * @author Se4598
  */
 $messages['de'] = array(
@@ -412,7 +456,7 @@ $messages['de'] = array(
 	'twnmp-your-view-language-stats' => 'Sprachstatistiken ansehen',
 	'twnmp-translations-per-month' => 'Übersetzungen pro Monat',
 	'twnmp-reviews-per-month' => 'Überprüfungen pro Monat',
-	'twnmp-translations-translator-ranking' => '{{GENDER:$1|Rang}} $2 von $3 Übersetzern<br />in der Sprache $4',
+	'twnmp-translations-translator-ranking' => '{{GENDER:$1|Rang}} $2 von $3 Übersetzern<br />in die Sprache $4',
 	'twnmp-bottom-help' => 'Hilfe',
 	'twnmp-bottom-special-pages' => 'Spezialseiten',
 	'twnmp-bottom-languages-supported' => 'Unterstützte Sprachen',
@@ -425,6 +469,7 @@ $messages['de'] = array(
 	'twnmp-choose-languages-you-know' => 'Wähle Sprachen aus, die du kennst.',
 	'twnmp-choose-another-language' => 'Eine andere Sprache auswählen …',
 	'twnmp-choose-fill-account-details' => 'Gib die Einzelheiten zu deinem Benutzerkonto ein',
+	'twnmp-stats-number-k' => '$1&nbsp;T',
 );
 
 /** Finnish (suomi)
@@ -735,8 +780,8 @@ $messages['ksh'] = array(
 	'twnmp-your-view-language-stats' => 'Schtatistike för de Schprooche',
 	'twnmp-translations-per-month' => 'Övversäzonge em Mohnd',
 	'twnmp-reviews-per-month' => 'Jääjejelässe em Mohnd',
-	'twnmp-translations-translator-ranking' => '{{GENDER:$1|De Nommer}} $2 vun dä $3 {{PLURAL:$|Övversäzer}}<br />
-noh $4',
+	'twnmp-translations-translator-ranking' => 'Bes {{PLURAL:$3|der einzejje|de Nommer $2 vun dä $3<br />|keine}}
+Övversäzer noh $4{{GENDER:$1}}',
 	'twnmp-bottom-help' => 'Hölp',
 	'twnmp-bottom-special-pages' => '{{int:specialpages}}',
 	'twnmp-bottom-languages-supported' => 'Ongerschtöz Schprooche',
@@ -749,7 +794,7 @@ noh $4',
 	'twnmp-choose-languages-you-know' => 'Söhk di Schprooche uß, di De kanns',
 	'twnmp-choose-another-language' => 'Söhg_en andere Schprooch us{{int:ellipsis}}',
 	'twnmp-choose-fill-account-details' => 'De Einzelheite övver Dinge Zohjang:',
-	'twnmp-stats-number-k' => '$1<small>&nbsp;Dousend</small>',
+	'twnmp-stats-number-k' => '$1&nbsp;Tsd.',
 );
 
 /** Luxembourgish (Lëtzebuergesch)

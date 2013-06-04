@@ -54,8 +54,41 @@
 ( function ( $, mw ) {
 	'use strict';
 
+	function signupLanguageSelector () {
+		$( '.signup-language-selector' ).uls( {
+			onSelect: function ( language ) {
+				if ( $( '#language-' + language ).length ) {
+					// Language already selected. Make sure it is checked.
+					$( '#language-' + language ).prop( 'checked', true );
+					return;
+				}
+
+				$( 'ul.signup-languages' )
+					.append( $( '<li>' )
+						.append(
+							$( '<input>' )
+								.attr( {
+									id: 'language-' + language,
+									type: 'checkbox',
+									name: 'signuplanguage',
+									checked: 'checked'
+								} ),
+							$( '<label>' )
+								.text( $.uls.data.getAutonym( language ) )
+								.attr( 'for', 'language-' + language )
+						)
+					);
+			},
+			quickList: function () {
+				return mw.uls.getFrequentLanguageList();
+			}
+		} );
+	}
+
 	$( document ).ready( function () {
 		var $form = $( '.login-widget' );
+
+		signupLanguageSelector();
 
 		$form.on( 'submit', function ( e ) {
 			var options, req,

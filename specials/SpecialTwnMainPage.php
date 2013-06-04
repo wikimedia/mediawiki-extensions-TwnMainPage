@@ -424,7 +424,11 @@ HTML;
 		$out .= Html::hidden( 'wpSandboxToken', ApiTranslateSandbox::getToken() );
 		$out .= Html::element( 'h1', $row, $this->msg( 'twnmp-become-translator' )->text() );
 		$out .= Html::element( 'h2', $row, $this->msg( 'twnmp-choose-languages-you-know' )->text() );
-		$out .= Xml::checkLabel( $languageName, 'wpLanguage1', 'wpLanguage1', true );
+		$out .= Html::openElement( 'ul', array( 'class' => 'row signup-languages' ) );
+		$out .= Html::openElement( 'li' );
+		$out .= Xml::checkLabel( $languageName, 'signuplanguage', 'language-' . $languageCode, true );
+		$out .= Html::closeElement( 'li' );
+		$out .= Html::closeElement( 'ul' );
 		$out .= Html::openElement( 'div', $row );
 		$out .= Html::element( 'div', array(
 			'class' => 'eight columns offset-by-one signup-language-selector'

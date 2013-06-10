@@ -59,6 +59,7 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author Amire80
  * @author Lloffiwr
+ * @author Nemo bis
  * @author Nike
  * @author Purodha
  * @author Shirayuki
@@ -95,7 +96,7 @@ See example: [[Special:MainPage]]',
 
 See example: [[Special:MainPage]]',
 	'twnmp-show-more-projects' => 'Shown in large font in a box at the bottom of the main page next to boxes with icons and names of other projects.',
-	'twnmp-brand-motto' => 'A motto shown under the site name at the top of the main page. See [[Thread:Support/About MediaWiki:Twnmp-brand-motto/en/reply (3)|discussion]] for alternative wording.',
+	'twnmp-brand-motto' => 'A motto shown under the site name at the top of the main page: open source translations by a community part of open source movement, or "translation community (which is a part) of open source (movement)".',
 	'twnmp-login' => 'A link for logging in.
 {{Identical|Log in}}',
 	'twnmp-search-placeholder' => 'A placeholder for the search box on the main page.',

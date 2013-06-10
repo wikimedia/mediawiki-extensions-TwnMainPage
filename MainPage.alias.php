@@ -28,6 +28,11 @@ $specialPageAliases['el'] = array(
 	'TwnMainPage' => array( 'ΚύριαΣελίδα' ),
 );
 
+/** Japanese (日本語) */
+$specialPageAliases['ja'] = array(
+	'TwnMainPage' => array( 'メインページ' ),
+);
+
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
 	'TwnMainPage' => array( '대문' ),

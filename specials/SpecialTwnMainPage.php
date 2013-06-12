@@ -44,7 +44,7 @@ class SpecialTwnMainPage extends SpecialPage {
 		) );
 
 		$out->addModuleStyles( 'jquery.uls.grid' );
-		$out->addModuleStyles( 'ext.translate.mainpage' );
+		$out->addModuleStyles( 'ext.translate.mainpage.styles' );
 		$out->addModules( 'ext.translate.mainpage' );
 		// Forcing wgULSPosition to personal to mimick that behavior regardless
 		// of the position of the uls trigger in other pages.
@@ -163,17 +163,9 @@ HTML;
 	}
 
 	protected function makeGroupTile( MessageGroup $group, array $stats ) {
-		$urls = TranslateUtils::getIcon( $group, 100 );
-		if ( isset( $urls['vector'] ) ) {
-			$url = $urls['vector'];
-		} elseif ( isset( $urls['raster'] ) ) {
-			$url = $urls['raster'];
-		} else {
-			$url = '';
-		}
-
+		$id = $group->getId();
 		$uiLanguage = $this->getLanguage();
-		$statsbar = StatsBar::getNew( $group->getId(), $uiLanguage->getCode(), $stats );
+		$statsbar = StatsBar::getNew( $id, $uiLanguage->getCode(), $stats );
 
 		$translated = $stats[MessageGroupStats::TRANSLATED];
 		$proofread = $stats[MessageGroupStats::PROOFREAD];
@@ -182,10 +174,7 @@ HTML;
 			$proofread = round( 100 * $proofread / $stats[MessageGroupStats::TOTAL] );
 		}
 
-		$image = Html::element(
-			'img',
-			array( 'src' => $url, 'width' => '100%', 'alt' => '' )
-		);
+		$image = Html::element( 'div', array( 'class' => "project-icon-$id" ) );
 		$label = htmlspecialchars( $group->getLabel( $this->getContext() ) );
 		$stats = $statsbar->getHtml( $this->getContext() );
 		// @todo FIXME i18n: Hard coded percentage character twice.
@@ -196,12 +185,12 @@ HTML;
 		$title = SpecialPage::getTitleFor( 'Translate' );
 		$translate = Html::element( 'a', array(
 			'class' => 'translate',
-			'href' => $title->getLocalUrl( array( 'group' => $group->getId() ) )
+			'href' => $title->getLocalUrl( array( 'group' => $id ) )
 		), $this->msg( 'twnmp-translate-button' )->text() );
 
 		$proofread = Html::element( 'a', array(
 			'class' => 'proofread',
-			'href' => $title->getLocalUrl( array( 'group' => $group->getId(), 'action' => 'proofread' ) )
+			'href' => $title->getLocalUrl( array( 'group' => $id, 'action' => 'proofread' ) )
 		), $this->msg( 'twnmp-proofread-button' )->text() );
 
 		$out = <<<HTML

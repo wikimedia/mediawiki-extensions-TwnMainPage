@@ -20,7 +20,7 @@ class ResourceLoaderProjectIconsModule extends ResourceLoaderModule {
 	protected function getData() {
 		$projects = ProjectHandler::getProjects();
 		$icons = array();
-		foreach( $projects as $group ) {
+		foreach ( $projects as $group ) {
 			wfSuppressWarnings();
 			$icons[$group->getId()] = TranslateUtils::getIcon( $group, 100 );
 			wfRestoreWarnings();
@@ -61,7 +61,6 @@ CSS;
 
 
 CSS;
-
 			}
 		}
 
@@ -88,6 +87,7 @@ CSS;
 			'hash' => $hash,
 			'timestamp' => $timestamp,
 		) );
+
 		return $timestamp;
 	}
 }

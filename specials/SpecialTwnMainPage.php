@@ -178,9 +178,8 @@ HTML;
 		$label = htmlspecialchars( $group->getLabel( $this->getContext() ) );
 		$stats = $statsbar->getHtml( $this->getContext() );
 		// @todo FIXME i18n: Hard coded percentage character twice.
-		$acts =
-			Html::element( 'span', array( 'class' => 'translate' ), "$translated%" ) .
-				Html::element( 'span', array( 'class' => 'proofread' ), "$proofread%" );
+		$acts = Html::element( 'span', array( 'class' => 'translate' ), "$translated%" ) .
+			Html::element( 'span', array( 'class' => 'proofread' ), "$proofread%" );
 
 		$title = SpecialPage::getTitleFor( 'Translate' );
 		$translate = Html::element( 'a', array(
@@ -412,7 +411,11 @@ HTML;
 
 		$out .= Html::hidden( 'wpSandboxToken', ApiTranslateSandbox::getToken() );
 		$out .= Html::element( 'h1', $row, $this->msg( 'twnmp-become-translator' )->text() );
-		$out .= Html::element( 'h2', $row, $this->msg( 'twnmp-choose-languages-you-know' )->text() );
+		$out .= Html::element(
+			'h2',
+			$row,
+			$this->msg( 'twnmp-choose-languages-you-know' )->text()
+		);
 		$out .= Html::openElement( 'ul', array( 'class' => 'row signup-languages' ) );
 		$out .= Html::openElement( 'li' );
 		$out .= Xml::checkLabel( $languageName, 'signuplanguage', 'language-' . $languageCode, true );
@@ -423,12 +426,17 @@ HTML;
 			'class' => 'eight columns offset-by-one signup-language-selector'
 		), $this->msg( 'twnmp-choose-another-language' )->text() );
 		$out .= Html::closeElement( 'div' );
-		$out .= Html::element( 'h2', $row, $this->msg( 'twnmp-choose-fill-account-details' )->text() );
+		$out .= Html::element(
+			'h2',
+			$row,
+			$this->msg( 'twnmp-choose-fill-account-details' )->text()
+		);
 		$out .= Html::openElement( 'div', $row );
 		$out .= Html::element( 'input', array(
 			'class' => 'eleven columns',
 			'name' => 'wpName',
-			'placeholder' => $this->msg( 'twnmp-signup-username-placeholder' )->text(), // @todo IE doesn't support placeholders
+			// @todo IE doesn't support placeholders
+			'placeholder' => $this->msg( 'twnmp-signup-username-placeholder' )->text(),
 		) );
 		$out .= Html::closeElement( 'div' );
 
@@ -437,7 +445,8 @@ HTML;
 			'class' => 'eleven columns',
 			'name' => 'wpPassword',
 			'type' => 'password',
-			'placeholder' => $this->msg( 'twnmp-signup-password-placeholder' )->text(), // @todo IE doesn't support placeholders
+			// @todo IE doesn't support placeholders
+			'placeholder' => $this->msg( 'twnmp-signup-password-placeholder' )->text(),
 		) );
 		$out .= Html::closeElement( 'div' );
 
@@ -446,7 +455,8 @@ HTML;
 			'class' => 'eleven columns',
 			'name' => 'wpEmail',
 			'type' => 'email',
-			'placeholder' => $this->msg( 'twnmp-signup-email-placeholder' )->text(), // @todo IE doesn't support placeholders
+			// @todo IE doesn't support placeholders
+			'placeholder' => $this->msg( 'twnmp-signup-email-placeholder' )->text(),
 		) );
 		$out .= Html::closeElement( 'div' );
 
@@ -472,10 +482,17 @@ HTML;
 		);
 		$statsArray = $cacher->get();
 
-		$out = Html::openElement( 'div', array( 'class' => 'five columns main-widget stats-widget' ) );
+		$out = Html::openElement(
+			'div',
+			array( 'class' => 'five columns main-widget stats-widget' )
+		);
 
 		$out .= Html::openElement( 'div', array( 'class' => 'row user-stats-title' ) );
-		$out .= Html::element( 'h2', array(), $this->msg( 'twnmp-your-translations-stats' )->text() );
+		$out .= Html::element(
+			'h2',
+			array(),
+			$this->msg( 'twnmp-your-translations-stats' )->text()
+		);
 		$out .= Html::element( 'div', array(), $languageName );
 		$out .= Html::closeElement( 'div' );
 
@@ -494,7 +511,11 @@ HTML;
 		foreach ( $stats as $user => $count ) {
 			if ( $user === $myuser ) {
 				$out .= Html::element( 'div', array( 'class' => 'count' ), $count );
-				$out .= Html::element( 'div', array( 'class' => 'count-description' ), $this->msg( 'twnmp-translations-per-month' )->text() );
+				$out .= Html::element(
+					'div',
+					array( 'class' => 'count-description' ),
+					$this->msg( 'twnmp-translations-per-month' )->text()
+				);
 
 				$msg = $this->msg( 'twnmp-translations-translator-ranking' )
 					->params( $myuser, $i, $translators, $languageName )
@@ -528,7 +549,11 @@ HTML;
 		foreach ( $stats as $user => $count ) {
 			if ( $user === $myuser ) {
 				$out .= Html::element( 'div', array( 'class' => 'count' ), $count );
-				$out .= Html::element( 'div', array( 'class' => 'count-description' ), $this->msg( 'twnmp-reviews-per-month' )->text() );
+				$out .= Html::element(
+					'div',
+					array( 'class' => 'count-description' ),
+					$this->msg( 'twnmp-reviews-per-month' )->text()
+				);
 
 				$msg = $this->msg( 'twnmp-translations-translator-ranking' )
 					->params( $myuser, $i, $translators, $languageName )

@@ -22,8 +22,8 @@ $wgExtensionCredits['specialpage'][] = array(
 
 $dir = __DIR__;
 
-require_once( "$dir/Resources.php" );
-require_once( "$dir/Autoload.php" );
+require_once "$dir/Resources.php";
+require_once "$dir/Autoload.php";
 
 $wgExtensionMessagesFiles['MainPage'] = "$dir/MainPage.i18n.php";
 $wgExtensionMessagesFiles['MainPageAlias'] = "$dir/MainPage.alias.php";
@@ -39,7 +39,8 @@ $wgExtensionFunctions[] = function () {
 	global $wgMainPageImages, $wgExtensionAssetsPath;
 	$wgMainPageImages[] = array(
 		'url' => "$wgExtensionAssetsPath/TwnMainPage/resources/banners/dance.jpg",
-		'attribution' => '<a href="http://www.flickr.com/photos/ldhendrix/7389351416/">CC-BY ldhendrix</a>',
+		'attribution' => '<a href="http://www.flickr.com/photos/ldhendrix/7389351416/">' .
+			'CC-BY ldhendrix</a>',
 	);
 
 	return true;

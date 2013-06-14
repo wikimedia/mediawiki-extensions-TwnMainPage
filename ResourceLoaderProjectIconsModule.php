@@ -59,6 +59,7 @@ CSS;
 	background-image: linear-gradient(transparent, transparent), url($vector);
 }
 
+
 CSS;
 
 			}

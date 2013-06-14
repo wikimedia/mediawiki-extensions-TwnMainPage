@@ -13,8 +13,8 @@ $resourcePaths = array(
 
 $wgResourceModules['ext.translate.mainpage'] = array(
 	'scripts' => 'resources/js/ext.translate.mainpage.js',
-	'styles' => 'resources/css/ext.translate.mainpage.css',
 	'dependencies' => array(
+		'ext.translate.mainpage.icons',
 		'ext.uls.interface',
 		'ext.translate.groupselector',
 		'ext.translate.statsbar',
@@ -24,5 +24,12 @@ $wgResourceModules['ext.translate.mainpage'] = array(
 	'messages' => array(
 		'twnmp-show-more-projects',
 	),
-	'position' => 'top',
 ) + $resourcePaths;
+
+$wgResourceModules['ext.translate.mainpage.styles'] = array(
+	'styles' => 'resources/css/ext.translate.mainpage.css',
+) + $resourcePaths;
+
+$wgResourceModules['ext.translate.mainpage.icons'] = array(
+	'class' => 'ResourceLoaderProjectIconsModule'
+);

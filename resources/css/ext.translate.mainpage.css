@@ -120,6 +120,7 @@ body {
 	opacity: 0.95;
 	padding: 10px;
 	margin-left: 4%;
+	overflow: auto;
 }
 
 .main-widget label {

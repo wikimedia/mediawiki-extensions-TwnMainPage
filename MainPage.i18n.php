@@ -676,6 +676,13 @@ $messages['ja'] = array(
 	'twnmp-choose-fill-account-details' => 'アカウント情報を記入してください',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'twnmp-s-languages' => 'ენები',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author គីមស៊្រុន
  */

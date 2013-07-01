@@ -123,7 +123,8 @@ Means that the users performs that number of translations every month.
 Translate it in a way that is natural to your language - you don't have to use the '/' character.",
 	'twnmp-reviews-per-month' => "Appears in the user's statistics box near a number.
 Means that the users performs that number of review actions every month.
-Translate it in a way that is natural to your language - you don't have to use the '/' character.",
+Translate it in a way that is natural to your language - you don't have to use the '/' character.
+{{Identical|Review}}",
 	'twnmp-translations-translator-ranking' => 'Shown in the "Translate" and "Proofread" boxes in the center of the main page.
 Can be broken to two lines. &lt;br /> is a line break. Break it in any way that is natural in your language.
 Parameters:

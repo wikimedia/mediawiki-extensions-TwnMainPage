@@ -38,6 +38,11 @@ $specialPageAliases['ko'] = array(
 	'TwnMainPage' => array( '대문' ),
 );
 
+/** Kurdish (Latin script) (Kurdî (latînî)‎) */
+$specialPageAliases['ku-latn'] = array(
+	'TwnMainPage' => array( 'Destpêk' ),
+);
+
 /** Luxembourgish (Lëtzebuergesch) */
 $specialPageAliases['lb'] = array(
 	'TwnMainPage' => array( 'Haaptsäit' ),

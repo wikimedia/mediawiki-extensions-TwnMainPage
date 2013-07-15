@@ -68,6 +68,11 @@ $specialPageAliases['nl'] = array(
 	'TwnMainPage' => array( 'Startpagina' ),
 );
 
+/** Simplified Chinese (中文（简体）‎) */
+$specialPageAliases['zh-hans'] = array(
+	'TwnMainPage' => array( '首页' ),
+);
+
 /** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
 	'TwnMainPage' => array( '主頁' ),

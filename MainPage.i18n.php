@@ -1198,6 +1198,46 @@ $messages['te'] = array(
 	'twnmp-choose-fill-account-details' => 'మీ ఖాతా వివరాలను పూరించండి',
 );
 
+/** Ukrainian (українська)
+ * @author Ата
+ */
+$messages['uk'] = array(
+	'twnmp-desc' => 'Забезпечує головну сторінку translatewiki.net',
+	'twnmp-mainpage' => 'Головна сторінка',
+	'twnmp-s-translators' => 'перекладачів',
+	'twnmp-s-projects' => 'проектів',
+	'twnmp-s-languages' => 'мови',
+	'twnmp-s-messages' => 'повідомлень для перекладу',
+	'twnmp-bannerwho' => 'Зображення $1',
+	'twnmp-show-more-projects' => 'Показати більше проектів...',
+	'twnmp-brand-motto' => 'Спільнота перекладачів відкритих вихідних кодів',
+	'twnmp-login' => 'Увійти',
+	'twnmp-search-placeholder' => 'Знайти та виправити переклади',
+	'twnmp-search-button' => 'Шукати',
+	'twnmp-search-choose-project' => 'Виберіть проект для перекладу',
+	'twnmp-translate-link' => 'Перекласти',
+	'twnmp-proofread-link' => 'Перевірити',
+	'twnmp-translate-button' => 'Переклад',
+	'twnmp-proofread-button' => 'Перевірка',
+	'twnmp-your-translations-stats' => 'Статистика Ваших перекладів',
+	'twnmp-your-view-language-stats' => 'Переглянути мовну статистику',
+	'twnmp-translations-per-month' => 'перекладів/місяць',
+	'twnmp-reviews-per-month' => 'перевірок/місяць',
+	'twnmp-translations-translator-ranking' => '$2 {{GENDER:$1|за рейтингом}} з $3 перекладачів<br />мовою "$4"',
+	'twnmp-bottom-help' => 'Довідка',
+	'twnmp-bottom-special-pages' => 'Спеціальні сторінки',
+	'twnmp-bottom-languages-supported' => 'Підтримувані мови',
+	'twnmp-bottom-about' => 'Опис',
+	'twnmp-signup-username-placeholder' => "Ім'я користувача",
+	'twnmp-signup-password-placeholder' => 'Пароль',
+	'twnmp-signup-email-placeholder' => 'Ел. пошта',
+	'twnmp-create-account-button' => 'Створити обліковий запис',
+	'twnmp-become-translator' => 'Стати перекладачем',
+	'twnmp-choose-languages-you-know' => 'Виберіть мови, які Ви знаєте',
+	'twnmp-choose-another-language' => 'Виберіть іншу мову...',
+	'twnmp-choose-fill-account-details' => 'Заповніть Ваші дані',
+);
+
 /** Simplified Chinese (中文（简体）‎)
  * @author Timothy Gu
  */

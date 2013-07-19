@@ -352,6 +352,13 @@ $messages['br'] = array(
 	'twnmp-choose-fill-account-details' => 'Klokaat titouroù ho kont',
 );
 
+/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+ * @author ОйЛ
+ */
+$messages['cu'] = array(
+	'twnmp-bottom-help' => 'помощь',
+);
+
 /** Welsh (Cymraeg)
  * @author Lloffiwr
  */

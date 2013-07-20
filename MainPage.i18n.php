@@ -356,6 +356,7 @@ $messages['br'] = array(
  * @author ОйЛ
  */
 $messages['cu'] = array(
+	'twnmp-s-languages' => 'ѩꙁꙑци',
 	'twnmp-bottom-help' => 'помощь',
 );
 

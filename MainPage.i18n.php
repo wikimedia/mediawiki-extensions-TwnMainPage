@@ -854,6 +854,13 @@ $messages['lb'] = array(
 	'twnmp-choose-fill-account-details' => 'Setzt Detailer an Äre Benotzerkont derbäi',
 );
 
+/** Literary Chinese (文言)
+ * @author Yanteng3
+ */
+$messages['lzh'] = array(
+	'twnmp-mainpage' => '卷首',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */

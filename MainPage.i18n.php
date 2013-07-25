@@ -358,6 +358,7 @@ $messages['br'] = array(
 $messages['cu'] = array(
 	'twnmp-s-languages' => 'ѩꙁꙑци',
 	'twnmp-bottom-help' => 'помощь',
+	'twnmp-bottom-special-pages' => 'нарочьнꙑ страницѧ',
 );
 
 /** Welsh (Cymraeg)

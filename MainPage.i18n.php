@@ -1256,6 +1256,7 @@ $messages['uk'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Timothy Gu
+ * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
 	'twnmp-mainpage' => '首页',
@@ -1265,6 +1266,8 @@ $messages['zh-hans'] = array(
 	'twnmp-s-messages' => '需要翻译的词条',
 	'twnmp-bannerwho' => '图片：$1',
 	'twnmp-show-more-projects' => '显示更多的项目...',
+	'twnmp-proofread-link' => '校对',
+	'twnmp-proofread-button' => '校对',
 );
 
 /** Traditional Chinese (中文（繁體）‎)

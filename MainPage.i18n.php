@@ -815,6 +815,30 @@ $messages['ksh'] = array(
 	'twnmp-stats-number-k' => '$1&nbsp;Tsd.',
 );
 
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'twnmp-mainpage' => 'Destpêk',
+	'twnmp-s-translators' => 'Wergêr',
+	'twnmp-s-projects' => 'Proje',
+	'twnmp-s-languages' => 'Ziman',
+	'twnmp-search-placeholder' => 'Wergeran bibîne û sererast bike',
+	'twnmp-translate-link' => 'Wergerîne',
+	'twnmp-translate-button' => 'Wergerîne',
+	'twnmp-your-translations-stats' => 'Stâtîstîkên te ên wergerê',
+	'twnmp-your-view-language-stats' => 'Statîstîkên ziman bibîne',
+	'twnmp-bottom-help' => 'Alîkarî',
+	'twnmp-bottom-special-pages' => 'Rûpelên taybet',
+	'twnmp-signup-username-placeholder' => 'Navê bikarhêner',
+	'twnmp-signup-password-placeholder' => 'Şîfre',
+	'twnmp-signup-email-placeholder' => 'E-name',
+	'twnmp-create-account-button' => 'Hesabê nû çêke',
+	'twnmp-become-translator' => 'Bibe wergêrek',
+	'twnmp-choose-languages-you-know' => 'Zimanên ku dizanî hilbijêre',
+	'twnmp-choose-another-language' => 'Zimanekî din hilbijêre...',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -1252,6 +1276,46 @@ $messages['uk'] = array(
 	'twnmp-choose-languages-you-know' => 'Виберіть мови, які Ви знаєте',
 	'twnmp-choose-another-language' => 'Виберіть іншу мову...',
 	'twnmp-choose-fill-account-details' => 'Заповніть Ваші дані',
+);
+
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'twnmp-desc' => 'Cung cấp trang đầu của translatewiki.net',
+	'twnmp-mainpage' => 'Trang chính',
+	'twnmp-s-translators' => 'Biên dịch viên',
+	'twnmp-s-projects' => 'Dự án',
+	'twnmp-s-languages' => 'Ngôn ngữ',
+	'twnmp-s-messages' => 'Thông điệp để dịch',
+	'twnmp-bannerwho' => 'Hình của $1',
+	'twnmp-show-more-projects' => 'Xem thêm dự án…',
+	'twnmp-brand-motto' => 'Cộng đồng biên dịch mã nguồn mở',
+	'twnmp-login' => 'Đăng nhập',
+	'twnmp-search-placeholder' => 'Tìm và sửa bản dịch',
+	'twnmp-search-button' => 'Tìm kiếm',
+	'twnmp-search-choose-project' => 'Chọn một dự án để dịch',
+	'twnmp-translate-link' => 'Biên dịch',
+	'twnmp-proofread-link' => 'Hiệu đính',
+	'twnmp-translate-button' => 'Biên dịch',
+	'twnmp-proofread-button' => 'Hiệu đính',
+	'twnmp-your-translations-stats' => 'Thống kê biên dịch của bạn',
+	'twnmp-your-view-language-stats' => 'Xem thống kê ngôn ngữ',
+	'twnmp-translations-per-month' => 'Bản dịch/tháng',
+	'twnmp-reviews-per-month' => 'Đánh giá/tháng',
+	'twnmp-translations-translator-ranking' => '{{GENDER:$1}}Đứng hạng $2<br />trên tổng $3 biên dịch viên $4',
+	'twnmp-bottom-help' => 'Trợ giúp',
+	'twnmp-bottom-special-pages' => 'Trang đặc biệt',
+	'twnmp-bottom-languages-supported' => 'Ngôn ngữ có sẵn',
+	'twnmp-bottom-about' => 'Giới thiệu',
+	'twnmp-signup-username-placeholder' => 'Tên người dùng',
+	'twnmp-signup-password-placeholder' => 'Mật khẩu',
+	'twnmp-signup-email-placeholder' => 'Thư điện tử',
+	'twnmp-create-account-button' => 'Mở tài khoản',
+	'twnmp-become-translator' => 'Trở thành biên dịch viên',
+	'twnmp-choose-languages-you-know' => 'Chọn các ngôn ngữ quen thuộc',
+	'twnmp-choose-another-language' => 'Chọn một ngôn ngữ khác…',
+	'twnmp-choose-fill-account-details' => 'Điền vào các chi tiết tài khoản của bạn',
 );
 
 /** Simplified Chinese (中文（简体）‎)

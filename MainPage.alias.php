@@ -53,6 +53,11 @@ $specialPageAliases['lb'] = array(
 	'TwnMainPage' => array( 'Haaptsäit' ),
 );
 
+/** Minangkabau (Baso Minangkabau) */
+$specialPageAliases['min'] = array(
+	'TwnMainPage' => array( 'Palanta' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'TwnMainPage' => array( 'ГлавнаСтраница' ),

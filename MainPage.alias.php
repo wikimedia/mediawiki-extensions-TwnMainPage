@@ -18,6 +18,11 @@ $specialPageAliases['ast'] = array(
 	'TwnMainPage' => array( 'Portada' ),
 );
 
+/** Min Dong Chinese (Mìng-dĕ̤ng-ngṳ̄) */
+$specialPageAliases['cdo'] = array(
+	'TwnMainPage' => array( '頭頁' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'TwnMainPage' => array( 'Hauptseite' ),

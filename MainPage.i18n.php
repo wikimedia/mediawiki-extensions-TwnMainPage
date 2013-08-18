@@ -840,6 +840,7 @@ $messages['ku-latn'] = array(
 );
 
 /** Luxembourgish (Lëtzebuergesch)
+ * @author Les Meloures
  * @author Robby
  */
 $messages['lb'] = array(
@@ -867,7 +868,7 @@ $messages['lb'] = array(
 	'twnmp-translations-translator-ranking' => '{{GENDER:$1|Plaz}} $2 vu(n) $3 Iwwersetzer<br />op $4',
 	'twnmp-bottom-help' => 'Hëllef',
 	'twnmp-bottom-special-pages' => 'Spezialsäiten',
-	'twnmp-bottom-languages-supported' => 'Ënnerstëtzte Sproochen',
+	'twnmp-bottom-languages-supported' => 'Ënnerstëtzt Sproochen',
 	'twnmp-bottom-about' => 'Iwwer',
 	'twnmp-signup-username-placeholder' => 'Benotzernumm',
 	'twnmp-signup-password-placeholder' => 'Passwuert',
@@ -1319,6 +1320,7 @@ $messages['vi'] = array(
 );
 
 /** Simplified Chinese (中文（简体）‎)
+ * @author Shirayuki
  * @author Timothy Gu
  * @author Xiaomingyan
  */
@@ -1330,8 +1332,25 @@ $messages['zh-hans'] = array(
 	'twnmp-s-messages' => '需要翻译的词条',
 	'twnmp-bannerwho' => '图片：$1',
 	'twnmp-show-more-projects' => '显示更多的项目...',
+	'twnmp-login' => '登录',
+	'twnmp-search-button' => '查找',
+	'twnmp-translate-link' => '翻译',
 	'twnmp-proofread-link' => '校对',
+	'twnmp-translate-button' => '翻译',
 	'twnmp-proofread-button' => '校对',
+	'twnmp-your-translations-stats' => '您的翻译统计',
+	'twnmp-your-view-language-stats' => '查看语言统计',
+	'twnmp-translations-per-month' => '翻译每月',
+	'twnmp-reviews-per-month' => '复审每月',
+	'twnmp-bottom-help' => '帮助',
+	'twnmp-bottom-special-pages' => '特殊页面',
+	'twnmp-bottom-languages-supported' => '支持的语言',
+	'twnmp-bottom-about' => '关于',
+	'twnmp-signup-username-placeholder' => '用户名',
+	'twnmp-signup-password-placeholder' => '密码',
+	'twnmp-signup-email-placeholder' => '电子邮件',
+	'twnmp-create-account-button' => '创建账户',
+	'twnmp-choose-another-language' => '选择其他语言...',
 );
 
 /** Traditional Chinese (中文（繁體）‎)

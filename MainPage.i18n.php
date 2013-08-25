@@ -1046,6 +1046,31 @@ $messages['ps'] = array(
 	'twnmp-choose-fill-account-details' => 'د ګڼون تفصيل مو وليکۍ',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Luckas
+ */
+$messages['pt-br'] = array(
+	'twnmp-mainpage' => 'Página principal',
+	'twnmp-s-translators' => 'Tradutores',
+	'twnmp-s-projects' => 'Projetos',
+	'twnmp-s-languages' => 'Línguas',
+	'twnmp-s-messages' => 'Mensagens para traduzir',
+	'twnmp-bannerwho' => 'Imagem $1',
+	'twnmp-show-more-projects' => 'Mostrar mais projetos...',
+	'twnmp-translate-link' => 'Traduzir',
+	'twnmp-translate-button' => 'Traduzir',
+	'twnmp-your-translations-stats' => 'Suas estatísticas de tradução',
+	'twnmp-translations-per-month' => 'Traduções/mês',
+	'twnmp-reviews-per-month' => 'Revisões/mês',
+	'twnmp-bottom-help' => 'Ajuda',
+	'twnmp-bottom-special-pages' => 'Páginas especiais',
+	'twnmp-bottom-languages-supported' => 'Línguas suportadas',
+	'twnmp-bottom-about' => 'Sobre',
+	'twnmp-signup-username-placeholder' => 'Nome de usuário',
+	'twnmp-signup-password-placeholder' => 'Senha',
+	'twnmp-create-account-button' => 'Criar conta',
+);
+
 /** Romanian (română)
  * @author Minisarm
  */

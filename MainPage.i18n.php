@@ -607,6 +607,7 @@ $messages['gl'] = array(
 
 /** Hebrew (עברית)
  * @author Amire80
+ * @author YaronSh
  */
 $messages['he'] = array(
 	'twnmp-desc' => 'דף ראשי עבור אתר translatewiki.net',
@@ -642,7 +643,7 @@ $messages['he'] = array(
 	'twnmp-become-translator' => 'בואו להיות מתרגמים',
 	'twnmp-choose-languages-you-know' => 'השפה שלך',
 	'twnmp-choose-another-language' => 'בחירת שפה אחרת...',
-	'twnmp-choose-fill-account-details' => 'הפרטים שלך',
+	'twnmp-choose-fill-account-details' => 'נא למלא את פרטי החשבון שלך',
 	'twnmp-stats-number-k' => '$1 אלף',
 );
 

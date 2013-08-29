@@ -1008,6 +1008,46 @@ $messages['nl'] = array(
 	'twnmp-choose-fill-account-details' => 'Geef uw gebruikersgegevens op',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'twnmp-desc' => 'Provesís la pagina principala de translatewiki.net',
+	'twnmp-mainpage' => 'Acuèlh',
+	'twnmp-s-translators' => 'Traductors',
+	'twnmp-s-projects' => 'Projèctes',
+	'twnmp-s-languages' => 'Lengas',
+	'twnmp-s-messages' => 'Messatges de tradusir',
+	'twnmp-bannerwho' => 'Imatge $1',
+	'twnmp-show-more-projects' => 'Afichar mai de projèctes...',
+	'twnmp-brand-motto' => 'Comunautat de traduccion en font liura',
+	'twnmp-login' => 'Se connectar',
+	'twnmp-search-placeholder' => 'Recercar e corregir de traduccions',
+	'twnmp-search-button' => 'Recercar',
+	'twnmp-search-choose-project' => 'Causir un projècte de tradusir',
+	'twnmp-translate-link' => 'Tradusir',
+	'twnmp-proofread-link' => 'Relectura',
+	'twnmp-translate-button' => 'Tradusir',
+	'twnmp-proofread-button' => 'Corregida',
+	'twnmp-your-translations-stats' => 'Vòstras estatisticas de traduccion',
+	'twnmp-your-view-language-stats' => 'Afichar las estatisticas de lenga',
+	'twnmp-translations-per-month' => 'Traduccions/mes',
+	'twnmp-reviews-per-month' => 'Relecturas/mes',
+	'twnmp-translations-translator-ranking' => '{{GENDER:$1|Classat|Classada}} $2 sus $3 traductors<br />en $4',
+	'twnmp-bottom-help' => 'Ajuda',
+	'twnmp-bottom-special-pages' => 'Paginas especialas',
+	'twnmp-bottom-languages-supported' => 'Lengas presas en carga',
+	'twnmp-bottom-about' => 'A prepaus',
+	'twnmp-signup-username-placeholder' => "Nom d'utilizaire",
+	'twnmp-signup-password-placeholder' => 'Senhal',
+	'twnmp-signup-email-placeholder' => 'Corrièr electronic',
+	'twnmp-create-account-button' => 'Crear un compte',
+	'twnmp-become-translator' => 'Venir un traductor',
+	'twnmp-choose-languages-you-know' => 'Causir las lengas que coneissètz',
+	'twnmp-choose-another-language' => 'Causir una autra lenga…',
+	'twnmp-choose-fill-account-details' => 'Completar totes los detalhs de vòstre compte',
+);
+
 /** Pashto (پښتو)
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */

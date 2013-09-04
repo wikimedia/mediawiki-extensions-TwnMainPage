@@ -26,18 +26,32 @@ class CachedStat implements DeferrableUpdate {
 	/// @var int
 	protected $expiredAge;
 
+	/// @var string
+	protected $onMiss;
+
 	/**
 	 * @param string $key Unique key for these values.
 	 * @param int $staleAge Trigger background refresh job if values are older than this.
 	 * @param int $expiredAge Do not use values older than this.
 	 * @param array $worker Array with method and parameters.
+	 * @param string $onMiss What to do on cache miss. 'update' or 'allow miss'.
 	 */
-	public function __construct( $key, $staleAge, $expiredAge, $worker ) {
+	public function __construct( $key, $staleAge, $expiredAge, $worker, $onMiss = 'update' ) {
 		$this->key = wfMemckey( __CLASS__, $key );
 		$this->worker = $worker;
 
 		$this->staleAge = $staleAge;
 		$this->expiredAge = $expiredAge;
+
+		$this->onMiss = $onMiss;
+	}
+
+	public function setCache( BagOStuff $cache ) {
+		$this->cache = $cache;
+	}
+
+	protected function getCache() {
+		return isset( $this->cache ) ? $this->cache : wfGetCache( CACHE_ANYTHING );
 	}
 
 	public function doUpdate() {
@@ -50,16 +64,21 @@ class CachedStat implements DeferrableUpdate {
 			't' => wfTimestamp( TS_UNIX ),
 		);
 
-		wfGetCache( CACHE_ANYTHING )->set( $this->key, $toStore, $this->expiredAge );
+		$this->getCache()->set( $this->key, $toStore, $this->expiredAge );
 
 		return $value;
 	}
 
 	public function get() {
-		$value = wfGetCache( CACHE_ANYTHING )->get( $this->key );
+		$value = $this->getCache()->get( $this->key );
 
 		if ( !is_array( $value ) ) {
-			return $this->doUpdate();
+			if ( $this->onMiss !== 'update' ) {
+				CachedStatJob::newJob( $this )->insert();
+				return null;
+			} else {
+				return $this->doUpdate();
+			}
 		}
 
 		if ( $value['t'] + $this->staleAge < wfTimestamp( TS_UNIX ) ) {

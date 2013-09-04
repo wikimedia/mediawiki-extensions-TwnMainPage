@@ -322,23 +322,30 @@ HTML;
 	public function twnStats() {
 		$stale = 60 * 60 * 6;
 		$expired = 60 * 60 * 24;
-		$cacher = new CachedStat( 'twnstats', $stale, $expired,
-			array( 'SpecialTwnMainPage::getTwnStats' ) );
+		$cacher = new CachedStat( 'atwnstats', $stale, $expired,
+			array( 'SpecialTwnMainPage::getTwnStats' ), 'allow miss' );
 		$stats = $cacher->get();
 
-		// Rows x columns
 		$data = array(
-			array(
-				'twnmp-s-projects' => $stats['projects'],
-				'twnmp-s-translators' => $stats['translators'],
-				'twnmp-s-messages' => $stats['messages'],
-			),
-			array(
-				null,
-				null,
-				'twnmp-s-languages' => $stats['languages'],
-			)
+			array( null, null, null ),
+			array( null, null, null ),
 		);
+
+		if ( is_array( $stats ) ) {
+			// Rows x columns
+			$data = array(
+				array(
+					'twnmp-s-projects' => $stats['projects'],
+					'twnmp-s-translators' => $stats['translators'],
+					'twnmp-s-messages' => $stats['messages'],
+				),
+				array(
+					null,
+					null,
+					'twnmp-s-languages' => $stats['languages'],
+				)
+			);
+		}
 
 		$out = '';
 		$out .= '<div class="six columns twn-mainpage-stats-tiles">';
@@ -483,9 +490,16 @@ HTML;
 		$stale = 60 * 5;
 		$expired = 60 * 60 * 12;
 		$cacher = new CachedStat( "userstats-$languageCode", $stale, $expired,
-			array( 'SpecialTwnMainPage::getUserStats', $languageCode, 30 )
+			array( 'SpecialTwnMainPage::getUserStats', $languageCode, 30 ),
+			'allow miss'
 		);
 		$statsArray = $cacher->get();
+		if ( $statsArray === null ) {
+			$statsArray = array(
+				'translators' => array(),
+				'proofreaders' => array(),
+			);
+		}
 
 		$out = Html::openElement(
 			'div',

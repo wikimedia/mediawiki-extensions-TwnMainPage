@@ -9,7 +9,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
  * @ingroup Extensions
  *
  * @author Niklas Laxström
- * @license GPL2+
+ * @license GPL-2.0+
  */
 
 $wgExtensionCredits['specialpage'][] = array(
@@ -42,6 +42,17 @@ $wgExtensionFunctions[] = function () {
 		'attribution' => '<a href="http://www.flickr.com/photos/ldhendrix/7389351416/">' .
 			'CC-BY ldhendrix</a>',
 	);
+
+	return true;
+};
+
+$wgHooks['UnitTestsList'][] = function ( &$files ) {
+	$dir = new RecursiveDirectoryIterator( __DIR__ . '/tests/phpunit' );
+	$ite = new RecursiveIteratorIterator( $dir );
+	$matches = new RegexIterator( $ite, '/.*Test\.php/', RegexIterator::GET_MATCH );
+	foreach( $matches as $file ) {
+		$files = array_merge( $files, $file );
+	}
 
 	return true;
 };

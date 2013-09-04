@@ -647,6 +647,47 @@ $messages['he'] = array(
 	'twnmp-stats-number-k' => '$1 אלף',
 );
 
+/** Italian (italiano)
+ * @author Beta16
+ * @author Gianfranco
+ */
+$messages['it'] = array(
+	'twnmp-desc' => 'Fornisce la pagina principale di translatewiki.net',
+	'twnmp-mainpage' => 'Pagina principale',
+	'twnmp-s-translators' => 'Traduttori',
+	'twnmp-s-projects' => 'Progetti',
+	'twnmp-s-languages' => 'Lingue',
+	'twnmp-s-messages' => 'Messaggi da tradurre',
+	'twnmp-bannerwho' => 'Immagine $1',
+	'twnmp-show-more-projects' => 'Mostra altri progetti...',
+	'twnmp-brand-motto' => 'Comunità di traduzione open source',
+	'twnmp-login' => 'Entra',
+	'twnmp-search-placeholder' => 'Trova e correggi le traduzioni',
+	'twnmp-search-button' => 'Trova',
+	'twnmp-search-choose-project' => 'Scegli un progetto da tradurre',
+	'twnmp-translate-link' => 'Traduci',
+	'twnmp-proofread-link' => 'Correggi',
+	'twnmp-translate-button' => 'Traduci',
+	'twnmp-proofread-button' => 'Correggi',
+	'twnmp-your-translations-stats' => 'Le tue statistiche di traduzione',
+	'twnmp-your-view-language-stats' => 'Visualizza le statistiche di lingua',
+	'twnmp-translations-per-month' => 'Traduzioni/mese',
+	'twnmp-reviews-per-month' => 'Revisioni/mese',
+	'twnmp-translations-translator-ranking' => '{{GENDER:$1|Classificato}} $2 su $3 traduttori<br />in $4',
+	'twnmp-bottom-help' => 'Aiuto',
+	'twnmp-bottom-special-pages' => 'Pagine speciali',
+	'twnmp-bottom-languages-supported' => 'Lingue supportate',
+	'twnmp-bottom-about' => 'A proposito di',
+	'twnmp-signup-username-placeholder' => 'Nome utente',
+	'twnmp-signup-password-placeholder' => 'Password',
+	'twnmp-signup-email-placeholder' => 'Email',
+	'twnmp-create-account-button' => 'Registrati',
+	'twnmp-become-translator' => 'Diventa un traduttore',
+	'twnmp-choose-languages-you-know' => 'Scegli le lingue che conosci',
+	'twnmp-choose-another-language' => "Scegli un'altra lingua...",
+	'twnmp-choose-fill-account-details' => 'Inserisci i dettagli della tua utenza',
+);
+
 /** Japanese (日本語)
  * @author Shirayuki
  */

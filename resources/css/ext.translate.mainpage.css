@@ -292,7 +292,8 @@ a.langstats-link {
 	margin: 0;
 }
 
-.project-actions a {
+.project-actions a,
+.project-actions a:visited {
 	color: #FFFFFF;
 	text-decoration: none;
 	padding-left: 20px;
@@ -452,7 +453,8 @@ button.button.green:active {
 	padding: 25px 10px 15px 10px;
 }
 
-.twn-mainpage-footer a {
+.twn-mainpage-footer a,
+.twn-mainpage-footer a:visited {
 	text-align: center;
 	color: #3366BB;
 }

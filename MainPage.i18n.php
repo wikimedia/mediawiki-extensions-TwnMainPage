@@ -179,9 +179,12 @@ See [[Special:MainPage]] as an anonymous user.',
 
 See [[Special:MainPage]] as an anonymous user.',
 	'twnmp-stats-number-k' => 'Used in [[Special:Mainpage]].
-$1 is the number of the thousands of messages or users on the site.
-It can be a fraction, for example "4.9".
+
+Parameters:
+* $1 - the number of the thousands of messages or users on the site; can be a decimal fraction. e.g. "4.9"
+
 The message should be short, to fit in the box. If you have to translate it and cannot make it short, notify [[Support]].
+
 If "k" is a good thousands marker in your language, do not translate this message.',
 );
 

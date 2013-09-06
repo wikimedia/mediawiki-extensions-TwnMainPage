@@ -25,6 +25,7 @@ $messages['en'] = array(
 	'twnmp-show-more-projects' => 'Show more projects...',
 	'twnmp-brand-motto' => 'Open source translation community',
 	'twnmp-login' => 'Log in',
+	'twnmp-logout' => 'Log out',
 	'twnmp-search-placeholder' => 'Find and fix translations',
 	'twnmp-search-button' => 'Find',
 	'twnmp-search-choose-project' => 'Choose a project to translate',
@@ -99,6 +100,7 @@ See example: [[Special:MainPage]]',
 	'twnmp-brand-motto' => 'A motto shown under the site name at the top of the main page: open source translations by a community part of open source movement, or "translation community (which is a part) of open source (movement)".',
 	'twnmp-login' => 'A link for logging in.
 {{Identical|Log in}}',
+	'twnmp-logout' => 'A link for logging out.',
 	'twnmp-search-placeholder' => 'A placeholder for the search box on the main page.',
 	'twnmp-search-button' => 'A label for the search button on the main page.
 {{Identical|Find}}',

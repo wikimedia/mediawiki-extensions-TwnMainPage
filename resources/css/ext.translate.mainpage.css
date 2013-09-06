@@ -49,7 +49,8 @@ body {
 	border-bottom: 2px solid #3366BB;
 }
 
-.twn-mainpage-header .login {
+.twn-mainpage-header .login,
+.twn-mainpage-header .logout {
 	color: #3366BB;
 	padding-top: 50px;
 	padding-left: 20px;

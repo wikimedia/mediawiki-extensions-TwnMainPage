@@ -77,6 +77,8 @@ class SpecialTwnMainPage extends SpecialPage {
 		$languageName = TranslateUtils::getLanguageName( $code, $code );
 		$uls = Html::element( 'span', array( 'class' => 'uls-trigger' ), $languageName );
 
+		$userLink = '';
+
 		$user = $this->getUser();
 		if ( $user->isLoggedIn() ) {
 			$params = array(
@@ -84,13 +86,20 @@ class SpecialTwnMainPage extends SpecialPage {
 				'href' => $user->getUserPage()->getLocalUrl(),
 			);
 			$userLink = Html::element( 'a', $params, $user->getName() );
+
+			$logout = SpecialPage::getTitleFor( 'Userlogout' );
+			$params = array(
+				'class' => 'logout text-right',
+				'href' => $logout->getLocalUrl( array( 'returnto' => 'Special:MainPage' ) ),
+			);
+			$loginout = Html::element( 'a', $params, $this->msg( 'twnmp-logout' )->text() );
 		} else {
 			$login = SpecialPage::getTitleFor( 'Userlogin' );
 			$params = array(
 				'class' => 'login text-right',
 				'href' => $login->getLocalUrl( array( 'returnto' => 'Special:MainPage' ) ),
 			);
-			$userLink = Html::element( 'a', $params, $this->msg( 'twnmp-login' )->text() );
+			$loginout = Html::element( 'a', $params, $this->msg( 'twnmp-login' )->text() );
 		}
 
 		$html = <<<HTML
@@ -102,6 +111,7 @@ class SpecialTwnMainPage extends SpecialPage {
 	<div class="four columns twn-mainpage-personal-actions">
 		$uls
 		$userLink
+		$loginout
 	</div>
 </div>
 HTML;

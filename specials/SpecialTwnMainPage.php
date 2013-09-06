@@ -5,7 +5,7 @@
  * @file
  * @author Niklas Laxström
  * @author Santhosh Thottingal
- * @license GPL2+
+ * @license GPL-2.0+
  */
 
 /**
@@ -232,13 +232,14 @@ HTML;
 
 		$out = Html::openElement( 'div', $bannerAttribs );
 		$out .= $this->twnStats();
-		$out .= $this->userWidget();
 
 		if ( isset( $image['attribution'] ) ) {
 			$out .= Html::rawElement( 'div', array( 'class' => 'banner-attribution' ),
 				$this->msg( 'twnmp-bannerwho', $image['attribution'] )->plain()
 			);
 		}
+
+		$out .= $this->userWidget();
 
 		$out .= Html::closeElement( 'div' );
 
@@ -422,9 +423,13 @@ HTML;
 		$out .= Html::closeElement( 'li' );
 		$out .= Html::closeElement( 'ul' );
 		$out .= Html::openElement( 'div', $row );
-		$out .= Html::element( 'div', array(
-			'class' => 'eight columns offset-by-one signup-language-selector'
-		), $this->msg( 'twnmp-choose-another-language' )->text() );
+		$out .= Html::openElement( 'div', array( 'class' => 'eight columns offset-by-one' ) );
+		$out .= Html::element(
+			'div',
+			array( 'class' => 'signup-language-selector' ),
+			$this->msg( 'twnmp-choose-another-language' )->text()
+		);
+		$out .= Html::closeElement( 'div' );
 		$out .= Html::closeElement( 'div' );
 		$out .= Html::element(
 			'h2',

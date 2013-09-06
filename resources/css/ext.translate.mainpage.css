@@ -59,6 +59,7 @@ body {
 	/* Actual image is added in php */
 	background: transparent none no-repeat scroll left center;
 	background-size: 100%;
+	position: relative;
 }
 
 .banner-attribution {
@@ -66,8 +67,9 @@ body {
 	clear: left;
 	font-size: 10px;
 	padding: 10px 10px 20px 10px;
-	position: relative;
+	position: absolute;
 	opacity: 0.8;
+	bottom: 0;
 }
 
 .banner-attribution a {
@@ -477,6 +479,10 @@ button.button.green:active {
 
 	.twn-mainpage-stats-tiles {
 		margin-bottom: 10px;
+	}
+
+	.banner-attribution {
+		position: relative;
 	}
 
 	.main-widget {

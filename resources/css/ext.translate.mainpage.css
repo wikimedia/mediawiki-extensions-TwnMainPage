@@ -90,16 +90,36 @@ body {
 
 .stats-tile {
 	background-color: #3366BB;
+	background-color: rgba(51,102,187,0.9);
 	color: white;
 	height: 130px;
 	margin: auto;
 	width: 80%;
 	padding: 10px;
-	opacity: 0.9;
+	-webkit-animation: fadein 1.5s;
+	animation: fadein 1.5s;
+}
+
+@-webkit-keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 .unused.stats-tile {
-	opacity: 0.3;
+	background-color: rgba(51,102,187,0.3);
 }
 
 .stats-number {
@@ -115,9 +135,9 @@ body {
 
 .main-widget {
 	background-color: #F8F8F8;
+	background-color: rgba(248, 248, 248, 0.95);
 	color: #252525;
 	max-height: 580px;
-	opacity: 0.95;
 	padding: 10px;
 	margin-left: 4%;
 	overflow: auto;
@@ -284,7 +304,7 @@ a.langstats-link {
 	height: 140px;
 }
 
-.twn-mainpage-project-tile .project-tile .project-actions {
+.twn-mainpage-project-tiles .twn-mainpage-project-tile .project-tile .project-actions {
 	text-align: center;
 	height: 40px;
 	line-height: 40px;
@@ -292,11 +312,18 @@ a.langstats-link {
 	margin: 0;
 }
 
+.twn-mainpage-project-tile .action {
+	border-right: 1px solid #333333;
+}
+.twn-mainpage-project-tile .action:last-child {
+	border: none;
+}
+
 .project-actions a,
 .project-actions a:visited {
 	color: #FFFFFF;
 	text-decoration: none;
-	padding-left: 20px;
+	padding-left: 24px;
 	cursor: pointer;
 }
 
@@ -471,7 +498,7 @@ button.button.green:active {
 		margin: 5px 0;
 	}
 
-	.row .three.columns {
+	.twn-mainpage .row.twn-mainpage-project-tiles .twn-mainpage-project-tile {
 		width: 50%;
 	}
 
@@ -480,7 +507,7 @@ button.button.green:active {
 	}
 
 	.main-widget {
-		opacity: 1;
+		background-color: #F8F8F8;
 	}
 
 	.twn-mainpage-banner {

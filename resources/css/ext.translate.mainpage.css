@@ -72,7 +72,8 @@ body {
 	bottom: 0;
 }
 
-.banner-attribution a {
+.banner-attribution a,
+.banner-attribution a:visited {
 	color: #FFF;
 }
 
@@ -146,13 +147,13 @@ body {
 }
 
 .main-widget label {
-	font-size: 14pt;
+	font-size: 16px;
 }
 
-.main-widget input {
-	padding: 10px;
-	font-size: 16pt;
-	margin: 10px;
+.main-widget .row input {
+	padding: 6px;
+	font-size: 16px;
+	margin: 5px 0 5px 10px;
 }
 
 .main-widget button {
@@ -170,9 +171,12 @@ body {
 
 .signup-language-selector {
 	font-size: 12pt;
-	background-color: #eee;
-	margin: 10px;
+	background-color: #E0E0E0;
+	margin: 5px 0 10px 5px;
 	cursor: pointer;
+	padding: 4px 8px;
+	border: 1px solid #CCCCCC;
+	border-radius: 4px;
 }
 
 .user-stats-title {
@@ -191,7 +195,9 @@ body {
 
 .main-widget h2 {
 	border: none;
+	font-weight: lighter;
 	color: #252525;
+	font-size: 20px;
 }
 
 .ranking {
@@ -240,7 +246,7 @@ a.langstats-link {
 }
 
 .twn-mainpage-footer {
-	background-color: #E6E6E6;
+	background-color: #F0F0F0;
 	height: 50px;
 	font-size: 16px;
 	padding: 10px;
@@ -304,6 +310,10 @@ a.langstats-link {
 
 .project-top {
 	height: 140px;
+}
+
+.twn-mainpage-project-tiles {
+	padding-bottom: 25px;
 }
 
 .twn-mainpage-project-tiles .twn-mainpage-project-tile .project-tile .project-actions {

@@ -423,7 +423,7 @@ HTML;
 		$out .= Html::closeElement( 'li' );
 		$out .= Html::closeElement( 'ul' );
 		$out .= Html::openElement( 'div', $row );
-		$out .= Html::openElement( 'div', array( 'class' => 'eight columns offset-by-one' ) );
+		$out .= Html::openElement( 'div', array( 'class' => 'eight columns' ) );
 		$out .= Html::element(
 			'div',
 			array( 'class' => 'signup-language-selector' ),

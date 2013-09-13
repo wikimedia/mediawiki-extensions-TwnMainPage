@@ -10,6 +10,7 @@ $messages = array();
 
 /** English
  * @author Nike
+ * @author Amire80
  */
 $messages['en'] = array(
 	'twnmp-desc' => 'Provides the translatewiki.net main page',
@@ -35,6 +36,7 @@ $messages['en'] = array(
 	'twnmp-proofread-button' => 'Proofread',
 
 	'twnmp-your-translations-stats' => 'Your translation statistics',
+	'twnmp-your-translations-stats-all-languages' => 'For all languages',
 	'twnmp-your-view-language-stats' => 'View language statistics',
 	'twnmp-translations-per-month' => 'Translations/month',
 	'twnmp-reviews-per-month' => 'Reviews/month',
@@ -121,6 +123,7 @@ Pressing the button brings the user to the translation editor in proofread mode.
 	'twnmp-your-translations-stats' => "A header for the user's translation statistics.
 
 See example: [[Special:MainPage]]",
+	'twnmp-your-translations-stats-all-languages' => 'Appears under the message {{msg-mw|twnmp-your-translations-stats}} when the user language is the same as the source language for all translations.',
 	'twnmp-your-view-language-stats' => "A link that appears under the user's translation statistics.",
 	'twnmp-translations-per-month' => "Used in [[Special:Mainpage]].
 Appears in the user's statistics box near a number.
@@ -645,6 +648,7 @@ $messages['he'] = array(
 	'twnmp-translate-button' => 'תרגום',
 	'twnmp-proofread-button' => 'הגהה',
 	'twnmp-your-translations-stats' => 'סטטיסטיקת התרגומים שלך',
+	'twnmp-your-translations-stats-all-languages' => 'בכל השפות',
 	'twnmp-your-view-language-stats' => 'הצגת הסטטיסטיקה לשפה',
 	'twnmp-translations-per-month' => 'תרגומים לחודש',
 	'twnmp-reviews-per-month' => 'הגהות לחודש',

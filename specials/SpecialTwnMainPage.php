@@ -235,7 +235,6 @@ HTML;
 		$image = Html::element( 'div', array( 'class' => "project-icon-$id" ) );
 		$label = htmlspecialchars( $group->getLabel( $this->getContext() ) );
 
-
 		$title = SpecialPage::getTitleFor( 'Translate' );
 		$translate = Html::element( 'a', array(
 			'class' => 'translate',
@@ -254,7 +253,7 @@ HTML;
 			<div class="project-icon four columns">$image</div>
 			<div class="project-content eight columns">
 				<div class="row project-name" dir="auto">$label</div>
-				<div class="row project-statsbar">$stats</div>
+				<div class="row project-statsbar">$statsHtml</div>
 				<div class="row project-stats">$acts</div>
 			</div>
 		</div>
@@ -562,12 +561,23 @@ HTML;
 		);
 
 		$out .= Html::openElement( 'div', array( 'class' => 'row user-stats-title' ) );
+
 		$out .= Html::element(
 			'h2',
 			array(),
 			$this->msg( 'twnmp-your-translations-stats' )->text()
 		);
-		$out .= Html::element( 'div', array(), $languageName );
+
+		$groupsSourceLanguage = MessageGroups::haveSingleSourceLanguage( MessageGroups::getAllGroups() );
+		if ( $groupsSourceLanguage === $languageCode ) {
+			$translationStatsSubtitle = $this->msg(
+				'twnmp-your-translations-stats-all-languages'
+			)->text();
+		} else {
+			$translationStatsSubtitle = $languageName;
+		}
+
+		$out .= Html::element( 'div', array(), $translationStatsSubtitle );
 		$out .= Html::closeElement( 'div' );
 
 		$myuser = $this->getUser()->getName();

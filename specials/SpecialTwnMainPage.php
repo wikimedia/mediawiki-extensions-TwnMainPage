@@ -376,7 +376,7 @@ HTML;
 	public function twnStats() {
 		$stale = 60 * 60 * 6;
 		$expired = 60 * 60 * 24;
-		$cacher = new CachedStat( 'atwnstats', $stale, $expired,
+		$cacher = new CachedStat( 'twnstats', $stale, $expired,
 			array( 'SpecialTwnMainPage::getTwnStats' ), 'allow miss' );
 		$stats = $cacher->get();
 
@@ -538,13 +538,26 @@ HTML;
 	}
 
 	public function userStats() {
+		$groupsSourceLanguage = MessageGroups::haveSingleSourceLanguage(
+			MessageGroups::getAllGroups()
+		);
 		$languageCode = $this->getLanguage()->getCode();
-		$languageName = TranslateUtils::getLanguageName( $languageCode, $languageCode );
+
+		if ( $groupsSourceLanguage === $languageCode ) {
+			# Do stats for all languages, denoted by empty string
+			$languageForStats = '';
+		} else {
+			$languageForStats = $languageCode;
+		}
 
 		$stale = 60 * 5;
 		$expired = 60 * 60 * 12;
-		$cacher = new CachedStat( "userstats-$languageCode", $stale, $expired,
-			array( 'SpecialTwnMainPage::getUserStats', $languageCode, 30 ),
+		$cacher = new CachedStat( "userstats-$languageForStats", $stale, $expired,
+			array(
+				'SpecialTwnMainPage::getUserStats',
+				$languageForStats,
+				30
+			),
 			'allow miss'
 		);
 		$statsArray = $cacher->get();
@@ -568,13 +581,16 @@ HTML;
 			$this->msg( 'twnmp-your-translations-stats' )->text()
 		);
 
-		$groupsSourceLanguage = MessageGroups::haveSingleSourceLanguage( MessageGroups::getAllGroups() );
+		$languageName = TranslateUtils::getLanguageName( $languageCode, $languageCode );
 		if ( $groupsSourceLanguage === $languageCode ) {
 			$translationStatsSubtitle = $this->msg(
 				'twnmp-your-translations-stats-all-languages'
 			)->text();
+
+			$translationStatsRankingMsg = 'twnmp-translations-translator-ranking-source';
 		} else {
 			$translationStatsSubtitle = $languageName;
+			$translationStatsRankingMsg = 'twnmp-translations-translator-ranking';
 		}
 
 		$out .= Html::element( 'div', array(), $translationStatsSubtitle );
@@ -601,11 +617,14 @@ HTML;
 					$this->msg( 'twnmp-translations-per-month' )->text()
 				);
 
-				$msg = $this->msg( 'twnmp-translations-translator-ranking' )
+				// TODO: When refactoring, $languageName should not be used
+				// when using the message for the source page
+				$msg = $this->msg( $translationStatsRankingMsg )
 					->params( $myuser, $i, $translators, $languageName )
 					->plain();
 				$wrap = new RawMessage( "<div class='rank-description'>$msg</div>" );
 				$out .= $wrap->parse();
+
 				break;
 			}
 			$i++;
@@ -639,7 +658,9 @@ HTML;
 					$this->msg( 'twnmp-reviews-per-month' )->text()
 				);
 
-				$msg = $this->msg( 'twnmp-translations-translator-ranking' )
+				// TODO: When refactoring, $languageName should not be used
+				// when using the message for the source page
+				$msg = $this->msg( $translationStatsRankingMsg )
 					->params( $myuser, $i, $translators, $languageName )
 					->plain();
 				$wrap = new RawMessage( "<div class='rank-description'>$msg</div>" );

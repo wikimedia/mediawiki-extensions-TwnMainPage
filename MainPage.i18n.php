@@ -40,7 +40,8 @@ $messages['en'] = array(
 	'twnmp-your-view-language-stats' => 'View language statistics',
 	'twnmp-translations-per-month' => 'Translations/month',
 	'twnmp-reviews-per-month' => 'Reviews/month',
-	'twnmp-translations-translator-ranking' => '{{GENDER:$1|Ranked}} $2 of $3 translators<br />in $4',
+	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=You are the only one<br />for $4|{{GENDER:$1|Ranked}} $2 of $3<br />for $4}}',
+	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=You are the only one|{{GENDER:$1|Ranked}} $2 of $3}}',
 
 	'twnmp-bottom-help' => 'Help',
 	'twnmp-bottom-special-pages' => 'Special pages',
@@ -133,7 +134,7 @@ Translate it in a way that is natural to your language - you don't have to use t
 Means that the users performs that number of review actions every month.
 Translate it in a way that is natural to your language - you don't have to use the '/' character.
 {{Identical|Review}}",
-	'twnmp-translations-translator-ranking' => 'Shown in the "Translate" and "Proofread" boxes in the center of the main page.
+	'twnmp-translations-translator-ranking' => 'Shown in the "Translate" and "Proofread" boxes in the center of the main page. Refers to the ranking of the user among other translators or proofreaders to that language.
 
 Can be broken to two lines. <code><nowiki><br /></nowiki></code> is a line break. Break it in any way that is natural in your language.
 
@@ -142,6 +143,13 @@ Parameters:
 * $2 - the ranking of this user
 * $3 - the total number of translators into that language
 * $4 - the language name',
+	'twnmp-translations-translator-ranking-source' => 'Shown in the "Translate" and "Proofread" boxes in the center of the main page when it is shown in the source language of all message groups. Refers to the ranking of the users among other translators on the site.
+
+Parameters:
+* $1 - the username, which can be used for GENDER
+* $2 - the ranking of this user
+* $3 - the total number of translators',
+
 	'twnmp-bottom-help' => 'A link that appears at the bottom of the main page.
 
 The link points to [[Translating:Index]].

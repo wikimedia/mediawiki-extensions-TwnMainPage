@@ -26,9 +26,12 @@ class UserStats {
 
 		$conds = array(
 			'rc_namespace' => $wgTranslateMessageNamespaces,
-			'rc_title' . $dbr->buildLike( $dbr->anyString(), "/$language" ),
 			'rc_bot' => 0,
 		);
+
+		if ( $language !== '' ) {
+			$conds[] = 'rc_title' . $dbr->buildLike( $dbr->anyString(), "/$language" );
+		}
 
 		$options = array(
 			'ORDER BY' => 'rc_id DESC',
@@ -56,10 +59,6 @@ class UserStats {
 				$ret[$row->user_name]++;
 				$cutoff = $row->rc_id;
 			}
-
-			if ( $res->numRows() < 1000 ) {
-				break;
-			}
 		}
 
 		arsort( $ret );
@@ -84,11 +83,14 @@ class UserStats {
 
 		$conds = array(
 			'log_namespace' => $wgTranslateMessageNamespaces,
-			'log_title' . $dbr->buildLike( $dbr->anyString(), "/$language" ),
 			'log_type' => 'translationreview',
 			'log_action' => 'message',
 			'log_timestamp >= ' . $dbr->timestamp( $weekago ),
 		);
+
+		if ( $language !== '' ) {
+			$conds[] = 'log_title' . $dbr->buildLike( $dbr->anyString(), "/$language" );
+		}
 
 		$options = array(
 			'GROUP BY' => 'user_name',

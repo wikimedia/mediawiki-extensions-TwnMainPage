@@ -23,6 +23,7 @@ $wgResourceModules['ext.translate.mainpage'] = array(
 	),
 	'messages' => array(
 		'twnmp-show-more-projects',
+		'twnmp-select-target-language',
 	),
 ) + $resourcePaths;
 

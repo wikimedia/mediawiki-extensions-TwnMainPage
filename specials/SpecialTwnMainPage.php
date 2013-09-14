@@ -149,7 +149,20 @@ HTML;
 	public function projectSelector() {
 		$out = Html::element( 'div', array( 'class' => 'row twn-mainpage-project-selector-title' ),
 			$this->msg( 'twnmp-search-choose-project' )->text() );
-		$out .= Html::openElement( 'div', array( 'class' => 'row twn-mainpage-project-tiles' ) );
+
+		$groupsSourceLanguage = MessageGroups::haveSingleSourceLanguage(
+			MessageGroups::getAllGroups()
+		);
+		$languageCode = $this->getLanguage()->getCode();
+
+		$out .= Html::openElement(
+			'div',
+			array(
+				'class' => 'row twn-mainpage-project-tiles',
+				'data-sourcelanguage' => $groupsSourceLanguage,
+				'data-same-sourcelanguage' => $groupsSourceLanguage === $languageCode,
+			)
+		);
 
 		$projects = ProjectHandler::getProjects();
 		$language = $this->getLanguage()->getCode();

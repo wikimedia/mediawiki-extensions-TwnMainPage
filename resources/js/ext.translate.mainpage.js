@@ -6,10 +6,55 @@
 ( function ( $, mw ) {
 	'use strict';
 
-	$( document ).ready( function () {
-		var $tiles, language, $selector;
+	/**
+	 * If the source language of all projects are same as target language,
+	 * provide a language selector to select target language.
+	 */
+	function setupTargetLanguageSelector() {
+		var $sameLanguageULSTrigger,
+			sourceLanguage = $( '.twn-mainpage-project-tiles' ).data( 'sourcelanguage' ),
+			sameLanguageULSLanguages = $.extend( {}, mw.config.get( 'wgULSLanguages' ) );
 
-		$tiles = $( '.project-tile' );
+		$sameLanguageULSTrigger = $( '<div>' )
+			.addClass( 'row' )
+			.append( $( '<div>' )
+				.addClass( 'two columns' )
+				.append(
+					$( '<button>' )
+						.text( mw.msg( 'twnmp-select-target-language' ) )
+						.addClass( 'same-language-uls-trigger' )
+				)
+			);
+
+		$( '.twn-mainpage-project-tiles' ).before( $sameLanguageULSTrigger );
+
+		delete sameLanguageULSLanguages[sourceLanguage];
+		$sameLanguageULSTrigger.uls( {
+			languages: sameLanguageULSLanguages,
+			top: '20%',
+			onSelect: mw.uls.changeLanguage,
+			quickList: function () {
+				var frequentLanguageList = mw.uls.getFrequentLanguageList(),
+					sourceLanguagePosition = $.inArray( sourceLanguage, frequentLanguageList );
+
+				// Remove the source language from the usual common languages list
+				frequentLanguageList.splice( sourceLanguagePosition, 1 );
+
+				return frequentLanguageList;
+			}
+		} );
+	}
+
+	/**
+	 * Setup the project tiles in the main page.
+	 */
+	function setupProjectTiles () {
+		var language, $selector,
+			$tiles = $( '.project-tile' );
+
+		if ( $( '.twn-mainpage-project-tiles' ).data( 'same-sourcelanguage' ) ) {
+			setupTargetLanguageSelector();
+		}
 
 		$tiles.hover(
 			function () {
@@ -57,12 +102,7 @@
 		// Replace the last shown tile with group selector.
 		// Users without JavaScript will just see the original one.
 		$tiles.eq( 7 ).replaceWith( $selector );
-	} );
-}( jQuery, mediaWiki ) );
-
-// Sign up form
-( function ( $, mw ) {
-	'use strict';
+	}
 
 	function signupLanguageSelector () {
 		$( '.signup-language-selector' ).uls( {
@@ -147,5 +187,8 @@
 				} );
 			} );
 		} );
+
+		setupProjectTiles();
+
 	} );
 }( jQuery, mediaWiki ) );

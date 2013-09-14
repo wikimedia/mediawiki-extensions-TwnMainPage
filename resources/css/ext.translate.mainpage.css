@@ -546,3 +546,13 @@ button.button.green:active {
 .client-nojs .grid .project-actions {
 	display: block;
 }
+
+.same-language-uls-trigger {
+	padding: 10px;
+	margin-left: 10px;
+}
+
+.same-language-uls-trigger:after {
+	content: "▼";
+	padding-left: 10px;
+}

@@ -55,6 +55,7 @@ $messages['en'] = array(
 	'twnmp-choose-fill-account-details' => 'Fill in your account details',
 
 	'twnmp-stats-number-k' => '$1k',
+	'twnmp-select-target-language' => 'Select language',
 );
 
 /** Message documentation (Message documentation)
@@ -191,6 +192,7 @@ Parameters:
 The message should be short, to fit in the box. If you have to translate it and cannot make it short, notify [[Support]].
 
 If "k" is a good thousands marker in your language, do not translate this message.',
+'twnmp-select-target-language' => 'Label of button to choose a different language if current language is same as source of all message groups',
 );
 
 /** Afrikaans (Afrikaans)

@@ -126,12 +126,14 @@ Means that the users performs that number of review actions every month.
 Translate it in a way that is natural to your language - you don't have to use the '/' character.
 {{Identical|Review}}",
 	'twnmp-translations-translator-ranking' => 'Shown in the "Translate" and "Proofread" boxes in the center of the main page.
-Can be broken to two lines. &lt;br /> is a line break. Break it in any way that is natural in your language.
+
+Can be broken to two lines. <code><nowiki><br /></nowiki></code> is a line break. Break it in any way that is natural in your language.
+
 Parameters:
-* $1 - the username, which can be used for GENDER.
-* $2 - the ranking of this user.
-* $3 - the total number of translators into that language.
-* $4 - the language name.',
+* $1 - the username, which can be used for GENDER
+* $2 - the ranking of this user
+* $3 - the total number of translators into that language
+* $4 - the language name',
 	'twnmp-bottom-help' => 'A link that appears at the bottom of the main page.
 
 The link points to [[Translating:Index]].

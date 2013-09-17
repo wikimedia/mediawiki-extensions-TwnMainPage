@@ -187,14 +187,37 @@ HTML;
 
 	protected function makeGroupTile( MessageGroup $group, array $stats ) {
 		$id = $group->getId();
-		$uiLanguage = $this->getLanguage();
-		$statsbar = StatsBar::getNew( $id, $uiLanguage->getCode(), $stats );
-
-		$translated = $stats[MessageGroupStats::TRANSLATED];
-		$proofread = $stats[MessageGroupStats::PROOFREAD];
-		if ( $stats[MessageGroupStats::TOTAL] ) {
-			$translated = round( 100 * $translated / $stats[MessageGroupStats::TOTAL] );
-			$proofread = round( 100 * $proofread / $stats[MessageGroupStats::TOTAL] );
+		$uiLanguage = $this->getLanguage()->getCode();
+		$groupLanguage = $group->getSourceLanguage();
+		$acts = '';
+		if ( $uiLanguage === $groupLanguage ) {
+			$stats = Html::element(
+				'div',
+				array( 'class' => 'row project-statsbar' ),
+				$this->msg( 'twn-mainpage-total-messages-in-language' )
+					->numParams( $stats[MessageGroupStats::TOTAL] )
+					->text()
+			);
+		} else {
+			$statsbar = StatsBar::getNew( $id, $uiLanguage, $stats );
+			$translated = $stats[MessageGroupStats::TRANSLATED];
+			$proofread = $stats[MessageGroupStats::PROOFREAD];
+			if ( $stats[MessageGroupStats::TOTAL] ) {
+				$translated = round( 100 * $translated / $stats[MessageGroupStats::TOTAL] );
+				$proofread = round( 100 * $proofread / $stats[MessageGroupStats::TOTAL] );
+			}
+			$stats = $statsbar->getHtml( $this->getContext() );
+			// @todo FIXME i18n: Hard coded percentage character twice.
+			$acts = Html::element(
+				'span',
+				array( 'class' => 'translate' ),
+				"$translated%"
+			);
+			$acts .= Html::element(
+				'span',
+				array( 'class' => 'proofread' ),
+				"$proofread%"
+			);
 		}
 
 		// Approximate project page links while we don't have config value for them
@@ -211,10 +234,7 @@ HTML;
 
 		$image = Html::element( 'div', array( 'class' => "project-icon-$id" ) );
 		$label = htmlspecialchars( $group->getLabel( $this->getContext() ) );
-		$stats = $statsbar->getHtml( $this->getContext() );
-		// @todo FIXME i18n: Hard coded percentage character twice.
-		$acts = Html::element( 'span', array( 'class' => 'translate' ), "$translated%" ) .
-			Html::element( 'span', array( 'class' => 'proofread' ), "$proofread%" );
+
 
 		$title = SpecialPage::getTitleFor( 'Translate' );
 		$translate = Html::element( 'a', array(

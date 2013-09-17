@@ -56,6 +56,7 @@ $messages['en'] = array(
 
 	'twnmp-stats-number-k' => '$1k',
 	'twnmp-select-target-language' => 'Select language',
+	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|One message|$1 messages}}',
 );
 
 /** Message documentation (Message documentation)
@@ -193,6 +194,10 @@ The message should be short, to fit in the box. If you have to translate it and 
 
 If "k" is a good thousands marker in your language, do not translate this message.',
 'twnmp-select-target-language' => 'Label of button to choose a different language if current language is same as source of all message groups',
+'twn-mainpage-total-messages-in-language' => 'Text displaying number of messages in a language.
+
+Parameters:
+* $1 - total number of messages.',
 );
 
 /** Afrikaans (Afrikaans)

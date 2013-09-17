@@ -135,60 +135,58 @@
 		} );
 	}
 
-	$( document ).ready( function () {
-		var $form = $( '.login-widget' );
+	function loginFormHandler( e ) {
+		var options, req,
+			$form = $( '.login-widget' ),
+			api = new mw.Api(),
+			username = $form.find( 'input[name="wpName"]' ).val(),
+			email = $form.find( 'input[name="wpEmail"]' ).val(),
+			password = $form.find( 'input[name="wpPassword"]' ).val();
 
-		signupLanguageSelector();
+		e.preventDefault();
 
-		$form.on( 'submit', function ( e ) {
+		options = {
+			action: 'translatesandbox',
+			'do': 'create',
+			username: username,
+			email: email,
+			password: password,
+			token: $form.find( 'input[name="wpSandboxToken"]' ).val()
+		};
+
+		req = api.post( options );
+		req.fail( function () {
+			window.alert( 'Account creation failed' );
+		} );
+		req.done( function () {
 			var options, req,
-				api = new mw.Api(),
-				username = $form.find( 'input[name="wpName"]' ).val(),
-				email = $form.find( 'input[name="wpEmail"]' ).val(),
-				password = $form.find( 'input[name="wpPassword"]' ).val();
-
-			e.preventDefault();
+				api = new mw.Api();
 
 			options = {
-				action: 'translatesandbox',
-				'do': 'create',
-				username: username,
-				email: email,
-				password: password,
-				token: $form.find( 'input[name="wpSandboxToken"]' ).val()
+				action: 'login',
+				lgname: username,
+				lgpassword: password
 			};
 
 			req = api.post( options );
 			req.fail( function () {
-				window.alert( 'Failure' );
+				window.alert( 'Logging in failed' );
 			} );
-			req.done( function () {
-				var options, req,
+			req.done( function ( data ) {
+				var req,
 					api = new mw.Api();
 
-				options = {
-					action: 'login',
-					lgname: username,
-					lgpassword: password
-				};
-
-				req = api.post( options );
-				req.fail( function () {
-					window.alert( 'Failure2' );
-				} );
-				req.done( function ( data ) {
-					var req,
-						api = new mw.Api();
-
-					req = api.post( $.extend( {}, { lgtoken: data.login.token }, options ) );
-					req.done( function () {
-						window.location.reload();
-					} );
+				req = api.post( $.extend( {}, { lgtoken: data.login.token }, options ) );
+				req.done( function () {
+					window.location.reload();
 				} );
 			} );
 		} );
+	}
 
+	$( document ).ready( function () {
+		signupLanguageSelector();
+		$( '.login-widget' ).on( 'submit', loginFormHandler );
 		setupProjectTiles();
-
 	} );
 }( jQuery, mediaWiki ) );

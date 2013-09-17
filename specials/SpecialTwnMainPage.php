@@ -207,16 +207,16 @@ HTML;
 				$proofread = round( 100 * $proofread / $stats[MessageGroupStats::TOTAL] );
 			}
 			$stats = $statsbar->getHtml( $this->getContext() );
-			// @todo FIXME i18n: Hard coded percentage character twice.
+
 			$acts = Html::element(
 				'span',
 				array( 'class' => 'translate' ),
-				"$translated%"
+				$this->msg( 'percent' )->numParams( $translated )->text()
 			);
 			$acts .= Html::element(
 				'span',
 				array( 'class' => 'proofread' ),
-				"$proofread%"
+				$this->msg( 'percent' )->numParams( $proofread )->text()
 			);
 		}
 

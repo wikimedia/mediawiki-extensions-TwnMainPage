@@ -100,7 +100,8 @@ See example: [[Special:MainPage]]',
 	'twnmp-brand-motto' => 'A motto shown under the site name at the top of the main page: open source translations by a community part of open source movement, or "translation community (which is a part) of open source (movement)".',
 	'twnmp-login' => 'A link for logging in.
 {{Identical|Log in}}',
-	'twnmp-logout' => 'A link for logging out.',
+	'twnmp-logout' => 'A link for logging out.
+{{Identical|Log out}}',
 	'twnmp-search-placeholder' => 'A placeholder for the search box on the main page.',
 	'twnmp-search-button' => 'A label for the search button on the main page.
 {{Identical|Find}}',
@@ -463,6 +464,7 @@ $messages['de'] = array(
 	'twnmp-show-more-projects' => 'Weitere Projekte anzeigen …',
 	'twnmp-brand-motto' => 'Open-Source-Übersetzungsgemeinschaft',
 	'twnmp-login' => 'Anmelden',
+	'twnmp-logout' => 'Abmelden',
 	'twnmp-search-placeholder' => 'Finde und korrigiere Übersetzungen',
 	'twnmp-search-button' => 'Suchen',
 	'twnmp-search-choose-project' => 'Wähle ein Projekt zum Übersetzen',
@@ -586,6 +588,7 @@ $messages['gl'] = array(
 	'twnmp-show-more-projects' => 'Mostrar máis proxectos...',
 	'twnmp-brand-motto' => 'Comunidade de tradución de código aberto',
 	'twnmp-login' => 'Rexistro',
+	'twnmp-logout' => 'Saír',
 	'twnmp-search-placeholder' => 'Atope e corrixa traducións',
 	'twnmp-search-button' => 'Buscar',
 	'twnmp-search-choose-project' => 'Escolla un proxecto a traducir',
@@ -709,6 +712,7 @@ $messages['ja'] = array(
 	'twnmp-show-more-projects' => 'その他のプロジェクトを表示...',
 	'twnmp-brand-motto' => 'オープンソース翻訳コミュニティ',
 	'twnmp-login' => 'ログイン',
+	'twnmp-logout' => 'ログアウト',
 	'twnmp-search-placeholder' => '修正したい翻訳を検索',
 	'twnmp-search-button' => '検索',
 	'twnmp-search-choose-project' => '翻訳するプロジェクトの選択',
@@ -950,6 +954,7 @@ $messages['mk'] = array(
 	'twnmp-show-more-projects' => 'Прикажи уште проекти...',
 	'twnmp-brand-motto' => 'Преводна заедница за отворен код',
 	'twnmp-login' => 'Најава',
+	'twnmp-logout' => 'Одјава',
 	'twnmp-search-placeholder' => 'Пронајди и исправи преводи',
 	'twnmp-search-button' => 'Најди',
 	'twnmp-search-choose-project' => 'Одберете проект за преведување',
@@ -1214,6 +1219,7 @@ $messages['roa-tara'] = array(
 	'twnmp-show-more-projects' => 'Fà vedè cchiù pruggette...',
 	'twnmp-brand-motto' => "Iapre 'a comunitate origgenale de traduzione",
 	'twnmp-login' => 'Tràse',
+	'twnmp-logout' => 'Isse',
 	'twnmp-search-placeholder' => 'Iacchie e corregge le traduziune',
 	'twnmp-search-button' => 'Iacchie',
 	'twnmp-search-choose-project' => "Scacchie 'nu proggette da traducere",
@@ -1354,6 +1360,7 @@ $messages['te'] = array(
 );
 
 /** Ukrainian (українська)
+ * @author Andriykopanytsia
  * @author Ата
  */
 $messages['uk'] = array(
@@ -1367,6 +1374,7 @@ $messages['uk'] = array(
 	'twnmp-show-more-projects' => 'Показати більше проектів...',
 	'twnmp-brand-motto' => 'Спільнота перекладачів відкритих вихідних кодів',
 	'twnmp-login' => 'Увійти',
+	'twnmp-logout' => 'Вихід',
 	'twnmp-search-placeholder' => 'Знайти та виправити переклади',
 	'twnmp-search-button' => 'Шукати',
 	'twnmp-search-choose-project' => 'Виберіть проект для перекладу',

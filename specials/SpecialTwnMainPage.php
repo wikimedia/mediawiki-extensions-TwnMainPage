@@ -184,6 +184,18 @@ HTML;
 			$proofread = round( 100 * $proofread / $stats[MessageGroupStats::TOTAL] );
 		}
 
+		// Approximate project page links while we don't have config value for them
+		$projectPage = Title::newFromText( "Translating:{$group->getLabel()}" );
+		$dataUrl = $linked = '';
+		if ( $projectPage->exists() ) {
+			$dataUrl = str_replace(
+				'X',
+				htmlspecialchars( $projectPage->getLocalUrl() ),
+				'data-url="X"'
+			);
+			$linked = 'linked';
+		}
+
 		$image = Html::element( 'div', array( 'class' => "project-icon-$id" ) );
 		$label = htmlspecialchars( $group->getLabel( $this->getContext() ) );
 		$stats = $statsbar->getHtml( $this->getContext() );
@@ -204,7 +216,7 @@ HTML;
 
 		$out = <<<HTML
 <div class="three columns twn-mainpage-project-tile">
-	<div class="project-tile">
+	<div class="project-tile $linked" $dataUrl>
 		<div class="row project-top">
 			<div class="project-icon four columns">$image</div>
 			<div class="project-content eight columns">

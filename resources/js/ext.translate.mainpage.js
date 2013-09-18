@@ -7,7 +7,7 @@
 	'use strict';
 
 	$( document ).ready( function () {
-		var $tiles, language;
+		var $tiles, language, $selector;
 
 		$tiles = $( '.project-tile' );
 
@@ -20,6 +20,13 @@
 			}
 		);
 
+		$tiles.click( function () {
+			var url = $( this ).data( 'url' );
+			if ( url ) {
+				window.location.href = url;
+			}
+		} );
+
 		if ( $tiles.length !== 8 ) {
 			// We have less than 8 tiles, so all are shown
 			return;
@@ -27,10 +34,9 @@
 
 		language = mw.config.get( 'wgUserLanguage' );
 
-		// Take the last tile
-		$tiles.eq( 7 )
-			.empty()
-			.addClass( 'more' )
+		// Prepare one project tile to be a message group selector.
+		$selector = $( '<div>' )
+			.addClass( 'project-tile more' )
 			.text( mw.msg( 'twnmp-show-more-projects' ) )
 			.one( 'click', function () {
 				$.when(
@@ -47,6 +53,10 @@
 					at: 'right bottom+275'
 				}
 			} );
+
+		// Replace the last shown tile with group selector.
+		// Users without JavaScript will just see the original one.
+		$tiles.eq( 7 ).replaceWith( $selector );
 	} );
 }( jQuery, mediaWiki ) );
 

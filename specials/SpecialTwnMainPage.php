@@ -191,7 +191,7 @@ HTML;
 		$groupLanguage = $group->getSourceLanguage();
 		$acts = '';
 		if ( $uiLanguage === $groupLanguage ) {
-			$stats = Html::element(
+			$statsHtml = Html::element(
 				'div',
 				array( 'class' => 'row project-statsbar' ),
 				$this->msg( 'twn-mainpage-total-messages-in-language' )
@@ -206,7 +206,7 @@ HTML;
 				$translated = round( 100 * $translated / $stats[MessageGroupStats::TOTAL] );
 				$proofread = round( 100 * $proofread / $stats[MessageGroupStats::TOTAL] );
 			}
-			$stats = $statsbar->getHtml( $this->getContext() );
+			$statsHtml = $statsbar->getHtml( $this->getContext() );
 
 			$acts = Html::element(
 				'span',

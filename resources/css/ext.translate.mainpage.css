@@ -151,10 +151,17 @@ body {
 	font-size: 16px;
 }
 
+
 .main-widget .row input {
 	padding: 6px;
 	font-size: 16px;
 	margin: 5px 0 5px 10px;
+	font-size: 16pt;
+	outline: 0;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #C9C9C9;
+	color: #252525;
 }
 
 .main-widget button {

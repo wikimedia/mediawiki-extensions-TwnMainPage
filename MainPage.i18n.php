@@ -196,8 +196,8 @@ Parameters:
 The message should be short, to fit in the box. If you have to translate it and cannot make it short, notify [[Support]].
 
 If "k" is a good thousands marker in your language, do not translate this message.',
-'twnmp-select-target-language' => 'Label of button to choose a different language if current language is same as source of all message groups',
-'twn-mainpage-total-messages-in-language' => 'Text displaying number of messages in a language.
+	'twnmp-select-target-language' => 'Label of button to choose a different language if current language is same as source of all message groups',
+	'twn-mainpage-total-messages-in-language' => 'Text displaying number of messages in a language.
 
 Parameters:
 * $1 - total number of messages.',
@@ -483,6 +483,7 @@ $messages['de'] = array(
 	'twnmp-translate-button' => 'Übersetzen',
 	'twnmp-proofread-button' => 'Korrekturlesen',
 	'twnmp-your-translations-stats' => 'Deine Übersetzungsstatistiken',
+	'twnmp-your-translations-stats-all-languages' => 'Für alle Sprachen',
 	'twnmp-your-view-language-stats' => 'Sprachstatistiken ansehen',
 	'twnmp-translations-per-month' => 'Übersetzungen pro Monat',
 	'twnmp-reviews-per-month' => 'Überprüfungen pro Monat',
@@ -500,6 +501,8 @@ $messages['de'] = array(
 	'twnmp-choose-another-language' => 'Eine andere Sprache auswählen …',
 	'twnmp-choose-fill-account-details' => 'Gib die Einzelheiten zu deinem Benutzerkonto ein',
 	'twnmp-stats-number-k' => '$1&nbsp;T',
+	'twnmp-select-target-language' => 'Sprache auswählen',
+	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Eine Nachricht|$1 Nachrichten}}',
 );
 
 /** Finnish (suomi)
@@ -558,6 +561,7 @@ $messages['fr'] = array(
 	'twnmp-show-more-projects' => 'Afficher plus de projets...',
 	'twnmp-brand-motto' => 'Communauté de traduction en source libre',
 	'twnmp-login' => 'Se connecter',
+	'twnmp-logout' => 'Deconnexion',
 	'twnmp-search-placeholder' => 'Rechercher et corriger des traductions',
 	'twnmp-search-button' => 'Rechercher',
 	'twnmp-search-choose-project' => 'Choisir un projet à traduire',
@@ -566,6 +570,7 @@ $messages['fr'] = array(
 	'twnmp-translate-button' => 'Traduire',
 	'twnmp-proofread-button' => 'Corrigée',
 	'twnmp-your-translations-stats' => 'Vos statistiques de traduction',
+	'twnmp-your-translations-stats-all-languages' => 'Pour toutes les langues',
 	'twnmp-your-view-language-stats' => 'Afficher les statistiques de langue',
 	'twnmp-translations-per-month' => 'Traductions/mois',
 	'twnmp-reviews-per-month' => 'Relectures/mois',
@@ -582,6 +587,8 @@ $messages['fr'] = array(
 	'twnmp-choose-languages-you-know' => 'Choisir les langues que vous connaissez',
 	'twnmp-choose-another-language' => 'Choisir une autre langue…',
 	'twnmp-choose-fill-account-details' => 'Compléter tous les détails de votre compte',
+	'twnmp-select-target-language' => 'Choisir la langue',
+	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Un message|$1 messages}}',
 );
 
 /** Galician (galego)
@@ -666,6 +673,14 @@ $messages['he'] = array(
 	'twnmp-choose-another-language' => 'בחירת שפה אחרת...',
 	'twnmp-choose-fill-account-details' => 'נא למלא את פרטי החשבון שלך',
 	'twnmp-stats-number-k' => '$1 אלף',
+);
+
+/** Armenian (Հայերեն)
+ * @author Vadgt
+ */
+$messages['hy'] = array(
+	'twnmp-logout' => 'Ելնել',
+	'twnmp-your-translations-stats-all-languages' => 'Բոլոր լեզուների համար',
 );
 
 /** Italian (italiano)
@@ -918,6 +933,7 @@ $messages['lb'] = array(
 	'twnmp-show-more-projects' => 'Méi Projete weisen...',
 	'twnmp-brand-motto' => 'Open-Source-Iwwersetzungscommunautéit',
 	'twnmp-login' => 'Aloggen',
+	'twnmp-logout' => 'Auslooggen',
 	'twnmp-search-placeholder' => 'Iwwersetzunge fannen a verbesseren',
 	'twnmp-search-button' => 'Fannen',
 	'twnmp-search-choose-project' => "E Projet eraussiche fir z'iwwersetzen",
@@ -926,6 +942,7 @@ $messages['lb'] = array(
 	'twnmp-translate-button' => 'Iwwersetzen',
 	'twnmp-proofread-button' => 'Iwwerliesen',
 	'twnmp-your-translations-stats' => 'Är Statistike vun der Iwwersetzung',
+	'twnmp-your-translations-stats-all-languages' => 'Fir all Sproochen',
 	'twnmp-your-view-language-stats' => 'Sproochstatistike weisen',
 	'twnmp-translations-per-month' => 'Iwwersetzunge pro Mount',
 	'twnmp-reviews-per-month' => 'Nogekuckt pro Mount',
@@ -942,6 +959,8 @@ $messages['lb'] = array(
 	'twnmp-choose-languages-you-know' => 'Sproochen eraussichen déi Dir kënnt',
 	'twnmp-choose-another-language' => 'Eng aner Sprooch eraussichen...',
 	'twnmp-choose-fill-account-details' => 'Setzt Detailer an Äre Benotzerkont derbäi',
+	'twnmp-select-target-language' => 'Sprooch eraussichen',
+	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Ee Message|$1 Messagen}}',
 );
 
 /** Literary Chinese (文言)
@@ -974,6 +993,7 @@ $messages['mk'] = array(
 	'twnmp-translate-button' => 'Преведи',
 	'twnmp-proofread-button' => 'Провери',
 	'twnmp-your-translations-stats' => 'Ваши преводни статистики',
+	'twnmp-your-translations-stats-all-languages' => 'За сите јазици',
 	'twnmp-your-view-language-stats' => 'Јазични статистики',
 	'twnmp-translations-per-month' => 'Преводи месечно',
 	'twnmp-reviews-per-month' => 'Проверки месечно',
@@ -991,6 +1011,8 @@ $messages['mk'] = array(
 	'twnmp-choose-another-language' => 'Друг јазик...',
 	'twnmp-choose-fill-account-details' => 'Пополнете ги податоците за сметката',
 	'twnmp-stats-number-k' => '$1 илј.',
+	'twnmp-select-target-language' => 'Одберете јазик',
+	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Една порака|$1 пораки}}',
 );
 
 /** Norwegian Bokmål (norsk bokmål)
@@ -1296,6 +1318,7 @@ $messages['sv'] = array(
 	'twnmp-show-more-projects' => 'Visa fler projekt...',
 	'twnmp-brand-motto' => 'Gemenskap för översättningar med öppen källkod',
 	'twnmp-login' => 'Logga in',
+	'twnmp-logout' => 'Logga ut',
 	'twnmp-search-placeholder' => 'Hitta och korrigera översättningar',
 	'twnmp-search-button' => 'Hitta',
 	'twnmp-search-choose-project' => 'Välj ett projekt att översätta',
@@ -1304,6 +1327,7 @@ $messages['sv'] = array(
 	'twnmp-translate-button' => 'Översätt',
 	'twnmp-proofread-button' => 'Korrekturläs',
 	'twnmp-your-translations-stats' => 'Din översättningsstatistik',
+	'twnmp-your-translations-stats-all-languages' => 'För alla språk',
 	'twnmp-your-view-language-stats' => 'Visa språkstatistik',
 	'twnmp-translations-per-month' => 'Översättningar/månad',
 	'twnmp-reviews-per-month' => 'Granskningar/månad',
@@ -1320,6 +1344,8 @@ $messages['sv'] = array(
 	'twnmp-choose-languages-you-know' => 'Välj språken du kan',
 	'twnmp-choose-another-language' => 'Välj ett annat språk...',
 	'twnmp-choose-fill-account-details' => 'Fyll i dina kontouppgifter',
+	'twnmp-select-target-language' => 'Välj språk',
+	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Ett meddelande|$1 meddelanden}}',
 );
 
 /** Swahili (Kiswahili)
@@ -1394,6 +1420,7 @@ $messages['uk'] = array(
 	'twnmp-translate-button' => 'Переклад',
 	'twnmp-proofread-button' => 'Перевірка',
 	'twnmp-your-translations-stats' => 'Статистика Ваших перекладів',
+	'twnmp-your-translations-stats-all-languages' => 'Для всіх мов',
 	'twnmp-your-view-language-stats' => 'Переглянути мовну статистику',
 	'twnmp-translations-per-month' => 'перекладів/місяць',
 	'twnmp-reviews-per-month' => 'перевірок/місяць',
@@ -1410,6 +1437,8 @@ $messages['uk'] = array(
 	'twnmp-choose-languages-you-know' => 'Виберіть мови, які Ви знаєте',
 	'twnmp-choose-another-language' => 'Виберіть іншу мову...',
 	'twnmp-choose-fill-account-details' => 'Заповніть Ваші дані',
+	'twnmp-select-target-language' => 'Оберіть мову',
+	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Одне повідомлення|$1 повідомлення|$1 повідомлень}}',
 );
 
 /** Vietnamese (Tiếng Việt)

@@ -563,3 +563,9 @@ button.button.green:active {
 	content: "▼";
 	padding-left: 10px;
 }
+
+/* Override group selector css to avoid pointing triangle */
+div.ext-translate-msggroup-selector-menu:after,
+div.ext-translate-msggroup-selector-menu:before {
+	display: none;
+}

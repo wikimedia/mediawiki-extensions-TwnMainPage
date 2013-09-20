@@ -87,7 +87,7 @@
 				$.when(
 					mw.translate.loadMessageGroups()
 				).then( function () {
-					$tiles.trigger( 'dataready.translate' );
+					$( '.project-tile.more' ).trigger( 'dataready.translate' );
 				} );
 			} )
 			.msggroupselector( {

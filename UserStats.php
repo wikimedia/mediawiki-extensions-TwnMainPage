@@ -48,6 +48,12 @@ class UserStats {
 			}
 
 			$res = $dbr->select( 'recentchanges', $fields, $myconds, __METHOD__, $options );
+
+			// Avoid infite loop if there are no rows
+			if ( $res->numRows() === 0 ) {
+				break;
+			}
+
 			foreach ( $res as $row ) {
 				if ( wfTimestamp( TS_UNIX, $row->rc_timestamp ) < $weekago ) {
 					break 2;

@@ -357,7 +357,7 @@ HTML;
 		$projects = count( ProjectHandler::getProjects() );
 		$translators = SiteStats::numberingroup( 'translator' );
 		$messages = count( MessageIndex::singleton()->retrieve() );
-		$languages = self::numberOfLanguages( 30 );
+		$languages = self::numberOfLanguages( 180 );
 
 		return array(
 			'projects' => $projects,

@@ -601,3 +601,8 @@ div.ext-translate-msggroup-selector-menu:after,
 div.ext-translate-msggroup-selector-menu:before {
 	display: none;
 }
+
+/* Override the statsbar on-hover info for TWN Mainpage */
+.tux-statsbar-info {
+	display: none;
+}

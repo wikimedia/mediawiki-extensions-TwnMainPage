@@ -32,7 +32,7 @@
 		$sameLanguageULSTrigger.uls( {
 			languages: sameLanguageULSLanguages,
 			top: '20%',
-			onSelect: mw.uls.changeLanguage,
+			onSelect: showMessageGroupStats,
 			quickList: function () {
 				var frequentLanguageList = mw.uls.getFrequentLanguageList(),
 					sourceLanguagePosition = $.inArray( sourceLanguage, frequentLanguageList );
@@ -46,14 +46,75 @@
 	}
 
 	/**
+	 * Show the message group stats bars.
+	 */
+	function showMessageGroupStats ( language ) {
+		var $tiles = $( '.project-tile' );
+
+		// Clear current numbers first so they don't stay if something goes wrong
+		$tiles.each( function() {
+			var $tile = $( this );
+			$tile.find( '.project-statsbar' ).empty().removeData( 'languagestatsbar' );
+			$tile.find( '.project-stats' ).empty();
+			// Update the links to go to the correct language
+			$tile.find( '.project-actions a' ).each( function () {
+				var $this = $( this ), uri;
+				uri = new mw.Uri( $this.prop( 'href' ) );
+				uri.extend( { language: language } );
+				$this.prop( 'href', uri );
+			} );
+		} );
+
+		mw.translate.loadLanguageStats( language ).done( function () {
+			$tiles.each( function() {
+				var $tile = $( this ),
+					translated, proofread,
+					$statsbar = $tile.find( '.project-statsbar' ),
+					msggroupid = $tile.data( 'msggroupid' ),
+					stats;
+
+				if ( !$statsbar.length ) {
+					return;
+				}
+
+				$statsbar.languagestatsbar( {
+					language: language,
+					group: msggroupid
+				} );
+
+				stats = $statsbar.data( 'languagestatsbar' ).getStatsForGroup( msggroupid );
+
+				// Avoid NaNs on display
+				if ( stats.total === 0 ) {
+					return;
+				}
+
+				translated = stats.translated - stats.proofread;
+				translated = 100 * translated / stats.total;
+				proofread = 100 * stats.proofread / stats.total;
+				$tile.find( '.project-stats' )
+					.append(
+						$( '<span>' ).addClass( 'translate' )
+							.text( mw.msg( 'percent', Math.round( translated ) ) ),
+						$( '<span>' ).addClass('proofread')
+							.text( mw.msg( 'percent', Math.round( proofread ) ) )
+					);
+			} );
+		} );
+	}
+
+	/**
 	 * Setup the project tiles in the main page.
 	 */
 	function setupProjectTiles () {
-		var language, $selector,
+		var language = mw.config.get( 'wgUserLanguage' ),
+			$selector,
 			$tiles = $( '.project-tile' );
 
 		if ( $( '.twn-mainpage-project-tiles' ).data( 'same-sourcelanguage' ) ) {
 			setupTargetLanguageSelector();
+		} else {
+			showMessageGroupStats( language );
 		}
 
 		$tiles.hover(
@@ -83,8 +144,6 @@
 			// We have less than 8 tiles, so all are shown
 			return;
 		}
-
-		language = mw.config.get( 'wgUserLanguage' );
 
 		// Prepare one project tile to be a message group selector.
 		$selector = $( '<div>' )

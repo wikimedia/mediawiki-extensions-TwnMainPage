@@ -191,7 +191,10 @@ HTML;
 		$id = $group->getId();
 		$uiLanguage = $this->getLanguage()->getCode();
 		$groupLanguage = $group->getSourceLanguage();
-		$acts = '';
+		$statsHtml = '';
+
+		// If this is the source language, show the number of messages.
+		// Else we load stats and statsbar with JavaScript on the client.
 		if ( $uiLanguage === $groupLanguage ) {
 			$statsHtml = Html::element(
 				'div',
@@ -199,26 +202,6 @@ HTML;
 				$this->msg( 'twn-mainpage-total-messages-in-language' )
 					->numParams( $stats[MessageGroupStats::TOTAL] )
 					->text()
-			);
-		} else {
-			$statsbar = StatsBar::getNew( $id, $uiLanguage, $stats );
-			$translated = $stats[MessageGroupStats::TRANSLATED];
-			$proofread = $stats[MessageGroupStats::PROOFREAD];
-			if ( $stats[MessageGroupStats::TOTAL] ) {
-				$translated = round( 100 * $translated / $stats[MessageGroupStats::TOTAL] );
-				$proofread = round( 100 * $proofread / $stats[MessageGroupStats::TOTAL] );
-			}
-			$statsHtml = $statsbar->getHtml( $this->getContext() );
-
-			$acts = Html::element(
-				'span',
-				array( 'class' => 'translate' ),
-				$this->msg( 'percent' )->numParams( $translated )->text()
-			);
-			$acts .= Html::element(
-				'span',
-				array( 'class' => 'proofread' ),
-				$this->msg( 'percent' )->numParams( $proofread )->text()
 			);
 		}
 
@@ -247,16 +230,16 @@ HTML;
 			'class' => 'proofread',
 			'href' => $title->getLocalUrl( array( 'group' => $id, 'action' => 'proofread' ) )
 		), $this->msg( 'twnmp-proofread-button' )->text() );
-
+		$msggroupid = htmlspecialchars( $id );
 		$out = <<<HTML
 <div class="three columns twn-mainpage-project-tile">
-	<div class="project-tile $linked" $dataUrl>
+	<div class="project-tile $linked" $dataUrl data-msggroupid="$msggroupid">
 		<div class="row project-top">
 			<div class="project-icon four columns">$image</div>
 			<div class="project-content eight columns">
 				<div class="row project-name" dir="auto">$label</div>
 				<div class="row project-statsbar">$statsHtml</div>
-				<div class="row project-stats">$acts</div>
+				<div class="row project-stats"></div>
 			</div>
 		</div>
 		<div class="row project-actions hide">

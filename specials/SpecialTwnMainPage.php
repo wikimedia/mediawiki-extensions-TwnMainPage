@@ -303,7 +303,19 @@ HTML;
 	}
 
 	public function footer() {
-		$out = Html::openElement( 'div', array( 'class' => 'row twn-mainpage-footer' ) );
+		$add = Title::newFromText( 'Special:MyLanguage/Translating:New_project' )
+			->getFullUrl();
+
+		$out = Html::element(
+			'a',
+			array(
+				'class' => 'row twn-mainpage-add-project',
+				'href' => $add
+			),
+			$this->msg( 'twnmp-add-project' )->text()
+		);
+
+		$out .= Html::openElement( 'div', array( 'class' => 'row twn-mainpage-footer' ) );
 		$out .= Html::element( 'a', array(
 			'class' => 'three column',
 			'href' => Title::newFromText( 'Special:MyLanguage/Project:About' )->getLocalUrl(),

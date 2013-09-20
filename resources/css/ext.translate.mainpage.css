@@ -156,7 +156,6 @@ body {
 	padding: 6px;
 	font-size: 16px;
 	margin: 5px 0 5px 10px;
-	font-size: 16pt;
 	outline: 0;
 	border-style: solid;
 	border-width: 1px;
@@ -238,7 +237,7 @@ body {
 }
 
 a.langstats-link {
-	font-size: 14pt;
+	font-size: 16px;
 	padding: 10px;
 }
 
@@ -500,8 +499,8 @@ button.button.green:active {
 }
 
 .twn-mainpage-project-selector-title {
-	font-size: 16pt;
-	padding: 25px 10px 15px 10px;
+	font-size: 22px;
+	padding: 30px 10px 15px 10px;
 }
 
 .twn-mainpage-footer a,

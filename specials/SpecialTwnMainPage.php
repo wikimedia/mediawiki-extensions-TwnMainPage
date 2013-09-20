@@ -575,7 +575,15 @@ HTML;
 			array( 'class' => 'five columns main-widget stats-widget' )
 		);
 
-		$out .= Html::openElement( 'div', array( 'class' => 'row user-stats-title' ) );
+		$email = $this->getUser()->getEmail();
+		$avatar = 'https://secure.gravatar.com/avatar/' . md5( strtolower( $email ) );
+		$out .= Html::openElement(
+			'div',
+			array(
+				'class' => 'row user-stats-title',
+				'style' => "background-image: url('$avatar?d=mm');",
+			)
+		);
 
 		$out .= Html::element(
 			'h2',

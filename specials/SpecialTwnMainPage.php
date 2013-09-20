@@ -24,6 +24,7 @@ class SpecialTwnMainPage extends SpecialPage {
 
 	public function execute( $parameters ) {
 		$out = $this->getOutput();
+		$skin = $this->getSkin();
 		$user = $this->getUser();
 		$request = $this->getRequest();
 
@@ -50,7 +51,7 @@ class SpecialTwnMainPage extends SpecialPage {
 		// of the position of the uls trigger in other pages.
 		$out->addJsConfigVars( 'wgULSPosition', 'personal' );
 
-		$out->addHTML( $out->headElement( $this->getSkin() ) );
+		$out->addHTML( $out->headElement( $skin ) );
 		$out->addHTML( Html::openElement(
 			'div',
 			array( 'class' => 'grid twn-mainpage' )
@@ -60,10 +61,11 @@ class SpecialTwnMainPage extends SpecialPage {
 		$out->addHTML( $this->searchBar() );
 		$out->addHTML( $this->projectSelector() );
 		$out->addHTML( $this->footer() );
-		$out->addHTML( $out->getBottomScripts() );
 		$out->addHTML( Html::closeElement( 'div' ) ); // grid twn-mainpage
 		// Enable this if you need useful debugging information
 		// $out->addHtml( MWDebug::getDebugHTML( $this->getContext() ) );
+		wfRunHooks( 'BeforePageDisplay', array( &$out, &$skin ) );
+		$out->addHTML( $skin->bottomScripts() );
 		$out->addHTML( '</body></html>' );
 	}
 

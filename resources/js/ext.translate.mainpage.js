@@ -92,7 +92,12 @@
 			} )
 			.msggroupselector( {
 				language: language,
-				onSelect: mw.translate.changeGroup,
+				onSelect: function ( messageGroup ) {
+					window.location.href = new mw.Uri( mw.util.wikiGetlink( 'Special:Translate' ) )
+						.extend( {
+							group: messageGroup.id
+						} );
+				},
 				position: {
 					my: 'left bottom',
 					at: 'right bottom+275'

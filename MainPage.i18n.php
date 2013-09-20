@@ -45,7 +45,7 @@ $messages['en'] = array(
 
 	'twnmp-add-project' => 'Add your open source project for translation',
 	'twnmp-bottom-help' => 'Help',
-	'twnmp-bottom-special-pages' => 'Special pages',
+	'twnmp-bottom-support' => 'Support desk',
 	'twnmp-bottom-languages-supported' => 'Supported languages',
 	'twnmp-bottom-about' => 'About',
 	'twnmp-signup-username-placeholder' => 'Username',
@@ -165,10 +165,9 @@ See also:
 
 The link points to [[Translating:Index]].
 {{Identical|Help}}',
-	'twnmp-bottom-special-pages' => 'A link that appears at the bottom of the main page.
+	'twnmp-bottom-support' => 'A link that appears at the bottom of the main page.
 
-The link points to [[Special:SpecialPages]].
-{{Identical|Special page}}',
+The link points to [[Support]].',
 	'twnmp-bottom-languages-supported' => 'A link that appears at the bottom of the main page.
 
 The link points to [[Special:SupportedLanguages]].

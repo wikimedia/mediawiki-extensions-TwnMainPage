@@ -326,8 +326,8 @@ HTML;
 		), $this->msg( 'twnmp-bottom-languages-supported' )->text() );
 		$out .= Html::element( 'a', array(
 			'class' => 'three column',
-			'href' => SpecialPage::getTitleFor( 'Specialpages' )->getLocalUrl(),
-		), $this->msg( 'twnmp-bottom-special-pages' )->text() );
+			'href' => Title::newFromText( 'Support' )->getLocalUrl(),
+		), $this->msg( 'twnmp-bottom-support' )->text() );
 		$out .= Html::element( 'a', array(
 			'class' => 'three column',
 			'href' => Title::newFromText( 'Translating:Index' )->getLocalUrl(),

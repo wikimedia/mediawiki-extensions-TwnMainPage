@@ -605,17 +605,17 @@ HTML;
 
 		$languageName = TranslateUtils::getLanguageName( $languageCode, $languageCode );
 		if ( $groupsSourceLanguage === $languageCode ) {
-			$translationStatsSubtitle = $this->msg(
-				'twnmp-your-translations-stats-all-languages'
-			)->text();
-
 			$translationStatsRankingMsg = 'twnmp-translations-translator-ranking-source';
+
+			$out .= Html::element(
+				'div',
+				array( 'class' => 'twn-mainpage-alllang-stats' ),
+				$this->msg( 'twnmp-your-translations-stats-all-languages' )->text()
+			);
 		} else {
-			$translationStatsSubtitle = $languageName;
 			$translationStatsRankingMsg = 'twnmp-translations-translator-ranking';
 		}
 
-		$out .= Html::element( 'div', array(), $translationStatsSubtitle );
 		$out .= Html::closeElement( 'div' );
 
 		$myuser = $this->getUser()->getName();

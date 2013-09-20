@@ -194,10 +194,15 @@ body {
 	background-image: linear-gradient(transparent, transparent), url('../images/user-small.svg');
 	background-position: bottom left;
 	background-size: 75px;
+	min-height: 75px;
 }
 
 .user-stats-title h2 {
 	border-bottom: none;
+}
+
+.twn-mainpage-alllang-stats {
+	padding: 0 10px;
 }
 
 .main-widget h2 {
@@ -205,6 +210,7 @@ body {
 	font-weight: lighter;
 	color: #252525;
 	font-size: 20px;
+	padding-bottom: 0;
 }
 
 .ranking {

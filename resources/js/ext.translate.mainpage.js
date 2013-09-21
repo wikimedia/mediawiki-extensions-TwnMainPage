@@ -72,6 +72,13 @@
 			}
 		} );
 
+		// Make the whole action div clickable to override above
+		$tiles.find( '.action' ).click( function ( e ) {
+			e.stopPropagation();
+			var url = $( this ).find( 'a' ).prop( 'href' );
+			window.location.href = url;
+		} );
+
 		if ( $tiles.length !== 8 ) {
 			// We have less than 8 tiles, so all are shown
 			return;

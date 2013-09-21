@@ -165,9 +165,6 @@ See also:
 
 The link points to [[Translating:Index]].
 {{Identical|Help}}',
-	'twnmp-bottom-support' => 'A link that appears at the bottom of the main page.
-
-The link points to [[Support]].',
 	'twnmp-bottom-languages-supported' => 'A link that appears at the bottom of the main page.
 
 The link points to [[Special:SupportedLanguages]].
@@ -389,6 +386,13 @@ $messages['br'] = array(
 	'twnmp-choose-fill-account-details' => 'Klokaat titouroù ho kont',
 );
 
+/** Catalan (català)
+ * @author Pginer
+ */
+$messages['ca'] = array(
+	'twnmp-your-translations-stats-all-languages' => 'Totes les llengües',
+);
+
 /** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
@@ -508,8 +512,9 @@ $messages['de'] = array(
 	'twnmp-reviews-per-month' => 'Überprüfungen pro Monat',
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=Du bist der einzige<!-- $1 --><br />für $4|Rang $2 von $3<br />für $4}}',
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=Du bist der einzige<!-- $1 -->|Rang $2 von $3}}',
+	'twnmp-add-project' => 'Füge dein Open-Source-Projekt zur Übersetzung hinzu',
 	'twnmp-bottom-help' => 'Hilfe',
-	'twnmp-bottom-special-pages' => 'Spezialseiten',
+	'twnmp-bottom-support' => 'Unterstützung',
 	'twnmp-bottom-languages-supported' => 'Unterstützte Sprachen',
 	'twnmp-bottom-about' => 'Über',
 	'twnmp-signup-username-placeholder' => 'Benutzername',
@@ -539,6 +544,7 @@ $messages['fi'] = array(
 	'twnmp-show-more-projects' => 'Lisää projekteja...',
 	'twnmp-brand-motto' => 'Avoimen lähdekoodin käännösyhteisö',
 	'twnmp-login' => 'Kirjaudu sisään',
+	'twnmp-logout' => 'Kirjaudu ulos',
 	'twnmp-search-placeholder' => 'Etsi ja korjaa käännöksiä',
 	'twnmp-search-button' => 'Etsi',
 	'twnmp-search-choose-project' => 'Valitse käännettävä projekti',
@@ -547,13 +553,14 @@ $messages['fi'] = array(
 	'twnmp-translate-button' => 'Käännä',
 	'twnmp-proofread-button' => 'Oikolue',
 	'twnmp-your-translations-stats' => 'Henkilökohtaiset käännöstilastot',
+	'twnmp-your-translations-stats-all-languages' => 'Kaikki kielet',
 	'twnmp-your-view-language-stats' => 'Näytä kielitilastot',
 	'twnmp-translations-per-month' => 'käännöstä/kuukausi',
 	'twnmp-reviews-per-month' => 'oikolukua/kuukausi',
-	'twnmp-translations-translator-ranking' => '{{GENDER:$1}}Sijalla $2/$3 kääntäjistä<br />
-kielelle $4',
+	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1={{GENDER:$1|Olet ainoa}}|Olet sijalla $2/$3<br />
+kielelle $4}}',
+	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1={{GENDER:$1|Olet ainoa}}|Olet sijalla $2/$3}}',
 	'twnmp-bottom-help' => 'Ohjeet',
-	'twnmp-bottom-special-pages' => 'Toimintosivut',
 	'twnmp-bottom-languages-supported' => 'Tuetut kielet',
 	'twnmp-bottom-about' => 'Tietoja',
 	'twnmp-signup-username-placeholder' => 'Käyttäjätunnus',
@@ -564,6 +571,8 @@ kielelle $4',
 	'twnmp-choose-languages-you-know' => 'Valitse kielet, joita osaat',
 	'twnmp-choose-another-language' => 'Lisää toinen kieli...',
 	'twnmp-choose-fill-account-details' => 'Syötä tunnuksesi tiedot',
+	'twnmp-select-target-language' => 'Valitse kieli',
+	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|$1 viesti|$1 viestiä}}',
 );
 
 /** French (français)
@@ -597,7 +606,6 @@ $messages['fr'] = array(
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=Vous êtes le seul<br />pour $4|{{GENDER:$1|Classé}} $2 sur $3<br />pour $4}}',
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=Vous êtes le seul|{{GENDER:$1|Classé}} $2 sur $3}}',
 	'twnmp-bottom-help' => 'Aide',
-	'twnmp-bottom-special-pages' => 'Pages spéciales',
 	'twnmp-bottom-languages-supported' => 'Langues supportées',
 	'twnmp-bottom-about' => 'À propos de',
 	'twnmp-signup-username-placeholder' => 'Nom d’utilisateur',
@@ -642,7 +650,6 @@ $messages['gl'] = array(
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=É {{GENDER:$1|o único|a única}}<br />en $4|Quedou $2{{GENDER:$1|º|ª}} de $3<br />en $4}}', # Fuzzy
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=É {{GENDER:$1|o único|a única}}|Quedou $2{{GENDER:$1|º|ª}} de $3}}', # Fuzzy
 	'twnmp-bottom-help' => 'Axuda',
-	'twnmp-bottom-special-pages' => 'Páxinas especiais',
 	'twnmp-bottom-languages-supported' => 'Linguas soportadas',
 	'twnmp-bottom-about' => 'Acerca de',
 	'twnmp-signup-username-placeholder' => 'Nome de usuario',
@@ -688,7 +695,6 @@ $messages['he'] = array(
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1={{GENDER:$1|אתה היחיד|את היחידה}}<br />עבור $4|{{GENDER:$1|Ranked}} $2 of $3<br />for $4}}',
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1={{GENDER:$1|אתה היחיד|את היחידה}} כאן|{{GENDER:$1|אתה מדורג|את מדורגת}} במקום ה־$2 מתוך $3}}', # Fuzzy
 	'twnmp-bottom-help' => 'עזרה',
-	'twnmp-bottom-special-pages' => 'דפים מיוחדים',
 	'twnmp-bottom-languages-supported' => 'שפות נתמכות',
 	'twnmp-bottom-about' => 'אודות',
 	'twnmp-signup-username-placeholder' => 'שם משתמש',
@@ -741,7 +747,6 @@ $messages['it'] = array(
 	'twnmp-reviews-per-month' => 'Revisioni/mese',
 	'twnmp-translations-translator-ranking' => '{{GENDER:$1|Classificato $2º|Classificata $2ª|In posizione n. $2}} su $3<br />traduttori in $4', # Fuzzy
 	'twnmp-bottom-help' => 'Aiuto',
-	'twnmp-bottom-special-pages' => 'Pagine speciali',
 	'twnmp-bottom-languages-supported' => 'Lingue supportate',
 	'twnmp-bottom-about' => 'A proposito di',
 	'twnmp-signup-username-placeholder' => 'Nome utente',
@@ -784,7 +789,6 @@ $messages['ja'] = array(
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=翻訳者はあなたのみです<br />言語: $4|$2 {{GENDER:$1|位の翻訳者}} ($3 人中)<br />言語: $4}}',
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=翻訳者はあなたのみです|$2 {{GENDER:$1|位の翻訳者}} ($3 人中)}}',
 	'twnmp-bottom-help' => 'ヘルプ',
-	'twnmp-bottom-special-pages' => '特別ページ',
 	'twnmp-bottom-languages-supported' => 'サポートしている言語',
 	'twnmp-bottom-about' => 'このサイトについて',
 	'twnmp-signup-username-placeholder' => '利用者名',
@@ -982,7 +986,6 @@ $messages['lb'] = array(
 	'twnmp-reviews-per-month' => 'Nogekuckt pro Mount',
 	'twnmp-translations-translator-ranking' => '{{GENDER:$1|Plaz}} $2 vu(n) $3 Iwwersetzer<br />op $4', # Fuzzy
 	'twnmp-bottom-help' => 'Hëllef',
-	'twnmp-bottom-special-pages' => 'Spezialsäiten',
 	'twnmp-bottom-languages-supported' => 'Ënnerstëtzt Sproochen',
 	'twnmp-bottom-about' => 'Iwwer',
 	'twnmp-signup-username-placeholder' => 'Benotzernumm',
@@ -1031,9 +1034,9 @@ $messages['mk'] = array(
 	'twnmp-your-view-language-stats' => 'Јазични статистики',
 	'twnmp-translations-per-month' => 'Преводи месечно',
 	'twnmp-reviews-per-month' => 'Проверки месечно',
-	'twnmp-translations-translator-ranking' => '{{GENDER:$1|Рангиран|Рангирана}} на $2 место од вкупно $3 преведувачи<br />на $4', # Fuzzy
+	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=Единствени сте<br />за $4|{{GENDER:$1|Ранг:}} $2 од $3<br />за $4}}',
+	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=Единствени сте|{{GENDER:$1|Ранг:}} $2 од $3}}',
 	'twnmp-bottom-help' => 'Помош',
-	'twnmp-bottom-special-pages' => 'Специјални страници',
 	'twnmp-bottom-languages-supported' => 'Поддржани јазици',
 	'twnmp-bottom-about' => 'За проектот',
 	'twnmp-signup-username-placeholder' => 'Корисничко име',
@@ -1047,6 +1050,50 @@ $messages['mk'] = array(
 	'twnmp-stats-number-k' => '$1 илј.',
 	'twnmp-select-target-language' => 'Одберете јазик',
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Една порака|$1 пораки}}',
+);
+
+/** Malayalam (മലയാളം)
+ * @author Praveenp
+ * @author Santhosh.thottingal
+ */
+$messages['ml'] = array(
+	'twnmp-desc' => 'translatewiki.net പ്രധാനതാൾ ഒരുക്കുന്നു.',
+	'twnmp-mainpage' => 'പ്രധാന താൾ',
+	'twnmp-s-translators' => 'പരിഭാഷകർ',
+	'twnmp-s-projects' => 'പദ്ധതികൾ',
+	'twnmp-s-languages' => 'ഭാഷകൾ',
+	'twnmp-s-messages' => 'തർജ്ജമയ്ക്കുള്ള സന്ദേശങ്ങൾ',
+	'twnmp-bannerwho' => 'ചിത്രം $1',
+	'twnmp-show-more-projects' => 'കൂടുതൽ പദ്ധതികൾ പ്രദർശിപ്പിക്കുക...',
+	'twnmp-brand-motto' => 'ഓപ്പൺ സോഴ്സ് പരിഭാഷക സമൂഹം',
+	'twnmp-login' => 'പ്രവേശിക്കുക',
+	'twnmp-logout' => 'ലോഗൗട്ട്',
+	'twnmp-search-placeholder' => 'പരിഭാഷകൾ തിരഞ്ഞ് തിരുത്തുക',
+	'twnmp-search-button' => 'കണ്ടെത്തുക',
+	'twnmp-search-choose-project' => 'പരിഭാഷയ്ക്കുള്ള പദ്ധതി തിരഞ്ഞെടുക്കുക',
+	'twnmp-translate-link' => 'പരിഭാഷപ്പെടുത്തുക',
+	'twnmp-proofread-link' => 'സംശോധനം ചെയ്യുക',
+	'twnmp-translate-button' => 'പരിഭാഷപ്പെടുത്തുക',
+	'twnmp-proofread-button' => 'സംശോധനം ചെയ്യുക',
+	'twnmp-your-translations-stats' => 'താങ്കളുടെ പരിഭാഷയുടെ സ്ഥിതിവിവരക്കണക്കുകൾ',
+	'twnmp-your-translations-stats-all-languages' => 'എല്ലാ ഭാഷകൾക്കും',
+	'twnmp-your-view-language-stats' => 'ഭാഷയുടെ സ്ഥിതിവിവരക്കണക്കുകൾ കാണുക',
+	'twnmp-translations-per-month' => 'പ്രതിമാസ തർജ്ജമകൾ',
+	'twnmp-reviews-per-month' => 'പ്രതിമാസ സംശോധനകൾ',
+	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=$4 ഭാഷയ്ക്ക് ഒരാളേയുള്ളു,<br />അത് താങ്കളാണ്|$4 ഭാഷയിൽ {{GENDER:$1|പ്രവർത്തിക്കുന്നവരിൽ}}<br />ആകെ $3 ആൾക്കാരുള്ളതിൽ സ്ഥാനം $2}}',
+	'twnmp-bottom-help' => 'സഹായം',
+	'twnmp-bottom-languages-supported' => 'പിന്തുണയ്ക്കുന്ന ഭാഷകൾ',
+	'twnmp-bottom-about' => 'വിവരണം',
+	'twnmp-signup-username-placeholder' => 'ഉപയോക്തൃനാമം',
+	'twnmp-signup-password-placeholder' => 'രഹസ്യവാക്ക്',
+	'twnmp-signup-email-placeholder' => 'ഇമെയിൽ',
+	'twnmp-create-account-button' => 'അംഗത്വമെടുക്കുക',
+	'twnmp-become-translator' => 'പരിഭാഷ ചെയ്തു തുടങ്ങുക',
+	'twnmp-choose-languages-you-know' => 'അറിയുന്ന ഭാഷകൾ തിരഞ്ഞെടുക്കുക',
+	'twnmp-choose-another-language' => 'മറ്റൊരു ഭാഷ തിരഞ്ഞെടുക്കുക...',
+	'twnmp-choose-fill-account-details' => 'താങ്കളുടെ അംഗത്വ വിവരങ്ങൾ ചേർക്കുക',
+	'twnmp-select-target-language' => 'ഭാഷ തിരഞ്ഞെടുക്കുക',
+	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|ഒരു സന്ദേശം|$1 സന്ദേശങ്ങൾ}}',
 );
 
 /** Norwegian Bokmål (norsk bokmål)
@@ -1262,7 +1309,6 @@ $messages['ro'] = array(
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=Sunteți {{GENDER:$1|singurul|singura}}<br />pentru $4|{{GENDER:$1|Clasat|Clasată}} pe locul $2 din $3<br />pentru $4}}', # Fuzzy
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=Sunteți {{GENDER:$1|singurul|singura}}|{{GENDER:$1|Clasat|Clasată}} pe locul $2 din $3}}', # Fuzzy
 	'twnmp-bottom-help' => 'Ajutor',
-	'twnmp-bottom-special-pages' => 'Pagini speciale',
 	'twnmp-bottom-languages-supported' => 'Limbi întreținute',
 	'twnmp-bottom-about' => 'Despre',
 	'twnmp-signup-username-placeholder' => 'Nume de utilizator',
@@ -1305,7 +1351,6 @@ $messages['roa-tara'] = array(
 	'twnmp-reviews-per-month' => 'Revisite/mese',
 	'twnmp-translations-translator-ranking' => "{{GENDER:$1|Posizionate}} $2 de $3 tradutture<br />jndr'à $4", # Fuzzy
 	'twnmp-bottom-help' => 'Aijute',
-	'twnmp-bottom-special-pages' => 'Pàggene speciale',
 	'twnmp-bottom-languages-supported' => 'Lènghe supportate',
 	'twnmp-bottom-about' => 'Sus a',
 	'twnmp-signup-username-placeholder' => 'Nome utende',
@@ -1372,7 +1417,6 @@ $messages['sv'] = array(
 	'twnmp-reviews-per-month' => 'Granskningar/månad',
 	'twnmp-translations-translator-ranking' => '{{GENDER:$1|Rankad}} som $2 av $3 översättare<br />på $4', # Fuzzy
 	'twnmp-bottom-help' => 'Hjälp',
-	'twnmp-bottom-special-pages' => 'Specialsidor',
 	'twnmp-bottom-languages-supported' => 'Språk som stöds',
 	'twnmp-bottom-about' => 'Om',
 	'twnmp-signup-username-placeholder' => 'Användarnamn',
@@ -1466,7 +1510,6 @@ $messages['uk'] = array(
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=Ви єдиний перекладач<br />для мови $4|{{GENDER:$1|За рейтингом ви}} $2 перекладач з $3<br />для мови $4}}',
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=Ви єдиний перекладач|{{GENDER:$1|За рейтингом ви}} $2 з $3}}',
 	'twnmp-bottom-help' => 'Довідка',
-	'twnmp-bottom-special-pages' => 'Спеціальні сторінки',
 	'twnmp-bottom-languages-supported' => 'Підтримувані мови',
 	'twnmp-bottom-about' => 'Опис',
 	'twnmp-signup-username-placeholder' => "Ім'я користувача",

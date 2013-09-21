@@ -68,6 +68,11 @@ $specialPageAliases['mk'] = array(
 	'TwnMainPage' => array( 'ГлавнаСтраница' ),
 );
 
+/** Malayalam (മലയാളം) */
+$specialPageAliases['ml'] = array(
+	'TwnMainPage' => array( 'പ്രധാനതാൾ' ),
+);
+
 /** Marathi (मराठी) */
 $specialPageAliases['mr'] = array(
 	'TwnMainPage' => array( 'मुखपृष्ठ' ),

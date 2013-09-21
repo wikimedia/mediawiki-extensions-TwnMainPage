@@ -32,7 +32,7 @@ class SpecialTwnMainPage extends SpecialPage {
 		// users while the signup track is not complete. But guard it
 		// with beta url parameter for testing.
 		if ( !$user->isLoggedIn() && !$request->getBool( 'beta' ) ) {
-			$out->redirect( Title::newFromText( 'Main_Page' ) );
+			$out->redirect( Title::newFromText( 'Main_Page' )->getLocalUrl() );
 		}
 
 		$this->setHeaders();

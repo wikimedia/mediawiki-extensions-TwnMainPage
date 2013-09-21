@@ -324,7 +324,8 @@ a.langstats-link {
 }
 
 .twn-mainpage-project-tiles {
-	padding-bottom: 25px;
+	padding-top: 10px;
+	padding-bottom: 15px;
 }
 
 .twn-mainpage-project-tiles .twn-mainpage-project-tile .project-tile .project-actions {
@@ -501,6 +502,12 @@ button.button.green:active {
 .twn-mainpage-project-selector-title {
 	font-size: 22px;
 	padding: 30px 10px 15px 10px;
+}
+
+.twn-mainpage-add-project {
+	display: block;
+	font-size: 12pt;
+	padding: 15px 10px 25px 10px;
 }
 
 .twn-mainpage-footer a,

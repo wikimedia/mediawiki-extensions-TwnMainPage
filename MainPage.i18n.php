@@ -43,6 +43,7 @@ $messages['en'] = array(
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=You are the only one<br />for $4|{{GENDER:$1|Ranked}} $2 of $3<br />for $4}}',
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=You are the only one|{{GENDER:$1|Ranked}} $2 of $3}}',
 
+	'twnmp-add-project' => 'Add your open source project for translation',
 	'twnmp-bottom-help' => 'Help',
 	'twnmp-bottom-special-pages' => 'Special pages',
 	'twnmp-bottom-languages-supported' => 'Supported languages',
@@ -159,6 +160,7 @@ Parameters:
 * $3 - the total number of translators, can be used for PLURAL
 See also:
 * {{msg-mw|Twnmp-translations-translator-ranking}}.',
+	'twnmp-add-project' => 'This is a link',
 	'twnmp-bottom-help' => 'A link that appears at the bottom of the main page.
 
 The link points to [[Translating:Index]].

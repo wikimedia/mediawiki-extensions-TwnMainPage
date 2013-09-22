@@ -160,7 +160,9 @@ Parameters:
 * $3 - the total number of translators, can be used for PLURAL
 See also:
 * {{msg-mw|Twnmp-translations-translator-ranking}}.',
-	'twnmp-add-project' => 'This is a link',
+	'twnmp-add-project' => 'Used as link text for the link pointing to [[Special:MyLanguage/Translating:New project|Translating:New project]].
+
+See example: [[Special:MainPage]]',
 	'twnmp-bottom-help' => 'A link that appears at the bottom of the main page.
 
 The link points to [[Translating:Index]].
@@ -560,7 +562,9 @@ $messages['fi'] = array(
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1={{GENDER:$1|Olet ainoa}}|Olet sijalla $2/$3<br />
 kielelle $4}}',
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1={{GENDER:$1|Olet ainoa}}|Olet sijalla $2/$3}}',
+	'twnmp-add-project' => 'Lisää avoimen lähdekoodin projekti käännettäväksi',
 	'twnmp-bottom-help' => 'Ohjeet',
+	'twnmp-bottom-support' => 'Neuvonta',
 	'twnmp-bottom-languages-supported' => 'Tuetut kielet',
 	'twnmp-bottom-about' => 'Tietoja',
 	'twnmp-signup-username-placeholder' => 'Käyttäjätunnus',
@@ -788,6 +792,7 @@ $messages['ja'] = array(
 	'twnmp-reviews-per-month' => '査読/月',
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=翻訳者はあなたのみです<br />言語: $4|$2 {{GENDER:$1|位の翻訳者}} ($3 人中)<br />言語: $4}}',
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=翻訳者はあなたのみです|$2 {{GENDER:$1|位の翻訳者}} ($3 人中)}}',
+	'twnmp-add-project' => 'あなたのオープンソース プロジェクトを翻訳対象に追加',
 	'twnmp-bottom-help' => 'ヘルプ',
 	'twnmp-bottom-languages-supported' => 'サポートしている言語',
 	'twnmp-bottom-about' => 'このサイトについて',
@@ -984,7 +989,9 @@ $messages['lb'] = array(
 	'twnmp-your-view-language-stats' => 'Sproochstatistike weisen',
 	'twnmp-translations-per-month' => 'Iwwersetzunge pro Mount',
 	'twnmp-reviews-per-month' => 'Nogekuckt pro Mount',
-	'twnmp-translations-translator-ranking' => '{{GENDER:$1|Plaz}} $2 vu(n) $3 Iwwersetzer<br />op $4', # Fuzzy
+	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=Dir sidd deen Eenzegen<!-- $1 --><br />op der $4|Plaz $2 vu(n) $3<br />fir $4}}',
+	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=Dir sidd deen Eenzegen<!-- $1 -->|Plaz $2 vu(n) $3}}',
+	'twnmp-add-project' => "Setzt Ären Open-Source Projet fir d'Iwwersetzung derbäi",
 	'twnmp-bottom-help' => 'Hëllef',
 	'twnmp-bottom-languages-supported' => 'Ënnerstëtzt Sproochen',
 	'twnmp-bottom-about' => 'Iwwer',
@@ -1036,7 +1043,9 @@ $messages['mk'] = array(
 	'twnmp-reviews-per-month' => 'Проверки месечно',
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=Единствени сте<br />за $4|{{GENDER:$1|Ранг:}} $2 од $3<br />за $4}}',
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=Единствени сте|{{GENDER:$1|Ранг:}} $2 од $3}}',
+	'twnmp-add-project' => 'Додадете вашиот отворен проект за превод',
 	'twnmp-bottom-help' => 'Помош',
+	'twnmp-bottom-support' => 'Поддршка',
 	'twnmp-bottom-languages-supported' => 'Поддржани јазици',
 	'twnmp-bottom-about' => 'За проектот',
 	'twnmp-signup-username-placeholder' => 'Корисничко име',
@@ -1363,6 +1372,13 @@ $messages['roa-tara'] = array(
 	'twnmp-choose-fill-account-details' => "Inghie le dettaglie d'u cunde tune",
 );
 
+/** Slovak (slovenčina)
+ * @author Kusavica
+ */
+$messages['sk'] = array(
+	'twnmp-logout' => 'Odhlásiť sa',
+);
+
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Milicevic01
  */
@@ -1509,7 +1525,9 @@ $messages['uk'] = array(
 	'twnmp-reviews-per-month' => 'перевірок/місяць',
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=Ви єдиний перекладач<br />для мови $4|{{GENDER:$1|За рейтингом ви}} $2 перекладач з $3<br />для мови $4}}',
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=Ви єдиний перекладач|{{GENDER:$1|За рейтингом ви}} $2 з $3}}',
+	'twnmp-add-project' => 'Додати ваш проект з відкритим вихідним кодом для перекладу',
 	'twnmp-bottom-help' => 'Довідка',
+	'twnmp-bottom-support' => 'Підтримка',
 	'twnmp-bottom-languages-supported' => 'Підтримувані мови',
 	'twnmp-bottom-about' => 'Опис',
 	'twnmp-signup-username-placeholder' => "Ім'я користувача",

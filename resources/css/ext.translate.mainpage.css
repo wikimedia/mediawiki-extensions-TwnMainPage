@@ -284,7 +284,7 @@ a.langstats-link {
 }
 
 .project-tile.more {
-	font-size: 30px;
+	font-size: 26px;
 	padding: 15px;
 	cursor: pointer;
 	color: #555;
@@ -335,16 +335,23 @@ a.langstats-link {
 }
 
 .twn-mainpage-project-tiles .twn-mainpage-project-tile .project-tile .project-actions {
-	text-align: center;
+	text-align: left;
 	height: 40px;
 	line-height: 40px;
 	background-color: #252525;
 	margin: 0;
+	overflow: hidden;
 }
 
-.twn-mainpage-project-tile .action {
+.twn-mainpage-project-tiles .twn-mainpage-project-tile .action {
 	border-right: 1px solid #333333;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #FFFFFF;
+	font-size: 14px;
+	padding: 0 5px 0 0;
 }
+
 .twn-mainpage-project-tile .action:last-child {
 	border: none;
 }

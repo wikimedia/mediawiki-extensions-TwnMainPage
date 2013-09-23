@@ -609,7 +609,9 @@ $messages['fr'] = array(
 	'twnmp-reviews-per-month' => 'Relectures/mois',
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=Vous êtes le seul<br />pour $4|{{GENDER:$1|Classé}} $2 sur $3<br />pour $4}}',
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=Vous êtes le seul|{{GENDER:$1|Classé}} $2 sur $3}}',
+	'twnmp-add-project' => 'Ajouter votre projet open source pour traduction',
 	'twnmp-bottom-help' => 'Aide',
+	'twnmp-bottom-support' => 'Soutien',
 	'twnmp-bottom-languages-supported' => 'Langues supportées',
 	'twnmp-bottom-about' => 'À propos de',
 	'twnmp-signup-username-placeholder' => 'Nom d’utilisateur',
@@ -749,7 +751,7 @@ $messages['it'] = array(
 	'twnmp-your-view-language-stats' => 'Visualizza le statistiche della lingua',
 	'twnmp-translations-per-month' => 'Traduzioni nel mese',
 	'twnmp-reviews-per-month' => 'Revisioni/mese',
-	'twnmp-translations-translator-ranking' => '{{GENDER:$1|Classificato $2º|Classificata $2ª|In posizione n. $2}} su $3<br />traduttori in $4', # Fuzzy
+	'twnmp-translations-translator-ranking' => "{{PLURAL:$3|1=Sei l'unico traduttore|{{GENDER:$1|Classificato $2º|Classificata $2ª|In posizione $2}} su $3<br />traduttori}} in $4", # Fuzzy
 	'twnmp-bottom-help' => 'Aiuto',
 	'twnmp-bottom-languages-supported' => 'Lingue supportate',
 	'twnmp-bottom-about' => 'A proposito di',
@@ -1358,7 +1360,7 @@ $messages['roa-tara'] = array(
 	'twnmp-your-view-language-stats' => "'Ndruche le statisteche d'a lènghe",
 	'twnmp-translations-per-month' => 'Traduziune/mese',
 	'twnmp-reviews-per-month' => 'Revisite/mese',
-	'twnmp-translations-translator-ranking' => "{{GENDER:$1|Posizionate}} $2 de $3 tradutture<br />jndr'à $4", # Fuzzy
+	'twnmp-translations-translator-ranking' => "{{PLURAL:$3|1=Tu sì l'uneche<br />pe $4|{{GENDER:$1|Posizionate}} $2 de $3<br />pe $4}}",
 	'twnmp-bottom-help' => 'Aijute',
 	'twnmp-bottom-languages-supported' => 'Lènghe supportate',
 	'twnmp-bottom-about' => 'Sus a',
@@ -1583,6 +1585,7 @@ $messages['vi'] = array(
 );
 
 /** Simplified Chinese (中文（简体）‎)
+ * @author Liuxinyu970226
  * @author Shirayuki
  * @author Timothy Gu
  * @author Xiaomingyan
@@ -1596,17 +1599,18 @@ $messages['zh-hans'] = array(
 	'twnmp-bannerwho' => '图片：$1',
 	'twnmp-show-more-projects' => '显示更多的项目...',
 	'twnmp-login' => '登录',
+	'twnmp-logout' => '退出',
 	'twnmp-search-button' => '查找',
 	'twnmp-translate-link' => '翻译',
 	'twnmp-proofread-link' => '校对',
 	'twnmp-translate-button' => '翻译',
 	'twnmp-proofread-button' => '校对',
 	'twnmp-your-translations-stats' => '您的翻译统计',
+	'twnmp-your-translations-stats-all-languages' => '所有语言',
 	'twnmp-your-view-language-stats' => '查看语言统计',
 	'twnmp-translations-per-month' => '翻译每月',
 	'twnmp-reviews-per-month' => '复审每月',
 	'twnmp-bottom-help' => '帮助',
-	'twnmp-bottom-special-pages' => '特殊页面',
 	'twnmp-bottom-languages-supported' => '支持的语言',
 	'twnmp-bottom-about' => '关于',
 	'twnmp-signup-username-placeholder' => '用户名',
@@ -1614,6 +1618,7 @@ $messages['zh-hans'] = array(
 	'twnmp-signup-email-placeholder' => '电子邮件',
 	'twnmp-create-account-button' => '创建账户',
 	'twnmp-choose-another-language' => '选择其他语言...',
+	'twnmp-select-target-language' => '选择语言',
 );
 
 /** Traditional Chinese (中文（繁體）‎)

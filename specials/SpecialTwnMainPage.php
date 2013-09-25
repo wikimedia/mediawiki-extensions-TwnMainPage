@@ -434,19 +434,19 @@ HTML;
 
 				if ( $value > 1000 ) {
 					$digits = 3 - ceil( log( $value, 100 ) );
-					$value = number_format( $value / 1000, $digits );
-					$value = $this->msg( 'twnmp-stats-number-k' )->numParams( $value )->plain();
+					$fmtValue = number_format( $value / 1000, $digits );
+					$fmtValue = $this->msg( 'twnmp-stats-number-k' )->numParams( $fmtValue )->plain();
 				} else {
-					$value = $lang->formatNum( $value );
+					$fmtValue = $lang->formatNum( $value );
 				}
 
 				$value = htmlspecialchars( $value );
-				$text = $this->msg( $column )->escaped();
+				$text = $this->msg( $column )->numParams( $value )->escaped();
 
 				$out .= <<<HTML
 <div class="four columns">
 	<div class=stats-tile>
-		<div class=stats-number>$value</div>
+		<div class=stats-number>$fmtValue</div>
 		<div class=stats-text>$text</div>
 	</div>
 </div>

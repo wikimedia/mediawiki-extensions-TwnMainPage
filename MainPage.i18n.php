@@ -16,10 +16,10 @@ $messages['en'] = array(
 	'twnmp-desc' => 'Provides the translatewiki.net main page',
 	'twnmp-mainpage' => 'Main page',
 
-	'twnmp-s-translators' => 'Translators',
-	'twnmp-s-projects' => 'Projects',
-	'twnmp-s-languages' => 'Languages',
-	'twnmp-s-messages' => 'Messages to translate',
+	'twnmp-s-translators' => '{{PLURAL:$1|Translator|Translators}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|Project|Projects}}',
+	'twnmp-s-languages' => 'Active {{PLURAL:$1|language|languages}}',
+	'twnmp-s-messages' => '{{PLURAL:$1|Message|Messages}} to translate',
 
 	'twnmp-bannerwho' => 'Image $1',
 
@@ -76,24 +76,28 @@ $messages['qqq'] = array(
 	'twnmp-mainpage' => '{{doc-special|MainPage|unlisted=1}}
 {{Identical|Main page}}',
 	'twnmp-s-translators' => 'Appears in a box on the main page.
+* $1 the relevant number.
 
 Preceded by the number of the translators at the site.
 
 See example: [[Special:MainPage]]
 {{Identical|Translator}}',
 	'twnmp-s-projects' => 'Appears in a box on the main page.
+* $1 the relevant number.
 
 Preceded by the number of the projects supported at the site.
 
 See example: [[Special:MainPage]]
 {{Identical|Project}}',
 	'twnmp-s-languages' => 'Appears in a box on the main page.
+* $1 the relevant number.
 
 Preceded by the number of the languages supported at the site.
 
 See example: [[Special:MainPage]]
 {{Identical|Language}}',
 	'twnmp-s-messages' => 'Appears in a box on the main page.
+* $1 the relevant number.
 
 Preceded by the number of the messages (strings) to translate at the site.
 

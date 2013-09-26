@@ -31,9 +31,9 @@ $messages['en'] = array(
 	'twnmp-search-button' => 'Find',
 	'twnmp-search-choose-project' => 'Choose a project to translate',
 	'twnmp-translate-link' => 'Translate',
-	'twnmp-proofread-link' => 'Proofread',
+	'twnmp-proofread-link' => 'Review',
 	'twnmp-translate-button' => 'Translate',
-	'twnmp-proofread-button' => 'Proofread',
+	'twnmp-proofread-button' => 'Review',
 
 	'twnmp-your-translations-stats' => 'Your translation statistics',
 	'twnmp-your-translations-stats-all-languages' => 'For all languages',
@@ -119,13 +119,13 @@ See example: [[Special:MainPage]]',
 	'twnmp-translate-link' => 'A link that appears at the bottom of a box with the project icon near {{msg-mw|twnmp-proofread-link}}.
 {{Identical|Translate}}',
 	'twnmp-proofread-link' => 'A link that appears at the bottom of a box with the project icon near {{msg-mw|twnmp-translate-link}}.
-{{Identical|Proofread}}',
+{{Identical|Review}}',
 	'twnmp-translate-button' => "A label for the button that appears near the user's translation statistics.
 Pressing the button brings the user to the translation editor. Parallel to {{msg-mw|twnmp-proofread-button}}.
 {{Identical|Translate}}",
 	'twnmp-proofread-button' => "A label for the button that appears near the user's translation statistics.
-Pressing the button brings the user to the translation editor in proofread mode. Parallel to {{msg-mw|twnmp-translate-button}}.
-{{Identical|Proofread}}",
+Pressing the button brings the user to the translation editor in review mode. Parallel to {{msg-mw|twnmp-translate-button}}.
+{{Identical|Review}}",
 	'twnmp-your-translations-stats' => "A header for the user's translation statistics.
 
 See example: [[Special:MainPage]]",
@@ -141,9 +141,9 @@ Translate it in a way that is natural to your language - you don't have to use t
 Means that the users performs that number of review actions every month.
 Translate it in a way that is natural to your language - you don't have to use the '/' character.
 {{Identical|Review}}",
-	'twnmp-translations-translator-ranking' => 'Shown in the "Translate" and "Proofread" boxes in the center of [[Special:MainPage]].
+	'twnmp-translations-translator-ranking' => 'Shown in the "Translate" and "Review" boxes in the center of [[Special:MainPage]].
 
-Refers to the ranking of the user among other translators or proofreaders to that language.
+Refers to the ranking of the user among other translators or reviewers to that language.
 
 Can be broken to two lines. <code><nowiki><br /></nowiki></code> is a line break. Break it in any way that is natural in your language.
 
@@ -154,7 +154,7 @@ Parameters:
 * $4 - the language name
 See also:
 * {{msg-mw|Twnmp-translations-translator-ranking-source}}',
-	'twnmp-translations-translator-ranking-source' => 'Shown in the "Translate" and "Proofread" boxes in the center of [[Special:MainPage]] when it is shown in the source language of all message groups.
+	'twnmp-translations-translator-ranking-source' => 'Shown in the "Translate" and "Review" boxes in the center of [[Special:MainPage]] when it is shown in the source language of all message groups.
 
 Refers to the ranking of the users among other translators on the site.
 

@@ -428,9 +428,9 @@ HTML;
 
 				$out .= <<<HTML
 <div class="four columns">
-	<div class=stats-tile>
-		<div class=stats-number>$fmtValue</div>
-		<div class=stats-text>$text</div>
+	<div class="stats-tile" id="$column">
+		<div class="stats-number">$fmtValue</div>
+		<div class="stats-text">$text</div>
 	</div>
 </div>
 HTML;

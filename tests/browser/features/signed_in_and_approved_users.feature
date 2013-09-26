@@ -11,25 +11,31 @@ Feature: View for approved users
 
   Background:
     Given I am logged in
-    When I go to the main page
 
   Scenario: General statistics about the site are shown
+    When I go to the main page
     Then I should see general statistics about the site
 
   Scenario: General statistics about the user's contributions are shown
+    When I go to the main page
     Then I should see statistics about myself
 
-  Scenario: 'Translate' button takes the user to the translation editor in a 'translation view'
-    Given that I am an approved translator on TWN
-      And I am logged in
-    When I click on the 'Translate' button on the first page displayed after logging-in
-    Then I should see the translation editor in the translate view
+  Scenario: Going to translate recently changes messages
 
-  Scenario: "Proofread" button takes the user to the translation editor in a 'proofreading view'
-    Given that I am an approved translator on TWN
-      And I am logged in
-    When I click on the 'Proofread' button on the first page displayed after logging-in
-    Then I should see the translation editor in the proofreading view
+    For these two tests below, we will change the language to something else
+    because in English you will get an error message "translation to the source
+    language has been disabled".
+
+    When I change my interface language away from English
+      And I go to the main page
+      And I click the "Translate" button in my personal stats
+    Then I should see list of recent messages in the translation view
+
+  Scenario: Going to proofread recently changes translations
+    When I change my interface language away from English
+      And I go to the main page
+      And I click the "Proofread" button in my personal stats
+    Then I should see list of recent translations in the proofreading view
 
   Scenario: "View language statistics" link should take the user to the statistics page on TWN
     Given that I am an approved translator on TWN

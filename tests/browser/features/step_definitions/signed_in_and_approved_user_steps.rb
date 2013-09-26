@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 When(/I go to the main page$/) do
 	visit(MainPage)
 end
@@ -38,4 +40,21 @@ Then(/^I should see list of recent translations in the proofreading view$/) do
 		page.proofread_mode_button_element.attribute('class').should match(/\bdown\b/)
 	end
 end
+
+When(/^I hover a project card$/) do
+	on(MainPage).project_card_element.fire_event('onmouseover')
+end
+
+When(/^I click the "(.*?)" button on a project card$/) do |action|
+	on(MainPage).project_card_element.a(class: action.downcase).click
+end
+
+Then(/^I should see list of messages in the the translation view$/) do
+	on(TranslatePage).translate_mode_button_element.attribute('class').should match(/\bdown\b/)
+end
+
+Then(/^I should see list of messages in the the proofreading view$/) do
+	on(TranslatePage).proofread_mode_button_element.attribute('class').should match(/\bdown\b/)
+end
+
 

@@ -37,23 +37,19 @@ Feature: View for approved users
       And I click the "Proofread" button in my personal stats
     Then I should see list of recent translations in the proofreading view
 
-  Scenario: "View language statistics" link should take the user to the statistics page on TWN
-    Given that I am an approved translator on TWN
-      And I am logged in
-    When I click on the 'View language statistics' link
-    Then I should see the Special:LanguageStats page
+  Scenario: Going to translate a project
+    When I change my interface language away from English
+      And I go to the main page
+      And I hover a project card
+      And I click the "Translate" button on a project card
+    Then I should see list of messages in the the translation view
 
-  Scenario: Clicking on project card -> Translate takes to translation editor
-    Given that I am an approved translator on TWN
-      And I have successfully signed-in
-    When I click on the 'Translate' button displayed on hover on a Project Card
-    Then I should see the translation editor in the translate view
-
-  Scenario: Clicking on project card -> Proofread takes to proof read mode in the editor
-    Given that I am an approved translator on TWN
-      And I have successfully signed-in
-    When I click on the 'Proofread' button displayed on hover on a Project Card
-    Then I should see the translation editor in the proofread view
+  Scenario: Going to proofread a project
+    When I change my interface language away from English
+      And I go to the main page
+      And I hover a project card
+      And I click the "Proofread" button on a project card
+    Then I should see list of messages in the the proofreading view
 
   Scenario: Selection of a group from the message group dialog takes the user to translation view of that group
     Given I am an approved signed-in translator on TWN

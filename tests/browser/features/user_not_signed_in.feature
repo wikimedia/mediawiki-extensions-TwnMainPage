@@ -4,8 +4,8 @@ Feature: Users who are not signed-in (and for other scenarios common to all user
     Given I am logged out
      And I am on the main page
 
-  Scenario: Clicking on Project card -> View Translations should display the translations in read-only mode
-    When I click on a "View translations" in a project card
+  Scenario: Clicking on Project tile -> View Translations should display the translations in read-only mode
+    When I click on a "View translations" in a project tile
     Then I should see a list of untranslated messages for that project
 
   Scenario: Clicking on the Language Selection button should display the ULS language screen for all users
@@ -13,11 +13,11 @@ Feature: Users who are not signed-in (and for other scenarios common to all user
     Then I should see a language selector
 
   Scenario: Clicking 'more projects' -> displays the message group dialog for all users
-    When I click on a project card which says "More Projects"
+    When I click on a project tile which says "More Projects"
     Then I should see a message group selector
 
-  Scenario: Project statistics should be visible on the project card
-    When I scroll to the Project Card section
+  Scenario: Project statistics should be visible on the project tile
+    When I scroll to the Project Tile section
     Then I should be able to view the statistics for the Project
 
   Scenario: Users interested in adding a new project are directed to the appropriate page

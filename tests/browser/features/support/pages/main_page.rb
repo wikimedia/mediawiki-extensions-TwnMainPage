@@ -12,5 +12,9 @@ class MainPage
 	button(:translate_recent_messages, id: 'twnmp-translate')
 	button(:proofread_recent_translations, id: 'twnmp-proofread')
 
-	div(:project_card, class: 'project-tile', index: 0)
+	div(:project_tile, class: 'project-tile', index: 0)
+
+	div(:message_group_selector, css: '.project-tile.more')
+
+	div(:message_group_row, class: 'ext-translate-msggroup-item', index: 0)
 end

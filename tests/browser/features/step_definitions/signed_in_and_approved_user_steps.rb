@@ -23,7 +23,7 @@ When(/^I click the "Proofread" button in my personal stats$/) do
 	on(MainPage).proofread_recent_translations_element.click
 end
 
-Then(/^I should see list of recent messages in the translation view$/) do
+Then(/^I should see a list of recent messages in the translation view$/) do
 	on(TranslatePage) do |page|
 		# Assuming Finnish here. If that assumption proves to be unreliable,
 		# we can check the data msggroupid attribute instead.
@@ -32,7 +32,7 @@ Then(/^I should see list of recent messages in the translation view$/) do
 	end
 end
 
-Then(/^I should see list of recent translations in the proofreading view$/) do
+Then(/^I should see a list of recent translations in the proofreading view$/) do
 	on(TranslatePage) do |page|
 		# Assuming Finnish here. If that assumption proves to be unreliable,
 		# we can check the data msggroupid attribute instead.
@@ -41,20 +41,28 @@ Then(/^I should see list of recent translations in the proofreading view$/) do
 	end
 end
 
-When(/^I hover a project card$/) do
-	on(MainPage).project_card_element.fire_event('onmouseover')
+When(/^I hover a project tile$/) do
+	on(MainPage).project_tile_element.fire_event('onmouseover')
 end
 
-When(/^I click the "(.*?)" button on a project card$/) do |action|
-	on(MainPage).project_card_element.a(class: action.downcase).click
+When(/^I click the "(.*?)" button on a project tile$/) do |action|
+	on(MainPage).project_tile_element.a(class: action.downcase).click
 end
 
-Then(/^I should see list of messages in the the translation view$/) do
+Then(/^I should see a list of messages in the the translation view$/) do
 	on(TranslatePage).translate_mode_button_element.attribute('class').should match(/\bdown\b/)
 end
 
-Then(/^I should see list of messages in the the proofreading view$/) do
+Then(/^I should see a list of messages in the the proofreading view$/) do
 	on(TranslatePage).proofread_mode_button_element.attribute('class').should match(/\bdown\b/)
 end
 
+When(/^I click the message group selector tile$/) do
+	on(MainPage).message_group_selector_element.click
+end
 
+When(/^I click a message group$/) do
+	# The message groups load very slow, it should be speed up
+	sleep 5;
+	on(MainPage).message_group_row_element.when_visible.click
+end

@@ -29,33 +29,34 @@ Feature: View for approved users
     When I change my interface language away from English
       And I go to the main page
       And I click the "Translate" button in my personal stats
-    Then I should see list of recent messages in the translation view
+    Then I should see a list of recent messages in the translation view
 
   Scenario: Going to proofread recently changes translations
     When I change my interface language away from English
       And I go to the main page
       And I click the "Proofread" button in my personal stats
-    Then I should see list of recent translations in the proofreading view
+    Then I should see a list of recent translations in the proofreading view
 
   Scenario: Going to translate a project
     When I change my interface language away from English
       And I go to the main page
-      And I hover a project card
-      And I click the "Translate" button on a project card
-    Then I should see list of messages in the the translation view
+      And I hover a project tile
+      And I click the "Translate" button on a project tile
+    Then I should see a list of messages in the the translation view
 
   Scenario: Going to proofread a project
     When I change my interface language away from English
       And I go to the main page
-      And I hover a project card
-      And I click the "Proofread" button on a project card
-    Then I should see list of messages in the the proofreading view
+      And I hover a project tile
+      And I click the "Proofread" button on a project tile
+    Then I should see a list of messages in the the proofreading view
 
-  Scenario: Selection of a group from the message group dialog takes the user to translation view of that group
-    Given I am an approved signed-in translator on TWN
-      And I have the Message Group dialog open
-    When I click on a 'group' link from the dialog
-    Then I should be taken to the translation view
+  Scenario: Using message group selector to choose a project to translate
+    When I change my interface language away from English
+      And I go to the main page
+      And I click the message group selector tile
+      And I click a message group
+    Then I should see a list of messages in the the translation view
 
   Scenario: Users can search a message or group using the search bar
     Given I am an approved signed-in translator on TWN

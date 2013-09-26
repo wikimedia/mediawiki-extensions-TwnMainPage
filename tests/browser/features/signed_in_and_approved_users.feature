@@ -1,6 +1,5 @@
 @login
-
-Feature: Signed-in and approved Users (full featured views)
+Feature: View for approved users
 
   Sign-in and first display -> one scenario to verify if the user sees the
   expected things (language details, statistics, buttons etc ) upon log-in:
@@ -12,12 +11,10 @@ Feature: Signed-in and approved Users (full featured views)
 
   Background:
     Given I am logged in
+    When I go to the main page
 
-  Scenario: Approved users are displayed the general project statistics after sign-in
-    Given that I am an approved translator on TWN
-      And I am on the main page
-    When I successfully sign-in
-    Then I get to see the blue tiles with statistics about Projects, Translators, Messages to Translate and Languages
+  Scenario: General statistics about the site are shown
+    Then I should see general statistics about the site
 
   Scenario: Approved users are displayed the personal translation statistics after sign-in
     Given that I am an approved translator on TWN

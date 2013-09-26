@@ -58,8 +58,7 @@ Feature: View for approved users
       And I click a message group
     Then I should see a list of messages in the the translation view
 
-  Scenario: Users can search a message or group using the search bar
-    Given I am an approved signed-in translator on TWN
-    When I write a message or group in the search bar
-      And initiate the search (by clicking the button/pressing enter)
-    Then I should be taken to a page with the search results
+  Scenario: Searching for a message
+    When I go to the main page
+      And I search for "user"
+    Then I should be taken to a page with search results

@@ -66,3 +66,14 @@ When(/^I click a message group$/) do
 	sleep 5;
 	on(MainPage).message_group_row_element.when_visible.click
 end
+
+When(/^I search for "(.*?)"$/) do |query|
+	on(MainPage) do |page|
+		page.search_field = query
+		page.search_button_element.click
+	end
+end
+
+Then(/^I should be taken to a page with search results$/) do
+	on(SearchPage).number_of_results_element.should be_visible
+end

@@ -1,8 +1,8 @@
 class MainPage
-  include PageObject
+	include PageObject
 
-  include URL
-  page_url URL.url('Special:MainPage')
+	include URL
+	page_url URL.url('Special:MainPage')
 
 	div(:number_of_translators, id: 'twnmp-s-translators')
 	div(:number_of_projects, id: 'twnmp-s-projects')
@@ -17,4 +17,7 @@ class MainPage
 	div(:message_group_selector, css: '.project-tile.more')
 
 	div(:message_group_row, class: 'ext-translate-msggroup-item', index: 0)
+
+	text_field(:search_field, id: 'twnmp-search-field')
+	button(:search_button, id: 'twnmp-search-button')
 end

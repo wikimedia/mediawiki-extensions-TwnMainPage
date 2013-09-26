@@ -16,11 +16,8 @@ Feature: View for approved users
   Scenario: General statistics about the site are shown
     Then I should see general statistics about the site
 
-  Scenario: Approved users are displayed the personal translation statistics after sign-in
-    Given that I am an approved translator on TWN
-      And I am on the main page
-    When I successfully sign-in
-    Then I get to see the statistics about my personal activities for translations and revisions per month
+  Scenario: General statistics about the user's contributions are shown
+    Then I should see statistics about myself
 
   Scenario: 'Translate' button takes the user to the translation editor in a 'translation view'
     Given that I am an approved translator on TWN

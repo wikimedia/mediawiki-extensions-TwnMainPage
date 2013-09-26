@@ -1,3 +1,7 @@
+When(/I go to the main page$/) do
+	visit(MainPage)
+end
+
 Then(/^I should see general statistics about the site$/) do
 	on(MainPage) do |page|
 		page.number_of_translators_element.should be_visible
@@ -5,7 +9,6 @@ Then(/^I should see general statistics about the site$/) do
 	end
 end
 
-
-When(/I go to the main page$/) do
-	visit(MainPage)
+Then(/^I should see statistics about myself$/) do
+	on(MainPage).personal_statistics_element.should be_visible
 end

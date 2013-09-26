@@ -127,9 +127,11 @@ HTML;
 				'class' => 'row twn-mainpage-search',
 				'action' => SpecialPage::getTitleFor( 'SearchTranslations' )->getLocalUrl(),
 			) );
+
 		$out .= Html::element( 'input',
 			array(
 				'class' => 'ten columns searchbox',
+				'id' => 'twnmp-search-field',
 				// @todo move to JS, placeholders are not supported in IE
 				'placeholder' => $this->msg( 'twnmp-search-placeholder' )->text(),
 				'type' => 'search',
@@ -139,8 +141,9 @@ HTML;
 
 		$out .= Html::element( 'button',
 			array(
-				'class' => 'columns end blue button',
+				'class' => 'blue button',
 				'type' => 'submit',
+				'id' => 'twnmp-search-button',
 			),
 			$this->msg( 'twnmp-search-button' )->text() );
 		$out .= Html::closeElement( 'form' );

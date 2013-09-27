@@ -198,14 +198,15 @@ HTML;
 
 		// If this is the source language, show the number of messages.
 		// Else we load stats and statsbar with JavaScript on the client.
-		if ( $uiLanguage === $groupLanguage ) {
-			$statsHtml = Html::element(
-				'div',
-				array( 'class' => 'row project-statsbar' ),
-				$this->msg( 'twn-mainpage-total-messages-in-language' )
-					->numParams( $stats[MessageGroupStats::TOTAL] )
-					->text()
-			);
+		if (
+			$uiLanguage === $groupLanguage &&
+			// This can be null if we don't have stats available. And numParams
+			// throws ugly notice if we pass null to it.
+			$stats[MessageGroupStats::TOTAL] !== null
+		) {
+			$statsHtml = $this->msg( 'twn-mainpage-total-messages-in-language' )
+				->numParams( $stats[MessageGroupStats::TOTAL] )
+				->escaped();
 		}
 
 		// Approximate project page links while we don't have config value for them
@@ -241,8 +242,10 @@ HTML;
 			<div class="project-icon four columns">$image</div>
 			<div class="project-content eight columns">
 				<div class="row project-name" dir="auto">$label</div>
-				<div class="row project-statsbar">$statsHtml</div>
-				<div class="row project-stats"></div>
+				<div class="project-stats">
+					<div class="row project-statsbar"></div>
+					<div class="row project-statstext">$statsHtml</div>
+				</div>
 			</div>
 		</div>
 		<div class="row project-actions hide">

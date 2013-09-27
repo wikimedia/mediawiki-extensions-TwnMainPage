@@ -55,7 +55,7 @@
 		$tiles.each( function() {
 			var $tile = $( this );
 			$tile.find( '.project-statsbar' ).empty().removeData( 'languagestatsbar' );
-			$tile.find( '.project-stats' ).empty();
+			$tile.find( '.project-statstext' ).empty();
 			// Update the links to go to the correct language
 			$tile.find( '.project-actions a' ).each( function () {
 				var $this = $( this ), uri;
@@ -92,7 +92,7 @@
 				translated = stats.translated - stats.proofread;
 				translated = 100 * translated / stats.total;
 				proofread = 100 * stats.proofread / stats.total;
-				$tile.find( '.project-stats' )
+				$tile.find( '.project-statstext' )
 					.append(
 						$( '<span>' ).addClass( 'translate' )
 							.text( mw.msg( 'percent', Math.round( translated ) ) ),

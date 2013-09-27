@@ -20,4 +20,12 @@ class MainPage
 
 	text_field(:search_field, id: 'twnmp-search-field')
 	button(:search_button, id: 'twnmp-search-button')
+
+	div(:statistics_for_all_languages, class: 'twn-mainpage-alllang-stats')
+	button(:project_tile_language_selector, class: 'same-language-uls-trigger')
+
+	a(:english, text: 'English')
+	a(:polish, text: 'polski')
+
+	div(:statsbar, class: 'tux-statsbar')
 end

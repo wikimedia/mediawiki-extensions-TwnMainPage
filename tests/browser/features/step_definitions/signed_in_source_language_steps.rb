@@ -17,7 +17,7 @@ Then(/^I should see a language selector above project tiles$/) do
 end
 
 Then(/^I should see the number of messages in the project tiles$/) do
-	on(MainPage).project_tile_element.div(class: 'project-statstext').text.should match(/\d+ messages/)
+	on(MainPage).statstext_element.text.should match(/\d+ messages/)
 end
 
 When(/^I click on the project language selector$/) do
@@ -34,11 +34,15 @@ When(/^I choose "Polish" on the project language selector$/) do
 end
 
 Then(/^I should not see the number of messages in the project tiles$/) do
-	on(MainPage).project_tile_element.div(class: 'project-statstext').text.should == ''
+	on(MainPage).statstext_element.text.should == ''
 end
 
-When(/^I should see a statsbars in the project tiles$/) do
-	on(MainPage).project_tile_element.div(class: 'tux-statsbar').when_present.should be_visible
+When(/^I should see statsbars in the project tiles$/) do
+	on(MainPage).statsbar_element.when_present.should be_present
+end
+
+When(/^I should not see statsbars in the project tiles$/) do
+	on(MainPage).statsbar_element.should_not exist
 end
 
 Then(/^the target language is Polish$/) do

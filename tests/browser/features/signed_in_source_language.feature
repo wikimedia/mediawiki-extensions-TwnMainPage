@@ -13,6 +13,7 @@ Feature: Main page in the source language
     Then I should see statistics about myself across all languages
       And I should see a language selector above project tiles
       And I should see the number of messages in the project tiles
+      And I should not see statsbars in the project tiles
 
   Scenario: English cannot be selected as the translation target language
     When I click on the project language selector
@@ -21,7 +22,7 @@ Feature: Main page in the source language
   Scenario: Selecting another language for project tiles
     When I choose "Polish" on the project language selector
     Then I should not see the number of messages in the project tiles
-      And I should see a statsbars in the project tiles
+      And I should see statsbars in the project tiles
 
   Scenario: The list of messages for translation should be in the newly selected target language
     When I choose "Polish" on the project language selector

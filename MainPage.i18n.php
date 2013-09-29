@@ -75,8 +75,8 @@ $messages['qqq'] = array(
 	'twnmp-desc' => '{{desc|name=Twn Main Page}}',
 	'twnmp-mainpage' => '{{doc-special|MainPage|unlisted=1}}
 {{Identical|Main page}}',
-	'twnmp-s-translators' => 'Appears in a box on the main page.
-* $1 the relevant number.
+	'twnmp-s-translators' => 'Appears in a box on the main page. Parameters:
+* $1 - the relevant number
 
 Preceded by the number of the translators at the site.
 
@@ -89,13 +89,12 @@ Preceded by the number of the projects supported at the site.
 
 See example: [[Special:MainPage]]
 {{Identical|Project}}',
-	'twnmp-s-languages' => 'Appears in a box on the main page.
-* $1 the relevant number.
+	'twnmp-s-languages' => 'Appears in a box on the main page. Parameters:
+* $1 - number of languages, for PLURAL support
 
 Preceded by the number of the languages supported at the site.
 
-See example: [[Special:MainPage]]
-{{Identical|Language}}',
+See example: [[Special:MainPage]]',
 	'twnmp-s-messages' => 'Appears in a box on the main page.
 * $1 the relevant number.
 
@@ -171,6 +170,13 @@ See example: [[Special:MainPage]]',
 
 The link points to [[Translating:Index]].
 {{Identical|Help}}',
+	'twnmp-bottom-support' => 'Used in [[Special:MainPage]].
+
+Used as link text for the link pointing to [[Support]].
+
+Preceded by {{msg-mw|Twnmp-bottom-languages-supported}}.
+
+Followed by {{msg-mw|Twnmp-bottom-help}}.',
 	'twnmp-bottom-languages-supported' => 'A link that appears at the bottom of the main page.
 
 The link points to [[Special:SupportedLanguages]].
@@ -399,6 +405,63 @@ $messages['ca'] = array(
 	'twnmp-your-translations-stats-all-languages' => 'Totes les llengües',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'twnmp-show-more-projects' => 'Гайта ерриг проекташ...',
+	'twnmp-brand-motto' => 'Гочдаран маьрша хьост',
+	'twnmp-search-placeholder' => 'Гоч динарг лахар а нисдар а',
+	'twnmp-search-button' => 'Лаха',
+	'twnmp-search-choose-project' => 'Гочдан проект харжа',
+	'twnmp-translate-link' => 'Гоч',
+	'twnmp-translate-button' => 'Гоч',
+);
+
+/** Czech (česky)
+ * @author Mormegil
+ */
+$messages['cs'] = array(
+	'twnmp-desc' => 'Poskytuje hlavní stranu translatewiki.net',
+	'twnmp-mainpage' => 'Hlavní strana',
+	'twnmp-s-translators' => '{{PLURAL:$1|překladatel|překladatelé|překladatelů}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|projekt|projekty|projektů}}',
+	'twnmp-s-languages' => '{{PLURAL:$1|aktivní jazyk|aktivní jazyky|aktivních jazyků}}',
+	'twnmp-s-messages' => '{{PLURAL:$1|zpráva|zprávy|zpráv}} k&nbsp;překladu',
+	'twnmp-bannerwho' => 'Obrázek: $1',
+	'twnmp-show-more-projects' => 'Zobrazit další projekty…',
+	'twnmp-brand-motto' => 'Open-source překladatelská komunita',
+	'twnmp-login' => 'Přihlásit se',
+	'twnmp-logout' => 'Odhlásit se',
+	'twnmp-search-placeholder' => 'Hledat a opravit překlady',
+	'twnmp-search-button' => 'Najít',
+	'twnmp-search-choose-project' => 'Zvolte si překládaný projekt',
+	'twnmp-translate-link' => 'Překládat',
+	'twnmp-translate-button' => 'Překládat',
+	'twnmp-your-translations-stats' => 'Vaše statistika překladů',
+	'twnmp-your-translations-stats-all-languages' => 'Všechny jazyky',
+	'twnmp-your-view-language-stats' => 'Zobrazit statistiku jazyků',
+	'twnmp-translations-per-month' => 'překladů/měsíc',
+	'twnmp-translations-translator-ranking' => 'Jste {{PLURAL:$3|1={{GENDER:$1|jediný|jediná}}|$2. z $3}}<br />pro jazyk $4',
+	'twnmp-translations-translator-ranking-source' => 'Jste {{PLURAL:$3|1={{GENDER:$1|jediný|jediná}}|$2. z $3}}',
+	'twnmp-add-project' => 'Přidejte svůj open-source projekt k překladu',
+	'twnmp-bottom-help' => 'Nápověda',
+	'twnmp-bottom-support' => 'Stránka podpory',
+	'twnmp-bottom-languages-supported' => 'Podporované jazyky',
+	'twnmp-bottom-about' => 'O projektu',
+	'twnmp-signup-username-placeholder' => 'Uživatelské jméno',
+	'twnmp-signup-password-placeholder' => 'Heslo',
+	'twnmp-signup-email-placeholder' => 'E-mail',
+	'twnmp-create-account-button' => 'Vytvořit účet',
+	'twnmp-become-translator' => 'Staňte se překladatelem',
+	'twnmp-choose-languages-you-know' => 'Vyberte jazyky, které znáte',
+	'twnmp-choose-another-language' => 'Vybrat jiný jazyk…',
+	'twnmp-choose-fill-account-details' => 'Vyplňte údaje svého účtu',
+	'twnmp-stats-number-k' => '$1&nbsp;k',
+	'twnmp-select-target-language' => 'Zvolte si jazyk',
+	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Jedna zpráva|$1 zprávy|$1 zpráv}}',
+);
+
 /** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
@@ -495,10 +558,10 @@ $messages['da'] = array(
 $messages['de'] = array(
 	'twnmp-desc' => 'Stellt die translatewiki.net-Hauptseite zur Verfügung',
 	'twnmp-mainpage' => 'Hauptseite',
-	'twnmp-s-translators' => 'Übersetzer',
-	'twnmp-s-projects' => 'Projekte',
-	'twnmp-s-languages' => 'Sprachen',
-	'twnmp-s-messages' => 'Nachrichten zum Übersetzen',
+	'twnmp-s-translators' => '{{PLURAL:$1|Übersetzer}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|Projekt|Projekte}}',
+	'twnmp-s-languages' => 'Aktive {{PLURAL:$1|Sprache|Sprachen}}',
+	'twnmp-s-messages' => '{{PLURAL:$1|Nachricht|Nachrichten}} zum Übersetzen',
 	'twnmp-bannerwho' => 'Bild $1',
 	'twnmp-show-more-projects' => 'Weitere Projekte anzeigen …',
 	'twnmp-brand-motto' => 'Open-Source-Übersetzungsgemeinschaft',
@@ -508,9 +571,9 @@ $messages['de'] = array(
 	'twnmp-search-button' => 'Suchen',
 	'twnmp-search-choose-project' => 'Wähle ein Projekt zum Übersetzen',
 	'twnmp-translate-link' => 'Übersetzen',
-	'twnmp-proofread-link' => 'Korrekturlesen',
+	'twnmp-proofread-link' => 'Überprüfen',
 	'twnmp-translate-button' => 'Übersetzen',
-	'twnmp-proofread-button' => 'Korrekturlesen',
+	'twnmp-proofread-button' => 'Überprüfen',
 	'twnmp-your-translations-stats' => 'Deine Übersetzungsstatistiken',
 	'twnmp-your-translations-stats-all-languages' => 'Für alle Sprachen',
 	'twnmp-your-view-language-stats' => 'Sprachstatistiken ansehen',
@@ -536,16 +599,62 @@ $messages['de'] = array(
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Eine Nachricht|$1 Nachrichten}}',
 );
 
+/** Spanish (español)
+ * @author Ovruni
+ */
+$messages['es'] = array(
+	'twnmp-desc' => 'Proporciona la página principal de translatewiki.net',
+	'twnmp-mainpage' => 'Página principal',
+	'twnmp-s-translators' => '{{PLURAL:$1|Traductor|Traductores}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|Proyecto|Proyectos}}',
+	'twnmp-s-languages' => '{{PLURAL:$1|Idioma activo|Idiomas activos}}',
+	'twnmp-s-messages' => '{{PLURAL:$1|Mensaje|Mensajes}} para traducir',
+	'twnmp-bannerwho' => 'Imagen $1',
+	'twnmp-show-more-projects' => 'Mostrar más proyectos...',
+	'twnmp-brand-motto' => 'Comunidad de traducción de Código Abierto',
+	'twnmp-login' => 'Iniciar sesión',
+	'twnmp-logout' => 'Cerrar sesión',
+	'twnmp-search-placeholder' => 'Buscar y corregir traducciones',
+	'twnmp-search-button' => 'Buscar',
+	'twnmp-search-choose-project' => 'Elegir un proyecto para traducir',
+	'twnmp-translate-link' => 'Traducir',
+	'twnmp-proofread-link' => 'Revisar', # Fuzzy
+	'twnmp-translate-button' => 'Traducir',
+	'twnmp-proofread-button' => 'Revisar', # Fuzzy
+	'twnmp-your-translations-stats' => 'Tus estadísticas de traducción',
+	'twnmp-your-translations-stats-all-languages' => 'Para todos los idiomas',
+	'twnmp-your-view-language-stats' => 'Ver las estadísticas de idioma',
+	'twnmp-translations-per-month' => 'Traducciones/mes',
+	'twnmp-reviews-per-month' => 'Revisiones/mes',
+	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=Usted es el único<br />para el $4|{{GENDER:$1|Ubicado en el puesto}} $2 de $3<br />para el $4}}',
+	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=Usted es el único|{{GENDER:$1|Ubicado en el puesto}} $2 de $3}}',
+	'twnmp-add-project' => 'Añade tu proyecto de código abierto para su traducción',
+	'twnmp-bottom-help' => 'Ayuda',
+	'twnmp-bottom-support' => 'Servicio de soporte',
+	'twnmp-bottom-languages-supported' => 'Idiomas soportados',
+	'twnmp-bottom-about' => 'Acerca de',
+	'twnmp-signup-username-placeholder' => 'Nombre de usuario',
+	'twnmp-signup-password-placeholder' => 'Contraseña',
+	'twnmp-signup-email-placeholder' => 'Correo electrónico',
+	'twnmp-create-account-button' => 'Crear una cuenta',
+	'twnmp-become-translator' => 'Convertirse en un traductor',
+	'twnmp-choose-languages-you-know' => 'Elija los idiomas que conoce',
+	'twnmp-choose-another-language' => 'Elija otro idioma...',
+	'twnmp-choose-fill-account-details' => 'Rellene los detalles de su cuenta',
+	'twnmp-select-target-language' => 'Seleccionar idioma',
+	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Un mensaje|$1 mensajes}}',
+);
+
 /** Finnish (suomi)
  * @author Nike
  */
 $messages['fi'] = array(
 	'twnmp-desc' => 'translatewiki.netin etusivu',
 	'twnmp-mainpage' => 'Etusivu',
-	'twnmp-s-translators' => 'kääntäjää',
-	'twnmp-s-projects' => 'projektia',
-	'twnmp-s-languages' => 'kieltä',
-	'twnmp-s-messages' => 'käännettävää viestiä',
+	'twnmp-s-translators' => 'kääntäjää', # Fuzzy
+	'twnmp-s-projects' => 'projektia', # Fuzzy
+	'twnmp-s-languages' => 'kieltä', # Fuzzy
+	'twnmp-s-messages' => 'käännettävää viestiä', # Fuzzy
 	'twnmp-bannerwho' => 'Kuva $1',
 	'twnmp-show-more-projects' => 'Lisää projekteja...',
 	'twnmp-brand-motto' => 'Avoimen lähdekoodin käännösyhteisö',
@@ -555,9 +664,9 @@ $messages['fi'] = array(
 	'twnmp-search-button' => 'Etsi',
 	'twnmp-search-choose-project' => 'Valitse käännettävä projekti',
 	'twnmp-translate-link' => 'Käännä',
-	'twnmp-proofread-link' => 'Oikolue',
+	'twnmp-proofread-link' => 'Oikolue', # Fuzzy
 	'twnmp-translate-button' => 'Käännä',
-	'twnmp-proofread-button' => 'Oikolue',
+	'twnmp-proofread-button' => 'Oikolue', # Fuzzy
 	'twnmp-your-translations-stats' => 'Henkilökohtaiset käännöstilastot',
 	'twnmp-your-translations-stats-all-languages' => 'Kaikki kielet',
 	'twnmp-your-view-language-stats' => 'Näytä kielitilastot',
@@ -585,15 +694,16 @@ kielelle $4}}',
 
 /** French (français)
  * @author Gomoko
+ * @author Jean-Frédéric
  * @author Metroitendo
  */
 $messages['fr'] = array(
 	'twnmp-desc' => 'Fournit la page principale de translatewiki.net',
 	'twnmp-mainpage' => 'Accueil',
-	'twnmp-s-translators' => 'Traducteurs',
-	'twnmp-s-projects' => 'Projets',
-	'twnmp-s-languages' => 'Langues',
-	'twnmp-s-messages' => 'Messages à traduire',
+	'twnmp-s-translators' => '{{PLURAL:$1|Traducteur|Traducteurs}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|Projet|Projets}}',
+	'twnmp-s-languages' => '{{PLURAL:$1|Langue active|Langues actives}}',
+	'twnmp-s-messages' => '{{PLURAL:$1|Message|Messages}} à traduire',
 	'twnmp-bannerwho' => 'Image $1',
 	'twnmp-show-more-projects' => 'Afficher plus de projets...',
 	'twnmp-brand-motto' => 'Communauté de traduction en source libre',
@@ -603,9 +713,9 @@ $messages['fr'] = array(
 	'twnmp-search-button' => 'Rechercher',
 	'twnmp-search-choose-project' => 'Choisir un projet à traduire',
 	'twnmp-translate-link' => 'Traduire',
-	'twnmp-proofread-link' => 'Relecture',
+	'twnmp-proofread-link' => 'Relecture', # Fuzzy
 	'twnmp-translate-button' => 'Traduire',
-	'twnmp-proofread-button' => 'Corrigée',
+	'twnmp-proofread-button' => 'Relire', # Fuzzy
 	'twnmp-your-translations-stats' => 'Vos statistiques de traduction',
 	'twnmp-your-translations-stats-all-languages' => 'Pour toutes les langues',
 	'twnmp-your-view-language-stats' => 'Afficher les statistiques de langue',
@@ -636,10 +746,10 @@ $messages['fr'] = array(
 $messages['gl'] = array(
 	'twnmp-desc' => 'Proporciona a páxina principal de translatewiki.net',
 	'twnmp-mainpage' => 'Portada',
-	'twnmp-s-translators' => 'tradutores',
-	'twnmp-s-projects' => 'proxectos',
-	'twnmp-s-languages' => 'linguas',
-	'twnmp-s-messages' => 'mensaxes a traducir',
+	'twnmp-s-translators' => '{{PLURAL:$1|tradutor|tradutores}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|proxecto|proxectos}}',
+	'twnmp-s-languages' => '{{PLURAL:$1|lingua activa|linguas activas}}',
+	'twnmp-s-messages' => '{{PLURAL:$1|mensaxe|mensaxes}} a traducir',
 	'twnmp-bannerwho' => 'Imaxe $1',
 	'twnmp-show-more-projects' => 'Mostrar máis proxectos...',
 	'twnmp-brand-motto' => 'Comunidade de tradución de código aberto',
@@ -649,17 +759,19 @@ $messages['gl'] = array(
 	'twnmp-search-button' => 'Buscar',
 	'twnmp-search-choose-project' => 'Escolla un proxecto a traducir',
 	'twnmp-translate-link' => 'Traducir',
-	'twnmp-proofread-link' => 'Corrixir',
+	'twnmp-proofread-link' => 'Corrixir', # Fuzzy
 	'twnmp-translate-button' => 'Traducir',
-	'twnmp-proofread-button' => 'Corrixir',
+	'twnmp-proofread-button' => 'Corrixir', # Fuzzy
 	'twnmp-your-translations-stats' => 'As súas estatísticas de tradución',
 	'twnmp-your-translations-stats-all-languages' => 'Para todas as linguas',
 	'twnmp-your-view-language-stats' => 'Ollar as estatísticas da lingua',
 	'twnmp-translations-per-month' => 'traducións ao mes',
 	'twnmp-reviews-per-month' => 'revisións ao mes',
-	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=É {{GENDER:$1|o único|a única}}<br />en $4|Quedou $2{{GENDER:$1|º|ª}} de $3<br />en $4}}', # Fuzzy
-	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=É {{GENDER:$1|o único|a única}}|Quedou $2{{GENDER:$1|º|ª}} de $3}}', # Fuzzy
+	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=É {{GENDER:$1|o único|a única}}<br />en $4|Quedou $2{{GENDER:$1|º|ª}} de $3<br />en $4}}',
+	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=É {{GENDER:$1|o único|a única}}|Quedou $2{{GENDER:$1|º|ª}} de $3}}',
+	'twnmp-add-project' => 'Engada o seu proxecto de código aberto para a súa tradución',
 	'twnmp-bottom-help' => 'Axuda',
+	'twnmp-bottom-support' => 'A Taberna',
 	'twnmp-bottom-languages-supported' => 'Linguas soportadas',
 	'twnmp-bottom-about' => 'Acerca de',
 	'twnmp-signup-username-placeholder' => 'Nome de usuario',
@@ -681,10 +793,10 @@ $messages['gl'] = array(
 $messages['he'] = array(
 	'twnmp-desc' => 'דף ראשי עבור אתר translatewiki.net',
 	'twnmp-mainpage' => 'דף ראשי',
-	'twnmp-s-translators' => 'מתרגמים',
-	'twnmp-s-projects' => 'מיזמים',
-	'twnmp-s-languages' => 'שפות',
-	'twnmp-s-messages' => 'הודעות לתרגם',
+	'twnmp-s-translators' => '{{PLURAL:$1|מתרגם|מתרגמים}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|מיזם|מיזמים}}',
+	'twnmp-s-languages' => '{{PLURAL:$1|שפה פעילה|שפות פעילות}}',
+	'twnmp-s-messages' => '{{PLURAL:$1|הודעה|הודעות}} לתרגם',
 	'twnmp-bannerwho' => 'תמונה $1',
 	'twnmp-show-more-projects' => 'מיזמים נוספים...',
 	'twnmp-brand-motto' => 'קהילת תרגום בקוד פתוח',
@@ -694,17 +806,19 @@ $messages['he'] = array(
 	'twnmp-search-button' => 'למצוא',
 	'twnmp-search-choose-project' => 'בחירת מיזם לתרגום',
 	'twnmp-translate-link' => 'תרגום',
-	'twnmp-proofread-link' => 'הגהה',
+	'twnmp-proofread-link' => 'הגהה', # Fuzzy
 	'twnmp-translate-button' => 'תרגום',
-	'twnmp-proofread-button' => 'הגהה',
+	'twnmp-proofread-button' => 'הגהה', # Fuzzy
 	'twnmp-your-translations-stats' => 'סטטיסטיקת התרגומים שלך',
 	'twnmp-your-translations-stats-all-languages' => 'בכל השפות',
 	'twnmp-your-view-language-stats' => 'הצגת הסטטיסטיקה לשפה',
 	'twnmp-translations-per-month' => 'תרגומים לחודש',
 	'twnmp-reviews-per-month' => 'הגהות לחודש',
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1={{GENDER:$1|אתה היחיד|את היחידה}}<br />עבור $4|{{GENDER:$1|Ranked}} $2 of $3<br />for $4}}',
-	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1={{GENDER:$1|אתה היחיד|את היחידה}} כאן|{{GENDER:$1|אתה מדורג|את מדורגת}} במקום ה־$2 מתוך $3}}', # Fuzzy
+	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1={{GENDER:$1|אתה היחיד|את היחידה}} כאן|{{GENDER:$1|אתה מדורג|את מדורגת}} במקום ה־$2 מתוך $3}}',
+	'twnmp-add-project' => 'הוספת מיזם הקוד הפתוח שלך לתרגום כאן',
 	'twnmp-bottom-help' => 'עזרה',
+	'twnmp-bottom-support' => 'דלפק תמיכה',
 	'twnmp-bottom-languages-supported' => 'שפות נתמכות',
 	'twnmp-bottom-about' => 'אודות',
 	'twnmp-signup-username-placeholder' => 'שם משתמש',
@@ -736,29 +850,34 @@ $messages['hy'] = array(
 $messages['it'] = array(
 	'twnmp-desc' => 'Fornisce la pagina principale di translatewiki.net',
 	'twnmp-mainpage' => 'Pagina principale',
-	'twnmp-s-translators' => 'Traduttori',
-	'twnmp-s-projects' => 'Progetti',
-	'twnmp-s-languages' => 'Lingue',
-	'twnmp-s-messages' => 'Messaggi da tradurre',
+	'twnmp-s-translators' => '{{PLURAL:$1|Traduttore|Traduttori}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|Progetto|Progetti}}',
+	'twnmp-s-languages' => '{{PLURAL:$1|Lingua attiva|Lingue attive}}',
+	'twnmp-s-messages' => '{{PLURAL:$1|Messaggio|Messaggi}} da tradurre',
 	'twnmp-bannerwho' => 'Immagine $1',
 	'twnmp-show-more-projects' => 'Mostra altri progetti...',
 	'twnmp-brand-motto' => 'Comunità di traduzione open source',
 	'twnmp-login' => 'Entra',
+	'twnmp-logout' => 'Esci',
 	'twnmp-search-placeholder' => 'Trova e correggi le traduzioni',
 	'twnmp-search-button' => 'Trova',
 	'twnmp-search-choose-project' => 'Scegli un progetto da tradurre',
 	'twnmp-translate-link' => 'Traduci',
-	'twnmp-proofread-link' => 'Correggi',
+	'twnmp-proofread-link' => 'Correggi', # Fuzzy
 	'twnmp-translate-button' => 'Traduci',
-	'twnmp-proofread-button' => 'Correggi',
+	'twnmp-proofread-button' => 'Correggi', # Fuzzy
 	'twnmp-your-translations-stats' => 'Le tue statistiche di traduzione',
+	'twnmp-your-translations-stats-all-languages' => 'Per tutte le lingue',
 	'twnmp-your-view-language-stats' => 'Visualizza le statistiche della lingua',
 	'twnmp-translations-per-month' => 'Traduzioni nel mese',
 	'twnmp-reviews-per-month' => 'Revisioni/mese',
-	'twnmp-translations-translator-ranking' => "{{PLURAL:$3|1=Sei l'unico traduttore|{{GENDER:$1|Classificato $2º|Classificata $2ª|In posizione $2}} su $3<br />traduttori}} in $4", # Fuzzy
+	'twnmp-translations-translator-ranking' => "{{PLURAL:$3|1=Sei l'unico traduttore|{{GENDER:$1|Classificato $2º|Classificata $2ª|In posizione $2}} su $3<br />traduttori}} in $4",
+	'twnmp-translations-translator-ranking-source' => "{{PLURAL:$3|1=Sei l'unico traduttore|{{GENDER:$1|Classificato $2º|Classificata $2ª|In posizione $2}} su $3<br />traduttori}}",
+	'twnmp-add-project' => 'Aggiungi il tuo progetto open source per la traduzione',
 	'twnmp-bottom-help' => 'Aiuto',
+	'twnmp-bottom-support' => 'Supporto',
 	'twnmp-bottom-languages-supported' => 'Lingue supportate',
-	'twnmp-bottom-about' => 'A proposito di',
+	'twnmp-bottom-about' => 'Informazioni',
 	'twnmp-signup-username-placeholder' => 'Nome utente',
 	'twnmp-signup-password-placeholder' => 'Password',
 	'twnmp-signup-email-placeholder' => 'Email',
@@ -767,6 +886,8 @@ $messages['it'] = array(
 	'twnmp-choose-languages-you-know' => 'Scegli le lingue che conosci',
 	'twnmp-choose-another-language' => "Scegli un'altra lingua...",
 	'twnmp-choose-fill-account-details' => 'Inserisci i dettagli della tua utenza',
+	'twnmp-select-target-language' => 'Seleziona lingua',
+	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Un messaggio|$1 messaggi}}',
 );
 
 /** Japanese (日本語)
@@ -775,10 +896,10 @@ $messages['it'] = array(
 $messages['ja'] = array(
 	'twnmp-desc' => 'translatewiki.net のメインページを提供する',
 	'twnmp-mainpage' => 'メインページ',
-	'twnmp-s-translators' => '翻訳者',
-	'twnmp-s-projects' => 'プロジェクト',
-	'twnmp-s-languages' => '言語',
-	'twnmp-s-messages' => '翻訳対象メッセージ',
+	'twnmp-s-translators' => '{{PLURAL:$1|翻訳者}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|プロジェクト}}',
+	'twnmp-s-languages' => '活発な{{PLURAL:$1|言語}}',
+	'twnmp-s-messages' => '翻訳対象{{PLURAL:$1|メッセージ}}',
 	'twnmp-bannerwho' => '画像: $1',
 	'twnmp-show-more-projects' => 'その他のプロジェクトを表示...',
 	'twnmp-brand-motto' => 'オープンソース翻訳コミュニティ',
@@ -788,9 +909,9 @@ $messages['ja'] = array(
 	'twnmp-search-button' => '検索',
 	'twnmp-search-choose-project' => '翻訳するプロジェクトの選択',
 	'twnmp-translate-link' => '翻訳',
-	'twnmp-proofread-link' => '校正',
+	'twnmp-proofread-link' => '校正', # Fuzzy
 	'twnmp-translate-button' => '翻訳',
-	'twnmp-proofread-button' => '校正',
+	'twnmp-proofread-button' => '校正', # Fuzzy
 	'twnmp-your-translations-stats' => 'あなたの翻訳の統計',
 	'twnmp-your-translations-stats-all-languages' => 'すべての言語',
 	'twnmp-your-view-language-stats' => '言語別翻訳状況を表示',
@@ -800,6 +921,7 @@ $messages['ja'] = array(
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=翻訳者はあなたのみです|$2 {{GENDER:$1|位の翻訳者}} ($3 人中)}}',
 	'twnmp-add-project' => 'あなたのオープンソース プロジェクトを翻訳対象に追加',
 	'twnmp-bottom-help' => 'ヘルプ',
+	'twnmp-bottom-support' => 'サポート デスク',
 	'twnmp-bottom-languages-supported' => 'サポートしている言語',
 	'twnmp-bottom-about' => 'このサイトについて',
 	'twnmp-signup-username-placeholder' => '利用者名',
@@ -974,10 +1096,10 @@ $messages['ku-latn'] = array(
 $messages['lb'] = array(
 	'twnmp-desc' => "Stellt d'translatewiki.net-Haaptsäit zur Verfügung",
 	'twnmp-mainpage' => 'Haaptsäit',
-	'twnmp-s-translators' => 'Iwwersetzer',
-	'twnmp-s-projects' => 'Projeten',
-	'twnmp-s-languages' => 'Sproochen',
-	'twnmp-s-messages' => "Message fir z'iwwersetzen",
+	'twnmp-s-translators' => '{{PLURAL:$1|Iwwersetzer}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|Projet|Projeten}}',
+	'twnmp-s-languages' => '{{PLURAL:$1|Sprooch|Sproochen}}',
+	'twnmp-s-messages' => "{{PLURAL:$1|Message}} fir z'iwwersetzen",
 	'twnmp-bannerwho' => 'Bild $1',
 	'twnmp-show-more-projects' => 'Méi Projete weisen...',
 	'twnmp-brand-motto' => 'Open-Source-Iwwersetzungscommunautéit',
@@ -987,9 +1109,9 @@ $messages['lb'] = array(
 	'twnmp-search-button' => 'Fannen',
 	'twnmp-search-choose-project' => "E Projet eraussiche fir z'iwwersetzen",
 	'twnmp-translate-link' => 'Iwwersetzen',
-	'twnmp-proofread-link' => 'Iwwerliesen',
+	'twnmp-proofread-link' => 'Iwwerliesen', # Fuzzy
 	'twnmp-translate-button' => 'Iwwersetzen',
-	'twnmp-proofread-button' => 'Iwwerliesen',
+	'twnmp-proofread-button' => 'Iwwerliesen', # Fuzzy
 	'twnmp-your-translations-stats' => 'Är Statistike vun der Iwwersetzung',
 	'twnmp-your-translations-stats-all-languages' => 'Fir all Sproochen',
 	'twnmp-your-view-language-stats' => 'Sproochstatistike weisen',
@@ -1026,10 +1148,10 @@ $messages['lzh'] = array(
 $messages['mk'] = array(
 	'twnmp-desc' => 'Ја дава главната сраница на translatewiki.net',
 	'twnmp-mainpage' => 'Главна страница',
-	'twnmp-s-translators' => 'Преведувачи',
-	'twnmp-s-projects' => 'Проекти',
-	'twnmp-s-languages' => 'Јазици',
-	'twnmp-s-messages' => 'Пораки за преведување',
+	'twnmp-s-translators' => '{{PLURAL:$1|Преведувач|Преведувачи}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|Проект|Проекти}}',
+	'twnmp-s-languages' => '{{PLURAL:$1|Активен јазик|Активни јазици}}',
+	'twnmp-s-messages' => '{{PLURAL:$1|Порака|Пораки}} за преведување',
 	'twnmp-bannerwho' => 'Слика $1',
 	'twnmp-show-more-projects' => 'Прикажи уште проекти...',
 	'twnmp-brand-motto' => 'Преводна заедница за отворен код',
@@ -1039,9 +1161,9 @@ $messages['mk'] = array(
 	'twnmp-search-button' => 'Најди',
 	'twnmp-search-choose-project' => 'Одберете проект за преведување',
 	'twnmp-translate-link' => 'Преведи',
-	'twnmp-proofread-link' => 'Провери',
+	'twnmp-proofread-link' => 'Провери', # Fuzzy
 	'twnmp-translate-button' => 'Преведи',
-	'twnmp-proofread-button' => 'Провери',
+	'twnmp-proofread-button' => 'Провери', # Fuzzy
 	'twnmp-your-translations-stats' => 'Ваши преводни статистики',
 	'twnmp-your-translations-stats-all-languages' => 'За сите јазици',
 	'twnmp-your-view-language-stats' => 'Јазични статистики',
@@ -1074,10 +1196,10 @@ $messages['mk'] = array(
 $messages['ml'] = array(
 	'twnmp-desc' => 'translatewiki.net പ്രധാനതാൾ ഒരുക്കുന്നു.',
 	'twnmp-mainpage' => 'പ്രധാന താൾ',
-	'twnmp-s-translators' => 'പരിഭാഷകർ',
-	'twnmp-s-projects' => 'പദ്ധതികൾ',
-	'twnmp-s-languages' => 'ഭാഷകൾ',
-	'twnmp-s-messages' => 'തർജ്ജമയ്ക്കുള്ള സന്ദേശങ്ങൾ',
+	'twnmp-s-translators' => 'പരിഭാഷകർ', # Fuzzy
+	'twnmp-s-projects' => 'പദ്ധതികൾ', # Fuzzy
+	'twnmp-s-languages' => 'ഭാഷകൾ', # Fuzzy
+	'twnmp-s-messages' => 'തർജ്ജമയ്ക്കുള്ള സന്ദേശങ്ങൾ', # Fuzzy
 	'twnmp-bannerwho' => 'ചിത്രം $1',
 	'twnmp-show-more-projects' => 'കൂടുതൽ പദ്ധതികൾ പ്രദർശിപ്പിക്കുക...',
 	'twnmp-brand-motto' => 'ഓപ്പൺ സോഴ്സ് പരിഭാഷക സമൂഹം',
@@ -1087,16 +1209,18 @@ $messages['ml'] = array(
 	'twnmp-search-button' => 'കണ്ടെത്തുക',
 	'twnmp-search-choose-project' => 'പരിഭാഷയ്ക്കുള്ള പദ്ധതി തിരഞ്ഞെടുക്കുക',
 	'twnmp-translate-link' => 'പരിഭാഷപ്പെടുത്തുക',
-	'twnmp-proofread-link' => 'സംശോധനം ചെയ്യുക',
+	'twnmp-proofread-link' => 'സംശോധനം ചെയ്യുക', # Fuzzy
 	'twnmp-translate-button' => 'പരിഭാഷപ്പെടുത്തുക',
-	'twnmp-proofread-button' => 'സംശോധനം ചെയ്യുക',
+	'twnmp-proofread-button' => 'സംശോധനം ചെയ്യുക', # Fuzzy
 	'twnmp-your-translations-stats' => 'താങ്കളുടെ പരിഭാഷയുടെ സ്ഥിതിവിവരക്കണക്കുകൾ',
 	'twnmp-your-translations-stats-all-languages' => 'എല്ലാ ഭാഷകൾക്കും',
 	'twnmp-your-view-language-stats' => 'ഭാഷയുടെ സ്ഥിതിവിവരക്കണക്കുകൾ കാണുക',
 	'twnmp-translations-per-month' => 'പ്രതിമാസ തർജ്ജമകൾ',
 	'twnmp-reviews-per-month' => 'പ്രതിമാസ സംശോധനകൾ',
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=$4 ഭാഷയ്ക്ക് ഒരാളേയുള്ളു,<br />അത് താങ്കളാണ്|$4 ഭാഷയിൽ {{GENDER:$1|പ്രവർത്തിക്കുന്നവരിൽ}}<br />ആകെ $3 ആൾക്കാരുള്ളതിൽ സ്ഥാനം $2}}',
+	'twnmp-add-project' => 'പരിഭാഷയ്ക്കായി താങ്കളുടെ ഓപ്പൺ സോഴ്സ് പ്രൊജക്ട് ചേർക്കുക',
 	'twnmp-bottom-help' => 'സഹായം',
+	'twnmp-bottom-support' => 'സഹായമേശ',
 	'twnmp-bottom-languages-supported' => 'പിന്തുണയ്ക്കുന്ന ഭാഷകൾ',
 	'twnmp-bottom-about' => 'വിവരണം',
 	'twnmp-signup-username-placeholder' => 'ഉപയോക്തൃനാമം',
@@ -1236,10 +1360,10 @@ $messages['oc'] = array(
 $messages['ps'] = array(
 	'twnmp-desc' => 'د translatewiki.net لومړی مخ جوړوي',
 	'twnmp-mainpage' => 'لومړی مخ',
-	'twnmp-s-translators' => 'ژباړونکي',
-	'twnmp-s-projects' => 'پروژې',
-	'twnmp-s-languages' => 'ژبې',
-	'twnmp-s-messages' => 'د ژباړې پيغامونه',
+	'twnmp-s-translators' => 'ژباړونکي', # Fuzzy
+	'twnmp-s-projects' => 'پروژې', # Fuzzy
+	'twnmp-s-languages' => 'ژبې', # Fuzzy
+	'twnmp-s-messages' => 'د ژباړې پيغامونه', # Fuzzy
 	'twnmp-bannerwho' => 'انځور $1',
 	'twnmp-show-more-projects' => 'نورې پروژې ښکاره کول...',
 	'twnmp-brand-motto' => 'د پرانيستې سرچينې د ژباړې ټولنه',
@@ -1248,25 +1372,24 @@ $messages['ps'] = array(
 	'twnmp-search-button' => 'موندل',
 	'twnmp-search-choose-project' => 'د ژباړلو لپاره يوه پروژه وټاکۍ',
 	'twnmp-translate-link' => 'ژباړل',
-	'twnmp-proofread-link' => 'کره لوستنه',
+	'twnmp-proofread-link' => 'کره لوستنه', # Fuzzy
 	'twnmp-translate-button' => 'ژباړل',
-	'twnmp-proofread-button' => 'کره لوستنه',
+	'twnmp-proofread-button' => 'کره لوستنه', # Fuzzy
 	'twnmp-your-translations-stats' => 'ستاسې د ژباړې شمارنې',
 	'twnmp-your-view-language-stats' => 'د ژبې شمارنې کتل',
 	'twnmp-translations-per-month' => 'ژباړې/مياشت',
 	'twnmp-reviews-per-month' => 'بياکتنې/مياشت',
 	'twnmp-bottom-help' => 'لارښود',
-	'twnmp-bottom-special-pages' => 'ځانګړي مخونه',
 	'twnmp-bottom-languages-supported' => 'ملاتړې ژبې',
 	'twnmp-bottom-about' => 'په اړه',
 	'twnmp-signup-username-placeholder' => 'کارن-نوم',
 	'twnmp-signup-password-placeholder' => 'پټنوم',
 	'twnmp-signup-email-placeholder' => 'برېښليک',
-	'twnmp-create-account-button' => 'ګڼون جوړول',
+	'twnmp-create-account-button' => 'گڼون جوړول',
 	'twnmp-become-translator' => 'يو ژباړن شۍ',
 	'twnmp-choose-languages-you-know' => 'هغه ژبې مو چې زده دي وټاکۍ',
 	'twnmp-choose-another-language' => 'بله ژبه ټاکل...',
-	'twnmp-choose-fill-account-details' => 'د ګڼون تفصيل مو وليکۍ',
+	'twnmp-choose-fill-account-details' => 'د گڼون تفصيل مو وليکۍ',
 );
 
 /** Brazilian Portuguese (português do Brasil)
@@ -1274,10 +1397,10 @@ $messages['ps'] = array(
  */
 $messages['pt-br'] = array(
 	'twnmp-mainpage' => 'Página principal',
-	'twnmp-s-translators' => 'Tradutores',
-	'twnmp-s-projects' => 'Projetos',
-	'twnmp-s-languages' => 'Línguas',
-	'twnmp-s-messages' => 'Mensagens para traduzir',
+	'twnmp-s-translators' => '{{PLURAL:$1|Tradutor|Tradutores}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|Projeto|Projetos}}',
+	'twnmp-s-languages' => '{{PLURAL:$1|Língua ativa|Línguas ativas}}',
+	'twnmp-s-messages' => 'Mensagens para traduzir', # Fuzzy
 	'twnmp-bannerwho' => 'Imagem $1',
 	'twnmp-show-more-projects' => 'Mostrar mais projetos...',
 	'twnmp-translate-link' => 'Traduzir',
@@ -1286,7 +1409,6 @@ $messages['pt-br'] = array(
 	'twnmp-translations-per-month' => 'Traduções/mês',
 	'twnmp-reviews-per-month' => 'Revisões/mês',
 	'twnmp-bottom-help' => 'Ajuda',
-	'twnmp-bottom-special-pages' => 'Páginas especiais',
 	'twnmp-bottom-languages-supported' => 'Línguas suportadas',
 	'twnmp-bottom-about' => 'Sobre',
 	'twnmp-signup-username-placeholder' => 'Nome de usuário',
@@ -1300,10 +1422,10 @@ $messages['pt-br'] = array(
 $messages['ro'] = array(
 	'twnmp-desc' => 'Furnizează pagina principală pentru translatewiki.net',
 	'twnmp-mainpage' => 'Pagina principală',
-	'twnmp-s-translators' => 'Traducători',
-	'twnmp-s-projects' => 'Proiecte',
-	'twnmp-s-languages' => 'Limbi',
-	'twnmp-s-messages' => 'Mesaje de tradus',
+	'twnmp-s-translators' => '{{PLURAL:$1|Traducător|Traducători}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|Proiect|Proiecte}}',
+	'twnmp-s-languages' => '{{PLURAL:$1|Limbă activă|Limbi active}}',
+	'twnmp-s-messages' => '{{PLURAL:$1|Mesaj|Mesaje}} de tradus',
 	'twnmp-bannerwho' => 'Imaginea: $1',
 	'twnmp-show-more-projects' => 'Arată mai multe proiecte...',
 	'twnmp-brand-motto' => 'Comunitate de traducere cu sursă deschisă',
@@ -1313,17 +1435,19 @@ $messages['ro'] = array(
 	'twnmp-search-button' => 'Caută',
 	'twnmp-search-choose-project' => 'Alegeți un proiect pentru a traduce',
 	'twnmp-translate-link' => 'Traducere',
-	'twnmp-proofread-link' => 'Verificare',
+	'twnmp-proofread-link' => 'Verificare', # Fuzzy
 	'twnmp-translate-button' => 'Traducere',
-	'twnmp-proofread-button' => 'Verificare',
+	'twnmp-proofread-button' => 'Verificare', # Fuzzy
 	'twnmp-your-translations-stats' => 'Statisticile dv. de traducere',
 	'twnmp-your-translations-stats-all-languages' => 'Pentru toate limbile',
 	'twnmp-your-view-language-stats' => 'Vezi statisticile de limbă',
 	'twnmp-translations-per-month' => 'Traduceri/lună',
 	'twnmp-reviews-per-month' => 'Verificări/lună',
-	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=Sunteți {{GENDER:$1|singurul|singura}}<br />pentru $4|{{GENDER:$1|Clasat|Clasată}} pe locul $2 din $3<br />pentru $4}}', # Fuzzy
-	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=Sunteți {{GENDER:$1|singurul|singura}}|{{GENDER:$1|Clasat|Clasată}} pe locul $2 din $3}}', # Fuzzy
+	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=Sunteți singurul traducător<br />pentru $4|{{GENDER:$1|Clasat|Clasată}} pe locul $2 din $3<br />pentru $4}}',
+	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=Sunteți singurul traducător|{{GENDER:$1|Clasat|Clasată}} pe locul $2 din $3}}',
+	'twnmp-add-project' => 'Adăugați-vă propriul proiect cu sursă deschisă pentru traducere',
 	'twnmp-bottom-help' => 'Ajutor',
+	'twnmp-bottom-support' => 'Suport',
 	'twnmp-bottom-languages-supported' => 'Limbi întreținute',
 	'twnmp-bottom-about' => 'Despre',
 	'twnmp-signup-username-placeholder' => 'Nume de utilizator',
@@ -1344,10 +1468,10 @@ $messages['ro'] = array(
 $messages['roa-tara'] = array(
 	'twnmp-desc' => "Dèje 'a pàgene prengepàle de translatewiki.net",
 	'twnmp-mainpage' => 'Pàgena Prengepàle',
-	'twnmp-s-translators' => 'Tradutture',
-	'twnmp-s-projects' => 'Pruggette',
-	'twnmp-s-languages' => 'Lènghe',
-	'twnmp-s-messages' => 'Messàgge da traducere',
+	'twnmp-s-translators' => 'Tradutture', # Fuzzy
+	'twnmp-s-projects' => 'Pruggette', # Fuzzy
+	'twnmp-s-languages' => 'Lènghe', # Fuzzy
+	'twnmp-s-messages' => 'Messàgge da traducere', # Fuzzy
 	'twnmp-bannerwho' => 'Immaggine $1',
 	'twnmp-show-more-projects' => 'Fà vedè cchiù pruggette...',
 	'twnmp-brand-motto' => "Iapre 'a comunitate origgenale de traduzione",
@@ -1357,15 +1481,19 @@ $messages['roa-tara'] = array(
 	'twnmp-search-button' => 'Iacchie',
 	'twnmp-search-choose-project' => "Scacchie 'nu proggette da traducere",
 	'twnmp-translate-link' => 'Traduce',
-	'twnmp-proofread-link' => 'Corregge',
+	'twnmp-proofread-link' => 'Corregge', # Fuzzy
 	'twnmp-translate-button' => 'Traduce',
-	'twnmp-proofread-button' => 'Corregge',
+	'twnmp-proofread-button' => 'Corregge', # Fuzzy
 	'twnmp-your-translations-stats' => 'Le statisteche de le traduziune tune',
+	'twnmp-your-translations-stats-all-languages' => 'Pe tutte le lènghe',
 	'twnmp-your-view-language-stats' => "'Ndruche le statisteche d'a lènghe",
 	'twnmp-translations-per-month' => 'Traduziune/mese',
 	'twnmp-reviews-per-month' => 'Revisite/mese',
 	'twnmp-translations-translator-ranking' => "{{PLURAL:$3|1=Tu sì l'uneche<br />pe $4|{{GENDER:$1|Posizionate}} $2 de $3<br />pe $4}}",
+	'twnmp-translations-translator-ranking-source' => "{{PLURAL:$3|1=Tu sì l'uneche|{{GENDER:$1|Posizione}} $2 de $3}}",
+	'twnmp-add-project' => "Aggiunge 'u proggette open source tune pa traduzione",
 	'twnmp-bottom-help' => 'Aijute',
+	'twnmp-bottom-support' => 'Tavule de supporte',
 	'twnmp-bottom-languages-supported' => 'Lènghe supportate',
 	'twnmp-bottom-about' => 'Sus a',
 	'twnmp-signup-username-placeholder' => 'Nome utende',
@@ -1376,6 +1504,56 @@ $messages['roa-tara'] = array(
 	'twnmp-choose-languages-you-know' => "Scacchie 'na lènghe ca canusce",
 	'twnmp-choose-another-language' => "Scacchie 'n'otra lènghe...",
 	'twnmp-choose-fill-account-details' => "Inghie le dettaglie d'u cunde tune",
+	'twnmp-select-target-language' => "Scacchie 'a lènghe",
+	'twn-mainpage-total-messages-in-language' => "{{PLURAL:$1|'Nu messàgge|$1 messàgge}}",
+);
+
+/** Russian (русский)
+ * @author Kaganer
+ * @author Okras
+ */
+$messages['ru'] = array(
+	'twnmp-desc' => 'Текст на заглавной странице translatewiki.net',
+	'twnmp-mainpage' => 'Заглавная страница',
+	'twnmp-s-translators' => '{{PLURAL:$1|переводчик|переводчика|переводчиков}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|проект|проекта|проектов}}',
+	'twnmp-s-languages' => '{{PLURAL:$1|активный язык|активных языка|активных языков}}',
+	'twnmp-s-messages' => '{{PLURAL:$1|интерфейсное сообщение|интерфейсных сообщения|интерфейсных сообщений}} для перевода',
+	'twnmp-bannerwho' => 'Изображение: $1',
+	'twnmp-show-more-projects' => 'Показать все проекты...',
+	'twnmp-brand-motto' => 'Сообщество по переводу проектов с откртым исходным кодом',
+	'twnmp-login' => 'Войти',
+	'twnmp-logout' => 'Выйти',
+	'twnmp-search-placeholder' => 'Найти и исправить переводы',
+	'twnmp-search-button' => 'Найти',
+	'twnmp-search-choose-project' => 'Выберите проект для перевода',
+	'twnmp-translate-link' => 'Перевод',
+	'twnmp-proofread-link' => 'Вычитка', # Fuzzy
+	'twnmp-translate-button' => 'Перевод',
+	'twnmp-proofread-button' => 'Вычитка', # Fuzzy
+	'twnmp-your-translations-stats' => 'Ваша статистика переводов',
+	'twnmp-your-translations-stats-all-languages' => 'Для всех языков',
+	'twnmp-your-view-language-stats' => 'Просмотр статистики языка',
+	'twnmp-translations-per-month' => 'переведено за месяц',
+	'twnmp-reviews-per-month' => 'проверено (вычитано) за месяц',
+	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=Вы единственный<br />переводчик на $4|{{GENDER:$1|Вы}} на $2-м месте среди $3<br />{{PLURAL:$3|переводчика|переводчиков}} на $4}}',
+	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=Вы единственный|{{GENDER:$1|Вы}} на $2-м месте среди $3}}',
+	'twnmp-add-project' => 'Предложите для перевода свой проект с открытым исходным кодом',
+	'twnmp-bottom-help' => 'Помощь',
+	'twnmp-bottom-support' => 'Служба поддержки',
+	'twnmp-bottom-languages-supported' => 'Поддерживаемые языки',
+	'twnmp-bottom-about' => 'О проекте',
+	'twnmp-signup-username-placeholder' => 'Имя участника',
+	'twnmp-signup-password-placeholder' => 'Пароль',
+	'twnmp-signup-email-placeholder' => 'Эл. почта',
+	'twnmp-create-account-button' => 'Создать учётную запись',
+	'twnmp-become-translator' => 'Стать переводчиком',
+	'twnmp-choose-languages-you-know' => 'Выберите языки, которыми владеете',
+	'twnmp-choose-another-language' => 'Выберите другой язык...',
+	'twnmp-choose-fill-account-details' => 'Заполните информацию о своей учётной записи',
+	'twnmp-stats-number-k' => '$1&nbsp;тыс.',
+	'twnmp-select-target-language' => 'Выбрать язык',
+	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|$1 сообщение|$1 сообщения|$1 сообщений}}',
 );
 
 /** Slovak (slovenčina)
@@ -1390,36 +1568,48 @@ $messages['sk'] = array(
  */
 $messages['sr-ec'] = array(
 	'twnmp-mainpage' => 'Главна страна',
-	'twnmp-s-translators' => 'Преводиоци',
-	'twnmp-s-projects' => 'Пројекти',
-	'twnmp-s-languages' => 'Језици',
+	'twnmp-s-translators' => '{{PLURAL:$1|Преводилаца}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|Пројеката}}',
+	'twnmp-s-languages' => 'Активна {{PLURAL:$1|језика}}',
+	'twnmp-s-messages' => '{{PLURAL:$1|Порука}} за превођење',
 	'twnmp-bannerwho' => 'Слика $1',
+	'twnmp-show-more-projects' => 'Прикажи више пројеката...',
 	'twnmp-login' => 'Пријавите се',
+	'twnmp-logout' => 'Одјави ме',
+	'twnmp-search-placeholder' => 'Пронађите и поправите преводе',
 	'twnmp-search-button' => 'Пронађи',
+	'twnmp-search-choose-project' => 'Изаберите пројекат који желите да преводите',
 	'twnmp-translate-link' => 'Преведи',
-	'twnmp-proofread-link' => 'Провера',
+	'twnmp-proofread-link' => 'Провера', # Fuzzy
 	'twnmp-translate-button' => 'Преведи',
-	'twnmp-proofread-button' => 'Провера',
+	'twnmp-proofread-button' => 'Провера', # Fuzzy
+	'twnmp-your-translations-stats' => 'Ваша статистика превођења',
+	'twnmp-your-translations-stats-all-languages' => 'За све језике',
+	'twnmp-your-view-language-stats' => 'Статистика језика',
+	'twnmp-translations-per-month' => 'превода месечно',
+	'twnmp-reviews-per-month' => 'провера месечно',
 	'twnmp-bottom-help' => 'Помоћ',
-	'twnmp-bottom-special-pages' => 'Посебне странице',
 	'twnmp-bottom-languages-supported' => 'Подржани језици',
-	'twnmp-bottom-about' => 'О програму',
+	'twnmp-bottom-about' => 'О пројекту translatewiki.net',
 	'twnmp-signup-username-placeholder' => 'Корисничко име',
 	'twnmp-signup-password-placeholder' => 'Лозинка',
 	'twnmp-signup-email-placeholder' => 'Е-пошта',
 	'twnmp-create-account-button' => 'Отвори налог',
+	'twnmp-become-translator' => 'Постани преводилац',
+	'twnmp-select-target-language' => 'Изабери језик',
 );
 
 /** Swedish (svenska)
+ * @author Jopparn
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'twnmp-desc' => 'Tillhandahåller translatewiki.net:s huvudsida',
 	'twnmp-mainpage' => 'Huvudsida',
-	'twnmp-s-translators' => 'Översättare',
-	'twnmp-s-projects' => 'Projekt',
-	'twnmp-s-languages' => 'Språk',
-	'twnmp-s-messages' => 'Meddelanden att översätta',
+	'twnmp-s-translators' => '{{PLURAL:$1|Översättare}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|Projekt}}',
+	'twnmp-s-languages' => '{{PLURAL:$1|Aktivt|Aktiva}} språk',
+	'twnmp-s-messages' => '{{PLURAL:$1|Meddelande|Meddelanden}} att översätta',
 	'twnmp-bannerwho' => 'Bild $1',
 	'twnmp-show-more-projects' => 'Visa fler projekt...',
 	'twnmp-brand-motto' => 'Gemenskap för översättningar med öppen källkod',
@@ -1429,16 +1619,19 @@ $messages['sv'] = array(
 	'twnmp-search-button' => 'Hitta',
 	'twnmp-search-choose-project' => 'Välj ett projekt att översätta',
 	'twnmp-translate-link' => 'Översätt',
-	'twnmp-proofread-link' => 'Korrekturläs',
+	'twnmp-proofread-link' => 'Korrekturläs', # Fuzzy
 	'twnmp-translate-button' => 'Översätt',
-	'twnmp-proofread-button' => 'Korrekturläs',
+	'twnmp-proofread-button' => 'Korrekturläs', # Fuzzy
 	'twnmp-your-translations-stats' => 'Din översättningsstatistik',
 	'twnmp-your-translations-stats-all-languages' => 'För alla språk',
 	'twnmp-your-view-language-stats' => 'Visa språkstatistik',
 	'twnmp-translations-per-month' => 'Översättningar/månad',
 	'twnmp-reviews-per-month' => 'Granskningar/månad',
-	'twnmp-translations-translator-ranking' => '{{GENDER:$1|Rankad}} som $2 av $3 översättare<br />på $4', # Fuzzy
+	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=Du är den enda på $4<br />|{{GENDER:$1|med rank}} $2 av $3<br />på $4}}',
+	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=Du är den enda|{{GENDER:$1|Rankad}} som nummer $2 av $3}}',
+	'twnmp-add-project' => 'Lägg till ditt projekt med öppen källkod för översättning',
 	'twnmp-bottom-help' => 'Hjälp',
+	'twnmp-bottom-support' => 'Supportavdelning',
 	'twnmp-bottom-languages-supported' => 'Språk som stöds',
 	'twnmp-bottom-about' => 'Om',
 	'twnmp-signup-username-placeholder' => 'Användarnamn',
@@ -1508,10 +1701,10 @@ $messages['te'] = array(
 $messages['uk'] = array(
 	'twnmp-desc' => 'Забезпечує головну сторінку translatewiki.net',
 	'twnmp-mainpage' => 'Головна сторінка',
-	'twnmp-s-translators' => 'перекладачів',
-	'twnmp-s-projects' => 'проектів',
-	'twnmp-s-languages' => 'мови',
-	'twnmp-s-messages' => 'повідомлень для перекладу',
+	'twnmp-s-translators' => '{{PLURAL:$1|Перекладач|Перекладачі|Перекладачів}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|Проект|Проекти|Проектів}}',
+	'twnmp-s-languages' => '{{PLURAL:$1|Активна мова|Активні мови|Активних мов}}',
+	'twnmp-s-messages' => '{{PLURAL:$1|Повідомлення|Повідомлення|Повідомлень}} для перекладу',
 	'twnmp-bannerwho' => 'Зображення $1',
 	'twnmp-show-more-projects' => 'Показати більше проектів...',
 	'twnmp-brand-motto' => 'Спільнота перекладачів відкритих вихідних кодів',
@@ -1595,46 +1788,59 @@ $messages['vi'] = array(
  * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
+	'twnmp-desc' => '提供translatewiki.net的首页',
 	'twnmp-mainpage' => '首页',
-	'twnmp-s-translators' => '译者',
-	'twnmp-s-projects' => '项目',
-	'twnmp-s-languages' => '语言',
-	'twnmp-s-messages' => '需要翻译的词条',
-	'twnmp-bannerwho' => '图片：$1',
-	'twnmp-show-more-projects' => '显示更多的项目...',
+	'twnmp-s-translators' => '{{PLURAL:$1|译者}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|项目}}',
+	'twnmp-s-languages' => '活跃{{PLURAL:$1|语言}}',
+	'twnmp-s-messages' => '可翻译{{PLURAL:$1|信息}}',
+	'twnmp-bannerwho' => '图像来源 $1',
+	'twnmp-show-more-projects' => '显示更多项目...',
+	'twnmp-brand-motto' => '开源翻译社区',
 	'twnmp-login' => '登录',
 	'twnmp-logout' => '退出',
+	'twnmp-search-placeholder' => '查找并修正译文',
 	'twnmp-search-button' => '查找',
+	'twnmp-search-choose-project' => '选择要翻译的项目',
 	'twnmp-translate-link' => '翻译',
-	'twnmp-proofread-link' => '校对',
+	'twnmp-proofread-link' => '校对', # Fuzzy
 	'twnmp-translate-button' => '翻译',
-	'twnmp-proofread-button' => '校对',
-	'twnmp-your-translations-stats' => '您的翻译统计',
+	'twnmp-proofread-button' => '校对', # Fuzzy
+	'twnmp-your-translations-stats' => '你的翻译统计',
 	'twnmp-your-translations-stats-all-languages' => '所有语言',
 	'twnmp-your-view-language-stats' => '查看语言统计',
-	'twnmp-translations-per-month' => '翻译每月',
-	'twnmp-reviews-per-month' => '复审每月',
+	'twnmp-translations-per-month' => '译文/月',
+	'twnmp-reviews-per-month' => '复查/月',
+	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=$4只有你一人|$4{{GENDER:$1|排名}}第$2，共$3人}}',
+	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=只有你一人|{{GENDER:$1|排名}}第$2，共$3人}}',
+	'twnmp-add-project' => '添加你需要翻译的开源项目',
 	'twnmp-bottom-help' => '帮助',
-	'twnmp-bottom-languages-supported' => '支持的语言',
+	'twnmp-bottom-support' => '技术支持',
+	'twnmp-bottom-languages-supported' => '语言支持',
 	'twnmp-bottom-about' => '关于',
 	'twnmp-signup-username-placeholder' => '用户名',
 	'twnmp-signup-password-placeholder' => '密码',
 	'twnmp-signup-email-placeholder' => '电子邮件',
 	'twnmp-create-account-button' => '创建账户',
+	'twnmp-become-translator' => '成为一名译者',
+	'twnmp-choose-languages-you-know' => '选择你知晓的语言',
 	'twnmp-choose-another-language' => '选择其他语言...',
+	'twnmp-choose-fill-account-details' => '填写你的账户详细信息',
 	'twnmp-select-target-language' => '选择语言',
+	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|$1个信息}}',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author Ch.Andrew
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
 	'twnmp-desc' => '提供 translatewiki.net 的主要頁面',
 	'twnmp-mainpage' => '首頁',
-	'twnmp-s-translators' => '位翻譯者',
-	'twnmp-s-projects' => '個計劃',
-	'twnmp-s-languages' => '種語言',
-	'twnmp-s-messages' => '條要翻譯的訊息',
+	'twnmp-s-translators' => '{{PLURAL:$1|位翻譯者}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|個計劃}}',
+	'twnmp-s-languages' => '活躍的{{PLURAL:$1|種語言}}',
+	'twnmp-s-messages' => '{{PLURAL:$1|則訊息}}需要翻譯',
 	'twnmp-bannerwho' => '$1的圖像',
 	'twnmp-show-more-projects' => '顯示更多的計劃...',
 	'twnmp-brand-motto' => '開源翻譯社區',
@@ -1643,16 +1849,15 @@ $messages['zh-hant'] = array(
 	'twnmp-search-button' => '尋找',
 	'twnmp-search-choose-project' => '選擇一個項目翻譯',
 	'twnmp-translate-link' => '翻譯',
-	'twnmp-proofread-link' => '校對',
+	'twnmp-proofread-link' => '校對', # Fuzzy
 	'twnmp-translate-button' => '翻譯',
-	'twnmp-proofread-button' => '校對',
+	'twnmp-proofread-button' => '校對', # Fuzzy
 	'twnmp-your-translations-stats' => '您的翻譯統計',
 	'twnmp-your-view-language-stats' => '查看語言統計資訊',
 	'twnmp-translations-per-month' => '翻譯每月',
 	'twnmp-reviews-per-month' => '檢查每月',
-	'twnmp-translations-translator-ranking' => '在$3位$4翻譯者中{{GENDER:$1|排名}}第$2',
+	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=在$4翻譯者當中<br />您是唯一的 1 位|在$3位$4翻譯者當中{{GENDER:$1|排名}}第 $2 位<br />}}',
 	'twnmp-bottom-help' => '幫助',
-	'twnmp-bottom-special-pages' => '特殊頁面',
 	'twnmp-bottom-languages-supported' => '支援的語言',
 	'twnmp-bottom-about' => '關於',
 	'twnmp-signup-username-placeholder' => '用戶名',

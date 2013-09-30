@@ -13,6 +13,12 @@ class MainPage
 	button(:proofread_recent_translations, id: 'twnmp-proofread')
 
 	div(:project_tile, class: 'project-tile', index: 0)
+	div(:statsbar) do |page|
+		page.project_tile_element.element.div(class: 'tux-statsbar')
+	end
+	div(:statstext) do |page|
+		page.project_tile_element.element.div(class: 'project-statstext')
+	end
 
 	div(:message_group_selector, css: '.project-tile.more')
 
@@ -26,6 +32,4 @@ class MainPage
 
 	a(:english, text: 'English')
 	a(:polish, text: 'polski')
-
-	div(:statsbar, class: 'tux-statsbar')
 end

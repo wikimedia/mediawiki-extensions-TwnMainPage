@@ -23,7 +23,7 @@ $messages['en'] = array(
 
 	'twnmp-bannerwho' => 'Image $1',
 
-	'twnmp-show-more-projects' => 'Show more projects...',
+	'twnmp-show-more-projects' => 'Show all projects...',
 	'twnmp-brand-motto' => 'Open source translation community',
 	'twnmp-login' => 'Log in',
 	'twnmp-logout' => 'Log out',

@@ -1,3 +1,4 @@
+@sandbox.translatewiki.net
 Feature: Users who are not signed-in (and for other scenarios common to all users)
 
   Background:

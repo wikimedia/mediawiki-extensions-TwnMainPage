@@ -1,3 +1,4 @@
+@sandbox.translatewiki.net
 Feature: Users interested in Project only
 
   This is WIP functionality.

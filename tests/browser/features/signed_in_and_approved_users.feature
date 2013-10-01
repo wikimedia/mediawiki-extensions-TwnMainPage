@@ -1,4 +1,4 @@
-@login
+@login @sandbox.translatewiki.net
 Feature: View for approved users
 
   Sign-in and first display -> one scenario to verify if the user sees the

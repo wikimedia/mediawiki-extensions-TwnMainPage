@@ -1,9 +1,5 @@
 This file contains the descriptions of the tags we use.
 
-@language
-  This tests needs support from Accept-Language header setting from the
-  webdriver.
-
 @login
   This test logs in. You can filter these tests out if you don't have an
   account available.

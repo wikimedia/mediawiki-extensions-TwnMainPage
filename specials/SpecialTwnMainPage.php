@@ -621,7 +621,9 @@ HTML;
 		$translators = count( $stats );
 		foreach ( $stats as $user => $count ) {
 			if ( $user === $myuser ) {
-				$out .= Html::element( 'div', array( 'class' => 'count' ), $count );
+				$out .= Html::element( 'div', array(
+						'class' => 'count'
+					), $this->getLanguage()->formatNum( $count ) );
 				$out .= Html::element(
 					'div',
 					array( 'class' => 'count-description' ),
@@ -662,7 +664,9 @@ HTML;
 		$translators = count( $stats );
 		foreach ( $stats as $user => $count ) {
 			if ( $user === $myuser ) {
-				$out .= Html::element( 'div', array( 'class' => 'count' ), $count );
+				$out .= Html::element( 'div', array(
+						'class' => 'count'
+					), $this->getLanguage()->formatNum( $count ) );
 				$out .= Html::element(
 					'div',
 					array( 'class' => 'count-description' ),

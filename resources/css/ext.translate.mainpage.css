@@ -129,6 +129,7 @@ body {
 .stats-number {
 	font-size: 42px;
 	opacity: 0.9;
+	line-height: 1.2em;
 }
 
 .stats-text {

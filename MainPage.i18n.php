@@ -8,21 +8,18 @@
 
 $messages = array();
 
-/** English
- * @author Nike
+/** English (English)
  * @author Amire80
+ * @author Shirayuki
  */
 $messages['en'] = array(
 	'twnmp-desc' => 'Provides the translatewiki.net main page',
 	'twnmp-mainpage' => 'Main page',
-
 	'twnmp-s-translators' => '{{PLURAL:$1|Translator|Translators}}',
 	'twnmp-s-projects' => '{{PLURAL:$1|Project|Projects}}',
 	'twnmp-s-languages' => 'Active {{PLURAL:$1|language|languages}}',
 	'twnmp-s-messages' => '{{PLURAL:$1|Message|Messages}} to translate',
-
 	'twnmp-bannerwho' => 'Image $1',
-
 	'twnmp-show-more-projects' => 'Show all projects...',
 	'twnmp-brand-motto' => 'Open source translation community',
 	'twnmp-login' => 'Log in',
@@ -34,7 +31,6 @@ $messages['en'] = array(
 	'twnmp-proofread-link' => 'Review',
 	'twnmp-translate-button' => 'Translate',
 	'twnmp-proofread-button' => 'Review',
-
 	'twnmp-your-translations-stats' => 'Your translation statistics',
 	'twnmp-your-translations-stats-all-languages' => 'For all languages',
 	'twnmp-your-view-language-stats' => 'View language statistics',
@@ -42,7 +38,6 @@ $messages['en'] = array(
 	'twnmp-reviews-per-month' => 'Reviews/month',
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=You are the only one<br />for $4|{{GENDER:$1|Ranked}} $2 of $3<br />for $4}}',
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=You are the only one|{{GENDER:$1|Ranked}} $2 of $3}}',
-
 	'twnmp-add-project' => 'Add your open source project for translation',
 	'twnmp-bottom-help' => 'Help',
 	'twnmp-bottom-support' => 'Support desk',
@@ -52,12 +47,10 @@ $messages['en'] = array(
 	'twnmp-signup-password-placeholder' => 'Password',
 	'twnmp-signup-email-placeholder' => 'Email',
 	'twnmp-create-account-button' => 'Create account',
-
 	'twnmp-become-translator' => 'Become a translator',
 	'twnmp-choose-languages-you-know' => 'Choose languages you know',
 	'twnmp-choose-another-language' => 'Choose another language...',
 	'twnmp-choose-fill-account-details' => 'Fill in your account details',
-
 	'twnmp-stats-number-k' => '$1k',
 	'twnmp-select-target-language' => 'Select language',
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|One message|$1 messages}}',
@@ -70,6 +63,7 @@ $messages['en'] = array(
  * @author Nike
  * @author Purodha
  * @author Shirayuki
+ * @author 아라
  */
 $messages['qqq'] = array(
 	'twnmp-desc' => '{{desc|name=Twn Main Page}}',
@@ -222,7 +216,9 @@ Parameters:
 
 The message should be short, to fit in the box. If you have to translate it and cannot make it short, notify [[Support]].
 
-If "k" is a good thousands marker in your language, do not translate this message.',
+If "k" is a good thousands marker in your language, do not translate this message.
+
+{{Identical|$1k}}',
 	'twnmp-select-target-language' => 'Label of button to choose a different language if current language is same as source of all message groups.
 {{Identical|Select language}}',
 	'twn-mainpage-total-messages-in-language' => 'Text displaying number of messages in a language.
@@ -490,12 +486,12 @@ $messages['cu'] = array(
 $messages['cy'] = array(
 	'twnmp-desc' => 'Yn darparu hafan translatewiki.net',
 	'twnmp-mainpage' => 'Hafan',
-	'twnmp-s-translators' => 'o gyfieithwyr',
-	'twnmp-s-projects' => 'o brosiectau',
-	'twnmp-s-languages' => 'o ieithoedd',
-	'twnmp-s-messages' => "o negeseuon i'w cyfieithu",
+	'twnmp-s-translators' => '{{PLURAL:$1|cyfieithwyr|cyfieithydd|o gyfieithwyr}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|prosiectau|prosiect|o brosiectau}}',
+	'twnmp-s-languages' => '{{PLURAL:$1|ieithoedd|iaith|o ieithoedd}} ar y gweill',
+	'twnmp-s-messages' => "{{PLURAL:$1|negeseuon|neges|o negeseuon}} i'w cyfieithu",
 	'twnmp-bannerwho' => 'Llun $1',
-	'twnmp-show-more-projects' => 'Dangos rhagor o brosiectau...',
+	'twnmp-show-more-projects' => 'Dangos yr holl brosiectau...',
 	'twnmp-brand-motto' => 'Cymuned cyfieithu meddalwedd agored',
 	'twnmp-login' => 'Mewngofnodi',
 	'twnmp-search-placeholder' => "Canfod cyfieithiadau a'u newid",
@@ -507,9 +503,8 @@ $messages['cy'] = array(
 	'twnmp-proofread-button' => 'Adolygu',
 	'twnmp-your-translations-stats' => 'Ystadegau eich gwaith cyfieithu',
 	'twnmp-your-view-language-stats' => "Ystadegau'r iaith",
-	'twnmp-translations-translator-ranking' => '{{GENDER:$1|Rhif}} $2 o ran gweithgarwch ymhlith<br />y $3 cyfieithydd $4',
+	'twnmp-translations-translator-ranking' => "{{PLURAL:$3||Chi yw'r unig cyfieithydd<br /> $4|{{GENDER:$1|Rhif}} $2 o ran gweithgarwch ymhlith<br />y $3 gyfieithydd $4|Rhif $2 o ran gweithgarwch ymhlith<br />y $3 chyfieithydd $4|Rhif $2 o ran gweithgarwch ymhlith<br />y $3 chyfieithydd $4|Rhif $2 o ran gweithgarwch ymhlith<br />y $3 cyfieithydd $4}}",
 	'twnmp-bottom-help' => 'Cymorth',
-	'twnmp-bottom-special-pages' => 'Tudalennau arbennig',
 	'twnmp-bottom-languages-supported' => 'Ieithoedd a gynhelir',
 	'twnmp-bottom-about' => 'Amdanom',
 	'twnmp-signup-username-placeholder' => 'Enw Defnyddiwr',
@@ -658,6 +653,52 @@ $messages['es'] = array(
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Un mensaje|$1 mensajes}}',
 );
 
+/** Persian (فارسی)
+ * @author Ebraminio
+ */
+$messages['fa'] = array(
+	'twnmp-desc' => 'صفحهٔ اصلی translatewiki.net فراهم می‌کند',
+	'twnmp-mainpage' => 'صفحهٔ اصلی',
+	'twnmp-s-translators' => '{{PLURAL:$1|ترجمه‌کننده}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|پروژه}}',
+	'twnmp-s-languages' => '{{PLURAL:$1|زبان}} فعال',
+	'twnmp-s-messages' => '{{PLURAL:$1|پیغام|پیغام‌ها}} برای ترجمه',
+	'twnmp-bannerwho' => 'نگارهٔ $1',
+	'twnmp-show-more-projects' => 'نمایش همهٔ پروژه‌ها...',
+	'twnmp-brand-motto' => 'اجتماع متن‌باز ترجمه',
+	'twnmp-login' => 'ورود',
+	'twnmp-logout' => 'خروج',
+	'twnmp-search-placeholder' => 'یافتن و تصحیح ترجمه‌ها',
+	'twnmp-search-button' => 'بیاب',
+	'twnmp-search-choose-project' => 'انتخاب یک پروژه برای ترجمه',
+	'twnmp-translate-link' => 'ترجمه',
+	'twnmp-proofread-link' => 'بازبینی',
+	'twnmp-translate-button' => 'ترجمه',
+	'twnmp-proofread-button' => 'بازبینی',
+	'twnmp-your-translations-stats' => 'آمار ترجمه‌های شما',
+	'twnmp-your-translations-stats-all-languages' => 'برای همهٔ زبان‌ها',
+	'twnmp-your-view-language-stats' => 'دیدن آمارهای زبان',
+	'twnmp-translations-per-month' => 'ترجمه/ماه',
+	'twnmp-reviews-per-month' => 'بازبینی/ماه',
+	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=شنا تنها کسی هستید<br />برای $4|{{GENDER:$1|رتبهٔ}} $2 از $3<br /> برای $4}}',
+	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=شما تنها کس هستید|{{GENDER:$1|رتبه‌دهی‌شده}} $2 از $3}}',
+	'twnmp-add-project' => 'افزودن پروژهٔ متن‌باز شما برای ترجمه',
+	'twnmp-bottom-help' => 'کمک',
+	'twnmp-bottom-support' => 'میز پشتبانی',
+	'twnmp-bottom-languages-supported' => 'زبان‌های پشتیبانی‌شده',
+	'twnmp-bottom-about' => 'درباره',
+	'twnmp-signup-username-placeholder' => 'نام کاربری',
+	'twnmp-signup-password-placeholder' => 'گذرواژه',
+	'twnmp-signup-email-placeholder' => 'رایانامه',
+	'twnmp-create-account-button' => 'ایجاد حساب کاربری',
+	'twnmp-become-translator' => 'مترجم شوید',
+	'twnmp-choose-languages-you-know' => 'زبانی که می‌دانید را انتخاب کنید',
+	'twnmp-choose-another-language' => 'انتخاب زبانی دیگر...',
+	'twnmp-choose-fill-account-details' => 'جزئیات حساب خود را پر کنید',
+	'twnmp-select-target-language' => 'انتخاب زبان',
+	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|یک پیغام|$1 پیغام}}',
+);
+
 /** Finnish (suomi)
  * @author Nike
  */
@@ -718,7 +759,7 @@ $messages['fr'] = array(
 	'twnmp-s-languages' => '{{PLURAL:$1|Langue active|Langues actives}}',
 	'twnmp-s-messages' => '{{PLURAL:$1|Message|Messages}} à traduire',
 	'twnmp-bannerwho' => 'Image $1',
-	'twnmp-show-more-projects' => 'Afficher plus de projets...', # Fuzzy
+	'twnmp-show-more-projects' => 'Afficher tous les projets…',
 	'twnmp-brand-motto' => 'Communauté de traduction en source libre',
 	'twnmp-login' => 'Se connecter',
 	'twnmp-logout' => 'Deconnexion',
@@ -853,6 +894,29 @@ $messages['he'] = array(
 	'twnmp-stats-number-k' => '$1 אלף',
 	'twnmp-select-target-language' => 'בחירת שפה',
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|הודעה אחת|$1 הודעות}}',
+);
+
+/** Hindi (हिन्दी)
+ * @author Santhosh.thottingal
+ */
+$messages['hi'] = array(
+	'twnmp-mainpage' => 'मुखपृष्ठ',
+	'twnmp-bannerwho' => 'छवि$1',
+	'twnmp-login' => 'लॉग इन',
+	'twnmp-logout' => 'सत्रांत',
+	'twnmp-search-button' => 'खोज',
+	'twnmp-translate-link' => 'अनुवाद',
+	'twnmp-proofread-link' => 'अवलोकन',
+	'twnmp-translate-button' => 'अनुवाद',
+	'twnmp-proofread-button' => 'अवलोकन',
+	'twnmp-your-translations-stats-all-languages' => 'सभी भाषाओं के लिए',
+	'twnmp-bottom-help' => 'सहायता',
+	'twnmp-bottom-about' => 'हमारे बारे में',
+	'twnmp-signup-username-placeholder' => 'सदस्यनाम',
+	'twnmp-signup-password-placeholder' => 'पासवर्ड',
+	'twnmp-signup-email-placeholder' => 'इ-मेल',
+	'twnmp-create-account-button' => 'खाता बनाएँ',
+	'twnmp-select-target-language' => 'भाषा चुनें',
 );
 
 /** Armenian (Հայերեն)
@@ -1149,6 +1213,7 @@ $messages['lb'] = array(
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=Dir sidd deen Eenzegen<!-- $1 -->|Plaz $2 vu(n) $3}}',
 	'twnmp-add-project' => "Setzt Ären Open-Source Projet fir d'Iwwersetzung derbäi",
 	'twnmp-bottom-help' => 'Hëllef',
+	'twnmp-bottom-support' => 'Ënnerstëtzung',
 	'twnmp-bottom-languages-supported' => 'Ënnerstëtzt Sproochen',
 	'twnmp-bottom-about' => 'Iwwer',
 	'twnmp-signup-username-placeholder' => 'Benotzernumm',
@@ -1304,32 +1369,32 @@ $messages['nb'] = array(
 
 /** Dutch (Nederlands)
  * @author Siebrand
+ * @author Southparkfan
  */
 $messages['nl'] = array(
 	'twnmp-desc' => 'Bevat de startpagina van translatewiki.net',
 	'twnmp-mainpage' => 'Startpagina',
-	'twnmp-s-translators' => 'Vertalers',
-	'twnmp-s-projects' => 'Projecten',
-	'twnmp-s-languages' => 'Talen',
-	'twnmp-s-messages' => 'Vertaaleenheden',
+	'twnmp-s-translators' => '{{PLURAL:$1|Vertaler|Vertalers}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|Project|Projecten}}',
+	'twnmp-s-languages' => 'Talen', # Fuzzy
+	'twnmp-s-messages' => 'Vertaaleenheden', # Fuzzy
 	'twnmp-bannerwho' => 'Afbeelding: $1',
-	'twnmp-show-more-projects' => 'Meer projecten weergeven...',
+	'twnmp-show-more-projects' => 'Meer projecten weergeven...', # Fuzzy
 	'twnmp-brand-motto' => 'Community voor het vertalen van open source software',
 	'twnmp-login' => 'Aanmelden',
 	'twnmp-search-placeholder' => 'Vertalingen vinden en aanpassen',
 	'twnmp-search-button' => 'Zoeken',
 	'twnmp-search-choose-project' => 'Kies een te vertalen project',
 	'twnmp-translate-link' => 'Vertalen',
-	'twnmp-proofread-link' => 'Controleren',
+	'twnmp-proofread-link' => 'Controleren', # Fuzzy
 	'twnmp-translate-button' => 'Vertalen',
-	'twnmp-proofread-button' => 'Controleren',
+	'twnmp-proofread-button' => 'Controleren', # Fuzzy
 	'twnmp-your-translations-stats' => 'Uw vertaalstatistieken',
 	'twnmp-your-view-language-stats' => 'Taalstatistieken bekijken',
 	'twnmp-translations-per-month' => 'Vertalingen/maand',
 	'twnmp-reviews-per-month' => 'Gecontroleerd/maand',
-	'twnmp-translations-translator-ranking' => '{{GENDER:$1|Positie}} $2 van $3 vertalers<br />in het $4',
+	'twnmp-translations-translator-ranking' => '{{GENDER:$1|Positie}} $2 van $3 vertalers<br />in het $4', # Fuzzy
 	'twnmp-bottom-help' => 'Hulp',
-	'twnmp-bottom-special-pages' => "Speciale pagina's",
 	'twnmp-bottom-languages-supported' => 'Ondersteunde talen',
 	'twnmp-bottom-about' => 'Over',
 	'twnmp-signup-username-placeholder' => 'Gebruikersnaam',
@@ -1388,10 +1453,10 @@ $messages['oc'] = array(
 $messages['ps'] = array(
 	'twnmp-desc' => 'د translatewiki.net لومړی مخ جوړوي',
 	'twnmp-mainpage' => 'لومړی مخ',
-	'twnmp-s-translators' => 'ژباړونکي', # Fuzzy
-	'twnmp-s-projects' => 'پروژې', # Fuzzy
-	'twnmp-s-languages' => 'ژبې', # Fuzzy
-	'twnmp-s-messages' => 'د ژباړې پيغامونه', # Fuzzy
+	'twnmp-s-translators' => '{{PLURAL:$1|ژباړن|ژباړونکي}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|پروژه|پروژې}}',
+	'twnmp-s-languages' => '{{PLURAL:$1|فعاله ژبه|فعالې ژبې}}',
+	'twnmp-s-messages' => 'د ژباړې {{PLURAL:$1|پيغام|پيغامونه}}',
 	'twnmp-bannerwho' => 'انځور $1',
 	'twnmp-show-more-projects' => 'ټولې پروژې ښکاره کول...',
 	'twnmp-brand-motto' => 'د پرانيستې سرچينې د ژباړې ټولنه',
@@ -1780,7 +1845,7 @@ $messages['uk'] = array(
 	'twnmp-s-languages' => '{{PLURAL:$1|Активна мова|Активні мови|Активних мов}}',
 	'twnmp-s-messages' => '{{PLURAL:$1|Повідомлення|Повідомлення|Повідомлень}} для перекладу',
 	'twnmp-bannerwho' => 'Зображення $1',
-	'twnmp-show-more-projects' => 'Показати більше проектів...', # Fuzzy
+	'twnmp-show-more-projects' => 'Показати усі проекти...',
 	'twnmp-brand-motto' => 'Спільнота перекладачів відкритих вихідних кодів',
 	'twnmp-login' => 'Увійти',
 	'twnmp-logout' => 'Вихід',
@@ -1895,7 +1960,7 @@ $messages['zh-hans'] = array(
 	'twnmp-reviews-per-month' => '复查/月',
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=$4只有你一人|$4{{GENDER:$1|排名}}第$2，共$3人}}',
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=只有你一人|{{GENDER:$1|排名}}第$2，共$3人}}',
-	'twnmp-add-project' => '新增您需要翻譯的開源專案',
+	'twnmp-add-project' => '添加你需要翻译的开源项目',
 	'twnmp-bottom-help' => '帮助',
 	'twnmp-bottom-support' => '技术支持',
 	'twnmp-bottom-languages-supported' => '语言支持',

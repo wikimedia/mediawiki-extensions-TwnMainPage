@@ -344,7 +344,7 @@ HTML;
 
 		$count = 0;
 		foreach ( $res as $row ) {
-			// TODO: this has awful performance
+			// @todo FIXME: This has awful performance
 			if ( Language::isKnownLanguageTag( $row->lang ) ) {
 				$count++;
 			}
@@ -621,16 +621,18 @@ HTML;
 		$translators = count( $stats );
 		foreach ( $stats as $user => $count ) {
 			if ( $user === $myuser ) {
-				$out .= Html::element( 'div', array(
-						'class' => 'count'
-					), $this->getLanguage()->formatNum( $count ) );
+				$out .= Html::element(
+					'div',
+					array( 'class' => 'count' ),
+					$this->getLanguage()->formatNum( $count )
+				);
 				$out .= Html::element(
 					'div',
 					array( 'class' => 'count-description' ),
 					$this->msg( 'twnmp-translations-per-month' )->text()
 				);
 
-				// TODO: When refactoring, $languageName should not be used
+				// @todo When refactoring, $languageName should not be used
 				// when using the message for the source page
 				$msg = $this->msg( $translationStatsRankingMsg )
 					->params( $myuser, $i, $translators, $languageName )
@@ -664,16 +666,18 @@ HTML;
 		$translators = count( $stats );
 		foreach ( $stats as $user => $count ) {
 			if ( $user === $myuser ) {
-				$out .= Html::element( 'div', array(
-						'class' => 'count'
-					), $this->getLanguage()->formatNum( $count ) );
+				$out .= Html::element(
+					'div',
+					array( 'class' => 'count' ),
+					$this->getLanguage()->formatNum( $count )
+				);
 				$out .= Html::element(
 					'div',
 					array( 'class' => 'count-description' ),
 					$this->msg( 'twnmp-reviews-per-month' )->text()
 				);
 
-				// TODO: When refactoring, $languageName should not be used
+				// @todo When refactoring, $languageName should not be used
 				// when using the message for the source page
 				$msg = $this->msg( $translationStatsRankingMsg )
 					->params( $myuser, $i, $translators, $languageName )

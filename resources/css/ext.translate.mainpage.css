@@ -23,6 +23,7 @@ body {
 .twn-mainpage-header .twn-mainpage-personal-actions {
 	padding-right: 20px;
 	text-align: right;
+	line-height: 1em;
 }
 
 .twn-mainpage-header .uls-trigger {

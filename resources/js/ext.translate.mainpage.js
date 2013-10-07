@@ -95,9 +95,11 @@
 				$tile.find( '.project-statstext' )
 					.append(
 						$( '<span>' ).addClass( 'translate' )
-							.text( mw.msg( 'percent', Math.round( translated ) ) ),
+							.text( mw.msg( 'percent',
+								mw.language.convertNumber( Math.round( translated ) ) ) ),
 						$( '<span>' ).addClass( 'proofread' )
-							.text( mw.msg( 'percent', Math.round( proofread ) ) )
+							.text( mw.msg( 'percent',
+								mw.language.convertNumber( Math.round( proofread ) ) ) )
 					);
 			} );
 		} );

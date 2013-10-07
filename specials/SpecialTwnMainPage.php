@@ -653,8 +653,9 @@ HTML;
 
 				// @todo When refactoring, $languageName should not be used
 				// when using the message for the source page
-				$msg = $this->msg( $translationStatsRankingMsg )
-					->params( $myuser, $i, $translators, $languageName )
+				$msg = $this->msg( $translationStatsRankingMsg, $myuser )
+					->numParams( $i, $translators )
+					->params( $languageName )
 					->plain();
 				$wrap = new RawMessage( "<div class='rank-description'>$msg</div>" );
 				$out .= $wrap->parse();
@@ -698,8 +699,9 @@ HTML;
 
 				// @todo When refactoring, $languageName should not be used
 				// when using the message for the source page
-				$msg = $this->msg( $translationStatsRankingMsg )
-					->params( $myuser, $i, $translators, $languageName )
+				$msg = $this->msg( $translationStatsRankingMsg, $myuser )
+					->numParams( $i, $translators )
+					->params( $languageName )
 					->plain();
 				$wrap = new RawMessage( "<div class='rank-description'>$msg</div>" );
 				$out .= $wrap->parse();

@@ -192,6 +192,7 @@ body {
 	background: transparent url(../images/user-small.png) no-repeat scroll left center;
 	background-image: -webkit-linear-gradient(transparent, transparent), url(../images/user-small.svg);
 	background-image: -moz-linear-gradient(transparent, transparent), url(../images/user-small.svg);
+	/* @embed */
 	background-image: linear-gradient(transparent, transparent), url(../images/user-small.svg);
 	background-position: bottom left;
 	background-size: 75px;
@@ -501,10 +502,10 @@ button.button.green:active {
 .twn-mainpage-search:before {
 	display: inline-block;
 	content: "";
-	/* @embed */
 	background: #252525 url(../images/search.png) no-repeat scroll left center;
 	background-image: -webkit-linear-gradient(transparent, transparent), url(../images/search.svg);
 	background-image: -moz-linear-gradient(transparent, transparent), url(../images/search.svg);
+	/* @embed */
 	background-image: linear-gradient(transparent, transparent), url(../images/search.svg);
 	background-size: 30px;
 	height: 30px;

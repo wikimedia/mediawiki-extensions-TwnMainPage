@@ -499,6 +499,7 @@ $messages['cy'] = array(
 	'twnmp-show-more-projects' => 'Dangos yr holl brosiectau...',
 	'twnmp-brand-motto' => 'Cymuned cyfieithu meddalwedd agored',
 	'twnmp-login' => 'Mewngofnodi',
+	'twnmp-logout' => 'Allgofnoder',
 	'twnmp-search-placeholder' => "Canfod cyfieithiadau a'u newid",
 	'twnmp-search-button' => 'Canfydder',
 	'twnmp-search-choose-project' => "Dewis prosiect i'w gyfieithu",
@@ -507,9 +508,15 @@ $messages['cy'] = array(
 	'twnmp-translate-button' => 'Cyfieithu',
 	'twnmp-proofread-button' => 'Adolygu',
 	'twnmp-your-translations-stats' => 'Ystadegau eich gwaith cyfieithu',
+	'twnmp-your-translations-stats-all-languages' => "I'r holl ieithoedd",
 	'twnmp-your-view-language-stats' => "Ystadegau'r iaith",
+	'twnmp-translations-per-month' => 'Cyfieithiadau bob mis',
+	'twnmp-reviews-per-month' => 'Adogyliadau bob mis',
 	'twnmp-translations-translator-ranking' => "{{PLURAL:$3||Chi yw'r unig cyfieithydd<br /> $4|{{GENDER:$1|Rhif}} $2 o ran gweithgarwch ymhlith<br />y $3 gyfieithydd $4|Rhif $2 o ran gweithgarwch ymhlith<br />y $3 chyfieithydd $4|Rhif $2 o ran gweithgarwch ymhlith<br />y $3 chyfieithydd $4|Rhif $2 o ran gweithgarwch ymhlith<br />y $3 cyfieithydd $4}}",
+	'twnmp-translations-translator-ranking-source' => "{{PLURAL:$3|1=Chi yw'r unig un|{{GENDER:$1|Rhif}} $2 o $3}}",
+	'twnmp-add-project' => "Ychwanegwch eich prosiect cynnwys agored i'w gyfieithu yma",
 	'twnmp-bottom-help' => 'Cymorth',
+	'twnmp-bottom-support' => 'Y ddesg gymorth',
 	'twnmp-bottom-languages-supported' => 'Ieithoedd a gynhelir',
 	'twnmp-bottom-about' => 'Amdanom',
 	'twnmp-signup-username-placeholder' => 'Enw Defnyddiwr',
@@ -521,6 +528,8 @@ $messages['cy'] = array(
 	'twnmp-choose-another-language' => 'Dewis iaith arall...',
 	'twnmp-choose-fill-account-details' => 'Rhoi manylion eich cyfrif',
 	'twnmp-stats-number-k' => '$1 mil',
+	'twnmp-select-target-language' => 'Dewis iaith',
+	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|$1 neges}}',
 );
 
 /** Danish (dansk)
@@ -659,6 +668,7 @@ $messages['es'] = array(
 
 /** Persian (فارسی)
  * @author Ebraminio
+ * @author Omidh
  */
 $messages['fa'] = array(
 	'twnmp-desc' => 'صفحهٔ اصلی translatewiki.net فراهم می‌کند',
@@ -1602,6 +1612,7 @@ $messages['roa-tara'] = array(
 
 /** Russian (русский)
  * @author Kaganer
+ * @author Lockal
  * @author Okras
  */
 $messages['ru'] = array(
@@ -1628,7 +1639,7 @@ $messages['ru'] = array(
 	'twnmp-your-view-language-stats' => 'Просмотр статистики языка',
 	'twnmp-translations-per-month' => 'переведено за месяц',
 	'twnmp-reviews-per-month' => 'проверено (вычитано) за месяц',
-	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=Вы единственный<br />переводчик на $4|{{GENDER:$1|Вы}} на $2-м месте среди $3<br />{{PLURAL:$3|переводчика|переводчиков}} на $4}}',
+	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=Вы единственный<br />переводчик на $4|{{GENDER:$1|Вы}} на $2-м месте среди $3<br />{{PLURAL:$3|переводчика|переводчиков|переводчиков}} на $4}}',
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=Вы единственный|{{GENDER:$1|Вы}} на $2-м месте среди $3}}',
 	'twnmp-add-project' => 'Предложите для перевода свой проект с открытым исходным кодом',
 	'twnmp-bottom-help' => 'Помощь',

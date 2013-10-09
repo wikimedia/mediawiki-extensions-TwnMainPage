@@ -39,6 +39,11 @@ $specialPageAliases['fa'] = array(
 	'TwnMainPage' => array( 'صفحهٔ_اصلی' ),
 );
 
+/** Galician (galego) */
+$specialPageAliases['gl'] = array(
+	'TwnMainPage' => array( 'Portada' ),
+);
+
 /** Japanese (日本語) */
 $specialPageAliases['ja'] = array(
 	'TwnMainPage' => array( 'メインページ' ),

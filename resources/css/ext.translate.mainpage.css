@@ -95,7 +95,7 @@ body {
 
 .stats-tile {
 	background-color: #3366BB;
-	background-color: rgba(51,102,187,0.9);
+	background-color: rgba(51, 102, 187, 0.9);
 	color: white;
 	height: 130px;
 	margin: auto;
@@ -124,7 +124,7 @@ body {
 }
 
 .unused.stats-tile {
-	background-color: rgba(51,102,187,0.3);
+	background-color: rgba(51, 102, 187, 0.3);
 }
 
 .stats-number {
@@ -152,7 +152,6 @@ body {
 .main-widget label {
 	font-size: 16px;
 }
-
 
 .main-widget .row input {
 	padding: 6px;
@@ -584,6 +583,7 @@ button.button.green:active {
 	cursor: pointer;
 	font-size: 14px;
 }
+
 .same-language-uls-trigger:hover {
 	border-color: #AAAAAA;
 }

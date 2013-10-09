@@ -48,11 +48,11 @@
 	/**
 	 * Show the message group stats bars.
 	 */
-	function showMessageGroupStats ( language ) {
+	function showMessageGroupStats( language ) {
 		var $tiles = $( '.project-tile' );
 
 		// Clear current numbers first so they don't stay if something goes wrong
-		$tiles.each( function() {
+		$tiles.each( function () {
 			var $tile = $( this );
 			$tile.find( '.project-statsbar' ).empty().removeData( 'languagestatsbar' );
 			$tile.find( '.project-statstext' ).empty();
@@ -66,7 +66,7 @@
 		} );
 
 		mw.translate.loadLanguageStats( language ).done( function () {
-			$tiles.each( function() {
+			$tiles.each( function () {
 				var $tile = $( this ),
 					translated, proofread,
 					$statsbar = $tile.find( '.project-statsbar' ),
@@ -96,7 +96,7 @@
 					.append(
 						$( '<span>' ).addClass( 'translate' )
 							.text( mw.msg( 'percent', Math.round( translated ) ) ),
-						$( '<span>' ).addClass('proofread')
+						$( '<span>' ).addClass( 'proofread' )
 							.text( mw.msg( 'percent', Math.round( proofread ) ) )
 					);
 			} );
@@ -106,7 +106,7 @@
 	/**
 	 * Setup the project tiles in the main page.
 	 */
-	function setupProjectTiles () {
+	function setupProjectTiles() {
 		var language = mw.config.get( 'wgUserLanguage' ),
 			$selector,
 			$tiles = $( '.project-tile' );
@@ -175,7 +175,7 @@
 		$tiles.eq( 7 ).replaceWith( $selector );
 	}
 
-	function signupLanguageSelector () {
+	function signupLanguageSelector() {
 		$( '.signup-language-selector' ).uls( {
 			onSelect: function ( language ) {
 				if ( $( '#language-' + language ).length ) {

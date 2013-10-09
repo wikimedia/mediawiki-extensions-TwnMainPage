@@ -60,7 +60,6 @@ class CachedStatTest extends PHPUnit_Framework_TestCase {
 		$cacher->setCache( $stub );
 		$this->assertEquals( null, $cacher->get() );
 	}
-
 }
 
 class NullUpdater {

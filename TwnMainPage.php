@@ -50,7 +50,7 @@ $wgHooks['UnitTestsList'][] = function ( &$files ) {
 	$dir = new RecursiveDirectoryIterator( __DIR__ . '/tests/phpunit' );
 	$ite = new RecursiveIteratorIterator( $dir );
 	$matches = new RegexIterator( $ite, '/.*Test\.php/', RegexIterator::GET_MATCH );
-	foreach( $matches as $file ) {
+	foreach ( $matches as $file ) {
 		$files = array_merge( $files, $file );
 	}
 

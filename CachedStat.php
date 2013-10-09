@@ -75,6 +75,7 @@ class CachedStat implements DeferrableUpdate {
 		if ( !is_array( $value ) ) {
 			if ( $this->onMiss !== 'update' ) {
 				CachedStatJob::newJob( $this )->insert();
+
 				return null;
 			} else {
 				return $this->doUpdate();

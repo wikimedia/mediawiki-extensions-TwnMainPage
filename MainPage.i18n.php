@@ -427,6 +427,9 @@ $messages['ce'] = array(
 	'twnmp-search-choose-project' => 'Гочдан проект харжа',
 	'twnmp-translate-link' => 'Гоч',
 	'twnmp-translate-button' => 'Гоч',
+	'twnmp-translations-per-month' => 'Батта чохь гоч йина',
+	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=Хьо цхьаъ<br />ву/ю гочдархо $4|{{GENDER:$1|Хьа}} $2- меттиг ю $3 юкъехь<br />{{PLURAL:$3|гочдархо|гочдархой}} $4}}',
+	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=Хьо цхьаъ ву/ю гочдархо|{{GENDER:$1|Хьа}} $2- меттиг ю $3 юкъехь}}',
 );
 
 /** Czech (česky)

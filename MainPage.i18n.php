@@ -420,16 +420,25 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'twnmp-s-translators' => '{{PLURAL:$1|гочдархо|гочдархой}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|проект|проекташ}}',
+	'twnmp-s-languages' => '{{PLURAL:$1|жигара мотт|жигара меттанаш}}',
+	'twnmp-s-messages' => '{{PLURAL:$1|интерфейсан гочдан хаам|интерфейсан гочдан хаамаш}}',
+	'twnmp-bannerwho' => 'Сурт: $1',
 	'twnmp-show-more-projects' => 'Гайта ерриг проекташ...', # Fuzzy
 	'twnmp-brand-motto' => 'Гочдаран маьрша хьост',
+	'twnmp-logout' => 'Болх дӀаберзор',
 	'twnmp-search-placeholder' => 'Гоч динарг лахар а нисдар а',
 	'twnmp-search-button' => 'Лаха',
 	'twnmp-search-choose-project' => 'Гочдан проект харжа',
 	'twnmp-translate-link' => 'Гоч',
 	'twnmp-translate-button' => 'Гоч',
+	'twnmp-your-translations-stats' => 'Хьан гочдаршан статистика',
+	'twnmp-your-view-language-stats' => 'Меттан статистике хьажар',
 	'twnmp-translations-per-month' => 'Батта чохь гоч йина',
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=Хьо цхьаъ<br />ву/ю гочдархо $4|{{GENDER:$1|Хьа}} $2- меттиг ю $3 юкъехь<br />{{PLURAL:$3|гочдархо|гочдархой}} $4}}',
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=Хьо цхьаъ ву/ю гочдархо|{{GENDER:$1|Хьа}} $2- меттиг ю $3 юкъехь}}',
+	'twnmp-stats-number-k' => '$1&nbsp;эза.',
 );
 
 /** Czech (česky)

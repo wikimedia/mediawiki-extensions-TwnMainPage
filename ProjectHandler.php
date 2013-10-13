@@ -4,11 +4,11 @@
  *
  * @file
  * @author Niklas Laxström
- * @license GPL2+
+ * @license GPL-2.0+
  */
 
 class ProjectHandler {
-	public static function getProjects() {
+	public function getProjects() {
 		$projects = array();
 		$groups = MessageGroups::getGroupStructure();
 
@@ -34,7 +34,7 @@ class ProjectHandler {
 	 * @param string $language Language code.
 	 * @param array $stats Message group stats.
 	 */
-	public static function sortByPriority( &$groups, $language, array $stats ) {
+	public function sortByPriority( &$groups, $language, array $stats ) {
 		foreach ( $groups as $index => $g ) {
 			$supported = $g->getTranslatableLanguages();
 			if ( is_array( $supported ) && !isset( $supported[$language] ) ) {

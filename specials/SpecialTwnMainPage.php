@@ -22,6 +22,14 @@ class SpecialTwnMainPage extends SpecialPage {
 		return $this->msg( 'twnmp-mainpage' )->text();
 	}
 
+	protected function getProjectHandler() {
+		if ( !isset( $this->projectHandler ) ) {
+			$this->projectHandler = new ProjectHandler();
+		}
+
+		return $this->projectHandler;
+	}
+
 	public function execute( $parameters ) {
 		$out = $this->getOutput();
 		$skin = $this->getSkin();
@@ -52,6 +60,19 @@ class SpecialTwnMainPage extends SpecialPage {
 		$out->addJsConfigVars( 'wgULSPosition', 'personal' );
 
 		$out->addHTML( $out->headElement( $skin ) );
+
+		$this->makeContent();
+
+		// Enable this if you need useful debugging information
+		// $out->addHtml( MWDebug::getDebugHTML( $this->getContext() ) );
+		wfRunHooks( 'BeforePageDisplay', array( &$out, &$skin ) );
+		$out->addHTML( $skin->bottomScripts() );
+		$out->addHTML( '</body></html>' );
+	}
+
+	public function makeContent() {
+		$out = $this->getOutput();
+
 		$out->addHTML( Html::openElement(
 			'div',
 			array( 'class' => 'grid twn-mainpage' )
@@ -62,11 +83,6 @@ class SpecialTwnMainPage extends SpecialPage {
 		$out->addHTML( $this->projectSelector() );
 		$out->addHTML( $this->footer() );
 		$out->addHTML( Html::closeElement( 'div' ) ); // grid twn-mainpage
-		// Enable this if you need useful debugging information
-		// $out->addHtml( MWDebug::getDebugHTML( $this->getContext() ) );
-		wfRunHooks( 'BeforePageDisplay', array( &$out, &$skin ) );
-		$out->addHTML( $skin->bottomScripts() );
-		$out->addHTML( '</body></html>' );
 	}
 
 	public function header() {
@@ -169,11 +185,12 @@ HTML;
 			)
 		);
 
-		$projects = ProjectHandler::getProjects();
+		$handler = $this->getProjectHandler();
+		$projects = $handler->getProjects();
 		$language = $this->getLanguage()->getCode();
 		MessageGroupStats::setTimeLimit( 1 );
 		$stats = MessageGroupStats::forLanguage( $language );
-		ProjectHandler::sortByPriority( $projects, $language, $stats );
+		$handler->sortByPriority( $projects, $language, $stats );
 
 		$tiles = array();
 
@@ -354,8 +371,8 @@ HTML;
 	}
 
 	// Callback for CachedStat
-	public static function getTwnStats() {
-		$projects = count( ProjectHandler::getProjects() );
+	public static function getTwnStats( ProjectHandler $handler ) {
+		$projects = count( $handler->getProjects() );
 		$translators = SiteStats::numberingroup( 'translator' );
 		$messages = count( MessageIndex::singleton()->retrieve() );
 		$languages = self::numberOfLanguages( 180 );
@@ -379,8 +396,10 @@ HTML;
 	public function twnStats() {
 		$stale = 60 * 60 * 6;
 		$expired = 60 * 60 * 24;
+		$handler = $this->getProjectHandler();
+
 		$cacher = new CachedStat( 'twnstats', $stale, $expired,
-			array( 'SpecialTwnMainPage::getTwnStats' ), 'allow miss' );
+			array( 'SpecialTwnMainPage::getTwnStats', $handler ), 'allow miss' );
 		$stats = $cacher->get();
 
 		$data = array(

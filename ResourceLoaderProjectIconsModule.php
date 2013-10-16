@@ -18,7 +18,8 @@ class ResourceLoaderProjectIconsModule extends ResourceLoaderModule {
 	 * @return array
 	 */
 	protected function getData() {
-		$projects = ProjectHandler::getProjects();
+		$handler = new ProjectHandler();
+		$projects = $handler->getProjects();
 		$icons = array();
 		foreach ( $projects as $group ) {
 			wfSuppressWarnings();

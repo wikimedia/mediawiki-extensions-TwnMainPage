@@ -546,6 +546,7 @@ $messages['cy'] = array(
 );
 
 /** Danish (dansk)
+ * @author Christian List
  * @author Peter Alberti
  */
 $messages['da'] = array(
@@ -557,7 +558,7 @@ $messages['da'] = array(
 	'twnmp-s-messages' => 'Beskeder at oversætte', # Fuzzy
 	'twnmp-bannerwho' => 'Billede $1',
 	'twnmp-show-more-projects' => 'Vis flere projekter...', # Fuzzy
-	'twnmp-brand-motto' => 'Open source-oversættelsesfællesskab',
+	'twnmp-brand-motto' => 'Fællesskab for oversættelse af open source',
 	'twnmp-login' => 'Log på',
 	'twnmp-search-placeholder' => 'Find og ret oversættelser',
 	'twnmp-search-button' => 'Find',
@@ -727,6 +728,7 @@ $messages['fa'] = array(
 );
 
 /** Finnish (suomi)
+ * @author Crt
  * @author Nike
  */
 $messages['fi'] = array(
@@ -737,7 +739,7 @@ $messages['fi'] = array(
 	'twnmp-s-languages' => 'kieltä', # Fuzzy
 	'twnmp-s-messages' => 'käännettävää viestiä', # Fuzzy
 	'twnmp-bannerwho' => 'Kuva $1',
-	'twnmp-show-more-projects' => 'Lisää projekteja...', # Fuzzy
+	'twnmp-show-more-projects' => 'Näytä kaikki projektit...',
 	'twnmp-brand-motto' => 'Avoimen lähdekoodin käännösyhteisö',
 	'twnmp-login' => 'Kirjaudu sisään',
 	'twnmp-logout' => 'Kirjaudu ulos',

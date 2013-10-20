@@ -238,7 +238,8 @@ HTML;
 			$linked = 'linked';
 		}
 
-		$image = Html::element( 'div', array( 'class' => "project-icon-$id" ) );
+		$class = 'project-icon-' . Sanitizer::escapeClass( $id );
+		$image = Html::element( 'div', array( 'class' => $class ) );
 		$label = htmlspecialchars( $group->getLabel( $this->getContext() ) );
 
 		$title = SpecialPage::getTitleFor( 'Translate' );

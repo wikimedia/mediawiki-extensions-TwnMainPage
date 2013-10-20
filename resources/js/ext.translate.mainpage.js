@@ -110,6 +110,7 @@
 	 */
 	function setupProjectTiles() {
 		var language = mw.config.get( 'wgUserLanguage' ),
+			maxProjectTiles = mw.config.get( 'maxProjectTiles' ),
 			$selector,
 			$tiles = $( '.project-tile' );
 
@@ -142,7 +143,7 @@
 			window.location.href = url;
 		} );
 
-		if ( $tiles.length !== 8 ) {
+		if ( $tiles.length !== maxProjectTiles ) {
 			// We have less than 8 tiles, so all are shown
 			return;
 		}
@@ -174,7 +175,7 @@
 
 		// Replace the last shown tile with group selector.
 		// Users without JavaScript will just see the original one.
-		$tiles.eq( 7 ).replaceWith( $selector );
+		$tiles.eq( maxProjectTiles - 1 ).replaceWith( $selector );
 	}
 
 	function signupLanguageSelector() {

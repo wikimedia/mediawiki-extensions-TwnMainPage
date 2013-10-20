@@ -14,6 +14,8 @@
  * @ingroup SpecialPage
  */
 class SpecialTwnMainPage extends SpecialPage {
+	protected $maxProjectTiles = 8;
+
 	function __construct() {
 		parent::__construct( 'TwnMainPage' );
 	}
@@ -58,6 +60,7 @@ class SpecialTwnMainPage extends SpecialPage {
 		// Forcing wgULSPosition to personal to mimick that behavior regardless
 		// of the position of the uls trigger in other pages.
 		$out->addJsConfigVars( 'wgULSPosition', 'personal' );
+		$out->addJsConfigVars( 'maxProjectTiles', $this->maxProjectTiles );
 
 		$out->addHTML( $out->headElement( $skin ) );
 
@@ -196,7 +199,7 @@ HTML;
 
 		foreach ( $projects as $group ) {
 			$tiles[] = $this->makeGroupTile( $group, $stats[$group->getId()] );
-			if ( count( $tiles ) === 8 ) {
+			if ( count( $tiles ) === $this->maxProjectTiles ) {
 				break;
 			}
 		}

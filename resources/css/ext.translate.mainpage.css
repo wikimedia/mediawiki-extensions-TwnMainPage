@@ -177,6 +177,20 @@ body {
 	padding: 10px;
 }
 
+.login-widget .dev-signup {
+	background-color: #f2eae2;
+	cursor: pointer;
+	padding: 10px;
+}
+
+.login-widget .only-dev {
+	padding: 5px 10px 0 10px;
+}
+
+.login-widget .only-dev textarea {
+	padding: 5px;
+}
+
 .signup-language-selector {
 	font-size: 12pt;
 	background-color: #E0E0E0;

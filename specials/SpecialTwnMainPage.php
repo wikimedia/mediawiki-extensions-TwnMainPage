@@ -484,82 +484,105 @@ HTML;
 		$languageCode = $this->getLanguage()->getCode();
 		$languageName = TranslateUtils::getLanguageName( $languageCode );
 
-		// Shortcut for creating row elements
-		$row = array( 'class' => 'row' );
-
-		$out = Html::openElement( 'form',
-			array( 'class' => 'five columns main-widget login-widget',
-				'method' => 'post',
-				'action' => SpecialPage::getTitleFor( 'Userlogin' )
-					->getLocalUrl( array(
-						'returnto' => 'Special:MainPage',
-						'type' => 'signup' ) ),
-			) );
-
-		$out .= Html::hidden( 'wpSandboxToken', ApiTranslateSandbox::getToken() );
-		$out .= Html::element( 'h1', $row, $this->msg( 'twnmp-become-translator' )->text() );
-		$out .= Html::element(
-			'h2',
-			$row,
-			$this->msg( 'twnmp-choose-languages-you-know' )->text()
+		$defaultLanguage = Xml::checkLabel(
+			$languageName,
+			'signuplanguage',
+			'language-' . $languageCode,
+			true
 		);
-		$out .= Html::openElement( 'ul', array( 'class' => 'row signup-languages' ) );
-		$out .= Html::openElement( 'li' );
-		$out .= Xml::checkLabel( $languageName, 'signuplanguage', 'language-' . $languageCode, true );
-		$out .= Html::closeElement( 'li' );
-		$out .= Html::closeElement( 'ul' );
-		$out .= Html::openElement( 'div', $row );
-		$out .= Html::openElement( 'div', array( 'class' => 'eight columns' ) );
-		$out .= Html::element(
-			'div',
-			array( 'class' => 'signup-language-selector' ),
-			$this->msg( 'twnmp-choose-another-language' )->text()
-		);
-		$out .= Html::closeElement( 'div' );
-		$out .= Html::closeElement( 'div' );
-		$out .= Html::element(
-			'h2',
-			$row,
-			$this->msg( 'twnmp-choose-fill-account-details' )->text()
-		);
-		$out .= Html::openElement( 'div', $row );
-		$out .= Html::element( 'input', array(
-			'class' => 'eleven columns',
+		$username = Html::element( 'input', array(
+			'class' => 'eleven columns required',
 			'name' => 'wpName',
-			// @todo IE doesn't support placeholders
+			'required',
 			'placeholder' => $this->msg( 'twnmp-signup-username-placeholder' )->text(),
 		) );
-		$out .= Html::closeElement( 'div' );
-
-		$out .= Html::openElement( 'div', $row );
-		$out .= Html::element( 'input', array(
-			'class' => 'eleven columns',
+		$password = Html::element( 'input', array(
+			'class' => 'eleven columns required',
 			'name' => 'wpPassword',
 			'type' => 'password',
-			// @todo IE doesn't support placeholders
+			'required',
 			'placeholder' => $this->msg( 'twnmp-signup-password-placeholder' )->text(),
 		) );
-		$out .= Html::closeElement( 'div' );
-
-		$out .= Html::openElement( 'div', $row );
-		$out .= Html::element( 'input', array(
-			'class' => 'eleven columns',
+		$email = Html::element( 'input', array(
+			'class' => 'eleven columns required',
 			'name' => 'wpEmail',
 			'type' => 'email',
-			// @todo IE doesn't support placeholders
+			'required',
 			'placeholder' => $this->msg( 'twnmp-signup-email-placeholder' )->text(),
 		) );
-		$out .= Html::closeElement( 'div' );
+		$reasonInput = Html::element( 'textarea', array(
+			'class' => 'eleven columns required',
+			'name' => 'reason',
+			'rows' => '4',
+			'required',
+		) );
 
-		$out .= Html::openElement( 'div', $row );
-		$out .= Html::element( 'button', array(
-			'class' => 'six columns green button offset-by-three',
-		), $this->msg( 'twnmp-create-account-button' )->text() );
-		$out .= Html::closeElement( 'div' );
+		$contents = <<<HTML
+	<h1 class="row only-dev hide">
+		{$this->msg( 'twnmp-join-community' )->escaped()}
+	</h1>
+	<div class="row only-dev hide label">
+		{$this->msg( 'twnmp-join-community-desc' )->escaped()}
+	</div>
+	<h1 class="row only-nondev">
+		{$this->msg( 'twnmp-become-translator' )->escaped()}
+	</h1>
+	<h2 class="row only-nondev">
+		{$this->msg( 'twnmp-choose-languages-you-know' )->escaped()}
+	</h2>
+	<ul class="row signup-languages only-nondev">
+		<li>
+			$defaultLanguage
+		</li>
+	</ul>
+	<div class="row only-nondev">
+		<div class="eight columns">
+			<div class="signup-language-selector">
+				{$this->msg( 'twnmp-choose-another-language' )->escaped()}
+			</div>
+		</div>
+	</div>
+	<h2 class="row">
+		{$this->msg( 'twnmp-choose-fill-account-details' )->text()}
+	</h2>
+	<div class="row">$username</div>
+	<div class="row">$password</div>
+	<div class="row">$email</div>
+	<div class="row label only-dev hide">
+		{$this->msg( 'twnmp-join-community-reason' )->escaped()}
+	</div>
+	<div class="row only-dev hide">$reasonInput</div>
+	<div class="row">
+		<button class="six columns green button" type="submit">
+			{$this->msg( 'twnmp-create-account-button' )->escaped()}
+		</button>
+		<button class="four columns button offset-by-one only-dev cancel hide">
+			{$this->msg( 'twnmp-create-account-cancel' )->escaped()}
+		</button>
+	</div>
+	<div class="row dev-signup only-nondev">
+		<a>{$this->msg( 'twnmp-join-community-info' )->escaped()}</a>
+	</div>
+HTML;
 
-		$out .= Html::closeElement( 'form' );
+		$token = Html::hidden( 'wpSandboxToken', ApiTranslateSandbox::getToken() );
 
-		return $out;
+		$action = SpecialPage::getTitleFor( 'Userlogin' )->getLocalUrl(
+			array(
+				'returnto' => 'Special:MainPage',
+				'type' => 'signup'
+			)
+		);
+
+		$out = Html::rawElement( 'form',
+			array( 'class' => 'five columns main-widget login-widget',
+				'method' => 'post',
+				'action' => $action,
+			),
+			"\n\t$token\n$contents\n"
+		);
+
+		return "\n$out\n";
 	}
 
 	public function userStats() {

@@ -222,6 +222,11 @@ See [[Special:MainPage]] as an anonymous user.',
 	'twnmp-choose-fill-account-details' => 'A heading for the personal details (username, password and email) form.
 
 See [[Special:MainPage]] as an anonymous user.',
+	'twnmp-join-community' => 'Header in the signup form for non-translators',
+	'twnmp-join-community-desc' => 'Not for non-translators who are signing up via the main page',
+	'twnmp-join-community-reason' => 'Label for a text area',
+	'twnmp-create-account-cancel' => 'A button',
+	'twnmp-join-community-info' => 'A note at the end of the sign up form in the main page',
 	'twnmp-stats-number-k' => 'Used in [[Special:Mainpage]].
 
 Parameters:
@@ -238,11 +243,6 @@ If "k" is a good thousands marker in your language, do not translate this messag
 
 Parameters:
 * $1 - total number of messages.',
-	'twnmp-join-community' => 'Header in the signup form for non-translators',
-	'twnmp-join-community-desc' => 'Not for non-translators who are signing up via the main page',
-	'twnmp-join-community-reason' => 'Label for a text area',
-	'twnmp-create-account-cancel' => 'A button',
-	'twnmp-join-community-info' => 'A note at the end of the sign up form in the main page',
 );
 
 /** Afrikaans (Afrikaans)
@@ -640,6 +640,11 @@ $messages['de'] = array(
 	'twnmp-choose-languages-you-know' => 'Wähle Sprachen aus, die du kennst.',
 	'twnmp-choose-another-language' => 'Eine andere Sprache auswählen …',
 	'twnmp-choose-fill-account-details' => 'Gib die Einzelheiten zu deinem Benutzerkonto ein',
+	'twnmp-join-community' => 'Der Gemeinschaft beitreten',
+	'twnmp-join-community-desc' => 'Falls du ein Entwickler bist, der an der Dokumentation von Übersetzungen interessiert ist oder nur die Plattform entdecken will, bist du ebenfalls willkommen.',
+	'twnmp-join-community-reason' => 'Warum bist du an einem Beitritt interessiert?',
+	'twnmp-create-account-cancel' => 'Abbrechen',
+	'twnmp-join-community-info' => 'Kein Übersetzer? Du kannst der Gemeinschaft beitreten.',
 	'twnmp-stats-number-k' => '$1&nbsp;T',
 	'twnmp-select-target-language' => 'Sprache auswählen',
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Eine Nachricht|$1 Nachrichten}}',
@@ -1011,6 +1016,11 @@ $messages['it'] = array(
 	'twnmp-choose-languages-you-know' => 'Scegli le lingue che conosci',
 	'twnmp-choose-another-language' => "Scegli un'altra lingua...",
 	'twnmp-choose-fill-account-details' => 'Inserisci i dettagli della tua utenza',
+	'twnmp-join-community' => 'Entra nella comunità',
+	'twnmp-join-community-desc' => 'Se sei uno sviluppatore interessato alle traduzioni, o semplicemente esplorare la piattaforma, sei il benvenuto.',
+	'twnmp-join-community-reason' => 'Perché sei interessato a partecipare?',
+	'twnmp-create-account-cancel' => 'Annulla',
+	'twnmp-join-community-info' => 'Non sei un traduttore? È comunque possibile entrare nella comunità.',
 	'twnmp-select-target-language' => 'Seleziona lingua',
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Un messaggio|$1 messaggi}}',
 );
@@ -1680,6 +1690,11 @@ $messages['ru'] = array(
 	'twnmp-choose-languages-you-know' => 'Выберите языки, которыми владеете',
 	'twnmp-choose-another-language' => 'Выберите другой язык...',
 	'twnmp-choose-fill-account-details' => 'Заполните информацию о своей учётной записи',
+	'twnmp-join-community' => 'Присоединиться к сообществу',
+	'twnmp-join-community-desc' => 'Если вы разработчик, заинтересованный в документировании переводов, или просто изучает платформу, мы также вам рады.',
+	'twnmp-join-community-reason' => 'Почему вы хотите присоединиться к нам?',
+	'twnmp-create-account-cancel' => 'Отмена',
+	'twnmp-join-community-info' => 'Вы не переводчик? Вы все равно можете присоединиться к сообществу.',
 	'twnmp-stats-number-k' => '$1&nbsp;тыс.',
 	'twnmp-select-target-language' => 'Выбрать язык',
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|$1 сообщение|$1 сообщения|$1 сообщений}}',
@@ -1958,6 +1973,11 @@ $messages['uk'] = array(
 	'twnmp-choose-languages-you-know' => 'Виберіть мови, які Ви знаєте',
 	'twnmp-choose-another-language' => 'Виберіть іншу мову...',
 	'twnmp-choose-fill-account-details' => 'Заповніть Ваші дані',
+	'twnmp-join-community' => 'Приєднатися до спільноти',
+	'twnmp-join-community-desc' => 'Якщо ви розробник зацікавлені у документуванні перекладу, або просто вивчаєте цю платформу, ви також можете приєднатися до нас.',
+	'twnmp-join-community-reason' => 'Чому ви зацікавлені у приєднанні до нас?',
+	'twnmp-create-account-cancel' => 'Скасувати',
+	'twnmp-join-community-info' => 'Не перекладач? Ви ще можете приєднатися до спільноти.',
 	'twnmp-select-target-language' => 'Оберіть мову',
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Одне повідомлення|$1 повідомлення|$1 повідомлень}}',
 );
@@ -2055,6 +2075,10 @@ $messages['zh-hans'] = array(
 	'twnmp-choose-languages-you-know' => '选择你知晓的语言',
 	'twnmp-choose-another-language' => '选择其他语言...',
 	'twnmp-choose-fill-account-details' => '填写你的账户详细信息',
+	'twnmp-join-community' => '加入社群',
+	'twnmp-join-community-reason' => '您为何对加入感兴趣？',
+	'twnmp-create-account-cancel' => '取消',
+	'twnmp-join-community-info' => '尚未成为一名翻译者？您可以加入社群，而且现在就可以。',
 	'twnmp-select-target-language' => '选择语言',
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|$1个信息}}',
 );

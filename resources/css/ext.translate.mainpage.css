@@ -213,10 +213,6 @@ body {
 	min-height: 75px;
 }
 
-.user-stats-title h2 {
-	border-bottom: none;
-}
-
 .twn-mainpage-alllang-stats {
 	padding: 0 10px;
 }
@@ -254,8 +250,23 @@ body {
 	font-size: 15px;
 }
 
-.row.langstats-link-row {
+.langstats-link,
+.sandbox-message {
+	padding: 10px 15px;
+}
+
+.ranking {
 	padding: 10px;
+}
+
+.sandbox-message {
+	color: #333333;
+	background-color: #fbf9ce;
+	font-size: 14px;
+}
+
+.langstats-link {
+	border-top: 1px solid #DDDDDD;
 }
 
 a.langstats-link {

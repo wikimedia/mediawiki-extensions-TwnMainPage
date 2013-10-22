@@ -33,17 +33,23 @@ $messages['en'] = array(
 	'twnmp-translate-link' => 'Translate',
 	'twnmp-proofread-link' => 'Review',
 	'twnmp-translate-button' => 'Translate',
+	'twnmp-view-button' => 'View translations',
 	'twnmp-proofread-button' => 'Review',
 
 	'twnmp-your-translations-stats' => 'Your translation statistics',
 	'twnmp-your-translations-stats-all-languages' => 'For all languages',
 	'twnmp-your-view-language-stats' => 'View language statistics',
 	'twnmp-translations-per-month' => 'Translations/month',
+	'twnmp-translations-in-sandbox' => 'Translations',
 	'twnmp-reviews-per-month' => 'Reviews/month',
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=You are the only one<br />for $4|{{GENDER:$1|Ranked}} $2 of $3<br />for $4}}',
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=You are the only one|{{GENDER:$1|Ranked}} $2 of $3}}',
 
 	'twnmp-add-project' => 'Add your open source project for translation',
+
+	'twnmp-sandboxed' => 'You need to provide more translations to get full translation rights.',
+	'twnmp-sandboxed-limit' => 'You reached the translation limit. Our team will verify and upgrade your account soon.',
+
 	'twnmp-bottom-help' => 'Help',
 	'twnmp-bottom-support' => 'Support desk',
 	'twnmp-bottom-languages-supported' => 'Supported languages',
@@ -129,6 +135,7 @@ See example: [[Special:MainPage]]',
 	'twnmp-translate-button' => "A label for the button that appears near the user's translation statistics.
 Pressing the button brings the user to the translation editor. Parallel to {{msg-mw|twnmp-proofread-button}}.
 {{Identical|Translate}}",
+	'twnmp-view-button' => 'A label for the button that appears near the user\'s translation statistics when the maximum number of translations in sandbox has already been done.',
 	'twnmp-proofread-button' => "A label for the button that appears near the user's translation statistics.
 Pressing the button brings the user to the translation editor in review mode. Parallel to {{msg-mw|twnmp-translate-button}}.
 {{Identical|Review}}",
@@ -143,6 +150,7 @@ See example of English version: [{{canonicalurl:Special:MainPage|uselang=en Spec
 Appears in the user's statistics box near a number.
 Means that the users performs that number of translations every month.
 Translate it in a way that is natural to your language - you don't have to use the '/' character.",
+	'twnmp-translations-in-sandbox' => 'Similar to {{msg-mw|twnmp-translations-per-month}} but for sandboxed users',
 	'twnmp-reviews-per-month' => "Appears in the user's statistics box near a number.
 Means that the users performs that number of review actions every month.
 Translate it in a way that is natural to your language - you don't have to use the '/' character.
@@ -173,6 +181,10 @@ See also:
 	'twnmp-add-project' => 'Used as link text for the link pointing to [[Special:MyLanguage/Translating:New project|Translating:New project]].
 
 See example: [[Special:MainPage]]',
+
+	'twnmp-sandboxed' => 'A text shown to sandboxed users in their personal area on the main page instead of proofrading statistics.',
+	'twnmp-sandboxed-limit' => 'A text shown to sandboxed users in their personal area on the main page instead of proofreading statistics.',
+
 	'twnmp-bottom-help' => 'A link that appears at the bottom of the main page.
 
 The link points to [[Translating:Index]].

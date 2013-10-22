@@ -474,7 +474,7 @@ HTML;
 
 	public function userWidget() {
 		if ( $this->getUser()->isLoggedIn() ) {
-			return $this->userStats();
+			return $this->loggedInWidget();
 		} else {
 			return $this->loginForm();
 		}
@@ -585,10 +585,44 @@ HTML;
 		return "\n$out\n";
 	}
 
-	public function userStats() {
+	public function loggedInWidget() {
+		$languageCode = $this->getLanguage()->getCode();
+		$languageName = TranslateUtils::getLanguageName( $languageCode, $languageCode );
+
+		$subtitle = '';
+
+		$link = Html::element( 'a', array(
+			'href' => SpecialPage::getTitleFor( 'LanguageStats' )->getLocalUrl(),
+		), $this->msg( 'twnmp-your-view-language-stats' )->text() );
+
+		if ( TranslateSandbox::isSandboxed( $this->getUser() ) ) {
+			$rows = $this->getSandboxRows();
+		} else {
+			$subtitle = htmlspecialchars( $languageName );
+			$rows = $this->getTranslationStatsRows();
+		}
+
+		return <<<HTML
+
+<div class="five columns main-widget stats-widget">
+	<div class="row user-stats-title">
+		<h2>
+			{$this->msg( 'twnmp-your-translations-stats' )->escaped()}
+		</h2>
+		<div class="subtitle">$subtitle</div>
+	</div>
+	$rows
+	<div class="row langstats-link">$link</div>
+</div>
+
+HTML;
+	}
+
+	public function getTranslationStatsRows() {
 		$groupsSourceLanguage = MessageGroups::haveSingleSourceLanguage(
 			MessageGroups::getAllGroups()
 		);
+
 		$languageCode = $this->getLanguage()->getCode();
 
 		if ( $groupsSourceLanguage === $languageCode ) {
@@ -654,7 +688,7 @@ HTML;
 
 		$myuser = $this->getUser()->getName();
 
-		$out .= Html::openElement( 'form', array(
+		$out = Html::openElement( 'form', array(
 			'class' => 'row ranking',
 			'action' => SpecialPage::getTitleFor( 'Translate' )->getLocalUrl(),
 		) );
@@ -700,6 +734,7 @@ HTML;
 		$out .= Html::closeElement( 'div' );
 		$out .= Html::closeElement( 'form' );
 
+		// Proofreading row
 		$out .= Html::openElement( 'form', array(
 			'class' => 'row ranking',
 			'action' => SpecialPage::getTitleFor( 'Translate' )->getLocalUrl(),
@@ -746,14 +781,44 @@ HTML;
 		$out .= Html::closeElement( 'div' );
 		$out .= Html::closeElement( 'form' );
 
-		$out .= Html::openElement( 'div', array( 'class' => 'row langstats-link-row' ) );
-		$out .= Html::element( 'a', array(
-			'class' => 'twelve columns langstats-link',
-			'href' => SpecialPage::getTitleFor( 'LanguageStats' )->getLocalUrl(),
-		), $this->msg( 'twnmp-your-view-language-stats' )->text() );
-		$out .= Html::closeElement( 'div' );
-		$out .= Html::closeElement( 'div' );
-
 		return $out;
+	}
+
+	public function getSandboxRows() {
+		global $wgTranslateSandboxLimit;
+
+		$store = new TranslationStashStorage( wfGetDB( DB_SLAVE ) );
+		$count = count( $store->getTranslations( $this->getUser() ) );
+
+		if ( $count < $wgTranslateSandboxLimit ) {
+			$button = $this->msg( 'twnmp-translate-button' )->escaped();
+			$message = $this->msg( 'twnmp-sandboxed' )->escaped();
+		} else {
+			$button = $this->msg( 'twnmp-view-button' )->escaped();
+			$message = $this->msg( 'twnmp-sandboxed-limit' )->escaped();
+		}
+
+		$count = $this->getLanguage()->formatNum( $count );
+		$count = htmlspecialchars( $count );
+
+		$action = SpecialPage::getTitleFor( 'TranslationStash' )->getLocalUrl();
+		$action = htmlspecialchars( $action );
+
+		return <<<HTML
+
+<form class="row ranking" action="$action">
+	<div class="eight columns">
+		<div class="count">$count</div>
+		<div class="count-description">
+			{$this->msg( 'twnmp-translations-in-sandbox' )->escaped()}
+		</div>
+	</div>
+	<div class="four columns">
+		<button type="submit" class="button green">$button</button>
+	</div>
+</form>
+<div class="row sandbox-message">$message</div>
+
+HTML;
 	}
 }

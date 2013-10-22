@@ -135,7 +135,7 @@ See example: [[Special:MainPage]]',
 	'twnmp-translate-button' => "A label for the button that appears near the user's translation statistics.
 Pressing the button brings the user to the translation editor. Parallel to {{msg-mw|twnmp-proofread-button}}.
 {{Identical|Translate}}",
-	'twnmp-view-button' => 'A label for the button that appears near the user\'s translation statistics when the maximum number of translations in sandbox has already been done.',
+	'twnmp-view-button' => "A label for the button that appears near the user's translation statistics when the maximum number of translations in sandbox has already been done.",
 	'twnmp-proofread-button' => "A label for the button that appears near the user's translation statistics.
 Pressing the button brings the user to the translation editor in review mode. Parallel to {{msg-mw|twnmp-translate-button}}.
 {{Identical|Review}}",
@@ -181,10 +181,8 @@ See also:
 	'twnmp-add-project' => 'Used as link text for the link pointing to [[Special:MyLanguage/Translating:New project|Translating:New project]].
 
 See example: [[Special:MainPage]]',
-
 	'twnmp-sandboxed' => 'A text shown to sandboxed users in their personal area on the main page instead of proofrading statistics.',
 	'twnmp-sandboxed-limit' => 'A text shown to sandboxed users in their personal area on the main page instead of proofreading statistics.',
-
 	'twnmp-bottom-help' => 'A link that appears at the bottom of the main page.
 
 The link points to [[Translating:Index]].
@@ -298,6 +296,16 @@ $messages['af'] = array(
 	'twnmp-stats-number-k' => '$1k',
 );
 
+/** Arabic (العربية)
+ * @author مشعل الحربي
+ */
+$messages['ar'] = array(
+	'twnmp-view-button' => 'عرض الترجمات',
+	'twnmp-translations-in-sandbox' => 'ترجمات',
+	'twnmp-sandboxed' => 'أنت بحاجة إلى تقديم المزيد من الترجمات للحصول على صلاحيات الترجمة الكاملة.',
+	'twnmp-sandboxed-limit' => 'لقد بلغت حد الترجمة. سيقوم فريقنا بتأكيد وترقية حسابك قريبًا.',
+);
+
 /** Asturian (asturianu)
  * @author Xuacu
  */
@@ -309,7 +317,7 @@ $messages['ast'] = array(
 	'twnmp-s-languages' => '{{PLURAL:$1|Llingua activa|Llingües actives}}',
 	'twnmp-s-messages' => '{{PLURAL:$1|Mensaxe|Mensaxes}} a traducir',
 	'twnmp-bannerwho' => 'Imaxe $1',
-	'twnmp-show-more-projects' => 'Ver más proyeutos...', # Fuzzy
+	'twnmp-show-more-projects' => 'Ver tolos proyeutos...',
 	'twnmp-brand-motto' => 'Comunidá de traducción de códigu abiertu',
 	'twnmp-login' => 'Aniciar sesión',
 	'twnmp-logout' => 'Salir',
@@ -340,6 +348,11 @@ $messages['ast'] = array(
 	'twnmp-choose-languages-you-know' => 'Esbille les llingües que sabe',
 	'twnmp-choose-another-language' => 'Escoyer otra llingua...',
 	'twnmp-choose-fill-account-details' => 'Rellene los detalles de la cuenta de so',
+	'twnmp-join-community' => 'Xunise a la comunidá',
+	'twnmp-join-community-desc' => 'Si ye un desendolcador interesáu en documentar traducciones, o si namái ta esplorando la plataforma, tamién ye bienveníu.',
+	'twnmp-join-community-reason' => '¿Por qué ta interesáu en xunise?',
+	'twnmp-create-account-cancel' => 'Encaboxar',
+	'twnmp-join-community-info' => '¿Nun ye un traductor? Tamién pue xunise a la comunidá.',
 	'twnmp-select-target-language' => 'Escoyer llingua',
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Un mensaxe|$1 mensaxes}}',
 );
@@ -631,15 +644,19 @@ $messages['de'] = array(
 	'twnmp-translate-link' => 'Übersetzen',
 	'twnmp-proofread-link' => 'Überprüfen',
 	'twnmp-translate-button' => 'Übersetzen',
+	'twnmp-view-button' => 'Übersetzungen ansehen',
 	'twnmp-proofread-button' => 'Überprüfen',
 	'twnmp-your-translations-stats' => 'Deine Übersetzungsstatistiken',
 	'twnmp-your-translations-stats-all-languages' => 'Für alle Sprachen',
 	'twnmp-your-view-language-stats' => 'Sprachstatistiken ansehen',
 	'twnmp-translations-per-month' => 'Übersetzungen pro Monat',
+	'twnmp-translations-in-sandbox' => 'Übersetzungen',
 	'twnmp-reviews-per-month' => 'Überprüfungen pro Monat',
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=Du bist der einzige<!-- $1 --><br />für $4|Rang $2 von $3<br />für $4}}',
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=Du bist der einzige<!-- $1 -->|Rang $2 von $3}}',
 	'twnmp-add-project' => 'Füge dein Open-Source-Projekt zur Übersetzung hinzu',
+	'twnmp-sandboxed' => 'Du musst mehr Übersetzungen durchführen, um die vollen Übersetzerrechte zu erhalten.',
+	'twnmp-sandboxed-limit' => 'Du hast das Übersetzungslimit erreicht. Unser Team wird dein Benutzerkonto bald verifizieren und hochstufen.',
 	'twnmp-bottom-help' => 'Hilfe',
 	'twnmp-bottom-support' => 'Unterstützung',
 	'twnmp-bottom-languages-supported' => 'Unterstützte Sprachen',
@@ -927,15 +944,19 @@ $messages['he'] = array(
 	'twnmp-translate-link' => 'תרגום',
 	'twnmp-proofread-link' => 'סקירה',
 	'twnmp-translate-button' => 'תרגום',
+	'twnmp-view-button' => 'הצגת תרגומים',
 	'twnmp-proofread-button' => 'סקירה',
 	'twnmp-your-translations-stats' => 'סטטיסטיקת התרגומים שלך',
 	'twnmp-your-translations-stats-all-languages' => 'בכל השפות',
 	'twnmp-your-view-language-stats' => 'הצגת הסטטיסטיקה לשפה',
 	'twnmp-translations-per-month' => 'תרגומים לחודש',
+	'twnmp-translations-in-sandbox' => 'תרגומים',
 	'twnmp-reviews-per-month' => 'הגהות לחודש',
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1={{GENDER:$1|אתה היחיד|את היחידה}}<br />עבור $4|{{GENDER:$1|Ranked}} $2 of $3<br />for $4}}',
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1={{GENDER:$1|אתה היחיד|את היחידה}} כאן|{{GENDER:$1|אתה מדורג|את מדורגת}} במקום ה־$2 מתוך $3}}',
 	'twnmp-add-project' => 'הוספת מיזם הקוד הפתוח שלך לתרגום כאן',
+	'twnmp-sandboxed' => 'יש לספק עוד תרגומים כדי לקבל הרשאות תרגום מלאות.',
+	'twnmp-sandboxed-limit' => 'הגעת למגבת התרגומים שלך. הסגל שלנו יבדוק את התרגומים וישדרג את החשבון שלך בקרוב.',
 	'twnmp-bottom-help' => 'עזרה',
 	'twnmp-bottom-support' => 'דלפק תמיכה',
 	'twnmp-bottom-languages-supported' => 'שפות נתמכות',
@@ -948,6 +969,11 @@ $messages['he'] = array(
 	'twnmp-choose-languages-you-know' => 'השפה שלך',
 	'twnmp-choose-another-language' => 'בחירת שפה אחרת...',
 	'twnmp-choose-fill-account-details' => 'נא למלא את פרטי החשבון שלך',
+	'twnmp-join-community' => 'להצטרף לקהילה',
+	'twnmp-join-community-desc' => 'מתכנתים שמעוניינים לתעד תרגומים או ללמוד את הפלטפורמה שלנו, גם אתם מוזמנים.',
+	'twnmp-join-community-reason' => 'מה גורם לך לרצות להצטרף?',
+	'twnmp-create-account-cancel' => 'ביטול',
+	'twnmp-join-community-info' => 'תרגומים לא מעניינים אותך? ביכולתך להצטרף לקהילה בכל זאת.',
 	'twnmp-stats-number-k' => '$1 אלף',
 	'twnmp-select-target-language' => 'בחירת שפה',
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|הודעה אחת|$1 הודעות}}',
@@ -1336,6 +1362,11 @@ $messages['mk'] = array(
 	'twnmp-choose-languages-you-know' => 'Укажете ги јазиците што ги владеете',
 	'twnmp-choose-another-language' => 'Друг јазик...',
 	'twnmp-choose-fill-account-details' => 'Пополнете ги податоците за сметката',
+	'twnmp-join-community' => 'Приклучете се во заедницата',
+	'twnmp-join-community-desc' => 'Драго ни е и ако сте програмер заинтересиран за документирање на преводите, или пак само ја проучувате подлогата.',
+	'twnmp-join-community-reason' => 'Зошто би сакале да се приклучите?',
+	'twnmp-create-account-cancel' => 'Откажи',
+	'twnmp-join-community-info' => 'Не сте преведувач? Бездруго можете да се приклучите на заедницата.',
 	'twnmp-stats-number-k' => '$1 илј.',
 	'twnmp-select-target-language' => 'Одберете јазик',
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Една порака|$1 пораки}}',
@@ -1964,15 +1995,19 @@ $messages['uk'] = array(
 	'twnmp-translate-link' => 'Перекласти',
 	'twnmp-proofread-link' => 'Перевірити',
 	'twnmp-translate-button' => 'Переклад',
+	'twnmp-view-button' => 'Переглядів перекладів',
 	'twnmp-proofread-button' => 'Перевірка',
 	'twnmp-your-translations-stats' => 'Статистика Ваших перекладів',
 	'twnmp-your-translations-stats-all-languages' => 'Для всіх мов',
 	'twnmp-your-view-language-stats' => 'Переглянути мовну статистику',
 	'twnmp-translations-per-month' => 'перекладів/місяць',
+	'twnmp-translations-in-sandbox' => 'Переклади',
 	'twnmp-reviews-per-month' => 'перевірок/місяць',
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=Ви єдиний перекладач<br />для мови $4|{{GENDER:$1|За рейтингом ви}} $2 перекладач з $3<br />для мови $4}}',
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=Ви єдиний перекладач|{{GENDER:$1|За рейтингом ви}} $2 з $3}}',
 	'twnmp-add-project' => 'Додати ваш проект з відкритим вихідним кодом для перекладу',
+	'twnmp-sandboxed' => 'Вам необхідно надати більше перекладів, щоб отримати повні права перекладача.',
+	'twnmp-sandboxed-limit' => 'Ви досягли обмежень перекладу. Наша команда перевірить та підвищить статус вашого облікового запису найближчим часом.',
 	'twnmp-bottom-help' => 'Довідка',
 	'twnmp-bottom-support' => 'Підтримка',
 	'twnmp-bottom-languages-supported' => 'Підтримувані мови',

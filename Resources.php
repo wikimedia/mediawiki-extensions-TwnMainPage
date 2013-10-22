@@ -18,7 +18,6 @@ $wgResourceModules['ext.translate.mainpage'] = array(
 		'ext.translate.mainpage.icons',
 		'ext.translate.statsbar',
 		'ext.uls.interface',
-		'mediawiki.api.login',
 		'mediawiki.language',
 		'mediawiki.Uri',
 		'mediawiki.util',
@@ -27,6 +26,15 @@ $wgResourceModules['ext.translate.mainpage'] = array(
 		'twnmp-show-more-projects',
 		'twnmp-select-target-language',
 		'percent',
+	),
+) + $resourcePaths;
+
+$wgResourceModules['ext.translate.mainpage.signup'] = array(
+	'scripts' => 'resources/js/ext.translate.mainpage.signup.js',
+	'dependencies' => array(
+		'ext.uls.interface',
+		'mediawiki.api',
+		'mediawiki.api.login',
 	),
 ) + $resourcePaths;
 

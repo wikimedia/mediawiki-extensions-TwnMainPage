@@ -481,7 +481,12 @@ HTML;
 		}
 	}
 
+	/**
+	 * Form that allows users to signup via sandbox.
+	 */
 	public function loginForm() {
+		$this->getOutput()->addModules( 'ext.translate.mainpage.signup' );
+
 		$languageCode = $this->getLanguage()->getCode();
 		$languageName = TranslateUtils::getLanguageName( $languageCode );
 
@@ -489,7 +494,8 @@ HTML;
 			$languageName,
 			'signuplanguage',
 			'language-' . $languageCode,
-			true
+			true,
+			array( 'data-code' => $languageCode )
 		);
 		$username = Html::element( 'input', array(
 			'class' => 'eleven columns required',
@@ -531,7 +537,7 @@ HTML;
 	<h2 class="row only-nondev">
 		{$this->msg( 'twnmp-choose-languages-you-know' )->escaped()}
 	</h2>
-	<ul class="row signup-languages only-nondev">
+	<ul class="row signup-languages only-nondev autonym">
 		<li>
 			$defaultLanguage
 		</li>

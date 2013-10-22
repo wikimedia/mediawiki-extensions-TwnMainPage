@@ -177,6 +177,7 @@ body {
 	padding: 10px;
 }
 
+/* Signup styles start here. They are here to avoid FOUC. */
 .login-widget .dev-signup {
 	background-color: #f2eae2;
 	cursor: pointer;
@@ -191,7 +192,7 @@ body {
 	padding: 5px;
 }
 
-.signup-language-selector {
+.login-widget .signup-language-selector {
 	font-size: 12pt;
 	background-color: #E0E0E0;
 	margin: 5px 0 10px 5px;
@@ -200,6 +201,12 @@ body {
 	border: 1px solid #CCCCCC;
 	border-radius: 4px;
 }
+
+.login-widget .invalid {
+	background-color: red;
+}
+
+/* Signup styles end here. */
 
 .user-stats-title {
 	padding-left: 100px;

@@ -1,7 +1,7 @@
 /**
  * Dynamic behavior for the main page
  * @author Niklas Laxström
- * @license GPL2+
+ * @license GPL-2.0+
  */
 ( function ( $, mw ) {
 	'use strict';
@@ -178,116 +178,10 @@
 		$tiles.eq( maxProjectTiles - 1 ).replaceWith( $selector );
 	}
 
-	function signupLanguageSelector() {
-		$( '.signup-language-selector' ).uls( {
-			onSelect: function ( language ) {
-				if ( $( '#language-' + language ).length ) {
-					// Language already selected. Make sure it is checked.
-					$( '#language-' + language ).prop( 'checked', true );
-					return;
-				}
-
-				$( 'ul.signup-languages' )
-					.append( $( '<li>' )
-						.append(
-							$( '<input>' )
-								.attr( {
-									id: 'language-' + language,
-									type: 'checkbox',
-									name: 'signuplanguage',
-									checked: 'checked'
-								} ),
-							$( '<label>' )
-								.text( $.uls.data.getAutonym( language ) )
-								.attr( 'for', 'language-' + language )
-						)
-					);
-			},
-			quickList: function () {
-				return mw.uls.getFrequentLanguageList();
-			}
-		} );
-	}
-
-	function loginFormHandler( e ) {
-		var options, req,
-			$form = $( '.login-widget' ),
-			api = new mw.Api(),
-			username = $form.find( 'input[name="wpName"]' ).val(),
-			email = $form.find( 'input[name="wpEmail"]' ).val(),
-			password = $form.find( 'input[name="wpPassword"]' ).val();
-
-		e.preventDefault();
-
-		options = {
-			action: 'translatesandbox',
-			'do': 'create',
-			username: username,
-			email: email,
-			password: password,
-			token: $form.find( 'input[name="wpSandboxToken"]' ).val()
-		};
-
-		req = api.post( options );
-		req.fail( function () {
-			window.alert( 'Account creation failed' );
-		} );
-		req.done( function () {
-			var options, req,
-				api = new mw.Api();
-
-			options = {
-				action: 'login',
-				lgname: username,
-				lgpassword: password
-			};
-
-			req = api.post( options );
-			req.fail( function () {
-				window.alert( 'Logging in failed' );
-			} );
-			req.done( function ( data ) {
-				var req,
-					api = new mw.Api();
-
-				req = api.post( $.extend( {}, { lgtoken: data.login.token }, options ) );
-				req.done( function () {
-					window.location.reload();
-				} );
-			} );
-		} );
-	}
-
 	$( document ).ready( function () {
-		var $form = $( '.login-widget' ), $submit;
-
-		signupLanguageSelector();
-		$form.on( 'submit', loginFormHandler );
-
-		$form.find( '.dev-signup' ).click( function () {
-			$form.find( '.only-dev' ).removeClass( 'hide' );
-			$form.find( '.only-nondev' ).addClass( 'hide' );
-			$form.find( '.required' ).trigger( 'change' );
-		} );
-
-		$form.find( 'button.cancel' ).click( function ( e ) {
-			e.preventDefault();
-			$form.find( '.only-dev' ).addClass( 'hide' );
-			$form.find( '.only-nondev' ).removeClass( 'hide' );
-			$form.find( '.required' ).trigger( 'change' );
-		} );
-
-		$submit = $form.find( 'button[type=submit]' );
-		$submit.prop( 'disabled', true );
-		$form.on( 'change keyup', '.required', function () {
-			var anyEmpty = false;
-
-			$form.find( '.required:visible' ).each( function () {
-				anyEmpty = anyEmpty || $( this ).val().trim() === '';
-			} );
-			$submit.prop( 'disabled', anyEmpty );
-		} );
-
 		setupProjectTiles();
+		mw.loader.using( 'ext.translate.mainpage.signup', function () {
+			mw.translate.setupSignupForm( $( '.login-widget' ) );
+		} );
 	} );
 }( jQuery, mediaWiki ) );

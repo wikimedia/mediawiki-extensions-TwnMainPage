@@ -23,7 +23,8 @@ class ResourceLoaderProjectIconsModule extends ResourceLoaderModule {
 		$icons = array();
 		foreach ( $projects as $group ) {
 			wfSuppressWarnings();
-			$icons[$group->getId()] = TranslateUtils::getIcon( $group, 100 );
+			$id = Sanitizer::escapeClass( $group->getId() );
+			$icons[$id] = TranslateUtils::getIcon( $group, 100 );
 			wfRestoreWarnings();
 		}
 

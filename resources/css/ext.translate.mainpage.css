@@ -178,8 +178,12 @@ body {
 }
 
 /* Signup styles start here. They are here to avoid FOUC. */
+.login-widget button:disabled {
+	opacity: 0.6;
+}
+
 .login-widget .dev-signup {
-	background-color: #f2eae2;
+	border-top: 1px solid #DDDDDD;
 	cursor: pointer;
 	padding: 10px;
 }
@@ -200,6 +204,14 @@ body {
 	padding: 4px 8px;
 	border: 1px solid #CCCCCC;
 	border-radius: 4px;
+}
+
+.login-widget .signup-language-selector:hover {
+	background-color: #e5e5e5;
+}
+
+.login-widget .signup-languages {
+	padding-top: 5px;
 }
 
 .login-widget .invalid {

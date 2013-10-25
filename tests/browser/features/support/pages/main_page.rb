@@ -32,4 +32,6 @@ class MainPage
 
 	a(:english, text: 'English')
 	a(:polish, text: 'polski')
+
+	a(:username, class: 'username')
 end

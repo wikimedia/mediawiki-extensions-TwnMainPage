@@ -596,27 +596,42 @@ HTML;
 		$languageCode = $this->getLanguage()->getCode();
 		$languageName = TranslateUtils::getLanguageName( $languageCode, $languageCode );
 
-		$subtitle = '';
+		$groupsSourceLanguage = MessageGroups::haveSingleSourceLanguage(
+			MessageGroups::getAllGroups()
+		);
 
 		$link = Html::element( 'a', array(
 			'href' => SpecialPage::getTitleFor( 'LanguageStats' )->getLocalUrl(),
 		), $this->msg( 'twnmp-your-view-language-stats' )->text() );
 
 		if ( TranslateSandbox::isSandboxed( $this->getUser() ) ) {
+			$subtitleClass = 'for-sandbox';
+			$subtitle = '';
 			$rows = $this->getSandboxRows();
+		} elseif ( $groupsSourceLanguage === $languageCode ) {
+			$subtitleClass = 'for-all-languages';
+			$subtitle = $this->msg( 'twnmp-your-translations-stats-all-languages' )->escaped();
+			$rows = $this->getTranslationStatsRows( '' );
 		} else {
+			$subtitleClass = Sanitizer::escapeClass( "for-language-$languageCode" );
 			$subtitle = htmlspecialchars( $languageName );
-			$rows = $this->getTranslationStatsRows();
+			$rows = $this->getTranslationStatsRows( $languageCode );
 		}
+
+		$email = $this->getUser()->getEmail();
+		$avatar = 'https://secure.gravatar.com/avatar/' . md5( strtolower( $email ) );
+		$background = "background-image: url('$avatar?d=mm');";
+		$background = htmlspecialchars( $background );
+		$background = "style=\"$background\"";
 
 		return <<<HTML
 
 <div class="five columns main-widget stats-widget">
-	<div class="row user-stats-title">
+	<div class="row user-stats-title" $background>
 		<h2>
 			{$this->msg( 'twnmp-your-translations-stats' )->escaped()}
 		</h2>
-		<div class="subtitle">$subtitle</div>
+		<div class="subtitle $subtitleClass">$subtitle</div>
 	</div>
 	$rows
 	<div class="row langstats-link">$link</div>
@@ -625,20 +640,13 @@ HTML;
 HTML;
 	}
 
-	public function getTranslationStatsRows() {
-		$groupsSourceLanguage = MessageGroups::haveSingleSourceLanguage(
-			MessageGroups::getAllGroups()
-		);
-
-		$languageCode = $this->getLanguage()->getCode();
-
-		if ( $groupsSourceLanguage === $languageCode ) {
-			# Do stats for all languages, denoted by empty string
-			$languageForStats = '';
-		} else {
-			$languageForStats = $languageCode;
-		}
-
+	/**
+	 * Gets data and formats language stats row. Use empty string to
+	 * get stats for all languages.
+	 * @param string $languageForStats Language code or empty string.
+	 * @return string HTML
+	 */
+	public function getTranslationStatsRows( $languageForStats ) {
 		$stale = 60 * 5;
 		$expired = 60 * 60 * 12;
 		$cacher = new CachedStat( "userstats-$languageForStats", $stale, $expired,
@@ -657,41 +665,13 @@ HTML;
 			);
 		}
 
-		$out = Html::openElement(
-			'div',
-			array( 'class' => 'five columns main-widget stats-widget' )
-		);
-
-		$email = $this->getUser()->getEmail();
-		$avatar = 'https://secure.gravatar.com/avatar/' . md5( strtolower( $email ) );
-		$out .= Html::openElement(
-			'div',
-			array(
-				'class' => 'row user-stats-title',
-				'style' => "background-image: url('$avatar?d=mm');",
-			)
-		);
-
-		$out .= Html::element(
-			'h2',
-			array(),
-			$this->msg( 'twnmp-your-translations-stats' )->text()
-		);
-
-		$languageName = TranslateUtils::getLanguageName( $languageCode, $languageCode );
-		if ( $groupsSourceLanguage === $languageCode ) {
+		if ( $languageForStats === '' ) {
 			$translationStatsRankingMsg = 'twnmp-translations-translator-ranking-source';
-
-			$out .= Html::element(
-				'div',
-				array( 'class' => 'twn-mainpage-alllang-stats' ),
-				$this->msg( 'twnmp-your-translations-stats-all-languages' )->text()
-			);
+			$languageName = '';
 		} else {
 			$translationStatsRankingMsg = 'twnmp-translations-translator-ranking';
+			$languageName = TranslateUtils::getLanguageName( $languageForStats, $languageForStats );
 		}
-
-		$out .= Html::closeElement( 'div' );
 
 		$myuser = $this->getUser()->getName();
 

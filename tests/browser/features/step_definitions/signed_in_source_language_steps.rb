@@ -34,7 +34,7 @@ When(/^I choose "Polish" on the project language selector$/) do
 end
 
 Then(/^I should not see the number of messages in the project tiles$/) do
-	on(MainPage).statstext_element.text.should == ''
+	on(MainPage).statstext_element.text.should_not match(/\d+ messages/)
 end
 
 When(/^I should see statsbars in the project tiles$/) do

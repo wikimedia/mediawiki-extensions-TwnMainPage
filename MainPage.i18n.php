@@ -506,15 +506,19 @@ $messages['cs'] = array(
 	'twnmp-translate-link' => 'Překládat',
 	'twnmp-proofread-link' => 'Dělat korektury',
 	'twnmp-translate-button' => 'Překládat',
+	'twnmp-view-button' => 'Zobrazit překlady',
 	'twnmp-proofread-button' => 'Dělat korektury',
 	'twnmp-your-translations-stats' => 'Vaše statistika překladů',
 	'twnmp-your-translations-stats-all-languages' => 'Všechny jazyky',
 	'twnmp-your-view-language-stats' => 'Zobrazit jazykové statistiky',
 	'twnmp-translations-per-month' => 'překladů za měsíc',
+	'twnmp-translations-in-sandbox' => 'překladů',
 	'twnmp-reviews-per-month' => 'korektur za měsíc',
 	'twnmp-translations-translator-ranking' => 'Jste {{PLURAL:$3|1={{GENDER:$1|jediný|jediná}}|$2. z $3}}<br />pro jazyk $4',
 	'twnmp-translations-translator-ranking-source' => 'Jste {{PLURAL:$3|1={{GENDER:$1|jediný|jediná}}|$2. z $3}}',
 	'twnmp-add-project' => 'Přidejte svůj open-source projekt k překladu',
+	'twnmp-sandboxed' => 'Abyste {{GENDER:|získal|získala|získali}} překladatelská oprávnění, musíte poskytnout více překladů.',
+	'twnmp-sandboxed-limit' => '{{GENDER:|Dosáhl|Dosáhla|Dosáhli}} jste limitu překladů. Náš tým váš účet brzy ověří a povýší.',
 	'twnmp-bottom-help' => 'Nápověda',
 	'twnmp-bottom-support' => 'Stránka podpory',
 	'twnmp-bottom-languages-supported' => 'Podporované jazyky',
@@ -527,6 +531,11 @@ $messages['cs'] = array(
 	'twnmp-choose-languages-you-know' => 'Vyberte jazyky, které znáte',
 	'twnmp-choose-another-language' => 'Vybrat jiný jazyk…',
 	'twnmp-choose-fill-account-details' => 'Vyplňte údaje svého účtu',
+	'twnmp-join-community' => 'Připojit se ke komunitě',
+	'twnmp-join-community-desc' => 'Pokud jste vývojář, kterého zajímá dokumentace překladů nebo jen chcete vyzkoušet tuto platformu, jste také vítáni.',
+	'twnmp-join-community-reason' => 'Proč se chcete připojit?',
+	'twnmp-create-account-cancel' => 'Storno',
+	'twnmp-join-community-info' => 'Nejste překladatel? I tak se můžete ke komunitě připojit.',
 	'twnmp-stats-number-k' => '$1&nbsp;k',
 	'twnmp-select-target-language' => 'Zvolte si jazyk',
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Jedna zpráva|$1 zprávy|$1 zpráv}}',
@@ -2143,6 +2152,7 @@ $messages['vi'] = array(
  * @author Cwlin0416
  * @author Hzy980512
  * @author Liuxinyu970226
+ * @author Qiyue2001
  * @author Shirayuki
  * @author Timothy Gu
  * @author Xiaomingyan
@@ -2165,15 +2175,18 @@ $messages['zh-hans'] = array(
 	'twnmp-translate-link' => '翻译',
 	'twnmp-proofread-link' => '复查',
 	'twnmp-translate-button' => '翻译',
+	'twnmp-view-button' => '查看翻译',
 	'twnmp-proofread-button' => '复查',
 	'twnmp-your-translations-stats' => '你的翻译统计',
 	'twnmp-your-translations-stats-all-languages' => '所有语言',
 	'twnmp-your-view-language-stats' => '查看语言统计',
 	'twnmp-translations-per-month' => '译文/月',
+	'twnmp-translations-in-sandbox' => '翻译',
 	'twnmp-reviews-per-month' => '复查/月',
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=$4只有你一人|$4{{GENDER:$1|排名}}第$2，共$3人}}',
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=只有你一人|{{GENDER:$1|排名}}第$2，共$3人}}',
 	'twnmp-add-project' => '添加你需要翻译的开源项目',
+	'twnmp-sandboxed' => '您需要提供更多的翻译，以获取完整的翻译权。',
 	'twnmp-bottom-help' => '帮助',
 	'twnmp-bottom-support' => '技术支持',
 	'twnmp-bottom-languages-supported' => '语言支持',

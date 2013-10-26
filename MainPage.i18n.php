@@ -2148,6 +2148,13 @@ $messages['vi'] = array(
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Một thông điệp|$1 thông điệp}}',
 );
 
+/** Volapük (Volapük)
+ * @author Malafaya
+ */
+$messages['vo'] = array(
+	'twnmp-create-account-cancel' => 'Stöpädön',
+);
+
 /** Simplified Chinese (中文（简体）‎)
  * @author Cwlin0416
  * @author Hzy980512
@@ -2199,7 +2206,7 @@ $messages['zh-hans'] = array(
 	'twnmp-choose-languages-you-know' => '选择你知晓的语言',
 	'twnmp-choose-another-language' => '选择其他语言...',
 	'twnmp-choose-fill-account-details' => '填写你的账户详细信息',
-	'twnmp-join-community' => '加入社群',
+	'twnmp-join-community' => '加入社区',
 	'twnmp-join-community-reason' => '您为何对加入感兴趣？',
 	'twnmp-create-account-cancel' => '取消',
 	'twnmp-join-community-info' => '尚未成为一名翻译者？您可以加入社群，而且现在就可以。',

@@ -35,6 +35,7 @@ $wgResourceModules['ext.translate.mainpage.signup'] = array(
 		'ext.uls.interface',
 		'mediawiki.api',
 		'mediawiki.api.login',
+		'jquery.json',
 	),
 ) + $resourcePaths;
 

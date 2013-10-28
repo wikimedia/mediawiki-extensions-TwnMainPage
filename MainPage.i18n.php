@@ -62,7 +62,7 @@ $messages['en'] = array(
 	'twnmp-become-translator' => 'Become a translator',
 	'twnmp-choose-languages-you-know' => 'Choose languages you know',
 	'twnmp-choose-another-language' => 'Choose another language...',
-	'twnmp-choose-fill-account-details' => 'Fill in your account details',
+	'twnmp-choose-fill-account-details' => 'Enter your account details',
 
 	'twnmp-join-community' => 'Join the community',
 	'twnmp-join-community-desc' => 'If you are a developer interested in documenting translations, or just exploring the platform, you are also welcome.',

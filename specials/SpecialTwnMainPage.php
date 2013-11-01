@@ -158,6 +158,13 @@ HTML;
 				'dir' => $this->getLanguage()->getDir(),
 			) );
 
+		$out .= Html::element( 'input',
+			array(
+				'name' => 'language',
+				'value' => $this->getLanguage()->getCode(),
+				'type' => 'hidden',
+			) );
+
 		$out .= Html::element( 'button',
 			array(
 				'class' => 'blue button',

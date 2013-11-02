@@ -183,7 +183,7 @@ See also:
 	'twnmp-add-project' => 'Used as link text for the link pointing to [[Special:MyLanguage/Translating:New project|Translating:New project]].
 
 See example: [[Special:MainPage]]',
-	'twnmp-sandboxed' => 'A text shown to sandboxed users in their personal area on the main page instead of proofrading statistics.',
+	'twnmp-sandboxed' => 'A text shown to sandboxed users in their personal area on the main page instead of proofreading statistics.',
 	'twnmp-sandboxed-limit' => 'A text shown to sandboxed users in their personal area on the main page instead of proofreading statistics.',
 	'twnmp-bottom-help' => 'A link that appears at the bottom of the main page.
 
@@ -574,15 +574,19 @@ $messages['cy'] = array(
 	'twnmp-translate-link' => 'Cyfieithu',
 	'twnmp-proofread-link' => 'Adolygu',
 	'twnmp-translate-button' => 'Cyfieithu',
+	'twnmp-view-button' => 'Gweld y cyfieithiadau',
 	'twnmp-proofread-button' => 'Adolygu',
 	'twnmp-your-translations-stats' => 'Ystadegau eich gwaith cyfieithu',
 	'twnmp-your-translations-stats-all-languages' => "I'r holl ieithoedd",
 	'twnmp-your-view-language-stats' => "Ystadegau'r iaith",
 	'twnmp-translations-per-month' => 'Cyfieithiadau bob mis',
+	'twnmp-translations-in-sandbox' => 'Cyfieithiadau',
 	'twnmp-reviews-per-month' => 'Adogyliadau bob mis',
 	'twnmp-translations-translator-ranking' => "{{PLURAL:$3||Chi yw'r unig cyfieithydd<br /> $4|{{GENDER:$1|Rhif}} $2 o ran gweithgarwch ymhlith<br />y $3 gyfieithydd $4|Rhif $2 o ran gweithgarwch ymhlith<br />y $3 chyfieithydd $4|Rhif $2 o ran gweithgarwch ymhlith<br />y $3 chyfieithydd $4|Rhif $2 o ran gweithgarwch ymhlith<br />y $3 cyfieithydd $4}}",
 	'twnmp-translations-translator-ranking-source' => "{{PLURAL:$3|1=Chi yw'r unig un|{{GENDER:$1|Rhif}} $2 o $3}}",
 	'twnmp-add-project' => "Ychwanegwch eich prosiect cynnwys agored i'w gyfieithu yma",
+	'twnmp-sandboxed' => 'Mae angen i chi gynnig rhagor o gyfieithiadau cyn derbyn yn llwyr y gallu i gyfieithu.',
+	'twnmp-sandboxed-limit' => 'Rydych wedi cyrraedd terfyn y cyfieithiadau. Cyn hir bydd ein tîm yn gwirio hyn ac yn uwchraddio eich cyfrif.',
 	'twnmp-bottom-help' => 'Cymorth',
 	'twnmp-bottom-support' => 'Y ddesg gymorth',
 	'twnmp-bottom-languages-supported' => 'Ieithoedd a gynhelir',
@@ -595,6 +599,11 @@ $messages['cy'] = array(
 	'twnmp-choose-languages-you-know' => 'Dewis eich ieithoedd',
 	'twnmp-choose-another-language' => 'Dewis iaith arall...',
 	'twnmp-choose-fill-account-details' => 'Rhoi manylion eich cyfrif',
+	'twnmp-join-community' => "Ymunwch â'r gymuned",
+	'twnmp-join-community-desc' => "Os ydych yn ddatblygwr a diddordeb mewn ychwanegu nodiadau i'r negeseuon, neu am bori'r wefan i'w ddeall yn well, mae croeso hefyd i chwithau.",
+	'twnmp-join-community-reason' => 'Pam bod diddordeb gennych yn ymuno gyda ni?',
+	'twnmp-create-account-cancel' => 'Diddymer',
+	'twnmp-join-community-info' => "Ddim yn gyfieithydd? Eto i gyd, gallwch ymuno â'r gymuned.",
 	'twnmp-stats-number-k' => '$1 mil',
 	'twnmp-select-target-language' => 'Dewis iaith',
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|$1 neges}}',
@@ -1362,7 +1371,7 @@ $messages['lb'] = array(
 	'twnmp-become-translator' => 'Iwwersetzer ginn',
 	'twnmp-choose-languages-you-know' => 'Sproochen eraussichen déi Dir kënnt',
 	'twnmp-choose-another-language' => 'Eng aner Sprooch eraussichen...',
-	'twnmp-choose-fill-account-details' => 'Setzt Detailer an Äre Benotzerkont derbäi', # Fuzzy
+	'twnmp-choose-fill-account-details' => "Gitt d'Detailer vu Ärem Benotzerkont an",
 	'twnmp-join-community' => 'Maacht bei eis mat',
 	'twnmp-create-account-cancel' => 'Ofbriechen',
 	'twnmp-join-community-info' => 'Keen Iwwersetzer? Dir kënnt nach bei eis matmaachen.',
@@ -1703,7 +1712,7 @@ $messages['ro'] = array(
 	'twnmp-become-translator' => 'Deveniți un traducător',
 	'twnmp-choose-languages-you-know' => 'Alegeți limbile pe care le cunoașteți',
 	'twnmp-choose-another-language' => 'Alegeți încă o limbă...',
-	'twnmp-choose-fill-account-details' => 'Completați detaliile contului dumnevoastră', # Fuzzy
+	'twnmp-choose-fill-account-details' => 'Introduceți detaliile contului dumnevoastră',
 	'twnmp-join-community' => 'Alăturați-vă comunității',
 	'twnmp-join-community-desc' => 'Dacă sunteți un dezvoltator interesat de documentarea traducerilor sau pur și simplu explorați platforma, sunteți de asemenea binevenit.',
 	'twnmp-join-community-reason' => 'De ce ați doriți să vă alăturați?',
@@ -1763,6 +1772,7 @@ $messages['roa-tara'] = array(
  * @author Kaganer
  * @author Lockal
  * @author Okras
+ * @author Ua2004
  */
 $messages['ru'] = array(
 	'twnmp-desc' => 'Текст на заглавной странице translatewiki.net',
@@ -1806,13 +1816,13 @@ $messages['ru'] = array(
 	'twnmp-become-translator' => 'Стать переводчиком',
 	'twnmp-choose-languages-you-know' => 'Выберите языки, которыми владеете',
 	'twnmp-choose-another-language' => 'Выберите другой язык...',
-	'twnmp-choose-fill-account-details' => 'Заполните информацию о своей учётной записи', # Fuzzy
+	'twnmp-choose-fill-account-details' => 'Введите информацию о своей учётной записи',
 	'twnmp-join-community' => 'Присоединиться к сообществу',
 	'twnmp-join-community-desc' => 'Если вы разработчик, заинтересованный в документировании переводов, или просто изучает платформу, мы также вам рады.',
 	'twnmp-join-community-reason' => 'Почему вы хотите присоединиться к нам?',
 	'twnmp-create-account-cancel' => 'Отмена',
 	'twnmp-join-community-info' => 'Вы не переводчик? Вы все равно можете присоединиться к сообществу.',
-	'twnmp-stats-number-k' => '$1&nbsp;тыс.',
+	'twnmp-stats-number-k' => '$1&nbsp;тис.',
 	'twnmp-select-target-language' => 'Выбрать язык',
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|$1 сообщение|$1 сообщения|$1 сообщений}}',
 );
@@ -2067,6 +2077,7 @@ $messages['tr'] = array(
 
 /** Ukrainian (українська)
  * @author Andriykopanytsia
+ * @author Ua2004
  * @author Ата
  */
 $messages['uk'] = array(
@@ -2117,6 +2128,7 @@ $messages['uk'] = array(
 	'twnmp-join-community-reason' => 'Чому ви зацікавлені у приєднанні до нас?',
 	'twnmp-create-account-cancel' => 'Скасувати',
 	'twnmp-join-community-info' => 'Не перекладач? Ви ще можете приєднатися до спільноти.',
+	'twnmp-stats-number-k' => '$1 тис.',
 	'twnmp-select-target-language' => 'Оберіть мову',
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Одне повідомлення|$1 повідомлення|$1 повідомлень}}',
 );

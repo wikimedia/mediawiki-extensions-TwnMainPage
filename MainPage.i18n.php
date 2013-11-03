@@ -1602,7 +1602,7 @@ $messages['oc'] = array(
 	'twnmp-become-translator' => 'Venir un traductor',
 	'twnmp-choose-languages-you-know' => 'Causir las lengas que coneissètz',
 	'twnmp-choose-another-language' => 'Causir una autra lenga…',
-	'twnmp-choose-fill-account-details' => 'Completar totes los detalhs de vòstre compte', # Fuzzy
+	'twnmp-choose-fill-account-details' => 'Completatz los detalhs de vòstre compte',
 );
 
 /** Pashto (پښتو)
@@ -1822,7 +1822,7 @@ $messages['ru'] = array(
 	'twnmp-join-community-reason' => 'Почему вы хотите присоединиться к нам?',
 	'twnmp-create-account-cancel' => 'Отмена',
 	'twnmp-join-community-info' => 'Вы не переводчик? Вы все равно можете присоединиться к сообществу.',
-	'twnmp-stats-number-k' => '$1&nbsp;тис.',
+	'twnmp-stats-number-k' => '$1&nbsp;тыс.',
 	'twnmp-select-target-language' => 'Выбрать язык',
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|$1 сообщение|$1 сообщения|$1 сообщений}}',
 );

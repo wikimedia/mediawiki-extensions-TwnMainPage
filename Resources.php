@@ -17,6 +17,7 @@ $wgResourceModules['ext.translate.mainpage'] = array(
 		'ext.translate.groupselector',
 		'ext.translate.mainpage.icons',
 		'ext.translate.statsbar',
+		'ext.uls.mediawiki',
 		'ext.uls.interface',
 		'mediawiki.language',
 		'mediawiki.Uri',
@@ -32,6 +33,7 @@ $wgResourceModules['ext.translate.mainpage'] = array(
 $wgResourceModules['ext.translate.mainpage.signup'] = array(
 	'scripts' => 'resources/js/ext.translate.mainpage.signup.js',
 	'dependencies' => array(
+		'ext.uls.mediawiki',
 		'ext.uls.interface',
 		'mediawiki.api',
 		'mediawiki.api.login',

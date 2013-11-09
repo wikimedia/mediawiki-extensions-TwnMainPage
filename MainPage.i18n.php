@@ -671,6 +671,7 @@ $messages['da'] = array(
 	'twnmp-show-more-projects' => 'Vis flere projekter...', # Fuzzy
 	'twnmp-brand-motto' => 'Fællesskab for oversættelse af open source',
 	'twnmp-login' => 'Log på',
+	'twnmp-logout' => 'Log af',
 	'twnmp-search-placeholder' => 'Find og ret oversættelser',
 	'twnmp-search-button' => 'Find',
 	'twnmp-search-choose-project' => 'Vælg et projekt at oversætte',
@@ -693,7 +694,7 @@ $messages['da'] = array(
 	'twnmp-become-translator' => 'Bliv en oversætter',
 	'twnmp-choose-languages-you-know' => 'Vælg de sprog, du kan',
 	'twnmp-choose-another-language' => 'Vælg et andet sprog...',
-	'twnmp-choose-fill-account-details' => 'Udfyld dine kontooplysninger',
+	'twnmp-choose-fill-account-details' => 'Udfyld dine kontooplysninger', # Fuzzy
 );
 
 /** German (Deutsch)
@@ -1224,7 +1225,7 @@ $messages['ja'] = array(
  * @author David1010
  */
 $messages['ka'] = array(
-	'twnmp-s-languages' => 'ენები', # Fuzzy
+	'twnmp-s-languages' => 'აქტიური {{PLURAL:$1|ენა|ენა}}',
 );
 
 /** Khmer (ភាសាខ្មែរ)
@@ -2007,7 +2008,7 @@ $messages['sv'] = array(
 	'twnmp-proofread-link' => 'Granska',
 	'twnmp-translate-button' => 'Översätt',
 	'twnmp-view-button' => 'Visa översättningar',
-	'twnmp-proofread-button' => 'Korrekturläs', # Fuzzy
+	'twnmp-proofread-button' => 'Granska',
 	'twnmp-your-translations-stats' => 'Din översättningsstatistik',
 	'twnmp-your-translations-stats-all-languages' => 'För alla språk',
 	'twnmp-your-view-language-stats' => 'Visa språkstatistik',
@@ -2017,6 +2018,8 @@ $messages['sv'] = array(
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=Du är den enda på $4<br />|{{GENDER:$1|med rank}} $2 av $3<br />på $4}}',
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=Du är den enda|{{GENDER:$1|Rankad}} som nummer $2 av $3}}',
 	'twnmp-add-project' => 'Lägg till ditt projekt med öppen källkod för översättning',
+	'twnmp-sandboxed' => 'Du måste ange fler översättningar för att få fullständiga översättningsrättigheter.',
+	'twnmp-sandboxed-limit' => 'Du nådde översättningsgränsen. Vårt team kommer snart kontrollera och uppgradera ditt konto.',
 	'twnmp-bottom-help' => 'Hjälp',
 	'twnmp-bottom-support' => 'Supportavdelning',
 	'twnmp-bottom-languages-supported' => 'Språk som stöds',
@@ -2030,6 +2033,7 @@ $messages['sv'] = array(
 	'twnmp-choose-another-language' => 'Välj ett annat språk...',
 	'twnmp-choose-fill-account-details' => 'Ange dina kontouppgifter',
 	'twnmp-join-community' => 'Gå med i gemenskapen',
+	'twnmp-join-community-desc' => 'Om du är en utvecklare som är intresserade av att dokumentera översättningar eller bara utforska plattformen är du också välkommen.',
 	'twnmp-join-community-reason' => 'Varför är du intresserad av att delta?',
 	'twnmp-create-account-cancel' => 'Avbryt',
 	'twnmp-join-community-info' => 'Inte en översättare? Du kan fortfarande gå med i gemenskapen.',

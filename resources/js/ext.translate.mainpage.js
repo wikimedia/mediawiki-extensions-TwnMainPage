@@ -6,6 +6,9 @@
 ( function ( $, mw ) {
 	'use strict';
 
+	// BC for MW <= 1.21
+	var getUrl = mw.util.getUrl || mw.util.wikiGetlink;
+
 	/**
 	 * If the source language of all projects are same as target language,
 	 * provide a language selector to select target language.
@@ -162,7 +165,7 @@
 			.msggroupselector( {
 				language: language,
 				onSelect: function ( messageGroup ) {
-					window.location.href = new mw.Uri( mw.util.wikiGetlink( 'Special:Translate' ) )
+					window.location.href = new mw.Uri( getUrl( 'Special:Translate' ) )
 						.extend( {
 							group: messageGroup.id
 						} );

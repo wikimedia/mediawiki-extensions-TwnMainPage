@@ -10,8 +10,8 @@
 	var getUrl = mw.util.getUrl || mw.util.wikiGetlink;
 
 	/**
-	 * If the source language of all projects are same as target language,
-	 * provide a language selector to select target language.
+	 * If the source language of all projects is the same as the target language,
+	 * provide a language selector to select the target language above the tiles.
 	 */
 	function setupTargetLanguageSelector() {
 		var $sameLanguageULSTrigger,
@@ -57,12 +57,15 @@
 		// Clear current numbers first so they don't stay if something goes wrong
 		$tiles.each( function () {
 			var $tile = $( this );
-			$tile.find( '.project-statsbar' ).empty().removeData( 'languagestatsbar' );
+
+			$tile.find( '.project-statsbar' ).empty()
+				.removeData( 'languagestatsbar' );
 			$tile.find( '.project-statstext' ).empty();
 			// Update the links to go to the correct language
 			$tile.find( '.project-actions a' ).each( function () {
-				var $this = $( this ), uri;
-				uri = new mw.Uri( $this.prop( 'href' ) );
+				var $this = $( this ),
+					uri = new mw.Uri( $this.prop( 'href' ) );
+
 				uri.extend( { language: language } );
 				$this.prop( 'href', uri );
 			} );
@@ -70,11 +73,10 @@
 
 		mw.translate.loadLanguageStats( language ).done( function () {
 			$tiles.each( function () {
-				var $tile = $( this ),
-					translated, proofread,
+				var stats, translated, proofread,
+					$tile = $( this ),
 					$statsbar = $tile.find( '.project-statsbar' ),
-					msggroupid = $tile.data( 'msggroupid' ),
-					stats;
+					msggroupid = $tile.data( 'msggroupid' );
 
 				if ( !$statsbar.length ) {
 					return;
@@ -95,15 +97,15 @@
 				translated = stats.translated - stats.proofread;
 				translated = 100 * translated / stats.total;
 				proofread = 100 * stats.proofread / stats.total;
-				$tile.find( '.project-statstext' )
-					.append(
-						$( '<span>' ).addClass( 'translate' )
-							.text( mw.msg( 'percent',
-								mw.language.convertNumber( Math.round( translated ) ) ) ),
-						$( '<span>' ).addClass( 'proofread' )
-							.text( mw.msg( 'percent',
-								mw.language.convertNumber( Math.round( proofread ) ) ) )
-					);
+
+				$tile.find( '.project-statstext' ).append(
+					$( '<span>' ).addClass( 'translate' )
+						.text( mw.msg( 'percent',
+							mw.language.convertNumber( Math.round( translated ) ) ) ),
+					$( '<span>' ).addClass( 'proofread' )
+						.text( mw.msg( 'percent',
+							mw.language.convertNumber( Math.round( proofread ) ) ) )
+				);
 			} );
 		} );
 	}
@@ -112,9 +114,9 @@
 	 * Setup the project tiles in the main page.
 	 */
 	function setupProjectTiles() {
-		var language = mw.config.get( 'wgUserLanguage' ),
+		var $selector,
+			language = mw.config.get( 'wgUserLanguage' ),
 			maxProjectTiles = mw.config.get( 'maxProjectTiles' ),
-			$selector,
 			$tiles = $( '.project-tile' );
 
 		if ( $( '.twn-mainpage-project-tiles' ).data( 'same-sourcelanguage' ) ) {
@@ -134,6 +136,7 @@
 
 		$tiles.click( function () {
 			var url = $( this ).data( 'url' );
+
 			if ( url ) {
 				window.location.href = url;
 			}
@@ -142,8 +145,8 @@
 		// Make the whole action div clickable to override above
 		$tiles.find( '.action' ).click( function ( e ) {
 			e.stopPropagation();
-			var url = $( this ).find( 'a' ).prop( 'href' );
-			window.location.href = url;
+
+			window.location.href = $( this ).find( 'a' ).prop( 'href' );
 		} );
 
 		if ( $tiles.length !== maxProjectTiles ) {

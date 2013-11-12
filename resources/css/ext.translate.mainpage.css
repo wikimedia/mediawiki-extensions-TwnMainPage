@@ -27,10 +27,10 @@ body {
 }
 
 .twn-mainpage-header .uls-trigger {
-	background-position: bottom left;
+	background-position: center left;
 	padding-left: 30px;
 	color: #3366BB;
-	padding-top: 50px;
+	margin-top: 50px;
 	cursor: pointer;
 	display: inline-block;
 }

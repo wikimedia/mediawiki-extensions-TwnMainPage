@@ -488,7 +488,7 @@ HTML;
 		$this->getOutput()->addModules( 'ext.translate.mainpage.signup' );
 
 		$languageCode = $this->getLanguage()->getCode();
-		$languageName = TranslateUtils::getLanguageName( $languageCode );
+		$languageName = TranslateUtils::getLanguageName( $languageCode, $languageCode );
 
 		$defaultLanguage = Xml::checkLabel(
 			$languageName,

@@ -164,10 +164,9 @@ body {
 	color: #252525;
 }
 
-.main-widget button {
-	height: 32px;
+.main-widget button.button {
+	min-height: 32px;
 	padding: 10px;
-	font-size: 20pt;
 	margin: 10px;
 }
 
@@ -257,7 +256,7 @@ body {
 
 .ranking .button {
 	min-width: 80%;
-	min-height: 30px;
+	min-height: 32px;
 }
 
 .ranking .count-description {

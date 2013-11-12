@@ -2255,6 +2255,13 @@ $messages['vo'] = array(
 	'twnmp-create-account-cancel' => 'Stöpädön',
 );
 
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'twnmp-mainpage' => 'הויפט זייט',
+);
+
 /** Simplified Chinese (中文（简体）‎)
  * @author Cwlin0416
  * @author Hzy980512

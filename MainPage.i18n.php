@@ -2135,6 +2135,14 @@ $messages['tr'] = array(
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Bir ileti|$1 ileti}}',
 );
 
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Tel'et
+ */
+$messages['ug-arab'] = array(
+	'twnmp-translations-per-month' => 'تەرجىمە \\ ئاي',
+	'twnmp-reviews-per-month' => 'تەكشۈرۈش \\ ئاي',
+);
+
 /** Ukrainian (українська)
  * @author Andriykopanytsia
  * @author Ua2004

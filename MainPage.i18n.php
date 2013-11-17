@@ -659,6 +659,7 @@ $messages['cy'] = array(
 /** Danish (dansk)
  * @author Christian List
  * @author Peter Alberti
+ * @author Shirayuki
  */
 $messages['da'] = array(
 	'twnmp-desc' => 'Giver translatewiki.nets forside',

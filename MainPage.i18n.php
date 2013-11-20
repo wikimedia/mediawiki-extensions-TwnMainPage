@@ -514,6 +514,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'twnmp-mainpage' => 'Коьрта агӀо',
 	'twnmp-s-translators' => '{{PLURAL:$1|гочдархо|гочдархой}}',
 	'twnmp-s-projects' => '{{PLURAL:$1|проект|проекташ}}',
 	'twnmp-s-languages' => '{{PLURAL:$1|жигара мотт|жигара меттанаш}}',

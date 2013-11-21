@@ -44,6 +44,11 @@ $specialPageAliases['gl'] = array(
 	'TwnMainPage' => array( 'Portada' ),
 );
 
+/** Italian (italiano) */
+$specialPageAliases['it'] = array(
+	'TwnMainPage' => array( 'PaginaPrincipale' ),
+);
+
 /** Japanese (日本語) */
 $specialPageAliases['ja'] = array(
 	'TwnMainPage' => array( 'メインページ' ),

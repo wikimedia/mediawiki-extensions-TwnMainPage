@@ -758,6 +758,7 @@ $messages['de'] = array(
 );
 
 /** Spanish (español)
+ * @author Fitoschido
  * @author Ovruni
  */
 $messages['es'] = array(
@@ -768,37 +769,45 @@ $messages['es'] = array(
 	'twnmp-s-languages' => '{{PLURAL:$1|Idioma activo|Idiomas activos}}',
 	'twnmp-s-messages' => '{{PLURAL:$1|Mensaje|Mensajes}} para traducir',
 	'twnmp-bannerwho' => 'Imagen $1',
-	'twnmp-show-more-projects' => 'Mostrar más proyectos...', # Fuzzy
-	'twnmp-brand-motto' => 'Comunidad de traducción de Código Abierto',
+	'twnmp-show-more-projects' => 'Mostrar todos los proyectos',
+	'twnmp-brand-motto' => 'Comunidad de traducción de código abierto',
 	'twnmp-login' => 'Iniciar sesión',
 	'twnmp-logout' => 'Cerrar sesión',
 	'twnmp-search-placeholder' => 'Buscar y corregir traducciones',
 	'twnmp-search-button' => 'Buscar',
-	'twnmp-search-choose-project' => 'Elegir un proyecto para traducir',
+	'twnmp-search-choose-project' => 'Elige un proyecto para traducir',
 	'twnmp-translate-link' => 'Traducir',
-	'twnmp-proofread-link' => 'Revisar', # Fuzzy
+	'twnmp-proofread-link' => 'Revisar',
 	'twnmp-translate-button' => 'Traducir',
-	'twnmp-proofread-button' => 'Revisar', # Fuzzy
+	'twnmp-view-button' => 'Ver traducciones',
+	'twnmp-proofread-button' => 'Revisar',
 	'twnmp-your-translations-stats' => 'Tus estadísticas de traducción',
 	'twnmp-your-translations-stats-all-languages' => 'Para todos los idiomas',
 	'twnmp-your-view-language-stats' => 'Ver las estadísticas de idioma',
 	'twnmp-translations-per-month' => 'Traducciones/mes',
+	'twnmp-translations-in-sandbox' => 'Traducciones',
 	'twnmp-reviews-per-month' => 'Revisiones/mes',
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=Usted es el único<br />para el $4|{{GENDER:$1|Ubicado en el puesto}} $2 de $3<br />para el $4}}',
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=Usted es el único|{{GENDER:$1|Ubicado en el puesto}} $2 de $3}}',
 	'twnmp-add-project' => 'Añade tu proyecto de código abierto para su traducción',
+	'twnmp-sandboxed' => 'Necesitas traducir más para obtener los privilegios de traducción completos.',
+	'twnmp-sandboxed-limit' => 'Has alcanzado el límite de traducción. Nuestro equipo verificará y actualizará tu cuenta pronto.',
 	'twnmp-bottom-help' => 'Ayuda',
-	'twnmp-bottom-support' => 'Servicio de soporte',
-	'twnmp-bottom-languages-supported' => 'Idiomas soportados',
+	'twnmp-bottom-support' => 'Asistencia',
+	'twnmp-bottom-languages-supported' => 'Idiomas admitidos',
 	'twnmp-bottom-about' => 'Acerca de',
 	'twnmp-signup-username-placeholder' => 'Nombre de usuario',
 	'twnmp-signup-password-placeholder' => 'Contraseña',
 	'twnmp-signup-email-placeholder' => 'Correo electrónico',
 	'twnmp-create-account-button' => 'Crear una cuenta',
-	'twnmp-become-translator' => 'Convertirse en un traductor',
-	'twnmp-choose-languages-you-know' => 'Elija los idiomas que conoce',
-	'twnmp-choose-another-language' => 'Elija otro idioma...',
-	'twnmp-choose-fill-account-details' => 'Rellene los detalles de su cuenta',
+	'twnmp-become-translator' => 'Conviértete en un traductor',
+	'twnmp-choose-languages-you-know' => 'Elige los idiomas que conozcas',
+	'twnmp-choose-another-language' => 'Elegir otro idioma…',
+	'twnmp-choose-fill-account-details' => 'Escribe los detalles de tu cuenta',
+	'twnmp-join-community' => 'Únete a la comunidad',
+	'twnmp-join-community-desc' => 'Si eres un desarrollador interesado en documentar traducciones o solo estás explorando la plataforma, también eres bienvenido.',
+	'twnmp-join-community-reason' => '¿Por qué quieres unirte?',
+	'twnmp-create-account-cancel' => 'Cancelar',
 	'twnmp-select-target-language' => 'Seleccionar idioma',
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Un mensaje|$1 mensajes}}',
 );

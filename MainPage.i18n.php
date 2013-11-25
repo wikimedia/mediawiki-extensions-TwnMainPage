@@ -1067,7 +1067,7 @@ $messages['he'] = array(
 	'twnmp-translations-per-month' => 'תרגומים לחודש',
 	'twnmp-translations-in-sandbox' => 'תרגומים',
 	'twnmp-reviews-per-month' => 'הגהות לחודש',
-	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1={{GENDER:$1|אתה היחיד|את היחידה}}<br />עבור $4|{{GENDER:$1|Ranked}} $2 of $3<br />for $4}}',
+	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1={{GENDER:$1|אתה היחיד|את היחידה}}|{{GENDER:$1|אתה מדורג|את מדורגת}} במקום ה־$2 מבין $3}}<br />עבור $4',
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1={{GENDER:$1|אתה היחיד|את היחידה}} כאן|{{GENDER:$1|אתה מדורג|את מדורגת}} במקום ה־$2 מתוך $3}}',
 	'twnmp-add-project' => 'הוספת מיזם הקוד הפתוח שלך לתרגום כאן',
 	'twnmp-sandboxed' => 'יש לספק עוד תרגומים כדי לקבל הרשאות תרגום מלאות.',
@@ -1083,7 +1083,7 @@ $messages['he'] = array(
 	'twnmp-become-translator' => 'בואו להיות מתרגמים',
 	'twnmp-choose-languages-you-know' => 'השפה שלך',
 	'twnmp-choose-another-language' => 'בחירת שפה אחרת...',
-	'twnmp-choose-fill-account-details' => 'נא למלא את פרטי החשבון שלך', # Fuzzy
+	'twnmp-choose-fill-account-details' => 'נא למלא את פרטי החשבון שלך',
 	'twnmp-join-community' => 'להצטרף לקהילה',
 	'twnmp-join-community-desc' => 'מתכנתים שמעוניינים לתעד תרגומים או ללמוד את הפלטפורמה שלנו, גם אתם מוזמנים.',
 	'twnmp-join-community-reason' => 'מה גורם לך לרצות להצטרף?',
@@ -1595,6 +1595,7 @@ $messages['nb'] = array(
 );
 
 /** Dutch (Nederlands)
+ * @author SPQRobin
  * @author Siebrand
  * @author Southparkfan
  */
@@ -1617,8 +1618,10 @@ $messages['nl'] = array(
 	'twnmp-translate-button' => 'Vertalen',
 	'twnmp-proofread-button' => 'Controleren',
 	'twnmp-your-translations-stats' => 'Uw vertaalstatistieken',
+	'twnmp-your-translations-stats-all-languages' => 'Voor alle talen',
 	'twnmp-your-view-language-stats' => 'Taalstatistieken bekijken',
 	'twnmp-translations-per-month' => 'Vertalingen/maand',
+	'twnmp-translations-in-sandbox' => 'Vertalingen',
 	'twnmp-reviews-per-month' => 'Gecontroleerd/maand',
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=U bent de enige<br />voor $4|{{GENDER:$1|Positie}} $2 van $3<br />voor $4}}',
 	'twnmp-bottom-help' => 'Hulp',
@@ -1631,7 +1634,10 @@ $messages['nl'] = array(
 	'twnmp-become-translator' => 'Word vertaler',
 	'twnmp-choose-languages-you-know' => 'Kies talen die u kent',
 	'twnmp-choose-another-language' => 'Kies een andere taal...',
-	'twnmp-choose-fill-account-details' => 'Geef uw gebruikersgegevens op',
+	'twnmp-choose-fill-account-details' => 'Geef uw gebruikersgegevens op', # Fuzzy
+	'twnmp-create-account-cancel' => 'Annuleren',
+	'twnmp-select-target-language' => 'Taal selecteren',
+	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Eén bericht|$1 berichten}}',
 );
 
 /** Occitan (occitan)

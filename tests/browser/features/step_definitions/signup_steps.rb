@@ -4,7 +4,7 @@ Given(/^I am logged out on the main page$/) do
 end
 
 When(/^I choose a language I speak$/) do
-	on(SignupPage).select_signup_language('he')
+	on(SignupPage).select_signup_language("he")
 end
 
 When(/^I input a unique username$/) do

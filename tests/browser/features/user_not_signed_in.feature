@@ -13,7 +13,7 @@ Feature: Users who are not signed-in (and for other scenarios common to all user
     When I click on the link to choose more languages I can understand
     Then I should see a language selector
 
-  Scenario: Clicking 'more projects' -> displays the message group dialog for all users
+  Scenario: Clicking "more projects" -> displays the message group dialog for all users
     When I click on a project tile which says "More Projects"
     Then I should see a message group selector
 

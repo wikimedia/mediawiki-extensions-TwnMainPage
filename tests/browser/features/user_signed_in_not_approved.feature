@@ -7,7 +7,7 @@ Feature: Signed-in New Users who have not been approved (only onboarding view wi
 
   Scenario: Clicking over "Translate" and "Proofread" hover options displays the translation editor
     Given I have signed-up as a new translator
-    When I click on the 'Translate' or 'Proofread' option displayed on hovering inside a tile
+    When I click on the "Translate" or "Proofread" option displayed on hovering inside a tile
     Then I should see be taken into the appropriate view of the translation editor
 
   Scenario: Users can search a message or group using the search bar

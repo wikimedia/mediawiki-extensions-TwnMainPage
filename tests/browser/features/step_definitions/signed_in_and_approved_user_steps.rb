@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 When(/I go to the main page$/) do
-	visit(MainPage)
+	visit MainPage
 end
 
 Then(/^I should see general statistics about the site$/) do

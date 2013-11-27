@@ -9,7 +9,7 @@ Given(/^I am logged in$/) do
 end
 
 Given(/^I am on the main page$/) do
-	visit(MainPage)
+	visit MainPage
 end
 
 When(/^I change my interface language away from English$/) do

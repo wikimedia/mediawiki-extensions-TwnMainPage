@@ -1766,6 +1766,7 @@ $messages['ps'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Luckas
  */
 $messages['pt-br'] = array(
@@ -1775,7 +1776,7 @@ $messages['pt-br'] = array(
 	'twnmp-s-languages' => '{{PLURAL:$1|Língua ativa|Línguas ativas}}',
 	'twnmp-s-messages' => 'Mensagens para traduzir', # Fuzzy
 	'twnmp-bannerwho' => 'Imagem $1',
-	'twnmp-show-more-projects' => 'Mostrar mais projetos...', # Fuzzy
+	'twnmp-show-more-projects' => 'Mostrar todos projetos...',
 	'twnmp-translate-link' => 'Traduzir',
 	'twnmp-translate-button' => 'Traduzir',
 	'twnmp-your-translations-stats' => 'Suas estatísticas de tradução',

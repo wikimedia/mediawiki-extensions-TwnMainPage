@@ -1312,6 +1312,7 @@ $messages['ko'] = array(
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=한 명 뿐입니다|$3명 중 $2{{GENDER:$1|위}}}}',
 	'twnmp-add-project' => '여러분의 오픈 소스 프로젝트를 번역에 추가하세요',
 	'twnmp-sandboxed' => '모두 번역할 권리를 얻으려면 더 많은 번역을 제공해야 합니다.',
+	'twnmp-sandboxed-limit' => '번역 제한에 도달했습니다. 우리 팀은 곧 당신의 계정을 확인하고 업그레이드할 것입니다.',
 	'twnmp-bottom-help' => '도움말',
 	'twnmp-bottom-support' => '지원 요청',
 	'twnmp-bottom-languages-supported' => '지원하는 언어',
@@ -1323,7 +1324,12 @@ $messages['ko'] = array(
 	'twnmp-become-translator' => '번역자가 되세요',
 	'twnmp-choose-languages-you-know' => '당신이 알고 있는 언어를 선택하세요',
 	'twnmp-choose-another-language' => '다른 언어 선택...',
-	'twnmp-choose-fill-account-details' => '내 계정 정보를 채우세요', # Fuzzy
+	'twnmp-choose-fill-account-details' => '계정 정보를 입력하세요',
+	'twnmp-join-community' => '이 공동체에 가입하기',
+	'twnmp-join-community-desc' => '번역을 문서하거나, 플랫폼을 탐험하는 데 관심이 있는 개발자라면, 또한 환영합니다.',
+	'twnmp-join-community-reason' => '왜 가입에 관심이 있습니까?',
+	'twnmp-create-account-cancel' => '취소',
+	'twnmp-join-community-info' => '번역자가 아닙니까? 여전히 공동체에 가입할 수 있습니다.',
 	'twnmp-stats-number-k' => '$1천',
 	'twnmp-select-target-language' => '언어 선택',
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|메시지 한 개|메시지 $1개}}',
@@ -2049,6 +2055,7 @@ $messages['sr-ec'] = array(
 $messages['sr-el'] = array(
 	'twnmp-translations-in-sandbox' => 'Prevodi',
 	'twnmp-create-account-cancel' => 'Otkaži',
+	'twnmp-select-target-language' => 'Izaberi jezik',
 );
 
 /** Swedish (svenska)

@@ -455,16 +455,17 @@ $messages['br'] = array(
 );
 
 /** Catalan (català)
+ * @author Fitoschido
  * @author Pginer
  * @author Toniher
  */
 $messages['ca'] = array(
 	'twnmp-desc' => 'Proporciona la pàgina principal de translatewiki.net',
 	'twnmp-mainpage' => 'Pàgina principal',
-	'twnmp-s-translators' => '{{PLURAL:$1|Traductor|Traductors}}',
-	'twnmp-s-projects' => '{{PLURAL:$1|Projecte|Projectes}}',
-	'twnmp-s-languages' => '{{PLURAL:$1|Llengua activa|Llengües actives}}',
-	'twnmp-s-messages' => '{{PLURAL:$1|Missatge|Missatges}} per traduir',
+	'twnmp-s-translators' => '{{PLURAL:$1|traductor|traductors}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|projecte|projectes}}',
+	'twnmp-s-languages' => '{{PLURAL:$1|llengua activa|llengües actives}}',
+	'twnmp-s-messages' => '{{PLURAL:$1|missatge|missatges}} per traduir',
 	'twnmp-bannerwho' => 'Imatge $1',
 	'twnmp-show-more-projects' => 'Mostra totes els projectes...',
 	'twnmp-brand-motto' => 'Comunitat de traducció de programari de codi obert',
@@ -481,7 +482,7 @@ $messages['ca'] = array(
 	'twnmp-your-translations-stats' => 'Les vostres estadístiques de traducció',
 	'twnmp-your-translations-stats-all-languages' => 'Totes les llengües',
 	'twnmp-your-view-language-stats' => 'Mostra les estadístiques de la llengua',
-	'twnmp-translations-per-month' => 'Traduccions/mes',
+	'twnmp-translations-per-month' => 'traduccions/mes',
 	'twnmp-translations-in-sandbox' => 'Traduccions',
 	'twnmp-reviews-per-month' => 'Revisions/mes',
 	'twnmp-translations-translator-ranking' => "{{PLURAL:$3|1=Sou l'únic que tradueix<br />en $4|{{GENDER:$1|Sou el número}} $2 de $3<br /> que tradueix en $4}}",
@@ -764,10 +765,10 @@ $messages['de'] = array(
 $messages['es'] = array(
 	'twnmp-desc' => 'Proporciona la página principal de translatewiki.net',
 	'twnmp-mainpage' => 'Página principal',
-	'twnmp-s-translators' => '{{PLURAL:$1|Traductor|Traductores}}',
-	'twnmp-s-projects' => '{{PLURAL:$1|Proyecto|Proyectos}}',
-	'twnmp-s-languages' => '{{PLURAL:$1|Idioma activo|Idiomas activos}}',
-	'twnmp-s-messages' => '{{PLURAL:$1|Mensaje|Mensajes}} para traducir',
+	'twnmp-s-translators' => '{{PLURAL:$1|traductor|traductores}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|proyecto|proyectos}}',
+	'twnmp-s-languages' => '{{PLURAL:$1|idioma activo|idiomas activos}}',
+	'twnmp-s-messages' => '{{PLURAL:$1|mensaje|mensajes}} para traducir',
 	'twnmp-bannerwho' => 'Imagen $1',
 	'twnmp-show-more-projects' => 'Mostrar todos los proyectos',
 	'twnmp-brand-motto' => 'Comunidad de traducción de código abierto',
@@ -783,8 +784,8 @@ $messages['es'] = array(
 	'twnmp-proofread-button' => 'Revisar',
 	'twnmp-your-translations-stats' => 'Tus estadísticas de traducción',
 	'twnmp-your-translations-stats-all-languages' => 'Para todos los idiomas',
-	'twnmp-your-view-language-stats' => 'Ver las estadísticas de idioma',
-	'twnmp-translations-per-month' => 'Traducciones/mes',
+	'twnmp-your-view-language-stats' => 'Ver las estadísticas del idioma',
+	'twnmp-translations-per-month' => 'traducciones/mes',
 	'twnmp-translations-in-sandbox' => 'Traducciones',
 	'twnmp-reviews-per-month' => 'Revisiones/mes',
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=Usted es el único<br />para el $4|{{GENDER:$1|Ubicado en el puesto}} $2 de $3<br />para el $4}}',
@@ -1659,11 +1660,12 @@ $messages['nl'] = array(
 
 /** Occitan (occitan)
  * @author Cedric31
+ * @author Fitoschido
  */
 $messages['oc'] = array(
 	'twnmp-desc' => 'Provesís la pagina principala de translatewiki.net',
 	'twnmp-mainpage' => 'Acuèlh',
-	'twnmp-s-translators' => '{{PLURAL:$1|Traductor|Traductors}}',
+	'twnmp-s-translators' => '{{PLURAL:$1|traductor|traductors}}',
 	'twnmp-s-projects' => '{{PLURAL:$1|Projècte|Projèctes}}',
 	'twnmp-s-languages' => '{{PLURAL:$1|Lenga activa|Lengas activas}}',
 	'twnmp-s-messages' => '{{PLURAL:$1|Messatge|Messatges}} de tradusir',
@@ -1680,7 +1682,7 @@ $messages['oc'] = array(
 	'twnmp-proofread-button' => 'Repassar',
 	'twnmp-your-translations-stats' => 'Vòstras estatisticas de traduccion',
 	'twnmp-your-view-language-stats' => 'Afichar las estatisticas de lenga',
-	'twnmp-translations-per-month' => 'Traduccions/mes',
+	'twnmp-translations-per-month' => 'traduccions/mes',
 	'twnmp-reviews-per-month' => 'Relecturas/mes',
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=Sètz lo sol<br />per $4|{{GENDER:$1|Classat}} $2 sus $3<br />per $4}}',
 	'twnmp-bottom-help' => 'Ajuda',

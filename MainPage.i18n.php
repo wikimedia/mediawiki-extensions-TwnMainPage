@@ -295,7 +295,7 @@ $messages['af'] = array(
 	'twnmp-become-translator' => "Word 'n vertaler",
 	'twnmp-choose-languages-you-know' => 'Kies tale wat u ken',
 	'twnmp-choose-another-language' => 'Kies ander taal...',
-	'twnmp-choose-fill-account-details' => 'Verskaf gebruikersdetails',
+	'twnmp-choose-fill-account-details' => 'Verskaf gebruikersdetails', # Fuzzy
 	'twnmp-stats-number-k' => '$1k',
 );
 
@@ -412,7 +412,7 @@ $messages['bn'] = array(
 	'twnmp-become-translator' => 'অনুবাদক হোন',
 	'twnmp-choose-languages-you-know' => 'আপনি যে ভাষাসমূহ জানেন তা নির্বাচন করুন',
 	'twnmp-choose-another-language' => 'অন্য একটি ভাষা নির্বাচন করুন...',
-	'twnmp-choose-fill-account-details' => 'আপনার অ্যাকাউন্ট বিস্তারিত পূরণ করুন',
+	'twnmp-choose-fill-account-details' => 'আপনার অ্যাকাউন্ট বিস্তারিত পূরণ করুন', # Fuzzy
 );
 
 /** Breton (brezhoneg)
@@ -537,7 +537,7 @@ $messages['ce'] = array(
 	'twnmp-stats-number-k' => '$1&nbsp;эза.',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Littledogboy
  * @author Mormegil
  */
@@ -594,7 +594,7 @@ $messages['cs'] = array(
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Jedna zpráva|$1 zprávy|$1 zpráv}}',
 );
 
-/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
@@ -758,6 +758,27 @@ $messages['de'] = array(
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Eine Nachricht|$1 Nachrichten}}',
 );
 
+/** Zazaki (Zazaki)
+ * @author Marmase
+ */
+$messages['diq'] = array(
+	'twnmp-mainpage' => 'Pera Seri',
+	'twnmp-s-translators' => '{{PLURAL:$1|Açerner|Açerneri}}',
+	'twnmp-s-projects' => '{{PLURAL:$1|Proca|Procey}}',
+	'twnmp-s-languages' => '{{PLURAL:$1|zıwan|Zıwani}} biya aktiv',
+	'twnmp-bannerwho' => 'Resim $1',
+	'twnmp-login' => 'Dekewtış',
+	'twnmp-logout' => 'Veciyayış',
+	'twnmp-search-button' => 'Bıvin',
+	'twnmp-search-choose-project' => 'Qande çerğkerdışi proca weçine',
+	'twnmp-translate-link' => 'Açarnayış',
+	'twnmp-proofread-link' => 'Barıyayış',
+	'twnmp-translate-button' => 'Açarnayış',
+	'twnmp-view-button' => 'Açarnayışa bıvin',
+	'twnmp-proofread-button' => 'Barıyayış',
+	'twnmp-your-translations-stats' => 'Açarnayışe İstatıstıkan',
+);
+
 /** Spanish (español)
  * @author Fitoschido
  * @author Ovruni
@@ -912,7 +933,7 @@ kielelle $4}}',
 	'twnmp-become-translator' => 'Ryhdy kääntäjäksi',
 	'twnmp-choose-languages-you-know' => 'Valitse kielet, joita osaat',
 	'twnmp-choose-another-language' => 'Lisää toinen kieli...',
-	'twnmp-choose-fill-account-details' => 'Syötä tunnuksesi tiedot',
+	'twnmp-choose-fill-account-details' => 'Syötä tunnuksesi tiedot', # Fuzzy
 	'twnmp-select-target-language' => 'Valitse kieli',
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|$1 viesti|$1 viestiä}}',
 );
@@ -1173,7 +1194,7 @@ $messages['it'] = array(
 	'twnmp-become-translator' => 'Diventa un traduttore',
 	'twnmp-choose-languages-you-know' => 'Scegli le lingue che conosci',
 	'twnmp-choose-another-language' => "Scegli un'altra lingua...",
-	'twnmp-choose-fill-account-details' => 'Inserisci i dettagli della tua utenza', # Fuzzy
+	'twnmp-choose-fill-account-details' => 'Inserisci i dettagli della tua utenza',
 	'twnmp-join-community' => 'Entra nella comunità',
 	'twnmp-join-community-desc' => 'Se sei uno sviluppatore interessato alle traduzioni, o semplicemente esplorare la piattaforma, sei il benvenuto.',
 	'twnmp-join-community-reason' => 'Perché sei interessato a partecipare?',
@@ -1276,7 +1297,7 @@ $messages['km'] = array(
 	'twnmp-become-translator' => 'ក្លាយជាអ្នកប្រែសម្រួល',
 	'twnmp-choose-languages-you-know' => 'ជ្រើសរើសភាសាដែលអ្នកចេះ',
 	'twnmp-choose-another-language' => 'ជ្រើសរើសភាសាមួយទៀត...',
-	'twnmp-choose-fill-account-details' => 'បំពេញព័ត៌មានពិស្ដារអំពីគណនីរបស់អ្នក',
+	'twnmp-choose-fill-account-details' => 'បំពេញព័ត៌មានពិស្ដារអំពីគណនីរបស់អ្នក', # Fuzzy
 );
 
 /** Korean (한국어)
@@ -1373,7 +1394,7 @@ $messages['ksh'] = array(
 	'twnmp-become-translator' => 'Donn Övversäzer wääde',
 	'twnmp-choose-languages-you-know' => 'Söhk di Schprooche uß, di De kanns',
 	'twnmp-choose-another-language' => 'Söhg_en andere Schprooch us{{int:ellipsis}}',
-	'twnmp-choose-fill-account-details' => 'De Einzelheite övver Dinge Zohjang:',
+	'twnmp-choose-fill-account-details' => 'De Einzelheite övver Dinge Zohjang:', # Fuzzy
 	'twnmp-stats-number-k' => '$1&nbsp;Tsd.',
 );
 
@@ -1558,7 +1579,7 @@ $messages['ml'] = array(
 	'twnmp-become-translator' => 'പരിഭാഷ ചെയ്തു തുടങ്ങുക',
 	'twnmp-choose-languages-you-know' => 'അറിയുന്ന ഭാഷകൾ തിരഞ്ഞെടുക്കുക',
 	'twnmp-choose-another-language' => 'മറ്റൊരു ഭാഷ തിരഞ്ഞെടുക്കുക...',
-	'twnmp-choose-fill-account-details' => 'താങ്കളുടെ അംഗത്വ വിവരങ്ങൾ ചേർക്കുക',
+	'twnmp-choose-fill-account-details' => 'താങ്കളുടെ അംഗത്വ വിവരങ്ങൾ ചേർക്കുക', # Fuzzy
 	'twnmp-select-target-language' => 'ഭാഷ തിരഞ്ഞെടുക്കുക',
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|ഒരു സന്ദേശം|$1 സന്ദേശങ്ങൾ}}',
 );
@@ -1598,7 +1619,7 @@ $messages['nb'] = array(
 	'twnmp-become-translator' => 'Bli en oversetter',
 	'twnmp-choose-languages-you-know' => 'Velg språk du kan',
 	'twnmp-choose-another-language' => 'Velg et annet språk...',
-	'twnmp-choose-fill-account-details' => 'Fyll inn kontodetaljene dine',
+	'twnmp-choose-fill-account-details' => 'Fyll inn kontodetaljene dine', # Fuzzy
 );
 
 /** Dutch (Nederlands)
@@ -1781,7 +1802,7 @@ $messages['ps'] = array(
 	'twnmp-become-translator' => 'يو ژباړن شۍ',
 	'twnmp-choose-languages-you-know' => 'هغه ژبې مو چې زده دي وټاکۍ',
 	'twnmp-choose-another-language' => 'بله ژبه ټاکل...',
-	'twnmp-choose-fill-account-details' => 'د گڼون تفصيل مو وليکۍ',
+	'twnmp-choose-fill-account-details' => 'د گڼون تفصيل مو وليکۍ', # Fuzzy
 );
 
 /** Brazilian Portuguese (português do Brasil)
@@ -1905,7 +1926,7 @@ $messages['roa-tara'] = array(
 	'twnmp-become-translator' => "Devinde 'nu traduttore",
 	'twnmp-choose-languages-you-know' => "Scacchie 'na lènghe ca canusce",
 	'twnmp-choose-another-language' => "Scacchie 'n'otra lènghe...",
-	'twnmp-choose-fill-account-details' => "Inghie le dettaglie d'u cunde tune",
+	'twnmp-choose-fill-account-details' => "Inghie le dettaglie d'u cunde tune", # Fuzzy
 	'twnmp-select-target-language' => "Scacchie 'a lènghe",
 	'twn-mainpage-total-messages-in-language' => "{{PLURAL:$1|'Nu messàgge|$1 messàgge}}",
 );
@@ -2017,7 +2038,7 @@ $messages['sl'] = array(
 	'twnmp-become-translator' => 'Postanite prevajalec',
 	'twnmp-choose-languages-you-know' => 'Izberite jezike, ki jih znate',
 	'twnmp-choose-another-language' => 'Izberite drug jezik ...',
-	'twnmp-choose-fill-account-details' => 'Izpolnite podrobnosti o svojem računu',
+	'twnmp-choose-fill-account-details' => 'Izpolnite podrobnosti o svojem računu', # Fuzzy
 	'twnmp-select-target-language' => 'Izberite jezik',
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Eno sporočilo|Dve sporočili|$1 sporočila|$1 sporočil}}',
 );
@@ -2171,7 +2192,7 @@ $messages['te'] = array(
 	'twnmp-become-translator' => 'అనువాదకులవ్వండి',
 	'twnmp-choose-languages-you-know' => 'మీకు తెలిసిన భాషలను ఎంచుకోండి',
 	'twnmp-choose-another-language' => 'మరో భాషను ఎంచుకోండి...',
-	'twnmp-choose-fill-account-details' => 'మీ ఖాతా వివరాలను పూరించండి',
+	'twnmp-choose-fill-account-details' => 'మీ ఖాతా వివరాలను పూరించండి', # Fuzzy
 );
 
 /** Turkish (Türkçe)
@@ -2215,7 +2236,7 @@ $messages['tr'] = array(
 	'twnmp-become-translator' => 'Çevirmen olmak',
 	'twnmp-choose-languages-you-know' => 'Bildiğiniz dilleri seçin',
 	'twnmp-choose-another-language' => 'Başka bir dil seçin...',
-	'twnmp-choose-fill-account-details' => 'Hesap ayrıntılarını girin',
+	'twnmp-choose-fill-account-details' => 'Hesap ayrıntılarını girin', # Fuzzy
 	'twnmp-stats-number-k' => '$1 bin',
 	'twnmp-select-target-language' => 'Dil seçin',
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Bir ileti|$1 ileti}}',
@@ -2453,5 +2474,5 @@ $messages['zh-hant'] = array(
 	'twnmp-become-translator' => '成為一位翻譯者',
 	'twnmp-choose-languages-you-know' => '選擇你懂的語言',
 	'twnmp-choose-another-language' => '選擇其他語言...',
-	'twnmp-choose-fill-account-details' => '填寫您的帳戶詳細資訊',
+	'twnmp-choose-fill-account-details' => '填寫您的帳戶詳細資訊', # Fuzzy
 );

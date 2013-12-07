@@ -94,8 +94,7 @@
 					return;
 				}
 
-				translated = stats.translated - stats.proofread;
-				translated = 100 * translated / stats.total;
+				translated = 100 * stats.translated / stats.total;
 				proofread = 100 * stats.proofread / stats.total;
 
 				$tile.find( '.project-statstext' ).append(

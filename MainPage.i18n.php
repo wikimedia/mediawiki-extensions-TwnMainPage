@@ -532,8 +532,10 @@ $messages['ce'] = array(
 	'twnmp-your-translations-stats' => 'Хьан гочдаршан статистика',
 	'twnmp-your-view-language-stats' => 'Меттан статистике хьажар',
 	'twnmp-translations-per-month' => 'Батта чохь гоч йина',
+	'twnmp-translations-in-sandbox' => 'Гочдинарш',
 	'twnmp-translations-translator-ranking' => '{{PLURAL:$3|1=Хьо цхьаъ<br />ву/ю гочдархо $4|{{GENDER:$1|Хьа}} $2- меттиг ю $3 юкъехь<br />{{PLURAL:$3|гочдархо|гочдархой}} $4}}',
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=Хьо цхьаъ ву/ю гочдархо|{{GENDER:$1|Хьа}} $2- меттиг ю $3 юкъехь}}',
+	'twnmp-create-account-cancel' => 'Цаоьшу',
 	'twnmp-stats-number-k' => '$1&nbsp;эза.',
 );
 
@@ -797,7 +799,7 @@ $messages['es'] = array(
 	'twnmp-logout' => 'Cerrar sesión',
 	'twnmp-search-placeholder' => 'Buscar y corregir traducciones',
 	'twnmp-search-button' => 'Buscar',
-	'twnmp-search-choose-project' => 'Elige un proyecto para traducir',
+	'twnmp-search-choose-project' => 'Elige un proyecto para traducirlo',
 	'twnmp-translate-link' => 'Traducir',
 	'twnmp-proofread-link' => 'Revisar',
 	'twnmp-translate-button' => 'Traducir',
@@ -2385,6 +2387,7 @@ $messages['yi'] = array(
  * @author Shirayuki
  * @author Timothy Gu
  * @author Xiaomingyan
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
 	'twnmp-desc' => '提供translatewiki.net的首页',
@@ -2398,7 +2401,7 @@ $messages['zh-hans'] = array(
 	'twnmp-brand-motto' => '开源翻译社区',
 	'twnmp-login' => '登录',
 	'twnmp-logout' => '退出',
-	'twnmp-search-placeholder' => '查找并修正译文',
+	'twnmp-search-placeholder' => '查找和修正译文',
 	'twnmp-search-button' => '查找',
 	'twnmp-search-choose-project' => '选择要翻译的项目',
 	'twnmp-translate-link' => '翻译',

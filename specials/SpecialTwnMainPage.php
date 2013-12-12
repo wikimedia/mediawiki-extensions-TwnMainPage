@@ -38,13 +38,6 @@ class SpecialTwnMainPage extends SpecialPage {
 		$user = $this->getUser();
 		$request = $this->getRequest();
 
-		// Temporary hack to display the main page only to logged in
-		// users while the signup track is not complete. But guard it
-		// with beta url parameter for testing.
-		if ( !$user->isLoggedIn() && !$request->getBool( 'beta' ) ) {
-			$out->redirect( Title::newFromText( 'Main_Page' )->getLocalUrl() );
-		}
-
 		$this->setHeaders();
 		$out->setArticleBodyOnly( true );
 		// Default modules copied from OutputPage::addDefaultModules

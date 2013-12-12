@@ -157,13 +157,6 @@
 		$selector = $( '<div>' )
 			.addClass( 'project-tile more' )
 			.text( mw.msg( 'twnmp-show-more-projects' ) )
-			.one( 'click', function () {
-				$.when(
-					mw.translate.loadMessageGroups()
-				).then( function () {
-					$( '.project-tile.more' ).trigger( 'dataready.translate' );
-				} );
-			} )
 			.msggroupselector( {
 				language: language,
 				onSelect: function ( messageGroup ) {

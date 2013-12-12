@@ -62,7 +62,6 @@ When(/^I click the message group selector tile$/) do
 end
 
 When(/^I click a message group$/) do
-	pending("Bug 58320")
 	# The message groups load very slow, it should be speed up
 	sleep 5;
 	on(MainPage).message_group_row_element.when_visible.click

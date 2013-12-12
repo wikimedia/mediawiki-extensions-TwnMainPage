@@ -4,7 +4,7 @@ class SignupPage
 	include URL
 	page_url URL.url("Special:MainPage?<%=params[:extra]%>")
 
-	div(:signup_language_selector, class: "signup-language-selector" )
+	div(:signup_language_selector, class: "signup-language-selector")
 	text_field(:language_filter, id: "languagefilter")
 	def select_signup_language(language)
 		self.signup_language_selector_element.click

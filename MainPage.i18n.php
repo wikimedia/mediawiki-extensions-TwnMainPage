@@ -234,7 +234,9 @@ See [[Special:MainPage]] as an anonymous user.',
 	'twnmp-choose-fill-account-details' => 'A heading for the personal details (username, password and email) form.
 
 See [[Special:MainPage]] as an anonymous user.',
-	'twnmp-join-community' => 'Header in the signup form for non-translators',
+	'twnmp-join-community' => 'Header in the signup form for non-translators.
+
+Followed by {{msg-mw|Twnmp-join-community-desc}}.',
 	'twnmp-join-community-desc' => 'Not for non-translators who are signing up via the main page',
 	'twnmp-join-community-reason' => 'Label for a text area',
 	'twnmp-create-account-cancel' => 'Cancel button text.
@@ -1217,7 +1219,7 @@ $messages['ja'] = array(
 	'twnmp-s-languages' => '活発な{{PLURAL:$1|言語}}',
 	'twnmp-s-messages' => '翻訳対象{{PLURAL:$1|メッセージ}}',
 	'twnmp-bannerwho' => '画像: $1',
-	'twnmp-show-more-projects' => 'プロジェクトをすべて表示...',
+	'twnmp-show-more-projects' => '全プロジェクトを表示...',
 	'twnmp-brand-motto' => 'オープンソース翻訳コミュニティ',
 	'twnmp-login' => 'ログイン',
 	'twnmp-logout' => 'ログアウト',
@@ -1251,6 +1253,7 @@ $messages['ja'] = array(
 	'twnmp-choose-languages-you-know' => 'あなたが理解できる言語を選択してください',
 	'twnmp-choose-another-language' => '別の言語を選択...',
 	'twnmp-choose-fill-account-details' => 'アカウント情報を入力してください',
+	'twnmp-join-community' => 'コミュニティへの参加',
 	'twnmp-create-account-cancel' => 'キャンセル',
 	'twnmp-select-target-language' => '言語を選択',
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|$1 メッセージ}}',

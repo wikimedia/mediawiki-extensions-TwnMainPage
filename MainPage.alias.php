@@ -29,6 +29,11 @@ $specialPageAliases['de'] = array(
 	'TwnMainPage' => array( 'Hauptseite' ),
 );
 
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'TwnMainPage' => array( 'PeraSerén' ),
+);
+
 /** Greek (Ελληνικά) */
 $specialPageAliases['el'] = array(
 	'TwnMainPage' => array( 'ΚύριαΣελίδα' ),

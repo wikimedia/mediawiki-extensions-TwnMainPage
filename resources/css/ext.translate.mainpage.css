@@ -213,8 +213,8 @@ body {
 	padding-top: 5px;
 }
 
-.login-widget .invalid {
-	background-color: red;
+.login-widget input.invalid {
+	border: 1px solid #E85355;
 }
 
 /* Signup styles end here. */
@@ -651,4 +651,26 @@ div.ext-translate-msggroup-selector-menu:before {
 /* Override the statsbar on-hover info for TWN Mainpage */
 .tux-statsbar-info {
 	display: none;
+}
+
+.twn-mainpage-banner .main-widget .twnmp-signup-error {
+	background-color: #CF1C1F;
+	padding: 6px;
+	margin: 0 -15px 0 5px;
+	color: white;
+	position: relative;
+	top: -2px;
+	font-size: 14px;
+	border-bottom: 2px solid #a90000;
+	border-radius: 2px;
+}
+
+.twnmp-signup-error:before {
+	content: "";
+	display: inline-block;
+	border-bottom: 5px solid #CF1C1F;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	position: absolute;
+	top: -5px;
 }

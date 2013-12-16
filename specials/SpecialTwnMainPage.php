@@ -587,8 +587,11 @@ HTML;
 		{$this->msg( 'twnmp-choose-fill-account-details' )->text()}
 	</h2>
 	<div class="row">$username</div>
+	<div class="twnmp-signup-error eleven columns hide"></div>
 	<div class="row">$password</div>
+	<div class="twnmp-signup-error eleven columns hide"></div>
 	<div class="row">$email</div>
+	<div class="twnmp-signup-error eleven columns hide"></div>
 	<div class="row label only-dev hide">
 		{$this->msg( 'twnmp-join-community-reason' )->escaped()}
 	</div>

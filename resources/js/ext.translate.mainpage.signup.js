@@ -81,9 +81,7 @@
 							)
 						);
 				},
-				quickList: function () {
-					return mw.uls.getFrequentLanguageList();
-				}
+				quickList: mw.uls.getFrequentLanguageList
 			} );
 		}
 

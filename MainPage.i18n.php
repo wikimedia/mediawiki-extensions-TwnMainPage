@@ -138,11 +138,11 @@ See example: [[Special:MainPage]]',
 	'twnmp-translate-button' => "A label for the button that appears near the user's translation statistics.
 Pressing the button brings the user to the translation editor. Parallel to {{msg-mw|twnmp-proofread-button}}.
 {{Identical|Translate}}",
-	'twnmp-view-button' => "A label for the button that appears near the user's translation statistics when the maximum number of translations in sandbox has already been done.
-{{Identical|View translation}}",
 	'twnmp-proofread-button' => "A label for the button that appears near the user's translation statistics.
 Pressing the button brings the user to the translation editor in review mode. Parallel to {{msg-mw|twnmp-translate-button}}.
 {{Identical|Review}}",
+	'twnmp-view-button' => "A label for the button that appears near the user's translation statistics when the maximum number of translations in sandbox has already been done.
+{{Identical|View translation}}",
 	'twnmp-your-translations-stats' => "A header for the user's translation statistics.
 
 See example: [[Special:MainPage]]",
@@ -729,9 +729,10 @@ $messages['de'] = array(
 	'twnmp-search-choose-project' => 'Wähle ein Projekt zum Übersetzen',
 	'twnmp-translate-link' => 'Übersetzen',
 	'twnmp-proofread-link' => 'Überprüfen',
+	'twnmp-view-link' => 'Übersetzungen ansehen',
 	'twnmp-translate-button' => 'Übersetzen',
-	'twnmp-view-button' => 'Übersetzungen ansehen',
 	'twnmp-proofread-button' => 'Überprüfen',
+	'twnmp-view-button' => 'Übersetzungen ansehen',
 	'twnmp-your-translations-stats' => 'Deine Übersetzungsstatistiken',
 	'twnmp-your-translations-stats-all-languages' => 'Für alle Sprachen',
 	'twnmp-your-view-language-stats' => 'Sprachstatistiken ansehen',
@@ -807,8 +808,8 @@ $messages['dsb'] = array(
 	'twnmp-translate-link' => 'Pśełožyś',
 	'twnmp-proofread-link' => 'Pśeglědaś',
 	'twnmp-translate-button' => 'Pśełožyś',
-	'twnmp-view-button' => 'Pśełožki se woglědaś',
 	'twnmp-proofread-button' => 'Pśeglědaś',
+	'twnmp-view-button' => 'Pśełožki se woglědaś',
 	'twnmp-your-translations-stats' => 'Twója statistika pśełožkow',
 	'twnmp-your-translations-stats-all-languages' => 'Za wšykne rěcy',
 	'twnmp-your-view-language-stats' => 'Rěcnu statistiku pokazaś',
@@ -1223,8 +1224,8 @@ $messages['hsb'] = array(
 	'twnmp-translate-link' => 'Přełožić',
 	'twnmp-proofread-link' => 'Přepruwować',
 	'twnmp-translate-button' => 'Přełožić',
-	'twnmp-view-button' => 'Přełožki sej wobhladać',
 	'twnmp-proofread-button' => 'Přepruwować',
+	'twnmp-view-button' => 'Přełožki sej wobhladać',
 	'twnmp-your-translations-stats' => 'Twoja statistika přełožkow',
 	'twnmp-your-translations-stats-all-languages' => 'Za wšě rěče',
 	'twnmp-your-view-language-stats' => 'Rěčnu statistiku pokazać',
@@ -1289,8 +1290,8 @@ $messages['it'] = array(
 	'twnmp-translate-link' => 'Traduci',
 	'twnmp-proofread-link' => 'Revisiona',
 	'twnmp-translate-button' => 'Traduci',
-	'twnmp-view-button' => 'Vedi traduzioni',
 	'twnmp-proofread-button' => 'Revisiona',
+	'twnmp-view-button' => 'Vedi traduzioni',
 	'twnmp-your-translations-stats' => 'Le tue statistiche di traduzione',
 	'twnmp-your-translations-stats-all-languages' => 'Per tutte le lingue',
 	'twnmp-your-view-language-stats' => 'Visualizza le statistiche della lingua',
@@ -1344,8 +1345,8 @@ $messages['ja'] = array(
 	'twnmp-translate-link' => '翻訳',
 	'twnmp-proofread-link' => '査読',
 	'twnmp-translate-button' => '翻訳',
-	'twnmp-view-button' => '翻訳を閲覧',
 	'twnmp-proofread-button' => '査読',
+	'twnmp-view-button' => '翻訳を閲覧',
 	'twnmp-your-translations-stats' => 'あなたの翻訳の統計',
 	'twnmp-your-translations-stats-all-languages' => 'すべての言語',
 	'twnmp-your-view-language-stats' => '言語別翻訳状況を表示',
@@ -2392,9 +2393,10 @@ $messages['uk'] = array(
 	'twnmp-search-choose-project' => 'Виберіть проект для перекладу',
 	'twnmp-translate-link' => 'Перекласти',
 	'twnmp-proofread-link' => 'Перевірити',
+	'twnmp-view-link' => 'Переглядів перекладів',
 	'twnmp-translate-button' => 'Переклад',
-	'twnmp-view-button' => 'Переглядів перекладів',
 	'twnmp-proofread-button' => 'Перевірка',
+	'twnmp-view-button' => 'Переглядів перекладів',
 	'twnmp-your-translations-stats' => 'Статистика Ваших перекладів',
 	'twnmp-your-translations-stats-all-languages' => 'Для всіх мов',
 	'twnmp-your-view-language-stats' => 'Переглянути мовну статистику',
@@ -2495,6 +2497,7 @@ $messages['vo'] = array(
  */
 $messages['yi'] = array(
 	'twnmp-mainpage' => 'הויפט זייט',
+	'twnmp-translations-per-month' => 'איבערזעצונגען אין א מאנאט',
 );
 
 /** Simplified Chinese (中文（简体）‎)
@@ -2525,8 +2528,8 @@ $messages['zh-hans'] = array(
 	'twnmp-translate-link' => '翻译',
 	'twnmp-proofread-link' => '复查',
 	'twnmp-translate-button' => '翻译',
-	'twnmp-view-button' => '查看翻译',
 	'twnmp-proofread-button' => '复查',
+	'twnmp-view-button' => '查看翻译',
 	'twnmp-your-translations-stats' => '你的翻译统计',
 	'twnmp-your-translations-stats-all-languages' => '所有语言',
 	'twnmp-your-view-language-stats' => '查看语言统计',
@@ -2537,6 +2540,7 @@ $messages['zh-hans'] = array(
 	'twnmp-translations-translator-ranking-source' => '{{PLURAL:$3|1=只有你一人|{{GENDER:$1|排名}}第$2，共$3人}}',
 	'twnmp-add-project' => '添加你需要翻译的开源项目',
 	'twnmp-sandboxed' => '您需要提供更多的翻译，以获取完整的翻译权。',
+	'twnmp-sandboxed-limit' => '您已到达翻译限制。我们的团队会尽快验证和升级您的账户。',
 	'twnmp-bottom-help' => '帮助',
 	'twnmp-bottom-support' => '技术支持',
 	'twnmp-bottom-languages-supported' => '语言支持',
@@ -2548,8 +2552,9 @@ $messages['zh-hans'] = array(
 	'twnmp-become-translator' => '成为一名译者',
 	'twnmp-choose-languages-you-know' => '选择你知晓的语言',
 	'twnmp-choose-another-language' => '选择其他语言...',
-	'twnmp-choose-fill-account-details' => '填写你的账户详细信息', # Fuzzy
+	'twnmp-choose-fill-account-details' => '请输入你的账户的详细信息',
 	'twnmp-join-community' => '加入社区',
+	'twnmp-join-community-desc' => '如果你只是一名开发人员而非文档译员，或者只是来平台看看，我们也都欢迎。',
 	'twnmp-join-community-reason' => '您为何对加入感兴趣？',
 	'twnmp-create-account-cancel' => '取消',
 	'twnmp-join-community-info' => '尚未成为一名翻译者？您可以加入社群，而且现在就可以。',

@@ -14,6 +14,11 @@ $specialPageAliases['en'] = array(
 	'TwnMainPage' => array( 'MainPage' ),
 );
 
+/** Arabic (العربية) */
+$specialPageAliases['ar'] = array(
+	'TwnMainPage' => array( 'الصفحة_الرئيسية' ),
+);
+
 /** Asturian (asturianu) */
 $specialPageAliases['ast'] = array(
 	'TwnMainPage' => array( 'Portada' ),

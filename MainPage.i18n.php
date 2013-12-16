@@ -32,9 +32,10 @@ $messages['en'] = array(
 	'twnmp-search-choose-project' => 'Choose a project to translate',
 	'twnmp-translate-link' => 'Translate',
 	'twnmp-proofread-link' => 'Review',
+	'twnmp-view-link' => 'View translations',
 	'twnmp-translate-button' => 'Translate',
-	'twnmp-view-button' => 'View translations',
 	'twnmp-proofread-button' => 'Review',
+	'twnmp-view-button' => 'View translations',
 
 	'twnmp-your-translations-stats' => 'Your translation statistics',
 	'twnmp-your-translations-stats-all-languages' => 'For all languages',
@@ -132,6 +133,8 @@ See example: [[Special:MainPage]]',
 {{Identical|Translate}}',
 	'twnmp-proofread-link' => 'A link that appears at the bottom of a box with the project icon near {{msg-mw|twnmp-translate-link}}.
 {{Identical|Review}}',
+	'twnmp-view-link' => 'A link that appears at the bottom of a box with the project icon.
+{{Identical|View translation}}',
 	'twnmp-translate-button' => "A label for the button that appears near the user's translation statistics.
 Pressing the button brings the user to the translation editor. Parallel to {{msg-mw|twnmp-proofread-button}}.
 {{Identical|Translate}}",

@@ -252,16 +252,6 @@ HTML;
 		$image = Html::element( 'div', array( 'class' => $class ) );
 		$label = htmlspecialchars( $group->getLabel( $this->getContext() ) );
 
-		$title = SpecialPage::getTitleFor( 'Translate' );
-		$translate = Html::element( 'a', array(
-			'class' => 'translate',
-			'href' => $title->getLocalUrl( array( 'group' => $id ) )
-		), $this->msg( 'twnmp-translate-button' )->text() );
-
-		$proofread = Html::element( 'a', array(
-			'class' => 'proofread',
-			'href' => $title->getLocalUrl( array( 'group' => $id, 'action' => 'proofread' ) )
-		), $this->msg( 'twnmp-proofread-button' )->text() );
 		$msggroupid = htmlspecialchars( $id );
 		$out = <<<HTML
 <div class="three columns twn-mainpage-project-tile">
@@ -277,14 +267,51 @@ HTML;
 			</div>
 		</div>
 		<div class="row project-actions hide">
-			<div class="six columns action">$translate</div>
-			<div class="six columns action">$proofread</div>
+			{$this->getProjectActions( $id )}
 		</div>
 	</div>
 </div>
 HTML;
 
 		return $out;
+	}
+
+	/**
+	 * @param string $id Message group id
+	 * @return string HTML
+	 */
+	protected function getProjectActions( $id ) {
+		$user = $this->getUser();
+		$title = SpecialPage::getTitleFor( 'Translate' );
+
+		$view = Html::element( 'a', array(
+			'class' => 'translate',
+			'href' => $title->getLocalUrl( array( 'group' => $id ) )
+		), $this->msg( 'twnmp-view-link' )->text() );
+
+		$translate = Html::element( 'a', array(
+			'class' => 'translate',
+			'href' => $title->getLocalUrl( array( 'group' => $id ) )
+		), $this->msg( 'twnmp-translate-link' )->text() );
+
+		$proofread = Html::element( 'a', array(
+			'class' => 'proofread',
+			'href' => $title->getLocalUrl( array( 'group' => $id, 'action' => 'proofread' ) )
+		), $this->msg( 'twnmp-proofread-link' )->text() );
+
+		if ( $user->isAnon() || TranslateSandbox::isSandboxed( $user ) ) {
+			return <<<HTML
+<div class="twelve columns action">$view</div>
+
+HTML;
+
+		} else {
+			return <<<HTML
+<div class="six columns action">$translate</div>
+<div class="six columns action">$proofread</div>
+
+HTML;
+		}
 	}
 
 	public function banner() {

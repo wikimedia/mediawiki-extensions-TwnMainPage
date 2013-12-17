@@ -60,6 +60,13 @@ $messages['en'] = array(
 	'twnmp-signup-email-placeholder' => 'Email',
 	'twnmp-create-account-button' => 'Create account',
 
+	'twnmp-signup-error-invalidusername' => 'This username is not available. Please, pick a different one.',
+	'twnmp-signup-error-nonfreeusername' => 'This username already exists. Please, pick a different one.',
+	'twnmp-signup-error-invalidpassword' => 'The password is invalid',
+	'twnmp-signup-error-invalidemail' => 'This does not look like a valid email address. Please, provide a valid one.',
+	'twnmp-signup-error-other' => 'Signing up failed. The server returned an error: $1.',
+	'twnmp-signup-error-unknown' => 'Account creation failed for an unknown reason.',
+
 	'twnmp-become-translator' => 'Become a translator',
 	'twnmp-choose-languages-you-know' => 'Choose languages you know',
 	'twnmp-choose-another-language' => 'Choose another language...',
@@ -227,6 +234,12 @@ See [[Special:MainPage]] as an anonymous user.
 {{Identical|E-mail}}',
 	'twnmp-create-account-button' => 'A label for the button that submits the account creation form.
 {{Identical|Create account}}',
+	'twnmp-signup-error-invalidusername' => 'An error message shown on the signup form.',
+	'twnmp-signup-error-nonfreeusername' => 'An error message shown on the signup form.',
+	'twnmp-signup-error-invalidpassword' => 'An error message shown on the signup form.',
+	'twnmp-signup-error-invalidemail' => 'An error message shown on the signup form.',
+	'twnmp-signup-error-other' => 'An error message shown on the signup form. $1 is an error code.',
+	'twnmp-signup-error-unknown' => 'An error message shown on the signup form when the reason for the error is unknown.',
 	'twnmp-become-translator' => 'The top heading to the sign up form. A call to action to sign up to the site.',
 	'twnmp-choose-languages-you-know' => 'Used as heading.
 

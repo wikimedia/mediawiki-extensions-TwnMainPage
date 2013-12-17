@@ -39,6 +39,14 @@ $wgResourceModules['ext.translate.mainpage.signup'] = array(
 		'mediawiki.api.login',
 		'jquery.json',
 	),
+	'messages' => array(
+		'twnmp-signup-error-invalidusername',
+		'twnmp-signup-error-nonfreeusername',
+		'twnmp-signup-error-invalidpassword',
+		'twnmp-signup-error-invalidemail',
+		'twnmp-signup-error-other',
+		'twnmp-signup-error-unknown',
+	),
 ) + $resourcePaths;
 
 $wgResourceModules['ext.translate.mainpage.styles'] = array(

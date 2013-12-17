@@ -93,24 +93,42 @@
 		 * @param {object} result Result retuned by MW api
 		 */
 		function handleAccountCreationFailure( errorcode, result ) {
-			var extra;
+			var $element = $( [] );
 
 			switch ( errorcode ) {
 				case 'invalidusername':
 				case 'nonfreeusername':
-					$username.addClass( 'invalid' );
+					$element = $username;
 					break;
 				case 'invalidpassword':
-					$password.addClass( 'invalid' );
+					$element = $password;
 					break;
 				case 'invalidemail':
-					$email.addClass( 'invalid' );
+					$element = $email;
 					break;
 			}
 
-			// @TODO: i18n
-			extra = result && result.error && result.error.info || 'Unknown reason';
-			window.alert( 'Account creation failed: ' + extra );
+			if ( $element.length ) {
+				$element.addClass( 'invalid' );
+			} else {
+				// In case of a generic error, show it at the last error bubble
+				$form.find( '.twnmp-signup-error' ).last()
+					.removeClass( 'hide' )
+					.text( mw.message( 'twnmp-signup-error-other', errorcode ) );
+			}
+
+			if ( result && result.error && result.error.info ) {
+				// Messages used here:
+				// twnmp-signup-error-invalidusername
+				// twnmp-signup-error-nonfreeusername
+				// twnmp-signup-error-invalidpassword
+				// twnmp-signup-error-invalidemail
+				$element.parent().next( '.twnmp-signup-error' )
+					.removeClass( 'hide' )
+					.text( mw.msg( 'twnmp-signup-error-' + errorcode ) );
+			} else {
+				window.alert( mw.msg( 'twnmp-signup-error-unknown' ) );
+			}
 		}
 
 		/**

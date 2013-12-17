@@ -234,12 +234,19 @@ See [[Special:MainPage]] as an anonymous user.
 {{Identical|E-mail}}',
 	'twnmp-create-account-button' => 'A label for the button that submits the account creation form.
 {{Identical|Create account}}',
-	'twnmp-signup-error-invalidusername' => 'An error message shown on the signup form.',
-	'twnmp-signup-error-nonfreeusername' => 'An error message shown on the signup form.',
-	'twnmp-signup-error-invalidpassword' => 'An error message shown on the signup form.',
-	'twnmp-signup-error-invalidemail' => 'An error message shown on the signup form.',
-	'twnmp-signup-error-other' => 'An error message shown on the signup form. $1 is an error code.',
-	'twnmp-signup-error-unknown' => 'An error message shown on the signup form when the reason for the error is unknown.',
+	'twnmp-signup-error-invalidusername' => 'An error message shown on the signup form.
+{{Related|Twnmp-signup-error}}',
+	'twnmp-signup-error-nonfreeusername' => 'An error message shown on the signup form.
+{{Related|Twnmp-signup-error}}',
+	'twnmp-signup-error-invalidpassword' => 'An error message shown on the signup form.
+{{Related|Twnmp-signup-error}}',
+	'twnmp-signup-error-invalidemail' => 'An error message shown on the signup form.
+{{Related|Twnmp-signup-error}}',
+	'twnmp-signup-error-other' => 'An error message shown on the signup form. Parameters:
+* $1 - an error code
+{{Related|Twnmp-signup-error}}',
+	'twnmp-signup-error-unknown' => 'An error message shown on the signup form when the reason for the error is unknown.
+{{Related|Twnmp-signup-error}}',
 	'twnmp-become-translator' => 'The top heading to the sign up form. A call to action to sign up to the site.',
 	'twnmp-choose-languages-you-know' => 'Used as heading.
 
@@ -1386,6 +1393,12 @@ $messages['ja'] = array(
 	'twnmp-signup-password-placeholder' => 'パスワード',
 	'twnmp-signup-email-placeholder' => 'メールアドレス',
 	'twnmp-create-account-button' => 'アカウント作成',
+	'twnmp-signup-error-invalidusername' => 'この利用者名は利用できません。別の利用者名にしてください。',
+	'twnmp-signup-error-nonfreeusername' => 'この利用者名は既に存在します。別の利用者名にしてください。',
+	'twnmp-signup-error-invalidpassword' => 'パスワードが無効です',
+	'twnmp-signup-error-invalidemail' => 'このメールアドレスは有効ではないようです。有効なものを入力してください。',
+	'twnmp-signup-error-other' => '利用者登録ができませんでした。サーバーが返したエラー: $1',
+	'twnmp-signup-error-unknown' => 'アカウントを作成できませんでした。理由は不明です。',
 	'twnmp-become-translator' => '翻訳者になりませんか',
 	'twnmp-choose-languages-you-know' => 'あなたが理解できる言語を選択してください',
 	'twnmp-choose-another-language' => '別の言語を選択...',
@@ -2126,6 +2139,10 @@ $messages['ru'] = array(
 	'twnmp-signup-password-placeholder' => 'Пароль',
 	'twnmp-signup-email-placeholder' => 'Эл. почта',
 	'twnmp-create-account-button' => 'Создать учётную запись',
+	'twnmp-signup-error-invalidusername' => 'Это имя участника недоступно. Пожалуйста, выберите другое.',
+	'twnmp-signup-error-nonfreeusername' => 'Это имя участника уже существует. Пожалуйста, выберите другое.',
+	'twnmp-signup-error-invalidpassword' => 'Пароль неверен',
+	'twnmp-signup-error-unknown' => 'Создание учётной записи не удалось по неизвестной причине.',
 	'twnmp-become-translator' => 'Стать переводчиком',
 	'twnmp-choose-languages-you-know' => 'Выберите языки, которыми владеете',
 	'twnmp-choose-another-language' => 'Выберите другой язык...',
@@ -2285,6 +2302,7 @@ $messages['sv'] = array(
 	'twnmp-signup-password-placeholder' => 'Lösenord',
 	'twnmp-signup-email-placeholder' => 'E-post',
 	'twnmp-create-account-button' => 'Skapa konto',
+	'twnmp-signup-error-invalidpassword' => 'Lösenordet är ogiltigt',
 	'twnmp-become-translator' => 'Bli en översättare',
 	'twnmp-choose-languages-you-know' => 'Välj språken du kan',
 	'twnmp-choose-another-language' => 'Välj ett annat språk...',

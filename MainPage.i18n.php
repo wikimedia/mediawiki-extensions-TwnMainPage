@@ -1106,6 +1106,7 @@ $messages['gl'] = array(
 	'twnmp-search-choose-project' => 'Escolla un proxecto a traducir',
 	'twnmp-translate-link' => 'Traducir',
 	'twnmp-proofread-link' => 'Revisar',
+	'twnmp-view-link' => 'Ollar as traducións',
 	'twnmp-translate-button' => 'Traducir',
 	'twnmp-proofread-button' => 'Revisar',
 	'twnmp-view-button' => 'Ollar as traducións',
@@ -1338,6 +1339,12 @@ $messages['it'] = array(
 	'twnmp-signup-password-placeholder' => 'Password',
 	'twnmp-signup-email-placeholder' => 'Email',
 	'twnmp-create-account-button' => 'Registrati',
+	'twnmp-signup-error-invalidusername' => 'Questo nome utente non è disponibile. Scegline un altro.',
+	'twnmp-signup-error-nonfreeusername' => 'Questo nome utente esiste già. Scegline un altro.',
+	'twnmp-signup-error-invalidpassword' => 'La password non è valida.',
+	'twnmp-signup-error-invalidemail' => 'Questo non sembra essere un indirizzo email valido. Indicane uno valido.',
+	'twnmp-signup-error-other' => 'Registrazione non riuscita. Il server ha restituito un errore: $1.',
+	'twnmp-signup-error-unknown' => "La creazione dell'utenza non è riuscita per un motivo sconosciuto.",
 	'twnmp-become-translator' => 'Diventa un traduttore',
 	'twnmp-choose-languages-you-know' => 'Scegli le lingue che conosci',
 	'twnmp-choose-another-language' => "Scegli un'altra lingua...",
@@ -1395,7 +1402,7 @@ $messages['ja'] = array(
 	'twnmp-create-account-button' => 'アカウント作成',
 	'twnmp-signup-error-invalidusername' => 'この利用者名は利用できません。別の利用者名にしてください。',
 	'twnmp-signup-error-nonfreeusername' => 'この利用者名は既に存在します。別の利用者名にしてください。',
-	'twnmp-signup-error-invalidpassword' => 'パスワードが無効です',
+	'twnmp-signup-error-invalidpassword' => 'パスワードが無効です。',
 	'twnmp-signup-error-invalidemail' => 'このメールアドレスは有効ではないようです。有効なものを入力してください。',
 	'twnmp-signup-error-other' => '利用者登録ができませんでした。サーバーが返したエラー: $1',
 	'twnmp-signup-error-unknown' => 'アカウントを作成できませんでした。理由は不明です。',
@@ -1597,6 +1604,7 @@ $messages['lb'] = array(
 	'twnmp-search-choose-project' => "E Projet eraussiche fir z'iwwersetzen",
 	'twnmp-translate-link' => 'Iwwersetzen',
 	'twnmp-proofread-link' => 'Iwwerliesen',
+	'twnmp-view-link' => 'Iwwersetzunge weisen',
 	'twnmp-translate-button' => 'Iwwersetzen',
 	'twnmp-proofread-button' => 'Nokucken',
 	'twnmp-view-button' => 'Iwwersetzunge weisen',
@@ -1619,6 +1627,8 @@ $messages['lb'] = array(
 	'twnmp-signup-password-placeholder' => 'Passwuert',
 	'twnmp-signup-email-placeholder' => 'E-Mail',
 	'twnmp-create-account-button' => 'Benotzerkont uleeën',
+	'twnmp-signup-error-nonfreeusername' => 'Dëse Benotzernumm gëtt et schonn. Sicht Iech w.e.g. een Aneren eraus.',
+	'twnmp-signup-error-invalidpassword' => "D'Passwuert ass net valabel.",
 	'twnmp-become-translator' => 'Iwwersetzer ginn',
 	'twnmp-choose-languages-you-know' => 'Sproochen eraussichen déi Dir kënnt',
 	'twnmp-choose-another-language' => 'Eng aner Sprooch eraussichen...',
@@ -1628,6 +1638,14 @@ $messages['lb'] = array(
 	'twnmp-join-community-info' => 'Keen Iwwersetzer? Dir kënnt nach bei eis matmaachen.',
 	'twnmp-select-target-language' => 'Sprooch eraussichen',
 	'twn-mainpage-total-messages-in-language' => '{{PLURAL:$1|Ee Message|$1 Messagen}}',
+);
+
+/** لوری (لوری)
+ * @author Mogoeilor
+ */
+$messages['lrc'] = array(
+	'twnmp-view-link' => 'لرسنه یا نه بوینت',
+	'twnmp-signup-error-invalidpassword' => 'پاسوره معتور نی',
 );
 
 /** Literary Chinese (文言)

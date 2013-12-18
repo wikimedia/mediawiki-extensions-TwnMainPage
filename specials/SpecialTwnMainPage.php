@@ -534,12 +534,14 @@ HTML;
 		$username = Html::element( 'input', array(
 			'class' => 'eleven columns required',
 			'name' => 'wpName',
+			'autocomplete' => 'off',
 			'required',
 			'placeholder' => $this->msg( 'twnmp-signup-username-placeholder' )->text(),
 		) );
 		$password = Html::element( 'input', array(
 			'class' => 'eleven columns required',
 			'name' => 'wpPassword',
+			'autocomplete' => 'off',
 			'type' => 'password',
 			'required',
 			'placeholder' => $this->msg( 'twnmp-signup-password-placeholder' )->text(),
@@ -547,6 +549,7 @@ HTML;
 		$email = Html::element( 'input', array(
 			'class' => 'eleven columns required',
 			'name' => 'wpEmail',
+			'autocomplete' => 'off',
 			'type' => 'email',
 			'required',
 			'placeholder' => $this->msg( 'twnmp-signup-email-placeholder' )->text(),

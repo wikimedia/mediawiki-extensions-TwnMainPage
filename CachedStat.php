@@ -74,7 +74,8 @@ class CachedStat implements DeferrableUpdate {
 
 		if ( !is_array( $value ) ) {
 			if ( $this->onMiss !== 'update' ) {
-				CachedStatJob::newJob( $this )->insert();
+				$job = CachedStatJob::newJob( $this );
+				JobQueueGroup::singleton()->push( $job );
 
 				return null;
 			} else {
@@ -86,7 +87,8 @@ class CachedStat implements DeferrableUpdate {
 			// Useless
 			// DeferredUpdates::addUpdate( $this );
 			// Use jobqueue instead
-			CachedStatJob::newJob( $this )->insert();
+			$job = CachedStatJob::newJob( $this );
+			JobQueueGroup::singleton()->push( $job );
 		}
 
 		return $value['v'];

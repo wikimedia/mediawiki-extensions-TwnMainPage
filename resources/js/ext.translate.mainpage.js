@@ -10,45 +10,6 @@
 	var getUrl = mw.util.getUrl || mw.util.wikiGetlink;
 
 	/**
-	 * If the source language of all projects is the same as the target language,
-	 * provide a language selector to select the target language above the tiles.
-	 */
-	function setupTargetLanguageSelector() {
-		var $sameLanguageULSTrigger,
-			sourceLanguage = $( '.twn-mainpage-project-tiles' ).data( 'sourcelanguage' ),
-			sameLanguageULSLanguages = $.extend( {}, mw.config.get( 'wgULSLanguages' ) );
-
-		$sameLanguageULSTrigger = $( '<div>' )
-			.addClass( 'row' )
-			.append( $( '<div>' )
-				.addClass( 'two columns' )
-				.append(
-					$( '<button>' )
-						.text( mw.msg( 'twnmp-select-target-language' ) )
-						.addClass( 'same-language-uls-trigger' )
-				)
-			);
-
-		$( '.twn-mainpage-project-tiles' ).before( $sameLanguageULSTrigger );
-
-		delete sameLanguageULSLanguages[sourceLanguage];
-		$sameLanguageULSTrigger.uls( {
-			languages: sameLanguageULSLanguages,
-			top: '20%',
-			onSelect: showMessageGroupStats,
-			quickList: function () {
-				var frequentLanguageList = mw.uls.getFrequentLanguageList(),
-					sourceLanguagePosition = $.inArray( sourceLanguage, frequentLanguageList );
-
-				// Remove the source language from the usual common languages list
-				frequentLanguageList.splice( sourceLanguagePosition, 1 );
-
-				return frequentLanguageList;
-			}
-		} );
-	}
-
-	/**
 	 * Show the message group stats bars.
 	 */
 	function showMessageGroupStats( language ) {
@@ -106,6 +67,45 @@
 							mw.language.convertNumber( Math.round( proofread ) ) ) )
 				);
 			} );
+		} );
+	}
+
+	/**
+	 * If the source language of all projects is the same as the target language,
+	 * provide a language selector to select the target language above the tiles.
+	 */
+	function setupTargetLanguageSelector() {
+		var $sameLanguageULSTrigger,
+			sourceLanguage = $( '.twn-mainpage-project-tiles' ).data( 'sourcelanguage' ),
+			sameLanguageULSLanguages = $.extend( {}, mw.config.get( 'wgULSLanguages' ) );
+
+		$sameLanguageULSTrigger = $( '<div>' )
+			.addClass( 'row' )
+			.append( $( '<div>' )
+				.addClass( 'two columns' )
+				.append(
+					$( '<button>' )
+						.text( mw.msg( 'twnmp-select-target-language' ) )
+						.addClass( 'same-language-uls-trigger' )
+				)
+			);
+
+		$( '.twn-mainpage-project-tiles' ).before( $sameLanguageULSTrigger );
+
+		delete sameLanguageULSLanguages[sourceLanguage];
+		$sameLanguageULSTrigger.uls( {
+			languages: sameLanguageULSLanguages,
+			top: '20%',
+			onSelect: showMessageGroupStats,
+			quickList: function () {
+				var frequentLanguageList = mw.uls.getFrequentLanguageList(),
+					sourceLanguagePosition = $.inArray( sourceLanguage, frequentLanguageList );
+
+				// Remove the source language from the usual common languages list
+				frequentLanguageList.splice( sourceLanguagePosition, 1 );
+
+				return frequentLanguageList;
+			}
 		} );
 	}
 

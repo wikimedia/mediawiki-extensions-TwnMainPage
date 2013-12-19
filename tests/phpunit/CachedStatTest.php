@@ -37,8 +37,6 @@ class CachedStatTest extends PHPUnit_Framework_TestCase {
 	}
 
 	public function testAllowMiss() {
-		$value = 'test';
-
 		$updater = $this->getMock( 'NullUpdater' );
 		$updater->expects( $this->never() )
 			->method( 'calculate' );

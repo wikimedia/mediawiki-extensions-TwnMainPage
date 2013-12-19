@@ -7,7 +7,7 @@
  * @license GPL2+
  */
 
-class UserStats {
+class TwnUserStats {
 	public static function getTranslationRankings( $language, $days = 7 ) {
 		global $wgTranslateMessageNamespaces;
 

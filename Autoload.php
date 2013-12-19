@@ -14,5 +14,5 @@ $wgAutoloadClasses['CachedStatJob'] = "$dir/CachedStat.php";
 $wgAutoloadClasses['ProjectHandler'] = "$dir/ProjectHandler.php";
 $wgAutoloadClasses['ResourceLoaderProjectIconsModule'] =
 	"$dir/ResourceLoaderProjectIconsModule.php";
-$wgAutoloadClasses['UserStats'] = "$dir/UserStats.php";
+$wgAutoloadClasses['TwnUserStats'] = "$dir/TwnUserStats.php";
 $wgAutoloadClasses['SpecialTwnMainPage'] = "$dir/specials/SpecialTwnMainPage.php";

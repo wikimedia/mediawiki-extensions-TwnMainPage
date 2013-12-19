@@ -29,6 +29,9 @@ class CachedStat implements DeferrableUpdate {
 	/// @var string
 	protected $onMiss;
 
+	/** @var BagOStuff */
+	protected $cache;
+
 	/**
 	 * @param string $key Unique key for these values.
 	 * @param int $staleAge Trigger background refresh job if values are older than this.

@@ -426,8 +426,8 @@ HTML;
 	// Callback for CachedStat
 	public static function getUserStats( $code, $period ) {
 		return array(
-			'translators' => UserStats::getTranslationRankings( $code, $period ),
-			'proofreaders' => UserStats::getProofreadRankings( $code, $period ),
+			'translators' => TwnUserStats::getTranslationRankings( $code, $period ),
+			'proofreaders' => TwnUserStats::getProofreadRankings( $code, $period ),
 		);
 	}
 

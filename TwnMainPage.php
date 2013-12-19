@@ -29,6 +29,7 @@ $wgExtensionMessagesFiles['MainPage'] = "$dir/MainPage.i18n.php";
 $wgExtensionMessagesFiles['MainPageAlias'] = "$dir/MainPage.alias.php";
 
 $wgSpecialPages['TwnMainPage'] = 'SpecialTwnMainPage';
+$wgSpecialPageGroups['TwnMainPage'] = 'wiki';
 
 $wgJobClasses['CachedStatJob'] = 'CachedStatJob';
 

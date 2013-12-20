@@ -30,7 +30,7 @@
     "twnmp-translations-per-month": "traducións ao mes",
     "twnmp-translations-in-sandbox": "Traducións",
     "twnmp-reviews-per-month": "revisións ao mes",
-    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=É {{GENDER:$1|o único|a única}}<br />en $4|Quedou $2{{GENDER:$1|º|ª}} de $3<br />en $4}}",
+    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=É {{GENDER:$1|o único|a única}}\u003Cbr /\u003Een $4|Quedou $2{{GENDER:$1|º|ª}} de $3\u003Cbr /\u003Een $4}}",
     "twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=É {{GENDER:$1|o único|a única}}|Quedou $2{{GENDER:$1|º|ª}} de $3}}",
     "twnmp-add-project": "Engada o seu proxecto de código aberto para a súa tradución",
     "twnmp-sandboxed": "Debe achegar máis traducións para obter todos os dereitos de tradutor.",

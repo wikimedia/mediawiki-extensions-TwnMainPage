@@ -31,7 +31,7 @@
     "twnmp-translations-per-month": "Översättningar/månad",
     "twnmp-translations-in-sandbox": "Översättningar",
     "twnmp-reviews-per-month": "Granskningar/månad",
-    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Du är den enda på $4<br />|{{GENDER:$1|med rank}} $2 av $3<br />på $4}}",
+    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Du är den enda på $4\u003Cbr /\u003E|{{GENDER:$1|med rank}} $2 av $3\u003Cbr /\u003Epå $4}}",
     "twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Du är den enda|{{GENDER:$1|Rankad}} som nummer $2 av $3}}",
     "twnmp-add-project": "Lägg till ditt projekt med öppen källkod för översättning",
     "twnmp-sandboxed": "Du måste ange fler översättningar för att få fullständiga översättningsrättigheter.",

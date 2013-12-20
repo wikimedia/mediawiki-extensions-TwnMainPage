@@ -30,7 +30,7 @@
     "twnmp-translations-per-month": "翻訳/月",
     "twnmp-translations-in-sandbox": "翻訳",
     "twnmp-reviews-per-month": "査読/月",
-    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=翻訳者はあなたのみです<br />言語: $4|$2 {{GENDER:$1|位の翻訳者}} ($3 人中)<br />言語: $4}}",
+    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=翻訳者はあなたのみです\u003Cbr /\u003E言語: $4|$2 {{GENDER:$1|位の翻訳者}} ($3 人中)\u003Cbr /\u003E言語: $4}}",
     "twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=翻訳者はあなたのみです|$2 {{GENDER:$1|位の翻訳者}} ($3 人中)}}",
     "twnmp-add-project": "あなたのオープンソース プロジェクトを翻訳対象に追加",
     "twnmp-sandboxed": "翻訳の完全な権限を取得するには、もっと翻訳する必要があります。",

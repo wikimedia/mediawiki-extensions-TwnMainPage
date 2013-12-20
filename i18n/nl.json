@@ -32,7 +32,7 @@
     "twnmp-translations-per-month": "Vertalingen/maand",
     "twnmp-translations-in-sandbox": "Vertalingen",
     "twnmp-reviews-per-month": "Gecontroleerd/maand",
-    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=U bent de enige<br />voor $4|{{GENDER:$1|Positie}} $2 van $3<br />voor $4}}",
+    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=U bent de enige\u003Cbr /\u003Evoor $4|{{GENDER:$1|Positie}} $2 van $3\u003Cbr /\u003Evoor $4}}",
     "twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=U bent de enige|{{GENDER:$1|Positie}} $2 van $3}}",
     "twnmp-add-project": "Voeg uw open sourceproject toe voor vertaling",
     "twnmp-sandboxed": "U moet meer vertalingen maken om volledige vertaalrechten te krijgen.",

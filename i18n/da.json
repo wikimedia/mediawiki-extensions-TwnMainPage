@@ -32,7 +32,7 @@
     "twnmp-translations-per-month": "Oversættelser/måned",
     "twnmp-translations-in-sandbox": "Oversættelser",
     "twnmp-reviews-per-month": "Korrekturlæsninger/måned",
-    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Du er den eneste<br />for $4|{{GENDER:$1|Rangeret}} $2 af $3<br />for $4}}",
+    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Du er den eneste\u003Cbr /\u003Efor $4|{{GENDER:$1|Rangeret}} $2 af $3\u003Cbr /\u003Efor $4}}",
     "twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Du er den eneste|{{GENDER:$1|Rangeret}} $2 af $3}}",
     "twnmp-add-project": "Tilføj dit open source-projekt for oversættelse",
     "twnmp-sandboxed": "Du skal lave flere oversættelser for at få fulde oversættelsesrettigheder.",

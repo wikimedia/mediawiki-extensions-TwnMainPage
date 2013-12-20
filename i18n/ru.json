@@ -33,7 +33,7 @@
     "twnmp-translations-per-month": "переведено за месяц",
     "twnmp-translations-in-sandbox": "Переводы",
     "twnmp-reviews-per-month": "проверено (вычитано) за месяц",
-    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Вы единственный<br />переводчик на $4|{{GENDER:$1|Вы}} на $2-м месте среди $3<br />{{PLURAL:$3|переводчика|переводчиков|переводчиков}} на $4}}",
+    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Вы единственный\u003Cbr /\u003Eпереводчик на $4|{{GENDER:$1|Вы}} на $2-м месте среди $3\u003Cbr /\u003E{{PLURAL:$3|переводчика|переводчиков|переводчиков}} на $4}}",
     "twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Вы единственный|{{GENDER:$1|Вы}} на $2-м месте среди $3}}",
     "twnmp-add-project": "Предложите для перевода свой проект с открытым исходным кодом",
     "twnmp-sandboxed": "Вы должны предоставить больше переводов для того, чтобы получить полные права на перевод.",
@@ -59,7 +59,7 @@
     "twnmp-join-community-reason": "Почему вы хотите присоединиться к нам?",
     "twnmp-create-account-cancel": "Отмена",
     "twnmp-join-community-info": "Вы не переводчик? Вы все равно можете присоединиться к сообществу.",
-    "twnmp-stats-number-k": "$1&nbsp;тыс.",
+    "twnmp-stats-number-k": "$1\u0026nbsp;тыс.",
     "twnmp-select-target-language": "Выбрать язык",
     "twn-mainpage-total-messages-in-language": "{{PLURAL:$1|$1 сообщение|$1 сообщения|$1 сообщений}}"
 }

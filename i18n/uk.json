@@ -32,7 +32,7 @@
     "twnmp-translations-per-month": "перекладів/місяць",
     "twnmp-translations-in-sandbox": "Переклади",
     "twnmp-reviews-per-month": "перевірок/місяць",
-    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Ви єдиний перекладач<br />для мови $4|{{GENDER:$1|За рейтингом ви}} $2 перекладач з $3<br />для мови $4}}",
+    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Ви єдиний перекладач\u003Cbr /\u003Eдля мови $4|{{GENDER:$1|За рейтингом ви}} $2 перекладач з $3\u003Cbr /\u003Eдля мови $4}}",
     "twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Ви єдиний перекладач|{{GENDER:$1|За рейтингом ви}} $2 з $3}}",
     "twnmp-add-project": "Додати ваш проект з відкритим вихідним кодом для перекладу",
     "twnmp-sandboxed": "Вам необхідно надати більше перекладів, щоб отримати повні права перекладача.",

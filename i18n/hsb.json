@@ -29,7 +29,7 @@
     "twnmp-translations-per-month": "Přełožki na měsac",
     "twnmp-translations-in-sandbox": "Přełožki",
     "twnmp-reviews-per-month": "Přepruwowanja na měsac",
-    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Sy {{GENDER:$1|jenički|jenička}}<br />za $4|městno $2 z $3<br />za $4}}",
+    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Sy {{GENDER:$1|jenički|jenička}}\u003Cbr /\u003Eza $4|městno $2 z $3\u003Cbr /\u003Eza $4}}",
     "twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Sy {{GENDER:$1|jenički|jenička}}|městno $2 z $3}}",
     "twnmp-add-project": "Přidaj swój projekt zjawneho žórła za přełožowanje",
     "twnmp-sandboxed": "Dyrbiš dalše přełožki přewjesć, zo by połne přełožowanske prawa dóstał.",
@@ -51,7 +51,7 @@
     "twnmp-join-community-reason": "Čehodla chceš přistupić?",
     "twnmp-create-account-cancel": "Přetorhnyć",
     "twnmp-join-community-info": "Njejsy přełožowar? Móžeš najebać toho do zhromadźenstwa zastupić.",
-    "twnmp-stats-number-k": "$1&nbsp;tys.",
+    "twnmp-stats-number-k": "$1\u0026nbsp;tys.",
     "twnmp-select-target-language": "Rěč wubrać",
     "twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Jedna zdźělenka|$1 zdźělence|$1 zdźělenki|$1 zdźělenkow}}"
 }

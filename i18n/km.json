@@ -1,0 +1,40 @@
+{
+    "@metadata": {
+        "authors": [
+            "គីមស៊្រុន"
+        ]
+    },
+    "twnmp-desc": "ផ្ដល់ជូននូវទំព័រដើមសម្រាប់ translatewiki.net",
+    "twnmp-mainpage": "ទំព័រដើម",
+    "twnmp-s-translators": "អ្នកប្រែសម្រួល",
+    "twnmp-s-projects": "គម្រោង​នានា",
+    "twnmp-s-languages": "ភាសា​",
+    "twnmp-s-messages": "សារដែលត្រូវបកប្រែ",
+    "twnmp-bannerwho": "រូបភាព $1",
+    "twnmp-show-more-projects": "បង្ហាញគម្រោងបន្ថែមទៀត...",
+    "twnmp-brand-motto": "សហគមន៍បកប្រែប្រភពបើកទូលាយ",
+    "twnmp-login": "កត់ឈ្មោះចូល",
+    "twnmp-search-placeholder": "ស្វែងរកនិងកែតម្រូវការបកប្រែ",
+    "twnmp-search-button": "ស្វែងរក",
+    "twnmp-search-choose-project": "ជ្រើសរើសគម្រោងមួយដើម្បីបកប្រែ",
+    "twnmp-translate-link": "បកប្រែ",
+    "twnmp-proofread-link": "ផ្ទៀងផ្ទាត់",
+    "twnmp-translate-button": "បកប្រែ",
+    "twnmp-proofread-button": "ផ្ទៀងផ្ទាត់",
+    "twnmp-your-translations-stats": "ស្ថិតិបកប្រែរបស់អ្នក",
+    "twnmp-your-view-language-stats": "មើលស្ថិតិ​ភាសា",
+    "twnmp-translations-per-month": "ចំនួនបកប្រែ/ខែ",
+    "twnmp-reviews-per-month": "ចំនួនត្រួតពិនិត្យ/ខែ",
+    "twnmp-translations-translator-ranking": "{{GENDER:$1|ជាប់ចំណាត់ថ្នាក់លេខ}} $2  ក្នុងចំណោម<br />អ្នកបកប្រែជា$4 ចំនួន $3",
+    "twnmp-bottom-help": "ជំនួយ",
+    "twnmp-bottom-languages-supported": "ភាសាដែលអាចប្រើបាន",
+    "twnmp-bottom-about": "អំពី",
+    "twnmp-signup-username-placeholder": "អត្តនាម",
+    "twnmp-signup-password-placeholder": "ពាក្យ​សម្ងាត់",
+    "twnmp-signup-email-placeholder": "អ៊ីមែល",
+    "twnmp-create-account-button": "បង្កើតគណនី",
+    "twnmp-become-translator": "ក្លាយជាអ្នកប្រែសម្រួល",
+    "twnmp-choose-languages-you-know": "ជ្រើសរើសភាសាដែលអ្នកចេះ",
+    "twnmp-choose-another-language": "ជ្រើសរើសភាសាមួយទៀត...",
+    "twnmp-choose-fill-account-details": "បំពេញព័ត៌មានពិស្ដារអំពីគណនីរបស់អ្នក"
+}

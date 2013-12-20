@@ -1,0 +1,41 @@
+{
+    "@metadata": {
+        "authors": [
+            "Milicevic01"
+        ]
+    },
+    "twnmp-mainpage": "Главна страна",
+    "twnmp-s-translators": "{{PLURAL:$1|Преводилаца}}",
+    "twnmp-s-projects": "{{PLURAL:$1|Пројеката}}",
+    "twnmp-s-languages": "Активна {{PLURAL:$1|језика}}",
+    "twnmp-s-messages": "{{PLURAL:$1|Порука}} за превођење",
+    "twnmp-bannerwho": "Слика $1",
+    "twnmp-show-more-projects": "Прикажи више пројеката...",
+    "twnmp-login": "Пријавите се",
+    "twnmp-logout": "Одјави ме",
+    "twnmp-search-placeholder": "Пронађите и поправите преводе",
+    "twnmp-search-button": "Пронађи",
+    "twnmp-search-choose-project": "Изаберите пројекат који желите да преводите",
+    "twnmp-translate-link": "Преведи",
+    "twnmp-proofread-link": "Провера",
+    "twnmp-translate-button": "Преведи",
+    "twnmp-proofread-button": "Провера",
+    "twnmp-view-button": "Погледај преводе",
+    "twnmp-your-translations-stats": "Ваша статистика превођења",
+    "twnmp-your-translations-stats-all-languages": "За све језике",
+    "twnmp-your-view-language-stats": "Статистика језика",
+    "twnmp-translations-per-month": "превода месечно",
+    "twnmp-translations-in-sandbox": "Преводи",
+    "twnmp-reviews-per-month": "провера месечно",
+    "twnmp-bottom-help": "Помоћ",
+    "twnmp-bottom-languages-supported": "Подржани језици",
+    "twnmp-bottom-about": "О пројекту translatewiki.net",
+    "twnmp-signup-username-placeholder": "Корисничко име",
+    "twnmp-signup-password-placeholder": "Лозинка",
+    "twnmp-signup-email-placeholder": "Е-пошта",
+    "twnmp-create-account-button": "Отвори налог",
+    "twnmp-become-translator": "Постани преводилац",
+    "twnmp-join-community": "Придружите се заједници",
+    "twnmp-create-account-cancel": "Откажи",
+    "twnmp-select-target-language": "Изабери језик"
+}

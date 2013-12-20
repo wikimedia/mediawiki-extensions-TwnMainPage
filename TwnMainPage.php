@@ -25,7 +25,7 @@ $dir = __DIR__;
 require_once "$dir/Resources.php";
 require_once "$dir/Autoload.php";
 
-$wgExtensionMessagesFiles['MainPage'] = "$dir/MainPage.i18n.php";
+$wgExtensionMessagesDirs['MainPage'] = "$dir/i18n";
 $wgExtensionMessagesFiles['MainPageAlias'] = "$dir/MainPage.alias.php";
 
 $wgSpecialPages['TwnMainPage'] = 'SpecialTwnMainPage';

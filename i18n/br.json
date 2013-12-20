@@ -1,0 +1,40 @@
+{
+    "@metadata": {
+        "authors": [
+            "Y-M D"
+        ]
+    },
+    "twnmp-mainpage": "Degemer",
+    "twnmp-s-translators": "{{PLURAL:$1|Troer}}",
+    "twnmp-s-projects": "{{PLURAL:$1|Raktres}}",
+    "twnmp-s-languages": "{{PLURAL:$1|Yezh}}",
+    "twnmp-s-messages": "{{PLURAL:$1|Kemennadenn}} da dreiñ",
+    "twnmp-bannerwho": "Skeudenn $1",
+    "twnmp-show-more-projects": "Diskouez an holl raktresoù...",
+    "twnmp-login": "Kevreañ",
+    "twnmp-search-button": "Klask",
+    "twnmp-search-choose-project": "Dibab ur raktres da dreiñ",
+    "twnmp-translate-link": "Treiñ",
+    "twnmp-proofread-link": "Adwelet",
+    "twnmp-translate-button": "Treiñ",
+    "twnmp-proofread-button": "Adwelet",
+    "twnmp-view-button": "Gwelet an troidigezhioù",
+    "twnmp-your-translations-stats": "Ho stadegoù treiñ",
+    "twnmp-your-view-language-stats": "Diskouez ar stadegoù yezh",
+    "twnmp-translations-per-month": "Troidigezh/miz",
+    "twnmp-translations-in-sandbox": "Troidigezhioù",
+    "twnmp-bottom-help": "Skoazell",
+    "twnmp-bottom-languages-supported": "Yezhoù skoret",
+    "twnmp-bottom-about": "Diwar-benn",
+    "twnmp-signup-username-placeholder": "Anv implijer",
+    "twnmp-signup-password-placeholder": "Ger-tremen",
+    "twnmp-signup-email-placeholder": "Postel",
+    "twnmp-create-account-button": "Krouiñ ur gont",
+    "twnmp-become-translator": "Dont da vezañ troer",
+    "twnmp-choose-languages-you-know": "Dibabit ar yezhoù a anavezit",
+    "twnmp-choose-another-language": "Dibab ur yezh all...",
+    "twnmp-choose-fill-account-details": "Klokaat titouroù ho kont",
+    "twnmp-create-account-cancel": "Nullañ",
+    "twnmp-select-target-language": "Dibab ar yezh",
+    "twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Ur gemennadenn|$1 kemennadenn}}"
+}

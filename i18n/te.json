@@ -1,0 +1,39 @@
+{
+    "@metadata": {
+        "authors": [
+            "Veeven"
+        ]
+    },
+    "twnmp-mainpage": "మొదటి పేజీ",
+    "twnmp-s-translators": "అనువాదకులు",
+    "twnmp-s-projects": "ప్రాజెక్టులు",
+    "twnmp-s-languages": "భాషలు",
+    "twnmp-s-messages": "అనువదించాల్సిన సందేశాలు",
+    "twnmp-bannerwho": "చిత్రం $1",
+    "twnmp-show-more-projects": "మరిన్ని ప్రాజెక్టులను చూపించు...",
+    "twnmp-brand-motto": "బహిరంగాకర అనువాద సమాజం",
+    "twnmp-login": "ప్రవేశించండి",
+    "twnmp-search-placeholder": "అనువాదాలను కనుగొని సరిదిద్దండి",
+    "twnmp-search-button": "వెతుకు",
+    "twnmp-search-choose-project": "అనువదించడానికి ప్రాజెక్టును ఎంచుకోండి",
+    "twnmp-translate-link": "అనువదించండి",
+    "twnmp-proofread-link": "సమీక్షించండి",
+    "twnmp-translate-button": "అనువదించండి",
+    "twnmp-proofread-button": "సమీక్షించండి",
+    "twnmp-your-translations-stats": "మీ అనువాద గణాంకాలు",
+    "twnmp-your-view-language-stats": "భాషా గణాంకాలను చూడండి",
+    "twnmp-translations-per-month": "నెలలో అనువాదాలు",
+    "twnmp-reviews-per-month": "నెలలో సమీక్షలు",
+    "twnmp-translations-translator-ranking": "$2వ {{GENDER:$1|స్థానం}}\n<br />$3గురు $4 అనువాదకులలో.",
+    "twnmp-bottom-help": "సహాయం",
+    "twnmp-bottom-languages-supported": "తోడ్పాటు ఉన్న భాషలు",
+    "twnmp-bottom-about": "గురించి",
+    "twnmp-signup-username-placeholder": "వాడుకరి పేరు",
+    "twnmp-signup-password-placeholder": "సంకేతపదం",
+    "twnmp-signup-email-placeholder": "ఈమెయిలు",
+    "twnmp-create-account-button": "ఖాతాని సృష్టించు",
+    "twnmp-become-translator": "అనువాదకులవ్వండి",
+    "twnmp-choose-languages-you-know": "మీకు తెలిసిన భాషలను ఎంచుకోండి",
+    "twnmp-choose-another-language": "మరో భాషను ఎంచుకోండి...",
+    "twnmp-choose-fill-account-details": "మీ ఖాతా వివరాలను పూరించండి"
+}

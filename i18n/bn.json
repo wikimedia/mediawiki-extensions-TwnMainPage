@@ -1,0 +1,40 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bellayet"
+        ]
+    },
+    "twnmp-desc": "translatewiki.net প্রধান পাতা রয়েছে",
+    "twnmp-mainpage": "প্রধান পাতা",
+    "twnmp-s-translators": "অনুবাদকগণ",
+    "twnmp-s-projects": "প্রকল্পসমূহ",
+    "twnmp-s-languages": "ভাষাসমূহ",
+    "twnmp-s-messages": "অনুবাদের জন্য বার্তাসমূহ",
+    "twnmp-bannerwho": "চিত্র $1",
+    "twnmp-show-more-projects": "আরও প্রকল্প দেখাও...",
+    "twnmp-brand-motto": "ওপেন সোর্স অনুবাদ সম্প্রদায়",
+    "twnmp-login": "প্রবেশ",
+    "twnmp-search-placeholder": "অনুবাদ অনুসন্ধান এবং ঠিক করুন",
+    "twnmp-search-button": "অনুসন্ধান করুন",
+    "twnmp-search-choose-project": "অনুবাদের জন্য কোনো প্রকল্প পছন্দ করুন",
+    "twnmp-translate-link": "অনুবাদ",
+    "twnmp-proofread-link": "প্রুফরিড",
+    "twnmp-translate-button": "অনুবাদ",
+    "twnmp-proofread-button": "প্রুফরিড",
+    "twnmp-your-translations-stats": "আপনার অনুবাদ পরিসংখ্যান",
+    "twnmp-your-view-language-stats": "ভাষার পরিসংখ্যান দেখাও",
+    "twnmp-translations-per-month": "অনুবাদ/মাস",
+    "twnmp-reviews-per-month": "পর্যালোচনা/মাস",
+    "twnmp-translations-translator-ranking": "{{GENDER:$1|র‍্যাংক}} $4 ভাষায় $3 অনুবাদকের মধ্যে $2 নম্বর",
+    "twnmp-bottom-help": "সাহায্য",
+    "twnmp-bottom-languages-supported": "সমর্থিত ভাষাসমূহ",
+    "twnmp-bottom-about": "পরিচিতি",
+    "twnmp-signup-username-placeholder": "ব্যবহারকারী নাম",
+    "twnmp-signup-password-placeholder": "শব্দচাবি (Password)",
+    "twnmp-signup-email-placeholder": "ইমেইল",
+    "twnmp-create-account-button": "অ্যাকাউন্ট তৈরি করুন",
+    "twnmp-become-translator": "অনুবাদক হোন",
+    "twnmp-choose-languages-you-know": "আপনি যে ভাষাসমূহ জানেন তা নির্বাচন করুন",
+    "twnmp-choose-another-language": "অন্য একটি ভাষা নির্বাচন করুন...",
+    "twnmp-choose-fill-account-details": "আপনার অ্যাকাউন্ট বিস্তারিত পূরণ করুন"
+}

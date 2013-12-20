@@ -1,0 +1,40 @@
+{
+    "@metadata": {
+        "authors": [
+            "Ahmed-Najib-Biabani-Ibrahimkhel"
+        ]
+    },
+    "twnmp-desc": "د translatewiki.net لومړی مخ جوړوي",
+    "twnmp-mainpage": "لومړی مخ",
+    "twnmp-s-translators": "{{PLURAL:$1|ژباړن|ژباړونکي}}",
+    "twnmp-s-projects": "{{PLURAL:$1|پروژه|پروژې}}",
+    "twnmp-s-languages": "{{PLURAL:$1|فعاله ژبه|فعالې ژبې}}",
+    "twnmp-s-messages": "د ژباړې {{PLURAL:$1|پيغام|پيغامونه}}",
+    "twnmp-bannerwho": "انځور $1",
+    "twnmp-show-more-projects": "ټولې پروژې ښکاره کول...",
+    "twnmp-brand-motto": "د پرانيستې سرچينې د ژباړې ټولنه",
+    "twnmp-login": "ننوتل",
+    "twnmp-search-placeholder": "ژباړې موندل او سمول",
+    "twnmp-search-button": "موندل",
+    "twnmp-search-choose-project": "د ژباړلو لپاره يوه پروژه وټاکۍ",
+    "twnmp-translate-link": "ژباړل",
+    "twnmp-proofread-link": "کره لوستنه",
+    "twnmp-view-link": "ژباړې کتل",
+    "twnmp-translate-button": "ژباړل",
+    "twnmp-proofread-button": "کره لوستنه",
+    "twnmp-your-translations-stats": "ستاسې د ژباړې شمارنې",
+    "twnmp-your-view-language-stats": "د ژبې شمارنې کتل",
+    "twnmp-translations-per-month": "ژباړې/مياشت",
+    "twnmp-reviews-per-month": "بياکتنې/مياشت",
+    "twnmp-bottom-help": "لارښود",
+    "twnmp-bottom-languages-supported": "ملاتړې ژبې",
+    "twnmp-bottom-about": "په اړه",
+    "twnmp-signup-username-placeholder": "کارن-نوم",
+    "twnmp-signup-password-placeholder": "پټنوم",
+    "twnmp-signup-email-placeholder": "برېښليک",
+    "twnmp-create-account-button": "گڼون جوړول",
+    "twnmp-become-translator": "يو ژباړن شۍ",
+    "twnmp-choose-languages-you-know": "هغه ژبې مو چې زده دي وټاکۍ",
+    "twnmp-choose-another-language": "بله ژبه ټاکل...",
+    "twnmp-choose-fill-account-details": "د گڼون تفصيل مو وليکۍ"
+}

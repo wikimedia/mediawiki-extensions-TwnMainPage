@@ -1,7 +1,8 @@
 {
     "@metadata": {
         "authors": [
-            "Eleassar"
+            "Eleassar",
+            "Dbc334"
         ]
     },
     "twnmp-desc": "Prikaže glavno stran projekta translatewiki.net",
@@ -27,7 +28,7 @@
     "twnmp-your-view-language-stats": "Ogled statistike jezika",
     "twnmp-translations-per-month": "Prevodov/mesec",
     "twnmp-reviews-per-month": "Pregledov/mesec",
-    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=V jeziku $4 ste edini<br />for $4|{{GENDER:$1|uvrščeni}} na $2 mesto<br />od $3}}",
+    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=V jeziku $4 ste edini\u003Cbr /\u003Efor $4|{{GENDER:$1|uvrščeni}} na $2 mesto\u003Cbr /\u003Eod $3}}",
     "twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Ste edini|{{GENDER:$1|uvrščeni}} na $2 mesto od $3}}",
     "twnmp-add-project": "Dodajte svoj odprtokodni projekt za prevajanje",
     "twnmp-bottom-help": "Pomoč",
@@ -41,7 +42,7 @@
     "twnmp-become-translator": "Postanite prevajalec",
     "twnmp-choose-languages-you-know": "Izberite jezike, ki jih znate",
     "twnmp-choose-another-language": "Izberite drug jezik ...",
-    "twnmp-choose-fill-account-details": "Izpolnite podrobnosti o svojem računu",
+    "twnmp-choose-fill-account-details": "Vnesite podrobnosti o svojem računu",
     "twnmp-select-target-language": "Izberite jezik",
     "twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Eno sporočilo|Dve sporočili|$1 sporočila|$1 sporočil}}"
 }

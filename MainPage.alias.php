@@ -104,6 +104,11 @@ $specialPageAliases['nl'] = array(
 	'TwnMainPage' => array( 'Startpagina' ),
 );
 
+/** Vietnamese (Tiếng Việt) */
+$specialPageAliases['vi'] = array(
+	'TwnMainPage' => array( 'Trang_Chính' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'TwnMainPage' => array( '首页' ),

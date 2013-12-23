@@ -11,7 +11,7 @@ $specialPageAliases = array();
 
 /** English (English) */
 $specialPageAliases['en'] = array(
-	'TwnMainPage' => array( 'MainPage' ),
+	'TwnMainPage' => array( 'MainPage', 'FirstSteps' ),
 );
 
 /** Arabic (العربية) */

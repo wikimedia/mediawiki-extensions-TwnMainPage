@@ -44,6 +44,7 @@
     "twnmp-signup-password-placeholder": "Passwuert",
     "twnmp-signup-email-placeholder": "E-Mail",
     "twnmp-create-account-button": "Benotzerkont uleeën",
+    "twnmp-signup-error-invalidusername": "Dëse Benotzernumm ass net disponibel. Sicht Iech w.e.g. een Aneren eraus.",
     "twnmp-signup-error-nonfreeusername": "Dëse Benotzernumm gëtt et schonn. Sicht Iech w.e.g. een Aneren eraus.",
     "twnmp-signup-error-invalidpassword": "D'Passwuert ass net valabel.",
     "twnmp-become-translator": "Iwwersetzer ginn",

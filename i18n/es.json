@@ -52,7 +52,7 @@
     "twnmp-join-community-desc": "Si eres un desarrollador interesado en documentar traducciones o solo estás explorando la plataforma, también eres bienvenido.",
     "twnmp-join-community-reason": "¿Por qué quieres unirte?",
     "twnmp-create-account-cancel": "Cancelar",
-    "twnmp-join-community-info": "¿No es un traductor? Usted puede unirse a la comunidad.",
+    "twnmp-join-community-info": "¿No es un traductor? Todavía puede unirse a la comunidad.",
     "twnmp-select-target-language": "Seleccionar idioma",
     "twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Un mensaje|$1 mensajes}}"
 }

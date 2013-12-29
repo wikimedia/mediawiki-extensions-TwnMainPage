@@ -47,6 +47,7 @@
     "twnmp-signup-error-invalidusername": "Dëse Benotzernumm ass net disponibel. Sicht Iech w.e.g. een Aneren eraus.",
     "twnmp-signup-error-nonfreeusername": "Dëse Benotzernumm gëtt et schonn. Sicht Iech w.e.g. een Aneren eraus.",
     "twnmp-signup-error-invalidpassword": "D'Passwuert ass net valabel.",
+    "twnmp-signup-error-invalidemail": "Dëst gesäit net aus wéi eng valabel E-Mail-Adress. Gitt w.e.g. eng valabel un.",
     "twnmp-become-translator": "Iwwersetzer ginn",
     "twnmp-choose-languages-you-know": "Sproochen eraussichen déi Dir kënnt",
     "twnmp-choose-another-language": "Eng aner Sprooch eraussichen...",

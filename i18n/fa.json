@@ -2,7 +2,8 @@
     "@metadata": {
         "authors": [
             "Ebraminio",
-            "Omidh"
+            "Omidh",
+            "Reza1615"
         ]
     },
     "twnmp-desc": "صفحهٔ اصلی translatewiki.net فراهم می‌کند",
@@ -53,6 +54,7 @@
     "twnmp-join-community-reason": "چرا شما علاقه‌مند به پیوستن هستید؟",
     "twnmp-create-account-cancel": "فسخ",
     "twnmp-join-community-info": "مترجم نیستید؟ هنوز می‌توانید به اجتماع بپیوندید.",
+    "twnmp-stats-number-k": "$1 هزار",
     "twnmp-select-target-language": "انتخاب زبان",
     "twn-mainpage-total-messages-in-language": "{{PLURAL:$1|یک پیغام|$1 پیغام}}"
 }

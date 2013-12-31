@@ -32,5 +32,5 @@ When(/^I input a reason$/) do
 end
 
 Then(/^I should be logged in into a new account$/) do
-	on(MainPage).username_element.when_visible.text.should == "Translator #{@random_string}"
+	on(MainPage).username_element.when_visible(10).text.should == "Translator #{@random_string}"
 end

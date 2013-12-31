@@ -12,8 +12,8 @@ Feature: Sign up account for the sandbox
       And I press the "Create account" button
     Then I should be logged in into a new account
 
-  Scenario: Sign up for translator
-    When I indicate I am not a developer
+  Scenario: Sign up as a developer
+    When I indicate that I am a developer
       And I input a unique username
       And I input a password
       And I input an email address

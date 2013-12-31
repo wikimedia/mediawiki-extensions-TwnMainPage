@@ -23,7 +23,7 @@ When(/^I press the "Create account" button$/) do
 	on(SignupPage).submit
 end
 
-When(/^I indicate I am not a developer$/) do
+When(/^I indicate that I am a developer$/) do
 	on(SignupPage).developer_signup_element.click
 end
 

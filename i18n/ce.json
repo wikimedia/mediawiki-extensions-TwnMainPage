@@ -5,10 +5,10 @@
         ]
     },
     "twnmp-mainpage": "Коьрта агӀо",
-    "twnmp-s-translators": "{{PLURAL:$1|гочдархо|гочдархой}}",
-    "twnmp-s-projects": "{{PLURAL:$1|проект|проекташ}}",
-    "twnmp-s-languages": "{{PLURAL:$1|жигара мотт|жигара меттанаш}}",
-    "twnmp-s-messages": "{{PLURAL:$1|интерфейсан гочдан хаам|интерфейсан гочдан хаамаш}}",
+    "twnmp-s-translators": "{{PLURAL:$1|1=гочдархо|гочдархой}}",
+    "twnmp-s-projects": "{{PLURAL:$1|1=проект|проекташ}}",
+    "twnmp-s-languages": "{{PLURAL:$1|1=жигара мотт|жигара меттанаш}}",
+    "twnmp-s-messages": "{{PLURAL:$1|1=интерфейсан гочдан хаам|интерфейсан гочдан хаамаш}}",
     "twnmp-bannerwho": "Сурт: $1",
     "twnmp-show-more-projects": "Гайта ерриг проекташ...",
     "twnmp-brand-motto": "Гочдаран маьрша хьост",
@@ -22,8 +22,8 @@
     "twnmp-your-view-language-stats": "Меттан статистике хьажар",
     "twnmp-translations-per-month": "Батта чохь гоч йина",
     "twnmp-translations-in-sandbox": "Гочдинарш",
-    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Хьо цхьаъ<br />ву/ю гочдархо $4|{{GENDER:$1|Хьа}} $2- меттиг ю $3 юкъехь<br />{{PLURAL:$3|гочдархо|гочдархой}} $4}}",
+    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Хьо цхьаъ\u003Cbr /\u003Eву/ю гочдархо $4|{{GENDER:$1|Хьа}} $2- меттиг ю $3 юкъехь\u003Cbr /\u003E{{PLURAL:$3|1=гочдархо|гочдархой}} $4}}",
     "twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Хьо цхьаъ ву/ю гочдархо|{{GENDER:$1|Хьа}} $2- меттиг ю $3 юкъехь}}",
     "twnmp-create-account-cancel": "Цаоьшу",
-    "twnmp-stats-number-k": "$1&nbsp;эза."
+    "twnmp-stats-number-k": "$1\u0026nbsp;эза."
 }

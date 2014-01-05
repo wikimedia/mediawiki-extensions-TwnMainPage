@@ -5,10 +5,10 @@
         ]
     },
     "twnmp-mainpage": "Коьрта агӀо",
-    "twnmp-s-translators": "{{PLURAL:$1|1=гочдархо|гочдархой}}",
-    "twnmp-s-projects": "{{PLURAL:$1|1=проект|проекташ}}",
-    "twnmp-s-languages": "{{PLURAL:$1|1=жигара мотт|жигара меттанаш}}",
-    "twnmp-s-messages": "{{PLURAL:$1|1=интерфейсан гочдан хаам|интерфейсан гочдан хаамаш}}",
+    "twnmp-s-translators": "{{PLURAL:$1|Гочдархо|Гочдархой}}",
+    "twnmp-s-projects": "{{PLURAL:$1|проект|проекташ}}",
+    "twnmp-s-languages": "Жигара {{PLURAL:$1|мотт|меттанаш}}",
+    "twnmp-s-messages": "Интерфейсан гочдан {{PLURAL:$1|хаам|хаамаш}}",
     "twnmp-bannerwho": "Сурт: $1",
     "twnmp-show-more-projects": "Гайта ерриг проекташ...",
     "twnmp-brand-motto": "Гочдаран маьрша хьост",
@@ -24,6 +24,11 @@
     "twnmp-translations-in-sandbox": "Гочдинарш",
     "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Хьо цхьаъ\u003Cbr /\u003Eву/ю гочдархо $4|{{GENDER:$1|Хьа}} $2- меттиг ю $3 юкъехь\u003Cbr /\u003E{{PLURAL:$3|1=гочдархо|гочдархой}} $4}}",
     "twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Хьо цхьаъ ву/ю гочдархо|{{GENDER:$1|Хьа}} $2- меттиг ю $3 юкъехь}}",
+    "twnmp-add-project": "Кховда йе гочян хьай маьрша елин дӀайолалун код",
+    "twnmp-bottom-help": "ГӀо",
+    "twnmp-bottom-support": "ГӀоьна белхалой",
+    "twnmp-bottom-languages-supported": "Ловш долу меттанаш",
+    "twnmp-bottom-about": "Проектах лаьцна",
     "twnmp-create-account-cancel": "Цаоьшу",
     "twnmp-stats-number-k": "$1\u0026nbsp;эза."
 }

@@ -2,7 +2,8 @@
     "@metadata": {
         "authors": [
             "Amire80",
-            "YaronSh"
+            "YaronSh",
+            "פוילישער"
         ]
     },
     "twnmp-desc": "דף ראשי עבור אתר translatewiki.net",
@@ -30,7 +31,7 @@
     "twnmp-translations-per-month": "תרגומים לחודש",
     "twnmp-translations-in-sandbox": "תרגומים",
     "twnmp-reviews-per-month": "הגהות לחודש",
-    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1={{GENDER:$1|אתה היחיד|את היחידה}}|{{GENDER:$1|אתה מדורג|את מדורגת}} במקום ה־$2 מבין $3}}<br />עבור $4",
+    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1={{GENDER:$1|אתה היחיד|את היחידה}}|{{GENDER:$1|אתה מדורג|את מדורגת}} במקום ה־$2 מבין $3}}\u003Cbr /\u003Eעבור $4",
     "twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1={{GENDER:$1|אתה היחיד|את היחידה}} כאן|{{GENDER:$1|אתה מדורג|את מדורגת}} במקום ה־$2 מתוך $3}}",
     "twnmp-add-project": "הוספת מיזם הקוד הפתוח שלך לתרגום כאן",
     "twnmp-sandboxed": "יש לספק עוד תרגומים כדי לקבל הרשאות תרגום מלאות.",

@@ -6,8 +6,17 @@
     },
     "twnmp-mainpage": "הויפט זייט",
     "twnmp-brand-motto": "אפענער־קאד איבערזעצונג געמיינדע",
+    "twnmp-search-button": "טרעפֿן",
     "twnmp-translate-link": "איבערזעצן",
+    "twnmp-proofread-link": "רעצענזירן",
+    "twnmp-translate-button": "איבערזעצן",
+    "twnmp-proofread-button": "רעצענזירן",
+    "twnmp-your-translations-stats": "אײַערע איבערזעצונג סטאטיסטיקעס",
+    "twnmp-your-view-language-stats": "באקוקון שפראך־סטאטיסטיקעס",
     "twnmp-translations-per-month": "איבערזעצונגען אין א מאנאט",
+    "twnmp-reviews-per-month": "רעצענזיעס/מאנאט",
+    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=איר זענט דער איינציקער\u003Cbr /\u003Eפאר $4|{{GENDER:$1|ראַנג}} $2 פֿון $3\u003Cbr /\u003Eפאר $4}}",
+    "twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=איר זענט דער איינציקער|{{GENDER:$1|ראַנג}} $2 פֿון $3}}",
     "twnmp-add-project": "לייגט צו אייער אפענער־קאד פראיעקט פאראיבערזעצונג.",
     "twnmp-choose-another-language": "קלויבן אויסגעמעקט אן אנדער שפראך…"
 }

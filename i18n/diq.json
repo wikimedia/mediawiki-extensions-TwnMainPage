@@ -1,10 +1,11 @@
 {
     "@metadata": {
         "authors": [
-            "Marmase"
+            "Marmase",
+            "Mirzali"
         ]
     },
-    "twnmp-mainpage": "Pera Seri",
+    "twnmp-mainpage": "Pela Seri",
     "twnmp-s-translators": "{{PLURAL:$1|Açerner|Açerneri}}",
     "twnmp-s-projects": "{{PLURAL:$1|Proca|Procey}}",
     "twnmp-s-languages": "{{PLURAL:$1|zıwan|Zıwani}} biya aktiv",

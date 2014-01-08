@@ -1,7 +1,8 @@
 {
     "@metadata": {
         "authors": [
-            "Michawiki"
+            "Michawiki",
+            "Derbeth"
         ]
     },
     "twnmp-desc": "Staja głowny bok translatewiki.net k dispoziciji",
@@ -47,8 +48,8 @@
     "twnmp-signup-error-nonfreeusername": "Toś to wužywarske mě južo eksistěrujo. Pšosym wubjeŕ druge.",
     "twnmp-signup-error-invalidpassword": "Gronidło jo njepłaśiwe.",
     "twnmp-signup-error-invalidemail": "Zda se, až to njejo płaśiwa e-mailowa adresa. Pšosym pódaj płaśiwu.",
-    "twnmp-signup-error-other": "Registrěrowanje jo se njeraźiło. Serwer jo zmólku wrośił: $1.",
-    "twnmp-signup-error-unknown": "Napóranje konta jo se z njeznateje pśicyny njeraźiło.",
+    "twnmp-signup-error-other": "Registrěrowanje njejo se raźiło. Serwer jo zmólku wrośił: $1.",
+    "twnmp-signup-error-unknown": "Napóranje konta njejo se z njeznateje pśicyny raźiło.",
     "twnmp-become-translator": "Buź pśełožowaŕ",
     "twnmp-choose-languages-you-know": "Wubjeŕ rěcy, kótarež wumějoš",
     "twnmp-choose-another-language": "Wubjeŕ drugu rěc...",

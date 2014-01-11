@@ -49,6 +49,7 @@
     "twnmp-signup-error-invalidusername": "Это имя участника недоступно. Пожалуйста, выберите другое.",
     "twnmp-signup-error-nonfreeusername": "Это имя участника уже существует. Пожалуйста, выберите другое.",
     "twnmp-signup-error-invalidpassword": "Пароль неверен",
+    "twnmp-signup-error-invalidemail": "Это не похоже на корректный адрес электронной почты. Пожалуйста, укажите корректный адрес.",
     "twnmp-signup-error-unknown": "Создание учётной записи не удалось по неизвестной причине.",
     "twnmp-become-translator": "Стать переводчиком",
     "twnmp-choose-languages-you-know": "Выберите языки, которыми владеете",

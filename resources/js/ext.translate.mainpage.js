@@ -119,7 +119,7 @@
 			$tiles = $( '.project-tile' );
 
 		if ( $( '.twn-mainpage-project-tiles' ).data( 'same-sourcelanguage' ) ) {
-			setupTargetLanguageSelector();
+			mw.loader.using( 'ext.uls.mediawiki', setupTargetLanguageSelector );
 		} else {
 			showMessageGroupStats( language );
 		}

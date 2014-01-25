@@ -192,4 +192,8 @@
 
 		$form.on( 'submit', handleSubmit );
 	};
+
+	$( document ).ready( function () {
+		mw.translate.setupSignupForm( $( '.login-widget' ) );
+	} );
 }( jQuery, mediaWiki ) );

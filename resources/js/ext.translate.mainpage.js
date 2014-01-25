@@ -176,10 +176,5 @@
 		$tiles.eq( maxProjectTiles - 1 ).replaceWith( $selector );
 	}
 
-	$( document ).ready( function () {
-		setupProjectTiles();
-		mw.loader.using( 'ext.translate.mainpage.signup', function () {
-			mw.translate.setupSignupForm( $( '.login-widget' ) );
-		} );
-	} );
+	$( document ).ready( setupProjectTiles );
 }( jQuery, mediaWiki ) );

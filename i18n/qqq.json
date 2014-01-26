@@ -59,7 +59,7 @@
     "twnmp-choose-languages-you-know": "Used as heading.\n\nFollowed by list of auto-detected languages.\n\nSee [[Special:MainPage]] as an anonymous user.",
     "twnmp-choose-another-language": "Used as label for a link to choose a language that doesn't appear in the list.",
     "twnmp-choose-fill-account-details": "A heading for the personal details (username, password and email) form.\n\nSee [[Special:MainPage]] as an anonymous user.",
-    "twnmp-join-community": "Header in the signup form for non-translators.\n\nFollowed by {{msg-mw|Twnmp-join-community-desc}}.",
+    "twnmp-join-community": "Header in the signup form for non-translators.\n\nFollowed by {{msg-mw|Twnmp-join-community-desc}}.\n{{Identical|Join the community}}",
     "twnmp-join-community-desc": "Not for non-translators who are signing up via the main page",
     "twnmp-join-community-reason": "Label for a text area",
     "twnmp-create-account-cancel": "Cancel button text.\n{{Identical|Cancel}}",

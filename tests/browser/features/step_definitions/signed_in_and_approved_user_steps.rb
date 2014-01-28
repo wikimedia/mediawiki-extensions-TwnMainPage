@@ -63,8 +63,7 @@ end
 
 When(/^I click a message group$/) do
 	# The message groups load very slow, it should be speed up
-	sleep 5;
-	on(MainPage).message_group_row_element.when_visible.click
+	on(MainPage).message_group_row_element.when_visible(10).click
 end
 
 When(/^I search for "(.*?)"$/) do |query|

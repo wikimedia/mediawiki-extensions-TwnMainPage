@@ -1,0 +1,28 @@
+{
+    "@metadata": {
+        "authors": [
+            "AivoK"
+        ]
+    },
+    "twnmp-s-translators": "{{PLURAL:$1|tõlkija|tõlkijat}}",
+    "twnmp-s-projects": "{{PLURAL:$1|projekt|projekti}}",
+    "twnmp-s-languages": "{{PLURAL:$1|aktiivne keel|aktiivset keelt}}",
+    "twnmp-s-messages": "{{PLURAL:$1|sõnum|sõnumit}} tõlkida",
+    "twnmp-bannerwho": "Pilt $1",
+    "twnmp-show-more-projects": "Näita kõiki projekte...",
+    "twnmp-login": "Logi sisse",
+    "twnmp-logout": "Logi välja",
+    "twnmp-search-choose-project": "Vali tõlgitav projekt",
+    "twnmp-translations-per-month": "tõlget kuus",
+    "twnmp-bottom-help": "Abi",
+    "twnmp-signup-username-placeholder": "Kasutajanimi",
+    "twnmp-signup-password-placeholder": "Parool",
+    "twnmp-signup-email-placeholder": "E-post",
+    "twnmp-create-account-button": "Loo konto",
+    "twnmp-become-translator": "Hakka tõlkijaks",
+    "twnmp-choose-languages-you-know": "Vali keeled, mida oskad",
+    "twnmp-choose-another-language": "Vali teine keel...",
+    "twnmp-choose-fill-account-details": "Sisesta oma konto tunnused",
+    "twnmp-create-account-cancel": "Loobu",
+    "twnmp-select-target-language": "Vali keel"
+}

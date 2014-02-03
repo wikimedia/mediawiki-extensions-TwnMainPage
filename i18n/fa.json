@@ -3,7 +3,8 @@
         "authors": [
             "Ebraminio",
             "Omidh",
-            "Reza1615"
+            "Reza1615",
+            "Armin1392"
         ]
     },
     "twnmp-desc": "صفحهٔ اصلی translatewiki.net فراهم می‌کند",
@@ -22,6 +23,7 @@
     "twnmp-search-choose-project": "انتخاب یک پروژه برای ترجمه",
     "twnmp-translate-link": "ترجمه",
     "twnmp-proofread-link": "بازبینی",
+    "twnmp-view-link": "نمایش ترجمه‌ها",
     "twnmp-translate-button": "ترجمه",
     "twnmp-proofread-button": "بازبینی",
     "twnmp-view-button": "نمایش ترجمه‌ها",
@@ -44,7 +46,10 @@
     "twnmp-signup-password-placeholder": "گذرواژه",
     "twnmp-signup-email-placeholder": "رایانامه",
     "twnmp-create-account-button": "ایجاد حساب کاربری",
+    "twnmp-signup-error-invalidusername": "این نام کاربری در دسترس نیست. لطفاً، نام کاربری دیگری را انتخاب کنید.",
+    "twnmp-signup-error-nonfreeusername": "این نام کاربری در حال حاضر وجود دارد. لطفاً، نام کاربری دیگری را انتخاب کنید.",
     "twnmp-signup-error-invalidpassword": "گذرواژه نامعتبر است.",
+    "twnmp-signup-error-invalidemail": "این شبیه به یک آدرس رایانامه نیست. لطفاً، آدرس رایانامهٔ دیگری را ارائه کنید.",
     "twnmp-become-translator": "مترجم شوید",
     "twnmp-choose-languages-you-know": "زبانی که می‌دانید را انتخاب کنید",
     "twnmp-choose-another-language": "انتخاب زبانی دیگر...",

@@ -160,7 +160,7 @@ HTML;
 
 		$out .= Html::element( 'button',
 			array(
-				'class' => 'blue button',
+				'class' => 'mw-ui-button mw-ui-progressive',
 				'type' => 'submit',
 				'id' => 'twnmp-search-button',
 			),
@@ -574,7 +574,7 @@ HTML;
 	</ul>
 	<div class="row only-nondev">
 		<div class="eight columns">
-			<div class="signup-language-selector">
+			<div class="signup-language-selector mw-ui-button">
 				{$this->msg( 'twnmp-choose-another-language' )->escaped()}
 			</div>
 		</div>
@@ -593,10 +593,10 @@ HTML;
 	</div>
 	<div class="row only-dev hide">$reasonInput</div>
 	<div class="row">
-		<button class="six columns green button" type="submit">
+		<button class="mw-ui-button mw-ui-constructive" type="submit">
 			{$this->msg( 'twnmp-create-account-button' )->escaped()}
 		</button>
-		<button class="four columns button offset-by-one only-dev cancel hide">
+		<button class="mw-ui-button only-dev cancel hide">
 			{$this->msg( 'twnmp-create-account-cancel' )->escaped()}
 		</button>
 	</div>
@@ -749,7 +749,7 @@ HTML;
 		$out .= Html::element( 'button', array(
 			'id' => 'twnmp-translate',
 			'type' => 'submit',
-			'class' => 'button green'
+			'class' => 'mw-ui-button mw-ui-progressive'
 		), $this->msg( 'twnmp-translate-button' )->text() );
 		$out .= Html::closeElement( 'div' );
 		$out .= Html::closeElement( 'form' );
@@ -796,7 +796,7 @@ HTML;
 		$out .= Html::element( 'button', array(
 			'id' => 'twnmp-proofread',
 			'type' => 'submit',
-			'class' => 'button green'
+			'class' => 'mw-ui-button mw-ui-progressive'
 		), $this->msg( 'twnmp-proofread-button' )->text() );
 		$out .= Html::closeElement( 'div' );
 		$out .= Html::closeElement( 'form' );
@@ -834,7 +834,7 @@ HTML;
 		</div>
 	</div>
 	<div class="four columns">
-		<button type="submit" class="button green">$button</button>
+		<button type="submit" class="mw-ui-button mw-ui-progressive">$button</button>
 	</div>
 </form>
 <div class="row sandbox-message">$message</div>

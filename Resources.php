@@ -22,6 +22,7 @@ $wgResourceModules['ext.translate.mainpage'] = array(
 		'mediawiki.Uri',
 		'mediawiki.language',
 		'mediawiki.util',
+		'mediawiki.ui.button',
 	),
 	'messages' => array(
 		'twnmp-show-more-projects',

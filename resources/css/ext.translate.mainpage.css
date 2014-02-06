@@ -164,9 +164,7 @@ body {
 	color: #252525;
 }
 
-.main-widget button.button {
-	min-height: 32px;
-	padding: 10px;
+.main-widget button {
 	margin: 10px;
 }
 
@@ -177,10 +175,6 @@ body {
 }
 
 /* Signup styles start here. They are here to avoid FOUC. */
-.login-widget button:disabled {
-	opacity: 0.6;
-}
-
 .login-widget .dev-signup {
 	border-top: 1px solid #DDDDDD;
 	cursor: pointer;
@@ -197,12 +191,10 @@ body {
 
 .login-widget .signup-language-selector {
 	font-size: 12pt;
-	background-color: #E0E0E0;
+	background-color: #f8f8f8;
 	margin: 5px 0 10px 5px;
 	cursor: pointer;
-	padding: 4px 8px;
-	border: 1px solid #CCCCCC;
-	border-radius: 4px;
+	padding: 5px 12px;
 }
 
 .login-widget .signup-language-selector:hover {
@@ -444,91 +436,6 @@ a.langstats-link {
 	background-image: linear-gradient(transparent, transparent), url(../images/view-proofread-hi.svg);
 }
 
-button.button {
-	background-color: #E6E6E6;
-	background-image: -webkit-linear-gradient(top, #f0f0f0, #e6e6e6);
-	background-image: -moz-linear-gradient(center top, #F0F0F0, #E6E6E6);
-	background-image: linear-gradient(#F0F0F0, #E6E6E6);
-	border: 1px solid #C9C9C9;
-	border-radius: 3px 3px 3px 3px;
-	color: #252525;
-	cursor: pointer;
-	display: inline-block;
-	font: bold 0.813em/1 Arial, sans-serif;
-	padding: 0.4065em 1.2195em;
-	text-align: center;
-	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
-}
-
-button.button:hover {
-	background-color: #F0F0F0;
-	background-image: -webkit-linear-gradient(top, #f8f8f8, #f0f0f0);
-	background-image: -moz-linear-gradient(center top, #F8F8F8, #F0F0F0);
-	background-image: linear-gradient(#F8F8F8, #F0F0F0);
-	border-color: #C9C9C9;
-}
-
-button.button.blue {
-	background-color: #3366BB;
-	background-image: -webkit-linear-gradient(top, #3670c8, #3366bb);
-	background-image: -moz-linear-gradient(center top, #3670C8, #3366BB);
-	background-image: -moz-linear-gradient(#3670C8, #3366BB);
-	border: 1px solid #33589F;
-	color: #FFFFFF;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-}
-
-button.button.blue:hover {
-	background-color: #3F77D7;
-	background-image: -webkit-linear-gradient(top, #4c84da, #3f77d7);
-	background-image: -moz-linear-gradient(center top, #4C84DA, #3F77D7);
-	background-image: -moz-linear-gradient(#4C84DA, #3F77D7);
-}
-
-button.button.blue:active,
-button.button.blue.down:active {
-	background-color: #2A549C;
-	background-image: -webkit-linear-gradient(top, #2d5ea9, #2a549c);
-	background-image: -moz-linear-gradient(center top, #2D5EA9, #2A549C);
-	background-image: linear-gradient(#2D5EA9, #2A549C);
-}
-
-button.button.green {
-	color: #ffffff;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	background-color: #008740;
-	background-image: -ms-linear-gradient(top, #00974b, #008740);
-	background-image: -moz-linear-gradient(top, #00974b, #008740);
-	background-image: linear-gradient(#00974b, #008740);
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00974b), color-stop(100%, #008740));
-	background-image: -webkit-linear-gradient(top, #00974b, #008740);
-	border: 1px #0f9b3b solid;
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#00974b', endColorstr='#008740', GradientType=0)";
-	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#00974b', endColorstr='#008740', GradientType=0);
-}
-
-button.button.green:hover {
-	background-color: #119750;
-	background-image: -moz-linear-gradient(top, #10a65b, #119750);
-	background-image: -ms-linear-gradient(top, #10a65b, #119750);
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #10a65b), color-stop(100%, #119750));
-	background-image: -webkit-linear-gradient(top, #10a65b, #119750);
-	background-image: linear-gradient(#10a65b, #119750);
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#10a65b', endColorstr='#119750', GradientType=0)";
-	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#10a65b', endColorstr='#119750', GradientType=0);
-}
-
-button.button.green:active {
-	background-color: #007236;
-	background-image: -moz-linear-gradient(top, #007236, #007236);
-	background-image: -ms-linear-gradient(top, #007236, #007236);
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #007236), color-stop(100%, #007236));
-	background-image: -webkit-linear-gradient(top, #007236, #007236);
-	background-image: linear-gradient(#007236, #007236);
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#007236', endColorstr='#007236', GradientType=0)";
-	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#007236', endColorstr='#007236', GradientType=0);
-}
-
 .searchbox {
 	border: 1px solid #777777;
 	height: 32px;
@@ -618,18 +525,9 @@ button.button.green:active {
 	display: block;
 }
 
-.same-language-uls-trigger {
-	padding: 10px;
+/* button is here to make this rule more specific than .mw-ui-button */
+button.same-language-uls-trigger {
 	margin-left: 10px;
-	border-radius: 3px;
-	background: #f8f8f8;
-	border: 1px solid #CCCCCC;
-	cursor: pointer;
-	font-size: 14px;
-}
-
-.same-language-uls-trigger:hover {
-	border-color: #AAAAAA;
 }
 
 .same-language-uls-trigger:after {

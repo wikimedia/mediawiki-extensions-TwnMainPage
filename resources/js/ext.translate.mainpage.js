@@ -86,7 +86,7 @@
 				.append(
 					$( '<button>' )
 						.text( mw.msg( 'twnmp-select-target-language' ) )
-						.addClass( 'same-language-uls-trigger' )
+						.addClass( 'same-language-uls-trigger mw-ui-button' )
 				)
 			);
 

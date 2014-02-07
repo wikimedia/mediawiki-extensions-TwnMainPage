@@ -1,7 +1,8 @@
 {
     "@metadata": {
         "authors": [
-            "Fúlvio"
+            "Fúlvio",
+            "Imperadeiro98"
         ]
     },
     "twnmp-desc": "Oferece a página principal da translatewiki.net",
@@ -19,7 +20,7 @@
     "twnmp-view-link": "Ver traduções",
     "twnmp-proofread-button": "Revisar",
     "twnmp-view-button": "Ver traduções",
-    "twnmp-your-translations-stats": "Suas estatísticas de tradução",
+    "twnmp-your-translations-stats": "As suas estatísticas de tradução",
     "twnmp-your-translations-stats-all-languages": "Para todas as línguas",
     "twnmp-your-view-language-stats": "Ver estatísticas de tradução",
     "twnmp-translations-in-sandbox": "Traduções",

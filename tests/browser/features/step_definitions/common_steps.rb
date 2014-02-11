@@ -1,10 +1,6 @@
 Given(/^I am logged out$/) do
 end
 
-Given(/^I am logged in$/) do
-	visit(LoginPage).login_with(ENV["MEDIAWIKI_USER"], ENV["MEDIAWIKI_PASSWORD"])
-end
-
 Given(/^I am on the main page$/) do
 	visit MainPage
 end

@@ -1,0 +1,13 @@
+{
+    "@metadata": {
+        "authors": [
+            "Abshirdheere"
+        ]
+    },
+    "twnmp-mainpage": "Bogga Hore",
+    "twnmp-brand-motto": "Turjumaad bulsho xog furan",
+    "twnmp-your-translations-stats": "Tirakoobka turjumaadaada",
+    "twnmp-translations-per-month": "Turjumaad/bil",
+    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Waxaa tahay qofka kaliya|{{GENDER:$1|gaaray $2º|gaartay $2ª|heerka ah $2}} in ka badan $3\u003Cbr /\u003Eturjumaad}} ee $4",
+    "twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Sei Waxaa tahay turjumaanka qura|{{GENDER:$1|kusoo baxay $2º|ku soo baxday $2ª|heerka ah $2}} in ka badan $3\u003Cbr /\u003Eturjumaad}}"
+}

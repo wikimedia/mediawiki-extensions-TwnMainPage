@@ -19,6 +19,11 @@ $specialPageAliases['ar'] = array(
 	'TwnMainPage' => array( 'الصفحة_الرئيسية' ),
 );
 
+/** Egyptian Spoken Arabic (مصرى) */
+$specialPageAliases['arz'] = array(
+	'TwnMainPage' => array( 'الصفحه_الرئيسيه' ),
+);
+
 /** Asturian (asturianu) */
 $specialPageAliases['ast'] = array(
 	'TwnMainPage' => array( 'Portada' ),
@@ -99,6 +104,11 @@ $specialPageAliases['mr'] = array(
 	'TwnMainPage' => array( 'मुखपृष्ठ' ),
 );
 
+/** Norwegian Bokmål (norsk bokmål) */
+$specialPageAliases['nb'] = array(
+	'TwnMainPage' => array( 'Hovedside' ),
+);
+
 /** Dutch (Nederlands) */
 $specialPageAliases['nl'] = array(
 	'TwnMainPage' => array( 'Startpagina' ),
@@ -111,7 +121,7 @@ $specialPageAliases['vi'] = array(
 
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
-	'TwnMainPage' => array( '首页' ),
+	'TwnMainPage' => array( '首页', '第一步' ),
 );
 
 /** Traditional Chinese (中文（繁體）‎) */

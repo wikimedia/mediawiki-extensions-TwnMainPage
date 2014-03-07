@@ -4,7 +4,8 @@
             "Gomoko",
             "Jean-Frédéric",
             "Metroitendo",
-            "NemesisIII"
+            "NemesisIII",
+            "Orlodrim"
         ]
     },
     "twnmp-desc": "Fournit la page principale de translatewiki.net",
@@ -17,7 +18,7 @@
     "twnmp-show-more-projects": "Afficher tous les projets…",
     "twnmp-brand-motto": "Communauté de traduction en source libre",
     "twnmp-login": "Se connecter",
-    "twnmp-logout": "Deconnexion",
+    "twnmp-logout": "Déconnexion",
     "twnmp-search-placeholder": "Rechercher et corriger des traductions",
     "twnmp-search-button": "Rechercher",
     "twnmp-search-choose-project": "Choisir un projet à traduire",

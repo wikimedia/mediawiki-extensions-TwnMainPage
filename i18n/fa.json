@@ -50,6 +50,8 @@
     "twnmp-signup-error-nonfreeusername": "این نام کاربری در حال حاضر وجود دارد. لطفاً، نام کاربری دیگری را انتخاب کنید.",
     "twnmp-signup-error-invalidpassword": "گذرواژه نامعتبر است.",
     "twnmp-signup-error-invalidemail": "این شبیه به یک آدرس رایانامه نیست. لطفاً، آدرس رایانامهٔ دیگری را ارائه کنید.",
+    "twnmp-signup-error-other": "ثبت‌نام انجام نشد. سرور خطا را برگردانده: $1.",
+    "twnmp-signup-error-unknown": "ایجاد حساب به یک دلیل ناشناخته انجام نشد.",
     "twnmp-become-translator": "مترجم شوید",
     "twnmp-choose-languages-you-know": "زبانی که می‌دانید را انتخاب کنید",
     "twnmp-choose-another-language": "انتخاب زبانی دیگر...",

@@ -2,12 +2,13 @@
     "@metadata": {
         "authors": [
             "Crt",
-            "Nike"
+            "Nike",
+            "Stryn"
         ]
     },
     "twnmp-desc": "translatewiki.netin etusivu",
     "twnmp-mainpage": "Etusivu",
-    "twnmp-s-translators": "kääntäjää",
+    "twnmp-s-translators": "{{PLURAL:$1|kääntäjä|kääntäjää}}",
     "twnmp-s-projects": "projektia",
     "twnmp-s-languages": "kieltä",
     "twnmp-s-messages": "käännettävää viestiä",
@@ -28,7 +29,7 @@
     "twnmp-your-view-language-stats": "Näytä kielitilastot",
     "twnmp-translations-per-month": "käännöstä/kuukausi",
     "twnmp-reviews-per-month": "oikolukua/kuukausi",
-    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1={{GENDER:$1|Olet ainoa}}|Olet sijalla $2/$3<br />\nkielelle $4}}",
+    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1={{GENDER:$1|Olet ainoa}}|Olet sijalla $2/$3\u003Cbr /\u003E\nkielelle $4}}",
     "twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1={{GENDER:$1|Olet ainoa}}|Olet sijalla $2/$3}}",
     "twnmp-add-project": "Lisää avoimen lähdekoodin projekti käännettäväksi",
     "twnmp-bottom-help": "Ohjeet",
@@ -43,6 +44,7 @@
     "twnmp-choose-languages-you-know": "Valitse kielet, joita osaat",
     "twnmp-choose-another-language": "Lisää toinen kieli...",
     "twnmp-choose-fill-account-details": "Syötä tunnuksesi tiedot",
+    "twnmp-join-community-info": "Etkö ole kääntäjä? Voit silti liittyä.",
     "twnmp-select-target-language": "Valitse kieli",
     "twn-mainpage-total-messages-in-language": "{{PLURAL:$1|$1 viesti|$1 viestiä}}"
 }

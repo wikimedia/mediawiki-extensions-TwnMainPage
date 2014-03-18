@@ -10,6 +10,17 @@
 class ProjectHandler {
 	public function getProjects() {
 		$projects = array();
+
+		$cache = wfGetCache( CACHE_ANYTHING );
+		$cacheKey = wfMemckey( __METHOD__ );
+		$ids = $cache->get( $cacheKey );
+		if ( is_array( $ids ) ) {
+			$projects = array_map( 'MessageGroups::getGroup', $ids );
+			$projects = array_filter( $projects );
+			return $projects;
+		}
+
+		// Not cached, find them
 		$groups = MessageGroups::getGroupStructure();
 
 		foreach ( $groups as $mixed ) {
@@ -20,10 +31,11 @@ class ProjectHandler {
 			}
 
 			if ( $group->getIcon() !== null ) {
-				$projects[] = $group;
+				$projects[$group->getId()] = $group;
 			}
 		}
 
+		$cache->set( $cacheKey, array_keys( $projects ), 60 * 60 * 24 );
 		return $projects;
 	}
 

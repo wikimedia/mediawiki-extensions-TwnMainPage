@@ -17,6 +17,6 @@ class SignupPage
 	text_field(:email, name: "wpEmail")
 	text_field(:reason, name: "reason")
 
-	button(:submit, class: "green button")
+	button(:submit, id: "twnmp-create-account")
 	a(:developer_signup, css: ".dev-signup a")
 end

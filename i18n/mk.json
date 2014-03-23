@@ -32,7 +32,7 @@
     "twnmp-reviews-per-month": "Проверки месечно",
     "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Единствени сте\u003Cbr /\u003Eза $4|{{GENDER:$1|Ранг:}} $2 од $3\u003Cbr /\u003Eза $4}}",
     "twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Единствени сте|{{GENDER:$1|Ранг:}} $2 од $3}}",
-    "twnmp-add-project": "Додадете вашиот отворен проект за превод",
+    "twnmp-add-project": "Дајте ни го вашиот отворен проект на превод",
     "twnmp-sandboxed": "Ќе треба да направите уште преводи за ги добиете полните преведувачки прева.",
     "twnmp-sandboxed-limit": "Ја достигнавте границата на преводи. Нашата екипа наскоро ќе ја направи проверката и ќе ве унапреди.",
     "twnmp-bottom-help": "Помош",

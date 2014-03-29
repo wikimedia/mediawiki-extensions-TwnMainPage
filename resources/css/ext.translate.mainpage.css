@@ -104,6 +104,7 @@ body {
 	margin: auto;
 	width: 80%;
 	padding: 10px;
+	cursor: pointer;
 	-webkit-animation: fadein 1.5s;
 	animation: fadein 1.5s;
 }
@@ -128,6 +129,7 @@ body {
 
 .unused.stats-tile {
 	background-color: rgba(51, 102, 187, 0.3);
+	cursor: auto;
 }
 
 .stats-number {

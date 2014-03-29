@@ -29,7 +29,7 @@
     "twnmp-translations-per-month": "Owersets/month",
     "twnmp-translations-in-sandbox": "Owersets",
     "twnmp-reviews-per-month": "Luikowers/month",
-    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Ye'r the yinlie yin\u003Cbr /\u003Efer $4|{{GENDER:$1|Ranked}} $2 o $3\u003Cbr /\u003Efer $4}}",
+    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Ye'r the yinlie yin<br />fer $4|{{GENDER:$1|Ranked}} $2 o $3<br />fer $4}}",
     "twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Ye'r the yinlie yin|{{GENDER:$1|Ranked}} $2 o $3}}",
     "twnmp-add-project": "Eik yer apen soorce waurk fer owersetin",
     "twnmp-sandboxed": "Ye need tae provide mair owersets tae get ful owersetin richts.",

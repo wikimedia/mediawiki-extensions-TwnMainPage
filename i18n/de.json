@@ -3,10 +3,11 @@
         "authors": [
             "Metalhead64",
             "Purodha",
-            "Se4598"
+            "Se4598",
+            "Kghbln"
         ]
     },
-    "twnmp-desc": "Stellt die translatewiki.net-Hauptseite zur Verfügung",
+    "twnmp-desc": "Stellt die Hauptseite von translatewiki.net zur Verfügung",
     "twnmp-mainpage": "Hauptseite",
     "twnmp-s-translators": "{{PLURAL:$1|Übersetzer}}",
     "twnmp-s-projects": "{{PLURAL:$1|Projekt|Projekte}}",
@@ -32,8 +33,8 @@
     "twnmp-translations-per-month": "Übersetzungen pro Monat",
     "twnmp-translations-in-sandbox": "Übersetzungen",
     "twnmp-reviews-per-month": "Überprüfungen pro Monat",
-    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Du bist der einzige\u003C!-- $1 --\u003E\u003Cbr /\u003Efür $4|Rang $2 von $3\u003Cbr /\u003Efür $4}}",
-    "twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Du bist der einzige\u003C!-- $1 --\u003E|Rang $2 von $3}}",
+    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Du bist der einzige<!-- $1 -->|Rang $2 von $3}}<br />für die Sprache $4",
+    "twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Du bist der einzige<!-- $1 -->|Rang $2 von $3}}",
     "twnmp-add-project": "Füge dein Open-Source-Projekt zur Übersetzung hinzu",
     "twnmp-sandboxed": "Du musst mehr Übersetzungen durchführen, um die vollen Übersetzerrechte zu erhalten.",
     "twnmp-sandboxed-limit": "Du hast das Übersetzungslimit erreicht. Unser Team wird dein Benutzerkonto bald verifizieren und hochstufen.",
@@ -57,10 +58,10 @@
     "twnmp-choose-fill-account-details": "Gib die Einzelheiten zu deinem Benutzerkonto ein",
     "twnmp-join-community": "Der Gemeinschaft beitreten",
     "twnmp-join-community-desc": "Falls du ein Entwickler bist, der an der Dokumentation von Übersetzungen interessiert ist oder nur die Plattform entdecken will, bist du ebenfalls willkommen.",
-    "twnmp-join-community-reason": "Warum bist du an einem Beitritt interessiert?",
+    "twnmp-join-community-reason": "Warum bist du daran interessiert dabei zu sein?",
     "twnmp-create-account-cancel": "Abbrechen",
     "twnmp-join-community-info": "Kein Übersetzer? Du kannst der Gemeinschaft beitreten.",
-    "twnmp-stats-number-k": "$1\u0026nbsp;T",
+    "twnmp-stats-number-k": "$1&nbsp;T",
     "twnmp-select-target-language": "Sprache auswählen",
     "twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Eine Nachricht|$1 Nachrichten}}"
 }

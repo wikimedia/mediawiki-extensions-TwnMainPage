@@ -31,7 +31,7 @@
     "twnmp-translations-per-month": "traducciones/mes",
     "twnmp-translations-in-sandbox": "Traducciones",
     "twnmp-reviews-per-month": "revisiones/mes",
-    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Usted es el único\u003Cbr /\u003Epara el $4|{{GENDER:$1|Ubicado en el puesto}} $2 de $3\u003Cbr /\u003Epara el $4}}",
+    "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Usted es el único<br />para el $4|{{GENDER:$1|Ubicado en el puesto}} $2 de $3<br />para el $4}}",
     "twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Usted es el único|{{GENDER:$1|Ubicado en el puesto}} $2 de $3}}",
     "twnmp-add-project": "Añade tu proyecto de código abierto para su traducción",
     "twnmp-sandboxed": "Necesitas traducir más para obtener los privilegios de traducción completos.",
@@ -58,7 +58,7 @@
     "twnmp-join-community-desc": "Si eres un desarrollador interesado en documentar traducciones o solo estás explorando la plataforma, también eres bienvenido.",
     "twnmp-join-community-reason": "¿Por qué quieres unirte?",
     "twnmp-create-account-cancel": "Cancelar",
-    "twnmp-join-community-info": "¿No es un traductor? Todavía puede unirse a la comunidad.",
+    "twnmp-join-community-info": "¿No eres traductor? Todavía puedes unirte a la comunidad.",
     "twnmp-select-target-language": "Seleccionar idioma",
     "twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Un mensaje|$1 mensajes}}"
 }

@@ -10,6 +10,18 @@
 	var getUrl = mw.util.getUrl || mw.util.wikiGetlink;
 
 	/**
+	 * Setup the stats tiles.
+	 */
+	function setupStatsTiles() {
+		var $tiles = $( '.stats-tile' ).not( '.unused' );
+
+		$tiles.click( function( e ) {
+			e.stopPropagation();
+			window.location = $( this ).find( 'a' ).prop( 'href' );
+		} );
+	}
+
+	/**
 	 * Show the message group stats bars.
 	 */
 	function showMessageGroupStats( language ) {
@@ -176,5 +188,6 @@
 		$tiles.eq( maxProjectTiles - 1 ).replaceWith( $selector );
 	}
 
+	$( document ).ready( setupStatsTiles );
 	$( document ).ready( setupProjectTiles );
 }( jQuery, mediaWiki ) );

@@ -32,6 +32,39 @@ class SpecialTwnMainPage extends SpecialPage {
 		return $this->projectHandler;
 	}
 
+	protected function getStatsTiles( $stats ) {
+		$data = array(
+			// Rows X cols
+			array(
+				array(
+					'name' => 'twnmp-s-projects',
+					'stats' => $stats['projects'],
+					'url' => Title::makeTitle( NS_CATEGORY, 'Supported projects')->getLocalUrl(),
+				),
+				array(
+					'name' => 'twnmp-s-translators',
+					'stats' => $stats['translators'],
+					'url' => SpecialPage::getTitleFor( 'Activeusers' )->getLocalUrl(),
+				),
+				array(
+					'name' => 'twnmp-s-messages',
+					'stats' => $stats['messages'],
+					'url' => SpecialPage::getTitleFor( 'Translate' )->getLocalUrl(),
+				),
+			),
+			array(
+				null,
+				null,
+				array(
+					'name' => 'twnmp-s-languages',
+					'stats' => $stats['languages'],
+					'url' => SpecialPage::getTitleFor( 'SupportedLanguages'	)->getLocalUrl(),
+				),
+			),
+		);
+		return $data;
+	}
+
 	public function execute( $parameters ) {
 		$out = $this->getOutput();
 		$skin = $this->getSkin();
@@ -439,19 +472,7 @@ HTML;
 		);
 
 		if ( is_array( $stats ) ) {
-			// Rows x columns
-			$data = array(
-				array(
-					'twnmp-s-projects' => $stats['projects'],
-					'twnmp-s-translators' => $stats['translators'],
-					'twnmp-s-messages' => $stats['messages'],
-				),
-				array(
-					null,
-					null,
-					'twnmp-s-languages' => $stats['languages'],
-				)
-			);
+			$data = $this->getStatsTiles( $stats );
 		}
 
 		$out = '';
@@ -461,8 +482,8 @@ HTML;
 
 		foreach ( $data as $rows ) {
 			$out .= '<div class="row stats-tile-row">';
-			foreach ( $rows as $column => $value ) {
-				if ( $value === null ) {
+			foreach ( $rows as $column ) {
+				if ( $column === null ) {
 					$out .= <<<HTML
 <div class="four columns">
 	<div class="stats-tile unused"></div>
@@ -470,6 +491,9 @@ HTML;
 HTML;
 					continue;
 				}
+				$name = $column['name'];
+				$value = $column['stats'];
+				$url = htmlspecialchars( $column['url'] );
 
 				if ( $value > 1000 ) {
 					$digits = 3 - ceil( log( $value, 100 ) );
@@ -480,14 +504,15 @@ HTML;
 				}
 
 				$value = htmlspecialchars( $value );
-				$text = $this->msg( $column )->numParams( $value )->escaped();
+				$text = $this->msg( $name )->numParams( $value )->escaped();
 
 				$out .= <<<HTML
 <div class="four columns">
-	<div class="stats-tile" id="$column">
-		<div class="stats-number">$fmtValue</div>
-		<div class="stats-text">$text</div>
-	</div>
+		<div class="stats-tile" id="$name">
+			<a href="$url"></a>
+			<div class="stats-number">$fmtValue</div>
+			<div class="stats-text">$text</div>
+		</div>
 </div>
 HTML;
 			}

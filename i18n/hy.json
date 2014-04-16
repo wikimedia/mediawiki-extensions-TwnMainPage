@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Vadgt"
-        ]
-    },
-    "twnmp-logout": "Ելնել",
-    "twnmp-your-translations-stats-all-languages": "Բոլոր լեզուների համար"
+	"@metadata": {
+		"authors": [
+			"Vadgt"
+		]
+	},
+	"twnmp-logout": "Ելնել",
+	"twnmp-your-translations-stats-all-languages": "Բոլոր լեզուների համար"
 }

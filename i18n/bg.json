@@ -1,13 +1,13 @@
 {
-    "@metadata": {
-        "authors": [
-            "DCLXVI"
-        ]
-    },
-    "twnmp-bottom-languages-supported": "Поддържани езици",
-    "twnmp-bottom-about": "Относно",
-    "twnmp-signup-username-placeholder": "Потребителско име",
-    "twnmp-signup-password-placeholder": "Парола",
-    "twnmp-signup-email-placeholder": "Електронна поща",
-    "twnmp-create-account-button": "Създаване на сметка"
+	"@metadata": {
+		"authors": [
+			"DCLXVI"
+		]
+	},
+	"twnmp-bottom-languages-supported": "Поддържани езици",
+	"twnmp-bottom-about": "Относно",
+	"twnmp-signup-username-placeholder": "Потребителско име",
+	"twnmp-signup-password-placeholder": "Парола",
+	"twnmp-signup-email-placeholder": "Електронна поща",
+	"twnmp-create-account-button": "Създаване на сметка"
 }

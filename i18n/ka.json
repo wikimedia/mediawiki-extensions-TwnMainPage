@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "David1010"
-        ]
-    },
-    "twnmp-s-languages": "აქტიური {{PLURAL:$1|ენა|ენა}}"
+	"@metadata": {
+		"authors": [
+			"David1010"
+		]
+	},
+	"twnmp-s-languages": "აქტიური {{PLURAL:$1|ენა|ენა}}"
 }

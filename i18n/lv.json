@@ -1,21 +1,21 @@
 {
-    "@metadata": {
-        "authors": [
-            "Papuass"
-        ]
-    },
-    "twnmp-s-translators": "{{PLURAL:$1|tulkotājs|tulkotāji}}",
-    "twnmp-s-projects": "{{PLURAL:$1|projekts|projekti}}",
-    "twnmp-s-languages": "{{PLURAL:$1|aktīva valoda|aktīvas valodas}}",
-    "twnmp-s-messages": "{{PLURAL:$1|tulkojams ziņojums|tulkojami ziņojumi}}",
-    "twnmp-show-more-projects": "Rādīt visus projektus...",
-    "twnmp-brand-motto": "Atvērtā pirmkoda tulkošanas kopiena",
-    "twnmp-login": "Pieslēgties",
-    "twnmp-logout": "Iziet",
-    "twnmp-search-placeholder": "Atrast un labot tulkojumus",
-    "twnmp-search-button": "Meklēt",
-    "twnmp-search-choose-project": "Izvēlieties tulkojamo projektu",
-    "twnmp-your-translations-stats": "Jūsu tulkošanas statistika",
-    "twnmp-your-view-language-stats": "Skatīt valodas statistiku",
-    "twnmp-add-project": "Pievienojiet savu atvērtā pirmkoda projektu tulkošanai"
+	"@metadata": {
+		"authors": [
+			"Papuass"
+		]
+	},
+	"twnmp-s-translators": "{{PLURAL:$1|tulkotājs|tulkotāji}}",
+	"twnmp-s-projects": "{{PLURAL:$1|projekts|projekti}}",
+	"twnmp-s-languages": "{{PLURAL:$1|aktīva valoda|aktīvas valodas}}",
+	"twnmp-s-messages": "{{PLURAL:$1|tulkojams ziņojums|tulkojami ziņojumi}}",
+	"twnmp-show-more-projects": "Rādīt visus projektus...",
+	"twnmp-brand-motto": "Atvērtā pirmkoda tulkošanas kopiena",
+	"twnmp-login": "Pieslēgties",
+	"twnmp-logout": "Iziet",
+	"twnmp-search-placeholder": "Atrast un labot tulkojumus",
+	"twnmp-search-button": "Meklēt",
+	"twnmp-search-choose-project": "Izvēlieties tulkojamo projektu",
+	"twnmp-your-translations-stats": "Jūsu tulkošanas statistika",
+	"twnmp-your-view-language-stats": "Skatīt valodas statistiku",
+	"twnmp-add-project": "Pievienojiet savu atvērtā pirmkoda projektu tulkošanai"
 }

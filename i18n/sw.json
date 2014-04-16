@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Lloffiwr"
-        ]
-    },
-    "twnmp-mainpage": "Mwanzo",
-    "twnmp-login": "Ingia"
+	"@metadata": {
+		"authors": [
+			"Lloffiwr"
+		]
+	},
+	"twnmp-mainpage": "Mwanzo",
+	"twnmp-login": "Ingia"
 }

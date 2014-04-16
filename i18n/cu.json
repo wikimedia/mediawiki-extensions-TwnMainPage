@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "ОйЛ"
-        ]
-    },
-    "twnmp-s-languages": "{{PLURAL:$1|дѣиствитєльнъ ѩꙁꙑкъ|дѣиствитєльнъ ѩꙁꙑць|дѣиствитєльна ѩꙁꙑка}}",
-    "twnmp-bottom-help": "помощь"
+	"@metadata": {
+		"authors": [
+			"ОйЛ"
+		]
+	},
+	"twnmp-s-languages": "{{PLURAL:$1|дѣиствитєльнъ ѩꙁꙑкъ|дѣиствитєльнъ ѩꙁꙑць|дѣиствитєльна ѩꙁꙑка}}",
+	"twnmp-bottom-help": "помощь"
 }

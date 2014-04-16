@@ -1,24 +1,24 @@
 {
-    "@metadata": {
-        "authors": [
-            "Santhosh.thottingal"
-        ]
-    },
-    "twnmp-mainpage": "मुखपृष्ठ",
-    "twnmp-bannerwho": "छवि$1",
-    "twnmp-login": "लॉग इन",
-    "twnmp-logout": "सत्रांत",
-    "twnmp-search-button": "खोज",
-    "twnmp-translate-link": "अनुवाद",
-    "twnmp-proofread-link": "अवलोकन",
-    "twnmp-translate-button": "अनुवाद",
-    "twnmp-proofread-button": "अवलोकन",
-    "twnmp-your-translations-stats-all-languages": "सभी भाषाओं के लिए",
-    "twnmp-bottom-help": "सहायता",
-    "twnmp-bottom-about": "हमारे बारे में",
-    "twnmp-signup-username-placeholder": "सदस्यनाम",
-    "twnmp-signup-password-placeholder": "पासवर्ड",
-    "twnmp-signup-email-placeholder": "इ-मेल",
-    "twnmp-create-account-button": "खाता बनाएँ",
-    "twnmp-select-target-language": "भाषा चुनें"
+	"@metadata": {
+		"authors": [
+			"Santhosh.thottingal"
+		]
+	},
+	"twnmp-mainpage": "मुखपृष्ठ",
+	"twnmp-bannerwho": "छवि$1",
+	"twnmp-login": "लॉग इन",
+	"twnmp-logout": "सत्रांत",
+	"twnmp-search-button": "खोज",
+	"twnmp-translate-link": "अनुवाद",
+	"twnmp-proofread-link": "अवलोकन",
+	"twnmp-translate-button": "अनुवाद",
+	"twnmp-proofread-button": "अवलोकन",
+	"twnmp-your-translations-stats-all-languages": "सभी भाषाओं के लिए",
+	"twnmp-bottom-help": "सहायता",
+	"twnmp-bottom-about": "हमारे बारे में",
+	"twnmp-signup-username-placeholder": "सदस्यनाम",
+	"twnmp-signup-password-placeholder": "पासवर्ड",
+	"twnmp-signup-email-placeholder": "इ-मेल",
+	"twnmp-create-account-button": "खाता बनाएँ",
+	"twnmp-select-target-language": "भाषा चुनें"
 }

@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "CoderSI"
-        ]
-    },
-    "twnmp-logout": "Chiqish",
-    "twnmp-create-account-button": "Hisob yaratish"
+	"@metadata": {
+		"authors": [
+			"CoderSI"
+		]
+	},
+	"twnmp-logout": "Chiqish",
+	"twnmp-create-account-button": "Hisob yaratish"
 }

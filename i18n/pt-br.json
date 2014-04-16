@@ -1,26 +1,26 @@
 {
-    "@metadata": {
-        "authors": [
-            "Cainamarques",
-            "Luckas"
-        ]
-    },
-    "twnmp-mainpage": "Página principal",
-    "twnmp-s-translators": "{{PLURAL:$1|Tradutor|Tradutores}}",
-    "twnmp-s-projects": "{{PLURAL:$1|Projeto|Projetos}}",
-    "twnmp-s-languages": "{{PLURAL:$1|Língua ativa|Línguas ativas}}",
-    "twnmp-s-messages": "Mensagens para traduzir",
-    "twnmp-bannerwho": "Imagem $1",
-    "twnmp-show-more-projects": "Mostrar todos projetos...",
-    "twnmp-translate-link": "Traduzir",
-    "twnmp-translate-button": "Traduzir",
-    "twnmp-your-translations-stats": "Suas estatísticas de tradução",
-    "twnmp-translations-per-month": "Traduções/mês",
-    "twnmp-reviews-per-month": "Revisões/mês",
-    "twnmp-bottom-help": "Ajuda",
-    "twnmp-bottom-languages-supported": "Línguas suportadas",
-    "twnmp-bottom-about": "Sobre",
-    "twnmp-signup-username-placeholder": "Nome de usuário",
-    "twnmp-signup-password-placeholder": "Senha",
-    "twnmp-create-account-button": "Criar conta"
+	"@metadata": {
+		"authors": [
+			"Cainamarques",
+			"Luckas"
+		]
+	},
+	"twnmp-mainpage": "Página principal",
+	"twnmp-s-translators": "{{PLURAL:$1|Tradutor|Tradutores}}",
+	"twnmp-s-projects": "{{PLURAL:$1|Projeto|Projetos}}",
+	"twnmp-s-languages": "{{PLURAL:$1|Língua ativa|Línguas ativas}}",
+	"twnmp-s-messages": "Mensagens para traduzir",
+	"twnmp-bannerwho": "Imagem $1",
+	"twnmp-show-more-projects": "Mostrar todos projetos...",
+	"twnmp-translate-link": "Traduzir",
+	"twnmp-translate-button": "Traduzir",
+	"twnmp-your-translations-stats": "Suas estatísticas de tradução",
+	"twnmp-translations-per-month": "Traduções/mês",
+	"twnmp-reviews-per-month": "Revisões/mês",
+	"twnmp-bottom-help": "Ajuda",
+	"twnmp-bottom-languages-supported": "Línguas suportadas",
+	"twnmp-bottom-about": "Sobre",
+	"twnmp-signup-username-placeholder": "Nome de usuário",
+	"twnmp-signup-password-placeholder": "Senha",
+	"twnmp-create-account-button": "Criar conta"
 }

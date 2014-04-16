@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "مشعل الحربي"
-        ]
-    },
-    "twnmp-view-button": "عرض الترجمات",
-    "twnmp-translations-in-sandbox": "ترجمات",
-    "twnmp-sandboxed": "أنت بحاجة إلى تقديم المزيد من الترجمات للحصول على صلاحيات الترجمة الكاملة.",
-    "twnmp-sandboxed-limit": "لقد بلغت حد الترجمة. سيقوم فريقنا بتأكيد وترقية حسابك قريبًا."
+	"@metadata": {
+		"authors": [
+			"مشعل الحربي"
+		]
+	},
+	"twnmp-view-button": "عرض الترجمات",
+	"twnmp-translations-in-sandbox": "ترجمات",
+	"twnmp-sandboxed": "أنت بحاجة إلى تقديم المزيد من الترجمات للحصول على صلاحيات الترجمة الكاملة.",
+	"twnmp-sandboxed-limit": "لقد بلغت حد الترجمة. سيقوم فريقنا بتأكيد وترقية حسابك قريبًا."
 }

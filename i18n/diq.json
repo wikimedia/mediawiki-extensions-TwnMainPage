@@ -1,23 +1,23 @@
 {
-    "@metadata": {
-        "authors": [
-            "Marmase",
-            "Mirzali"
-        ]
-    },
-    "twnmp-mainpage": "Pela Seri",
-    "twnmp-s-translators": "{{PLURAL:$1|Açerner|Açerneri}}",
-    "twnmp-s-projects": "{{PLURAL:$1|Proca|Procey}}",
-    "twnmp-s-languages": "{{PLURAL:$1|zıwan|Zıwani}} biya aktiv",
-    "twnmp-bannerwho": "Resim $1",
-    "twnmp-login": "Cı kewe",
-    "twnmp-logout": "Veciyayış",
-    "twnmp-search-button": "Bıvin",
-    "twnmp-search-choose-project": "Qande çerğkerdışi proca weçine",
-    "twnmp-translate-link": "Açarnayış",
-    "twnmp-proofread-link": "Barıyayış",
-    "twnmp-translate-button": "Açarnayış",
-    "twnmp-proofread-button": "Barıyayış",
-    "twnmp-view-button": "Açarnayışa bıvin",
-    "twnmp-your-translations-stats": "Açarnayışe İstatıstıkan"
+	"@metadata": {
+		"authors": [
+			"Marmase",
+			"Mirzali"
+		]
+	},
+	"twnmp-mainpage": "Pela Seri",
+	"twnmp-s-translators": "{{PLURAL:$1|Açerner|Açerneri}}",
+	"twnmp-s-projects": "{{PLURAL:$1|Proca|Procey}}",
+	"twnmp-s-languages": "{{PLURAL:$1|zıwan|Zıwani}} biya aktiv",
+	"twnmp-bannerwho": "Resim $1",
+	"twnmp-login": "Cı kewe",
+	"twnmp-logout": "Veciyayış",
+	"twnmp-search-button": "Bıvin",
+	"twnmp-search-choose-project": "Qande çerğkerdışi proca weçine",
+	"twnmp-translate-link": "Açarnayış",
+	"twnmp-proofread-link": "Barıyayış",
+	"twnmp-translate-button": "Açarnayış",
+	"twnmp-proofread-button": "Barıyayış",
+	"twnmp-view-button": "Açarnayışa bıvin",
+	"twnmp-your-translations-stats": "Açarnayışe İstatıstıkan"
 }

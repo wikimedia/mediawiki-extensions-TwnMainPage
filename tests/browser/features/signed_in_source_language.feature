@@ -1,4 +1,4 @@
-@login @sandbox.translatewiki.net
+@firefox @login @sandbox.translatewiki.net
 Feature: Main page in the source language
 
   Source language in this case means that the source language of all message

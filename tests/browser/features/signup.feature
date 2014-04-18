@@ -1,4 +1,4 @@
-@sandbox.translatewiki.net
+@firefox @sandbox.translatewiki.net
 Feature: Sign up account for the sandbox
 
   Background:

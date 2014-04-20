@@ -7,7 +7,7 @@
 	},
 	"twnmp-desc": "Provesís la pagina principala de translatewiki.net",
 	"twnmp-mainpage": "Acuèlh",
-	"twnmp-s-translators": "{{PLURAL:$1|traductor|traductors}}",
+	"twnmp-s-translators": "{{PLURAL:$1|Traductor|Traductors}}",
 	"twnmp-s-projects": "{{PLURAL:$1|Projècte|Projèctes}}",
 	"twnmp-s-languages": "{{PLURAL:$1|Lenga activa|Lengas activas}}",
 	"twnmp-s-messages": "{{PLURAL:$1|Messatge|Messatges}} de tradusir",

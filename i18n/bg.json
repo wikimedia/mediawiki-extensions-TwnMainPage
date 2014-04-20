@@ -4,10 +4,18 @@
 			"DCLXVI"
 		]
 	},
+	"twnmp-mainpage": "Начална страница",
+	"twnmp-login": "Влизане",
+	"twnmp-logout": "Излизане",
+	"twnmp-your-translations-stats-all-languages": "За всички езици",
+	"twnmp-bottom-help": "Помощ",
 	"twnmp-bottom-languages-supported": "Поддържани езици",
 	"twnmp-bottom-about": "Относно",
 	"twnmp-signup-username-placeholder": "Потребителско име",
 	"twnmp-signup-password-placeholder": "Парола",
 	"twnmp-signup-email-placeholder": "Електронна поща",
-	"twnmp-create-account-button": "Създаване на сметка"
+	"twnmp-create-account-button": "Създаване на сметка",
+	"twnmp-signup-error-invalidpassword": "Паролата е невалидна.",
+	"twnmp-create-account-cancel": "Отказване",
+	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Едно съобщение|$1 съобщения}}"
 }

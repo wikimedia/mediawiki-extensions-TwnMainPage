@@ -4,7 +4,8 @@
 			"Metalhead64",
 			"Purodha",
 			"Se4598",
-			"Kghbln"
+			"Kghbln",
+			"Das Schäfchen"
 		]
 	},
 	"twnmp-desc": "Stellt die Hauptseite von translatewiki.net zur Verfügung",
@@ -58,7 +59,7 @@
 	"twnmp-choose-fill-account-details": "Gib die Einzelheiten zu deinem Benutzerkonto ein",
 	"twnmp-join-community": "Der Gemeinschaft beitreten",
 	"twnmp-join-community-desc": "Falls du ein Entwickler bist, der an der Dokumentation von Übersetzungen interessiert ist oder nur die Plattform entdecken will, bist du ebenfalls willkommen.",
-	"twnmp-join-community-reason": "Warum bist du daran interessiert dabei zu sein?",
+	"twnmp-join-community-reason": "Warum bist du daran interessiert, dabei zu sein?",
 	"twnmp-create-account-cancel": "Abbrechen",
 	"twnmp-join-community-info": "Kein Übersetzer? Du kannst der Gemeinschaft beitreten.",
 	"twnmp-stats-number-k": "$1&nbsp;T",

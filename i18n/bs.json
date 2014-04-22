@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"DzWiki"
+		]
+	},
+	"twnmp-mainpage": "Glavna strana",
+	"twnmp-bannerwho": "Slika $1",
+	"twnmp-login": "Prijavi me",
+	"twnmp-logout": "Odjavi me",
+	"twnmp-search-placeholder": "Pronađite i popravite prijevode",
+	"twnmp-search-button": "Traži",
+	"twnmp-translate-link": "Prevedi",
+	"twnmp-proofread-link": "Provjeri",
+	"twnmp-translate-button": "Prevedi",
+	"twnmp-proofread-button": "Provjeri",
+	"twnmp-your-translations-stats": "Vaša statistika prevođenja",
+	"twnmp-your-translations-stats-all-languages": "Za sve jezike",
+	"twnmp-translations-per-month": "Prijevoda mjesečno",
+	"twnmp-reviews-per-month": "Provjera mjesečno",
+	"twnmp-bottom-help": "Pomoć",
+	"twnmp-bottom-about": "O",
+	"twnmp-signup-username-placeholder": "Korisničko ime",
+	"twnmp-signup-password-placeholder": "Lozinka",
+	"twnmp-signup-email-placeholder": "E-pošta",
+	"twnmp-create-account-button": "Napravi račun",
+	"twnmp-become-translator": "Postani prevodilac",
+	"twnmp-join-community": "Pridružite se zajednici",
+	"twnmp-select-target-language": "Izaberi jezik"
+}

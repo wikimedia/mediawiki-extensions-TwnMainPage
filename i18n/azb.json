@@ -4,5 +4,12 @@
 			"Mousa"
 		]
 	},
-	"twnmp-search-placeholder": "چئویرمه‌لری تاپ و دوزلت"
+	"twnmp-mainpage": "آنا صحیفه",
+	"twnmp-s-translators": "{{PLURAL:$1|چئویرن}}",
+	"twnmp-s-languages": "فعال {{PLURAL:$1|دیل}}",
+	"twnmp-show-more-projects": "بوتون پروژه‌لری گؤستر...",
+	"twnmp-search-placeholder": "چئویرمه‌لری تاپ و دوزلت",
+	"twnmp-search-choose-project": "چئویرمک اوچون بیر پروژه سئچین",
+	"twnmp-your-translations-stats": "چئویرمک آمارلارینیز",
+	"twnmp-your-view-language-stats": "دیل آمارلارینا باخ"
 }

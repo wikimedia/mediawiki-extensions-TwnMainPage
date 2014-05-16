@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"CoderSI"
+			"CoderSI",
+			"Sociologist"
 		]
 	},
+	"twnmp-login": "Kirish",
 	"twnmp-logout": "Chiqish",
 	"twnmp-create-account-button": "Hisob yaratish"
 }

@@ -8,7 +8,8 @@
 			"Shirayuki",
 			"Timothy Gu",
 			"Xiaomingyan",
-			"Yfdyh000"
+			"Yfdyh000",
+			"Mywood"
 		]
 	},
 	"twnmp-desc": "提供translatewiki.net的首页",
@@ -43,8 +44,8 @@
 	"twnmp-sandboxed": "您需要提供更多的翻译，以获取完整的翻译权。",
 	"twnmp-sandboxed-limit": "您已到达翻译限制。我们的团队会尽快验证和升级您的账户。",
 	"twnmp-bottom-help": "帮助",
-	"twnmp-bottom-support": "技術支援",
-	"twnmp-bottom-languages-supported": "语言支持",
+	"twnmp-bottom-support": "支持中心",
+	"twnmp-bottom-languages-supported": "支持的语言",
 	"twnmp-bottom-about": "关于",
 	"twnmp-signup-username-placeholder": "用户名",
 	"twnmp-signup-password-placeholder": "密码",

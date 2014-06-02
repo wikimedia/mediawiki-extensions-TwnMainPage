@@ -1,13 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"George Animal"
+			"George Animal",
+			"Ghybu"
 		]
 	},
 	"twnmp-mainpage": "Destpêk",
 	"twnmp-s-translators": "Wergêr",
 	"twnmp-s-projects": "Proje",
 	"twnmp-s-languages": "Ziman",
+	"twnmp-login": "Têkeve",
+	"twnmp-logout": "Derkeve",
 	"twnmp-search-placeholder": "Wergeran bibîne û sererast bike",
 	"twnmp-translate-link": "Wergerîne",
 	"twnmp-translate-button": "Wergerîne",
@@ -17,7 +20,7 @@
 	"twnmp-signup-username-placeholder": "Navê bikarhêner",
 	"twnmp-signup-password-placeholder": "Şîfre",
 	"twnmp-signup-email-placeholder": "E-name",
-	"twnmp-create-account-button": "Hesabê nû çêke",
+	"twnmp-create-account-button": "Hesabekî çêke",
 	"twnmp-become-translator": "Bibe wergêrek",
 	"twnmp-choose-languages-you-know": "Zimanên ku dizanî hilbijêre",
 	"twnmp-choose-another-language": "Zimanekî din hilbijêre..."

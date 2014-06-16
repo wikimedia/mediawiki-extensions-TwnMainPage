@@ -59,6 +59,11 @@ $specialPageAliases['gl'] = array(
 	'TwnMainPage' => array( 'Portada' ),
 );
 
+/** Upper Sorbian (hornjoserbsce) */
+$specialPageAliases['hsb'] = array(
+	'TwnMainPage' => array( 'Hłowna_strona' ),
+);
+
 /** Italian (italiano) */
 $specialPageAliases['it'] = array(
 	'TwnMainPage' => array( 'PaginaPrincipale' ),

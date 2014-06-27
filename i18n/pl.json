@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrumps"
+			"Chrumps",
+			"WTM"
 		]
 	},
 	"twnmp-mainpage": "Strona główna",
@@ -19,6 +20,7 @@
 	"twnmp-search-choose-project": "Wybierz projekt do tłumaczenia",
 	"twnmp-translate-link": "Przetłumacz",
 	"twnmp-proofread-link": "Przejrzyj",
+	"twnmp-view-link": "Zobacz tłumaczenia",
 	"twnmp-translate-button": "Przetłumacz",
 	"twnmp-proofread-button": "Przejrzyj",
 	"twnmp-view-button": "Przegląd tłumaczeń",
@@ -40,8 +42,11 @@
 	"twnmp-signup-email-placeholder": "E-mail",
 	"twnmp-create-account-button": "Utwórz konto",
 	"twnmp-signup-error-invalidusername": "Ta nazwa użytkownika jest niedostępna. Proszę wybrać inną.",
+	"twnmp-signup-error-nonfreeusername": "Ta nazwa użytkownika już istnieje. Proszę wybrać inną.",
+	"twnmp-signup-error-invalidpassword": "Hasło jest nieprawidłowe.",
 	"twnmp-signup-error-invalidemail": "To nie wygląda na prawidłowy adres e-mail. Proszę podać prawidłowy.",
 	"twnmp-signup-error-other": "Rejestracja nie powiodła się. Serwer zwrócił błąd: $1.",
+	"twnmp-signup-error-unknown": "Utworzenie konta nie powiodło się z nieznanego powodu.",
 	"twnmp-become-translator": "Zostań tłumaczem",
 	"twnmp-choose-languages-you-know": "Wybierz języki, które znasz",
 	"twnmp-choose-another-language": "Wybierz inny język...",

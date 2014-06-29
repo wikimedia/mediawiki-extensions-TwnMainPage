@@ -6,7 +6,7 @@
 		]
 	},
 	"twnmp-mainpage": "Strona główna",
-	"twnmp-s-translators": "{{PLURAL:$1|tłumacz|tłumacze|tłumaczy}}",
+	"twnmp-s-translators": "{{PLURAL:$1|tłumacz|tłumaczy}}",
 	"twnmp-s-projects": "{{PLURAL:$1|projekt|projekty|projektów}}",
 	"twnmp-s-languages": "{{PLURAL:$1|aktywny język|aktywne języki|aktywnych języków}}",
 	"twnmp-s-messages": "{{PLURAL:$1|komunikat|komunikaty|komunikatów}} do przetłumaczenia",

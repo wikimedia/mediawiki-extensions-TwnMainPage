@@ -20,8 +20,10 @@
 	"twnmp-search-choose-project": "Vali tõlgitav projekt",
 	"twnmp-translate-link": "Tõlgi",
 	"twnmp-proofread-link": "Vaata üle",
+	"twnmp-view-link": "Vaata tõlkeid",
 	"twnmp-translate-button": "Tõlgi",
 	"twnmp-proofread-button": "Vaata üle",
+	"twnmp-view-button": "Vaata tõlkeid",
 	"twnmp-your-translations-stats": "Sinu tõlke arvandmed",
 	"twnmp-your-view-language-stats": "Vaata keele arvandmeid",
 	"twnmp-translations-per-month": "tõlget kuus",
@@ -40,7 +42,11 @@
 	"twnmp-choose-languages-you-know": "Vali keeled, mida oskad",
 	"twnmp-choose-another-language": "Vali teine keel...",
 	"twnmp-choose-fill-account-details": "Sisesta oma konto tunnused",
+	"twnmp-join-community": "Ühine",
+	"twnmp-join-community-desc": "Kui oled tarkvaraarendaja ja huvitud tõlgete dokumenteerimisest või uurid lihtsalt tõlkeplatvormi, oled samuti teretulnud.",
+	"twnmp-join-community-reason": "Miks oled ühinemisest huvitatud?",
 	"twnmp-create-account-cancel": "Loobu",
+	"twnmp-join-community-info": "Kas sa pole tõlkija? Saad sellegipoolest ühineda.",
 	"twnmp-stats-number-k": "$1&nbsp;tuh",
 	"twnmp-select-target-language": "Vali keel"
 }

@@ -119,6 +119,11 @@ $specialPageAliases['nl'] = array(
 	'TwnMainPage' => array( 'Startpagina' ),
 );
 
+/** Tuvinian (тыва дыл) */
+$specialPageAliases['tyv'] = array(
+	'TwnMainPage' => array( 'Кол_Арын' ),
+);
+
 /** Vietnamese (Tiếng Việt) */
 $specialPageAliases['vi'] = array(
 	'TwnMainPage' => array( 'Trang_Chính' ),

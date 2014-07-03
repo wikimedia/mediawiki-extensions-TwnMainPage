@@ -148,7 +148,7 @@
 				return $( this ).data( 'code' );
 			} ).toArray();
 
-			preferences = $.toJSON( {
+			preferences = JSON.stringify( {
 				languages: codes,
 				comment: $form.find( 'textarea' ).val()
 			} );

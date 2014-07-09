@@ -37,7 +37,7 @@ $wgResourceModules['ext.translate.mainpage.signup'] = array(
 		'ext.uls.mediawiki',
 		'mediawiki.api',
 		'mediawiki.api.login',
-		'jquery.json',
+		'json',
 	),
 	'messages' => array(
 		'twnmp-signup-error-invalidusername',

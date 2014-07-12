@@ -59,6 +59,11 @@ $specialPageAliases['gl'] = array(
 	'TwnMainPage' => array( 'Portada' ),
 );
 
+/** Hebrew (עברית) */
+$specialPageAliases['he'] = array(
+	'TwnMainPage' => array( 'צעדים_ראשונים_בתרגום' ),
+);
+
 /** Upper Sorbian (hornjoserbsce) */
 $specialPageAliases['hsb'] = array(
 	'TwnMainPage' => array( 'Hłowna_strona' ),

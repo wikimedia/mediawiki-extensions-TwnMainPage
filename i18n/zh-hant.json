@@ -4,12 +4,13 @@
 			"Ch.Andrew",
 			"Cwlin0416",
 			"Simon Shek",
-			"LNDDYL"
+			"LNDDYL",
+			"Liuxinyu970226"
 		]
 	},
 	"twnmp-desc": "提供 translatewiki.net 的主要頁面",
 	"twnmp-mainpage": "首頁",
-	"twnmp-s-translators": "{{PLURAL:$1|位翻譯人員}}",
+	"twnmp-s-translators": "$1 位翻譯人員",
 	"twnmp-s-projects": "{{PLURAL:$1|個專案}}",
 	"twnmp-s-languages": "種活躍的{{PLURAL:$1|語言}}",
 	"twnmp-s-messages": "{{PLURAL:$1|則訊息}}需要翻譯",

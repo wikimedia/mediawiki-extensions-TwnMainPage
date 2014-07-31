@@ -94,6 +94,11 @@ $specialPageAliases['lb'] = array(
 	'TwnMainPage' => array( 'Haaptsäit' ),
 );
 
+/** Literary Chinese (文言) */
+$specialPageAliases['lzh'] = array(
+	'TwnMainPage' => array( '卷首' ),
+);
+
 /** Minangkabau (Baso Minangkabau) */
 $specialPageAliases['min'] = array(
 	'TwnMainPage' => array( 'Palanta' ),

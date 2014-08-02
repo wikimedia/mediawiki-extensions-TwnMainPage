@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Tacsipacsi"
+			"Tacsipacsi",
+			"Csega"
 		]
 	},
 	"twnmp-desc": "A translatewiki.net kezdőlapját szolgáltatja",
@@ -42,8 +43,8 @@
 	"twnmp-signup-email-placeholder": "E-mail cím",
 	"twnmp-create-account-button": "Fiók létrehozása",
 	"twnmp-signup-error-invalidusername": "Ez a szerkesztőnév nem elérhető. Kérlek válassz egy másikat.",
-	"twnmp-signup-error-nonfreeusername": "Ez a szerkesztő már létezik. Kérlek válassz egy másik nevet.",
-	"twnmp-signup-error-invalidpassword": "A jelszó hibás.",
+	"twnmp-signup-error-nonfreeusername": "Ilyen nevű szerkesztő már létezik. Kérlek, válassz egy másik nevet.",
+	"twnmp-signup-error-invalidpassword": "A jelszó nem megfelelő.",
 	"twnmp-signup-error-invalidemail": "Ez nem tűnik egy érvényes e-mail címnek. Kérlek adj meg egy érvényeset.",
 	"twnmp-signup-error-other": "A regisztráció sikertelen. A szerver hibát adott vissza: $1.",
 	"twnmp-signup-error-unknown": "A regisztráció ismeretlen ok miatt sikertelen.",
@@ -52,7 +53,7 @@
 	"twnmp-choose-another-language": "Másik nyelv…",
 	"twnmp-choose-fill-account-details": "Add meg a fiókod adatait",
 	"twnmp-join-community": "Csatlakozás a közösséghez",
-	"twnmp-join-community-desc": "Ha egy fejlesztő vagy, akit a fordítások dokumentálása érdekel, vagy csak szeretnéd felfedezni a felületet, akkor is üdvözlünk.",
+	"twnmp-join-community-desc": "Ha egy fejlesztő vagy, akit a fordítások dokumentálása érdekel, vagy csak szeretnéd felfedezni a felületet, akkor is üdvözlünk körünkben.",
 	"twnmp-join-community-reason": "Miért szeretnél csatlakozni?",
 	"twnmp-create-account-cancel": "Mégse",
 	"twnmp-join-community-info": "Nem vagy fordító? Akkor is csatlakozhatsz a közösséghez.",

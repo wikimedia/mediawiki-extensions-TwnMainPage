@@ -60,6 +60,7 @@
 	"twnmp-join-community": "加入社群",
 	"twnmp-join-community-desc": "若您是一位對文件翻譯有興趣的開發人員，或者只是要瀏覽本平台，同樣也非常歡迎。",
 	"twnmp-join-community-reason": "為什麼你有興趣參加？",
+	"twnmp-create-account-cancel": "取消",
 	"twnmp-join-community-info": "您不是翻譯人員嗎？您仍然可以加入社群。",
 	"twnmp-select-target-language": "選擇語言",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|1 則訊息|$1 則訊息}}"

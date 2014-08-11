@@ -9,7 +9,7 @@
 	"twnmp-s-translators": "{{PLURAL:$1|tłumacz|tłumaczy}}",
 	"twnmp-s-projects": "{{PLURAL:$1|projekt|projekty|projektów}}",
 	"twnmp-s-languages": "{{PLURAL:$1|aktywny język|aktywne języki|aktywnych języków}}",
-	"twnmp-s-messages": "{{PLURAL:$1|komunikat|komunikaty|komunikatów}} do przetłumaczenia",
+	"twnmp-s-messages": "$1 {{PLURAL:$1|komunikat|komunikaty|komunikatów}} do przetłumaczenia",
 	"twnmp-bannerwho": "Grafika $1",
 	"twnmp-show-more-projects": "Pokaż wszystkie projekty...",
 	"twnmp-brand-motto": "Społeczność tłumaczy projektów open source",

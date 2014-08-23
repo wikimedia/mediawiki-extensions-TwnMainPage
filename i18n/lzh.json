@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yanteng3"
+			"Yanteng3",
+			"Jason924tw"
 		]
 	},
-	"twnmp-mainpage": "卷首"
+	"twnmp-mainpage": "卷首",
+	"twnmp-signup-username-placeholder": "簿名"
 }

@@ -837,7 +837,7 @@ HTML;
 
 		if ( $count < $wgTranslateSandboxLimit ) {
 			$button = $this->msg( 'twnmp-translate-button' )->escaped();
-			$message = $this->msg( 'twnmp-sandboxed' )->escaped();
+			$message = $this->msg( 'twnmp-sandboxed' )->numParams( $count )->escaped();
 		} else {
 			$button = $this->msg( 'twnmp-view-button' )->escaped();
 			$message = $this->msg( 'twnmp-sandboxed-limit' )->escaped();

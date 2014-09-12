@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Michawiki"
+			"Michawiki",
+			"Mikławš"
 		]
 	},
 	"twnmp-desc": "Staja hłownu stronu translatewiki.net k dispoziciji",
@@ -49,7 +50,7 @@
 	"twnmp-signup-error-invalidemail": "Zda so, zo to płaćiwa e-mejlowa adresa njeje. Prošu podaj płaćiwu.",
 	"twnmp-signup-error-other": "Registrowanje je so njeporadźiło. Serwer je zmylk wróćił: $1.",
 	"twnmp-signup-error-unknown": "Wutworjenje konta je so z njeznateje přičiny njeporadźiło.",
-	"twnmp-become-translator": "Staj so z přełožowarjom",
+	"twnmp-become-translator": "Stań so z přełožowarjom",
 	"twnmp-choose-languages-you-know": "Wubjer rěče, kotrež wobknježiš",
 	"twnmp-choose-another-language": "Wubjer druhu rěč...",
 	"twnmp-choose-fill-account-details": "Zapodaj swoje kontowe podrobnosće",

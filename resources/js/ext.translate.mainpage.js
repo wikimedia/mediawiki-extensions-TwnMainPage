@@ -6,9 +6,6 @@
 ( function ( $, mw ) {
 	'use strict';
 
-	// BC for MW <= 1.21
-	var getUrl = mw.util.getUrl || mw.util.wikiGetlink;
-
 	/**
 	 * Setup the stats tiles.
 	 */
@@ -17,7 +14,7 @@
 
 		$tiles.click( function( e ) {
 			e.stopPropagation();
-			window.location = $( this ).find( 'a' ).prop( 'href' );
+			location.href = $( this ).find( 'a' ).prop( 'href' );
 		} );
 	}
 
@@ -149,7 +146,7 @@
 			var url = $( this ).data( 'url' );
 
 			if ( url ) {
-				window.location.href = url;
+				location.href = url;
 			}
 		} );
 
@@ -157,7 +154,7 @@
 		$tiles.find( '.action' ).click( function ( e ) {
 			e.stopPropagation();
 
-			window.location.href = $( this ).find( 'a' ).prop( 'href' );
+			location.href = $( this ).find( 'a' ).prop( 'href' );
 		} );
 
 		if ( $tiles.length !== maxProjectTiles ) {
@@ -172,10 +169,10 @@
 			.msggroupselector( {
 				language: language,
 				onSelect: function ( messageGroup ) {
-					window.location.href = new mw.Uri( getUrl( 'Special:Translate' ) )
-						.extend( {
-							group: messageGroup.id
-						} );
+					location.href = mw.util.getUrl(
+						'Special:Translate',
+						{ group: messageGroup.id }
+					);
 				},
 				position: {
 					my: 'left bottom',

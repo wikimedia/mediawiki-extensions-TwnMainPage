@@ -34,7 +34,7 @@
     "twnmp-translations-translator-ranking": "{{PLURAL:$3|1=You are the only one<br />for $4|{{GENDER:$1|Ranked}} $2 of $3<br />for $4}}",
     "twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=You are the only one|{{GENDER:$1|Ranked}} $2 of $3}}",
     "twnmp-add-project": "Add your open source project for translation",
-    "twnmp-sandboxed": "You need to provide more translations to get full translation rights.",
+    "twnmp-sandboxed": "You need to provide {{PLURAL:$1|0=some|more}} translations to complete your registration.",
     "twnmp-sandboxed-limit": "You reached the translation limit. Our team will verify and upgrade your account soon.",
     "twnmp-bottom-help": "Help",
     "twnmp-bottom-support": "Support desk",
@@ -58,7 +58,7 @@
     "twnmp-join-community-desc": "If you are a developer interested in documenting translations, or just exploring the platform, you are also welcome.",
     "twnmp-join-community-reason": "Why are you interested in joining?",
     "twnmp-create-account-cancel": "Cancel",
-    "twnmp-join-community-info": "Not a translator? You can still join the community.",
+    "twnmp-join-community-info": "Can't submit some translations right now? You can still join.",
     "twnmp-stats-number-k": "$1k",
     "twnmp-select-target-language": "Select language",
     "twn-mainpage-total-messages-in-language": "{{PLURAL:$1|One message|$1 messages}}"

@@ -37,7 +37,7 @@
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Du bist der einzige<!-- $1 -->|Rang $2 von $3}}<br />für die Sprache $4",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Du bist der einzige<!-- $1 -->|Rang $2 von $3}}",
 	"twnmp-add-project": "Ermögliche Übersetzungen für dein Open-Source-Projekt.",
-	"twnmp-sandboxed": "Du musst mehr Übersetzungen durchführen, um die vollen Übersetzerrechte zu erhalten.",
+	"twnmp-sandboxed": "Du musst {{PLURAL:$1|0=einige|mehr}} Übersetzungen durchführen, um deine Registrierung abzuschließen.",
 	"twnmp-sandboxed-limit": "Du hast das Übersetzungslimit erreicht. Unser Team wird dein Benutzerkonto bald verifizieren und hochstufen.",
 	"twnmp-bottom-help": "Hilfe",
 	"twnmp-bottom-support": "Unterstützung",
@@ -61,7 +61,7 @@
 	"twnmp-join-community-desc": "Gleich ob du ein Entwickler bist, der sich für das Dokumentieren von Übersetzungen interessiert oder auch nur diese Plattform entdecken will: Du bist uns willkommen.",
 	"twnmp-join-community-reason": "Warum bist du daran interessiert, dabei zu sein?",
 	"twnmp-create-account-cancel": "Abbrechen",
-	"twnmp-join-community-info": "Kein Übersetzer? Du kannst dennoch der Gemeinschaft beitreten.",
+	"twnmp-join-community-info": "Kannst du momentan keine Übersetzungen einreichen? Du kannst dennoch beitreten.",
 	"twnmp-stats-number-k": "$1&nbsp;T",
 	"twnmp-select-target-language": "Sprache auswählen",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Eine Nachricht|$1 Nachrichten}}"

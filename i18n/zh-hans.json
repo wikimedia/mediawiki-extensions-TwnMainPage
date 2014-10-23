@@ -42,7 +42,7 @@
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=$4只有你一人|$4{{GENDER:$1|排名}}第$2，共$3人}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=只有你一人|{{GENDER:$1|排名}}第$2，共$3人}}",
 	"twnmp-add-project": "添加你的需要翻译的开源项目",
-	"twnmp-sandboxed": "您需要提供更多的翻译，以获取完整的翻译权。",
+	"twnmp-sandboxed": "您需要提供{{PLURAL:$1|0=一些|更多的}}翻译，以获取完整的翻译权。",
 	"twnmp-sandboxed-limit": "您已到达翻译限制。我们的团队会尽快验证和升级您的账户。",
 	"twnmp-bottom-help": "帮助",
 	"twnmp-bottom-support": "支持中心",
@@ -66,7 +66,7 @@
 	"twnmp-join-community-desc": "如果你只是一名开发人员而非文档译员，或者只是来平台看看，我们也都欢迎。",
 	"twnmp-join-community-reason": "您为何对加入感兴趣？",
 	"twnmp-create-account-cancel": "取消",
-	"twnmp-join-community-info": "不是译者？你仍可以加入这个社区。",
+	"twnmp-join-community-info": "现在不能提交一些翻译么？你仍可以加入。",
 	"twnmp-select-target-language": "选择语言",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|$1个信息}}"
 }

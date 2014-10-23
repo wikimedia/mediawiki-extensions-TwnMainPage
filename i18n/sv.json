@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Jopparn",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Lokal Profil"
 		]
 	},
 	"twnmp-desc": "Tillhandahåller translatewiki.net:s huvudsida",
@@ -34,7 +35,7 @@
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Du är den enda på $4<br />|{{GENDER:$1|med rank}} $2 av $3<br />på $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Du är den enda|{{GENDER:$1|Rankad}} som nummer $2 av $3}}",
 	"twnmp-add-project": "Lägg till ditt projekt med öppen källkod för översättning",
-	"twnmp-sandboxed": "Du måste ange fler översättningar för att få fullständiga översättningsrättigheter.",
+	"twnmp-sandboxed": "Du måste ange {{PLURAL:$1|0=några|fler}} översättningar för att slutföra din registrering.",
 	"twnmp-sandboxed-limit": "Du nådde översättningsgränsen. Vårt team kommer snart kontrollera och uppgradera ditt konto.",
 	"twnmp-bottom-help": "Hjälp",
 	"twnmp-bottom-support": "Supportavdelning",
@@ -58,7 +59,7 @@
 	"twnmp-join-community-desc": "Om du är en utvecklare som är intresserade av att dokumentera översättningar eller bara utforska plattformen är du också välkommen.",
 	"twnmp-join-community-reason": "Varför är du intresserad av att delta?",
 	"twnmp-create-account-cancel": "Avbryt",
-	"twnmp-join-community-info": "Inte en översättare? Du kan fortfarande gå med i gemenskapen.",
+	"twnmp-join-community-info": "Kan inte skicka in några översättningar just nu? Du kan fortfarande gå med.",
 	"twnmp-select-target-language": "Välj språk",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Ett meddelande|$1 meddelanden}}"
 }

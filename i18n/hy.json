@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vadgt"
+			"Vadgt",
+			"Xelgen"
 		]
 	},
-	"twnmp-logout": "Ելնել",
+	"twnmp-logout": "Դուրս գալ",
 	"twnmp-your-translations-stats-all-languages": "Բոլոր լեզուների համար"
 }

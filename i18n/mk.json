@@ -33,7 +33,7 @@
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Единствени сте<br />за $4|{{GENDER:$1|Ранг:}} $2 од $3<br />за $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Единствени сте|{{GENDER:$1|Ранг:}} $2 од $3}}",
 	"twnmp-add-project": "Дајте ни го вашиот отворен проект на превод",
-	"twnmp-sandboxed": "Ќе треба да направите уште преводи за ги добиете полните преведувачки прева.",
+	"twnmp-sandboxed": "Ќе треба да направите {{PLURAL:$1|0=некои|уште}} преводи за завршите со регистрацијата.",
 	"twnmp-sandboxed-limit": "Ја достигнавте границата на преводи. Нашата екипа наскоро ќе ја направи проверката и ќе ве унапреди.",
 	"twnmp-bottom-help": "Помош",
 	"twnmp-bottom-support": "Поддршка",
@@ -57,7 +57,7 @@
 	"twnmp-join-community-desc": "Драго ни е и ако сте програмер заинтересиран за документирање на преводите, или пак само ја проучувате подлогата.",
 	"twnmp-join-community-reason": "Зошто би сакале да се приклучите?",
 	"twnmp-create-account-cancel": "Откажи",
-	"twnmp-join-community-info": "Не сте преведувач? Бездруго можете да се приклучите на заедницата.",
+	"twnmp-join-community-info": "Не можете веднаш да направите некои преводи? Бездруго можете да се приклучите.",
 	"twnmp-stats-number-k": "$1 илј.",
 	"twnmp-select-target-language": "Одберете јазик",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Една порака|$1 пораки}}"

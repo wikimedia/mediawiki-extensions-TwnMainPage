@@ -10,10 +10,10 @@
 	},
 	"twnmp-desc": "Текст на заглавной странице translatewiki.net",
 	"twnmp-mainpage": "Заглавная страница",
-	"twnmp-s-translators": "{{PLURAL:$1|переводчик|переводчиков|переводчика}}",
-	"twnmp-s-projects": "{{PLURAL:$1|проект|проектов|проекта}}",
-	"twnmp-s-languages": "{{PLURAL:$1|активный язык|активных языков|активных языка}}",
-	"twnmp-s-messages": "{{PLURAL:$1|интерфейсное сообщение|интерфейсных сообщений|интерфейсных сообщения}} для перевода",
+	"twnmp-s-translators": "{{PLURAL:$1|переводчик|переводчика|переводчиков}}",
+	"twnmp-s-projects": "{{PLURAL:$1|проект|проекта|проектов}}",
+	"twnmp-s-languages": "{{PLURAL:$1|активный язык|активных языка|активных языков}}",
+	"twnmp-s-messages": "{{PLURAL:$1|интерфейсное сообщение|интерфейсных сообщения|интерфейсных сообщений}} для перевода",
 	"twnmp-bannerwho": "Изображение: $1",
 	"twnmp-show-more-projects": "Показать все проекты…",
 	"twnmp-brand-motto": "Сообщество переводчиков проектов с открытым исходным кодом",
@@ -64,5 +64,5 @@
 	"twnmp-join-community-info": "Не можете прямо сейчас добавить некоторые переводы? Вы все равно можете присоединиться к сообществу.",
 	"twnmp-stats-number-k": "$1&nbsp;тыс.",
 	"twnmp-select-target-language": "Выбрать язык",
-	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|$1 сообщение|$1 сообщений|$1 сообщения}}"
+	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|$1 сообщение|$1 сообщения|$1 сообщений}}"
 }

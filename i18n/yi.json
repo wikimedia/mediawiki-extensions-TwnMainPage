@@ -33,7 +33,7 @@
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=איר זענט דער איינציקער<br />פאר $4|{{GENDER:$1|ראַנג}} $2 פֿון $3<br />פאר $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=איר זענט דער איינציקער|{{GENDER:$1|ראַנג}} $2 פֿון $3}}",
 	"twnmp-add-project": "לייגט צו אייער אפענער־קאד פראיעקט פאראיבערזעצונג.",
-	"twnmp-sandboxed": "איר דארפט פארזארגן נאך איבערזעצונגען צו באקומען פולע איבערזעצן־רעכטן.",
+	"twnmp-sandboxed": "איר דארפט פארזארגן {{PLURAL:$1|0=עטלעכע|נאך}} איבערזעצונגען to complete your צו שליסן אײַער אײַנשרײַבונג.",
 	"twnmp-bottom-help": "הילף",
 	"twnmp-bottom-support": "שטיצונג",
 	"twnmp-bottom-languages-supported": "געשטיצטע שפראַכן",
@@ -54,7 +54,7 @@
 	"twnmp-join-community": "טרעט אריין אין דער געמיינדע",
 	"twnmp-join-community-reason": "פארוואס זענט איר אינטערעסירט צוצוטרעטן?",
 	"twnmp-create-account-cancel": "אנולירן",
-	"twnmp-join-community-info": "נישט קײַן איבערזעצער? קענט איר דאך צוטרעטן אין דער געמיינדע.",
+	"twnmp-join-community-info": "קענט איר נישט ארײַנגעבן קײַן איבערזעצונגען דערווײַל? קענט איר דאך צוטרעטן.",
 	"twnmp-stats-number-k": "$1 טויזנט",
 	"twnmp-select-target-language": "אויסקלײַבן שפראַך",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|איין מעלדונג|$1 מעלדונגען}}"

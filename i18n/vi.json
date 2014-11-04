@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Minh Nguyen"
+			"Minh Nguyen",
+			"Max20091"
 		]
 	},
 	"twnmp-desc": "Cung cấp trang đầu của translatewiki.net",
@@ -33,7 +34,7 @@
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Bạn là người duy nhất|{{GENDER:$1}}Đứng hạng $2 trên tổng $3}}<br />cho $4",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Bạn là người duy nhất|{{GENDER:$1}}Đứng hạng $2 trên tổng $3}}",
 	"twnmp-add-project": "Để cho chúng tôi biên dịch dự án mã nguồn mở của bạn",
-	"twnmp-sandboxed": "Bạn cần phải đóng góp thêm bản dịch để giành được quyền biên dịch viên đầy đủ.",
+	"twnmp-sandboxed": "Bạn cần phải cung cấp thêm {{PLURAL:$1|0=some|more}} bản dịch để hoàn tất đăng ký của bạn.",
 	"twnmp-sandboxed-limit": "Bạn đã đạt đến giới hạn bản dịch. Chúng tôi sẽ kiểm tra và nâng cấp tài khoản của bạn không lâu.",
 	"twnmp-bottom-help": "Trợ giúp",
 	"twnmp-bottom-support": "Bàn giúp đỡ",
@@ -57,7 +58,7 @@
 	"twnmp-join-community-desc": "Những nhà phát triển quan tâm đến tài liệu bản dịch và những người chỉ muốn thăm dò nền tảng đều được hoan nghênh.",
 	"twnmp-join-community-reason": "Tại sao bạn muốn tham gia?",
 	"twnmp-create-account-cancel": "Hủy bỏ",
-	"twnmp-join-community-info": "Không phải là biên dịch viên? Bạn vẫn có thể tham gia cộng đồng.",
+	"twnmp-join-community-info": "Không thể gửi một số bản dịch ngay bây giờ? Bạn vẫn có thể tham gia.",
 	"twnmp-select-target-language": "Chọn ngôn ngữ",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Một thông điệp|$1 thông điệp}}"
 }

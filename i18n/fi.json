@@ -3,7 +3,8 @@
 		"authors": [
 			"Crt",
 			"Nike",
-			"Stryn"
+			"Stryn",
+			"Pxos"
 		]
 	},
 	"twnmp-desc": "translatewiki.netin etusivu",
@@ -56,7 +57,7 @@
 	"twnmp-choose-another-language": "Lisää toinen kieli...",
 	"twnmp-choose-fill-account-details": "Syötä tunnuksesi tiedot",
 	"twnmp-join-community": "Liity yhteisöön",
-	"twnmp-join-community-desc": "Olet myös tervellut, jos olet kehittäjä ja kiinnostunut viestien dokumentoinnista tai alustan kokeilemisesta.",
+	"twnmp-join-community-desc": "Olet myös tervetullut, jos olet kehittäjä ja kiinnostunut viestien dokumentoinnista tai alustan kokeilemisesta.",
 	"twnmp-join-community-reason": "Miksi haluat liittyä?",
 	"twnmp-create-account-cancel": "Peru",
 	"twnmp-join-community-info": "Etkö ole kääntäjä? Voit silti liittyä.",

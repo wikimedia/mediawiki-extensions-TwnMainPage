@@ -53,8 +53,9 @@
 	"twnmp-choose-another-language": "Eng aner Sprooch eraussichen...",
 	"twnmp-choose-fill-account-details": "Gitt d'Detailer vu Ärem Benotzerkont an",
 	"twnmp-join-community": "Maacht bei eis mat",
+	"twnmp-join-community-reason": "Firwat sidd Dir interesséiert fir matzemaachen?",
 	"twnmp-create-account-cancel": "Ofbriechen",
-	"twnmp-join-community-info": "Keen Iwwersetzer? Dir kënnt nach bei eis matmaachen.",
+	"twnmp-join-community-info": "Kënnt Dir elo keng Iwwersetzungen ofspäicheren? Dir kënnt nach matmaachen.",
 	"twnmp-select-target-language": "Sprooch eraussichen",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Ee Message|$1 Messagen}}"
 }

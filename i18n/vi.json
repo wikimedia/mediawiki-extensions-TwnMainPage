@@ -34,7 +34,7 @@
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Bạn là người duy nhất|{{GENDER:$1}}Đứng hạng $2 trên tổng $3}}<br />cho $4",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Bạn là người duy nhất|{{GENDER:$1}}Đứng hạng $2 trên tổng $3}}",
 	"twnmp-add-project": "Để cho chúng tôi biên dịch dự án mã nguồn mở của bạn",
-	"twnmp-sandboxed": "Bạn cần phải cung cấp thêm {{PLURAL:$1|0=some|more}} bản dịch để hoàn tất đăng ký của bạn.",
+	"twnmp-sandboxed": "Bạn cần phải cung cấp {{PLURAL:$1|0=một số|thêm}} bản dịch để hoàn tất đăng ký của bạn.",
 	"twnmp-sandboxed-limit": "Bạn đã đạt đến giới hạn bản dịch. Chúng tôi sẽ kiểm tra và nâng cấp tài khoản của bạn không lâu.",
 	"twnmp-bottom-help": "Trợ giúp",
 	"twnmp-bottom-support": "Bàn giúp đỡ",

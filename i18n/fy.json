@@ -1,9 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kening Aldgilles"
+			"Kening Aldgilles",
+			"Robin0van0der0vliet"
 		]
 	},
-	"twnmp-create-account-cancel": "Ofbrekke",
+	"twnmp-search-button": "Sykje",
+	"twnmp-bottom-help": "Help",
+	"twnmp-bottom-about": "Oer",
+	"twnmp-signup-username-placeholder": "Brûkersnamme",
+	"twnmp-signup-password-placeholder": "Wachtwurd",
+	"twnmp-signup-email-placeholder": "E-mail",
+	"twnmp-create-account-cancel": "Annulearje",
 	"twnmp-select-target-language": "Kies taal"
 }

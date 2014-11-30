@@ -33,7 +33,7 @@
 	"twnmp-translations-translator-ranking": "Bes {{PLURAL:$3|de{{GENDER:$1|r||r||r}} einzejje|de Nommer $2 vun dä $3<br />|kein{{GENDER:$1|e||e||e}}}}\nÖvversäzer{{GENDER:$1||ėn{{PLURAL:$3||ne|}}||ėn{{PLURAL:$3||ne|}}|}} noh $4.",
 	"twnmp-translations-translator-ranking-source": "Bes {{PLURAL:$3|de{{GENDER:$1|r||r||r}} einzejje|de Nommer $2 vun $3<br />|kein{{GENDER:$1|e||e||e}}}}\nÖvversäzer{{GENDER:$1||ėn{{PLURAL:$3||ne|}}||ėn{{PLURAL:$3||ne|}}|}}.",
 	"twnmp-add-project": "Don e offe-Quälltäx-Projramm för et Övversäze derbei",
-	"twnmp-sandboxed": "Do moß mih övversäzze, öm de kumplätte Rääschde als Övversäzer ze krijje.",
+	"twnmp-sandboxed": "Do moß {{PLURAL:$1|0=jät|mih}} övversäzze, öm de kumplätte Rääschde als Övversäzer ze krejje.",
 	"twnmp-sandboxed-limit": "Do beß aan de Bovverjräns för et Övversäze aanjekumme. Ons Lück belooere sesch Dinge Beidrähsch un schohfe Ding Rääschte bahl op.",
 	"twnmp-bottom-help": "Hölp",
 	"twnmp-bottom-support": "Öngerschtözong krijje",
@@ -57,7 +57,7 @@
 	"twnmp-join-community-desc": "Wann de ene Äntwekler bes, bloß aam Dokemänteere för de Övversäzer metmaache wells, udder ens belohre wells, wi dat heh leuf, beß De ävver och jähn jesinn.",
 	"twnmp-join-community-reason": "Woröm wells De heh metdonn?",
 	"twnmp-create-account-cancel": "Ophüre!",
-	"twnmp-join-community-info": "Bes keine Övversäzer? Metmaache kanns De och esuh!",
+	"twnmp-join-community-info": "Kanns jäz noch keine Övversäzonge aflivvere? Metmaache kanns De och esuh!",
 	"twnmp-stats-number-k": "$1&nbsp;Tsd.",
 	"twnmp-select-target-language": "Donn en Schprohch ußwähle",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Eine Täx udder Nohreesch|$1  Täxte udder Nohreeschte|Kein Täxte udder Nohreeschte}}"

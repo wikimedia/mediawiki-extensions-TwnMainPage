@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Shirayuki",
-			"SkyDaisy9"
+			"SkyDaisy9",
+			"Aotake"
 		]
 	},
 	"twnmp-desc": "translatewiki.net のメインページを提供する",
@@ -55,7 +56,7 @@
 	"twnmp-choose-fill-account-details": "アカウント情報を入力してください",
 	"twnmp-join-community": "コミュニティへの参加",
 	"twnmp-create-account-cancel": "キャンセル",
-	"twnmp-join-community-info": "今すぐには翻訳を提出できないのですか？それでも参加していただけます。",
+	"twnmp-join-community-info": "翻訳作業ができなくてもご参加いただけます。",
 	"twnmp-select-target-language": "言語を選択",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|$1 メッセージ}}"
 }

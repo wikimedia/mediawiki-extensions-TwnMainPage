@@ -69,10 +69,6 @@ CSS;
 		return array( 'all' => $out );
 	}
 
-	/**
-	 * @param $context ResourceLoaderContext
-	 * @return array|int|Mixed
-	 */
 	public function getModifiedTime( ResourceLoaderContext $context ) {
 		$cache = wfGetCache( CACHE_ANYTHING );
 		$key = wfMemcKey( 'resourceloader', 'twnmainpage', 'icons' );
@@ -84,7 +80,7 @@ CSS;
 		if ( is_array( $result ) && $result['hash'] === $hash ) {
 			return $result['timestamp'];
 		}
-		$timestamp = wfTimestamp();
+		$timestamp = time();
 		$cache->set( $key, array(
 			'hash' => $hash,
 			'timestamp' => $timestamp,

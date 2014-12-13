@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Bellayet",
-			"Aftab1995"
+			"Aftab1995",
+			"Aftabuzzaman"
 		]
 	},
 	"twnmp-desc": "translatewiki.net প্রধান পাতা রয়েছে",
@@ -41,7 +42,7 @@
 	"twnmp-bottom-languages-supported": "সমর্থিত ভাষাসমূহ",
 	"twnmp-bottom-about": "পরিচিতি",
 	"twnmp-signup-username-placeholder": "ব্যবহারকারী নাম",
-	"twnmp-signup-password-placeholder": "শব্দচাবি (Password)",
+	"twnmp-signup-password-placeholder": "পাসওয়ার্ড",
 	"twnmp-signup-email-placeholder": "ইমেইল",
 	"twnmp-create-account-button": "অ্যাকাউন্ট তৈরি করুন",
 	"twnmp-signup-error-invalidusername": "এই ব্যবহারকারী নাম উপলব্ধ নয়। দয়া করে, ভিন্ন একটি নিন।",

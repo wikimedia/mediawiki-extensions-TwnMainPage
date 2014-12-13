@@ -139,6 +139,11 @@ $specialPageAliases['vi'] = array(
 	'TwnMainPage' => array( 'Trang_Chính' ),
 );
 
+/** Chinese (中文) */
+$specialPageAliases['zh'] = array(
+	'TwnMainPage' => array( '首页', '主页', '首頁', '主頁' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'TwnMainPage' => array( '首页', '第一步' ),

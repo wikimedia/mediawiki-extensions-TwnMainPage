@@ -46,7 +46,7 @@
 	"twnmp-join-community-desc": "Kui oled tarkvaraarendaja ja huvitud tõlgete dokumenteerimisest või uurid lihtsalt tõlkeplatvormi, oled samuti teretulnud.",
 	"twnmp-join-community-reason": "Miks oled ühinemisest huvitatud?",
 	"twnmp-create-account-cancel": "Loobu",
-	"twnmp-join-community-info": "Kas sa pole tõlkija? Saad sellegipoolest ühineda.",
+	"twnmp-join-community-info": "Kas sa ei saa praegu mõningaid tõlkeid esitada? Saad sellegipoolest ühineda.",
 	"twnmp-stats-number-k": "$1&nbsp;tuh",
 	"twnmp-select-target-language": "Vali keel"
 }

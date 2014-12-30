@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"פוילישער"
+			"פוילישער",
+			"Har-wradim"
 		]
 	},
 	"twnmp-desc": "הויפט־זײַט פֿאר translatewiki.net",
@@ -14,7 +15,7 @@
 	"twnmp-show-more-projects": "ווײַזן אלע פראיעקטן...",
 	"twnmp-brand-motto": "אפענער־קאד איבערזעצונג געמיינדע",
 	"twnmp-login": "אַרײַנלאגירן",
-	"twnmp-logout": "אַרויסלאגירן",
+	"twnmp-logout": "אַרויסלאָגירן",
 	"twnmp-search-placeholder": "טרעפֿן און פֿאררעכטן איבערזעצונגען",
 	"twnmp-search-button": "טרעפֿן",
 	"twnmp-search-choose-project": "קלויבן א פראיעקט איבערצוזעצן",
@@ -46,7 +47,7 @@
 	"twnmp-signup-error-nonfreeusername": "דער באניצער־נאמען איז שוין פֿאראן. זײַט אזוי גוט קלויבט אויס אן אנדערן.",
 	"twnmp-signup-error-invalidpassword": "דאס פאסווארט איז אומגילטיק.",
 	"twnmp-signup-error-invalidemail": "דאס זעט נישט אויס זײַן א גילטיקער ע־פאסט אדרעס. זײַט אזוי גוט גיטס ארײַן א גילטיקן.",
-	"twnmp-signup-error-unknown": "קאנטע שאפֿן איז אדורכגעפאלן וועגן אן אומבאקאנטן פֿעלער.",
+	"twnmp-signup-error-unknown": "קאָנטע שאַפֿן איז אַדורכגעפֿאַלן מחמת אַן אומבאַקאַנטן פֿעלער.",
 	"twnmp-become-translator": "ווערט אן איבערזעצער",
 	"twnmp-choose-languages-you-know": "אײַערע שפראכן",
 	"twnmp-choose-another-language": "קלויבן אויסגעמעקט אן אנדער שפראך…",

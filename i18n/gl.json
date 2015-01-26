@@ -33,7 +33,7 @@
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=É {{GENDER:$1|o único|a única}}<br />en $4|Quedou $2{{GENDER:$1|º|ª}} de $3<br />en $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=É {{GENDER:$1|o único|a única}}|Quedou $2{{GENDER:$1|º|ª}} de $3}}",
 	"twnmp-add-project": "Engada o seu proxecto de código aberto para a súa tradución",
-	"twnmp-sandboxed": "Debe achegar máis traducións para obter todos os dereitos de tradutor.",
+	"twnmp-sandboxed": "Debe achegar {{PLURAL:$1|0=algunhas|máis}} traducións para completar o seu rexistro.",
 	"twnmp-sandboxed-limit": "Alcanzou o límite de traducións. O noso equipo ha comprobar e actualizar a súa conta axiña.",
 	"twnmp-bottom-help": "Axuda",
 	"twnmp-bottom-support": "A Taberna",
@@ -57,7 +57,7 @@
 	"twnmp-join-community-desc": "Se vostede é un desenvolvedor interesado na documentación de traducións ou simplemente en explorar a plataforma reciba tamén a nosa benvida.",
 	"twnmp-join-community-reason": "Por que ten interese en unirse?",
 	"twnmp-create-account-cancel": "Cancelar",
-	"twnmp-join-community-info": "Non é tradutor? Pode unirse á comunidade igualmente.",
+	"twnmp-join-community-info": "Non pode enviar algunhas traducións agora mesmo? Pode unirse igualmente.",
 	"twnmp-select-target-language": "Seleccionar a lingua",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Unha mensaxe|$1 mensaxes}}"
 }

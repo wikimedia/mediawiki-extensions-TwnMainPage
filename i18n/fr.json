@@ -5,7 +5,8 @@
 			"Jean-Frédéric",
 			"Metroitendo",
 			"NemesisIII",
-			"Orlodrim"
+			"Orlodrim",
+			"Weft"
 		]
 	},
 	"twnmp-desc": "Fournit la page principale de translatewiki.net",
@@ -61,7 +62,7 @@
 	"twnmp-join-community-desc": "Si vous êtes un développeur intéressé par la documentation des traductions, ou juste par l’exploration de la plateforme, vous êtes également le bienvenu.",
 	"twnmp-join-community-reason": "Pourquoi êtes-vous intéressé par le fait de nous rejoindre ?",
 	"twnmp-create-account-cancel": "Annuler",
-	"twnmp-join-community-info": "Pas un traducteur ? Vous pouvez toujours rejoindre la communauté.",
+	"twnmp-join-community-info": "Pas encore traducteur  ? Vous pouvez toujours nous rejoindre.",
 	"twnmp-select-target-language": "Choisir la langue",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Un message|$1 messages}}"
 }

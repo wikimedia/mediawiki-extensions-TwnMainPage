@@ -25,7 +25,7 @@ class CachedStatTest extends PHPUnit_Framework_TestCase {
 			'update'
 		);
 
-		$stub = $this->getMock( 'BagOStuff' );
+		$stub = $this->getMock( 'EmptyBagOStuff' );
 		$stub->expects( $this->once() )
 			->method( 'get' );
 
@@ -48,7 +48,7 @@ class CachedStatTest extends PHPUnit_Framework_TestCase {
 			array( array( $updater, 'calculate' ) ),
 			'allow miss'
 		);
-		$stub = $this->getMock( 'BagOStuff' );
+		$stub = $this->getMock( 'EmptyBagOStuff' );
 		$stub->expects( $this->once() )
 			->method( 'get' );
 

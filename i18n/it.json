@@ -35,7 +35,7 @@
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Sei l'unico traduttore|{{GENDER:$1|Classificato $2º|Classificata $2ª|In posizione $2}} su $3<br />traduttori}} in $4",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Sei l'unico traduttore|{{GENDER:$1|Classificato $2º|Classificata $2ª|In posizione $2}} su $3<br />traduttori}}",
 	"twnmp-add-project": "Aggiungi il tuo software libero a quelli traducibili",
-	"twnmp-sandboxed": "Devi fornire ulteriori traduzioni per ottenere i diritti di traduzione completi.",
+	"twnmp-sandboxed": "Devi fornire {{PLURAL:$1|0=alcune|ulteriori}} traduzioni per completare la tua registrazione.",
 	"twnmp-sandboxed-limit": "Hai raggiunto il limite di traduzioni. Il nostro team verificherà ed aggiornerà presto la tua utenza.",
 	"twnmp-bottom-help": "Aiuto",
 	"twnmp-bottom-support": "Supporto",

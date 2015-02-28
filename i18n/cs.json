@@ -34,7 +34,7 @@
 	"twnmp-translations-translator-ranking": "Jste {{PLURAL:$3|1={{GENDER:$1|jediný|jediná}}|$2. z $3}}<br />pro jazyk $4",
 	"twnmp-translations-translator-ranking-source": "Jste {{PLURAL:$3|1={{GENDER:$1|jediný|jediná}}|$2. z $3}}",
 	"twnmp-add-project": "Přidejte svůj open-source projekt k překladu",
-	"twnmp-sandboxed": "Abyste {{GENDER:|získal|získala|získali}} překladatelská oprávnění, musíte poskytnout více překladů.",
+	"twnmp-sandboxed": "Abyste {{GENDER:|získal|získala|získali}} překladatelská oprávnění, musíte poskytnout {{PLURAL:$1|0=nějaké překlady|více překladů}}.",
 	"twnmp-sandboxed-limit": "{{GENDER:|Dosáhl|Dosáhla|Dosáhli}} jste limitu překladů. Náš tým váš účet brzy ověří a povýší.",
 	"twnmp-bottom-help": "Nápověda",
 	"twnmp-bottom-support": "Stránka podpory",
@@ -58,7 +58,7 @@
 	"twnmp-join-community-desc": "Pokud jste vývojář, kterého zajímá dokumentace překladů nebo jen chcete vyzkoušet tuto platformu, jste také vítáni.",
 	"twnmp-join-community-reason": "Proč se chcete připojit?",
 	"twnmp-create-account-cancel": "Storno",
-	"twnmp-join-community-info": "Nejste překladatel? I tak se můžete ke komunitě připojit.",
+	"twnmp-join-community-info": "Nemůžete právě teď vkládat překlady? I tak se můžete ke komunitě připojit.",
 	"twnmp-stats-number-k": "$1&nbsp;k",
 	"twnmp-select-target-language": "Zvolte si jazyk",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Jedna zpráva|$1 zprávy|$1 zpráv}}"

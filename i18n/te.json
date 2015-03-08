@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Veeven"
+			"Veeven",
+			"Arjunaraoc"
 		]
 	},
 	"twnmp-mainpage": "మొదటి పేజీ",
@@ -11,7 +12,7 @@
 	"twnmp-s-messages": "అనువదించాల్సిన సందేశాలు",
 	"twnmp-bannerwho": "చిత్రం $1",
 	"twnmp-show-more-projects": "మరిన్ని ప్రాజెక్టులను చూపించు...",
-	"twnmp-brand-motto": "బహిరంగాకర అనువాద సమాజం",
+	"twnmp-brand-motto": "బహిరంగ అనువాద సముదాయం",
 	"twnmp-login": "ప్రవేశించండి",
 	"twnmp-search-placeholder": "అనువాదాలను కనుగొని సరిదిద్దండి",
 	"twnmp-search-button": "వెతుకు",

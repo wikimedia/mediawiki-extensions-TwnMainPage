@@ -29,7 +29,7 @@
 	"twnmp-your-view-language-stats": "Меттан статистике хьажар",
 	"twnmp-translations-per-month": "Батта чохь гоч йина",
 	"twnmp-translations-in-sandbox": "Гочдинарш",
-	"twnmp-reviews-per-month": "таллина (хьаьжна) бетта чохь",
+	"twnmp-reviews-per-month": "таллина (хьаьжжина) бетта чохь",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Хьо цхьаъ<br />ву/ю гочдархо $4|{{GENDER:$1|Хьа}} $2- меттиг ю $3 юкъехь<br />{{PLURAL:$3|1=гочдархо|гочдархой}} $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Хьо цхьаъ ву/ю гочдархо|{{GENDER:$1|Хьа}} $2- меттиг ю $3 юкъехь}}",
 	"twnmp-add-project": "Кховда йе гочян хьай маьрша елин дӀайолалун код",

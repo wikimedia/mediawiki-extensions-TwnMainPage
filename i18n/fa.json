@@ -4,7 +4,8 @@
 			"Ebraminio",
 			"Omidh",
 			"Reza1615",
-			"Armin1392"
+			"Armin1392",
+			"Mjbmr"
 		]
 	},
 	"twnmp-desc": "صفحهٔ اصلی translatewiki.net فراهم می‌کند",
@@ -44,12 +45,12 @@
 	"twnmp-bottom-about": "درباره",
 	"twnmp-signup-username-placeholder": "نام کاربری",
 	"twnmp-signup-password-placeholder": "گذرواژه",
-	"twnmp-signup-email-placeholder": "رایانامه",
+	"twnmp-signup-email-placeholder": "ایمیل",
 	"twnmp-create-account-button": "ایجاد حساب کاربری",
 	"twnmp-signup-error-invalidusername": "این نام کاربری در دسترس نیست. لطفاً، نام کاربری دیگری را انتخاب کنید.",
 	"twnmp-signup-error-nonfreeusername": "این نام کاربری در حال حاضر وجود دارد. لطفاً، نام کاربری دیگری را انتخاب کنید.",
 	"twnmp-signup-error-invalidpassword": "گذرواژه نامعتبر است.",
-	"twnmp-signup-error-invalidemail": "این شبیه به یک آدرس رایانامه نیست. لطفاً، آدرس رایانامهٔ دیگری را ارائه کنید.",
+	"twnmp-signup-error-invalidemail": "این شبیه به یک آدرس ایمیل نیست. لطفاً، آدرس ایمیل دیگری را ارائه کنید.",
 	"twnmp-signup-error-other": "ثبت‌نام انجام نشد. سرور خطا را برگردانده: $1.",
 	"twnmp-signup-error-unknown": "ایجاد حساب به یک دلیل ناشناخته انجام نشد.",
 	"twnmp-become-translator": "مترجم شوید",

@@ -4,5 +4,6 @@
 			"David1010"
 		]
 	},
-	"twnmp-s-languages": "აქტიური {{PLURAL:$1|ენა|ენა}}"
+	"twnmp-s-languages": "აქტიური {{PLURAL:$1|ენა|ენა}}",
+	"twnmp-bottom-help": "დახმარება"
 }

@@ -183,6 +183,9 @@
 		// Replace the last shown tile with group selector.
 		// Users without JavaScript will just see the original one.
 		$tiles.eq( maxProjectTiles - 1 ).replaceWith( $selector );
+
+		// Add class to remove the triangle callout in the TWN Main Page.
+		$( '.tux-groupselector' ).addClass( 'removecallout' );
 	}
 
 	$( document ).ready( setupStatsTiles );

@@ -29,6 +29,11 @@ $specialPageAliases['ast'] = array(
 	'TwnMainPage' => array( 'Portada' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'TwnMainPage' => array( 'سر_وّرق' ),
+);
+
 /** Min Dong Chinese (Mìng-dĕ̤ng-ngṳ̄) */
 $specialPageAliases['cdo'] = array(
 	'TwnMainPage' => array( '頭頁' ),

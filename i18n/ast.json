@@ -33,7 +33,7 @@
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Ye {{GENDER:$1|l'únicu|la única}}<br />pal $4|{{GENDER:$1|Ta}} nel puestu $2 de $3<br />pal $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Ye {{GENDER:$1|l'únicu|la única}}|{{GENDER:$1|Ta}} nel puestu $2 de $3}}",
 	"twnmp-add-project": "Amieste'l so proyeutu de códigu abiertu pa traducilu",
-	"twnmp-sandboxed": "Tien de facer más traducciones pa consiguir permisu de traducción completu.",
+	"twnmp-sandboxed": "Tienes de facer {{PLURAL:$1|0=delles|más}} traducciones pa completar el rexistru.",
 	"twnmp-sandboxed-limit": "Llegó a la llende de traducciones. El nuesu equipu comprobará y promocionará la so cuenta pronto.",
 	"twnmp-bottom-help": "Ayuda",
 	"twnmp-bottom-support": "Serviciu de sofitu",
@@ -57,7 +57,7 @@
 	"twnmp-join-community-desc": "Si ye un desendolcador interesáu en documentar traducciones, o si namái ta esplorando la plataforma, tamién ye bienveníu.",
 	"twnmp-join-community-reason": "¿Por qué ta interesáu en xunise?",
 	"twnmp-create-account-cancel": "Encaboxar",
-	"twnmp-join-community-info": "¿Nun ye un traductor? Tamién pue xunise a la comunidá.",
+	"twnmp-join-community-info": "¿Nun puedes unviar traducciones agora mesmo? Inda puedes xunite.",
 	"twnmp-select-target-language": "Escoyer llingua",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Un mensaxe|$1 mensaxes}}"
 }

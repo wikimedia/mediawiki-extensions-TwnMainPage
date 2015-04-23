@@ -84,6 +84,11 @@ $specialPageAliases['ja'] = array(
 	'TwnMainPage' => array( 'メインページ' ),
 );
 
+/** Georgian (ქართული) */
+$specialPageAliases['ka'] = array(
+	'TwnMainPage' => array( 'მთავარი_გვერდი' ),
+);
+
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
 	'TwnMainPage' => array( '대문' ),

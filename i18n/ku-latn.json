@@ -8,7 +8,7 @@
 	},
 	"twnmp-mainpage": "Destpêk",
 	"twnmp-s-translators": "{{PLURAL:$1|Translator|Wergêr}}",
-	"twnmp-s-projects": "{{PLURAL:$1|Proje|Proje}}",
+	"twnmp-s-projects": "{{PLURAL:$1|Proje}}",
 	"twnmp-s-languages": "{{PLURAL:$1|Zimanê|Zimanên}} aktîv",
 	"twnmp-s-messages": "{{PLURAL:$1|Message|Peyam}} ku bên wergerandin",
 	"twnmp-bannerwho": "Wêne $1",

@@ -19,7 +19,7 @@ $specialPageAliases['ar'] = array(
 	'TwnMainPage' => array( 'الصفحة_الرئيسية' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'TwnMainPage' => array( 'الصفحه_الرئيسيه' ),
 );

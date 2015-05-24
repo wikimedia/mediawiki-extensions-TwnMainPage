@@ -5,14 +5,28 @@
 			"Robin0van0der0vliet"
 		]
 	},
+	"twnmp-mainpage": "Haadside",
+	"twnmp-s-translators": "{{PLURAL:$1|Oersetter|Oersetters}}",
 	"twnmp-s-projects": "{{PLURAL:$1|Projekt|Projekten}}",
+	"twnmp-s-languages": "Aktyve {{PLURAL:$1|taal|talen}}",
+	"twnmp-s-messages": "{{PLURAL:$1|Oersetienheid|Oersetienheden}}",
+	"twnmp-login": "Oanmelde",
+	"twnmp-logout": "Ofmelde",
 	"twnmp-search-button": "Sykje",
+	"twnmp-translate-link": "Oersette",
+	"twnmp-proofread-link": "Kontrolearje",
+	"twnmp-translate-button": "Oersette",
+	"twnmp-proofread-button": "Kontrolearje",
+	"twnmp-your-translations-stats": "Jo oersetstatistiken",
+	"twnmp-translations-per-month": "Oersettings/moanne",
 	"twnmp-translations-in-sandbox": "Oersettings",
+	"twnmp-reviews-per-month": "Kontrolearre/moanne",
 	"twnmp-bottom-help": "Help",
+	"twnmp-bottom-languages-supported": "Stipe talen",
 	"twnmp-bottom-about": "Oer",
 	"twnmp-signup-username-placeholder": "Brûkersnamme",
 	"twnmp-signup-password-placeholder": "Wachtwurd",
 	"twnmp-signup-email-placeholder": "E-mail",
 	"twnmp-create-account-cancel": "Annulearje",
-	"twnmp-select-target-language": "Kies taal"
+	"twnmp-select-target-language": "Taal selektearje"
 }

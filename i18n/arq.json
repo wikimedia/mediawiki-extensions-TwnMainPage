@@ -4,6 +4,17 @@
 			"Oldstoneage"
 		]
 	},
+	"twnmp-brand-motto": "جماعة تاع طرجامين ف پروجيّات مفتوحت` المصدر",
+	"twnmp-logout": "اتسجّل خارج",
+	"twnmp-search-placeholder": "صيب الطرجمات الّي راك حاب تبدّلها",
+	"twnmp-search-button": "فتّش",
 	"twnmp-search-choose-project": "اختار بروجي باش تبدا تطرجم فيه",
-	"twnmp-your-translations-stats": "الإحصائيّات تاع الطرجمات تاعك"
+	"twnmp-translate-link": "ابدا تطرجم",
+	"twnmp-translate-button": "طرجم",
+	"twnmp-proofread-button": "راجع",
+	"twnmp-your-translations-stats": "الإحصائيّات تاع الطرجمات تاعك",
+	"twnmp-your-view-language-stats": "شوف الإحصائيّات تاع الخدمة ف هاد اللوغة",
+	"twnmp-translations-per-month": "طرجمات \\ شهَر",
+	"twnmp-reviews-per-month": "مراجعات \\ شهَر",
+	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=كاين غير نتا<br />فل $4|{{GENDER:$1|مكلاصي}} $2 من $3<br />فل $4}}"
 }

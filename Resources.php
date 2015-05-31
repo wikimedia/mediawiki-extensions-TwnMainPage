@@ -29,6 +29,7 @@ $wgResourceModules['ext.translate.mainpage'] = array(
 		'twnmp-select-target-language',
 		'percent',
 	),
+	'position' => 'bottom',
 ) + $resourcePaths;
 
 $wgResourceModules['ext.translate.mainpage.signup'] = array(
@@ -47,12 +48,15 @@ $wgResourceModules['ext.translate.mainpage.signup'] = array(
 		'twnmp-signup-error-other',
 		'twnmp-signup-error-unknown',
 	),
+	'position' => 'bottom',
 ) + $resourcePaths;
 
 $wgResourceModules['ext.translate.mainpage.styles'] = array(
 	'styles' => 'resources/css/ext.translate.mainpage.css',
+	'position' => 'top',
 ) + $resourcePaths;
 
 $wgResourceModules['ext.translate.mainpage.icons'] = array(
-	'class' => 'ResourceLoaderProjectIconsModule'
+	'class' => 'ResourceLoaderProjectIconsModule',
+	'position' => 'bottom',
 );

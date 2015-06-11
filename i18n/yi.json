@@ -47,6 +47,7 @@
 	"twnmp-signup-error-nonfreeusername": "דער באניצער־נאמען איז שוין פֿאראן. זײַט אזוי גוט קלויבט אויס אן אנדערן.",
 	"twnmp-signup-error-invalidpassword": "דאס פאסווארט איז אומגילטיק.",
 	"twnmp-signup-error-invalidemail": "דאס זעט נישט אויס זײַן א גילטיקער ע־פאסט אדרעס. זײַט אזוי גוט גיטס ארײַן א גילטיקן.",
+	"twnmp-signup-error-other": "אײַנשרײַבן איז דורכגעפאלן. דער סארווער האט צוריקגעגעבן א פעלער:$1.",
 	"twnmp-signup-error-unknown": "קאָנטע שאַפֿן איז אַדורכגעפֿאַלן מחמת אַן אומבאַקאַנטן פֿעלער.",
 	"twnmp-become-translator": "ווערט אן איבערזעצער",
 	"twnmp-choose-languages-you-know": "אײַערע שפראכן",

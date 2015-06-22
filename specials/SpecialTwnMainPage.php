@@ -874,4 +874,8 @@ HTML;
 
 HTML;
 	}
+
+	protected function getGroupName() {
+		return 'wiki';
+	}
 }

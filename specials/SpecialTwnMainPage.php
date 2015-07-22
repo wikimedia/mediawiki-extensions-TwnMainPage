@@ -361,7 +361,7 @@ HTML;
 
 		if ( isset( $image['attribution'] ) ) {
 			$out .= Html::rawElement( 'div', array( 'class' => 'banner-attribution' ),
-				$this->msg( 'twnmp-bannerwho', $image['attribution'] )->plain()
+				$this->msg( 'twnmp-bannerwho' )->rawParams( $image['attribution'] )->escaped()
 			);
 		}
 

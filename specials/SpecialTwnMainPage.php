@@ -87,6 +87,7 @@ class SpecialTwnMainPage extends SpecialPage {
 		// of the position of the uls trigger in other pages.
 		$out->addJsConfigVars( 'wgULSPosition', 'personal' );
 		$out->addJsConfigVars( 'maxProjectTiles', $this->maxProjectTiles );
+		$out->addMeta( 'viewport', 'width=device-width, initial-scale=0.5' );
 
 		$out->addHTML( $out->headElement( $skin ) );
 
@@ -151,11 +152,11 @@ class SpecialTwnMainPage extends SpecialPage {
 
 		$html = <<<HTML
 <div class="row twn-mainpage-header">
-	<div class="eight columns twn-mainpage-title">
+	<div class="seven columns twn-mainpage-title">
 		<div class="twn-brand-name">$sitenameEsc</div>
 		<div class="twn-brand-motto">$sitemottoEsc</div>
 	</div>
-	<div class="four columns twn-mainpage-personal-actions">
+	<div class="five columns twn-mainpage-personal-actions">
 		$uls
 		$userLink
 		$loginout

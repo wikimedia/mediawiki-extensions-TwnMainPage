@@ -6,7 +6,8 @@
 			"Metroitendo",
 			"NemesisIII",
 			"Orlodrim",
-			"Weft"
+			"Weft",
+			"Wladek92"
 		]
 	},
 	"twnmp-desc": "Fournit la page principale de translatewiki.net",
@@ -38,7 +39,7 @@
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Vous êtes le seul<br />pour $4|{{GENDER:$1|Classé}} $2 sur $3<br />pour $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Vous êtes le seul|{{GENDER:$1|Classé}} $2 sur $3}}",
 	"twnmp-add-project": "Ajouter votre projet open source pour traduction",
-	"twnmp-sandboxed": "Vous devez effectuer plus de traductions pour obtenir tous les droits de traduction.",
+	"twnmp-sandboxed": "Vous devez effectuer {{PLURAL:$1|0=quelques|plus de}} traductions pour terminer votre inscription.",
 	"twnmp-sandboxed-limit": "Vous avez atteint le nombre limite de traductions. Notre équipe va vérifier et mettre à niveau votre compte bientôt.",
 	"twnmp-bottom-help": "Aide",
 	"twnmp-bottom-support": "Soutien",

@@ -27,7 +27,7 @@
 	"twnmp-your-translations-stats": "Ding Schtatistike fun de Övversäzonge.",
 	"twnmp-your-translations-stats-all-languages": "För alle Schprohche",
 	"twnmp-your-view-language-stats": "Schtateßteke för de Schprohche",
-	"twnmp-translations-per-month": "Övversäzonge em Mohnd",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Övversäzong|Övversäzonge|Övversäzong}} em Mohnd",
 	"twnmp-translations-in-sandbox": "Övversäzonge",
 	"twnmp-reviews-per-month": "Jähjejelässe em Mohnd",
 	"twnmp-translations-translator-ranking": "Bes {{PLURAL:$3|de{{GENDER:$1|r||r||r}} einzejje|de Nommer $2 vun dä $3<br />|kein{{GENDER:$1|e||e||e}}}}\nÖvversäzer{{GENDER:$1||ėn{{PLURAL:$3||ne|}}||ėn{{PLURAL:$3||ne|}}|}} noh $4.",

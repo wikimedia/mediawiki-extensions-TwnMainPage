@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"twnmp-translations-per-month": "{{PLURAL:$1|Traduction|Traductiones}} per mense"
+}

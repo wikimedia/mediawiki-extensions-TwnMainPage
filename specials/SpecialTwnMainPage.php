@@ -761,7 +761,7 @@ HTML;
 				$out .= Html::element(
 					'div',
 					array( 'class' => 'count-description' ),
-					$this->msg( 'twnmp-translations-per-month' )->text()
+					$this->msg( 'twnmp-translations-per-month' )->numParams( $count )->text()
 				);
 
 				// @todo When refactoring, $languageName should not be used
@@ -808,7 +808,7 @@ HTML;
 				$out .= Html::element(
 					'div',
 					array( 'class' => 'count-description' ),
-					$this->msg( 'twnmp-reviews-per-month' )->text()
+					$this->msg( 'twnmp-reviews-per-month' )->numParams( $count )->text()
 				);
 
 				// @todo When refactoring, $languageName should not be used
@@ -863,7 +863,7 @@ HTML;
 	<div class="eight columns">
 		<div class="count">$count</div>
 		<div class="count-description">
-			{$this->msg( 'twnmp-translations-in-sandbox' )->escaped()}
+			{$this->msg( 'twnmp-translations-in-sandbox' )->numParams( $count )->escaped()}
 		</div>
 	</div>
 	<div class="four columns">

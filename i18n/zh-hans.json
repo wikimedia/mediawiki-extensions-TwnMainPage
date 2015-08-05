@@ -36,7 +36,7 @@
 	"twnmp-your-translations-stats": "你的翻译统计",
 	"twnmp-your-translations-stats-all-languages": "所有语言",
 	"twnmp-your-view-language-stats": "查看语言统计信息",
-	"twnmp-translations-per-month": "译文/月",
+	"twnmp-translations-per-month": "翻译/月",
 	"twnmp-translations-in-sandbox": "翻译",
 	"twnmp-reviews-per-month": "复核/月",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=$4只有你一人|$4{{GENDER:$1|排名}}第$2，共$3人}}",

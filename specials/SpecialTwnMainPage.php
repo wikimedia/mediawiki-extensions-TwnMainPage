@@ -94,7 +94,7 @@ class SpecialTwnMainPage extends SpecialPage {
 
 		// Enable this if you need useful debugging information
 		// $out->addHtml( MWDebug::getDebugHTML( $this->getContext() ) );
-		wfRunHooks( 'BeforePageDisplay', array( &$out, &$skin ) );
+		Hooks::run( 'BeforePageDisplay', array( &$out, &$skin ) );
 		$out->addHTML( $skin->bottomScripts() );
 		$out->addHTML( '</body></html>' );
 	}

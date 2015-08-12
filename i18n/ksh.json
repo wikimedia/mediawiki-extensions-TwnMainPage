@@ -34,7 +34,7 @@
 	"twnmp-translations-translator-ranking-source": "Bes {{PLURAL:$3|de{{GENDER:$1|r||r||r}} einzejje|de Nommer $2 vun $3<br />|kein{{GENDER:$1|e||e||e}}}}\nÖvversäzer{{GENDER:$1||ėn{{PLURAL:$3||ne|}}||ėn{{PLURAL:$3||ne|}}|}}.",
 	"twnmp-add-project": "Don e offe-Quälltäx-Projramm för et Övversäze derbei",
 	"twnmp-sandboxed": "Do moß {{PLURAL:$1|0=jät|mih}} övversäzze, öm de kumplätte Rääschde als Övversäzer ze krejje.",
-	"twnmp-sandboxed-limit": "Do beß aan de Bovverjräns för et Övversäze aanjekumme. Ons Lück belooere sesch Dinge Beidrähsch un schohfe Ding Rääschte bahl op.",
+	"twnmp-sandboxed-limit": "Do beß aan de Bovverjräns för et Övversäze aanjekumme. Ons Lück belooere sesch Dinge Beijdrähsch un schtohfe Ding Rääschte bahl op.",
 	"twnmp-bottom-help": "Hölp",
 	"twnmp-bottom-support": "Öngerschtözong krijje",
 	"twnmp-bottom-languages-supported": "Ongerschtöz Schprohche",

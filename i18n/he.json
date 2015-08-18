@@ -3,7 +3,8 @@
 		"authors": [
 			"Amire80",
 			"YaronSh",
-			"פוילישער"
+			"פוילישער",
+			"LaG roiL"
 		]
 	},
 	"twnmp-desc": "דף ראשי עבור אתר translatewiki.net",
@@ -22,6 +23,7 @@
 	"twnmp-search-choose-project": "בחירת מיזם לתרגום",
 	"twnmp-translate-link": "תרגום",
 	"twnmp-proofread-link": "סקירה",
+	"twnmp-view-link": "הצגת תרגומים",
 	"twnmp-translate-button": "תרגום",
 	"twnmp-proofread-button": "סקירה",
 	"twnmp-view-button": "הצגת תרגומים",
@@ -34,7 +36,7 @@
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1={{GENDER:$1|אתה היחיד|את היחידה}}|{{GENDER:$1|אתה מדורג|את מדורגת}} במקום ה־$2 מבין $3}}<br />עבור $4",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1={{GENDER:$1|אתה היחיד|את היחידה}} כאן|{{GENDER:$1|אתה מדורג|את מדורגת}} במקום ה־$2 מתוך $3}}",
 	"twnmp-add-project": "הוספת מיזם הקוד הפתוח שלך לתרגום כאן",
-	"twnmp-sandboxed": "יש לספק עוד תרגומים כדי לקבל הרשאות תרגום מלאות.",
+	"twnmp-sandboxed": "יש לספק {{PLURAL:$1|0=קצת|עוד}} תרגומים כדי לקבל הרשאות תרגום מלאות.",
 	"twnmp-sandboxed-limit": "הגעת למגבת התרגומים שלך. הסגל שלנו יבדוק את התרגומים וישדרג את החשבון שלך בקרוב.",
 	"twnmp-bottom-help": "עזרה",
 	"twnmp-bottom-support": "דלפק תמיכה",
@@ -44,6 +46,12 @@
 	"twnmp-signup-password-placeholder": "ססמה",
 	"twnmp-signup-email-placeholder": "דואר אלקטרוני",
 	"twnmp-create-account-button": "יצירת חשבון",
+	"twnmp-signup-error-invalidusername": "שם המשתמש הזה אינו זמין. נא לבחור אחד אחר.",
+	"twnmp-signup-error-nonfreeusername": "שם המשתמש הזה כבר קיים. נא לבחור אחד אחר.",
+	"twnmp-signup-error-invalidpassword": "הססמה הזאת אינה תקינה.",
+	"twnmp-signup-error-invalidemail": "זה לא נראה כמו כתובת דוא\"ל תקינה. נא לכתוב אחת תקינה.",
+	"twnmp-signup-error-other": "הרישום לא עבד. השרת החזיר שגירה: $1.",
+	"twnmp-signup-error-unknown": "יצירת החשבון נכשלה מסיבה בלתי־ידועה.",
 	"twnmp-become-translator": "בואו להיות מתרגמים",
 	"twnmp-choose-languages-you-know": "השפה שלך",
 	"twnmp-choose-another-language": "בחירת שפה אחרת...",
@@ -52,7 +60,7 @@
 	"twnmp-join-community-desc": "מתכנתים שמעוניינים לתעד תרגומים או ללמוד את הפלטפורמה שלנו, גם אתם מוזמנים.",
 	"twnmp-join-community-reason": "מה גורם לך לרצות להצטרף?",
 	"twnmp-create-account-cancel": "ביטול",
-	"twnmp-join-community-info": "תרגומים לא מעניינים אותך? ביכולתך להצטרף לקהילה בכל זאת.",
+	"twnmp-join-community-info": "לא יכולים לשלוח תרגומים כעת? תוכלו להצטרף לקהילה בכל זאת.",
 	"twnmp-stats-number-k": "$1 אלף",
 	"twnmp-select-target-language": "בחירת שפה",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|הודעה אחת|$1 הודעות}}"

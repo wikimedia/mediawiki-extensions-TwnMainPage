@@ -8,8 +8,8 @@
 	"twnmp-mainpage": "Басты бет",
 	"twnmp-s-translators": "{{PLURAL:$1|аудармашы|аудармашы}}",
 	"twnmp-s-projects": "{{PLURAL:$1|жоба|жоба}}",
-	"twnmp-s-languages": "Белсенді $1 {{PLURAL:$1|тіл|тіл}}",
-	"twnmp-s-messages": "аударуға {{PLURAL:$1|хабарлама|хабарлама}}",
+	"twnmp-s-languages": "белсенді {{PLURAL:$1|тіл|тіл}}",
+	"twnmp-s-messages": "аударуға {{PLURAL:$1|интерфейс хабарламасы|интерфейс хабарламасы}}",
 	"twnmp-bannerwho": "Сурет $1",
 	"twnmp-show-more-projects": "Барлық жобаларды көрсету",
 	"twnmp-brand-motto": "Ашық қайнарлы аударма қауымдастығы",
@@ -49,6 +49,7 @@
 	"twnmp-join-community": "Қауымдастыққа қосылу",
 	"twnmp-join-community-reason": "Бізге қосылуды неліктен қызықтайсыз?",
 	"twnmp-create-account-cancel": "Қажет емес",
+	"twnmp-stats-number-k": "$1 мың",
 	"twnmp-select-target-language": "Тілді таңдау",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Бір хабарлама|$1 хабарлама}}"
 }

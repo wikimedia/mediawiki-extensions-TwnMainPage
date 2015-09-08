@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Danmichaelo"
+			"Danmichaelo",
+			"Cocu"
 		]
 	},
 	"twnmp-desc": "Fungerer som translatewiki.nets hovedside",
@@ -27,8 +28,8 @@
 	"twnmp-your-translations-stats": "Din oversettelsesstatistikk",
 	"twnmp-your-translations-stats-all-languages": "For alle språk",
 	"twnmp-your-view-language-stats": "Vis språkstatistikk",
-	"twnmp-translations-per-month": "Oversettelser/måned",
-	"twnmp-translations-in-sandbox": "Oversettelser",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Oversettelser}}/måned",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Oversettelser}}",
 	"twnmp-reviews-per-month": "Gjennomganger/måned",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Du er den eneste<br />for $4|{{GENDER:$1|Rangert}} som nr. $2 av $3<br />for $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Du er den eneste|{{GENDER:$1|Rangert}} som nr. $2 av $3}}",

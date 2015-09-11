@@ -3,7 +3,8 @@
 		"authors": [
 			"Fúlvio",
 			"Imperadeiro98",
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Macofe"
 		]
 	},
 	"twnmp-desc": "Oferece a página principal da translatewiki.net",
@@ -29,9 +30,9 @@
 	"twnmp-your-translations-stats": "As suas estatísticas de tradução",
 	"twnmp-your-translations-stats-all-languages": "Para todas as línguas",
 	"twnmp-your-view-language-stats": "Ver estatísticas de tradução",
-	"twnmp-translations-per-month": "Traduções/mês",
-	"twnmp-translations-in-sandbox": "Traduções",
-	"twnmp-reviews-per-month": "Revisões/mês",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Tradução|Traduções}}/mês",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Tradução|Traduções}}",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|Revisão|Revisões}}/mês",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Você é {{GENDER:$1|o único|a única}}<br />para $4|Na posição $2 de $3<br />para $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Você é {{GENDER:$1|o único|a única}}|Na posição $2 de $3}}",
 	"twnmp-add-project": "Adicione o seu projeto de código aberto para tradução",

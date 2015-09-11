@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Elisardojm"
 		]
 	},
 	"twnmp-desc": "Proporciona a páxina principal de translatewiki.net",
@@ -27,9 +28,9 @@
 	"twnmp-your-translations-stats": "As súas estatísticas de tradución",
 	"twnmp-your-translations-stats-all-languages": "Para todas as linguas",
 	"twnmp-your-view-language-stats": "Ollar as estatísticas da lingua",
-	"twnmp-translations-per-month": "traducións ao mes",
-	"twnmp-translations-in-sandbox": "Traducións",
-	"twnmp-reviews-per-month": "revisións ao mes",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Tradución|Traducións}} ao mes",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Tradución|Traducións}}",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|Revisión|Revisións}} ao mes",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=É {{GENDER:$1|o único|a única}}<br />en $4|Quedou $2{{GENDER:$1|º|ª}} de $3<br />en $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=É {{GENDER:$1|o único|a única}}|Quedou $2{{GENDER:$1|º|ª}} de $3}}",
 	"twnmp-add-project": "Engada o seu proxecto de código aberto para a súa tradución",

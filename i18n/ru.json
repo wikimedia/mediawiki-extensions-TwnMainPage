@@ -32,7 +32,7 @@
 	"twnmp-your-translations-stats-all-languages": "Для всех языков",
 	"twnmp-your-view-language-stats": "Просмотр статистики языка",
 	"twnmp-translations-per-month": "переведено за месяц",
-	"twnmp-translations-in-sandbox": "Переводы",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Переводы}}",
 	"twnmp-reviews-per-month": "проверено (вычитано) за месяц",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Вы единственный<br />переводчик на $4|{{GENDER:$1|Вы}} на $2-м месте среди $3<br />{{PLURAL:$3|переводчика|переводчиков}} на $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Вы единственный|{{GENDER:$1|Вы}} на $2-м месте среди $3}}",

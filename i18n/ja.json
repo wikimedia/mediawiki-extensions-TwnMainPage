@@ -3,7 +3,8 @@
 		"authors": [
 			"Shirayuki",
 			"SkyDaisy9",
-			"Aotake"
+			"Aotake",
+			"Sujiniku"
 		]
 	},
 	"twnmp-desc": "translatewiki.net のメインページを提供する",
@@ -29,9 +30,9 @@
 	"twnmp-your-translations-stats": "あなたの翻訳の統計",
 	"twnmp-your-translations-stats-all-languages": "すべての言語",
 	"twnmp-your-view-language-stats": "言語別翻訳状況を表示",
-	"twnmp-translations-per-month": "翻訳/月",
-	"twnmp-translations-in-sandbox": "翻訳",
-	"twnmp-reviews-per-month": "査読/月",
+	"twnmp-translations-per-month": "{{PLURAL:$1|翻訳}}/月",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|翻訳}}",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|査読}}/月",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=翻訳者はあなたのみです<br />言語: $4|$2 {{GENDER:$1|位の翻訳者}} ($3 人中)<br />言語: $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=翻訳者はあなたのみです|$2 {{GENDER:$1|位の翻訳者}} ($3 人中)}}",
 	"twnmp-add-project": "あなたのオープンソース プロジェクトを翻訳対象に追加",

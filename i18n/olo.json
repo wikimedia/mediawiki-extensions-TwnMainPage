@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mashoi7"
+		]
+	},
+	"twnmp-translations-per-month": "{{PLURAL:$1|Kiännösty}}/kuu",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|Tarkistusluvendua}}/kuu"
+}

@@ -30,7 +30,7 @@
 	"twnmp-your-view-language-stats": "Sproochstatistike weisen",
 	"twnmp-translations-per-month": "{{PLURAL:$1|Iwwersetzung|Iwwersetzunge}} pro Mount",
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Iwwersetzung|Iwwersetzungen}}",
-	"twnmp-reviews-per-month": "Nogekuckt pro Mount",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|Nogekuckt}}/Mount",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Dir sidd deen Eenzege<!-- $1 --><br />fir $4|Plaz $2 vu(n) $3<br />fir $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Dir sidd deen Eenzegen<!-- $1 -->|Plaz $2 vu(n) $3}}",
 	"twnmp-add-project": "Setzt Ären Open-Source Projet fir d'Iwwersetzung derbäi",

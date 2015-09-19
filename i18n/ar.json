@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"مشعل الحربي"
+			"مشعل الحربي",
+			"Meno25"
 		]
 	},
+	"twnmp-mainpage": "الصفحة الرئيسية",
 	"twnmp-view-button": "عرض الترجمات",
 	"twnmp-translations-in-sandbox": "ترجمات",
 	"twnmp-sandboxed": "أنت بحاجة إلى تقديم المزيد من الترجمات للحصول على صلاحيات الترجمة الكاملة.",

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kosovastar"
+		]
+	},
+	"twnmp-translations-per-month": "{{PLURAL:$1|Përkthime}}/muaj",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Përkthime}}",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|Shqyrtime}}/muaj"
+}

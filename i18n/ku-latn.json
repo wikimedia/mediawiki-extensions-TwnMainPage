@@ -3,11 +3,12 @@
 		"authors": [
 			"George Animal",
 			"Ghybu",
-			"Bikarhêner"
+			"Bikarhêner",
+			"Kosovastar"
 		]
 	},
 	"twnmp-mainpage": "Destpêk",
-	"twnmp-s-translators": "{{PLURAL:$1|Translator|Wergêr}}",
+	"twnmp-s-translators": "{{PLURAL:$1|Përkthyes|Përkthyesë}}",
 	"twnmp-s-projects": "{{PLURAL:$1|Proje}}",
 	"twnmp-s-languages": "{{PLURAL:$1|Zimanê|Zimanên}} çalak",
 	"twnmp-s-messages": "{{PLURAL:$1|Message|Peyam}} ku bên wergerandin",

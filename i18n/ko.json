@@ -5,7 +5,8 @@
 			"아라",
 			"Clockoon",
 			"Priviet",
-			"Revi"
+			"Revi",
+			"Hwangjy9"
 		]
 	},
 	"twnmp-desc": "translatewiki.net 대문을 제공합니다",
@@ -31,8 +32,8 @@
 	"twnmp-your-translations-stats": "내 번역 통계",
 	"twnmp-your-translations-stats-all-languages": "모든 언어",
 	"twnmp-your-view-language-stats": "언어 통계 보기",
-	"twnmp-translations-per-month": "번역/월",
-	"twnmp-translations-in-sandbox": "번역",
+	"twnmp-translations-per-month": "{{PLURAL:$1|번역}}/월",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|번역}}",
 	"twnmp-reviews-per-month": "검토/월",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=$4에서는<br />한 명 뿐입니다|$4에서<br />$3명 중 $2{{GENDER:$1|위}}}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=한 명 뿐입니다|$3명 중 $2{{GENDER:$1|위}}}}",

@@ -39,7 +39,7 @@ class SpecialTwnMainPage extends SpecialPage {
 				array(
 					'name' => 'twnmp-s-projects',
 					'stats' => $stats['projects'],
-					'url' => Title::makeTitle( NS_CATEGORY, 'Supported projects')->getLocalUrl(),
+					'url' => Title::makeTitle( NS_CATEGORY, 'Supported projects' )->getLocalUrl(),
 				),
 				array(
 					'name' => 'twnmp-s-translators',
@@ -58,10 +58,11 @@ class SpecialTwnMainPage extends SpecialPage {
 				array(
 					'name' => 'twnmp-s-languages',
 					'stats' => $stats['languages'],
-					'url' => SpecialPage::getTitleFor( 'SupportedLanguages'	)->getLocalUrl(),
+					'url' => SpecialPage::getTitleFor( 'SupportedLanguages' )->getLocalUrl(),
 				),
 			),
 		);
+
 		return $data;
 	}
 
@@ -331,7 +332,6 @@ HTML;
 <div class="twelve columns action">$view</div>
 
 HTML;
-
 		} else {
 			return <<<HTML
 <div class="six columns action">$translate</div>

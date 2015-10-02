@@ -35,7 +35,7 @@
 	"twnmp-your-view-language-stats": "Afficher les statistiques de langue",
 	"twnmp-translations-per-month": "{{PLURAL:$1|Traductions}}/mois",
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Traductions}}",
-	"twnmp-reviews-per-month": "Relectures/mois",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|Relectures}}/mois",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Vous êtes le seul<br />pour $4|{{GENDER:$1|Classé}} $2 sur $3<br />pour $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Vous êtes le seul|{{GENDER:$1|Classé}} $2 sur $3}}",
 	"twnmp-add-project": "Ajouter votre projet open source pour traduction",

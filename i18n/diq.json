@@ -2,14 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Marmase",
-			"Mirzali"
+			"Mirzali",
+			"Gorizon"
 		]
 	},
 	"twnmp-mainpage": "Pela Seri",
 	"twnmp-s-translators": "{{PLURAL:$1|Açerner|Açerneri}}",
 	"twnmp-s-projects": "{{PLURAL:$1|Proca|Procey}}",
-	"twnmp-s-languages": "{{PLURAL:$1|zıwan|Zıwani}} biya aktiv",
+	"twnmp-s-languages": "Aktiv {{PLURAL:$1|zıwan|zıwani}}",
+	"twnmp-s-messages": "Qandé açarnayışi vınderdé {{PLURAL:$1|Mesac|Mesaci}}",
 	"twnmp-bannerwho": "Resım $1",
+	"twnmp-brand-motto": "Cemaeté açarnayışé akerde çımi",
 	"twnmp-login": "Cı kewe",
 	"twnmp-logout": "Veciyayış",
 	"twnmp-search-button": "Bıvin",
@@ -20,5 +23,9 @@
 	"twnmp-proofread-button": "Çımraraviyarnayış",
 	"twnmp-view-button": "Açarnayışa bıvin",
 	"twnmp-your-translations-stats": "Açarnayışe İstatıstıkan",
+	"twnmp-your-view-language-stats": "İstatistikané zıwani bımocne",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Açarnayoğ}}/meng",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|Asayış}}/meng",
+	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=$4 zıwan de teyna şıma<br />açarnayoğé|Zıwan dé $4 de $3 açarnayoğan ra şıma yé {{GENDER:$1|reze da}} $2 de yé<br />}}",
 	"twnmp-create-account-cancel": "Bıtexelne"
 }

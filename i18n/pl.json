@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Chrumps",
-			"WTM"
+			"WTM",
+			"The Polish"
 		]
 	},
 	"twnmp-mainpage": "Strona główna",
@@ -27,9 +28,9 @@
 	"twnmp-your-translations-stats": "Twoje statystyki tłumaczeń",
 	"twnmp-your-translations-stats-all-languages": "Dla wszystkich języków",
 	"twnmp-your-view-language-stats": "Statystyka tłumaczenia",
-	"twnmp-translations-per-month": "tłumaczenia/miesiąc",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Tłumaczenie|Tłumaczenia}} miesięcznie",
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Tłumaczenie|Tłumaczenia}}",
-	"twnmp-reviews-per-month": "przeglądy/miesiąc",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|Przegląd|Przeglądy}} miesięcznie",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Jesteś jedynym tłumaczem<br />dla język $4|Jesteś {{GENDER:$1|tłumaczem|tłumaczką}} o rankingu $2 z $3<br />dla język $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Jesteś {{GENDER:$1|jedynym tłumaczem|jedyną tłumaczką}} |Jesteś {{GENDER:$1|tłumaczem|tłumaczką}} o rankingu $2 z $3}}",
 	"twnmp-add-project": "Dodaj do tłumaczenia swój projekt open source",

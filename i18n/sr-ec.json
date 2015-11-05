@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Milicevic01"
+			"Milicevic01",
+			"Сербијана"
 		]
 	},
 	"twnmp-mainpage": "Главна страна",
@@ -32,7 +33,7 @@
 	"twnmp-bottom-about": "О пројекту translatewiki.net",
 	"twnmp-signup-username-placeholder": "Корисничко име",
 	"twnmp-signup-password-placeholder": "Лозинка",
-	"twnmp-signup-email-placeholder": "Е-пошта",
+	"twnmp-signup-email-placeholder": "Имејл",
 	"twnmp-create-account-button": "Отвори налог",
 	"twnmp-become-translator": "Постани преводилац",
 	"twnmp-join-community": "Придружите се заједници",

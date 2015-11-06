@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Milicevic01",
-			"Сербијана"
+			"Сербијана",
+			"Rancher"
 		]
 	},
 	"twnmp-mainpage": "Главна страна",
@@ -18,9 +19,9 @@
 	"twnmp-search-button": "Пронађи",
 	"twnmp-search-choose-project": "Изаберите пројекат који желите да преводите",
 	"twnmp-translate-link": "Преведи",
-	"twnmp-proofread-link": "Провера",
+	"twnmp-proofread-link": "Редигуј",
 	"twnmp-translate-button": "Преведи",
-	"twnmp-proofread-button": "Провера",
+	"twnmp-proofread-button": "Преглед",
 	"twnmp-view-button": "Погледај преводе",
 	"twnmp-your-translations-stats": "Ваша статистика превођења",
 	"twnmp-your-translations-stats-all-languages": "За све језике",

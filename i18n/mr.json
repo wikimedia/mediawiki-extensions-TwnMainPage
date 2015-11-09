@@ -4,5 +4,13 @@
 			"V.narsikar"
 		]
 	},
-	"twnmp-logout": "सनोंद-निर्गम"
+	"twnmp-s-projects": "{{PLURAL:$1|प्रकल्प}}",
+	"twnmp-s-languages": "सक्रिय {{PLURAL:$1|भाषा}}",
+	"twnmp-s-messages": "भाषांतरासाठीचे {{PLURAL:$1|संदेश}}",
+	"twnmp-brand-motto": "मुक्त स्रोत भाषांतर करणारा समाज",
+	"twnmp-logout": "सनोंद-निर्गम",
+	"twnmp-your-translations-stats": "आपली भाषांतर सांख्यिकी",
+	"twnmp-translations-per-month": "{{PLURAL:$1|भाषांतरे}}/महिना",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|पुनरावलोकने}}/महिना",
+	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=आपण एकमेव आहात<br /> $4 साठी|$4 साठी <br /> $3 पैकी $2 {{GENDER:$1|ही आपली श्रेणी आहे}}}}"
 }

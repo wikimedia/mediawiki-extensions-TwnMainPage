@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"DzWiki"
+			"DzWiki",
+			"Srdjan m"
 		]
 	},
 	"twnmp-mainpage": "Glavna strana",
@@ -18,8 +19,8 @@
 	"twnmp-your-translations-stats": "Vaša statistika prevođenja",
 	"twnmp-your-translations-stats-all-languages": "Za sve jezike",
 	"twnmp-translations-per-month": "Prijevoda mjesečno",
-	"twnmp-translations-in-sandbox": "Prijevodi",
-	"twnmp-reviews-per-month": "Provjera mjesečno",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Prijevodi}}",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|Provjera}} mjesečno",
 	"twnmp-bottom-help": "Pomoć",
 	"twnmp-bottom-languages-supported": "Podržani jezici",
 	"twnmp-bottom-about": "O",

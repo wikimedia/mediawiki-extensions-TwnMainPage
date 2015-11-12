@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gmelfi"
+			"Gmelfi",
+			"Sarvaturi"
 		]
 	},
 	"twnmp-login": "Trasi",
-	"twnmp-logout": "Nesci"
+	"twnmp-logout": "Nesci",
+	"twnmp-bottom-languages-supported": "Lingui mantinuti"
 }

@@ -6,9 +6,9 @@ class SignupPage
   div(:signup_language_selector, class: 'signup-language-selector')
   text_field(:language_filter, id: 'uls-languagefilter')
   def select_signup_language(language)
-    self.signup_language_selector_element.click
+    signup_language_selector_element.click
     self.language_filter = language
-    self.language_filter_element.send_keys :return
+    language_filter_element.send_keys :return
   end
 
   text_field(:username, name: 'wpName')

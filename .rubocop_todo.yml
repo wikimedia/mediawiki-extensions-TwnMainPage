@@ -26,9 +26,3 @@ Style/IndentationWidth:
 Style/RedundantSelf:
   Exclude:
     - 'tests/browser/features/support/pages/signup_page.rb'
-
-# Offense count: 2
-# Cop supports --auto-correct.
-# Configuration parameters: EnforcedStyleForEmptyBraces, SupportedStyles.
-Style/SpaceInsideHashLiteralBraces:
-  EnforcedStyle: no_space

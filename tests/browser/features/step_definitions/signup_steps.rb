@@ -1,6 +1,6 @@
 Given(/^I am logged out on the main page$/) do
   # The beta=1 will be removed once this feature is considered stable
-  visit(SignupPage, using_params: {extra: 'beta=1'})
+  visit(SignupPage, using_params: { extra: 'beta=1' })
 end
 
 When(/^I choose a language I speak$/) do

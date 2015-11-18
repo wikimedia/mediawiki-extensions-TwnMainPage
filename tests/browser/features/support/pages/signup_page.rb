@@ -1,8 +1,7 @@
 class SignupPage
 	include PageObject
 
-	include URL
-	page_url URL.url("Special:MainPage?<%=params[:extra]%>")
+	page_url "Special:MainPage?<%=params[:extra]%>"
 
 	div(:signup_language_selector, class: "signup-language-selector")
 	text_field(:language_filter, id: "uls-languagefilter")

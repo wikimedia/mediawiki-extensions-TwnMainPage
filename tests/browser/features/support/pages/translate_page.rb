@@ -1,8 +1,7 @@
 class TranslatePage
 	include PageObject
 
-	include URL
-	page_url URL.url("Special:Translate")
+	page_url "Special:Translate"
 
 	span(:selected_group, css: ".grouplink.tail")
 	button(:translate_mode_button, class: "translate-mode-button")

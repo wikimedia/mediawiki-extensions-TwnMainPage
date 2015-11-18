@@ -27,8 +27,8 @@ Then(/^I should see a list of recent messages in the translation view$/) do
   on(TranslatePage) do |page|
     # Assuming Finnish here. If that assumption proves to be unreliable,
     # we can check the data msggroupid attribute instead.
-    page.selected_group.should == "Tuoreet lisäykset"
-    page.translate_mode_button_element.attribute("class").should match(/\bdown\b/)
+    page.selected_group.should == 'Tuoreet lisäykset'
+    page.translate_mode_button_element.attribute('class').should match(/\bdown\b/)
   end
 end
 
@@ -36,13 +36,13 @@ Then(/^I should see a list of recent translations in the proofreading view$/) do
   on(TranslatePage) do |page|
     # Assuming Finnish here. If that assumption proves to be unreliable,
     # we can check the data msggroupid attribute instead.
-    page.selected_group.should == "Tuoreet käännökset"
-    page.proofread_mode_button_element.attribute("class").should match(/\bdown\b/)
+    page.selected_group.should == 'Tuoreet käännökset'
+    page.proofread_mode_button_element.attribute('class').should match(/\bdown\b/)
   end
 end
 
 When(/^I hover a project tile$/) do
-  on(MainPage).project_tile_element.fire_event("onmouseover")
+  on(MainPage).project_tile_element.fire_event('onmouseover')
 end
 
 When(/^I click the "(.*?)" button on a project tile$/) do |action|
@@ -50,11 +50,11 @@ When(/^I click the "(.*?)" button on a project tile$/) do |action|
 end
 
 Then(/^I should see a list of messages in the the translation view$/) do
-  on(TranslatePage).translate_mode_button_element.attribute("class").should match(/\bdown\b/)
+  on(TranslatePage).translate_mode_button_element.attribute('class').should match(/\bdown\b/)
 end
 
 Then(/^I should see a list of messages in the the proofreading view$/) do
-  on(TranslatePage).proofread_mode_button_element.attribute("class").should match(/\bdown\b/)
+  on(TranslatePage).proofread_mode_button_element.attribute('class').should match(/\bdown\b/)
 end
 
 When(/^I click the message group selector tile$/) do

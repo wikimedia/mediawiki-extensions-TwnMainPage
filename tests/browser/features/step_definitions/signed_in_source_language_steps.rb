@@ -2,7 +2,7 @@
 
 Given(/^I change my interface language to English$/) do
   visit(PreferencesPage) do |page|
-    page.set_interface_language_element.select_value "en"
+    page.set_interface_language_element.select_value 'en'
     page.save_element.click
   end
 end
@@ -46,5 +46,5 @@ When(/^I should not see statsbars in the project tiles$/) do
 end
 
 Then(/^the target language is Polish$/) do
-  on(TranslatePage).target_language.should == "polski"
+  on(TranslatePage).target_language.should == 'polski'
 end

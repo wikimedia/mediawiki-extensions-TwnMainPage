@@ -1,10 +1,10 @@
 Given(/^I am logged out on the main page$/) do
   # The beta=1 will be removed once this feature is considered stable
-  visit(SignupPage, using_params: {extra: "beta=1"})
+  visit(SignupPage, using_params: {extra: 'beta=1'})
 end
 
 When(/^I choose a language I speak$/) do
-  on(SignupPage).select_signup_language("he")
+  on(SignupPage).select_signup_language('he')
 end
 
 When(/^I input a unique username$/) do
@@ -28,7 +28,7 @@ When(/^I indicate that I am a developer$/) do
 end
 
 When(/^I input a reason$/) do
-  on(SignupPage).reason = "I am a wannabe developer ;)"
+  on(SignupPage).reason = 'I am a wannabe developer ;)'
 end
 
 Then(/^I should be logged in into a new account$/) do

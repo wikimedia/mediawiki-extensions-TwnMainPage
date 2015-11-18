@@ -32,9 +32,3 @@ Style/RedundantSelf:
 # Configuration parameters: EnforcedStyleForEmptyBraces, SupportedStyles.
 Style/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
-
-# Offense count: 63
-# Cop supports --auto-correct.
-# Configuration parameters: SupportedStyles.
-Style/StringLiterals:
-  EnforcedStyle: double_quotes

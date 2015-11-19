@@ -12,5 +12,6 @@
 	"twnmp-your-translations-stats": "आपली भाषांतर सांख्यिकी",
 	"twnmp-translations-per-month": "{{PLURAL:$1|भाषांतरे}}/महिना",
 	"twnmp-reviews-per-month": "{{PLURAL:$1|पुनरावलोकने}}/महिना",
-	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=आपण एकमेव आहात<br /> $4 साठी|$4 साठी <br /> $3 पैकी $2 {{GENDER:$1|ही आपली श्रेणी आहे}}}}"
+	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=आपण एकमेव आहात<br /> $4 साठी|$4 साठी <br /> $3 पैकी $2 {{GENDER:$1|ही आपली श्रेणी आहे}}}}",
+	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=आपण एकमेव आहात|$3 पैकी $2{{GENDER:$1|श्रेणी}} }}"
 }

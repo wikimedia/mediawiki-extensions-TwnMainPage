@@ -639,8 +639,6 @@ HTML;
 	</div>
 HTML;
 
-		$token = Html::hidden( 'wpSandboxToken', ApiTranslateSandbox::getToken() );
-
 		$action = SpecialPage::getTitleFor( 'Userlogin' )->getLocalUrl(
 			array(
 				'returnto' => 'Special:MainPage',
@@ -653,7 +651,7 @@ HTML;
 				'method' => 'post',
 				'action' => $action,
 			),
-			"\n\t$token\n$contents\n"
+			"\n$contents\n"
 		);
 
 		return "\n$out\n";

@@ -153,7 +153,7 @@
 				comment: $form.find( 'textarea' ).val()
 			} );
 
-			reqCreate = api.postWithToken( 'translatesandbox', {
+			reqCreate = api.postWithToken( 'csrf', {
 				action: 'translatesandbox',
 				'do': 'create',
 				username: username,
@@ -172,7 +172,7 @@
 					var reqOptions,
 						api = new mw.Api();
 
-					reqOptions = api.postWithToken( 'options', {
+					reqOptions = api.postWithToken( 'csrf', {
 						action: 'options',
 						optionname: 'translate-sandbox',
 						optionvalue: preferences

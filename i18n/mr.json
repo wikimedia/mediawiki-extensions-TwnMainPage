@@ -13,11 +13,15 @@
 	"twnmp-search-placeholder": "भाषांतरे शोधा व त्यांना ठिकठाक करा",
 	"twnmp-search-button": "शोधा",
 	"twnmp-search-choose-project": "भाषांतर करण्यासाठी एखादा प्रकल्प निवडा",
+	"twnmp-translate-button": "भाषांतर करा",
+	"twnmp-proofread-button": "पुनरावलोकन",
 	"twnmp-your-translations-stats": "आपली भाषांतर सांख्यिकी",
 	"twnmp-your-view-language-stats": "भाषांतर सांख्यिकी बघा",
 	"twnmp-translations-per-month": "{{PLURAL:$1|भाषांतरे}}/महिना",
 	"twnmp-reviews-per-month": "{{PLURAL:$1|पुनरावलोकने}}/महिना",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=आपण एकमेव आहात<br /> $4 साठी|$4 साठी <br /> $3 पैकी $2 {{GENDER:$1|ही आपली श्रेणी आहे}}}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=आपण एकमेव आहात|$3 पैकी $2{{GENDER:$1|श्रेणी}} }}",
-	"twnmp-add-project": "भाषांतरासाठी आपला मुक्त स्रोत प्रकल्प येथे जोडा"
+	"twnmp-add-project": "भाषांतरासाठी आपला मुक्त स्रोत प्रकल्प येथे जोडा",
+	"twnmp-bottom-support": "साहाय्य मेज",
+	"twnmp-bottom-languages-supported": "साहाय्यीकृत भाषा"
 }

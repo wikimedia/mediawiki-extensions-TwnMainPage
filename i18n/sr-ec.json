@@ -6,6 +6,7 @@
 			"Rancher"
 		]
 	},
+	"twnmp-desc": "Главна страна translatewiki.net",
 	"twnmp-mainpage": "Главна страна",
 	"twnmp-s-translators": "{{PLURAL:$1|Преводилаца}}",
 	"twnmp-s-projects": "{{PLURAL:$1|Пројеката}}",
@@ -21,7 +22,7 @@
 	"twnmp-translate-link": "Преведи",
 	"twnmp-proofread-link": "Редигуј",
 	"twnmp-translate-button": "Преведи",
-	"twnmp-proofread-button": "Преглед",
+	"twnmp-proofread-button": "Провери",
 	"twnmp-view-button": "Погледај преводе",
 	"twnmp-your-translations-stats": "Ваша статистика превођења",
 	"twnmp-your-translations-stats-all-languages": "За све језике",
@@ -29,6 +30,8 @@
 	"twnmp-translations-per-month": "превода месечно",
 	"twnmp-translations-in-sandbox": "Преводи",
 	"twnmp-reviews-per-month": "провера месечно",
+	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Јединисте преводилац<br />на $4|{{GENDER:$1|Ранг:}} $2 од $3<br />за $4}}",
+	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Јединисте|{{GENDER:$1|Ранг:}} $2 од $3}}",
 	"twnmp-bottom-help": "Помоћ",
 	"twnmp-bottom-languages-supported": "Подржани језици",
 	"twnmp-bottom-about": "О пројекту translatewiki.net",
@@ -36,8 +39,15 @@
 	"twnmp-signup-password-placeholder": "Лозинка",
 	"twnmp-signup-email-placeholder": "Имејл",
 	"twnmp-create-account-button": "Отвори налог",
+	"twnmp-signup-error-invalidusername": "Корисничко име није ваљано. Изаберите друго.",
+	"twnmp-signup-error-nonfreeusername": "Корисничко име је заузето. Изаберите друго.",
+	"twnmp-signup-error-invalidpassword": "Лозинка није ваљана.",
 	"twnmp-become-translator": "Постани преводилац",
+	"twnmp-choose-languages-you-know": "Изаберите језик",
+	"twnmp-choose-another-language": "Изаберите још један језик",
+	"twnmp-choose-fill-account-details": "Унесите податке за налог",
 	"twnmp-join-community": "Придружите се заједници",
 	"twnmp-create-account-cancel": "Откажи",
-	"twnmp-select-target-language": "Изабери језик"
+	"twnmp-select-target-language": "Изабери језик",
+	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Једна порука|$1 порука}}"
 }

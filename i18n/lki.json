@@ -1,8 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lakzon"
+			"Lakzon",
+			"Hosseinblue"
 		]
 	},
+	"twnmp-brand-motto": "کومڵة متن باز زوون چاوواشآ کرِدن",
+	"twnmp-logout": "دةرچئن/خروج",
+	"twnmp-translate-link": "چاوواشۀکِردن زوون",
+	"twnmp-translate-button": "چاوواشۀکِردن زوون",
+	"twnmp-add-project": "افزودن پروژة متن باز هؤمة ئةرا زوون چاوواشآ کرِدن",
 	"twnmp-sandboxed": "شما باید ترجمه‌های {{PLURAL:$1|بیشتری}} برای گرفتن دسترسی کامل ترجمه انجام دهید."
 }

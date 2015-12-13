@@ -5,10 +5,17 @@
 			"Hosseinblue"
 		]
 	},
+	"twnmp-mainpage": "وةڵگة اصلی/بِنچةک",
 	"twnmp-brand-motto": "کومڵة متن باز زوون چاوواشآ کرِدن",
+	"twnmp-login": "نؤم هۀتن سیستم",
 	"twnmp-logout": "دةرچئن/خروج",
+	"twnmp-search-button": "پیاکردن-ئادین",
 	"twnmp-translate-link": "چاوواشۀکِردن زوون",
 	"twnmp-translate-button": "چاوواشۀکِردن زوون",
+	"twnmp-proofread-button": "بازبینی",
 	"twnmp-add-project": "افزودن پروژة متن باز هؤمة ئةرا زوون چاوواشآ کرِدن",
-	"twnmp-sandboxed": "شما باید ترجمه‌های {{PLURAL:$1|بیشتری}} برای گرفتن دسترسی کامل ترجمه انجام دهید."
+	"twnmp-sandboxed": "شما باید ترجمه‌های {{PLURAL:$1|بیشتری}} برای گرفتن دسترسی کامل ترجمه انجام دهید.",
+	"twnmp-create-account-cancel": "ئآهووسانن/لغو",
+	"twnmp-join-community-info": "نمی‌توانید الان ترجمه اضافه کنید؟ با این وجود می‌توانید به ما بپیوندید.",
+	"twnmp-select-target-language": "زوون انتخاب کۀ"
 }

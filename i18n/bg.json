@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"DCLXVI",
-			"StanProg"
+			"StanProg",
+			"Vodnokon4e"
 		]
 	},
 	"twnmp-desc": "Текст за началната страница на translatewiki.net",
@@ -28,13 +29,13 @@
 	"twnmp-your-translations-stats": "Вашите преводни статистики",
 	"twnmp-your-translations-stats-all-languages": "За всички езици",
 	"twnmp-your-view-language-stats": "Преглед на преводната статистика",
-	"twnmp-translations-per-month": "Преводи на месец",
-	"twnmp-translations-in-sandbox": "Преводи",
-	"twnmp-reviews-per-month": "Проверки на месец",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Преводи}} за месец",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Преводи}}",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|Проверки}} за месец",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Вие сте единственият<br />за $4|{{GENDER:$1|Класиран|Класирана}} $2 от $3<br />за $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Вие сте единственият|{{GENDER:$1|Класиран|Класирана}} $2 от $3}}",
 	"twnmp-add-project": "Добавете вашия проект с отворен код за превод",
-	"twnmp-sandboxed": "Трябва да предоставите повече преводи, за да получите пълни права за превод.",
+	"twnmp-sandboxed": "Трябва да предоставите {{PLURAL:$1|0=няколко превода|повече преводи}}, за да завършите регистрацията си.",
 	"twnmp-sandboxed-limit": "Достигнали сте ограничението за превод. Екипът ни ще провери и ще повиши статуса на акаунта ви в скоро време.",
 	"twnmp-bottom-help": "Помощ",
 	"twnmp-bottom-support": "Служба за поддръжка",
@@ -58,7 +59,7 @@
 	"twnmp-join-community-desc": "Ако сте разработчик, заинтересован от документиране на преводи или просто проучвате платформата, също сте добре дошли.",
 	"twnmp-join-community-reason": "Защо искате да се присъедините към нас?",
 	"twnmp-create-account-cancel": "Отказване",
-	"twnmp-join-community-info": "Не сте преводач? Все пак можете да се присъедините към общността.",
+	"twnmp-join-community-info": "Не можете веднага да направите някои преводи? Все още можете да се присъедините към общността.",
 	"twnmp-select-target-language": "Избиране на език",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Едно съобщение|$1 съобщения}}"
 }

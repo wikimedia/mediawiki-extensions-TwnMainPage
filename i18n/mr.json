@@ -22,6 +22,8 @@
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=आपण एकमेव आहात<br /> $4 साठी|$4 साठी <br /> $3 पैकी $2 {{GENDER:$1|ही आपली श्रेणी आहे}}}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=आपण एकमेव आहात|$3 पैकी $2{{GENDER:$1|श्रेणी}} }}",
 	"twnmp-add-project": "भाषांतरासाठी आपला मुक्त स्रोत प्रकल्प येथे जोडा",
+	"twnmp-bottom-help": "साहाय्य",
 	"twnmp-bottom-support": "साहाय्य मेज",
-	"twnmp-bottom-languages-supported": "साहाय्यीकृत भाषा"
+	"twnmp-bottom-languages-supported": "साहाय्यीकृत भाषा",
+	"twnmp-bottom-about": "आमच्याबद्दल"
 }

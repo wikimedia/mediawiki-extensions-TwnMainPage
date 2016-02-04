@@ -5,10 +5,20 @@
 			"Edinwiki"
 		]
 	},
+	"twnmp-desc": "Glavna strana translatewiki.net",
 	"twnmp-show-more-projects": "Prikaži sve projekte...",
 	"twnmp-proofread-button": "Proveri",
 	"twnmp-translations-in-sandbox": "Prevodi",
+	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Jedini ste prevodilac<br />na $4|{{GENDER:$1|Rang:}} $2 od $3<br />za $4}}",
+	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Jedini ste|{{GENDER:$1|Rang:}} $2 od $3}}",
 	"twnmp-bottom-help": "Pomoć",
+	"twnmp-signup-error-invalidusername": "Korisničko ime nije valjano. Izaberite drugo.",
+	"twnmp-signup-error-nonfreeusername": "Korisničko ime je zauzeto. Izaberite drugo.",
+	"twnmp-signup-error-invalidpassword": "Lozinka nije valjana.",
+	"twnmp-choose-languages-you-know": "Izaberite jezik",
+	"twnmp-choose-another-language": "Izaberite još jedan jezik",
+	"twnmp-choose-fill-account-details": "Unesite podatke za nalog",
 	"twnmp-create-account-cancel": "Otkaži",
-	"twnmp-select-target-language": "Izaberi jezik"
+	"twnmp-select-target-language": "Izaberi jezik",
+	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Jedna poruka|$1 poruka}}"
 }

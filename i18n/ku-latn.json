@@ -27,7 +27,7 @@
 	"twnmp-your-translations-stats-all-languages": "Bo hemû zimanan",
 	"twnmp-your-view-language-stats": "Statîstîkên ziman bibîne",
 	"twnmp-translations-per-month": "Werger/meh",
-	"twnmp-translations-in-sandbox": "Werger",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Werger}}",
 	"twnmp-bottom-help": "Alîkarî",
 	"twnmp-bottom-languages-supported": "Zimanên tên piştgirîkirin",
 	"twnmp-bottom-about": "Derbarê",

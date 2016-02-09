@@ -4,5 +4,8 @@
 			"Conquistador"
 		]
 	},
+	"twnmp-mainpage": "Glavna stranica",
+	"twnmp-signup-password-placeholder": "Lozinka",
+	"twnmp-create-account-button": "Izradi račun",
 	"twnmp-create-account-cancel": "Otkaži"
 }

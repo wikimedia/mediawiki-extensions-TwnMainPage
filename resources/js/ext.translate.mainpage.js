@@ -1,5 +1,6 @@
-/**
+/*!
  * Dynamic behavior for the main page
+ *
  * @author Niklas Laxström
  * @license GPL-2.0+
  */
@@ -12,7 +13,7 @@
 	function setupStatsTiles() {
 		var $tiles = $( '.stats-tile' ).not( '.unused' );
 
-		$tiles.click( function( e ) {
+		$tiles.click( function ( e ) {
 			e.stopPropagation();
 			location.href = $( this ).find( 'a' ).prop( 'href' );
 		} );
@@ -101,7 +102,7 @@
 
 		$( '.twn-mainpage-project-tiles' ).before( $sameLanguageULSTrigger );
 
-		delete sameLanguageULSLanguages[sourceLanguage];
+		delete sameLanguageULSLanguages[ sourceLanguage ];
 		$sameLanguageULSTrigger.uls( {
 			languages: sameLanguageULSLanguages,
 			top: '20%',

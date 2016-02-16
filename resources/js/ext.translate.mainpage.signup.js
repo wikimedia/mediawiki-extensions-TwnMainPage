@@ -1,4 +1,4 @@
-/**
+/*!
  * Handle the signup thingie.
  *
  * @author Niklas Laxström
@@ -87,8 +87,9 @@
 
 		/**
 		 * Account creation can fail on invalid user input.
+		 *
 		 * @param {string} errorcode Error code as returned by MW api
-		 * @param {object} result Result retuned by MW api
+		 * @param {Object} result Result retuned by MW api
 		 */
 		function handleAccountCreationFailure( errorcode, result ) {
 			var $element = $( [] );
@@ -131,6 +132,7 @@
 
 		/**
 		 * Handles the chain of many ajax requests when user submits the signup form.
+		 *
 		 * @param {jQuery.Event} e
 		 */
 		function handleSubmit( e ) {

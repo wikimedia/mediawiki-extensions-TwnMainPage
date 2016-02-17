@@ -33,35 +33,35 @@ class SpecialTwnMainPage extends SpecialPage {
 	}
 
 	protected function getStatsTiles( $stats ) {
-		$data = array(
+		$data = [
 			// Rows X cols
-			array(
-				array(
+			[
+				[
 					'name' => 'twnmp-s-projects',
 					'stats' => $stats['projects'],
 					'url' => Title::makeTitle( NS_CATEGORY, 'Supported projects' )->getLocalUrl(),
-				),
-				array(
+				],
+				[
 					'name' => 'twnmp-s-translators',
 					'stats' => $stats['translators'],
 					'url' => SpecialPage::getTitleFor( 'Activeusers' )->getLocalUrl(),
-				),
-				array(
+				],
+				[
 					'name' => 'twnmp-s-messages',
 					'stats' => $stats['messages'],
 					'url' => SpecialPage::getTitleFor( 'Translate' )->getLocalUrl(),
-				),
-			),
-			array(
+				],
+			],
+			[
 				null,
 				null,
-				array(
+				[
 					'name' => 'twnmp-s-languages',
 					'stats' => $stats['languages'],
 					'url' => SpecialPage::getTitleFor( 'SupportedLanguages' )->getLocalUrl(),
-				),
-			),
-		);
+				],
+			],
+		];
 
 		return $data;
 	}
@@ -75,11 +75,11 @@ class SpecialTwnMainPage extends SpecialPage {
 		$this->setHeaders();
 		$out->setArticleBodyOnly( true );
 		// Default modules copied from OutputPage::addDefaultModules
-		$out->addModules( array(
+		$out->addModules( [
 			'mediawiki.user',
 			'mediawiki.page.startup',
 			'mediawiki.page.ready',
-		) );
+		] );
 
 		$out->addModuleStyles( 'jquery.uls.grid' );
 		$out->addModuleStyles( 'ext.translate.mainpage.styles' );
@@ -96,7 +96,7 @@ class SpecialTwnMainPage extends SpecialPage {
 
 		// Enable this if you need useful debugging information
 		// $out->addHtml( MWDebug::getDebugHTML( $this->getContext() ) );
-		Hooks::run( 'BeforePageDisplay', array( &$out, &$skin ) );
+		Hooks::run( 'BeforePageDisplay', [ &$out, &$skin ] );
 		$out->addHTML( $skin->bottomScripts() );
 		$out->addHTML( '</body></html>' );
 	}
@@ -106,7 +106,7 @@ class SpecialTwnMainPage extends SpecialPage {
 
 		$out->addHTML( Html::openElement(
 			'div',
-			array( 'class' => 'grid twn-mainpage' )
+			[ 'class' => 'grid twn-mainpage' ]
 		) );
 		$out->addHTML( $this->header() );
 		$out->addHTML( $this->banner() );
@@ -124,30 +124,30 @@ class SpecialTwnMainPage extends SpecialPage {
 
 		$code = $this->getLanguage()->getCode();
 		$languageName = TranslateUtils::getLanguageName( $code, $code );
-		$uls = Html::element( 'span', array( 'class' => 'uls-trigger' ), $languageName );
+		$uls = Html::element( 'span', [ 'class' => 'uls-trigger' ], $languageName );
 
 		$userLink = '';
 
 		$user = $this->getUser();
 		if ( $user->isLoggedIn() ) {
-			$params = array(
+			$params = [
 				'class' => 'login username text-right',
 				'href' => $user->getUserPage()->getLocalUrl(),
-			);
+			];
 			$userLink = Html::element( 'a', $params, $user->getName() );
 
 			$logout = SpecialPage::getTitleFor( 'Userlogout' );
-			$params = array(
+			$params = [
 				'class' => 'logout text-right',
-				'href' => $logout->getLocalUrl( array( 'returnto' => 'Special:MainPage' ) ),
-			);
+				'href' => $logout->getLocalUrl( [ 'returnto' => 'Special:MainPage' ] ),
+			];
 			$loginout = Html::element( 'a', $params, $this->msg( 'twnmp-logout' )->text() );
 		} else {
 			$login = SpecialPage::getTitleFor( 'Userlogin' );
-			$params = array(
+			$params = [
 				'class' => 'login text-right',
-				'href' => $login->getLocalUrl( array( 'returnto' => 'Special:MainPage' ) ),
-			);
+				'href' => $login->getLocalUrl( [ 'returnto' => 'Special:MainPage' ] ),
+			];
 			$loginout = Html::element( 'a', $params, $this->msg( 'twnmp-login' )->text() );
 		}
 
@@ -170,13 +170,13 @@ HTML;
 
 	public function searchBar() {
 		$out = Html::openElement( 'form',
-			array(
+			[
 				'class' => 'row twn-mainpage-search',
 				'action' => SpecialPage::getTitleFor( 'SearchTranslations' )->getLocalUrl(),
-			) );
+			] );
 
 		$out .= Html::element( 'input',
-			array(
+			[
 				'class' => 'ten columns searchbox',
 				'id' => 'twnmp-search-field',
 				// @todo move to JS, placeholders are not supported in IE
@@ -184,21 +184,21 @@ HTML;
 				'type' => 'search',
 				'name' => 'query',
 				'dir' => $this->getLanguage()->getDir(),
-			) );
+			] );
 
 		$out .= Html::element( 'input',
-			array(
+			[
 				'name' => 'language',
 				'value' => $this->getLanguage()->getCode(),
 				'type' => 'hidden',
-			) );
+			] );
 
 		$out .= Html::element( 'button',
-			array(
+			[
 				'class' => 'mw-ui-button mw-ui-progressive',
 				'type' => 'submit',
 				'id' => 'twnmp-search-button',
-			),
+			],
 			$this->msg( 'twnmp-search-button' )->text() );
 		$out .= Html::closeElement( 'form' );
 
@@ -206,7 +206,7 @@ HTML;
 	}
 
 	public function projectSelector() {
-		$out = Html::element( 'div', array( 'class' => 'row twn-mainpage-project-selector-title' ),
+		$out = Html::element( 'div', [ 'class' => 'row twn-mainpage-project-selector-title' ],
 			$this->msg( 'twnmp-search-choose-project' )->text() );
 
 		$groupsSourceLanguage = MessageGroups::haveSingleSourceLanguage(
@@ -216,11 +216,11 @@ HTML;
 
 		$out .= Html::openElement(
 			'div',
-			array(
+			[
 				'class' => 'row twn-mainpage-project-tiles',
 				'data-sourcelanguage' => $groupsSourceLanguage,
 				'data-same-sourcelanguage' => $groupsSourceLanguage === $languageCode,
-			)
+			]
 		);
 
 		$handler = $this->getProjectHandler();
@@ -230,7 +230,7 @@ HTML;
 		$stats = MessageGroupStats::forLanguage( $language );
 		$handler->sortByPriority( $projects, $language, $stats );
 
-		$tiles = array();
+		$tiles = [];
 
 		foreach ( $projects as $group ) {
 			$tiles[] = $this->makeGroupTile( $group, $stats[$group->getId()] );
@@ -277,7 +277,7 @@ HTML;
 		}
 
 		$class = 'project-icon-' . Sanitizer::escapeClass( $id );
-		$image = Html::element( 'div', array( 'class' => $class ) );
+		$image = Html::element( 'div', [ 'class' => $class ] );
 		$label = htmlspecialchars( $group->getLabel( $this->getContext() ) );
 
 		$msggroupid = htmlspecialchars( $id );
@@ -312,20 +312,20 @@ HTML;
 		$user = $this->getUser();
 		$title = SpecialPage::getTitleFor( 'Translate' );
 
-		$view = Html::element( 'a', array(
+		$view = Html::element( 'a', [
 			'class' => 'translate',
-			'href' => $title->getLocalUrl( array( 'group' => $id ) )
-		), $this->msg( 'twnmp-view-link' )->text() );
+			'href' => $title->getLocalUrl( [ 'group' => $id ] )
+		], $this->msg( 'twnmp-view-link' )->text() );
 
-		$translate = Html::element( 'a', array(
+		$translate = Html::element( 'a', [
 			'class' => 'translate',
-			'href' => $title->getLocalUrl( array( 'group' => $id ) )
-		), $this->msg( 'twnmp-translate-link' )->text() );
+			'href' => $title->getLocalUrl( [ 'group' => $id ] )
+		], $this->msg( 'twnmp-translate-link' )->text() );
 
-		$proofread = Html::element( 'a', array(
+		$proofread = Html::element( 'a', [
 			'class' => 'proofread',
-			'href' => $title->getLocalUrl( array( 'group' => $id, 'action' => 'proofread' ) )
-		), $this->msg( 'twnmp-proofread-link' )->text() );
+			'href' => $title->getLocalUrl( [ 'group' => $id, 'action' => 'proofread' ] )
+		], $this->msg( 'twnmp-proofread-link' )->text() );
 
 		if ( $user->isAnon() || TranslateSandbox::isSandboxed( $user ) ) {
 			return <<<HTML
@@ -344,14 +344,14 @@ HTML;
 	public function banner() {
 		global $wgMainPageImages;
 
-		$image = array();
+		$image = [];
 		$images = array_values( $wgMainPageImages );
 		$imageIndex = date( 'z' ) % count( $images );
 		if ( isset( $images[$imageIndex] ) ) {
 			$image = $images[$imageIndex];
 		}
 
-		$bannerAttribs = array( 'class' => 'row twn-mainpage-banner' );
+		$bannerAttribs = [ 'class' => 'row twn-mainpage-banner' ];
 		if ( isset( $image['url'] ) ) {
 			$url = $image['url'];
 			$bannerAttribs['style'] = "background-image: url($url);";
@@ -361,7 +361,7 @@ HTML;
 		$out .= $this->twnStats();
 
 		if ( isset( $image['attribution'] ) ) {
-			$out .= Html::rawElement( 'div', array( 'class' => 'banner-attribution' ),
+			$out .= Html::rawElement( 'div', [ 'class' => 'banner-attribution' ],
 				$this->msg( 'twnmp-bannerwho' )->rawParams( $image['attribution'] )->escaped()
 			);
 		}
@@ -379,36 +379,36 @@ HTML;
 
 		$out = Html::element(
 			'a',
-			array(
+			[
 				'class' => 'row twn-mainpage-add-project',
 				'href' => $add
-			),
+			],
 			$this->msg( 'twnmp-add-project' )->text()
 		);
 
-		$out .= Html::openElement( 'div', array( 'class' => 'row twn-mainpage-footer' ) );
-		$out .= Html::element( 'a', array(
+		$out .= Html::openElement( 'div', [ 'class' => 'row twn-mainpage-footer' ] );
+		$out .= Html::element( 'a', [
 			'class' => 'three column',
 			'href' => Title::newFromText( 'Special:MyLanguage/Project:About' )->getLocalUrl(),
-		), $this->msg( 'twnmp-bottom-about' )->text() );
-		$out .= Html::element( 'a', array(
+		], $this->msg( 'twnmp-bottom-about' )->text() );
+		$out .= Html::element( 'a', [
 			'class' => 'three column',
 			'href' => SpecialPage::getTitleFor( 'SupportedLanguages' )->getLocalUrl(),
-		), $this->msg( 'twnmp-bottom-languages-supported' )->text() );
-		$out .= Html::element( 'a', array(
+		], $this->msg( 'twnmp-bottom-languages-supported' )->text() );
+		$out .= Html::element( 'a', [
 			'class' => 'three column',
 			'href' => Title::newFromText( 'Support' )->getLocalUrl(),
-		), $this->msg( 'twnmp-bottom-support' )->text() );
-		$out .= Html::element( 'a', array(
+		], $this->msg( 'twnmp-bottom-support' )->text() );
+		$out .= Html::element( 'a', [
 			'class' => 'three column',
 			'href' => Title::newFromText( 'Translating:Index' )->getLocalUrl(),
-		), $this->msg( 'twnmp-bottom-help' )->text() );
+		], $this->msg( 'twnmp-bottom-help' )->text() );
 		$out .= Html::closeElement( 'div' );
 
 		global $wgFooterIcons;
 		$skin = $this->getSkin();
 		foreach ( $wgFooterIcons['poweredby'] as $icon ) {
-			$out .= Html::openElement( 'div', array( 'class' => 'row twn-mainpage-poweredby' ) );
+			$out .= Html::openElement( 'div', [ 'class' => 'row twn-mainpage-poweredby' ] );
 			$out .= $skin->makeFooterIcon( $icon, 'noicon' );
 			$out .= Html::closeElement( 'div' );
 		}
@@ -420,15 +420,15 @@ HTML;
 		global $wgTranslateMessageNamespaces;
 
 		$dbr = wfGetDB( DB_SLAVE );
-		$tables = array( 'recentchanges' );
-		$fields = array( 'substring_index(rc_title, \'/\', -1) as lang, count(rc_id) as count' );
-		$conds = array(
+		$tables = [ 'recentchanges' ];
+		$fields = [ 'substring_index(rc_title, \'/\', -1) as lang, count(rc_id) as count' ];
+		$conds = [
 			'rc_title' . $dbr->buildLike( $dbr->anyString(), '/', $dbr->anyString() ),
 			'rc_namespace' => $wgTranslateMessageNamespaces,
 			'rc_timestamp > ' . $dbr->timestamp( wfTimeStamp( TS_UNIX ) - 60 * 60 * 24 * $period ),
 			'rc_bot' => 0,
-		);
-		$options = array( 'GROUP BY' => 'lang', 'HAVING' => 'count > 20' );
+		];
+		$options = [ 'GROUP BY' => 'lang', 'HAVING' => 'count > 20' ];
 
 		$res = $dbr->select( $tables, $fields, $conds, __METHOD__, $options );
 
@@ -450,20 +450,20 @@ HTML;
 		$messages = count( MessageIndex::singleton()->retrieve() );
 		$languages = self::numberOfLanguages( 180 );
 
-		return array(
+		return [
 			'projects' => $projects,
 			'translators' => $translators,
 			'messages' => $messages,
 			'languages' => $languages,
-		);
+		];
 	}
 
 	// Callback for CachedStat
 	public static function getUserStats( $code, $period ) {
-		return array(
+		return [
 			'translators' => TwnUserStats::getTranslationRankings( $code, $period ),
 			'proofreaders' => TwnUserStats::getProofreadRankings( $code, $period ),
-		);
+		];
 	}
 
 	public function twnStats() {
@@ -472,13 +472,13 @@ HTML;
 		$handler = $this->getProjectHandler();
 
 		$cacher = new CachedStat( 'twnstats', $stale, $expired,
-			array( 'SpecialTwnMainPage::getTwnStats', $handler ), 'allow miss' );
+			[ 'SpecialTwnMainPage::getTwnStats', $handler ], 'allow miss' );
 		$stats = $cacher->get();
 
-		$data = array(
-			array( null, null, null ),
-			array( null, null, null ),
-		);
+		$data = [
+			[ null, null, null ],
+			[ null, null, null ],
+		];
 
 		if ( is_array( $stats ) ) {
 			$data = $this->getStatsTiles( $stats );
@@ -556,37 +556,37 @@ HTML;
 			'signuplanguage',
 			'language-' . $languageCode,
 			true,
-			array( 'data-code' => $languageCode )
+			[ 'data-code' => $languageCode ]
 		);
-		$username = Html::element( 'input', array(
+		$username = Html::element( 'input', [
 			'class' => 'eleven columns required',
 			'name' => 'wpName',
 			'autocomplete' => 'off',
 			'required',
 			'placeholder' => $this->msg( 'twnmp-signup-username-placeholder' )->text(),
-		) );
-		$password = Html::element( 'input', array(
+		] );
+		$password = Html::element( 'input', [
 			'class' => 'eleven columns required',
 			'name' => 'wpPassword',
 			'autocomplete' => 'off',
 			'type' => 'password',
 			'required',
 			'placeholder' => $this->msg( 'twnmp-signup-password-placeholder' )->text(),
-		) );
-		$email = Html::element( 'input', array(
+		] );
+		$email = Html::element( 'input', [
 			'class' => 'eleven columns required',
 			'name' => 'wpEmail',
 			'autocomplete' => 'off',
 			'type' => 'email',
 			'required',
 			'placeholder' => $this->msg( 'twnmp-signup-email-placeholder' )->text(),
-		) );
-		$reasonInput = Html::element( 'textarea', array(
+		] );
+		$reasonInput = Html::element( 'textarea', [
 			'class' => 'eleven columns required',
 			'name' => 'reason',
 			'rows' => '4',
 			'required',
-		) );
+		] );
 
 		$contents = <<<HTML
 	<h1 class="row only-dev hide">
@@ -640,17 +640,17 @@ HTML;
 HTML;
 
 		$action = SpecialPage::getTitleFor( 'Userlogin' )->getLocalUrl(
-			array(
+			[
 				'returnto' => 'Special:MainPage',
 				'type' => 'signup'
-			)
+			]
 		);
 
 		$out = Html::rawElement( 'form',
-			array( 'class' => 'five columns main-widget login-widget',
+			[ 'class' => 'five columns main-widget login-widget',
 				'method' => 'post',
 				'action' => $action,
-			),
+			],
 			"\n$contents\n"
 		);
 
@@ -665,9 +665,9 @@ HTML;
 			MessageGroups::getAllGroups()
 		);
 
-		$link = Html::element( 'a', array(
+		$link = Html::element( 'a', [
 			'href' => SpecialPage::getTitleFor( 'LanguageStats' )->getLocalUrl(),
-		), $this->msg( 'twnmp-your-view-language-stats' )->text() );
+		], $this->msg( 'twnmp-your-view-language-stats' )->text() );
 
 		if ( TranslateSandbox::isSandboxed( $this->getUser() ) ) {
 			$subtitleClass = 'for-sandbox';
@@ -715,19 +715,19 @@ HTML;
 		$stale = 60 * 5;
 		$expired = 60 * 60 * 12;
 		$cacher = new CachedStat( "userstats-$languageForStats", $stale, $expired,
-			array(
+			[
 				'SpecialTwnMainPage::getUserStats',
 				$languageForStats,
 				30
-			),
+			],
 			'allow miss'
 		);
 		$statsArray = $cacher->get();
 		if ( $statsArray === null ) {
-			$statsArray = array(
-				'translators' => array(),
-				'proofreaders' => array(),
-			);
+			$statsArray = [
+				'translators' => [],
+				'proofreaders' => [],
+			];
 		}
 
 		if ( $languageForStats === '' ) {
@@ -740,13 +740,13 @@ HTML;
 
 		$myuser = $this->getUser()->getName();
 
-		$out = Html::openElement( 'form', array(
+		$out = Html::openElement( 'form', [
 			'class' => 'row ranking',
 			'action' => SpecialPage::getTitleFor( 'Translate' )->getLocalUrl(),
-		) );
+		] );
 		$out .= Html::hidden( 'action', 'translate' );
 		$out .= Html::hidden( 'group', '!additions' );
-		$out .= Html::openElement( 'div', array( 'class' => 'row eight columns' ) );
+		$out .= Html::openElement( 'div', [ 'class' => 'row eight columns' ] );
 		$stats = $statsArray['translators'];
 		$i = 1;
 		$translators = count( $stats );
@@ -754,12 +754,12 @@ HTML;
 			if ( $user === $myuser ) {
 				$out .= Html::element(
 					'div',
-					array( 'class' => 'count' ),
+					[ 'class' => 'count' ],
 					$this->getLanguage()->formatNum( $count )
 				);
 				$out .= Html::element(
 					'div',
-					array( 'class' => 'count-description' ),
+					[ 'class' => 'count-description' ],
 					$this->msg( 'twnmp-translations-per-month' )->numParams( $count )->text()
 				);
 
@@ -777,23 +777,23 @@ HTML;
 			$i++;
 		}
 		$out .= Html::closeElement( 'div' );
-		$out .= Html::openElement( 'div', array( 'class' => 'four columns' ) );
-		$out .= Html::element( 'button', array(
+		$out .= Html::openElement( 'div', [ 'class' => 'four columns' ] );
+		$out .= Html::element( 'button', [
 			'id' => 'twnmp-translate',
 			'type' => 'submit',
 			'class' => 'mw-ui-button mw-ui-progressive'
-		), $this->msg( 'twnmp-translate-button' )->text() );
+		], $this->msg( 'twnmp-translate-button' )->text() );
 		$out .= Html::closeElement( 'div' );
 		$out .= Html::closeElement( 'form' );
 
 		// Proofreading row
-		$out .= Html::openElement( 'form', array(
+		$out .= Html::openElement( 'form', [
 			'class' => 'row ranking',
 			'action' => SpecialPage::getTitleFor( 'Translate' )->getLocalUrl(),
-		) );
+		] );
 		$out .= Html::hidden( 'action', 'proofread' );
 		$out .= Html::hidden( 'group', '!recent' );
-		$out .= Html::openElement( 'div', array( 'class' => 'row eight columns' ) );
+		$out .= Html::openElement( 'div', [ 'class' => 'row eight columns' ] );
 		$stats = $statsArray['proofreaders'];
 		$i = 1;
 		$translators = count( $stats );
@@ -801,12 +801,12 @@ HTML;
 			if ( $user === $myuser ) {
 				$out .= Html::element(
 					'div',
-					array( 'class' => 'count' ),
+					[ 'class' => 'count' ],
 					$this->getLanguage()->formatNum( $count )
 				);
 				$out .= Html::element(
 					'div',
-					array( 'class' => 'count-description' ),
+					[ 'class' => 'count-description' ],
 					$this->msg( 'twnmp-reviews-per-month' )->numParams( $count )->text()
 				);
 
@@ -824,12 +824,12 @@ HTML;
 			$i++;
 		}
 		$out .= Html::closeElement( 'div' );
-		$out .= Html::openElement( 'div', array( 'class' => 'four columns' ) );
-		$out .= Html::element( 'button', array(
+		$out .= Html::openElement( 'div', [ 'class' => 'four columns' ] );
+		$out .= Html::element( 'button', [
 			'id' => 'twnmp-proofread',
 			'type' => 'submit',
 			'class' => 'mw-ui-button mw-ui-progressive'
-		), $this->msg( 'twnmp-proofread-button' )->text() );
+		], $this->msg( 'twnmp-proofread-button' )->text() );
 		$out .= Html::closeElement( 'div' );
 		$out .= Html::closeElement( 'form' );
 

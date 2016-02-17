@@ -13,30 +13,30 @@ class TwnUserStats {
 
 		$now = wfTimestamp( TS_UNIX );
 		$weekago = $now - $days * 24 * 60 * 60;
-		$ret = array();
+		$ret = [];
 
 		$dbr = wfGetDB( DB_SLAVE );
 
-		$fields = array(
+		$fields = [
 			'user_id' => 'rc_user',
 			'user_name' => 'rc_user_text',
 			'rc_timestamp',
 			'rc_id',
-		);
+		];
 
-		$conds = array(
+		$conds = [
 			'rc_namespace' => $wgTranslateMessageNamespaces,
 			'rc_bot' => 0,
-		);
+		];
 
 		if ( $language !== '' ) {
 			$conds[] = 'rc_title' . $dbr->buildLike( $dbr->anyString(), "/$language" );
 		}
 
-		$options = array(
+		$options = [
 			'ORDER BY' => 'rc_id DESC',
 			'LIMIT' => 500
-		);
+		];
 
 		$cutoff = false;
 
@@ -77,30 +77,30 @@ class TwnUserStats {
 
 		$now = wfTimestamp( TS_UNIX );
 		$weekago = $now - $days * 24 * 60 * 60;
-		$ret = array();
+		$ret = [];
 
 		$dbr = wfGetDB( DB_SLAVE );
 
-		$fields = array(
+		$fields = [
 			'user_id' => 'log_user',
 			'user_name' => 'log_user_text',
 			'actions' => 'count(log_id)'
-		);
+		];
 
-		$conds = array(
+		$conds = [
 			'log_namespace' => $wgTranslateMessageNamespaces,
 			'log_type' => 'translationreview',
 			'log_action' => 'message',
 			'log_timestamp >= ' . $dbr->timestamp( $weekago ),
-		);
+		];
 
 		if ( $language !== '' ) {
 			$conds[] = 'log_title' . $dbr->buildLike( $dbr->anyString(), "/$language" );
 		}
 
-		$options = array(
+		$options = [
 			'GROUP BY' => 'user_name',
-		);
+		];
 
 		$res = $dbr->select( 'logging', $fields, $conds, __METHOD__, $options );
 		foreach ( $res as $row ) {

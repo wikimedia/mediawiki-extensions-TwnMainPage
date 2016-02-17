@@ -21,7 +21,7 @@ class CachedStatTest extends PHPUnit_Framework_TestCase {
 			__METHOD__,
 			/*stale*/10,
 			/*expiry*/10,
-			array( array( $updater, 'calculate' ) ),
+			[ [ $updater, 'calculate' ] ],
 			'update'
 		);
 
@@ -45,7 +45,7 @@ class CachedStatTest extends PHPUnit_Framework_TestCase {
 			__METHOD__,
 			/*stale*/10,
 			/*expiry*/10,
-			array( array( $updater, 'calculate' ) ),
+			[ [ $updater, 'calculate' ] ],
 			'allow miss'
 		);
 		$stub = $this->getMock( 'EmptyBagOStuff' );

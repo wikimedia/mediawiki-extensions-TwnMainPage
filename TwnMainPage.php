@@ -12,13 +12,13 @@ if ( !defined( 'MEDIAWIKI' ) ) {
  * @license GPL-2.0+
  */
 
-$wgExtensionCredits['specialpage'][] = array(
+$wgExtensionCredits['specialpage'][] = [
 	'path' => __FILE__,
 	'name' => 'Translatewiki.net main page',
 	'version' => '2013-05-10',
-	'author' => array( 'Niklas Laxström', 'Santhosh Thottingal' ),
+	'author' => [ 'Niklas Laxström', 'Santhosh Thottingal' ],
 	'descriptionmsg' => 'twnmp-desc',
-);
+];
 
 $dir = __DIR__;
 
@@ -32,16 +32,16 @@ $wgSpecialPages['TwnMainPage'] = 'SpecialTwnMainPage';
 
 $wgJobClasses['CachedStatJob'] = 'CachedStatJob';
 
-$wgMainPageImages = array();
+$wgMainPageImages = [];
 
 // Example
 $wgExtensionFunctions[] = function () {
 	global $wgMainPageImages, $wgExtensionAssetsPath;
-	$wgMainPageImages[] = array(
+	$wgMainPageImages[] = [
 		'url' => "$wgExtensionAssetsPath/TwnMainPage/resources/banners/dance.jpg",
 		'attribution' => '<a href="http://www.flickr.com/photos/ldhendrix/7389351416/">' .
 			'CC-BY ldhendrix</a>',
-	);
+	];
 
 	return true;
 };

@@ -11,7 +11,7 @@
  * Project icons via CSS using SVGs with PNG fallbacks.
  */
 class ResourceLoaderProjectIconsModule extends ResourceLoaderModule {
-	protected $targets = array( 'desktop', 'mobile' );
+	protected $targets = [ 'desktop', 'mobile' ];
 
 	/**
 	 * Get all urls.
@@ -20,7 +20,7 @@ class ResourceLoaderProjectIconsModule extends ResourceLoaderModule {
 	protected function getData() {
 		$handler = new ProjectHandler();
 		$projects = $handler->getProjects();
-		$icons = array();
+		$icons = [];
 		foreach ( $projects as $group ) {
 			wfSuppressWarnings();
 			$id = Sanitizer::escapeClass( $group->getId() );
@@ -66,7 +66,7 @@ CSS;
 			}
 		}
 
-		return array( 'all' => $out );
+		return [ 'all' => $out ];
 	}
 
 	public function getModifiedTime( ResourceLoaderContext $context ) {
@@ -81,10 +81,10 @@ CSS;
 			return $result['timestamp'];
 		}
 		$timestamp = time();
-		$cache->set( $key, array(
+		$cache->set( $key, [
 			'hash' => $hash,
 			'timestamp' => $timestamp,
-		) );
+		] );
 
 		return $timestamp;
 	}

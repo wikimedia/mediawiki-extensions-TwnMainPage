@@ -9,7 +9,7 @@
 
 class ProjectHandler {
 	public function getProjects() {
-		$projects = array();
+		$projects = [];
 
 		$cache = wfGetCache( CACHE_ANYTHING );
 		$cacheKey = wfMemckey( __METHOD__ );

@@ -6,14 +6,14 @@
  * @license GPL-2.0+
  */
 
-$resourcePaths = array(
+$resourcePaths = [
 	'localBasePath' => __DIR__,
 	'remoteExtPath' => 'TwnMainPage'
-);
+];
 
-$wgResourceModules['ext.translate.mainpage'] = array(
+$wgResourceModules['ext.translate.mainpage'] = [
 	'scripts' => 'resources/js/ext.translate.mainpage.js',
-	'dependencies' => array(
+	'dependencies' => [
 		'ext.translate.groupselector',
 		'ext.translate.mainpage.icons',
 		'ext.translate.statsbar',
@@ -23,40 +23,40 @@ $wgResourceModules['ext.translate.mainpage'] = array(
 		'mediawiki.language',
 		'mediawiki.util',
 		'mediawiki.ui.button',
-	),
-	'messages' => array(
+	],
+	'messages' => [
 		'twnmp-show-more-projects',
 		'twnmp-select-target-language',
 		'percent',
-	),
+	],
 	'position' => 'bottom',
-) + $resourcePaths;
+] + $resourcePaths;
 
-$wgResourceModules['ext.translate.mainpage.signup'] = array(
+$wgResourceModules['ext.translate.mainpage.signup'] = [
 	'scripts' => 'resources/js/ext.translate.mainpage.signup.js',
-	'dependencies' => array(
+	'dependencies' => [
 		'ext.uls.mediawiki',
 		'mediawiki.api',
 		'mediawiki.api.login',
 		'json',
-	),
-	'messages' => array(
+	],
+	'messages' => [
 		'twnmp-signup-error-invalidusername',
 		'twnmp-signup-error-nonfreeusername',
 		'twnmp-signup-error-invalidpassword',
 		'twnmp-signup-error-invalidemail',
 		'twnmp-signup-error-other',
 		'twnmp-signup-error-unknown',
-	),
+	],
 	'position' => 'bottom',
-) + $resourcePaths;
+] + $resourcePaths;
 
-$wgResourceModules['ext.translate.mainpage.styles'] = array(
+$wgResourceModules['ext.translate.mainpage.styles'] = [
 	'styles' => 'resources/css/ext.translate.mainpage.css',
 	'position' => 'top',
-) + $resourcePaths;
+] + $resourcePaths;
 
-$wgResourceModules['ext.translate.mainpage.icons'] = array(
+$wgResourceModules['ext.translate.mainpage.icons'] = [
 	'class' => 'ResourceLoaderProjectIconsModule',
 	'position' => 'bottom',
-);
+];

@@ -62,10 +62,10 @@ class CachedStat implements DeferrableUpdate {
 		$func = array_shift( $params );
 		$value = call_user_func_array( $func, $params );
 
-		$toStore = array(
+		$toStore = [
 			'v' => $value,
 			't' => wfTimestamp( TS_UNIX ),
-		);
+		];
 
 		$this->getCache()->set( $this->key, $toStore, $this->expiredAge );
 
@@ -104,10 +104,10 @@ class CachedStat implements DeferrableUpdate {
 
 class CachedStatJob extends Job {
 	public static function newJob( DeferrableUpdate $stat ) {
-		return new self( Title::newMainPage(), array( 'obj' => $stat, 'key' => $stat->getKey() ) );
+		return new self( Title::newMainPage(), [ 'obj' => $stat, 'key' => $stat->getKey() ] );
 	}
 
-	function __construct( $title, $params = array(), $id = 0 ) {
+	function __construct( $title, $params = [], $id = 0 ) {
 		parent::__construct( __CLASS__, $title, $params, $id );
 		$this->params = $params;
 		$this->removeDuplicates = true;

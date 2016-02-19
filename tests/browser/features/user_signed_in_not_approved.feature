@@ -1,4 +1,4 @@
-@firefox @login
+@firefox
 Feature: Signed-in New Users who have not been approved (only onboarding view will be available for them)
 
   Background:

@@ -1,0 +1,94 @@
+{
+	"name": "Translatewiki.net main page",
+	"version": "2016-02-21",
+	"author": [
+		"Niklas Laxström",
+		"Santhosh Thottingal"
+	],
+	"descriptionmsg": "twnmp-desc",
+	"type": "specialpage",
+	"AutoloadClasses": {
+		"CachedStat": "CachedStat.php",
+		"CachedStatJob": "CachedStat.php",
+		"ProjectHandler": "ProjectHandler.php",
+		"ResourceLoaderProjectIconsModule": "ResourceLoaderProjectIconsModule.php",
+		"SpecialTwnMainPage": "specials/SpecialTwnMainPage.php",
+		"TwnMainPageHooks": "TwnMainPageHooks.php",
+		"TwnUserStats": "TwnUserStats.php"
+	},
+	"ExtensionFunctions": [
+		"TwnMainPageHooks::setup"
+	],
+	"ExtensionMessagesFiles": {
+		"MainPageAlias": "MainPage.alias.php"
+	},
+	"Hooks": {
+		"UnitTestsList": "TwnMainPageHooks::onUnitTestsList"
+	},
+	"JobClasses": {
+		"CachedStatJob": "CachedStatJob"
+	},
+	"config": {
+		"MainPageImages": []
+	},
+	"MessagesDirs": {
+		"MainPage": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.translate.mainpage": {
+			"scripts": "resources/js/ext.translate.mainpage.js",
+			"dependencies": [
+				"ext.translate.groupselector",
+				"ext.translate.mainpage.icons",
+				"ext.translate.statsbar",
+				"ext.uls.interface",
+				"ext.uls.pt",
+				"mediawiki.Uri",
+				"mediawiki.language",
+				"mediawiki.util"
+			],
+			"messages": [
+				"percent",
+				"twnmp-select-target-language",
+				"twnmp-show-more-projects"
+			],
+			"position": "bottom"
+		},
+		"ext.translate.mainpage.signup": {
+			"scripts": "resources/js/ext.translate.mainpage.signup.js",
+			"dependencies": [
+				"ext.uls.mediawiki",
+				"json",
+				"mediawiki.api",
+				"mediawiki.api.login"
+			],
+			"messages": [
+				"twnmp-signup-error-invalidemail",
+				"twnmp-signup-error-invalidpassword",
+				"twnmp-signup-error-invalidusername",
+				"twnmp-signup-error-nonfreeusername",
+				"twnmp-signup-error-other",
+				"twnmp-signup-error-unknown"
+			],
+			"position": "bottom"
+		},
+		"ext.translate.mainpage.styles": {
+			"styles": "resources/css/ext.translate.mainpage.css",
+			"position": "top"
+		},
+		"ext.translate.mainpage.icons": {
+			"class": "ResourceLoaderProjectIconsModule",
+			"position": "bottom"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "TwnMainPage"
+	},
+	"SpecialPages": {
+		"TwnMainPage": "SpecialTwnMainPage"
+	},
+	"manifest_version": 1
+}

@@ -83,6 +83,7 @@ class SpecialTwnMainPage extends SpecialPage {
 
 		$out->addModuleStyles( 'jquery.uls.grid' );
 		$out->addModuleStyles( 'ext.translate.mainpage.styles' );
+		$out->addModuleStyles( 'mediawiki.ui.button' );
 		$out->addModules( 'ext.translate.mainpage' );
 		// Forcing wgULSPosition to personal to mimick that behavior regardless
 		// of the position of the uls trigger in other pages.

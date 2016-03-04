@@ -142,7 +142,7 @@ body {
 	font-size: 1em;
 	opacity: 0.85;
 	font-weight: normal;
-	word-break: break-word;
+	word-break: break-all;
 }
 
 .main-widget {

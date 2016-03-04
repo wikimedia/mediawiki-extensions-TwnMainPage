@@ -12,7 +12,7 @@ class ProjectHandler {
 		$projects = [];
 
 		$cache = wfGetCache( CACHE_ANYTHING );
-		$cacheKey = wfMemckey( __METHOD__ );
+		$cacheKey = wfMemcKey( __METHOD__ );
 		$ids = $cache->get( $cacheKey );
 		if ( is_array( $ids ) ) {
 			$projects = array_map( 'MessageGroups::getGroup', $ids );

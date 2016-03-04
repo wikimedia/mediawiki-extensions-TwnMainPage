@@ -69,8 +69,6 @@ class SpecialTwnMainPage extends SpecialPage {
 	public function execute( $parameters ) {
 		$out = $this->getOutput();
 		$skin = $this->getSkin();
-		$user = $this->getUser();
-		$request = $this->getRequest();
 
 		$this->setHeaders();
 		$out->setArticleBodyOnly( true );

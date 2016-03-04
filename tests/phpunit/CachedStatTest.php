@@ -13,9 +13,9 @@ class CachedStatTest extends PHPUnit_Framework_TestCase {
 		$value = 'test';
 
 		$updater = $this->getMock( 'NullUpdater' );
-		$updater->expects( $this->once() )
+		$updater->expects( self::once() )
 			->method( 'calculate' )
-			->will( $this->returnValue( $value ) );
+			->will( self::returnValue( $value ) );
 
 		$cacher = new CachedStat(
 			__METHOD__,
@@ -26,10 +26,10 @@ class CachedStatTest extends PHPUnit_Framework_TestCase {
 		);
 
 		$stub = $this->getMock( 'EmptyBagOStuff' );
-		$stub->expects( $this->once() )
+		$stub->expects( self::once() )
 			->method( 'get' );
 
-		$stub->expects( $this->once() )
+		$stub->expects( self::once() )
 			->method( 'set' );
 
 		$cacher->setCache( $stub );
@@ -38,7 +38,7 @@ class CachedStatTest extends PHPUnit_Framework_TestCase {
 
 	public function testAllowMiss() {
 		$updater = $this->getMock( 'NullUpdater' );
-		$updater->expects( $this->never() )
+		$updater->expects( self::never() )
 			->method( 'calculate' );
 
 		$cacher = new CachedStat(
@@ -49,10 +49,10 @@ class CachedStatTest extends PHPUnit_Framework_TestCase {
 			'allow miss'
 		);
 		$stub = $this->getMock( 'EmptyBagOStuff' );
-		$stub->expects( $this->once() )
+		$stub->expects( self::once() )
 			->method( 'get' );
 
-		$stub->expects( $this->never() )
+		$stub->expects( self::never() )
 			->method( 'set' );
 
 		$cacher->setCache( $stub );

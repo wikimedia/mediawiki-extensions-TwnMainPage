@@ -107,7 +107,12 @@ class CachedStatJob extends Job {
 		return new self( Title::newMainPage(), [ 'obj' => $stat, 'key' => $stat->getKey() ] );
 	}
 
-	public function __construct( $title, $params = [], $id = 0 ) {
+	/**
+	 * @param Title $title
+	 * @param array $params
+	 * @param int $id
+	 */
+	public function __construct( $title, array $params, $id = 0 ) {
 		parent::__construct( __CLASS__, $title, $params, $id );
 		$this->params = $params;
 		$this->removeDuplicates = true;

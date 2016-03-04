@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Умар"
+			"Умар",
+			"Исмаил Садуев"
 		]
 	},
 	"twnmp-desc": "Коьрта агӀонгара translatewiki.net йоза",
@@ -24,7 +25,7 @@
 	"twnmp-translate-button": "Гоч",
 	"twnmp-proofread-button": "Хьажар",
 	"twnmp-view-button": "Хьажа гочйинарш",
-	"twnmp-your-translations-stats": "Хьан гочдаршан статистика",
+	"twnmp-your-translations-stats": "Хьан гочдаран статистика",
 	"twnmp-your-translations-stats-all-languages": "Массо меттанашана",
 	"twnmp-your-view-language-stats": "Меттан статистике хьажар",
 	"twnmp-translations-per-month": "Батта чохь гоч йина",

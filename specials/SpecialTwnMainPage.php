@@ -16,7 +16,7 @@
 class SpecialTwnMainPage extends SpecialPage {
 	protected $maxProjectTiles = 8;
 
-	function __construct() {
+	public function __construct() {
 		parent::__construct( 'TwnMainPage' );
 	}
 

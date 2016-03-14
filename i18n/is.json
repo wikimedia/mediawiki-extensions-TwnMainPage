@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Snævar"
+			"Snævar",
+			"Sveinn í Felli"
 		]
 	},
 	"twnmp-mainpage": "Forsíða",
@@ -21,7 +22,7 @@
 	"twnmp-translate-button": "Þýða",
 	"twnmp-proofread-button": "Yfirfara",
 	"twnmp-your-translations-stats": "Tölfræði þýðinganna þinna",
-	"twnmp-translations-per-month": "Þýðingar á mánuði",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Þýðing|Þýðingar}} á mánuði",
 	"twnmp-bottom-help": "Hjálp",
 	"twnmp-bottom-support": "Stuðningur",
 	"twnmp-bottom-languages-supported": "Studd tungumál",

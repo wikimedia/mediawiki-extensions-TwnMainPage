@@ -22,6 +22,7 @@
 	"twnmp-translate-button": "Þýða",
 	"twnmp-proofread-button": "Yfirfara",
 	"twnmp-your-translations-stats": "Tölfræði þýðinganna þinna",
+	"twnmp-your-view-language-stats": "Skoða tölfræði tungumáls",
 	"twnmp-translations-per-month": "{{PLURAL:$1|Þýðing|Þýðingar}} á mánuði",
 	"twnmp-bottom-help": "Hjálp",
 	"twnmp-bottom-support": "Stuðningur",

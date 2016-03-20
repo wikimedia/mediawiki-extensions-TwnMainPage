@@ -29,7 +29,7 @@
 	"twnmp-your-view-language-stats": "Тіл статистикаларын қарау",
 	"twnmp-translations-per-month": "аударма/айына",
 	"twnmp-translations-in-sandbox": "Аудармалар",
-	"twnmp-reviews-per-month": "Қайта қарап шығулар/айына",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|Қайта қарап шығу}}/айына",
 	"twnmp-add-project": "Аударуға ашық қайнарлы жобаңызды қосу",
 	"twnmp-bottom-help": "Анықтама",
 	"twnmp-bottom-support": "Қолдау тақтасы",

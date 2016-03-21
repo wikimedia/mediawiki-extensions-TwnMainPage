@@ -4,6 +4,9 @@
 			"Robin van der Vliet"
 		]
 	},
+	"twnmp-s-projects": "{{PLURAL:$1|Projekto|Projektoj}}",
+	"twnmp-translate-link": "Traduki",
+	"twnmp-translate-button": "Traduki",
 	"twnmp-bottom-about": "Pri",
 	"twnmp-create-account-button": "Krei konton",
 	"twnmp-create-account-cancel": "Nuligi"

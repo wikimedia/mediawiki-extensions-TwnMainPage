@@ -40,7 +40,7 @@ class CachedStat implements DeferrableUpdate {
 	 * @param string $onMiss What to do on cache miss. 'update' or 'allow miss'.
 	 */
 	public function __construct( $key, $staleAge, $expiredAge, $worker, $onMiss = 'update' ) {
-		$this->key = wfMemckey( __CLASS__, $key );
+		$this->key = wfMemcKey( __CLASS__, $key );
 		$this->worker = $worker;
 
 		$this->staleAge = $staleAge;

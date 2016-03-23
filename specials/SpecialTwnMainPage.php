@@ -39,17 +39,17 @@ class SpecialTwnMainPage extends SpecialPage {
 				[
 					'name' => 'twnmp-s-projects',
 					'stats' => $stats['projects'],
-					'url' => Title::makeTitle( NS_CATEGORY, 'Supported projects' )->getLocalUrl(),
+					'url' => Title::makeTitle( NS_CATEGORY, 'Supported projects' )->getLocalURL(),
 				],
 				[
 					'name' => 'twnmp-s-translators',
 					'stats' => $stats['translators'],
-					'url' => SpecialPage::getTitleFor( 'Activeusers' )->getLocalUrl(),
+					'url' => SpecialPage::getTitleFor( 'Activeusers' )->getLocalURL(),
 				],
 				[
 					'name' => 'twnmp-s-messages',
 					'stats' => $stats['messages'],
-					'url' => SpecialPage::getTitleFor( 'Translate' )->getLocalUrl(),
+					'url' => SpecialPage::getTitleFor( 'Translate' )->getLocalURL(),
 				],
 			],
 			[
@@ -58,7 +58,7 @@ class SpecialTwnMainPage extends SpecialPage {
 				[
 					'name' => 'twnmp-s-languages',
 					'stats' => $stats['languages'],
-					'url' => SpecialPage::getTitleFor( 'SupportedLanguages' )->getLocalUrl(),
+					'url' => SpecialPage::getTitleFor( 'SupportedLanguages' )->getLocalURL(),
 				],
 			],
 		];
@@ -131,21 +131,21 @@ class SpecialTwnMainPage extends SpecialPage {
 		if ( $user->isLoggedIn() ) {
 			$params = [
 				'class' => 'login username text-right',
-				'href' => $user->getUserPage()->getLocalUrl(),
+				'href' => $user->getUserPage()->getLocalURL(),
 			];
 			$userLink = Html::element( 'a', $params, $user->getName() );
 
 			$logout = SpecialPage::getTitleFor( 'Userlogout' );
 			$params = [
 				'class' => 'logout text-right',
-				'href' => $logout->getLocalUrl( [ 'returnto' => 'Special:MainPage' ] ),
+				'href' => $logout->getLocalURL( [ 'returnto' => 'Special:MainPage' ] ),
 			];
 			$loginout = Html::element( 'a', $params, $this->msg( 'twnmp-logout' )->text() );
 		} else {
 			$login = SpecialPage::getTitleFor( 'Userlogin' );
 			$params = [
 				'class' => 'login text-right',
-				'href' => $login->getLocalUrl( [ 'returnto' => 'Special:MainPage' ] ),
+				'href' => $login->getLocalURL( [ 'returnto' => 'Special:MainPage' ] ),
 			];
 			$loginout = Html::element( 'a', $params, $this->msg( 'twnmp-login' )->text() );
 		}
@@ -171,7 +171,7 @@ HTML;
 		$out = Html::openElement( 'form',
 			[
 				'class' => 'row twn-mainpage-search',
-				'action' => SpecialPage::getTitleFor( 'SearchTranslations' )->getLocalUrl(),
+				'action' => SpecialPage::getTitleFor( 'SearchTranslations' )->getLocalURL(),
 			] );
 
 		$out .= Html::element( 'input',
@@ -269,7 +269,7 @@ HTML;
 		if ( $projectPage->exists() ) {
 			$dataUrl = str_replace(
 				'X',
-				htmlspecialchars( $projectPage->getLocalUrl() ),
+				htmlspecialchars( $projectPage->getLocalURL() ),
 				'data-url="X"'
 			);
 			$linked = 'linked';
@@ -313,17 +313,17 @@ HTML;
 
 		$view = Html::element( 'a', [
 			'class' => 'translate',
-			'href' => $title->getLocalUrl( [ 'group' => $id ] )
+			'href' => $title->getLocalURL( [ 'group' => $id ] )
 		], $this->msg( 'twnmp-view-link' )->text() );
 
 		$translate = Html::element( 'a', [
 			'class' => 'translate',
-			'href' => $title->getLocalUrl( [ 'group' => $id ] )
+			'href' => $title->getLocalURL( [ 'group' => $id ] )
 		], $this->msg( 'twnmp-translate-link' )->text() );
 
 		$proofread = Html::element( 'a', [
 			'class' => 'proofread',
-			'href' => $title->getLocalUrl( [ 'group' => $id, 'action' => 'proofread' ] )
+			'href' => $title->getLocalURL( [ 'group' => $id, 'action' => 'proofread' ] )
 		], $this->msg( 'twnmp-proofread-link' )->text() );
 
 		if ( $user->isAnon() || TranslateSandbox::isSandboxed( $user ) ) {
@@ -374,7 +374,7 @@ HTML;
 
 	public function footer() {
 		$add = Title::newFromText( 'Special:MyLanguage/Translating:New_project' )
-			->getFullUrl();
+			->getFullURL();
 
 		$out = Html::element(
 			'a',
@@ -388,19 +388,19 @@ HTML;
 		$out .= Html::openElement( 'div', [ 'class' => 'row twn-mainpage-footer' ] );
 		$out .= Html::element( 'a', [
 			'class' => 'three column',
-			'href' => Title::newFromText( 'Special:MyLanguage/Project:About' )->getLocalUrl(),
+			'href' => Title::newFromText( 'Special:MyLanguage/Project:About' )->getLocalURL(),
 		], $this->msg( 'twnmp-bottom-about' )->text() );
 		$out .= Html::element( 'a', [
 			'class' => 'three column',
-			'href' => SpecialPage::getTitleFor( 'SupportedLanguages' )->getLocalUrl(),
+			'href' => SpecialPage::getTitleFor( 'SupportedLanguages' )->getLocalURL(),
 		], $this->msg( 'twnmp-bottom-languages-supported' )->text() );
 		$out .= Html::element( 'a', [
 			'class' => 'three column',
-			'href' => Title::newFromText( 'Support' )->getLocalUrl(),
+			'href' => Title::newFromText( 'Support' )->getLocalURL(),
 		], $this->msg( 'twnmp-bottom-support' )->text() );
 		$out .= Html::element( 'a', [
 			'class' => 'three column',
-			'href' => Title::newFromText( 'Translating:Index' )->getLocalUrl(),
+			'href' => Title::newFromText( 'Translating:Index' )->getLocalURL(),
 		], $this->msg( 'twnmp-bottom-help' )->text() );
 		$out .= Html::closeElement( 'div' );
 
@@ -424,7 +424,7 @@ HTML;
 		$conds = [
 			'rc_title' . $dbr->buildLike( $dbr->anyString(), '/', $dbr->anyString() ),
 			'rc_namespace' => $wgTranslateMessageNamespaces,
-			'rc_timestamp > ' . $dbr->timestamp( wfTimeStamp( TS_UNIX ) - 60 * 60 * 24 * $period ),
+			'rc_timestamp > ' . $dbr->timestamp( wfTimestamp( TS_UNIX ) - 60 * 60 * 24 * $period ),
 			'rc_bot' => 0,
 		];
 		$options = [ 'GROUP BY' => 'lang', 'HAVING' => 'count > 20' ];
@@ -638,7 +638,7 @@ HTML;
 	</div>
 HTML;
 
-		$action = SpecialPage::getTitleFor( 'Userlogin' )->getLocalUrl(
+		$action = SpecialPage::getTitleFor( 'Userlogin' )->getLocalURL(
 			[
 				'returnto' => 'Special:MainPage',
 				'type' => 'signup'
@@ -665,7 +665,7 @@ HTML;
 		);
 
 		$link = Html::element( 'a', [
-			'href' => SpecialPage::getTitleFor( 'LanguageStats' )->getLocalUrl(),
+			'href' => SpecialPage::getTitleFor( 'LanguageStats' )->getLocalURL(),
 		], $this->msg( 'twnmp-your-view-language-stats' )->text() );
 
 		if ( TranslateSandbox::isSandboxed( $this->getUser() ) ) {
@@ -741,7 +741,7 @@ HTML;
 
 		$out = Html::openElement( 'form', [
 			'class' => 'row ranking',
-			'action' => SpecialPage::getTitleFor( 'Translate' )->getLocalUrl(),
+			'action' => SpecialPage::getTitleFor( 'Translate' )->getLocalURL(),
 		] );
 		$out .= Html::hidden( 'action', 'translate' );
 		$out .= Html::hidden( 'group', '!additions' );
@@ -788,7 +788,7 @@ HTML;
 		// Proofreading row
 		$out .= Html::openElement( 'form', [
 			'class' => 'row ranking',
-			'action' => SpecialPage::getTitleFor( 'Translate' )->getLocalUrl(),
+			'action' => SpecialPage::getTitleFor( 'Translate' )->getLocalURL(),
 		] );
 		$out .= Html::hidden( 'action', 'proofread' );
 		$out .= Html::hidden( 'group', '!recent' );
@@ -852,7 +852,7 @@ HTML;
 		$count = $this->getLanguage()->formatNum( $count );
 		$count = htmlspecialchars( $count );
 
-		$action = SpecialPage::getTitleFor( 'TranslationStash' )->getLocalUrl();
+		$action = SpecialPage::getTitleFor( 'TranslationStash' )->getLocalURL();
 		$action = htmlspecialchars( $action );
 
 		return <<<HTML

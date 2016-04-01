@@ -8,6 +8,9 @@
  */
 
 class ProjectHandler {
+	/**
+	 * @return MessageGroup[]
+	 */
 	public function getProjects() {
 		$projects = [];
 

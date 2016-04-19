@@ -4,5 +4,6 @@
 			"Servien"
 		]
 	},
-	"twnmp-logout": "Aofmelden"
+	"twnmp-logout": "Aofmelden",
+	"twnmp-signup-error-invalidpassword": "t Wachtwoord is ongeldig."
 }

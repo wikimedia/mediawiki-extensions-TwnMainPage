@@ -254,11 +254,6 @@ body {
 	font-weight: bold;
 }
 
-.ranking .button {
-	min-width: 80%;
-	min-height: 32px;
-}
-
 .ranking .count-description {
 	font-size: 18px;
 }

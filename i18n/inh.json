@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Умар"
+			"Умар",
+			"Adam-Yourist"
 		]
 	},
-	"twnmp-bottom-help": "ГӀо"
+	"twnmp-bottom-help": "ГӀо",
+	"twnmp-create-account-button": "Дагара йоазув хьакхолла"
 }

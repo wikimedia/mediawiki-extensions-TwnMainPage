@@ -3,7 +3,8 @@
 		"authors": [
 			"Marmase",
 			"Mirzali",
-			"Gorizon"
+			"Gorizon",
+			"Kumkumuk"
 		]
 	},
 	"twnmp-desc": "açarnayışa pela translatewiki.net i bıke",
@@ -26,7 +27,7 @@
 	"twnmp-translate-button": "Açarnayış",
 	"twnmp-proofread-button": "Çımraraviyarnayış",
 	"twnmp-view-button": "Açarnayışa bıvin",
-	"twnmp-your-translations-stats": "Açarnayışe İstatıstıkan",
+	"twnmp-your-translations-stats": "Açarnayışe İstatıstıkanê şıma",
 	"twnmp-your-translations-stats-all-languages": "Semedi zona hemın",
 	"twnmp-your-view-language-stats": "İstatistikané zıwani bımocne",
 	"twnmp-translations-per-month": "{{PLURAL:$1|Açarnayoğ}}/meng",

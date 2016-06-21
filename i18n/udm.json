@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"AlnashPiyash2"
+			"AlnashPiyash2",
+			"Kaganer"
 		]
 	},
-	"twnmp-logout": "Потыны"
+	"twnmp-logout": "Потыны",
+	"twnmp-bottom-help": "Юрттэт"
 }

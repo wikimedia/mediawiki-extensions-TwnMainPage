@@ -6,7 +6,8 @@
 			"Clockoon",
 			"Priviet",
 			"Revi",
-			"Hwangjy9"
+			"Hwangjy9",
+			"Ykhwong"
 		]
 	},
 	"twnmp-desc": "translatewiki.net 대문을 제공합니다",
@@ -62,7 +63,7 @@
 	"twnmp-join-community-desc": "번역을 문서하거나, 플랫폼을 탐험하는 데 관심이 있는 개발자라면, 또한 환영합니다.",
 	"twnmp-join-community-reason": "왜 가입에 관심이 있습니까?",
 	"twnmp-create-account-cancel": "취소",
-	"twnmp-join-community-info": "지금 번역을 제공할 수 없습니까? 여전히 가입할 수 있습니다.",
+	"twnmp-join-community-info": "지금 번역을 제공할 수 없습니까? 그래도 참여할 수 있습니다.",
 	"twnmp-stats-number-k": "$1천",
 	"twnmp-select-target-language": "언어 선택",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|메시지 한 개|메시지 $1개}}"

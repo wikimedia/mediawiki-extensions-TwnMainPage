@@ -22,9 +22,6 @@
 	"ExtensionMessagesFiles": {
 		"MainPageAlias": "MainPage.alias.php"
 	},
-	"Hooks": {
-		"UnitTestsList": "TwnMainPageHooks::onUnitTestsList"
-	},
 	"JobClasses": {
 		"CachedStatJob": "CachedStatJob"
 	},

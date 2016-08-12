@@ -29,6 +29,8 @@
 	"twnmp-translations-per-month": "{{PLURAL:$1|Tradukoj}}/monato",
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Tradukoj}}",
 	"twnmp-reviews-per-month": "{{PLURAL:$1|Kontroloj}}/monato",
+	"twnmp-add-project": "Aldonu vian malfermitkodan projekton por traduki",
+	"twnmp-bottom-support": "Subteno",
 	"twnmp-bottom-languages-supported": "Subtenataj lingvoj",
 	"twnmp-bottom-about": "Pri",
 	"twnmp-signup-username-placeholder": "Uzantnomo",

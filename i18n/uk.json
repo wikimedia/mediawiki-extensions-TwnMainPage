@@ -3,15 +3,16 @@
 		"authors": [
 			"Andriykopanytsia",
 			"Ua2004",
-			"Ата"
+			"Ата",
+			"Piramidion"
 		]
 	},
 	"twnmp-desc": "Забезпечує головну сторінку translatewiki.net",
 	"twnmp-mainpage": "Головна сторінка",
-	"twnmp-s-translators": "{{PLURAL:$1|Перекладач|Перекладачі|Перекладачів}}",
-	"twnmp-s-projects": "{{PLURAL:$1|Проект|Проекти|Проектів}}",
-	"twnmp-s-languages": "{{PLURAL:$1|Активна мова|Активні мови|Активних мов}}",
-	"twnmp-s-messages": "{{PLURAL:$1|Повідомлення|Повідомлення|Повідомлень}} для перекладу",
+	"twnmp-s-translators": "{{PLURAL:$1|перекладачів}}",
+	"twnmp-s-projects": "{{PLURAL:$1|проект|проекти|проектів}}",
+	"twnmp-s-languages": "{{PLURAL:$1|активна мова|активні мови|активних мов}}",
+	"twnmp-s-messages": "{{PLURAL:$1|повідомлення|повідомлення|повідомлень}} для перекладу",
 	"twnmp-bannerwho": "Зображення $1",
 	"twnmp-show-more-projects": "Показати усі проекти...",
 	"twnmp-brand-motto": "Спільнота перекладачів відкритих вихідних кодів",
@@ -32,8 +33,8 @@
 	"twnmp-translations-per-month": "{{PLURAL:$1|перекладів}}/місяць",
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Переклади}}",
 	"twnmp-reviews-per-month": "{{PLURAL:$1|перевірок}}/місяць",
-	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Ви єдиний перекладач<br />для мови $4|{{GENDER:$1|За рейтингом ви}} $2 перекладач з $3<br />для мови $4}}",
-	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Ви єдиний перекладач|{{GENDER:$1|За рейтингом ви}} $2 з $3}}",
+	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Ви єдиний перекладач<br />для мови $4|{{GENDER:$1|За рейтингом Ви}} $2 перекладач з $3<br />для мови: $4}}",
+	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Ви єдиний перекладач|{{GENDER:$1|За рейтингом Ви}} $2 з $3}}",
 	"twnmp-add-project": "Додати ваш проект з відкритим вихідним кодом для перекладу",
 	"twnmp-sandboxed": "Вам необхідно зробити {{PLURAL:$1|0=якісь переклади|більше перекладів}}, щоб завершити реєстрацію.",
 	"twnmp-sandboxed-limit": "Ви досягли обмежень перекладу. Наша команда перевірить та підвищить статус вашого облікового запису найближчим часом.",

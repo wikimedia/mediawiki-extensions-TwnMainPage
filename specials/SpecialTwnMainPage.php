@@ -100,27 +100,28 @@ class SpecialTwnMainPage extends SpecialPage {
 		$out->addJsConfigVars( 'maxProjectTiles', $this->maxProjectTiles );
 		$out->addMeta( 'viewport', 'width=device-width, initial-scale=0.5' );
 
-		$out->addHTML( $out->headElement( $skin ) );
+		// These add modules so this has to be called before headElement
+		$output = $this->makeContent();
 
-		$this->makeContent();
-
-		$out->addHTML( $skin->bottomScripts() );
-		$out->addHTML( '</body></html>' );
+		$out->addHTML(
+			$out->headElement( $skin ) .
+			$output .
+			$skin->bottomScripts() .
+			 '</body></html>'
+		);
 	}
 
 	public function makeContent() {
-		$out = $this->getOutput();
+		$output = '';
 
-		$out->addHTML( Html::openElement(
-			'div',
-			[ 'class' => 'grid twn-mainpage' ]
-		) );
-		$out->addHTML( $this->header() );
-		$out->addHTML( $this->banner() );
-		$out->addHTML( $this->searchBar() );
-		$out->addHTML( $this->projectSelector() );
-		$out->addHTML( $this->footer() );
-		$out->addHTML( Html::closeElement( 'div' ) ); // grid twn-mainpage
+		$output .= Html::openElement( 'div', [ 'class' => 'grid twn-mainpage' ] );
+		$output .= $this->header();
+		$output .= $this->banner();
+		$output .= $this->searchBar();
+		$output .= $this->projectSelector();
+		$output .= $this->footer();
+		$output .= Html::closeElement( 'div' );
+		return $output;
 	}
 
 	public function header() {

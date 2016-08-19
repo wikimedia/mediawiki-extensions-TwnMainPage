@@ -88,4 +88,8 @@ CSS;
 
 		return $timestamp;
 	}
+
+	public function getType() {
+		return self::LOAD_STYLES;
+	}
 }

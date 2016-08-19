@@ -38,7 +38,6 @@
 			"scripts": "resources/js/ext.translate.mainpage.js",
 			"dependencies": [
 				"ext.translate.groupselector",
-				"ext.translate.mainpage.icons",
 				"ext.translate.statsbar",
 				"ext.uls.interface",
 				"ext.uls.pt",

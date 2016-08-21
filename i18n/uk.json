@@ -12,7 +12,7 @@
 	"twnmp-s-translators": "{{PLURAL:$1|перекладачів}}",
 	"twnmp-s-projects": "{{PLURAL:$1|проект|проекти|проектів}}",
 	"twnmp-s-languages": "{{PLURAL:$1|активна мова|активні мови|активних мов}}",
-	"twnmp-s-messages": "{{PLURAL:$1|повідомлення|повідомлення|повідомлень}} для перекладу",
+	"twnmp-s-messages": "{{PLURAL:$1|повідомлень}} для перекладу",
 	"twnmp-bannerwho": "Зображення $1",
 	"twnmp-show-more-projects": "Показати усі проекти...",
 	"twnmp-brand-motto": "Спільнота перекладачів відкритих вихідних кодів",

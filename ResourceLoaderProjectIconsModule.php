@@ -69,24 +69,8 @@ CSS;
 		return [ 'all' => $out ];
 	}
 
-	public function getModifiedTime( ResourceLoaderContext $context ) {
-		$cache = wfGetCache( CACHE_ANYTHING );
-		$key = wfMemcKey( 'resourceloader', 'twnmainpage', 'icons' );
-
-		$data = $this->getData();
-		$hash = md5( serialize( $data ) );
-
-		$result = $cache->get( $key );
-		if ( is_array( $result ) && $result['hash'] === $hash ) {
-			return $result['timestamp'];
-		}
-		$timestamp = time();
-		$cache->set( $key, [
-			'hash' => $hash,
-			'timestamp' => $timestamp,
-		] );
-
-		return $timestamp;
+	public function enableModuleContentVersion() {
+		return true;
 	}
 
 	public function getType() {

@@ -189,6 +189,6 @@
 		$( '.tux-groupselector' ).addClass( 'removecallout' );
 	}
 
-	$( document ).ready( setupStatsTiles );
-	$( document ).ready( setupProjectTiles );
+	$( setupStatsTiles );
+	$( setupProjectTiles );
 }( jQuery, mediaWiki ) );

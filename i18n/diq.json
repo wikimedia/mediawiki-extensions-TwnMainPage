@@ -54,5 +54,5 @@
 	"twnmp-join-community-reason": "Şıma qandi çıçi qayıle ke tewr de ma bi?",
 	"twnmp-create-account-cancel": "Bıtexelne",
 	"twnmp-select-target-language": "Zone weçine",
-	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Jew mesaj|$1 mesaji}}"
+	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Jew mesac|$1 mesaci}}"
 }

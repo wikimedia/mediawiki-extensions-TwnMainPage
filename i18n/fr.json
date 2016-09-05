@@ -7,7 +7,8 @@
 			"NemesisIII",
 			"Orlodrim",
 			"Weft",
-			"Wladek92"
+			"Wladek92",
+			"Urhixidur"
 		]
 	},
 	"twnmp-desc": "Fournit la page principale de translatewiki.net",
@@ -43,7 +44,7 @@
 	"twnmp-sandboxed-limit": "Vous avez atteint le nombre limite de traductions. Notre équipe va vérifier et mettre à niveau votre compte bientôt.",
 	"twnmp-bottom-help": "Aide",
 	"twnmp-bottom-support": "Soutien",
-	"twnmp-bottom-languages-supported": "Langues supportées",
+	"twnmp-bottom-languages-supported": "Langues prises en charge",
 	"twnmp-bottom-about": "À propos de",
 	"twnmp-signup-username-placeholder": "Nom d’utilisateur",
 	"twnmp-signup-password-placeholder": "Mot de passe",

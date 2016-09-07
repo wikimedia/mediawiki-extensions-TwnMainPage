@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Subi"
+			"Subi",
+			"Sator"
 		]
 	},
+	"twnmp-view-link": "Itzulpenak ikusi",
+	"twnmp-view-button": "Itzulpenak ikusi",
 	"twnmp-your-translations-stats": "Zure itzulpen-estatistikak"
 }

@@ -636,7 +636,7 @@ HTML;
 	</div>
 	<div class="row only-dev hide">$reasonInput</div>
 	<div class="row">
-		<button class="mw-ui-button mw-ui-progressive" type="submit" id="twnmp-create-account">
+		<button class="mw-ui-button mw-ui-progressive mw-ui-big" type="submit" id="twnmp-create-account">
 			{$this->msg( 'twnmp-create-account-button' )->escaped()}
 		</button>
 		<button class="mw-ui-button only-dev cancel hide">

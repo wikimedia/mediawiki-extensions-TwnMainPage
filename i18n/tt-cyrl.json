@@ -1,9 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ilnur efende"
+			"Ilnur efende",
+			"Ильнар"
 		]
 	},
 	"twnmp-login": "Керү",
-	"twnmp-logout": "Чыгу"
+	"twnmp-logout": "Чыгу",
+	"twnmp-translate-link": "Тәрҗемә",
+	"twnmp-proofread-link": "Карау",
+	"twnmp-proofread-button": "Карау",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Тәрҗемәләр}}"
 }

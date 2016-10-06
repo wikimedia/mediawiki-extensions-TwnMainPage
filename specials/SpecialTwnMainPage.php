@@ -72,24 +72,10 @@ class SpecialTwnMainPage extends SpecialPage {
 
 		$this->setHeaders();
 		$out->setArticleBodyOnly( true );
-		// Default modules copied from OutputPage::addDefaultModules
-		$out->addModules( [
-			'site',
-			'mediawiki.user',
-			'mediawiki.page.startup',
-		] );
-
-		// Add skin specific modules
-		$moduleGroups = $skin->getDefaultModules();
-		foreach ( $moduleGroups as $modules ) {
-			$out->addModules( $modules );
-		}
 
 		// Enable this if you need useful debugging information
 		// $out->addHtml( MWDebug::getDebugHTML( $this->getContext() ) );
 		Hooks::run( 'BeforePageDisplay', [ &$out, &$skin ] );
-		$skin->setupSkinUserCss( $out );
-
 		$out->addModuleStyles( 'jquery.uls.grid' );
 		$out->addModuleStyles( 'ext.translate.mainpage.styles' );
 		$out->addModuleStyles( 'mediawiki.ui.button' );

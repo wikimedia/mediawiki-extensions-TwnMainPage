@@ -204,17 +204,10 @@ HTML;
 		$out = Html::element( 'div', [ 'class' => 'row twn-mainpage-project-selector-title' ],
 			$this->msg( 'twnmp-search-choose-project' )->text() );
 
-		$groupsSourceLanguage = MessageGroups::haveSingleSourceLanguage(
-			MessageGroups::getAllGroups()
-		);
-		$languageCode = $this->getLanguage()->getCode();
-
 		$out .= Html::openElement(
 			'div',
 			[
 				'class' => 'row twn-mainpage-project-tiles',
-				'data-sourcelanguage' => $groupsSourceLanguage,
-				'data-same-sourcelanguage' => $groupsSourceLanguage === $languageCode,
 			]
 		);
 
@@ -271,6 +264,8 @@ HTML;
 			$linked = 'linked';
 		}
 
+		$escLang = htmlspecialchars( $groupLanguage );
+
 		$class = 'project-icon-' . Sanitizer::escapeClass( $id );
 		$image = Html::element( 'div', [ 'class' => $class ] );
 		$label = htmlspecialchars( $group->getLabel( $this->getContext() ) );
@@ -278,7 +273,7 @@ HTML;
 		$msggroupid = htmlspecialchars( $id );
 		$out = <<<HTML
 <div class="three columns twn-mainpage-project-tile">
-	<div class="project-tile $linked" $dataUrl data-msggroupid="$msggroupid">
+	<div class="project-tile $linked" $dataUrl data-lang="$escLang" data-msggroupid="$msggroupid">
 		<div class="row project-top">
 			<div class="project-icon four columns">$image</div>
 			<div class="project-content eight columns">

@@ -7,6 +7,8 @@
 ( function ( $, mw ) {
 	'use strict';
 
+	var selectedLanguage = mw.config.get( 'wgUserLanguage' );
+
 	/**
 	 * Setup the stats tiles.
 	 */
@@ -47,9 +49,10 @@
 				var stats, translated, proofread,
 					$tile = $( this ),
 					$statsbar = $tile.find( '.project-statsbar' ),
-					msggroupid = $tile.data( 'msggroupid' );
+					msggroupid = $tile.data( 'msggroupid' ),
+					sourceLanguage = $tile.data( 'lang' );
 
-				if ( !$statsbar.length ) {
+				if ( !$statsbar.length || sourceLanguage === language ) {
 					return;
 				}
 
@@ -81,41 +84,29 @@
 	}
 
 	/**
-	 * If the source language of all projects is the same as the target language,
-	 * provide a language selector to select the target language above the tiles.
+	 * Provide a language selector to select the target language above the tiles.
 	 */
 	function setupTargetLanguageSelector() {
-		var $sameLanguageULSTrigger,
-			sourceLanguage = $( '.twn-mainpage-project-tiles' ).data( 'sourcelanguage' ),
-			sameLanguageULSLanguages = $.extend( {}, mw.config.get( 'wgULSLanguages' ) );
+		var $trigger = $( '<button>' )
+			.text( $.uls.data.getAutonym( selectedLanguage ) )
+			.addClass( 'same-language-uls-trigger mw-ui-button' );
 
-		$sameLanguageULSTrigger = $( '<div>' )
-			.addClass( 'row' )
-			.append( $( '<div>' )
-				.addClass( 'two columns' )
-				.append(
-					$( '<button>' )
-						.text( mw.msg( 'twnmp-select-target-language' ) )
-						.addClass( 'same-language-uls-trigger mw-ui-button' )
-				)
-			);
+		$( '.twn-mainpage-project-selector-title' ).append( $trigger );
 
-		$( '.twn-mainpage-project-tiles' ).before( $sameLanguageULSTrigger );
+		// Delayed setup
+		$trigger.one( 'click', function () {
+			mw.loader.using( 'ext.uls.mediawiki' ).done( function () {
+				$trigger.uls( {
+					onSelect: function ( code ) {
+						selectedLanguage = code;
+						$trigger.text( $.uls.data.getAutonym( code ) );
+						showMessageGroupStats( code );
+					},
+					quickList: mw.uls.getFrequentLanguageList()
+				} );
 
-		delete sameLanguageULSLanguages[ sourceLanguage ];
-		$sameLanguageULSTrigger.uls( {
-			languages: sameLanguageULSLanguages,
-			top: '20%',
-			onSelect: showMessageGroupStats,
-			quickList: function () {
-				var frequentLanguageList = mw.uls.getFrequentLanguageList(),
-					sourceLanguagePosition = $.inArray( sourceLanguage, frequentLanguageList );
-
-				// Remove the source language from the usual common languages list
-				frequentLanguageList.splice( sourceLanguagePosition, 1 );
-
-				return frequentLanguageList;
-			}
+				$trigger.click();
+			} );
 		} );
 	}
 
@@ -124,15 +115,10 @@
 	 */
 	function setupProjectTiles() {
 		var $selector,
-			language = mw.config.get( 'wgUserLanguage' ),
 			maxProjectTiles = mw.config.get( 'maxProjectTiles' ),
 			$tiles = $( '.project-tile' );
 
-		if ( $( '.twn-mainpage-project-tiles' ).data( 'same-sourcelanguage' ) ) {
-			mw.loader.using( 'ext.uls.mediawiki', setupTargetLanguageSelector );
-		} else {
-			showMessageGroupStats( language );
-		}
+		showMessageGroupStats( selectedLanguage );
 
 		$tiles.hover(
 			function () {
@@ -166,29 +152,40 @@
 		// Prepare one project tile to be a message group selector.
 		$selector = $( '<div>' )
 			.addClass( 'project-tile more' )
-			.text( mw.msg( 'twnmp-show-more-projects' ) )
-			.msggroupselector( {
-				language: language,
-				onSelect: function ( messageGroup ) {
-					location.href = mw.util.getUrl(
-						'Special:Translate',
-						{ group: messageGroup.id }
-					);
-				},
-				position: {
-					my: 'left bottom',
-					at: 'right bottom+275'
-				}
-			} );
+			.text( mw.msg( 'twnmp-show-more-projects' ) );
 
 		// Replace the last shown tile with group selector.
 		// Users without JavaScript will just see the original one.
 		$tiles.eq( maxProjectTiles - 1 ).replaceWith( $selector );
 
-		// Add class to remove the triangle callout in the TWN Main Page.
-		$( '.tux-groupselector' ).addClass( 'removecallout' );
+		$selector.one( 'click', function () {
+			mw.loader.using( 'ext.translate.groupselector' ).done( function () {
+				$selector.msggroupselector( {
+					language: selectedLanguage,
+					onSelect: function ( messageGroup ) {
+						location.href = mw.util.getUrl(
+							'Special:Translate',
+							{
+								group: messageGroup.id,
+								language: selectedLanguage
+							}
+						);
+					},
+					position: {
+						my: 'left bottom',
+						at: 'right bottom+275'
+					}
+				} );
+
+				// Add class to remove the triangle callout
+				$( '.tux-groupselector' ).addClass( 'removecallout' );
+
+				$selector.click();
+			} );
+		} );
 	}
 
 	$( setupStatsTiles );
 	$( setupProjectTiles );
+	$( setupTargetLanguageSelector );
 }( jQuery, mediaWiki ) );

@@ -37,7 +37,7 @@
 		"ext.translate.mainpage": {
 			"scripts": "resources/js/ext.translate.mainpage.js",
 			"dependencies": [
-				"ext.translate.groupselector",
+				"ext.translate.base",
 				"ext.translate.statsbar",
 				"ext.uls.interface",
 				"ext.uls.pt",
@@ -47,7 +47,6 @@
 			],
 			"messages": [
 				"percent",
-				"twnmp-select-target-language",
 				"twnmp-show-more-projects"
 			],
 			"position": "bottom"

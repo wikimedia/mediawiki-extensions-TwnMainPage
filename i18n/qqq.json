@@ -65,6 +65,5 @@
 	"twnmp-create-account-cancel": "Cancel button text.\n{{Identical|Cancel}}",
 	"twnmp-join-community-info": "A note at the end of the sign up form in the main page",
 	"twnmp-stats-number-k": "Used in [[Special:Mainpage]].\n\nParameters:\n* $1 - the number of the thousands of messages or users on the site; can be a decimal fraction. e.g. \"4.9\"\n\nThe message should be short, to fit in the box. If you have to translate it and cannot make it short, notify [[Support]].\n\nIf \"k\" is a good thousands marker in your language, do not translate this message.\n\n{{Identical|$1k}}",
-	"twnmp-select-target-language": "Label of button to choose a different language if current language is same as source of all message groups.\n{{Identical|Select language}}",
 	"twn-mainpage-total-messages-in-language": "Text displaying number of messages in a language.\n\nParameters:\n* $1 - total number of messages."
 }

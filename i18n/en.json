@@ -60,6 +60,5 @@
 	"twnmp-create-account-cancel": "Cancel",
 	"twnmp-join-community-info": "Can't submit some translations right now? You can still join.",
 	"twnmp-stats-number-k": "$1k",
-	"twnmp-select-target-language": "Select language",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|One message|$1 messages}}"
 }

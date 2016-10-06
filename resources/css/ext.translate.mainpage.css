@@ -481,7 +481,8 @@ a.langstats-link {
 
 .twn-mainpage-project-selector-title {
 	font-size: 22px;
-	padding: 30px 10px 15px 15px;
+	line-height: 40px;
+	padding: 25px 15px 10px 15px;
 }
 
 .twn-mainpage-add-project {
@@ -542,7 +543,8 @@ a.langstats-link {
 
 /* button is here to make this rule more specific than .mw-ui-button */
 button.same-language-uls-trigger {
-	margin-left: 10px;
+	font-size: 16px;
+	float: right;
 }
 
 .same-language-uls-trigger:after {

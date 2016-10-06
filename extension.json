@@ -71,12 +71,10 @@
 			"position": "bottom"
 		},
 		"ext.translate.mainpage.styles": {
-			"styles": "resources/css/ext.translate.mainpage.css",
-			"position": "top"
+			"styles": "resources/css/ext.translate.mainpage.css"
 		},
 		"ext.translate.mainpage.icons": {
-			"class": "ResourceLoaderProjectIconsModule",
-			"position": "bottom"
+			"class": "ResourceLoaderProjectIconsModule"
 		}
 	},
 	"ResourceFileModulePaths": {

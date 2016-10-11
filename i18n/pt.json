@@ -4,14 +4,15 @@
 			"Fúlvio",
 			"Imperadeiro98",
 			"Vitorvicentevalente",
-			"Macofe"
+			"Macofe",
+			"Hamilton Abreu"
 		]
 	},
 	"twnmp-desc": "Oferece a página principal da translatewiki.net",
 	"twnmp-mainpage": "Página principal",
 	"twnmp-s-translators": "{{PLURAL:$1|Tradutor|Tradutores}}",
 	"twnmp-s-projects": "{{PLURAL:$1|Projeto|Projetos}}",
-	"twnmp-s-languages": "{{PLURAL:$1|Língua activa|Línguas activas}}",
+	"twnmp-s-languages": "{{PLURAL:$1|Língua ativa|Línguas ativas}}",
 	"twnmp-s-messages": "{{PLURAL:$1|Mensagem|Mensagens}} para traduzir",
 	"twnmp-bannerwho": "Imagem $1",
 	"twnmp-show-more-projects": "Mostrar todos os projectos...",

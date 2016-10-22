@@ -6,6 +6,7 @@
 			"The Polish"
 		]
 	},
+	"twnmp-desc": "Tekst na głównej stronie translatewiki.net",
 	"twnmp-mainpage": "Strona główna",
 	"twnmp-s-translators": "{{PLURAL:$1|tłumacz|tłumaczy}}",
 	"twnmp-s-projects": "{{PLURAL:$1|projekt|projekty|projektów}}",
@@ -34,6 +35,8 @@
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Jesteś jedynym tłumaczem<br />dla język $4|Jesteś {{GENDER:$1|tłumaczem|tłumaczką}} o rankingu $2 z $3<br />dla języka {{GRAMMAR:D.lp|$4}}}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Jesteś {{GENDER:$1|jedynym tłumaczem|jedyną tłumaczką}} |Jesteś {{GENDER:$1|tłumaczem|tłumaczką}} o rankingu $2 z $3}}",
 	"twnmp-add-project": "Dodaj do tłumaczenia swój projekt open source",
+	"twnmp-sandboxed": "Należy wykonać {{PLURAL:$1|0=jakieś tłumaczenia|więcej tłumaczeń}}, aby dokończyć proces rejestracji.",
+	"twnmp-sandboxed-limit": "{{GENDER:|Osiągnąłeś|Osiągnęłaś|Osiągnięto}} limit tłumaczeń. Wkrótce nasz zespół sprawdza i aktualizuje Twoje konto.",
 	"twnmp-bottom-help": "Pomoc",
 	"twnmp-bottom-support": "Obsługa techniczna",
 	"twnmp-bottom-languages-supported": "Obsługiwane języki",
@@ -56,7 +59,7 @@
 	"twnmp-join-community-desc": "Jeśli jesteś zainteresowany dokumentowaniem tłumaczeń lub po prostu poznawaniem platformy – serdecznie zapraszamy.",
 	"twnmp-join-community-reason": "Dlaczego chcesz dołączyć?",
 	"twnmp-create-account-cancel": "Anuluj",
-	"twnmp-join-community-info": "Nie jesteś tłumaczem? I tak możesz dołączyć do społeczności.",
+	"twnmp-join-community-info": "Nie możesz dodać jakiś tłumaczeń? Możesz dołączyć do nas.",
 	"twnmp-select-target-language": "Wybierz język",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Jedna wiadomość|$1 wiadomości}}"
 }

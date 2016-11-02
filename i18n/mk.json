@@ -27,9 +27,9 @@
 	"twnmp-your-translations-stats": "Ваши преводни статистики",
 	"twnmp-your-translations-stats-all-languages": "За сите јазици",
 	"twnmp-your-view-language-stats": "Јазични статистики",
-	"twnmp-translations-per-month": "Преводи месечно",
-	"twnmp-translations-in-sandbox": "Преводи",
-	"twnmp-reviews-per-month": "Проверки месечно",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Преводи}} месечно",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Преводи}}",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|Проверки}} месечно",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Единствени сте<br />за $4|{{GENDER:$1|Ранг:}} $2 од $3<br />за $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Единствени сте|{{GENDER:$1|Ранг:}} $2 од $3}}",
 	"twnmp-add-project": "Дајте ни го вашиот отворен проект на превод",
@@ -59,6 +59,5 @@
 	"twnmp-create-account-cancel": "Откажи",
 	"twnmp-join-community-info": "Не можете веднаш да направите некои преводи? Бездруго можете да се приклучите.",
 	"twnmp-stats-number-k": "$1 илј.",
-	"twnmp-select-target-language": "Одберете јазик",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Една порака|$1 пораки}}"
 }

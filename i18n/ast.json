@@ -27,9 +27,9 @@
 	"twnmp-your-translations-stats": "Les sos estadístiques de traducción",
 	"twnmp-your-translations-stats-all-languages": "Pa toles llingües",
 	"twnmp-your-view-language-stats": "Ver estadístiques de llingua",
-	"twnmp-translations-per-month": "traducciones/mes",
-	"twnmp-translations-in-sandbox": "Traducciones",
-	"twnmp-reviews-per-month": "Revisiones/mes",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Traducción|Traducciones}}/mes",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Traducción|Traducciones}}",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|Revisión|Revisiones}}/mes",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Ye {{GENDER:$1|l'únicu|la única}}<br />pal $4|{{GENDER:$1|Ta}} nel puestu $2 de $3<br />pal $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Ye {{GENDER:$1|l'únicu|la única}}|{{GENDER:$1|Ta}} nel puestu $2 de $3}}",
 	"twnmp-add-project": "Amieste'l so proyeutu de códigu abiertu pa traducilu",
@@ -58,6 +58,5 @@
 	"twnmp-join-community-reason": "¿Por qué ta interesáu en xunise?",
 	"twnmp-create-account-cancel": "Encaboxar",
 	"twnmp-join-community-info": "¿Nun puedes unviar traducciones agora mesmo? Inda puedes xunite.",
-	"twnmp-select-target-language": "Escoyer llingua",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Un mensaxe|$1 mensaxes}}"
 }

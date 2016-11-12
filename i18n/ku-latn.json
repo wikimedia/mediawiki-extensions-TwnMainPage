@@ -26,7 +26,7 @@
 	"twnmp-your-translations-stats": "Statîstîkên te yên wergerê",
 	"twnmp-your-translations-stats-all-languages": "Bo hemû zimanan",
 	"twnmp-your-view-language-stats": "Statîstîkên ziman bibîne",
-	"twnmp-translations-per-month": "Werger/meh",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Werger}}/meh",
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Werger}}",
 	"twnmp-bottom-help": "Alîkarî",
 	"twnmp-bottom-languages-supported": "Zimanên tên piştgirîkirin",
@@ -42,6 +42,5 @@
 	"twnmp-join-community": "Tevlî civatê bibe",
 	"twnmp-join-community-reason": "Tu çima dixwazî tevlî bibî?",
 	"twnmp-create-account-cancel": "Betal bike",
-	"twnmp-join-community-info": "Tu nikarî wergeran tomar bikî? Niha tu dikarî tevlî bibî.",
-	"twnmp-select-target-language": "Zimanekî hilbijêre"
+	"twnmp-join-community-info": "Tu nikarî wergeran tomar bikî? Niha tu dikarî tevlî bibî."
 }

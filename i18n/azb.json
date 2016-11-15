@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Mousa",
-			"Koroğlu"
+			"Koroğlu",
+			"Alp Er Tunqa"
 		]
 	},
 	"twnmp-mainpage": "آنا صفحه",
@@ -17,5 +18,5 @@
 	"twnmp-translations-in-sandbox": "چئویرمه‌لر",
 	"twnmp-add-project": "اؤز آچیق‌قایناق پروژه‌نیزی ترجومه اوچون آرتیرین",
 	"twnmp-bottom-support": "دستک میزی",
-	"twnmp-bottom-languages-supported": "دستک‌لنن دیل‌لر"
+	"twnmp-bottom-languages-supported": "ساپورتلانان دیل‌لر"
 }

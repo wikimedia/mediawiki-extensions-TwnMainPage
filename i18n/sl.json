@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Eleassar",
-			"Dbc334"
+			"Dbc334",
+			"Janezdrilc"
 		]
 	},
 	"twnmp-desc": "Prikaže glavno stran projekta translatewiki.net",
@@ -15,7 +16,7 @@
 	"twnmp-show-more-projects": "Prikaži vse projekte ...",
 	"twnmp-brand-motto": "Odprtokodna prevajalska skupnost",
 	"twnmp-login": "Prijava",
-	"twnmp-logout": "Odjavite se",
+	"twnmp-logout": "Odjavi se",
 	"twnmp-search-placeholder": "Poiščite in popravite prevode",
 	"twnmp-search-button": "Poišči",
 	"twnmp-search-choose-project": "Izberite projekt za prevajanje",
@@ -43,6 +44,5 @@
 	"twnmp-choose-languages-you-know": "Izberite jezike, ki jih znate",
 	"twnmp-choose-another-language": "Izberite drug jezik ...",
 	"twnmp-choose-fill-account-details": "Vnesite podrobnosti o svojem računu",
-	"twnmp-select-target-language": "Izberite jezik",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Eno sporočilo|Dve sporočili|$1 sporočila|$1 sporočil}}"
 }

@@ -497,12 +497,11 @@ HTML;
 				if ( $value > 1000 ) {
 					$digits = 3 - ceil( log( $value, 100 ) );
 					$fmtValue = number_format( $value / 1000, $digits );
-					$fmtValue = $this->msg( 'twnmp-stats-number-k' )->numParams( $fmtValue )->plain();
+					$fmtValue = $this->msg( 'twnmp-stats-number-k' )->numParams( $fmtValue )->escaped();
 				} else {
-					$fmtValue = $lang->formatNum( $value );
+					$fmtValue = htmlspecialchars( $lang->formatNum( $value ) );
 				}
 
-				$value = htmlspecialchars( $value );
 				$text = $this->msg( $name )->numParams( $value )->escaped();
 
 				$out .= <<<HTML

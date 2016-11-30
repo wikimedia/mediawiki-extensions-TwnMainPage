@@ -548,14 +548,14 @@ HTML;
 			[ 'data-code' => $languageCode ]
 		);
 		$username = Html::element( 'input', [
-			'class' => 'eleven columns required',
+			'class' => 'twelve columns required',
 			'name' => 'wpName',
 			'autocomplete' => 'off',
 			'required',
 			'placeholder' => $this->msg( 'twnmp-signup-username-placeholder' )->text(),
 		] );
 		$password = Html::element( 'input', [
-			'class' => 'eleven columns required',
+			'class' => 'twelve columns required',
 			'name' => 'wpPassword',
 			'autocomplete' => 'off',
 			'type' => 'password',
@@ -563,7 +563,7 @@ HTML;
 			'placeholder' => $this->msg( 'twnmp-signup-password-placeholder' )->text(),
 		] );
 		$email = Html::element( 'input', [
-			'class' => 'eleven columns required',
+			'class' => 'twelve columns required',
 			'name' => 'wpEmail',
 			'autocomplete' => 'off',
 			'type' => 'email',
@@ -571,7 +571,7 @@ HTML;
 			'placeholder' => $this->msg( 'twnmp-signup-email-placeholder' )->text(),
 		] );
 		$reasonInput = Html::element( 'textarea', [
-			'class' => 'eleven columns required',
+			'class' => 'twelve columns required',
 			'name' => 'reason',
 			'rows' => '4',
 			'required',
@@ -596,21 +596,19 @@ HTML;
 		</li>
 	</ul>
 	<div class="row only-nondev">
-		<div class="eight columns">
-			<div class="signup-language-selector mw-ui-button">
-				{$this->msg( 'twnmp-choose-another-language' )->escaped()}
-			</div>
-		</div>
+		<button class="signup-language-selector mw-ui-button">
+			{$this->msg( 'twnmp-choose-another-language' )->escaped()}
+		</button>
 	</div>
 	<h2 class="row">
 		{$this->msg( 'twnmp-choose-fill-account-details' )->escaped()}
 	</h2>
 	<div class="row">$username</div>
-	<div class="twnmp-signup-error eleven columns hide"></div>
+	<div class="twnmp-signup-error hide"></div>
 	<div class="row">$password</div>
-	<div class="twnmp-signup-error eleven columns hide"></div>
+	<div class="twnmp-signup-error hide"></div>
 	<div class="row">$email</div>
-	<div class="twnmp-signup-error eleven columns hide"></div>
+	<div class="twnmp-signup-error hide"></div>
 	<div class="row label only-dev hide">
 		{$this->msg( 'twnmp-join-community-reason' )->escaped()}
 	</div>
@@ -619,7 +617,7 @@ HTML;
 		<button class="mw-ui-button mw-ui-progressive mw-ui-big" type="submit" id="twnmp-create-account">
 			{$this->msg( 'twnmp-create-account-button' )->escaped()}
 		</button>
-		<button class="mw-ui-button only-dev cancel hide">
+		<button class="mw-ui-button mw-ui-big mw-ui-quiet only-dev cancel hide">
 			{$this->msg( 'twnmp-create-account-cancel' )->escaped()}
 		</button>
 	</div>

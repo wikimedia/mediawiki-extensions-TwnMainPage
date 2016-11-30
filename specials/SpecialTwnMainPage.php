@@ -604,7 +604,7 @@ HTML;
 		</div>
 	</div>
 	<h2 class="row">
-		{$this->msg( 'twnmp-choose-fill-account-details' )->text()}
+		{$this->msg( 'twnmp-choose-fill-account-details' )->escaped()}
 	</h2>
 	<div class="row">$username</div>
 	<div class="twnmp-signup-error eleven columns hide"></div>

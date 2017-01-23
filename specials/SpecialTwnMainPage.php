@@ -574,7 +574,6 @@ HTML;
 			'class' => 'twelve columns required',
 			'name' => 'reason',
 			'rows' => '4',
-			'required',
 		] );
 
 		$contents = <<<HTML

@@ -10,13 +10,15 @@
 	mw.translate.setupSignupForm = function ( $form ) {
 		var $username = $form.find( 'input[name="wpName"]' ),
 			$email = $form.find( 'input[name="wpEmail"]' ),
-			$password = $form.find( 'input[name="wpPassword"]' );
+			$password = $form.find( 'input[name="wpPassword"]' ),
+			$reason = $form.find( 'input[name="reason"]' );
 
 		function initDeveloperSignup() {
 			$form.find( '.dev-signup' ).click( function () {
 				$form.find( '.only-dev' ).removeClass( 'hide' );
 				$form.find( '.only-nondev' ).addClass( 'hide' );
 				$form.find( '.required' ).trigger( 'change' );
+				$reason.prop( 'required', true );
 			} );
 
 			$form.find( 'button.cancel' ).click( function ( e ) {
@@ -24,6 +26,7 @@
 				$form.find( '.only-dev' ).addClass( 'hide' );
 				$form.find( '.only-nondev' ).removeClass( 'hide' );
 				$form.find( '.required' ).trigger( 'change' );
+				$reason.prop( 'required', false );
 			} );
 		}
 

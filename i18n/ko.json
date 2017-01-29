@@ -45,7 +45,7 @@
 	"twnmp-bottom-support": "지원 데스크",
 	"twnmp-bottom-languages-supported": "지원하는 언어",
 	"twnmp-bottom-about": "소개",
-	"twnmp-signup-username-placeholder": "사용자 계정 이름",
+	"twnmp-signup-username-placeholder": "사용자 이름",
 	"twnmp-signup-password-placeholder": "비밀번호",
 	"twnmp-signup-email-placeholder": "이메일",
 	"twnmp-create-account-button": "계정 만들기",
@@ -65,6 +65,5 @@
 	"twnmp-create-account-cancel": "취소",
 	"twnmp-join-community-info": "지금 번역을 제공할 수 없습니까? 그래도 참여할 수 있습니다.",
 	"twnmp-stats-number-k": "$1천",
-	"twnmp-select-target-language": "언어 선택",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|메시지 한 개|메시지 $1개}}"
 }

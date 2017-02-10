@@ -4,5 +4,11 @@
 			"Njardarlogar"
 		]
 	},
-	"twnmp-select-target-language": "Vel språk"
+	"twnmp-mainpage": "Hovudside",
+	"twnmp-s-projects": "{{PLURAL:$1|prosjekt}}",
+	"twnmp-s-languages": "{{PLURAL:$1|aktivt|aktive}} språk",
+	"twnmp-s-messages": "{{PLURAL:$1|melding|meldingar}} å setja om",
+	"twnmp-bannerwho": "Bilete $1",
+	"twnmp-your-translations-stats": "Omsetjingsstatistikken din",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Omsetjingar}}/månad"
 }

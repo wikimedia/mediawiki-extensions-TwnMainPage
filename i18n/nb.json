@@ -3,7 +3,8 @@
 		"authors": [
 			"Danmichaelo",
 			"Cocu",
-			"Jon Harald Søby"
+			"Jon Harald Søby",
+			"Njardarlogar"
 		]
 	},
 	"twnmp-desc": "Fungerer som translatewiki.nets hovedside",
@@ -17,7 +18,7 @@
 	"twnmp-brand-motto": "Åpen kildekode-oversettelsesfelleskap",
 	"twnmp-login": "Logg inn",
 	"twnmp-logout": "Logg ut",
-	"twnmp-search-placeholder": "Finn og korriger oversettelser",
+	"twnmp-search-placeholder": "Finn og rett omsetjingar",
 	"twnmp-search-button": "Søk",
 	"twnmp-search-choose-project": "Velg prosjekt å oversette",
 	"twnmp-translate-link": "Oversett",
@@ -60,6 +61,5 @@
 	"twnmp-join-community-reason": "Hvorfor er du interessert i å delta?",
 	"twnmp-create-account-cancel": "Avbryt",
 	"twnmp-join-community-info": "Kan du ikke oversette akkurat nå? Du er likevel velkommen til å bli med.",
-	"twnmp-select-target-language": "Velg språk",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Én beskjed|$1 beskjeder}}"
 }

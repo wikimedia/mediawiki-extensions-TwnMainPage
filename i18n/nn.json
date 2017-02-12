@@ -5,10 +5,20 @@
 		]
 	},
 	"twnmp-mainpage": "Hovudside",
+	"twnmp-s-translators": "{{PLURAL:$1|omsetjar|omsetjarar}}",
 	"twnmp-s-projects": "{{PLURAL:$1|prosjekt}}",
 	"twnmp-s-languages": "{{PLURAL:$1|aktivt|aktive}} språk",
 	"twnmp-s-messages": "{{PLURAL:$1|melding|meldingar}} å setja om",
 	"twnmp-bannerwho": "Bilete $1",
+	"twnmp-show-more-projects": "Vis alle prosjekt …",
+	"twnmp-brand-motto": "Felleskap for omsetjing med open kjeldekode",
+	"twnmp-login": "Logg inn",
+	"twnmp-logout": "Logg ut",
+	"twnmp-search-placeholder": "Finn og rett omsetjingar",
+	"twnmp-translate-link": "Set om",
 	"twnmp-your-translations-stats": "Omsetjingsstatistikken din",
-	"twnmp-translations-per-month": "{{PLURAL:$1|Omsetjingar}}/månad"
+	"twnmp-translations-per-month": "{{PLURAL:$1|Omsetjingar}}/månad",
+	"twnmp-bottom-help": "Hjelp",
+	"twnmp-bottom-support": "Brukarstøtte",
+	"twnmp-bottom-languages-supported": "Støtta språk"
 }

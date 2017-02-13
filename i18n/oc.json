@@ -46,8 +46,8 @@
 	"twnmp-choose-another-language": "Causir una autra lenga…",
 	"twnmp-choose-fill-account-details": "Completatz los detalhs de vòstre compte",
 	"twnmp-join-community": "Rejónher la comunautat",
+	"twnmp-join-community-reason": "Perqué sètz interessat pel fait de nos rejónher ?",
 	"twnmp-create-account-cancel": "Anullar",
 	"twnmp-join-community-info": "Pas encara traductor  ? Podètz rejónher la comunautat.",
-	"twnmp-select-target-language": "Seleccionar la lenga",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Un messatge|$1 messatges}}"
 }

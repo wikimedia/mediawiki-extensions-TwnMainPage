@@ -28,7 +28,7 @@
 	"twnmp-your-translations-stats-all-languages": "За све језике",
 	"twnmp-your-view-language-stats": "Статистика језика",
 	"twnmp-translations-per-month": "превода месечно",
-	"twnmp-translations-in-sandbox": "Преводи",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Преводи}}",
 	"twnmp-reviews-per-month": "провера месечно",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Једини сте преводилац<br />на $4|{{GENDER:$1|Ранг:}} $2 од $3<br />за $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Једини сте|{{GENDER:$1|Ранг:}} $2 од $3}}",
@@ -48,6 +48,5 @@
 	"twnmp-choose-fill-account-details": "Унесите податке за налог",
 	"twnmp-join-community": "Придружите се заједници",
 	"twnmp-create-account-cancel": "Откажи",
-	"twnmp-select-target-language": "Изабери језик",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Једна порука|$1 порука}}"
 }

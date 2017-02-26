@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Y-M D"
+			"Y-M D",
+			"Fulup"
 		]
 	},
 	"twnmp-mainpage": "Degemer",
 	"twnmp-s-translators": "{{PLURAL:$1|Troer}}",
 	"twnmp-s-projects": "{{PLURAL:$1|Raktres}}",
 	"twnmp-s-languages": "{{PLURAL:$1|Yezh}}",
-	"twnmp-s-messages": "{{PLURAL:$1|Kemennadenn}} da dreiñ",
+	"twnmp-s-messages": "{{PLURAL:$1|Gemennadenn|Kemennadenn}} da dreiñ",
 	"twnmp-bannerwho": "Skeudenn $1",
 	"twnmp-show-more-projects": "Diskouez an holl raktresoù...",
 	"twnmp-login": "Kevreañ",
@@ -39,6 +40,5 @@
 	"twnmp-choose-fill-account-details": "Klokaat titouroù ho kont",
 	"twnmp-join-community": "Mont er gumuniezh-mañ",
 	"twnmp-create-account-cancel": "Nullañ",
-	"twnmp-select-target-language": "Dibab ar yezh",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Ur gemennadenn|$1 kemennadenn}}"
 }

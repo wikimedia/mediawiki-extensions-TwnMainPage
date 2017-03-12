@@ -15,9 +15,13 @@
 	"twnmp-login": "Logg inn",
 	"twnmp-logout": "Logg ut",
 	"twnmp-search-placeholder": "Finn og rett omsetjingar",
+	"twnmp-search-choose-project": "Vel prosjekt å setja om",
 	"twnmp-translate-link": "Set om",
+	"twnmp-translate-button": "Set om",
 	"twnmp-your-translations-stats": "Omsetjingsstatistikken din",
 	"twnmp-translations-per-month": "{{PLURAL:$1|Omsetjingar}}/månad",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Omsetjingar}}",
+	"twnmp-add-project": "Legg til prosjektet ditt med open kjeldekode for omsetjing",
 	"twnmp-bottom-help": "Hjelp",
 	"twnmp-bottom-support": "Brukarstøtte",
 	"twnmp-bottom-languages-supported": "Støtta språk"

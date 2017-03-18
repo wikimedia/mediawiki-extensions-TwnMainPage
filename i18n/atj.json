@@ -5,6 +5,9 @@
 		]
 	},
 	"twnmp-mainpage": "Otitikowin",
+	"twnmp-login": "Posi",
+	"twnmp-logout": "Piskeapikenakan",
+	"twnmp-bottom-about": "Enko nehe",
 	"twnmp-signup-username-placeholder": "Icinikasowin",
 	"twnmp-signup-password-placeholder": "Pitakesinahotiso"
 }

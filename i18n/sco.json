@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"John Reid"
+			"John Reid",
+			"AmaryllisGardener"
 		]
 	},
 	"twnmp-desc": "Gies the translatewiki.net main page",
@@ -27,7 +28,7 @@
 	"twnmp-your-translations-stats-all-languages": "Fer aw leids",
 	"twnmp-your-view-language-stats": "See leid stateestics",
 	"twnmp-translations-per-month": "Owersets/month",
-	"twnmp-translations-in-sandbox": "Owersets",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Translations}}",
 	"twnmp-reviews-per-month": "Luikowers/month",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Ye'r the yinlie yin<br />fer $4|{{GENDER:$1|Ranked}} $2 o $3<br />fer $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Ye'r the yinlie yin|{{GENDER:$1|Ranked}} $2 o $3}}",
@@ -56,6 +57,5 @@
 	"twnmp-join-community-desc": "Gif ye'r ae deveelooper interested in documentin owersets, or jyst luikin roon the platform, yer weelcome ava.",
 	"twnmp-join-community-reason": "Why ar ye interested in jynin?",
 	"twnmp-join-community-info": "Naw aen owerseter? Ye can still jyn the communitie.",
-	"twnmp-select-target-language": "Pick leid",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Yin message|$1 messages}}"
 }

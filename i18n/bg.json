@@ -29,7 +29,7 @@
 	"twnmp-your-translations-stats": "Вашите преводни статистики",
 	"twnmp-your-translations-stats-all-languages": "За всички езици",
 	"twnmp-your-view-language-stats": "Преглед на преводната статистика",
-	"twnmp-translations-per-month": "{{PLURAL:$1|Преводи}} за месец",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Преводи}}/месец",
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Преводи}}",
 	"twnmp-reviews-per-month": "{{PLURAL:$1|Проверки}} за месец",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Вие сте единственият<br />за $4|{{GENDER:$1|Класиран|Класирана}} $2 от $3<br />за $4}}",
@@ -60,6 +60,5 @@
 	"twnmp-join-community-reason": "Защо искате да се присъедините към нас?",
 	"twnmp-create-account-cancel": "Отказване",
 	"twnmp-join-community-info": "Не можете веднага да направите някои преводи? Все още можете да се присъедините към общността.",
-	"twnmp-select-target-language": "Избиране на език",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Едно съобщение|$1 съобщения}}"
 }

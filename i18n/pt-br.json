@@ -3,7 +3,8 @@
 		"authors": [
 			"Cainamarques",
 			"Luckas",
-			"Hamilton Abreu"
+			"Hamilton Abreu",
+			"Felipe L. Ewald"
 		]
 	},
 	"twnmp-mainpage": "Página principal",
@@ -14,14 +15,20 @@
 	"twnmp-bannerwho": "Imagem $1",
 	"twnmp-show-more-projects": "Mostrar todos projetos...",
 	"twnmp-translate-link": "Traduzir",
+	"twnmp-view-link": "Ver traduções",
 	"twnmp-translate-button": "Traduzir",
+	"twnmp-view-button": "Ver traduções",
 	"twnmp-your-translations-stats": "Suas estatísticas de tradução",
+	"twnmp-your-translations-stats-all-languages": "Para todas os idiomas",
+	"twnmp-your-view-language-stats": "Ver estatísticas de idioma",
 	"twnmp-translations-per-month": "Traduções/mês",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Traduções}}",
 	"twnmp-reviews-per-month": "Revisões/mês",
 	"twnmp-bottom-help": "Ajuda",
 	"twnmp-bottom-languages-supported": "Línguas suportadas",
 	"twnmp-bottom-about": "Sobre",
 	"twnmp-signup-username-placeholder": "Nome de usuário",
 	"twnmp-signup-password-placeholder": "Senha",
-	"twnmp-create-account-button": "Criar conta"
+	"twnmp-create-account-button": "Criar conta",
+	"twnmp-create-account-cancel": "Cancelar"
 }

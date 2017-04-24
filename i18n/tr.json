@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Meelo",
-			"McAang"
+			"McAang",
+			"Vito Genovese"
 		]
 	},
 	"twnmp-desc": "translatewiki.net ana sayfasının çevirilerini sağlar",
-	"twnmp-mainpage": "Ana sayfa",
+	"twnmp-mainpage": "Anasayfa",
 	"twnmp-s-translators": "{{PLURAL:$1|Çevirmen|Çevirmen}}",
 	"twnmp-s-projects": "{{PLURAL:$1|Proje|Proje}}",
 	"twnmp-s-languages": "Etkin {{PLURAL:$1|dil|dil}}",
@@ -51,6 +52,5 @@
 	"twnmp-create-account-cancel": "İptal",
 	"twnmp-join-community-info": "Çevirmen değil misiniz?  Topluluğa katılabilirsiniz.",
 	"twnmp-stats-number-k": "$1 bin",
-	"twnmp-select-target-language": "Dil seçin",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Bir ileti|$1 ileti}}"
 }

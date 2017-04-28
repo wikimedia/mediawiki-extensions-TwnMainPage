@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Toliño",
-			"Elisardojm"
+			"Elisardojm",
+			"Fitoschido"
 		]
 	},
 	"twnmp-desc": "Proporciona a páxina principal de translatewiki.net",
@@ -38,7 +39,7 @@
 	"twnmp-sandboxed-limit": "Alcanzou o límite de traducións. O noso equipo ha comprobar e actualizar a súa conta axiña.",
 	"twnmp-bottom-help": "Axuda",
 	"twnmp-bottom-support": "A Taberna",
-	"twnmp-bottom-languages-supported": "Linguas soportadas",
+	"twnmp-bottom-languages-supported": "Linguas admitidas",
 	"twnmp-bottom-about": "Acerca de",
 	"twnmp-signup-username-placeholder": "Nome de usuario",
 	"twnmp-signup-password-placeholder": "Contrasinal",
@@ -59,6 +60,5 @@
 	"twnmp-join-community-reason": "Por que ten interese en unirse?",
 	"twnmp-create-account-cancel": "Cancelar",
 	"twnmp-join-community-info": "Non pode enviar algunhas traducións agora mesmo? Pode unirse igualmente.",
-	"twnmp-select-target-language": "Seleccionar a lingua",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Unha mensaxe|$1 mensaxes}}"
 }

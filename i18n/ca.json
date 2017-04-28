@@ -38,7 +38,7 @@
 	"twnmp-sandboxed-limit": "Heu arribat al límit de traducció. El nostre equip verificarà i actualitzarà el vostre compte ben aviat.",
 	"twnmp-bottom-help": "Ajuda",
 	"twnmp-bottom-support": "Assistència",
-	"twnmp-bottom-languages-supported": "Llengües incloses",
+	"twnmp-bottom-languages-supported": "Llengües admeses",
 	"twnmp-bottom-about": "Quant a",
 	"twnmp-signup-username-placeholder": "Nom d'usuari",
 	"twnmp-signup-password-placeholder": "Contrasenya",
@@ -53,6 +53,5 @@
 	"twnmp-join-community-reason": "Per què us interessa unir-vos-hi?",
 	"twnmp-create-account-cancel": "Cancel·la",
 	"twnmp-join-community-info": "No sou un traductor? També podeu unir-vos a la comunitat.",
-	"twnmp-select-target-language": "Selecciona una llengua",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Un missatge|$1 missatges}}"
 }

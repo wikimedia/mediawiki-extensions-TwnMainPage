@@ -25,7 +25,7 @@
 	"twnmp-your-translations-stats": "Vaša statistika prevođenja",
 	"twnmp-your-translations-stats-all-languages": "Za sve jezike",
 	"twnmp-your-view-language-stats": "Vidi statistike jezika",
-	"twnmp-translations-per-month": "Prijevoda mjesečno",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Prijevoda}} mjesečno",
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Prijevodi}}",
 	"twnmp-reviews-per-month": "{{PLURAL:$1|Provjera}} mjesečno",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Vi ste jedini<br />za $4|{{GENDER:$1|Rang:}} $2 od $3<br />za $4}}",
@@ -40,6 +40,5 @@
 	"twnmp-create-account-button": "Napravi račun",
 	"twnmp-become-translator": "Postani prevodilac",
 	"twnmp-join-community": "Pridružite se zajednici",
-	"twnmp-create-account-cancel": "Otkaži",
-	"twnmp-select-target-language": "Izaberi jezik"
+	"twnmp-create-account-cancel": "Otkaži"
 }

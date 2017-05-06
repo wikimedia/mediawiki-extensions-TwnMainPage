@@ -17,5 +17,14 @@
 	"twnmp-view-link": "Itzulpenak ikusi",
 	"twnmp-view-button": "Itzulpenak ikusi",
 	"twnmp-your-translations-stats": "Zure itzulpen-estatistikak",
-	"twnmp-translations-per-month": "{{PLURAL:$1|itzulpen}}/hilabete"
+	"twnmp-translations-per-month": "{{PLURAL:$1|itzulpen}}/hilabete",
+	"twnmp-bottom-help": "Laguntza",
+	"twnmp-bottom-about": "Honi buruz",
+	"twnmp-signup-username-placeholder": "Erabiltzaile-izena",
+	"twnmp-signup-password-placeholder": "Pasahitza",
+	"twnmp-signup-email-placeholder": "Helbide elektronikoa",
+	"twnmp-create-account-button": "Sortu kontua",
+	"twnmp-choose-languages-you-know": "Aukera itzazu dakizkizun hizkuntzak",
+	"twnmp-choose-another-language": "Aukera ezazu beste hizkuntza bat...",
+	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Mezu bat|$1 mezu}}"
 }

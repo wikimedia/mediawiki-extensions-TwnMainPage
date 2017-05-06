@@ -3,17 +3,19 @@
 		"authors": [
 			"Milicevic01",
 			"Сербијана",
-			"Rancher"
+			"Rancher",
+			"Obsuser"
 		]
 	},
 	"twnmp-desc": "Главна страна translatewiki.net",
 	"twnmp-mainpage": "Главна страна",
-	"twnmp-s-translators": "{{PLURAL:$1|Преводилаца}}",
-	"twnmp-s-projects": "{{PLURAL:$1|Пројеката}}",
-	"twnmp-s-languages": "Активна {{PLURAL:$1|језика}}",
-	"twnmp-s-messages": "{{PLURAL:$1|Порука}} за превођење",
+	"twnmp-s-translators": "{{PLURAL:$1|преводилац|преводиоца|преводилаца}}",
+	"twnmp-s-projects": "{{PLURAL:$1|пројекат|пројекта|пројеката}}",
+	"twnmp-s-languages": "{{PLURAL:$1|активни језик|активна језика|активних језика}}",
+	"twnmp-s-messages": "{{PLURAL:$1|порука|поруке|порука}}<br>за превођење",
 	"twnmp-bannerwho": "Слика $1",
 	"twnmp-show-more-projects": "Прикажи све пројекте...",
+	"twnmp-brand-motto": "Заједница за превођење отвореног кода",
 	"twnmp-login": "Пријавите се",
 	"twnmp-logout": "Одјави ме",
 	"twnmp-search-placeholder": "Пронађите и поправите преводе",
@@ -32,7 +34,9 @@
 	"twnmp-reviews-per-month": "провера месечно",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Једини сте преводилац<br />на $4|{{GENDER:$1|Ранг:}} $2 од $3<br />за $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Једини сте|{{GENDER:$1|Ранг:}} $2 од $3}}",
+	"twnmp-add-project": "Додајте свој пројекат отвореног кода за превођење",
 	"twnmp-bottom-help": "Помоћ",
+	"twnmp-bottom-support": "Деск за подршку",
 	"twnmp-bottom-languages-supported": "Подржани језици",
 	"twnmp-bottom-about": "О пројекту translatewiki.net",
 	"twnmp-signup-username-placeholder": "Корисничко име",
@@ -48,5 +52,6 @@
 	"twnmp-choose-fill-account-details": "Унесите податке за налог",
 	"twnmp-join-community": "Придружите се заједници",
 	"twnmp-create-account-cancel": "Откажи",
+	"twnmp-stats-number-k": "{{FORMATNUM:$1}}k",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Једна порука|$1 порука}}"
 }

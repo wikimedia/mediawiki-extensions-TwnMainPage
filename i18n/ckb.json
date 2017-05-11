@@ -1,9 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Asoxor"
+			"Asoxor",
+			"Lost Whispers"
 		]
 	},
+	"twnmp-s-languages": "زمانە {{PLURAL:$1|چالاکەکان|چالاکەکان}}",
+	"twnmp-search-button": "دۆزینەوە",
 	"twnmp-search-choose-project": "پرۆژەیەک بۆ وەرگێڕان ھەڵبژێرە",
+	"twnmp-your-translations-stats": "ئاماری وەرگێڕانەکانت",
 	"twnmp-translations-per-month": "وەرگێڕان لە مانگدا"
 }

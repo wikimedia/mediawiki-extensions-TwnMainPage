@@ -18,6 +18,7 @@
 	"twnmp-view-button": "Itzulpenak ikusi",
 	"twnmp-your-translations-stats": "Zure itzulpen-estatistikak",
 	"twnmp-translations-per-month": "{{PLURAL:$1|itzulpen}}/hilabete",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|berrikuspen}}/hilabete",
 	"twnmp-bottom-help": "Laguntza",
 	"twnmp-bottom-about": "Honi buruz",
 	"twnmp-signup-username-placeholder": "Erabiltzaile-izena",

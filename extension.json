@@ -70,6 +70,7 @@
 			"position": "bottom"
 		},
 		"ext.translate.mainpage.styles": {
+			"targets": [ "desktop", "mobile" ],
 			"styles": "resources/css/ext.translate.mainpage.css"
 		},
 		"ext.translate.mainpage.icons": {

@@ -6,6 +6,7 @@
 		]
 	},
 	"twnmp-s-languages": "زمانە {{PLURAL:$1|چالاکەکان|چالاکەکان}}",
+	"twnmp-s-messages": "{{PLURAL:$1|نامە|نامە}} بۆ وەرگێڕان",
 	"twnmp-search-button": "دۆزینەوە",
 	"twnmp-search-choose-project": "پرۆژەیەک بۆ وەرگێڕان ھەڵبژێرە",
 	"twnmp-your-translations-stats": "ئاماری وەرگێڕانەکانت",

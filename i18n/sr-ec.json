@@ -12,7 +12,7 @@
 	"twnmp-s-translators": "{{PLURAL:$1|преводилаца}}",
 	"twnmp-s-projects": "{{PLURAL:$1|пројекат|пројекта|пројеката}}",
 	"twnmp-s-languages": "{{PLURAL:$1|активни језик|активна језика|активних језика}}",
-	"twnmp-s-messages": "{{PLURAL:$1|порука}} \n\nза превођење",
+	"twnmp-s-messages": "{{PLURAL:$1|порука}} за превод",
 	"twnmp-bannerwho": "Слика $1",
 	"twnmp-show-more-projects": "Прикажи све пројекте...",
 	"twnmp-brand-motto": "Заједница за превођење отвореног кода",

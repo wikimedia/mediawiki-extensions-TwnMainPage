@@ -27,9 +27,9 @@
 	"twnmp-your-translations-stats": "Le statisteche de le traduziune tune",
 	"twnmp-your-translations-stats-all-languages": "Pe tutte le lènghe",
 	"twnmp-your-view-language-stats": "'Ndruche le statisteche d'a lènghe",
-	"twnmp-translations-per-month": "Traduziune/mese",
-	"twnmp-translations-in-sandbox": "Traduziune",
-	"twnmp-reviews-per-month": "Revisite/mese",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Traduzione|Traduziune}}/mese",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Traduzione|Traduziune}}",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|Revisione|Revisiune}}/mese",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Tu sì l'uneche<br />pe $4|{{GENDER:$1|Posizionate}} $2 de $3<br />pe $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Tu sì l'uneche|{{GENDER:$1|Posizione}} $2 de $3}}",
 	"twnmp-add-project": "Aggiunge 'u proggette open source tune pa traduzione",
@@ -47,6 +47,5 @@
 	"twnmp-choose-fill-account-details": "Inghie le dettaglie d'u cunde tune",
 	"twnmp-join-community": "Tràse jndr'à comunitate nostre",
 	"twnmp-create-account-cancel": "Annulle",
-	"twnmp-select-target-language": "Scacchie 'a lènghe",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|'Nu messàgge|$1 messàgge}}"
 }

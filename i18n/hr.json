@@ -22,7 +22,7 @@
 	"twnmp-proofread-link": "Provjeri",
 	"twnmp-view-link": "Vidi prijevode",
 	"twnmp-translate-button": "Prevoditi",
-	"twnmp-proofread-button": "Provjeri",
+	"twnmp-proofread-button": "Provjeravati",
 	"twnmp-view-button": "Vidi prijevode",
 	"twnmp-your-translations-stats": "Vaša prevoditeljska statistika",
 	"twnmp-your-translations-stats-all-languages": "Za sve jezike",
@@ -54,7 +54,10 @@
 	"twnmp-choose-another-language": "Izaberite još jedan jezik...",
 	"twnmp-choose-fill-account-details": "Unesite podrobnosti o svojem računu",
 	"twnmp-join-community": "Pridružite se zajednici",
+	"twnmp-join-community-desc": "Također ste dobro došli ako ste programer zainteresiran za dokumentiranje prijevoda ili ako samo razgledavate platformu.",
+	"twnmp-join-community-reason": "Radi kojih se interesa želite pridružiti?",
 	"twnmp-create-account-cancel": "Otkaži",
 	"twnmp-join-community-info": "Ne možete trenutačno unositi pojedine prijevode? Svejedno se možete pridružiti.",
-	"twnmp-stats-number-k": "$1 tis."
+	"twnmp-stats-number-k": "$1 tis.",
+	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Jedna poruka|$1 poruke|$1 poruka}}"
 }

@@ -107,8 +107,22 @@ body.mediawiki {
 	width: 80%;
 	padding: 10px;
 	cursor: pointer;
-	-webkit-animation: fadein 1.5s;
-	animation: fadein 1.5s;
+	-webkit-animation: fadein 1.5s backwards;
+	animation: fadein 1.5s backwards;
+}
+
+.stats-tile-row:nth-child(1) > div:nth-child(2) .stats-tile,
+.stats-tile-row:nth-child(2) > div:nth-child(1) .stats-tile {
+	animation-delay: 0.2s;
+}
+
+.stats-tile-row:nth-child(1) > div:nth-child(3) .stats-tile,
+.stats-tile-row:nth-child(2) > div:nth-child(2) .stats-tile {
+	animation-delay: 0.4s;
+}
+
+.stats-tile-row:nth-child(2) > div:nth-child(3) .stats-tile {
+	animation-delay: 0.6s;
 }
 
 @-webkit-keyframes fadein {

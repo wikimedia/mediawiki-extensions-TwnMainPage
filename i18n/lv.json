@@ -4,6 +4,7 @@
 			"Papuass"
 		]
 	},
+	"twnmp-mainpage": "Sākumlapa",
 	"twnmp-s-translators": "{{PLURAL:$1|tulkotāji|tulkotājs|tulkotāji}}",
 	"twnmp-s-projects": "{{PLURAL:$1|projekti|projekts|projekti}}",
 	"twnmp-s-languages": "{{PLURAL:$1|aktīvas valodas|aktīva valoda|aktīvas valodas}}",
@@ -15,7 +16,26 @@
 	"twnmp-search-placeholder": "Atrast un labot tulkojumus",
 	"twnmp-search-button": "Meklēt",
 	"twnmp-search-choose-project": "Izvēlieties tulkojamo projektu",
+	"twnmp-translate-link": "Tulkot",
+	"twnmp-proofread-link": "Pārlasīt",
+	"twnmp-view-link": "Skatīt tulkojumus",
+	"twnmp-translate-button": "Tulkot",
+	"twnmp-proofread-button": "Pārlasīt",
+	"twnmp-view-button": "Skatīt tulkojumus",
 	"twnmp-your-translations-stats": "Jūsu tulkošanas statistika",
+	"twnmp-your-translations-stats-all-languages": "Visās valodās",
 	"twnmp-your-view-language-stats": "Skatīt valodas statistiku",
-	"twnmp-add-project": "Pievienojiet savu atvērtā pirmkoda projektu tulkošanai"
+	"twnmp-add-project": "Pievienojiet savu atvērtā pirmkoda projektu tulkošanai",
+	"twnmp-bottom-help": "Palīdzība",
+	"twnmp-bottom-support": "Atbalsta dienests",
+	"twnmp-bottom-languages-supported": "Atbalstītās valodas",
+	"twnmp-bottom-about": "Par",
+	"twnmp-signup-username-placeholder": "Lietotājvārds",
+	"twnmp-signup-password-placeholder": "Parole",
+	"twnmp-signup-email-placeholder": "E-pasts",
+	"twnmp-create-account-button": "Izveidot kontu",
+	"twnmp-become-translator": "Kļūt par tulkotāju",
+	"twnmp-choose-another-language": "Izvēlies citu valodu...",
+	"twnmp-join-community": "Pievienojies kopienai",
+	"twnmp-create-account-cancel": "Atcelt"
 }

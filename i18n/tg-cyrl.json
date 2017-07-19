@@ -5,5 +5,6 @@
 		]
 	},
 	"twnmp-s-projects": "{{PLURAL:$1|Лоиҳа|Лоиҳаҳо}}",
-	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Шумо ягона<br />тарҷумон ба забони $4 ҳастед|{{GENDER:$1|Шумо}} дар байни $3<br />{{PLURAL:$3|тарҷумон|тарҷумонҳо}} барои тарҷума ба забони $4 ҷои $2-умро мегиред.}}"
+	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Шумо ягона<br />тарҷумон ба забони $4 ҳастед|{{GENDER:$1|Шумо}} дар байни $3<br />{{PLURAL:$3|тарҷумон|тарҷумонҳо}} барои тарҷума ба забони $4 ҷои $2-умро мегиред.}}",
+	"twnmp-signup-username-placeholder": "Номи корбарӣ"
 }

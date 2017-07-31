@@ -4,7 +4,8 @@
 			"SPQRobin",
 			"Siebrand",
 			"Southparkfan",
-			"Sjoerddebruin"
+			"Sjoerddebruin",
+			"Smile4ever"
 		]
 	},
 	"twnmp-desc": "Bevat de startpagina van translatewiki.net",
@@ -15,7 +16,7 @@
 	"twnmp-s-messages": "{{PLURAL:$1|Vertaaleenheid|Vertaaleenheden}}",
 	"twnmp-bannerwho": "Afbeelding: $1",
 	"twnmp-show-more-projects": "Alle projecten weergeven...",
-	"twnmp-brand-motto": "Community voor het vertalen van open source software",
+	"twnmp-brand-motto": "Gemeenschap voor het vertalen van opensourcesoftware",
 	"twnmp-login": "Aanmelden",
 	"twnmp-logout": "Afmelden",
 	"twnmp-search-placeholder": "Vertalingen vinden en aanpassen",
@@ -61,6 +62,5 @@
 	"twnmp-join-community-reason": "Waarom wilt u deelnemen?",
 	"twnmp-create-account-cancel": "Annuleren",
 	"twnmp-join-community-info": "Kunt u op dit moment niet een aantal vertalingen maken? Dan kunt u nog steeds meedoen.",
-	"twnmp-select-target-language": "Taal selecteren",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Eén bericht|$1 berichten}}"
 }

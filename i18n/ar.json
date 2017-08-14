@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"مشعل الحربي",
-			"Meno25"
+			"Meno25",
+			"ديفيد"
 		]
 	},
 	"twnmp-mainpage": "الصفحة الرئيسية",
 	"twnmp-view-button": "عرض الترجمات",
-	"twnmp-translations-in-sandbox": "ترجمات",
-	"twnmp-sandboxed": "أنت بحاجة إلى تقديم المزيد من الترجمات للحصول على صلاحيات الترجمة الكاملة.",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|ترجمات}}",
+	"twnmp-sandboxed": "أنت بحاجة إلى تقديم  {{PLURAL:$1|0=بعض|المزيد}} من الترجمات لإتمام عملية التسجيل.",
 	"twnmp-sandboxed-limit": "لقد بلغت حد الترجمة. سيقوم فريقنا بتأكيد وترقية حسابك قريبًا."
 }

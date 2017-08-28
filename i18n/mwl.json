@@ -4,5 +4,6 @@
 			"MokaAkashiyaPT"
 		]
 	},
-	"twnmp-logout": "Salir"
+	"twnmp-logout": "Salir",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Traduçon|Traduçones}}"
 }

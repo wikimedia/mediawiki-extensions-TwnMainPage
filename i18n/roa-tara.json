@@ -47,6 +47,7 @@
 	"twnmp-choose-another-language": "Scacchie 'n'otra lènghe...",
 	"twnmp-choose-fill-account-details": "Inghie le dettaglie d'u cunde tune",
 	"twnmp-join-community": "Tràse jndr'à comunitate nostre",
+	"twnmp-join-community-reason": "Purcé si 'nderessate a partecipà?",
 	"twnmp-create-account-cancel": "Annulle",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|'Nu messàgge|$1 messàgge}}"
 }

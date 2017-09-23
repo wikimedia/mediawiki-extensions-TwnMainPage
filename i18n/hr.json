@@ -9,7 +9,7 @@
 	"twnmp-s-translators": "{{PLURAL:$1|prevoditelj|prevoditelja}}",
 	"twnmp-s-projects": "{{PLURAL:$1|projekt|projekta|projekata}}",
 	"twnmp-s-languages": "{{PLURAL:$1|aktivni jezik|aktivna jezika|aktivnih jezika}}",
-	"twnmp-s-messages": "{{PLURAL:$1|poruka|porukā}} za prevođenje",
+	"twnmp-s-messages": "{{PLURAL:$1|poruka|porukā}}",
 	"twnmp-bannerwho": "Slika $1",
 	"twnmp-show-more-projects": "Prikaži sve projekte...",
 	"twnmp-brand-motto": "Prevoditeljska zajednica otvorenoga kôda",

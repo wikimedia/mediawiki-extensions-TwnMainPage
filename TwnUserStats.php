@@ -15,7 +15,7 @@ class TwnUserStats {
 		$weekago = $now - $days * 24 * 60 * 60;
 		$ret = [];
 
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 
 		$fields = [
 			'user_id' => 'rc_user',
@@ -79,7 +79,7 @@ class TwnUserStats {
 		$weekago = $now - $days * 24 * 60 * 60;
 		$ret = [];
 
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 
 		$fields = [
 			'user_id' => 'log_user',

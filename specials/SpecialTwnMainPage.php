@@ -409,7 +409,7 @@ HTML;
 	public static function numberOfLanguages( $period ) {
 		global $wgTranslateMessageNamespaces;
 
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 		$tables = [ 'recentchanges' ];
 		$fields = [ 'substring_index(rc_title, \'/\', -1) as lang, count(rc_id) as count' ];
 		$conds = [
@@ -825,7 +825,7 @@ HTML;
 	public function getSandboxRows() {
 		global $wgTranslateSandboxLimit;
 
-		$store = new TranslationStashStorage( wfGetDB( DB_SLAVE ) );
+		$store = new TranslationStashStorage( wfGetDB( DB_REPLICA ) );
 		$count = count( $store->getTranslations( $this->getUser() ) );
 
 		if ( $count < $wgTranslateSandboxLimit ) {

@@ -40,7 +40,7 @@
 	"twnmp-bottom-about": "Rólunk",
 	"twnmp-signup-username-placeholder": "Szerkesztőnév",
 	"twnmp-signup-password-placeholder": "Jelszó",
-	"twnmp-signup-email-placeholder": "E-mail cím",
+	"twnmp-signup-email-placeholder": "E-mail-cím",
 	"twnmp-create-account-button": "Fiók létrehozása",
 	"twnmp-signup-error-invalidusername": "Ez a szerkesztőnév nem elérhető. Kérlek válassz egy másikat.",
 	"twnmp-signup-error-nonfreeusername": "Ilyen nevű szerkesztő már létezik. Kérlek, válassz egy másik nevet.",
@@ -57,6 +57,5 @@
 	"twnmp-join-community-reason": "Miért szeretnél csatlakozni?",
 	"twnmp-create-account-cancel": "Mégse",
 	"twnmp-join-community-info": "Nem vagy fordító? Akkor is csatlakozhatsz a közösséghez.",
-	"twnmp-select-target-language": "Nyelv kiválasztása",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Egy|$1}} üzenet"
 }

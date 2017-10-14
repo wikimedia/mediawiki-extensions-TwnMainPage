@@ -11,5 +11,6 @@
 	"twnmp-search-button": "دۆزینەوە",
 	"twnmp-search-choose-project": "پرۆژەیەک ھەڵبژێرە بۆ وەرگێڕان",
 	"twnmp-your-translations-stats": "ئاماری وەرگێڕانەکانت",
-	"twnmp-translations-per-month": "وەرگێڕان لە مانگدا"
+	"twnmp-translations-per-month": "وەرگێڕان لە مانگدا",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|بەسەرداچوونەوە}}/مانگ"
 }

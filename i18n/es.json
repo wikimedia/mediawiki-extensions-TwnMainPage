@@ -11,7 +11,7 @@
 	"twnmp-s-translators": "{{PLURAL:$1|traductor|traductores}}",
 	"twnmp-s-projects": "{{PLURAL:$1|proyecto|proyectos}}",
 	"twnmp-s-languages": "{{PLURAL:$1|idioma activo|idiomas activos}}",
-	"twnmp-s-messages": "{{PLURAL:$1|mensaje|mensajes}} para traducir",
+	"twnmp-s-messages": "{{PLURAL:$1|mensaje|mensajes}} que traducir",
 	"twnmp-bannerwho": "Imagen $1",
 	"twnmp-show-more-projects": "Mostrar todos los proyectos",
 	"twnmp-brand-motto": "Comunidad de traducción de código abierto",
@@ -60,6 +60,5 @@
 	"twnmp-join-community-reason": "¿Por qué quieres unirte?",
 	"twnmp-create-account-cancel": "Cancelar",
 	"twnmp-join-community-info": "¿No puedes enviar alguna traducción en este momento? Igual puedes unirte.",
-	"twnmp-select-target-language": "Seleccionar idioma",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Un mensaje|$1 mensajes}}"
 }

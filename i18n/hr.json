@@ -58,6 +58,6 @@
 	"twnmp-join-community-reason": "Radi kojih se interesa želite pridružiti?",
 	"twnmp-create-account-cancel": "Otkaži",
 	"twnmp-join-community-info": "Ne možete trenutačno unositi pojedine prijevode? Svejedno se možete pridružiti.",
-	"twnmp-stats-number-k": "$1 tis.",
+	"twnmp-stats-number-k": "$1&nbsp;tis.",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Jedna poruka|$1 poruke|$1 poruka}}"
 }

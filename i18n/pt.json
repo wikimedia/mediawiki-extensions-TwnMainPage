@@ -5,7 +5,8 @@
 			"Imperadeiro98",
 			"Vitorvicentevalente",
 			"Macofe",
-			"Hamilton Abreu"
+			"Hamilton Abreu",
+			"MokaAkashiyaPT"
 		]
 	},
 	"twnmp-desc": "Oferece a página principal da translatewiki.net",
@@ -15,7 +16,7 @@
 	"twnmp-s-languages": "{{PLURAL:$1|Língua ativa|Línguas ativas}}",
 	"twnmp-s-messages": "{{PLURAL:$1|Mensagem|Mensagens}} para traduzir",
 	"twnmp-bannerwho": "Imagem $1",
-	"twnmp-show-more-projects": "Mostrar todos os projectos...",
+	"twnmp-show-more-projects": "Mostrar todos os projetos...",
 	"twnmp-brand-motto": "Comunidade de tradução em código aberto",
 	"twnmp-login": "Entrar",
 	"twnmp-logout": "Sair",

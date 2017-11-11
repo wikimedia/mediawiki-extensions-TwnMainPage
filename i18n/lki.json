@@ -9,7 +9,7 @@
 	"twnmp-mainpage": "سەر پەڕە",
 	"twnmp-s-languages": "{{PLURAL:$1|زوون}} فعال",
 	"twnmp-brand-motto": "کومڵة متن باز زوون چاوواشآ کرِدن",
-	"twnmp-login": "إ نۆم هەتن",
+	"twnmp-login": "ڤە نۆم هەتن",
 	"twnmp-logout": "دەرچێن|خروج",
 	"twnmp-search-button": "آدئین(پێاکرن)",
 	"twnmp-translate-link": "چاوواشەکِردن زوون",
@@ -22,6 +22,5 @@
 	"twnmp-sandboxed": "شما باید ترجمه‌های {{PLURAL:$1|بیشتری}} برای گرفتن دسترسی کامل ترجمه انجام دهید.",
 	"twnmp-choose-languages-you-know": "زوونێ گإ مەزۆنین انتخاب کەن",
 	"twnmp-create-account-cancel": "ئآهووسانن/لغو",
-	"twnmp-join-community-info": "نمی‌توانید الان ترجمه اضافه کنید؟ با این وجود می‌توانید به ما بپیوندید.",
-	"twnmp-select-target-language": "زوون انتخاب کۀ"
+	"twnmp-join-community-info": "نمی‌توانید الان ترجمه اضافه کنید؟ با این وجود می‌توانید به ما بپیوندید."
 }

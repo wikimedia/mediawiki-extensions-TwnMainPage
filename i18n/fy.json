@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Kening Aldgilles",
-			"Robin0van0der0vliet"
+			"Robin0van0der0vliet",
+			"Robin van der Vliet"
 		]
 	},
 	"twnmp-mainpage": "Haadside",
@@ -27,6 +28,5 @@
 	"twnmp-signup-username-placeholder": "Brûkersnamme",
 	"twnmp-signup-password-placeholder": "Wachtwurd",
 	"twnmp-signup-email-placeholder": "E-mail",
-	"twnmp-create-account-cancel": "Annulearje",
-	"twnmp-select-target-language": "Taal selektearje"
+	"twnmp-create-account-cancel": "Annulearje"
 }

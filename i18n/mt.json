@@ -52,6 +52,5 @@
 	"twnmp-join-community-reason": "Għaliex int interessat/a li tipparteċipa?",
 	"twnmp-create-account-cancel": "Ikkanċella",
 	"twnmp-join-community-info": "Mintix traduttur? Xorta waħda tista' tissieħeb mal-komunità.",
-	"twnmp-select-target-language": "Agħżel lingwa",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Messaġġ wieħed|$1 messaġġi}}"
 }

@@ -39,6 +39,5 @@
 	"twnmp-create-account-button": "Krei konton",
 	"twnmp-choose-another-language": "Elektu alian lingvon...",
 	"twnmp-create-account-cancel": "Nuligi",
-	"twnmp-select-target-language": "Elektu lingvon",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|1 mesaĝo|$1 mesaĝoj}}"
 }

@@ -59,6 +59,5 @@
 	"twnmp-join-community-reason": "Hvorfor er du interesseret i at deltage?",
 	"twnmp-create-account-cancel": "Annuller",
 	"twnmp-join-community-info": "Ikke en oversætter? Du kan stadig deltage i fællesskabet.",
-	"twnmp-select-target-language": "Vælg sprog",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|En besked|$1 beskeder}}"
 }

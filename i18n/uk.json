@@ -62,6 +62,5 @@
 	"twnmp-create-account-cancel": "Скасувати",
 	"twnmp-join-community-info": "Не можете додати переклади прямо зараз? Ви все одно можете приєднатися.",
 	"twnmp-stats-number-k": "$1 тис.",
-	"twnmp-select-target-language": "Оберіть мову",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Одне повідомлення|$1 повідомлення|$1 повідомлень}}"
 }

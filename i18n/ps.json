@@ -45,6 +45,5 @@
 	"twnmp-choose-fill-account-details": "تاسې خپل د گڼون تفصيل ورکړئ",
 	"twnmp-join-community": "دې ټولنې سره يوځای شئ",
 	"twnmp-create-account-cancel": "ناگارل",
-	"twnmp-select-target-language": "ژبه ټاکل",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|يو پيغام|$1 پيغامونه}}"
 }

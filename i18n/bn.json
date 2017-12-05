@@ -61,6 +61,5 @@
 	"twnmp-create-account-cancel": "বাতিল",
 	"twnmp-join-community-info": "এই মুহূর্তে কিছু অনুবাদ জমা দিতে পারছেন না? আপনি এখনও সম্প্রদায়ে যোগ দিতে পারেন।",
 	"twnmp-stats-number-k": "$1 হাজার",
-	"twnmp-select-target-language": "ভাষা নির্বাচন করুন",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|একটি বার্তা|$1টি বার্তা}}"
 }

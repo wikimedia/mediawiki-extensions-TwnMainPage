@@ -59,6 +59,5 @@
 	"twnmp-join-community-reason": "De ce ați doriți să vă alăturați?",
 	"twnmp-create-account-cancel": "Revocare",
 	"twnmp-join-community-info": "Nu puteți efectua în acest moment câteva traduceri? Chiar și-așa vă puteți alătura.",
-	"twnmp-select-target-language": "Selectare limbă",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Un mesaj|$1 mesaje|$1 de mesaje}}"
 }

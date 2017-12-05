@@ -58,6 +58,5 @@
 	"twnmp-join-community-reason": "Proque vole tu participar?",
 	"twnmp-create-account-cancel": "Cancellar",
 	"twnmp-join-community-info": "Tu non pote ancora traducer? Tu pote entrar in le communitate in omne caso.",
-	"twnmp-select-target-language": "Selige lingua",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Un message|$1 messages}}"
 }

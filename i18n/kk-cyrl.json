@@ -50,6 +50,5 @@
 	"twnmp-join-community-reason": "Бізге қосылуды неліктен қызықтайсыз?",
 	"twnmp-create-account-cancel": "Қажет емес",
 	"twnmp-stats-number-k": "$1 мың",
-	"twnmp-select-target-language": "Тілді таңдау",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Бір хабарлама|$1 хабарлама}}"
 }

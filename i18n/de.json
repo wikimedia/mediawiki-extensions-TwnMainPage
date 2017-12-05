@@ -63,6 +63,5 @@
 	"twnmp-create-account-cancel": "Abbrechen",
 	"twnmp-join-community-info": "Du kannst momentan noch nicht übersetzen? Dennoch kannst Du beitreten.",
 	"twnmp-stats-number-k": "$1&nbsp;T",
-	"twnmp-select-target-language": "Sprache auswählen",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Eine Nachricht|$1 Nachrichten}}"
 }

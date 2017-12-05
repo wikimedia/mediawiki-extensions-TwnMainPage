@@ -58,6 +58,5 @@
 	"twnmp-join-community-reason": "Mengapakah anda berminat untuk menyertai?",
 	"twnmp-create-account-cancel": "Batalkan",
 	"twnmp-join-community-info": "Bukan penterjemah? Anda tetap dialu-alukan untuk menyertai komuniti.",
-	"twnmp-select-target-language": "Pilih bahasa",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Satu mesej|$1 mesej}}"
 }

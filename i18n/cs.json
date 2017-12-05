@@ -61,6 +61,5 @@
 	"twnmp-create-account-cancel": "Storno",
 	"twnmp-join-community-info": "Nemůžete právě teď vkládat překlady? I tak se můžete ke komunitě připojit.",
 	"twnmp-stats-number-k": "$1&nbsp;k",
-	"twnmp-select-target-language": "Zvolte si jazyk",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Jedna zpráva|$1 zprávy|$1 zpráv}}"
 }

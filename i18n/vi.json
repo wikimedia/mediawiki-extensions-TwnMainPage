@@ -59,6 +59,5 @@
 	"twnmp-join-community-reason": "Tại sao bạn muốn tham gia?",
 	"twnmp-create-account-cancel": "Hủy bỏ",
 	"twnmp-join-community-info": "Không thể gửi một số bản dịch ngay bây giờ? Bạn vẫn có thể tham gia.",
-	"twnmp-select-target-language": "Chọn ngôn ngữ",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Một thông điệp|$1 thông điệp}}"
 }

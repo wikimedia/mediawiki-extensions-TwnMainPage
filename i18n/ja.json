@@ -58,6 +58,5 @@
 	"twnmp-join-community": "コミュニティへの参加",
 	"twnmp-create-account-cancel": "キャンセル",
 	"twnmp-join-community-info": "翻訳作業ができなくてもご参加いただけます。",
-	"twnmp-select-target-language": "言語を選択",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|$1 メッセージ}}"
 }

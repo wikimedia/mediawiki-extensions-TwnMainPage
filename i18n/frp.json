@@ -46,6 +46,5 @@
 	"twnmp-become-translator": "Vegnir un traductor",
 	"twnmp-choose-another-language": "Chouèsir un’ôtra lengoua...",
 	"twnmp-create-account-cancel": "Anular",
-	"twnmp-select-target-language": "Chouèsir la lengoua",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Un mèssâjo|$1 mèssâjos}}"
 }

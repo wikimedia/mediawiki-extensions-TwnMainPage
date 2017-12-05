@@ -62,6 +62,5 @@
 	"twnmp-create-account-cancel": "ביטול",
 	"twnmp-join-community-info": "לא יכולים לשלוח תרגומים כעת? תוכלו להצטרף לקהילה בכל זאת.",
 	"twnmp-stats-number-k": "$1 אלף",
-	"twnmp-select-target-language": "בחירת שפה",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|הודעה אחת|$1 הודעות}}"
 }

@@ -61,6 +61,5 @@
 	"twnmp-join-community-reason": "Miksi haluat liittyä?",
 	"twnmp-create-account-cancel": "Peru",
 	"twnmp-join-community-info": "Etkö ole kääntäjä? Voit silti liittyä.",
-	"twnmp-select-target-language": "Valitse kieli",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|$1 viesti|$1 viestiä}}"
 }

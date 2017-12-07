@@ -120,14 +120,14 @@
 
 		showMessageGroupStats( selectedLanguage );
 
-		$tiles.hover(
-			function () {
+		$tiles.on( {
+			mouseenter: function () {
 				$( this ).find( '.project-actions' ).removeClass( 'hide' );
 			},
-			function () {
+			mouseleave: function () {
 				$( this ).find( '.project-actions' ).addClass( 'hide' );
 			}
-		);
+		} );
 
 		$tiles.click( function () {
 			var url = $( this ).data( 'url' );

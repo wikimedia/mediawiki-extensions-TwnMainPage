@@ -39,7 +39,7 @@
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=U bent de enige|{{GENDER:$1|Positie}} $2 van $3}}",
 	"twnmp-add-project": "Voeg uw open sourceproject toe voor vertaling",
 	"twnmp-sandboxed": "U moet {{PLURAL:$1||meer}} vertalingen maken om volledige vertaalrechten te krijgen.",
-	"twnmp-sandboxed-limit": "U hebt de limiet voor vertalingen bereikt. Ons team gaat uw vertalingen controleren en promoveert uw gebruiker snel.",
+	"twnmp-sandboxed-limit": "U hebt de limiet voor vertalingen bereikt. Ons team gaat uw vertalingen controleren en promoveert uw account snel.",
 	"twnmp-bottom-help": "Hulp",
 	"twnmp-bottom-support": "Helpdesk",
 	"twnmp-bottom-languages-supported": "Ondersteunde talen",

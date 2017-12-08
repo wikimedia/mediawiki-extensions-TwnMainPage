@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"Baloch Khan"
 		]
 	},
 	"twnmp-desc": "د translatewiki.net لومړی مخ جوړوي",
@@ -44,6 +45,8 @@
 	"twnmp-choose-another-language": "بله ژبه ټاکل...",
 	"twnmp-choose-fill-account-details": "تاسې خپل د گڼون تفصيل ورکړئ",
 	"twnmp-join-community": "دې ټولنې سره يوځای شئ",
+	"twnmp-join-community-desc": "که تاسو د هغه ژباړونکو یاست چې د ژباړو کولو مستند کولو لپاره لیوالتیا لري، یا یوازې د پلی کولو پلټنه کوي، نو تاسو هم هرکلۍ ويل کيږي.",
+	"twnmp-join-community-reason": "تاسو ولې زموږ سره يوځای کېدو ته لیواله ياست؟",
 	"twnmp-create-account-cancel": "ناگارل",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|يو پيغام|$1 پيغامونه}}"
 }

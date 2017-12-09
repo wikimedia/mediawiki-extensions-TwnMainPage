@@ -48,5 +48,6 @@
 	"twnmp-join-community-desc": "که تاسو د هغه ژباړونکو یاست چې د ژباړو کولو مستند کولو لپاره لیوالتیا لري، یا یوازې د پلی کولو پلټنه کوي، نو تاسو هم هرکلۍ ويل کيږي.",
 	"twnmp-join-community-reason": "تاسو ولې زموږ سره يوځای کېدو ته لیواله ياست؟",
 	"twnmp-create-account-cancel": "ناگارل",
+	"twnmp-stats-number-k": "$1 زره",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|يو پيغام|$1 پيغامونه}}"
 }

@@ -13,11 +13,18 @@
 	"twnmp-logout": "Ынкееря сесиуний",
 	"twnmp-search-button": "Кэутаре",
 	"twnmp-translate-link": "Традучере",
+	"twnmp-proofread-link": "Ревизуире",
 	"twnmp-translate-button": "Традучере",
+	"twnmp-proofread-button": "Ревизуире",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Традучерь}}/лунэ",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Традучерь}}",
+	"twnmp-bottom-help": "Ажутор",
 	"twnmp-bottom-about": "Деспре",
 	"twnmp-signup-username-placeholder": "Нумеле де утилизатор",
 	"twnmp-signup-password-placeholder": "Паролэ",
 	"twnmp-signup-email-placeholder": "Пошта електроникэ",
 	"twnmp-create-account-button": "Креаря контулуй",
-	"twnmp-choose-languages-you-know": "Алеӂець лимбиле пе каре ле куноаштець"
+	"twnmp-choose-languages-you-know": "Алеӂець лимбиле пе каре ле куноаштець",
+	"twnmp-choose-another-language": "Алеӂець о алтэ лимбэ...",
+	"twnmp-create-account-cancel": "Ревокаре"
 }

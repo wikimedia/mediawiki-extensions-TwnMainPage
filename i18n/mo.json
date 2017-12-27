@@ -10,8 +10,11 @@
 	"twnmp-s-languages": "{{PLURAL:$1|Лимбэ активэ|Лимбь активе}}",
 	"twnmp-s-messages": "{{PLURAL:$1|Месаж|Месаже}} де традус",
 	"twnmp-bannerwho": "Имаӂиня: $1",
+	"twnmp-show-more-projects": "Тоате проектеле",
+	"twnmp-login": "Аутентификаре",
 	"twnmp-logout": "Ынкееря сесиуний",
 	"twnmp-search-button": "Кэутаре",
+	"twnmp-search-choose-project": "Алеӂець ун проект пентру а традуче",
 	"twnmp-translate-link": "Традучере",
 	"twnmp-proofread-link": "Верификаре",
 	"twnmp-translate-button": "Традучере",
@@ -28,6 +31,7 @@
 	"twnmp-become-translator": "Девениць ун традукэтор",
 	"twnmp-choose-languages-you-know": "Алеӂець лимбиле пе каре ле куноаштець",
 	"twnmp-choose-another-language": "Алеӂець о алтэ лимбэ...",
+	"twnmp-choose-fill-account-details": "Ынтродучець деталииле контулуй думнявоастрэ",
 	"twnmp-create-account-cancel": "Ревокаре",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Ун месаж|$1 месаже|$1 де месаже}}"
 }

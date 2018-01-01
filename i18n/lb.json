@@ -33,7 +33,7 @@
 	"twnmp-reviews-per-month": "{{PLURAL:$1|Nogekuckt}}/Mount",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Dir sidd deen Eenzege<!-- $1 --><br />fir $4|Plaz $2 vu(n) $3<br />fir $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Dir sidd deen Eenzegen<!-- $1 -->|Plaz $2 vu(n) $3}}",
-	"twnmp-add-project": "Setzt Ären Open-Source Projet fir d'Iwwersetzung derbäi",
+	"twnmp-add-project": "Setzt Ären Open-Source Projet fir d'Iwwersetzung dobäi",
 	"twnmp-sandboxed": "Dir musst  {{PLURAL:$1|0=e puer|méi}} Iwwersetzunge maache fir komplett Iwwersetzungstrechter ze kréien.",
 	"twnmp-sandboxed-limit": "Dir hutt d'Limit vun den Iwwersetzungen erreecht. Eis Equipe wäert Äre Benotzerkont nokucken an Är Benotzerrechter upassen.",
 	"twnmp-bottom-help": "Hëllef",

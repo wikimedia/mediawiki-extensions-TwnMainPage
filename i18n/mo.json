@@ -4,6 +4,7 @@
 			"Cybernenea11"
 		]
 	},
+	"twnmp-desc": "Паӂина принчипалэ пентру translatewiki.net",
 	"twnmp-mainpage": "Паӂина принчипалэ",
 	"twnmp-s-translators": "{{PLURAL:$1|Традукэтор|Традукэторь}}",
 	"twnmp-s-projects": "{{PLURAL:$1|Проект|Проекте}}",
@@ -19,8 +20,13 @@
 	"twnmp-search-choose-project": "Алеӂець ун проект пентру а традуче",
 	"twnmp-translate-link": "Традучере",
 	"twnmp-proofread-link": "Верификаре",
+	"twnmp-view-link": "Визионаря традучерилор",
 	"twnmp-translate-button": "Традучере",
 	"twnmp-proofread-button": "Верификаре",
+	"twnmp-view-button": "Визионаря традучерилор",
+	"twnmp-your-translations-stats": "Статистичиле думнявоастрэ де традучере",
+	"twnmp-your-translations-stats-all-languages": "Пентру тоате лимбиле",
+	"twnmp-your-view-language-stats": "Визионаря статистичилор де лимбэ",
 	"twnmp-translations-per-month": "{{PLURAL:$1|Традучерь}}/лунэ",
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Традучерь}}",
 	"twnmp-reviews-per-month": "{{PLURAL:$1|Верификэрь}}/лунэ",
@@ -34,10 +40,13 @@
 	"twnmp-signup-password-placeholder": "Паролэ",
 	"twnmp-signup-email-placeholder": "Пошта електроникэ",
 	"twnmp-create-account-button": "Креаря контулуй",
+	"twnmp-signup-error-invalidusername": "Ачест нуме де утилизатор ну есте диспонибил, вэ ругэм сэ алеӂець алтул.",
+	"twnmp-signup-error-nonfreeusername": "Ачест нуме де утилизатор дежа екзистэ, вэ ругэм сэ алеӂець алтул.",
 	"twnmp-become-translator": "Девениць ун традукэтор",
 	"twnmp-choose-languages-you-know": "Алеӂець лимбиле пе каре ле куноаштець",
 	"twnmp-choose-another-language": "Алеӂець о алтэ лимбэ...",
 	"twnmp-choose-fill-account-details": "Ынтродучець деталииле контулуй думнявоастрэ",
 	"twnmp-create-account-cancel": "Ревокаре",
+	"twnmp-stats-number-k": "$1 мий",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Ун месаж|$1 месаже|$1 де месаже}}"
 }

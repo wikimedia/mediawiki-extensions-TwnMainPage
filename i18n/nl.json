@@ -53,7 +53,7 @@
 	"twnmp-signup-error-invalidpassword": "Het wachtwoord is ongeldig",
 	"twnmp-signup-error-invalidemail": "Dit lijkt geen geldig e-mailadres. Geef een geldig e-mailadres op.",
 	"twnmp-signup-error-other": "Registeren is mislukt. De server gaf de volgende foutmelding: $1.",
-	"twnmp-signup-error-unknown": "Het aanmaken van de gebruiker is mislukt en de reden is niet bekend.",
+	"twnmp-signup-error-unknown": "Het aanmaken van het account is door een onbekende oorzaak mislukt.",
 	"twnmp-become-translator": "Word vertaler",
 	"twnmp-choose-languages-you-know": "Kies talen die u kent",
 	"twnmp-choose-another-language": "Kies een andere taal...",

@@ -48,8 +48,7 @@
 			"messages": [
 				"percent",
 				"twnmp-show-more-projects"
-			],
-			"position": "bottom"
+			]
 		},
 		"ext.translate.mainpage.signup": {
 			"scripts": "resources/js/ext.translate.mainpage.signup.js",
@@ -66,8 +65,7 @@
 				"twnmp-signup-error-nonfreeusername",
 				"twnmp-signup-error-other",
 				"twnmp-signup-error-unknown"
-			],
-			"position": "bottom"
+			]
 		},
 		"ext.translate.mainpage.styles": {
 			"targets": [ "desktop", "mobile" ],

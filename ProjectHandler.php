@@ -45,7 +45,7 @@ class ProjectHandler {
 	/**
 	 * Sort the projects by to be determined algorithm. Like most sorting
 	 * functions in PHP this modifies passed list in place.
-	 * @param MessageGroup[] $groups
+	 * @param MessageGroup[] &$groups
 	 * @param string $language Language code.
 	 * @param array $stats Message group stats.
 	 */

@@ -433,7 +433,11 @@ HTML;
 		return $count;
 	}
 
-	// Callback for CachedStat
+	/**
+	 * Callback for CachedStat
+	 * @param ProjectHandler $handler
+	 * @return array
+	 */
 	public static function getTwnStats( ProjectHandler $handler ) {
 		$projects = count( $handler->getProjects() );
 		$translators = SiteStats::numberingroup( 'translator' );
@@ -448,7 +452,12 @@ HTML;
 		];
 	}
 
-	// Callback for CachedStat
+	/**
+	 * Callback for CachedStat
+	 * @param string $code
+	 * @param int $period
+	 * @return array
+	 */
 	public static function getUserStats( $code, $period ) {
 		return [
 			'translators' => TwnUserStats::getTranslationRankings( $code, $period ),
@@ -533,6 +542,7 @@ HTML;
 
 	/**
 	 * Form that allows users to signup via sandbox.
+	 * @return true
 	 */
 	public function loginForm() {
 		$this->getOutput()->addModules( 'ext.translate.mainpage.signup' );

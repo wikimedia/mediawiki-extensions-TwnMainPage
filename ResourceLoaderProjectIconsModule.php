@@ -33,7 +33,7 @@ class ResourceLoaderProjectIconsModule extends ResourceLoaderModule {
 
 	/**
 	 * @see also resouces/css/ext.translate.mainpage.css
-	 * @param $context ResourceLoaderContext
+	 * @param ResourceLoaderContext $context
 	 * @return array CSS styles
 	 */
 	public function getStyles( ResourceLoaderContext $context ) {

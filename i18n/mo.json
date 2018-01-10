@@ -54,7 +54,10 @@
 	"twnmp-choose-another-language": "Алеӂець о алтэ лимбэ...",
 	"twnmp-choose-fill-account-details": "Ынтродучець деталииле контулуй думнявоастрэ",
 	"twnmp-join-community": "Алэтураци-вэ комунитэций",
+	"twnmp-join-community-desc": "Дакэ сынтець ун дезволтатор коинтересат де документаря традучерилор сау пур ши симплу експлораць платформа, сынтець де асеменя биневенит.",
+	"twnmp-join-community-reason": "Де че дориць сэ вэ алэтураць?",
 	"twnmp-create-account-cancel": "Ревокаре",
+	"twnmp-join-community-info": "Ну путець традуче кытева месаже ын ачест момент? Кяр ши аша вэ путець алэтура.",
 	"twnmp-stats-number-k": "$1 мий",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Ун месаж|$1 месаже|$1 де месаже}}"
 }

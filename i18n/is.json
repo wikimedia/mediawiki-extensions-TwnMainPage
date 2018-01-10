@@ -14,8 +14,9 @@
 	"twnmp-show-more-projects": "Sýna öll verkefni...",
 	"twnmp-login": "Innskrá",
 	"twnmp-logout": "Útskrá",
+	"twnmp-search-placeholder": "Finna og laga þýðingar",
 	"twnmp-search-button": "Finna",
-	"twnmp-search-choose-project": "Velja verkefni til að þýða",
+	"twnmp-search-choose-project": "Veldu verkefni til að þýða",
 	"twnmp-translate-link": "Þýða",
 	"twnmp-proofread-link": "Yfirfara",
 	"twnmp-view-link": "Skoða þýðingar",
@@ -24,6 +25,7 @@
 	"twnmp-your-translations-stats": "Tölfræði þýðinganna þinna",
 	"twnmp-your-view-language-stats": "Skoða tölfræði tungumáls",
 	"twnmp-translations-per-month": "{{PLURAL:$1|Þýðing|Þýðingar}} á mánuði",
+	"twnmp-add-project": "Settu opna hugbúnaðarverkefnið þitt til þýðinga",
 	"twnmp-bottom-help": "Hjálp",
 	"twnmp-bottom-support": "Stuðningur",
 	"twnmp-bottom-languages-supported": "Studd tungumál",
@@ -35,6 +37,6 @@
 	"twnmp-signup-error-nonfreeusername": "Þetta notendanafn er þegar í notkun. Vinsamlegast veldu annað.",
 	"twnmp-choose-languages-you-know": "Veldu tungumál sem þú kannt",
 	"twnmp-choose-another-language": "Velja annað tungumál...",
-	"twnmp-choose-fill-account-details": "Sláðu inn þínar upplýsingar",
+	"twnmp-choose-fill-account-details": "Settu inn upplýsingar um þig",
 	"twnmp-stats-number-k": "$1 þ."
 }

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mehtab ahmed"
+			"Mehtab ahmed",
+			"Indus Asia"
 		]
 	},
 	"twnmp-desc": "translatewiki.net مک صفحو فراھم ڪري ٿو",
@@ -44,7 +45,7 @@
 	"twnmp-signup-email-placeholder": "برقٽپال",
 	"twnmp-create-account-button": "کاتو کوليو",
 	"twnmp-signup-error-invalidusername": "اھو واپرائيندڙ-نانءُ موجود نہ آھي. براءِ مھرباني، ڪو مختلف چونڊيو.",
-	"twnmp-signup-error-nonfreeusername": "اھو واپرائيندڙ-نانءُ اڳ ئي موجود آھي. براءِ مھرباني، ڪو مختلف چونڊيو.",
+	"twnmp-signup-error-nonfreeusername": "اھو واپرائيندڙ-نانءُ اڳ ئي موجود آھي. مھرباني ڪري، ڪو مختلف چونڊيو.",
 	"twnmp-signup-error-invalidpassword": "ڳجھولفظ ناقابلِ ڪار آھي.",
 	"twnmp-signup-error-invalidemail": "اھو ڪو قابلِڪار برقٽپال پتو نٿو لڳو. براءِ مھربان، ڪو قابلِڪار فراھم ڪريو.",
 	"twnmp-signup-error-other": "داخل ٿيڻ ناڪام ٿيو. سرور ھڪ خرابي موٽائي:$1.",

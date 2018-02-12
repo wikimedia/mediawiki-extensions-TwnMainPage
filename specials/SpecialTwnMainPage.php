@@ -119,7 +119,14 @@ class SpecialTwnMainPage extends SpecialPage {
 
 		$code = $this->getLanguage()->getCode();
 		$languageName = TranslateUtils::getLanguageName( $code, $code );
-		$uls = Html::element( 'span', [ 'class' => 'uls-trigger' ], $languageName );
+		$params = [
+			'href' => '#',
+			'class' => 'uls-trigger',
+			'tabindex' => 0,
+			'role' => 'button',
+			'aria-haspopup' => 'true'
+		];
+		$uls = Html::element( 'a', $params, $languageName );
 
 		$userLink = '';
 

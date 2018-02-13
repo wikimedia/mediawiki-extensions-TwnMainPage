@@ -49,5 +49,7 @@
 	"twnmp-choose-languages-you-know": "ជ្រើសរើសភាសាដែលអ្នកចេះ",
 	"twnmp-choose-another-language": "ជ្រើសរើសភាសាមួយទៀត...",
 	"twnmp-choose-fill-account-details": "វាយបញ្ចូលព័ត៌មានពិស្ដារអំពីគណនីរបស់អ្នក",
-	"twnmp-join-community": "ចូលរួមជាមួយនឹងសហគមន៍"
+	"twnmp-join-community": "ចូលរួមជាមួយនឹងសហគមន៍",
+	"twnmp-create-account-cancel": "បោះបង់",
+	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|សារមួយ|សារចំនួន $1}}"
 }

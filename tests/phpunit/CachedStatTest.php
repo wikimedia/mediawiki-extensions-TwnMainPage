@@ -3,7 +3,7 @@
 /**
  * @group Database
  */
-class CachedStatTest extends PHPUnit_Framework_TestCase {
+class CachedStatTest extends PHPUnit\Framework\TestCase {
 
 	public static function updater() {
 		return 'test';

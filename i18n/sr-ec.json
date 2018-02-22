@@ -8,8 +8,8 @@
 			"Acamicamacaraca"
 		]
 	},
-	"twnmp-desc": "Главна страница translatewiki.net",
-	"twnmp-mainpage": "Главна страница",
+	"twnmp-desc": "Главна страна translatewiki.net",
+	"twnmp-mainpage": "Главна страна",
 	"twnmp-s-translators": "{{PLURAL:$1|преводилаца}}",
 	"twnmp-s-projects": "{{PLURAL:$1|пројекат|пројекта|пројеката}}",
 	"twnmp-s-languages": "{{PLURAL:$1|активни језик|активна језика|активних језика}}",

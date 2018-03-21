@@ -84,6 +84,7 @@
 							)
 						);
 				},
+				ulsPurpose: 'twnmainpage-signup-userlanguage',
 				quickList: mw.uls.getFrequentLanguageList
 			} );
 		}

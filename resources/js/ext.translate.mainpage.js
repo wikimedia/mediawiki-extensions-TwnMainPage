@@ -102,6 +102,7 @@
 						$trigger.text( $.uls.data.getAutonym( code ) );
 						showMessageGroupStats( code );
 					},
+					ulsPurpose: 'interface-language',
 					quickList: mw.uls.getFrequentLanguageList()
 				} );
 

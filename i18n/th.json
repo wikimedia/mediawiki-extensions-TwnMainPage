@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Aefgh39622",
-			"Ans"
+			"Ans",
+			"Horus"
 		]
 	},
 	"twnmp-desc": "แสดงหน้าหลักของ translatewiki.net",
@@ -14,8 +15,8 @@
 	"twnmp-bannerwho": "รูปภาพ $1",
 	"twnmp-show-more-projects": "แสดงโครงการทั้งหมด...",
 	"twnmp-brand-motto": "ชุมชนการแปลโอเพนซอร์ส",
-	"twnmp-login": "เข้าสู่ระบบ",
-	"twnmp-logout": "ออกจากระบบ",
+	"twnmp-login": "ลงชื่อเข้า",
+	"twnmp-logout": "ลงชื่อออก",
 	"twnmp-search-placeholder": "ค้นหาและแก้ไขคำแปล",
 	"twnmp-search-button": "ค้นหา",
 	"twnmp-search-choose-project": "เลือกโครงการที่จะแปล",

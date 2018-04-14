@@ -4,6 +4,7 @@
  * @group Database
  */
 class CachedStatTest extends PHPUnit\Framework\TestCase {
+	use PHPUnit4And6Compat;
 
 	public static function updater() {
 		return 'test';

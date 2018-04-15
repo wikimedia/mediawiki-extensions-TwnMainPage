@@ -6,5 +6,7 @@
 	},
 	"twnmp-view-link": "Vidar tradukuri",
 	"twnmp-your-view-language-stats": "Montrez linguala statistiki",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Tradukuri}}/monato",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Tradukuri}}",
 	"twnmp-bottom-languages-supported": "Suportita lingui"
 }

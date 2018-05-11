@@ -12,7 +12,7 @@
 	"twnmp-mainpage": "Página principal",
 	"twnmp-s-translators": "{{PLURAL:$1|Tradutor|Tradutores}}",
 	"twnmp-s-projects": "{{PLURAL:$1|Projeto|Projetos}}",
-	"twnmp-s-languages": "{{PLURAL:$1|Língua ativa|Línguas ativas}}",
+	"twnmp-s-languages": "{{PLURAL:$1|Idioma ativo|Idiomas ativos}}",
 	"twnmp-s-messages": "{{PLURAL:$1|Mensagem|Mensagens}} para traduzir",
 	"twnmp-bannerwho": "Imagem $1",
 	"twnmp-show-more-projects": "Mostrar todos projetos...",

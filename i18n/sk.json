@@ -1,8 +1,29 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kusavica"
+			"Kusavica",
+			"TomášPolonec"
 		]
 	},
-	"twnmp-logout": "Odhlásiť sa"
+	"twnmp-s-translators": "{{PLURAL:$1|prekladateľ|prekladatelia|prekladateľov}}",
+	"twnmp-s-projects": "{{PLURAL:$1|projekt|projekty|projektov}}",
+	"twnmp-s-languages": "{{PLURAL:$1|aktívny jazyk|aktívne jazyky|aktívnych jazykov}}",
+	"twnmp-s-messages": "{{PLURAL:$1|správa|správy|správ}} na preklad",
+	"twnmp-bannerwho": "Obrázok: $1",
+	"twnmp-show-more-projects": "Zobraziť všetky projekty...",
+	"twnmp-brand-motto": "Open-source prekladateľská komunita",
+	"twnmp-logout": "Odhlásiť sa",
+	"twnmp-search-placeholder": "Hľadať a opraviť preklady",
+	"twnmp-search-button": "Hľadať",
+	"twnmp-search-choose-project": "Vyberte projekt, ktorý chcete prekladať",
+	"twnmp-translate-link": "Prekladať",
+	"twnmp-proofread-link": "Kontrolovať",
+	"twnmp-proofread-button": "Kontrolovať",
+	"twnmp-your-translations-stats": "Vaša štatistika prekladov",
+	"twnmp-translations-per-month": "{{PLURAL:$1|preklad|preklady|prekladov}} za mesiac",
+	"twnmp-translations-translator-ranking": "Ste {{PLURAL:$3|1={{GENDER:$1|jediný|jediná}}|$2. z $3}}<br />pre jazyk $4",
+	"twnmp-translations-translator-ranking-source": "Ste {{PLURAL:$3|1={{GENDER:$1|jediný|jediná}}|$2. z $3}}",
+	"twnmp-add-project": "Pridajte svoj open-source projekt na preklad",
+	"twnmp-bottom-help": "Pomoc",
+	"twnmp-bottom-about": "O projekte"
 }

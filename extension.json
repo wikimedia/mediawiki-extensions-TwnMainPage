@@ -54,7 +54,6 @@
 			"scripts": "resources/js/ext.translate.mainpage.signup.js",
 			"dependencies": [
 				"ext.uls.mediawiki",
-				"json",
 				"mediawiki.api",
 				"mediawiki.api.login"
 			],

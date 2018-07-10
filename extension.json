@@ -54,8 +54,7 @@
 			"scripts": "resources/js/ext.translate.mainpage.signup.js",
 			"dependencies": [
 				"ext.uls.mediawiki",
-				"mediawiki.api",
-				"mediawiki.api.login"
+				"mediawiki.api"
 			],
 			"messages": [
 				"twnmp-signup-error-invalidemail",

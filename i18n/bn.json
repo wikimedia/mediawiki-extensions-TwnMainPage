@@ -27,7 +27,7 @@
 	"twnmp-translate-button": "অনুবাদ",
 	"twnmp-proofread-button": "পর্যালোচনা",
 	"twnmp-view-button": "অনুবাদ দেখুন",
-	"twnmp-your-translations-stats": "আপনার অনুবাদ পরিসংখ্যান",
+	"twnmp-your-translations-stats": "আপনার অনুবাদের পরিসংখ্যান",
 	"twnmp-your-translations-stats-all-languages": "সব ভাষার জন্য",
 	"twnmp-your-view-language-stats": "ভাষার পরিসংখ্যান দেখাও",
 	"twnmp-translations-per-month": "{{PLURAL:$1|অনুবাদ}}/মাস",

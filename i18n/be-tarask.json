@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Renessaince"
+		]
+	},
+	"twnmp-proofread-link": "Праверыць",
+	"twnmp-view-link": "Паглядзець пераклады",
+	"twnmp-translate-button": "Перакладаць",
+	"twnmp-proofread-button": "Праверыць",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|прагляд|прагляды|праглядаў}}/месяц"
+}

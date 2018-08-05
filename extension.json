@@ -7,6 +7,9 @@
 	],
 	"descriptionmsg": "twnmp-desc",
 	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
 	"AutoloadClasses": {
 		"CachedStat": "CachedStat.php",
 		"CachedStatJob": "CachedStat.php",

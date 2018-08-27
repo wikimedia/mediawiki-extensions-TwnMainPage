@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ninjastrikers"
+			"Ninjastrikers",
+			"Dr Lotus Black"
 		]
 	},
-	"twnmp-bottom-help": "အကူအညီ"
+	"twnmp-bottom-help": "အကူအညီ",
+	"twnmp-create-account-cancel": "မလုပ်တော့ပါ"
 }

@@ -4,11 +4,15 @@
 			"Joao Xavier"
 		]
 	},
+	"twnmp-show-more-projects": "Montrez omna projeti...",
+	"twnmp-brand-motto": "Komunitato pri tradukuro \"publika fonto\"",
 	"twnmp-logout": "Ekirar",
+	"twnmp-search-choose-project": "Selektez projeto por tradukar",
 	"twnmp-view-link": "Vidar tradukuri",
 	"twnmp-your-translations-stats": "Statistiki pri vua tradukuri",
 	"twnmp-your-view-language-stats": "Montrez linguala statistiki",
 	"twnmp-translations-per-month": "{{PLURAL:$1|Tradukuri}}/monato",
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Tradukuri}}",
+	"twnmp-add-project": "Adjuntez vua projeto \"publika fonto\" (open source) por traduko",
 	"twnmp-bottom-languages-supported": "Suportita lingui"
 }

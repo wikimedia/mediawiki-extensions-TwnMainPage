@@ -59,5 +59,6 @@
 	"twnmp-join-community-reason": "ပူးပေါင်းရန် သင် ဘာကြောင့် စိတ်ဝင်စားရတာလဲ?",
 	"twnmp-create-account-cancel": "မလုပ်တော့ပါ",
 	"twnmp-join-community-info": "အခုလတ်တလော ဘာသာပြန်အချို့ကို မထည့်သွင်းနိုင်ပါသလား? သင် ပူးပေါင်းနိုင်ပါသေးသည်။",
+	"twnmp-stats-number-k": "$1ထောင်",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|မက်ဆေ့ ၁ စောင်|$1 မက်ဆေ့များ}}"
 }

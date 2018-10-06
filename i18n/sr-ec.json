@@ -31,7 +31,7 @@
 	"twnmp-view-button": "Погледај преводе",
 	"twnmp-your-translations-stats": "Ваша статистика превођења",
 	"twnmp-your-translations-stats-all-languages": "За све језике",
-	"twnmp-your-view-language-stats": "Погледај статистику језика",
+	"twnmp-your-view-language-stats": "Прикажи статистику језика",
 	"twnmp-translations-per-month": "{{PLURAL:$1|Превода}} месечно",
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Преводи}}",
 	"twnmp-reviews-per-month": "{{PLURAL:$1|Провера}} месечно",

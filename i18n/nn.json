@@ -15,6 +15,7 @@
 	"twnmp-login": "Logg inn",
 	"twnmp-logout": "Logg ut",
 	"twnmp-search-placeholder": "Finn og rett omsetjingar",
+	"twnmp-search-button": "Finn",
 	"twnmp-search-choose-project": "Vel prosjekt å setja om",
 	"twnmp-translate-link": "Set om",
 	"twnmp-translate-button": "Set om",
@@ -24,5 +25,13 @@
 	"twnmp-add-project": "Legg til prosjektet ditt med open kjeldekode for omsetjing",
 	"twnmp-bottom-help": "Hjelp",
 	"twnmp-bottom-support": "Brukarstøtte",
-	"twnmp-bottom-languages-supported": "Støtta språk"
+	"twnmp-bottom-languages-supported": "Støtta språk",
+	"twnmp-signup-username-placeholder": "Brukarnamn",
+	"twnmp-signup-password-placeholder": "Passord",
+	"twnmp-signup-email-placeholder": "E-post",
+	"twnmp-create-account-button": "Opprett konto",
+	"twnmp-become-translator": "Vert ein omsetjar",
+	"twnmp-choose-languages-you-know": "Vel språk du kan",
+	"twnmp-choose-another-language": "Vel eit anna språk …",
+	"twnmp-choose-fill-account-details": "Før inn kontodetaljane dine"
 }

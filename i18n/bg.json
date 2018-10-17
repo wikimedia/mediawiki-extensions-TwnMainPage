@@ -58,7 +58,7 @@
 	"twnmp-join-community": "Присъединяване към общността",
 	"twnmp-join-community-desc": "Ако сте разработчик, заинтересован от документиране на преводи или просто проучвате платформата, също сте добре дошли.",
 	"twnmp-join-community-reason": "Защо искате да се присъедините към нас?",
-	"twnmp-create-account-cancel": "Отказване",
+	"twnmp-create-account-cancel": "Отказ",
 	"twnmp-join-community-info": "Не можете веднага да направите някои преводи? Все още можете да се присъедините към общността.",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Едно съобщение|$1 съобщения}}"
 }

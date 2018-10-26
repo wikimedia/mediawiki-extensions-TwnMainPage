@@ -221,8 +221,7 @@ HTML;
 		$handler = $this->getProjectHandler();
 		$projects = $handler->getProjects();
 		$language = $this->getLanguage()->getCode();
-		MessageGroupStats::setTimeLimit( 1 );
-		$stats = MessageGroupStats::forLanguage( $language );
+		$stats = MessageGroupStats::forLanguage( $language, MessageGroupStats::FLAG_CACHE_ONLY );
 		$handler->sortByPriority( $projects, $language, $stats );
 
 		$tiles = [];

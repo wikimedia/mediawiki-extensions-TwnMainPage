@@ -1,20 +1,49 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hugo.arg"
+			"Hugo.arg",
+			"Manvydasz"
 		]
 	},
-	"twnmp-s-projects": "{{PLURAL:$1|projektas|projektai|projektų}}",
+	"twnmp-mainpage": "Pagrindinis puslapis",
+	"twnmp-s-translators": "{{PLURAL:$1|Vertėjas|Vertėjai|Vertėjų}}",
+	"twnmp-s-projects": "{{PLURAL:$1|Projektas|Projektai|Projektų}}",
+	"twnmp-s-languages": "{{PLURAL:$1|Aktyvi kalba|Aktyvios kalbos|Aktyvių kalbų}}",
+	"twnmp-s-messages": "{{PLURAL:$1|Pranešimas|Pranešimai|Pranešimų}} vertimui",
+	"twnmp-bannerwho": "Paveikslėlis $1",
+	"twnmp-show-more-projects": "Rodyti visus projektus...",
 	"twnmp-brand-motto": "Atviro išeitinio kodo projektų vertėjų bendruomenė",
 	"twnmp-login": "Prisijungti",
 	"twnmp-logout": "Atsijungti",
+	"twnmp-search-placeholder": "Raskite ir pataisykite vertimus",
+	"twnmp-search-button": "Ieškoti",
 	"twnmp-search-choose-project": "Pasirinkite projektą vertimui",
+	"twnmp-translate-link": "Versti",
 	"twnmp-proofread-link": "Patikra",
+	"twnmp-translate-button": "Versti",
 	"twnmp-proofread-button": "Patikra",
 	"twnmp-your-translations-stats": "Jūsų vertimų apskaita",
+	"twnmp-your-view-language-stats": "Žiūrėti kalbos statistiką",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Vertimas|Vertimai|Vertimų}} per mėnesį",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Vertimas|Vertimai|Vertimų}}",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|Patikra|Patikros|Patikrų}} per mėnesį",
+	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Jūs esate {{GENDER:$1|vienintelis|vienintelė}}<br />$4 kalbos projekte|$2 iš $3<br />$4 kalbos projekte}}",
+	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Jūs esate {{GENDER:$1|vienintelis|vienintelė}}|$2 iš $3}}",
+	"twnmp-add-project": "Pridėkite savo atvirojo kodo projektą vertimui",
 	"twnmp-bottom-help": "Pagalba",
+	"twnmp-bottom-languages-supported": "Palaikomos kalbos",
 	"twnmp-bottom-about": "Apie projektą",
 	"twnmp-signup-username-placeholder": "Naudotojo vardas",
 	"twnmp-signup-password-placeholder": "Slaptažodis",
-	"twnmp-create-account-cancel": "Atšaukti"
+	"twnmp-signup-email-placeholder": "El. paštas",
+	"twnmp-create-account-button": "Sukurti paskyrą",
+	"twnmp-become-translator": "Tapkite vertėju",
+	"twnmp-choose-languages-you-know": "Pasirinkite kalbas, kurias mokate",
+	"twnmp-choose-another-language": "Pasirinkti kitą kalbą...",
+	"twnmp-choose-fill-account-details": "Įveskite paskyros duomenis",
+	"twnmp-join-community": "Prisijungti prie bendruomenės",
+	"twnmp-join-community-desc": "Jei esate programuotojas, suinteresuotas vertimų dokumentavimu, ar tik tyrinėjate platformą, taip pat esate laukiamas.",
+	"twnmp-join-community-reason": "Kodėl norite prisijungti prie bendruomenės?",
+	"twnmp-create-account-cancel": "Atšaukti",
+	"twnmp-join-community-info": "Nenorite pateikti vertimų? Jūs vis tiek galite prisijungti."
 }

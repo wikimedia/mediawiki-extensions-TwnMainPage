@@ -33,5 +33,9 @@
 	"twnmp-become-translator": "Vert ein omsetjar",
 	"twnmp-choose-languages-you-know": "Vel språk du kan",
 	"twnmp-choose-another-language": "Vel eit anna språk …",
-	"twnmp-choose-fill-account-details": "Før inn kontodetaljane dine"
+	"twnmp-choose-fill-account-details": "Skriv inn kontodetaljane dine",
+	"twnmp-join-community": "Vert med i fellesskapen",
+	"twnmp-join-community-desc": "Du er òg velkomen om du er ein utviklar som er interessert i å dokumentera omsetjingar eller berre i å utforska plattforma.",
+	"twnmp-join-community-reason": "Kvifor er du interessert i å ta del i nettstaden?",
+	"twnmp-join-community-info": "Kan du ikkje setja om nett no? Du kan framleis verta med."
 }

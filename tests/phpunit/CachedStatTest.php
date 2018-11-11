@@ -1,6 +1,7 @@
 <?php
 
 /**
+ * @covers CachedStat
  * @group Database
  */
 class CachedStatTest extends PHPUnit\Framework\TestCase {

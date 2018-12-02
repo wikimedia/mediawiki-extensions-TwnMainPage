@@ -14,7 +14,7 @@
 	"twnmp-mainpage": "Главна страна",
 	"twnmp-s-translators": "{{PLURAL:$1|преводилац|преводиоца|преводилаца}}",
 	"twnmp-s-projects": "{{PLURAL:$1|пројекат|пројекта|пројеката}}",
-	"twnmp-s-languages": "{{PLURAL:$1|активни језик|активна језика|активних језика}}",
+	"twnmp-s-languages": "{{PLURAL:$1|активан језик|активна језика|активних језика}}",
 	"twnmp-s-messages": "{{PLURAL:$1|порука|поруке|порука}} за превођење",
 	"twnmp-bannerwho": "Слика $1",
 	"twnmp-show-more-projects": "Прикажи све пројекте…",

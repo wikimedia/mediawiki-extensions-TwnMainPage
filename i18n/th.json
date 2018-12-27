@@ -3,7 +3,8 @@
 		"authors": [
 			"Aefgh39622",
 			"Ans",
-			"Horus"
+			"Horus",
+			"Geonuch"
 		]
 	},
 	"twnmp-desc": "แสดงหน้าหลักของ translatewiki.net",
@@ -60,5 +61,5 @@
 	"twnmp-join-community-reason": "ทำไมคุณจึงสนใจเข้าร่วม?",
 	"twnmp-create-account-cancel": "ยกเลิก",
 	"twnmp-join-community-info": "ไม่สามารถส่งการแปลบางรายการได้ตอนนี้ใช่หรือไม่? คุณยังสามารถเข้าร่วมได้",
-	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|ข้อความ $1 รายการ}}"
+	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|หนึ่งสาร|$1 สาร}}"
 }

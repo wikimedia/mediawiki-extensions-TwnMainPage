@@ -5,6 +5,10 @@
 		]
 	},
 	"twnmp-mainpage": "လိက်မေံခၠီ့",
+	"twnmp-translate-link": "မ်ုခၠယ့်အိုဝ်",
+	"twnmp-translate-button": "မ်ုခၠယ့်ၯာင်ႋ",
+	"twnmp-proofread-button": "မ်ုယောဝ်ႋထီ့ဆာထါင်",
 	"twnmp-your-translations-stats": "ဏ်ုဏင့်ဆာႋ ဆ်ုခၠယ့်ထ စ်ုရင့်ကါင်ကါ",
-	"twnmp-your-view-language-stats": "မ်ုယောဝ်ႋ ဆ်ုခၠါင်ဘာႋသာ့စ်ုရင့်ကါင်ကါ"
+	"twnmp-your-view-language-stats": "မ်ုယောဝ်ႋ ဆ်ုခၠါင်ဘာႋသာ့စ်ုရင့်ကါင်ကါ",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|ဆ်ုခၠယ့်ထသယ်လ်ုဖး}}"
 }

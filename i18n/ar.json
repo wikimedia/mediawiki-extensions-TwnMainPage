@@ -60,5 +60,6 @@
 	"twnmp-join-community-reason": "لماذا أنت مهتم بالانضمام؟",
 	"twnmp-create-account-cancel": "إلغاء",
 	"twnmp-join-community-info": "لا يمكن إرسال بعض الترجمات الآن؟ لا يزال بإمكانك الانضمام.",
+	"twnmp-stats-number-k": "$1 ألف",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|رسالة واحدة|$1 رسائل}}"
 }

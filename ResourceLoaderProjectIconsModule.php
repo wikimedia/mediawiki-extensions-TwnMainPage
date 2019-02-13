@@ -22,10 +22,10 @@ class ResourceLoaderProjectIconsModule extends ResourceLoaderModule {
 		$projects = $handler->getProjects();
 		$icons = [];
 		foreach ( $projects as $group ) {
-			wfSuppressWarnings();
+			Wikimedia\suppressWarnings();
 			$id = Sanitizer::escapeClass( $group->getId() );
 			$icons[$id] = TranslateUtils::getIcon( $group, 100 );
-			wfRestoreWarnings();
+			Wikimedia\restoreWarnings();
 		}
 
 		return $icons;

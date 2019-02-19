@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Geraki",
-			"Nikosgranturismogt"
+			"Nikosgranturismogt",
+			"Protnet"
 		]
 	},
 	"twnmp-desc": "Παρέχει την κύρια σελίδα του translatewiki.net",
@@ -13,7 +14,7 @@
 	"twnmp-s-messages": "{{PLURAL:$1|Μήνυμα|Μηνύματα}} για μετάφραση",
 	"twnmp-bannerwho": "Εικόνα $1",
 	"twnmp-show-more-projects": "Εμφάνιση όλων των εγχειρημάτων...",
-	"twnmp-brand-motto": "Κοινότητα μετάφρασης ανοιχτής πηγής",
+	"twnmp-brand-motto": "Κοινότητα μετάφρασης ανοικτού κώδικα",
 	"twnmp-login": "Είσοδος",
 	"twnmp-logout": "Αποσύνδεση",
 	"twnmp-search-placeholder": "Εύρεση και διόρθωση μεταφράσεων",
@@ -25,14 +26,14 @@
 	"twnmp-translate-button": "Μεταφράστε",
 	"twnmp-proofread-button": "Θεώρηση",
 	"twnmp-view-button": "Προβολή μεταφράσεων",
-	"twnmp-your-translations-stats": "Τα στατιστικά μετάφρασης σας",
+	"twnmp-your-translations-stats": "Τα στατιστικά μετάφρασής σας",
 	"twnmp-your-translations-stats-all-languages": "Για όλες τις γλώσσες",
 	"twnmp-your-view-language-stats": "Προβολή στατιστικών γλώσσας",
 	"twnmp-translations-per-month": "{{PLURAL:$1|Μεταφράσεις}}/μήνα",
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Μεταφράσεις}}",
 	"twnmp-reviews-per-month": "{{PLURAL:$1|Θεωρήσεις}}/μήνα",
-	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Είστε ο μόνος<br />για $4|{{GENDER:$1|Κατατάσσεστε}} $2 από $3<br />για $4}}",
-	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Είστε ο μόνος|{{GENDER:$1|Κατατάσσεστε}} $2 από $3}}",
+	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Είστε {{GENDER:$1|ο μόνος|η μόνη}}<br />για τα $4|Κατατάσσεστε $2{{GENDER:$1|ος|η}} από $3<br />για τα $4}}",
+	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Είστε {{GENDER:$1|ο μόνος|η μόνη}}|Κατατάσσεστε $2{{GENDER:$1|ος|η}} από $3}}",
 	"twnmp-add-project": "Προσθέστε το εγχείρημα ανοιχτού κώδικα σας για μετάφραση",
 	"twnmp-sandboxed": "Θα πρέπει να παρέχετε {{PLURAL:$1|0=μερικές|περισσότερες}} μεταφράσεις για να ολοκληρωθεί η εγγραφή σας.",
 	"twnmp-sandboxed-limit": "Φτάσατε το όριο μετάφρασης. Η ομάδα μας θα επιβεβαιώσει και θα αναβαθμίσει τον λογαριασμό σας σύντομα.",

@@ -7,7 +7,8 @@
 			"Kumkumuk",
 			"Asmen",
 			"1917 Ekim Devrimi",
-			"Gırd"
+			"Gırd",
+			"Orbot707"
 		]
 	},
 	"twnmp-desc": "açarnayışa pela translatewiki.net i bıke",
@@ -28,7 +29,7 @@
 	"twnmp-proofread-link": "Çım berze cı",
 	"twnmp-view-link": "Açarnayışan bıvin",
 	"twnmp-translate-button": "Açarnayış",
-	"twnmp-proofread-button": "Çımraraviyarnayış",
+	"twnmp-proofread-button": "Çım berze cı",
 	"twnmp-view-button": "Şıma tadayışan (çarnayışan) bıvênê",
 	"twnmp-your-translations-stats": "İstatistikên açarnayışanê şıma",
 	"twnmp-your-translations-stats-all-languages": "Semedi zona hemın",
@@ -47,7 +48,10 @@
 	"twnmp-signup-password-placeholder": "Parola",
 	"twnmp-signup-email-placeholder": "Eposta",
 	"twnmp-create-account-button": "Hesab vıraz",
+	"twnmp-signup-error-invalidusername": "No namey karberi hewl niyo. Kerem keme yewna bıgirê",
+	"twnmp-signup-error-nonfreeusername": "No namey karberi xora esto. Kerem keme yewna bıgirê.",
 	"twnmp-signup-error-invalidpassword": "Parola xirabiya",
+	"twnmp-signup-error-invalidemail": "No adresê e-maili ravêrde nêaseno. Kerem keme yewna ravêrde cı kerê",
 	"twnmp-become-translator": "Beri Açarnayoğ bı",
 	"twnmp-choose-languages-you-know": "Zıwanani xo weçine",
 	"twnmp-choose-another-language": "Jewna zıwan weçine..",
@@ -56,5 +60,6 @@
 	"twnmp-join-community-desc": "Dokumana nışan kerdoğ yana teyna platformi keşf kerdoği se, şıma ri zi cay ma est o.",
 	"twnmp-join-community-reason": "Şıma qandi çıçi qayıle ke tewr de ma bi?",
 	"twnmp-create-account-cancel": "Bıtexelne",
+	"twnmp-stats-number-k": "$1h",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Jew mesac|$1 mesaci}}"
 }

@@ -41,7 +41,7 @@
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Şıma teyna|{{GENDER:$1|Reza to}} $2 ra $3}}",
 	"twnmp-add-project": "Açarnayışê xo be proceyê çımeyê akerdeyi ra cı ke",
 	"twnmp-sandboxed": "Qeyd biyayışê xo temam kerdışi rê lazımo ke {{PLURAL:$1|0=tay|zeder}} çarnayışi bıkerê",
-	"twnmp-sandboxed-limit": "Şıma restê limitê açarnayışi. Taxıma ma do hesabê şıma araşt kero u berz kero",
+	"twnmp-sandboxed-limit": "Şıma reştê sinorê açarnayışi. Taxımê ma do hesabê şıma araşt û berz kero.",
 	"twnmp-bottom-help": "Peşti",
 	"twnmp-bottom-support": "Xonçaya peşti",
 	"twnmp-bottom-languages-supported": "Zıwanê ke qebul biyê",
@@ -64,7 +64,7 @@
 	"twnmp-join-community-desc": "Dokumana nışan kerdoğ yana teyna platformi keşf kerdoği se, şıma ri zi cay ma est o.",
 	"twnmp-join-community-reason": "Şıma qandi çıçi qayıle ke tewr de ma bi?",
 	"twnmp-create-account-cancel": "Bıtexelne",
-	"twnmp-join-community-info": "Şımaye enewke nêşenê tay açarnayışa bırışê? Heena şıma şenê tewr bê.",
+	"twnmp-join-community-info": "Şıma nıka nêşenê tayê açarnayışan bırışê? Hewna şıma şenê tewr bê.",
 	"twnmp-stats-number-k": "$1 hezar",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Jew mesac|$1 mesaci}}"
 }

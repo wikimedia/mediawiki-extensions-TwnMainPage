@@ -7,15 +7,16 @@
 			"Obsuser",
 			"Acamicamacaraca",
 			"BadDog",
-			"Милан Јелисавчић"
+			"Милан Јелисавчић",
+			"Zoranzoki21"
 		]
 	},
 	"twnmp-desc": "Пружа главну страну translatewiki.net-а",
 	"twnmp-mainpage": "Главна страна",
-	"twnmp-s-translators": "преводилаца",
+	"twnmp-s-translators": "{{PLURAL:$1|Преводилац|Преводиоци}}",
 	"twnmp-s-projects": "{{PLURAL:$1|пројекат|пројекта|пројеката}}",
 	"twnmp-s-languages": "{{PLURAL:$1|активан језик|активна језика|активних језика}}",
-	"twnmp-s-messages": "порука за превођење",
+	"twnmp-s-messages": "{{PLURAL:$1|Порука|Поруке}} за превођење",
 	"twnmp-bannerwho": "Слика $1",
 	"twnmp-show-more-projects": "Прикажи све пројекте…",
 	"twnmp-brand-motto": "Заједница за превођење отвореног кода",

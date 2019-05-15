@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Minisarm",
-			"ImGelu"
+			"ImGelu",
+			"Andrei Stroe"
 		]
 	},
 	"twnmp-desc": "Furnizează pagina principală pentru translatewiki.net",
@@ -28,9 +29,9 @@
 	"twnmp-your-translations-stats": "Statisticile dv. de traducere",
 	"twnmp-your-translations-stats-all-languages": "Pentru toate limbile",
 	"twnmp-your-view-language-stats": "Vezi statisticile de limbă",
-	"twnmp-translations-per-month": "Traduceri/lună",
-	"twnmp-translations-in-sandbox": "Traduceri",
-	"twnmp-reviews-per-month": "Verificări/lună",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Traducere|Traduceri}}/lună",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Traducere|Traduceri}}",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|Verificare|Verificări}}/lună",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Sunteți singurul traducător<br />pentru $4|{{GENDER:$1|Clasat|Clasată}} pe locul $2 din $3<br />pentru $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Sunteți singurul traducător|{{GENDER:$1|Clasat|Clasată}} pe locul $2 din $3}}",
 	"twnmp-add-project": "Adăugați-vă propriul proiect cu sursă deschisă pentru traducere",

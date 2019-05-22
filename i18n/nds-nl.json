@@ -5,6 +5,7 @@
 		]
 	},
 	"twnmp-logout": "Ofmelden",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Oaversettingen}}",
 	"twnmp-bottom-help": "Hulpe",
 	"twnmp-signup-error-invalidpassword": "t Wachtwoord is ongeldig."
 }

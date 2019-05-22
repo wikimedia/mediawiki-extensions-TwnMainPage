@@ -6,8 +6,8 @@
 		]
 	},
 	"twnmp-mainpage": "మొదటి పేజీ",
-	"twnmp-s-translators": "{{PLURAL:$1|అనువాదకులు|అనువాదకులు}}",
-	"twnmp-s-projects": "{{PLURAL:$1|ప్రాజెక్టులు|ప్రాజెక్టులు}}",
+	"twnmp-s-translators": "{{PLURAL:$1|అనువాదకులు}}",
+	"twnmp-s-projects": "{{PLURAL:$1|ప్రాజెక్టు|ప్రాజెక్టులు}}",
 	"twnmp-s-languages": "క్రియాశీల {{PLURAL:$1|భాష|భాషలు}}",
 	"twnmp-s-messages": "అనువదించాల్సిన {{PLURAL:$1|సందేశం|సందేశాలు}}",
 	"twnmp-bannerwho": "చిత్రం $1",

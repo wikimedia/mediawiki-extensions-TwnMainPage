@@ -600,3 +600,36 @@ div.ext-translate-msggroup-selector-menu:before {
 .twn-mainpage-banner .main-widget .twnmp-signup-generic-error {
 	margin: 0 -5px;
 }
+
+.twn-mainpage-banner .main-widget .twn-mainpage-loading-indicator {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5px;
+}
+
+.twn-mainpage-banner .main-widget .twn-mainpage-loading-indicator.hide {
+	display: none;
+}
+
+.twn-mainpage-loading-indicator {
+	/* @embed */
+	background-image: linear-gradient( transparent, transparent ), url( ../images/loading.svg );
+	background-size: 100%;
+	animation-name: tux-loading-indicator-spin;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	height: 34px;
+	width: 34px;
+	backface-visibility: hidden;
+}
+
+@keyframes tux-loading-indicator-spin {
+	from {
+		transform: rotate( 0deg );
+	}
+
+	to {
+		transform: rotate( 360deg );
+	}
+}

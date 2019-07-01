@@ -635,6 +635,7 @@ HTML;
 		<button class="mw-ui-button mw-ui-big mw-ui-quiet only-dev cancel hide">
 			{$this->msg( 'twnmp-create-account-cancel' )->escaped()}
 		</button>
+		<span class="twn-mainpage-loading-indicator hide"></span>
 	</div>
 	<div class="js-signup-err twnmp-signup-generic-error hide"></div>
 	<div class="row dev-signup only-nondev">

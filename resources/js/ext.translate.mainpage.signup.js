@@ -89,6 +89,19 @@
 			} );
 		}
 
+		function toggleLoading( isLoading ) {
+			var $submitBtn = $form.find( 'button[type=submit]' ),
+				$loading = $form.find( '.twn-mainpage-loading-indicator' );
+
+			if ( isLoading ) {
+				$submitBtn.prop( 'disabled', true );
+				$loading.removeClass( 'hide' );
+			} else {
+				$submitBtn.prop( 'disabled', false );
+				$loading.addClass( 'hide' );
+			}
+		}
+
 		/**
 		 * Account creation can fail on invalid user input.
 		 *
@@ -151,10 +164,13 @@
 			e.preventDefault();
 
 			// Remove any invalid markers from earlier attempts
-			$form.find( '.invalid' ).removeClass( '.invalid' );
+			$form.find( '.invalid' ).removeClass( 'invalid' );
 
 			// Hide previous errors
 			$form.find( '.js-signup-err' ).addClass( 'hide' );
+
+			// Show loading
+			toggleLoading( true );
 
 			codes = $form.find( '.signup-languages :checked' ).map( function () {
 				return $( this ).data( 'code' );
@@ -174,26 +190,21 @@
 			} );
 
 			reqCreate.fail( handleAccountCreationFailure );
-			reqCreate.done( function () {
-				var reqLogin,
-					api = new mw.Api();
-
+			reqCreate.then( function () {
+				var api = new mw.Api();
 				// This should not fail on normal conditions
-				reqLogin = api.login( username, password );
-				reqLogin.done( function () {
-					var reqOptions,
-						api = new mw.Api();
-
-					reqOptions = api.postWithToken( 'csrf', {
-						action: 'options',
-						optionname: 'translate-sandbox',
-						optionvalue: preferences
-					} );
-
-					reqOptions.done( function () {
-						window.location.reload();
-					} );
+				return api.login( username, password );
+			} ).then( function () {
+				var api = new mw.Api();
+				return api.postWithToken( 'csrf', {
+					action: 'options',
+					optionname: 'translate-sandbox',
+					optionvalue: preferences
 				} );
+			} ).then( function () {
+				window.location.reload();
+			} ).always( function () {
+				toggleLoading( false );
 			} );
 		}
 

@@ -14,14 +14,15 @@ body.mediawiki {
 
 .twn-mainpage-header {
 	/* @embed */
-	background: transparent url(//translatewiki.net/static/logo.png) no-repeat scroll left 10px center;
-	/*FIXME: we need svgs too*/
+	background: transparent url( https://translatewiki.net/static/logo.png ) no-repeat scroll left 10px center;
+	/* FIXME: we need svgs too */
 	background-size: 50px;
 	padding-left: 65px;
 	padding-bottom: 5px;
 	height: 75px;
 	line-height: 1.5em;
 	box-shadow: 0 0 4px;
+	border-bottom: 4px solid #36b;
 }
 
 .twn-mainpage-header .twn-mainpage-personal-actions {
@@ -32,7 +33,7 @@ body.mediawiki {
 .twn-mainpage-header .uls-trigger {
 	background-position: center left;
 	padding-left: 30px;
-	color: #3366BB;
+	color: #36b;
 	margin-top: 8px;
 	cursor: pointer;
 	display: inline-block;
@@ -46,16 +47,12 @@ body.mediawiki {
 .twn-mainpage-title .twn-brand-motto {
 	padding-top: 5px;
 	font-size: 16px;
-	color: #555555;
-}
-
-.twn-mainpage-header {
-	border-bottom: 4px solid #3366BB;
+	color: #555;
 }
 
 .twn-mainpage-header .login,
 .twn-mainpage-header .logout {
-	color: #3366BB;
+	color: #36b;
 	padding-top: 50px;
 	padding-left: 20px;
 }
@@ -66,11 +63,11 @@ body.mediawiki {
 	background-size: 100%;
 	position: relative;
 	box-shadow: 0 0 4px, inset 0 0 40px;
-	border-top: 1px solid #5787E5;
+	border-top: 1px solid #5787e5;
 }
 
 .banner-attribution {
-	color: #FFF;
+	color: #fff;
 	clear: left;
 	font-size: 10px;
 	padding: 10px 10px 20px 10px;
@@ -81,13 +78,15 @@ body.mediawiki {
 
 .banner-attribution a,
 .banner-attribution a:visited {
-	color: #FFF;
+	color: #fff;
 }
 
 .twn-mainpage-search {
-	padding: 7px 5px;
 	background-color: #252525;
 	box-shadow: 0 2px 4px;
+	height: 50px;
+	padding: 10px 10px 10px 60px;
+	position: relative;
 }
 
 .twn-mainpage-stats-tiles {
@@ -99,29 +98,30 @@ body.mediawiki {
 }
 
 .stats-tile {
-	background-color: #3366BB;
-	background-color: rgba(51, 102, 187, 0.7);
-	color: white;
+	background-color: #36b;
+	background-color: rgba( 51, 102, 187, 0.7 );
+	color: #fff;
 	height: 130px;
 	margin: auto;
 	width: 80%;
 	padding: 10px;
 	cursor: pointer;
+	/* TODO: Utilize https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion */
 	-webkit-animation: fadein 1.5s backwards;
 	animation: fadein 1.5s backwards;
 }
 
-.stats-tile-row:nth-child(1) > div:nth-child(2) .stats-tile,
-.stats-tile-row:nth-child(2) > div:nth-child(1) .stats-tile {
+.stats-tile-row:nth-child( 1 ) > div:nth-child( 2 ) .stats-tile,
+.stats-tile-row:nth-child( 2 ) > div:nth-child( 1 ) .stats-tile {
 	animation-delay: 0.2s;
 }
 
-.stats-tile-row:nth-child(1) > div:nth-child(3) .stats-tile,
-.stats-tile-row:nth-child(2) > div:nth-child(2) .stats-tile {
+.stats-tile-row:nth-child( 1 ) > div:nth-child( 3 ) .stats-tile,
+.stats-tile-row:nth-child( 2 ) > div:nth-child( 2 ) .stats-tile {
 	animation-delay: 0.4s;
 }
 
-.stats-tile-row:nth-child(2) > div:nth-child(3) .stats-tile {
+.stats-tile-row:nth-child( 2 ) > div:nth-child( 3 ) .stats-tile {
 	animation-delay: 0.6s;
 }
 
@@ -129,6 +129,7 @@ body.mediawiki {
 	from {
 		opacity: 0;
 	}
+
 	to {
 		opacity: 1;
 	}
@@ -138,13 +139,14 @@ body.mediawiki {
 	from {
 		opacity: 0;
 	}
+
 	to {
 		opacity: 1;
 	}
 }
 
 .unused.stats-tile {
-	background-color: rgba(51, 102, 187, 0.3);
+	background-color: rgba( 51, 102, 187, 0.3 );
 	cursor: auto;
 }
 
@@ -163,14 +165,14 @@ body.mediawiki {
 }
 
 .main-widget {
-	background-color: #F8F8F8;
-	background-color: rgba(248, 248, 248, 0.85);
+	background-color: #f8f8f8;
+	background-color: rgba( 248, 248, 248, 0.85 );
 	color: #252525;
 	max-height: 580px;
 	margin-left: 4%;
 	overflow: auto;
 	margin-top: 10px;
-	box-shadow: inset 0 0 4px #ffffff;
+	box-shadow: inset 0 0 4px #fff;
 }
 
 /* Signup styles start here. */
@@ -193,18 +195,18 @@ body.mediawiki {
 	outline: 0;
 	border-style: solid;
 	border-width: 1px;
-	border-color: #C9C9C9;
+	border-color: #c9c9c9;
 	color: #252525;
 }
 
 .login-widget h1,
 .login-widget h2 {
 	padding-top: 10px;
-	border-bottom: none;
+	border-bottom: 0;
 }
 
 .login-widget .dev-signup {
-	border-top: 1px solid #DDDDDD;
+	border-top: 1px solid #ddd;
 	padding: 10px 0;
 }
 
@@ -226,25 +228,25 @@ body.mediawiki {
 }
 
 .login-widget input.invalid {
-	border: 1px solid #E85355;
+	border: 1px solid #e85355;
 }
 
 /* Signup styles end here. */
 
 .user-stats-title {
 	padding-left: 100px;
-	background: transparent url(../images/user-small.png) no-repeat scroll left center;
-	background-image: -webkit-linear-gradient(transparent, transparent), url(../images/user-small.svg);
-	background-image: -moz-linear-gradient(transparent, transparent), url(../images/user-small.svg);
+	background: transparent url( ../images/user-small.png ) no-repeat scroll left center;
+	background-image: -webkit-linear-gradient( transparent, transparent ), url( ../images/user-small.svg );
+	background-image: -moz-linear-gradient( transparent, transparent ), url( ../images/user-small.svg );
 	/* @embed */
-	background-image: linear-gradient(transparent, transparent), url(../images/user-small.svg);
+	background-image: linear-gradient( transparent, transparent ), url( ../images/user-small.svg );
 	background-position: bottom left;
 	background-size: 75px;
 	min-height: 75px;
 }
 
 .main-widget h2 {
-	border: none;
+	border: 0;
 	font-weight: lighter;
 	color: #252525;
 	font-size: 20px;
@@ -258,9 +260,9 @@ body.mediawiki {
 }
 
 .ranking {
-	background-color: white;
+	background-color: #fff;
+	border-top: 1px solid #eee;
 	padding: 10px;
-	border-top: 1px solid #EEEEEE;
 }
 
 .ranking .count {
@@ -273,7 +275,7 @@ body.mediawiki {
 }
 
 .ranking .rank-description {
-	color: #555555;
+	color: #555;
 	font-size: 15px;
 }
 
@@ -282,18 +284,14 @@ body.mediawiki {
 	padding: 10px 15px;
 }
 
-.ranking {
-	padding: 10px;
-}
-
 .sandbox-message {
-	color: #333333;
+	color: #333;
 	background-color: #fbf9ce;
 	font-size: 14px;
 }
 
 .langstats-link {
-	border-top: 1px solid #DDDDDD;
+	border-top: 1px solid #ddd;
 }
 
 a.langstats-link {
@@ -313,17 +311,17 @@ a.langstats-link {
 }
 
 .twn-mainpage-footer {
-	background-color: #F0F0F0;
+	background-color: #f0f0f0;
 	height: 50px;
 	font-size: 16px;
 	padding: 10px;
 	margin: 10px;
-	border-bottom: 1px solid #AAA;
+	border-bottom: 1px solid #aaa;
 	line-height: 30px;
 }
 
 .twn-mainpage-poweredby {
-	background-color: #F0F0F0;
+	background-color: #f0f0f0;
 	font-size: 18px;
 	height: 50px;
 	margin: 10px;
@@ -332,9 +330,9 @@ a.langstats-link {
 }
 
 .project-tile {
-	border: 1px solid #AAA;
-	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
-	background: #FCFCFC;
+	border: 1px solid #aaa;
+	box-shadow: 0 1px 2px rgba( 0, 0, 0, 0.25 );
+	background: #fcfcfc;
 	margin: 10px;
 	height: 180px;
 }
@@ -345,7 +343,7 @@ a.langstats-link {
 
 .project-tile:hover {
 	border-color: #777;
-	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 2px 3px rgba( 0, 0, 0, 0.25 );
 }
 
 .project-tile.more {
@@ -409,21 +407,21 @@ a.langstats-link {
 }
 
 .twn-mainpage-project-tiles .twn-mainpage-project-tile .action {
-	border-right: 1px solid #333333;
+	border-right: 1px solid #333;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	color: #FFFFFF;
+	color: #fff;
 	font-size: 14px;
 	padding: 0 5px 0 0;
 }
 
 .twn-mainpage-project-tile .action:last-child {
-	border: none;
+	border: 0;
 }
 
 .project-actions a,
 .project-actions a:visited {
-	color: #FFFFFF;
+	color: #fff;
 	text-decoration: none;
 	padding-left: 24px;
 	cursor: pointer;
@@ -432,60 +430,55 @@ a.langstats-link {
 .project-tile span.translate {
 	padding-left: 20px;
 	padding-right: 5px;
-	background: transparent url(../images/view-list.png) left top no-repeat;
-	background-image: -webkit-linear-gradient(transparent, transparent), url(../images/view-list.svg);
-	background-image: -moz-linear-gradient(transparent, transparent), url(../images/view-list.svg);
+	/* TODO: Convert this file to LESS and use `.background-image-svg-quick()` */
+	background: transparent url( ../images/view-list.png ) left top no-repeat;
+	background-image: -webkit-linear-gradient( transparent, transparent ), url( ../images/view-list.svg );
+	background-image: -moz-linear-gradient( transparent, transparent ), url( ../images/view-list.svg );
 	/* @embed */
-	background-image: linear-gradient(transparent, transparent), url(../images/view-list.svg);
+	background-image: linear-gradient( transparent, transparent ), url( ../images/view-list.svg );
 }
 
 .project-tile span.proofread {
 	padding-left: 20px;
-	background: transparent url(../images/view-proofread.png) left top no-repeat;
-	background-image: -webkit-linear-gradient(transparent, transparent), url(../images/view-proofread.svg);
-	background-image: -moz-linear-gradient(transparent, transparent), url(../images/view-proofread.svg);
+	background: transparent url( ../images/view-proofread.png ) left top no-repeat;
+	background-image: -webkit-linear-gradient( transparent, transparent ), url( ../images/view-proofread.svg );
+	background-image: -moz-linear-gradient( transparent, transparent ), url( ../images/view-proofread.svg );
 	/* @embed */
-	background-image: linear-gradient(transparent, transparent), url(../images/view-proofread.svg);
+	background-image: linear-gradient( transparent, transparent ), url( ../images/view-proofread.svg );
 }
 
 .project-actions a.translate {
-	background: transparent url(../images/view-list-hi.png) left top no-repeat;
-	background-image: -webkit-linear-gradient(transparent, transparent), url(../images/view-list-hi.svg);
-	background-image: -moz-linear-gradient(transparent, transparent), url(../images/view-list-hi.svg);
+	background: transparent url( ../images/view-list-hi.png ) left top no-repeat;
+	background-image: -webkit-linear-gradient( transparent, transparent ), url( ../images/view-list-hi.svg );
+	background-image: -moz-linear-gradient( transparent, transparent ), url( ../images/view-list-hi.svg );
 	/* @embed */
-	background-image: linear-gradient(transparent, transparent), url(../images/view-list-hi.svg);
+	background-image: linear-gradient( transparent, transparent ), url( ../images/view-list-hi.svg );
 }
 
 .project-actions a.proofread {
-	background: transparent url(../images/view-proofread-hi.png) left top no-repeat;
-	background-image: -webkit-linear-gradient(transparent, transparent), url(../images/view-proofread-hi.svg);
-	background-image: -moz-linear-gradient(transparent, transparent), url(../images/view-proofread-hi.svg);
+	background: transparent url( ../images/view-proofread-hi.png ) left top no-repeat;
+	background-image: -webkit-linear-gradient( transparent, transparent ), url( ../images/view-proofread-hi.svg );
+	background-image: -moz-linear-gradient( transparent, transparent ), url( ../images/view-proofread-hi.svg );
 	/* @embed */
-	background-image: linear-gradient(transparent, transparent), url(../images/view-proofread-hi.svg);
+	background-image: linear-gradient( transparent, transparent ), url( ../images/view-proofread-hi.svg );
 }
 
 .searchbox {
-	border: 1px solid #777777;
+	border: 1px solid #777;
 	height: 32px;
 	margin: 0 5px;
 	-webkit-appearance: none;
-	background-color: white;
-}
-
-.twn-mainpage-search {
-	height: 50px;
-	padding: 10px 10px 10px 60px;
-	position: relative;
+	background-color: #fff;
 }
 
 .twn-mainpage-search:before {
 	display: inline-block;
-	content: "";
-	background: #252525 url(../images/search.png) no-repeat scroll left center;
-	background-image: -webkit-linear-gradient(transparent, transparent), url(../images/search.svg);
-	background-image: -moz-linear-gradient(transparent, transparent), url(../images/search.svg);
+	content: '';
+	background: #252525 url( ../images/search.png ) no-repeat scroll left center;
+	background-image: -webkit-linear-gradient( transparent, transparent ), url( ../images/search.svg );
+	background-image: -moz-linear-gradient( transparent, transparent ), url( ../images/search.svg );
 	/* @embed */
-	background-image: linear-gradient(transparent, transparent), url(../images/search.svg);
+	background-image: linear-gradient( transparent, transparent ), url( ../images/search.svg );
 	background-size: 30px;
 	height: 30px;
 	width: 30px;
@@ -508,17 +501,18 @@ a.langstats-link {
 .twn-mainpage-footer a,
 .twn-mainpage-footer a:visited {
 	text-align: center;
-	color: #3366BB;
+	color: #36b;
 }
 
-@media all and (max-width: 1200px) {
+@media all and ( max-width: 1200px ) {
 	.stats-tile {
 		width: 100%;
 	}
 }
 
-@media all and (max-width: 800px) {
-	.twn-mainpage-banner.row .six.columns, .twn-mainpage-banner.row .five.columns {
+@media all and ( max-width: 800px ) {
+	.twn-mainpage-banner.row .six.columns,
+	.twn-mainpage-banner.row .five.columns {
 		width: 100%;
 		margin: 5px 0;
 	}
@@ -536,13 +530,12 @@ a.langstats-link {
 	}
 
 	.main-widget {
-		background-color: #F8F8F8;
+		background-color: #f8f8f8;
 	}
 
 	.twn-mainpage-banner {
 		background-position: top left;
 	}
-
 }
 
 /* Non-JS cleanups */
@@ -562,8 +555,8 @@ button.same-language-uls-trigger {
 }
 
 .same-language-uls-trigger:after {
-	content: "";
-	border-top: 4px solid #AAAAAA;
+	content: '';
+	border-top: 4px solid #aaa;
 	border-left: 4px solid transparent;
 	border-right: 4px solid transparent;
 	display: inline-block;
@@ -582,10 +575,11 @@ div.ext-translate-msggroup-selector-menu:before {
 	display: none;
 }
 
-.twn-mainpage-banner .main-widget .twnmp-signup-error {
-	background-color: #CF1C1F;
+.twn-mainpage-banner .main-widget .twnmp-signup-error,
+.twn-mainpage-banner .main-widget .twnmp-signup-generic-error {
+	background-color: #cf1c1f;
 	padding: 6px;
-	color: white;
+	color: #fff;
 	position: relative;
 	top: -2px;
 	font-size: 14px;
@@ -594,11 +588,15 @@ div.ext-translate-msggroup-selector-menu:before {
 }
 
 .twnmp-signup-error:before {
-	content: "";
+	content: '';
 	display: inline-block;
-	border-bottom: 5px solid #CF1C1F;
+	border-bottom: 5px solid #cf1c1f;
 	border-right: 5px solid transparent;
 	border-left: 5px solid transparent;
 	position: absolute;
 	top: -5px;
+}
+
+.twn-mainpage-banner .main-widget .twnmp-signup-generic-error {
+	margin: 0 -5px;
 }

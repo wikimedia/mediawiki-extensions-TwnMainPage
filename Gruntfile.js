@@ -1,38 +1,39 @@
-/*jshint node:true */
+/* eslint-env node */
 module.exports = function ( grunt ) {
 	'use strict';
 
-	grunt.loadNpmTasks( 'grunt-contrib-jshint' );
-	grunt.loadNpmTasks( 'grunt-jscs' );
-	grunt.loadNpmTasks( 'grunt-jsonlint' );
+	grunt.loadNpmTasks( 'grunt-eslint' );
 	grunt.loadNpmTasks( 'grunt-banana-checker' );
+	grunt.loadNpmTasks( 'grunt-stylelint' );
 
 	grunt.initConfig( {
-		jshint: {
+		eslint: {
 			options: {
-				jshintrc: true
+				extensions: [ '.js', '.json' ],
+				cache: true
 			},
 			all: [
-				'**/*.js',
-				'!node_modules/**',
-				'!vendor/**'
+				'**/*.js{,on}',
+				'!extensions/**',
+				'!resources/js/jquery.autosize.js',
+				'!{vendor,node_modules}/**'
 			]
 		},
-		jscs: {
-			src: '<%= jshint.all %>'
-		},
-		jsonlint: {
+		stylelint: {
 			all: [
-				'**/*.json',
+				'**/*.css',
+				'**/*.less',
 				'!node_modules/**',
+				'!extensions/**',
 				'!vendor/**'
 			]
 		},
 		banana: {
 			all: 'i18n/'
 		}
+
 	} );
 
-	grunt.registerTask( 'test', [ 'jshint', 'jscs', 'jsonlint', 'banana' ] );
+	grunt.registerTask( 'test', [ 'eslint', 'banana', 'stylelint' ] );
 	grunt.registerTask( 'default', 'test' );
 };

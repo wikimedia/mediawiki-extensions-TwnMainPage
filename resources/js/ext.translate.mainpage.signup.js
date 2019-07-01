@@ -14,14 +14,14 @@
 			$reason = $form.find( 'input[name="reason"]' );
 
 		function initDeveloperSignup() {
-			$form.find( '.dev-signup' ).click( function () {
+			$form.find( '.dev-signup' ).on( 'click', function () {
 				$form.find( '.only-dev' ).removeClass( 'hide' );
 				$form.find( '.only-nondev' ).addClass( 'hide' );
 				$form.find( '.required' ).trigger( 'change' );
 				$reason.prop( 'required', true );
 			} );
 
-			$form.find( 'button.cancel' ).click( function ( e ) {
+			$form.find( 'button.cancel' ).on( 'click', function ( e ) {
 				e.preventDefault();
 				$form.find( '.only-dev' ).addClass( 'hide' );
 				$form.find( '.only-nondev' ).removeClass( 'hide' );
@@ -69,7 +69,7 @@
 					$label = $( '<label>' )
 						.text( $.uls.data.getAutonym( language ) )
 						.attr( {
-							'for': checkboxId,
+							for: checkboxId,
 							lang: language,
 							dir: $.uls.data.getDir( language )
 						} );
@@ -96,7 +96,8 @@
 		 * @param {Object} result Result retuned by MW api
 		 */
 		function handleAccountCreationFailure( errorcode, result ) {
-			var $element = $( [] );
+			var $element = $( [] ),
+				$genericErrorContainer = $form.find( '.twnmp-signup-generic-error' ).last();
 
 			switch ( errorcode ) {
 				case 'invalidusername':
@@ -113,24 +114,25 @@
 
 			if ( $element.length ) {
 				$element.addClass( 'invalid' );
-			} else {
-				// In case of a generic error, show it at the last error bubble
-				$form.find( '.twnmp-signup-error' ).last()
-					.removeClass( 'hide' )
-					.text( mw.message( 'twnmp-signup-error-other', errorcode ) );
-			}
-
-			if ( result && result.error && result.error.info ) {
 				// Messages used here:
 				// twnmp-signup-error-invalidusername
 				// twnmp-signup-error-nonfreeusername
 				// twnmp-signup-error-invalidpassword
 				// twnmp-signup-error-invalidemail
-				$element.parent().next( '.twnmp-signup-error' )
-					.removeClass( 'hide' )
-					.text( mw.msg( 'twnmp-signup-error-' + errorcode ) );
+				if ( result && result.error && result.error.info ) {
+					$element.parent().next( '.twnmp-signup-error' )
+						.removeClass( 'hide' )
+						.text( mw.msg( 'twnmp-signup-error-' + errorcode ) );
+				}
 			} else {
-				window.alert( mw.msg( 'twnmp-signup-error-unknown' ) );
+				$genericErrorContainer.removeClass( 'hide' );
+				if ( errorcode ) {
+					$genericErrorContainer
+						.text( mw.message( 'twnmp-signup-error-other', errorcode ) );
+				} else {
+					$genericErrorContainer
+						.text( mw.message( 'twnmp-signup-error-unknown' ) );
+				}
 			}
 		}
 
@@ -147,8 +149,12 @@
 				email = $email.val();
 
 			e.preventDefault();
+
 			// Remove any invalid markers from earlier attempts
 			$form.find( '.invalid' ).removeClass( '.invalid' );
+
+			// Hide previous errors
+			$form.find( '.js-signup-err' ).addClass( 'hide' );
 
 			codes = $form.find( '.signup-languages :checked' ).map( function () {
 				return $( this ).data( 'code' );
@@ -161,7 +167,7 @@
 
 			reqCreate = api.postWithToken( 'csrf', {
 				action: 'translatesandbox',
-				'do': 'create',
+				do: 'create',
 				username: username,
 				email: email,
 				password: password
@@ -199,7 +205,7 @@
 		$form.on( 'submit', handleSubmit );
 	};
 
-	$( document ).ready( function () {
+	$( function () {
 		mw.translate.setupSignupForm( $( '.login-widget' ) );
 	} );
-}( jQuery, mediaWiki ) );
+}( jQuery, mw ) );

@@ -1,0 +1,11 @@
+{
+	"root": true,
+	"extends": "wikimedia",
+	"env": {
+		"browser": true
+	},
+	"globals": {
+		"jQuery": false,
+		"mw": false
+	}
+}

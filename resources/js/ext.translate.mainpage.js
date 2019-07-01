@@ -15,7 +15,7 @@
 	function setupStatsTiles() {
 		var $tiles = $( '.stats-tile' ).not( '.unused' );
 
-		$tiles.click( function ( e ) {
+		$tiles.on( 'click', function ( e ) {
 			e.stopPropagation();
 			location.href = $( this ).find( 'a' ).prop( 'href' );
 		} );
@@ -23,6 +23,7 @@
 
 	/**
 	 * Show the message group stats bars.
+	 * @param {string} language
 	 */
 	function showMessageGroupStats( language ) {
 		var $tiles = $( '.project-tile' );
@@ -87,26 +88,26 @@
 	 * Provide a language selector to select the target language above the tiles.
 	 */
 	function setupTargetLanguageSelector() {
-		var $trigger = $( '<button>' )
+		var $ulsTrigger = $( '<button>' )
 			.text( $.uls.data.getAutonym( selectedLanguage ) )
 			.addClass( 'same-language-uls-trigger mw-ui-button' );
 
-		$( '.twn-mainpage-project-selector-title' ).append( $trigger );
+		$( '.twn-mainpage-project-selector-title' ).append( $ulsTrigger );
 
 		// Delayed setup
-		$trigger.one( 'click', function () {
+		$ulsTrigger.one( 'click', function () {
 			mw.loader.using( 'ext.uls.mediawiki' ).done( function () {
-				$trigger.uls( {
+				$ulsTrigger.uls( {
 					onSelect: function ( code ) {
 						selectedLanguage = code;
-						$trigger.text( $.uls.data.getAutonym( code ) );
+						$ulsTrigger.text( $.uls.data.getAutonym( code ) );
 						showMessageGroupStats( code );
 					},
 					ulsPurpose: 'interface-language',
 					quickList: mw.uls.getFrequentLanguageList()
 				} );
 
-				$trigger.click();
+				$ulsTrigger.trigger( 'click' );
 			} );
 		} );
 	}
@@ -130,7 +131,7 @@
 			}
 		} );
 
-		$tiles.click( function () {
+		$tiles.on( 'click', function () {
 			var url = $( this ).data( 'url' );
 
 			if ( url ) {
@@ -139,7 +140,7 @@
 		} );
 
 		// Make the whole action div clickable to override above
-		$tiles.find( '.action' ).click( function ( e ) {
+		$tiles.find( '.action' ).on( 'click', function ( e ) {
 			e.stopPropagation();
 
 			location.href = $( this ).find( 'a' ).prop( 'href' );
@@ -181,7 +182,7 @@
 				// Add class to remove the triangle callout
 				$( '.tux-groupselector' ).addClass( 'removecallout' );
 
-				$selector.click();
+				$selector.trigger( 'click' );
 			} );
 		} );
 	}
@@ -189,4 +190,4 @@
 	$( setupStatsTiles );
 	$( setupProjectTiles );
 	$( setupTargetLanguageSelector );
-}( jQuery, mediaWiki ) );
+}( jQuery, mw ) );

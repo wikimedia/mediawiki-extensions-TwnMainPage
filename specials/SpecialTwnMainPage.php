@@ -611,7 +611,7 @@ HTML;
 		</li>
 	</ul>
 	<div class="row only-nondev">
-		<button class="signup-language-selector mw-ui-button">
+		<button class="signup-language-selector mw-ui-button" type="button">
 			{$this->msg( 'twnmp-choose-another-language' )->escaped()}
 		</button>
 	</div>
@@ -619,11 +619,11 @@ HTML;
 		{$this->msg( 'twnmp-choose-fill-account-details' )->escaped()}
 	</h2>
 	<div class="row">$username</div>
-	<div class="twnmp-signup-error hide"></div>
+	<div class="js-signup-err twnmp-signup-error hide"></div>
 	<div class="row">$password</div>
-	<div class="twnmp-signup-error hide"></div>
+	<div class="js-signup-err twnmp-signup-error hide"></div>
 	<div class="row">$email</div>
-	<div class="twnmp-signup-error hide"></div>
+	<div class="js-signup-err twnmp-signup-error hide"></div>
 	<div class="row label only-dev hide">
 		{$this->msg( 'twnmp-join-community-reason' )->escaped()}
 	</div>
@@ -636,6 +636,7 @@ HTML;
 			{$this->msg( 'twnmp-create-account-cancel' )->escaped()}
 		</button>
 	</div>
+	<div class="js-signup-err twnmp-signup-generic-error hide"></div>
 	<div class="row dev-signup only-nondev">
 		<a>{$this->msg( 'twnmp-join-community-info' )->escaped()}</a>
 	</div>

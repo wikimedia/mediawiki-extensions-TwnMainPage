@@ -159,7 +159,8 @@
 				api = new mw.Api(),
 				username = $username.val(),
 				password = $password.val(),
-				email = $email.val();
+				email = $email.val(),
+				isRefreshing = false;
 
 			e.preventDefault();
 
@@ -202,9 +203,14 @@
 					optionvalue: preferences
 				} );
 			} ).then( function () {
+				isRefreshing = true;
 				window.location.reload();
 			} ).always( function () {
-				toggleLoading( false );
+				if ( !isRefreshing ) {
+					// If the page is not refreshing stop the loading,
+					// probably there was an error or validation failure.
+					toggleLoading( false );
+				}
 			} );
 		}
 

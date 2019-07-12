@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Kusavica",
-			"TomášPolonec"
+			"TomášPolonec",
+			"Robert Važan"
 		]
 	},
 	"twnmp-s-translators": "{{PLURAL:$1|prekladateľ|prekladatelia|prekladateľov}}",
@@ -18,8 +19,10 @@
 	"twnmp-search-choose-project": "Vyberte projekt, ktorý chcete prekladať",
 	"twnmp-translate-link": "Prekladať",
 	"twnmp-proofread-link": "Kontrolovať",
+	"twnmp-translate-button": "Prekladať",
 	"twnmp-proofread-button": "Kontrolovať",
 	"twnmp-your-translations-stats": "Vaša štatistika prekladov",
+	"twnmp-your-view-language-stats": "Zobraziť jazykové štatistiky",
 	"twnmp-translations-per-month": "{{PLURAL:$1|preklad|preklady|prekladov}} za mesiac",
 	"twnmp-translations-translator-ranking": "Ste {{PLURAL:$3|1={{GENDER:$1|jediný|jediná}}|$2. z $3}}<br />pre jazyk $4",
 	"twnmp-translations-translator-ranking-source": "Ste {{PLURAL:$3|1={{GENDER:$1|jediný|jediná}}|$2. z $3}}",

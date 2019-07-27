@@ -3,7 +3,8 @@
 		"authors": [
 			"Toliño",
 			"Elisardojm",
-			"Fitoschido"
+			"Fitoschido",
+			"Navhy"
 		]
 	},
 	"twnmp-desc": "Proporciona a páxina principal de translatewiki.net",
@@ -18,7 +19,7 @@
 	"twnmp-login": "Rexistro",
 	"twnmp-logout": "Saír",
 	"twnmp-search-placeholder": "Atope e corrixa traducións",
-	"twnmp-search-button": "Buscar",
+	"twnmp-search-button": "Procurar",
 	"twnmp-search-choose-project": "Escolla un proxecto a traducir",
 	"twnmp-translate-link": "Traducir",
 	"twnmp-proofread-link": "Revisar",

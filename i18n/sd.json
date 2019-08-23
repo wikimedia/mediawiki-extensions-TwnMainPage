@@ -32,7 +32,7 @@
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|ترجما}}",
 	"twnmp-reviews-per-month": "{{PLURAL:$1|جائزا}}/مھيني",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=توھان اڪيلا آھيو<br />$4 لاءِ|{{GENDER:$1|درجو ڏنل}} لاءِ $2 جو $3<br />$4}}",
-	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=اڪيلا توھان آھيو |{{GENDER:$1|درجو ڏنل}} $2 of $3}}",
+	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=اڪيلا توھان آھيو|{{GENDER:$1|درجو ڏنل}} $2 مان $3}}",
 	"twnmp-add-project": "پنھنجو کليل ذريعي واري رٿا ترجمي لاءِ شامل ڪريو",
 	"twnmp-sandboxed": "توھان کي {{PLURAL:$1|0=ڪجھ|وڌيڪ}} ترجما فراھم ڪرڻا پوندا پنھنجي رجسٽريشن مڪمل ڪرڻ لاءِ.",
 	"twnmp-sandboxed-limit": "توھان ترجمن جي حد تي پھتا آھيو. اسان جي ٽولي پڪ ڪندي ۽ توھان کاتو جلد اپگريڊ ڪندي.",

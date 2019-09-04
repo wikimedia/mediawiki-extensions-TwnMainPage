@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyscowicz"
+		]
+	},
+	"twnmp-mainpage": "Alkusivu",
+	"twnmp-s-projects": "{{PLURAL:$1|prujekti|prujektia}}",
+	"twnmp-login": "Lokkaa sisäle",
+	"twnmp-logout": "Lokkaa ulos",
+	"twnmp-signup-email-placeholder": "E-posti",
+	"twnmp-create-account-button": "Luo konttu",
+	"twnmp-create-account-cancel": "Lopeta"
+}

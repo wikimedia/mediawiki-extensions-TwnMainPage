@@ -17,9 +17,14 @@ class TwnUserStats {
 
 		$dbr = wfGetDB( DB_REPLICA );
 
+		$tables = [
+			'recentchanges',
+			'actor',
+		];
+
 		$fields = [
-			'user_id' => 'rc_user',
-			'user_name' => 'rc_user_text',
+			'user_id' => 'actor_user',
+			'user_name' => 'actor_name',
 			'rc_timestamp',
 			'rc_id',
 		];
@@ -38,6 +43,8 @@ class TwnUserStats {
 			'LIMIT' => 500
 		];
 
+		$joins = [ 'actor' => [ 'JOIN', 'rc_actor=actor_id' ] ];
+
 		$cutoff = false;
 
 		while ( true ) {
@@ -47,7 +54,7 @@ class TwnUserStats {
 				$myconds[] = "rc_id < $cutoff";
 			}
 
-			$res = $dbr->select( 'recentchanges', $fields, $myconds, __METHOD__, $options );
+			$res = $dbr->select( $tables, $fields, $myconds, __METHOD__, $options, $joins );
 
 			// Avoid infite loop if there are no rows
 			if ( $res->numRows() === 0 ) {
@@ -81,9 +88,14 @@ class TwnUserStats {
 
 		$dbr = wfGetDB( DB_REPLICA );
 
+		$tables = [
+			'logging',
+			'actor',
+		];
+
 		$fields = [
-			'user_id' => 'log_user',
-			'user_name' => 'log_user_text',
+			'user_id' => 'actor_user',
+			'user_name' => 'actor_name',
 			'actions' => 'count(log_id)'
 		];
 
@@ -102,7 +114,9 @@ class TwnUserStats {
 			'GROUP BY' => 'user_name',
 		];
 
-		$res = $dbr->select( 'logging', $fields, $conds, __METHOD__, $options );
+		$joins = [ 'actor' => [ 'JOIN', 'log_actor=actor_id' ] ];
+
+		$res = $dbr->select( $tables, $fields, $conds, __METHOD__, $options, $joins );
 		foreach ( $res as $row ) {
 			$ret[$row->user_name] = $row->actions;
 		}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyscowicz"
+		]
+	},
+	"twnmp-mainpage": "Hēafodtramet",
+	"twnmp-login": "Inmeldian",
+	"twnmp-logout": "Ūtmeldian",
+	"twnmp-signup-username-placeholder": "Brūcendnama",
+	"twnmp-signup-password-placeholder": "Þafungword"
+}

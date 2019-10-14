@@ -5,12 +5,11 @@
  * @group Database
  */
 class CachedStatTest extends PHPUnit\Framework\TestCase {
-	use PHPUnit4And6Compat;
 
 	public function testDontAllowMiss() {
 		$value = 'test';
 
-		$updater = $this->getMock( NullUpdater::class );
+		$updater = $this->createMock( NullUpdater::class );
 		$updater->expects( self::once() )
 			->method( 'calculate' )
 			->will( self::returnValue( $value ) );
@@ -23,7 +22,7 @@ class CachedStatTest extends PHPUnit\Framework\TestCase {
 			'update'
 		);
 
-		$stub = $this->getMock( EmptyBagOStuff::class );
+		$stub = $this->createMock( EmptyBagOStuff::class );
 		$stub->expects( self::once() )
 			->method( 'get' );
 
@@ -35,7 +34,7 @@ class CachedStatTest extends PHPUnit\Framework\TestCase {
 	}
 
 	public function testAllowMiss() {
-		$updater = $this->getMock( NullUpdater::class );
+		$updater = $this->createMock( NullUpdater::class );
 		$updater->expects( self::never() )
 			->method( 'calculate' );
 
@@ -46,7 +45,7 @@ class CachedStatTest extends PHPUnit\Framework\TestCase {
 			[ [ $updater, 'calculate' ] ],
 			'allow miss'
 		);
-		$stub = $this->getMock( EmptyBagOStuff::class );
+		$stub = $this->createMock( EmptyBagOStuff::class );
 		$stub->expects( self::once() )
 			->method( 'get' );
 

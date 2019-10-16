@@ -4,13 +4,17 @@
 			"Pyscowicz"
 		]
 	},
+	"twnmp-desc": "translatewiki.netin alkusivu",
 	"twnmp-mainpage": "Alkusivu",
 	"twnmp-s-projects": "{{PLURAL:$1|prujekti|prujektia}}",
 	"twnmp-show-more-projects": "Näytä kaikki prujektit...",
+	"twnmp-brand-motto": "Avoimen lähekootin käännösyhteisö",
 	"twnmp-login": "Lokkaa sisäle",
 	"twnmp-logout": "Lokkaa ulos",
 	"twnmp-search-button": "Löyä",
+	"twnmp-search-choose-project": "Valitse käännettävä prujekti",
 	"twnmp-your-view-language-stats": "Näytä kielistatistiikkaa",
+	"twnmp-add-project": "Lissää avoimen lähekootin prujekti käännettäväksi",
 	"twnmp-bottom-help": "Apua",
 	"twnmp-bottom-about": "Tästä",
 	"twnmp-signup-username-placeholder": "Käyttäjänimi",

@@ -8,6 +8,7 @@
 			"Vegetator"
 		]
 	},
+	"twnmp-mainpage": "Hlavná stránka",
 	"twnmp-s-translators": "{{PLURAL:$1|prekladateľ|prekladatelia|prekladateľov}}",
 	"twnmp-s-projects": "{{PLURAL:$1|projekt|projekty|projektov}}",
 	"twnmp-s-languages": "{{PLURAL:$1|aktívny jazyk|aktívne jazyky|aktívnych jazykov}}",

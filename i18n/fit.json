@@ -16,7 +16,7 @@
 	"twnmp-search-choose-project": "Valitse käännettävä prujekti",
 	"twnmp-translate-link": "Käänä",
 	"twnmp-translate-button": "Käänä",
-	"twnmp-your-translations-stats": "Henkilökohtaiset käännösstatistiikat",
+	"twnmp-your-translations-stats": "Henkilökohtaista käänösstatistiikkaa",
 	"twnmp-your-view-language-stats": "Näytä kielistatistiikkaa",
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|käänös|käänöstä}}",
 	"twnmp-add-project": "Lissää avoimen lähekootin prujekti käännettäväksi",

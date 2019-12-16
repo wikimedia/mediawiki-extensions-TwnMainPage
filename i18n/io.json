@@ -5,6 +5,10 @@
 		]
 	},
 	"twnmp-mainpage": "Chefpagino",
+	"twnmp-s-translators": "{{PLURAL:$1|Tradukero|Tradukeri}}",
+	"twnmp-s-projects": "{{PLURAL:$1|Projeto|Projeti}}",
+	"twnmp-s-languages": "Aktiva {{PLURAL:$1|linguo|lingui}}",
+	"twnmp-s-messages": "{{PLURAL:$1|Mesajo|Mesaji}} por tradukar",
 	"twnmp-show-more-projects": "Montrez omna projeti...",
 	"twnmp-brand-motto": "Komunitato pri tradukuro \"publika fonto\"",
 	"twnmp-logout": "Ekirar",

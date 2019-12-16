@@ -9,7 +9,8 @@
 			"Weft",
 			"Wladek92",
 			"Urhixidur",
-			"Framawiki"
+			"Framawiki",
+			"Thibaut120094"
 		]
 	},
 	"twnmp-desc": "Fournit la page principale de translatewiki.net",
@@ -20,7 +21,7 @@
 	"twnmp-s-messages": "{{PLURAL:$1|Message|Messages}} à traduire",
 	"twnmp-bannerwho": "Image $1",
 	"twnmp-show-more-projects": "Afficher tous les projets…",
-	"twnmp-brand-motto": "Communauté de traduction en source libre",
+	"twnmp-brand-motto": "Communauté de traduction au code source ouvert",
 	"twnmp-login": "Se connecter",
 	"twnmp-logout": "Déconnexion",
 	"twnmp-search-placeholder": "Rechercher et corriger des traductions",
@@ -40,7 +41,7 @@
 	"twnmp-reviews-per-month": "{{PLURAL:$1|Relectures}}/mois",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Vous êtes le seul<br />pour $4|{{GENDER:$1|Classé}} $2 sur $3<br />pour $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Vous êtes le seul|{{GENDER:$1|Classé}} $2 sur $3}}",
-	"twnmp-add-project": "Ajouter votre projet ouvert pour sa traduction",
+	"twnmp-add-project": "Ajouter votre projet au code source ouvert pour sa traduction",
 	"twnmp-sandboxed": "Vous devez effectuer {{PLURAL:$1|0=quelques|plus de}} traductions pour terminer votre inscription.",
 	"twnmp-sandboxed-limit": "Vous avez atteint le nombre limite de traductions. Notre équipe va vérifier et mettre à niveau votre compte bientôt.",
 	"twnmp-bottom-help": "Aide",
@@ -65,6 +66,6 @@
 	"twnmp-join-community-desc": "Si vous êtes un développeur intéressé par la documentation des traductions, ou juste par l’exploration de la plateforme, vous êtes également le bienvenu.",
 	"twnmp-join-community-reason": "Pourquoi êtes-vous intéressé par le fait de nous rejoindre ?",
 	"twnmp-create-account-cancel": "Annuler",
-	"twnmp-join-community-info": "Pas encore traducteur  ? Vous pouvez toujours nous rejoindre.",
+	"twnmp-join-community-info": "Pas encore traducteur  ? Vous pouvez toujours nous rejoindre.",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Un message|$1 messages}}"
 }

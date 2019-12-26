@@ -40,5 +40,6 @@
 	"twnmp-choose-fill-account-details": "Syötä sinun konttun tiot",
 	"twnmp-join-community": "Liity föreeninkhiin",
 	"twnmp-create-account-cancel": "Lopeta",
-	"twnmp-join-community-info": "Et voi lähättää joitain käänöksiä juuri nyt? Voit silti liittyä."
+	"twnmp-join-community-info": "Et voi lähättää joitain käänöksiä juuri nyt? Voit silti liittyä.",
+	"twnmp-stats-number-k": "$1t"
 }

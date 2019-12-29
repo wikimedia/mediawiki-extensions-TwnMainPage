@@ -3,12 +3,13 @@
 		"authors": [
 			"Asoxor",
 			"Lost Whispers",
-			"Épine"
+			"Épine",
+			"ئارام بکر"
 		]
 	},
 	"twnmp-mainpage": "دەستپێک",
 	"twnmp-s-translators": "وەرگێڕ",
-	"twnmp-s-projects": "پرۆژە",
+	"twnmp-s-projects": "{{PLURAL:$1|پرۆژە|پرۆژەکان}}",
 	"twnmp-s-languages": "زمانی چالاک",
 	"twnmp-s-messages": "پەیام بۆ وەرگێڕان",
 	"twnmp-bannerwho": "وێنەی $1",

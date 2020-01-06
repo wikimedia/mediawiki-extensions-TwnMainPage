@@ -4,7 +4,8 @@
 			"Amire80",
 			"YaronSh",
 			"פוילישער",
-			"LaG roiL"
+			"LaG roiL",
+			"מזלג שביר"
 		]
 	},
 	"twnmp-desc": "דף ראשי עבור אתר translatewiki.net",
@@ -37,7 +38,7 @@
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1={{GENDER:$1|אתה היחיד|את היחידה}} כאן|{{GENDER:$1|אתה מדורג|את מדורגת}} במקום ה־$2 מתוך $3}}",
 	"twnmp-add-project": "הוספת מיזם הקוד הפתוח שלך לתרגום כאן",
 	"twnmp-sandboxed": "יש לספק {{PLURAL:$1|0=קצת|עוד}} תרגומים כדי לקבל הרשאות תרגום מלאות.",
-	"twnmp-sandboxed-limit": "הגעת למגבת התרגומים שלך. הסגל שלנו יבדוק את התרגומים וישדרג את החשבון שלך בקרוב.",
+	"twnmp-sandboxed-limit": "הגעת למגבלת התרגומים שלך. הסגל שלנו יבדוק את התרגומים וישדרג את החשבון שלך בקרוב.",
 	"twnmp-bottom-help": "עזרה",
 	"twnmp-bottom-support": "דלפק תמיכה",
 	"twnmp-bottom-languages-supported": "שפות נתמכות",

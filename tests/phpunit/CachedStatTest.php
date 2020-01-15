@@ -53,7 +53,7 @@ class CachedStatTest extends PHPUnit\Framework\TestCase {
 			->method( 'set' );
 
 		$cacher->setCache( $stub );
-		$this->assertEquals( null, $cacher->get() );
+		$this->assertNull( $cacher->get() );
 	}
 }
 

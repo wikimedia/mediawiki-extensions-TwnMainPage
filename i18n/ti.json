@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joanmp17"
+		]
+	},
+	"twnmp-mainpage": "መበገሲ ገጽ",
+	"twnmp-login": "ብመንነት እተው",
+	"twnmp-logout": "ብመንነት ውጻእ",
+	"twnmp-bottom-help": "ሓገዝ",
+	"twnmp-bottom-about": "ብዛዕባ",
+	"twnmp-signup-username-placeholder": "ስም ተጠቃሚ",
+	"twnmp-signup-password-placeholder": "ቃለ-ምስጢር",
+	"twnmp-signup-email-placeholder": "ኢመይል",
+	"twnmp-create-account-button": "መንነት መፍለዪ ፍጠር"
+}

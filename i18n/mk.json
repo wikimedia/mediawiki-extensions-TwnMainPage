@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bjankuloski06"
+			"Bjankuloski06",
+			"Violetova"
 		]
 	},
 	"twnmp-desc": "Ја дава главната страница на translatewiki.net",
@@ -40,12 +41,12 @@
 	"twnmp-bottom-languages-supported": "Поддржани јазици",
 	"twnmp-bottom-about": "За проектот",
 	"twnmp-signup-username-placeholder": "Корисничко име",
-	"twnmp-signup-password-placeholder": "Јавка",
+	"twnmp-signup-password-placeholder": "Лозинка",
 	"twnmp-signup-email-placeholder": "Е-пошта",
 	"twnmp-create-account-button": "Направи сметка",
 	"twnmp-signup-error-invalidusername": "Тоа корисничко име е недостапно. Одберете друго.",
 	"twnmp-signup-error-nonfreeusername": "Ова корисничко име веќе постои. Одберете друго.",
-	"twnmp-signup-error-invalidpassword": "Јавката е погрешна.",
+	"twnmp-signup-error-invalidpassword": "Лозинката е погрешна.",
 	"twnmp-signup-error-invalidemail": "Ова не личи на исправна е-пошта. Внесете точна.",
 	"twnmp-signup-error-other": "Зачленувањето не успеа. Опслужувачот ја даде грешката: $1.",
 	"twnmp-signup-error-unknown": "Создавањето на сметката не успеа од непозната причина.",

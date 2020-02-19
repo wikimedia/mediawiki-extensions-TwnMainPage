@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Les Meloures",
-			"Robby"
+			"Robby",
+			"Soued031"
 		]
 	},
 	"twnmp-desc": "Stellt d'translatewiki.net-Haaptsäit zur Verfügung",
@@ -35,7 +36,7 @@
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Dir sidd deen Eenzegen<!-- $1 -->|Plaz $2 vu(n) $3}}",
 	"twnmp-add-project": "Setzt Ären Open-Source Projet fir d'Iwwersetzung dobäi",
 	"twnmp-sandboxed": "Dir musst  {{PLURAL:$1|0=e puer|méi}} Iwwersetzunge maache fir komplett Iwwersetzungstrechter ze kréien.",
-	"twnmp-sandboxed-limit": "Dir hutt d'Limit vun den Iwwersetzungen erreecht. Eis Equipe wäert Äre Benotzerkont nokucken an Är Benotzerrechter upassen.",
+	"twnmp-sandboxed-limit": "Dir hutt d'Limit vun den Iwwersetzungen erreecht. Eis Ekipp wäert Äre Benotzerkont nokucken an Är Benotzerrechter upassen.",
 	"twnmp-bottom-help": "Hëllef",
 	"twnmp-bottom-support": "Ënnerstëtzung",
 	"twnmp-bottom-languages-supported": "Ënnerstëtzt Sproochen",
@@ -44,10 +45,10 @@
 	"twnmp-signup-password-placeholder": "Passwuert",
 	"twnmp-signup-email-placeholder": "E-Mail",
 	"twnmp-create-account-button": "Benotzerkont uleeën",
-	"twnmp-signup-error-invalidusername": "Dëse Benotzernumm ass net disponibel. Sicht Iech w.e.g. een Aneren eraus.",
-	"twnmp-signup-error-nonfreeusername": "Dëse Benotzernumm gëtt et schonn. Sicht Iech w.e.g. een Aneren eraus.",
+	"twnmp-signup-error-invalidusername": "Dëse Benotzernumm ass net disponibel. Sicht Iech wgl. een Aneren eraus.",
+	"twnmp-signup-error-nonfreeusername": "Dëse Benotzernumm gëtt et schonn. Sicht Iech wgl. een Aneren eraus.",
 	"twnmp-signup-error-invalidpassword": "D'Passwuert ass net valabel.",
-	"twnmp-signup-error-invalidemail": "Dëst gesäit net aus wéi eng valabel E-Mail-Adress. Gitt w.e.g. eng valabel un.",
+	"twnmp-signup-error-invalidemail": "Dëst gesäit net aus wéi eng valabel E-Mail-Adress. Gitt wgl. eng valabel un.",
 	"twnmp-become-translator": "Iwwersetzer ginn",
 	"twnmp-choose-languages-you-know": "Sproochen eraussichen déi Dir kënnt",
 	"twnmp-choose-another-language": "Eng aner Sprooch eraussichen...",

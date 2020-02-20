@@ -7,6 +7,7 @@
 	"twnmp-mainpage": "መበገሲ ገጽ",
 	"twnmp-login": "ብመንነት እተው",
 	"twnmp-logout": "ብመንነት ውጻእ",
+	"twnmp-search-button": "ኣልሽ",
 	"twnmp-translate-link": "ተርጐመ",
 	"twnmp-translate-button": "ተርጐመ",
 	"twnmp-bottom-help": "ሓገዝ",
@@ -14,5 +15,6 @@
 	"twnmp-signup-username-placeholder": "ስም ተጠቃሚ",
 	"twnmp-signup-password-placeholder": "ቃለ-ምስጢር",
 	"twnmp-signup-email-placeholder": "ኢመይል",
-	"twnmp-create-account-button": "መንነት መፍለዪ ፍጠር"
+	"twnmp-create-account-button": "መንነት መፍለዪ ፍጠር",
+	"twnmp-create-account-cancel": "ኣትርፍ"
 }

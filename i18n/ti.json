@@ -29,6 +29,6 @@
 	"twnmp-become-translator": "ተርጓሚ ኮነ",
 	"twnmp-join-community": "ማሕበረሰብ ተጸንበር",
 	"twnmp-create-account-cancel": "ኣትርፍ",
-	"twnmp-stats-number-k": "$1 ሽሓት",
+	"twnmp-stats-number-k": "$1ሽ",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|ሓደ መልእኽቲ|$1 መልእክትታት}}"
 }

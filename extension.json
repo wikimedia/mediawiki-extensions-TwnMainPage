@@ -12,13 +12,13 @@
 		"MediaWiki": ">= 1.32.0"
 	},
 	"AutoloadClasses": {
-		"CachedStat": "CachedStat.php",
-		"CachedStatJob": "CachedStat.php",
-		"ProjectHandler": "ProjectHandler.php",
-		"ResourceLoaderProjectIconsModule": "ResourceLoaderProjectIconsModule.php",
-		"SpecialTwnMainPage": "specials/SpecialTwnMainPage.php",
-		"TwnMainPageHooks": "TwnMainPageHooks.php",
-		"TwnUserStats": "TwnUserStats.php"
+		"CachedStat": "includes/CachedStat.php",
+		"CachedStatJob": "includes/CachedStat.php",
+		"ProjectHandler": "includes/ProjectHandler.php",
+		"ResourceLoaderProjectIconsModule": "includes/ResourceLoaderProjectIconsModule.php",
+		"SpecialTwnMainPage": "includes/specials/SpecialTwnMainPage.php",
+		"TwnMainPageHooks": "includes/TwnMainPageHooks.php",
+		"TwnUserStats": "includes/TwnUserStats.php"
 	},
 	"ExtensionFunctions": [
 		"TwnMainPageHooks::setup"

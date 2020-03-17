@@ -13,7 +13,7 @@
 	},
 	"AutoloadClasses": {
 		"CachedStat": "includes/CachedStat.php",
-		"CachedStatJob": "includes/CachedStat.php",
+		"CachedStatJob": "includes/CachedStatJob.php",
 		"ProjectHandler": "includes/ProjectHandler.php",
 		"ResourceLoaderProjectIconsModule": "includes/ResourceLoaderProjectIconsModule.php",
 		"SpecialTwnMainPage": "includes/specials/SpecialTwnMainPage.php",

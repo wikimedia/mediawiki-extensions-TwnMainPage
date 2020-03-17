@@ -57,6 +57,7 @@ class CachedStatTest extends PHPUnit\Framework\TestCase {
 	}
 }
 
+// phpcs:ignore Generic.Files.OneObjectStructurePerFile.MultipleFound
 class NullUpdater {
 	public function calculate() {
 		return 'unreachable code';

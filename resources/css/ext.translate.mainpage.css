@@ -430,7 +430,6 @@ a.langstats-link {
 .project-tile span.translate {
 	padding-left: 20px;
 	padding-right: 5px;
-	/* TODO: Convert this file to LESS and use `.background-image-svg-quick()` */
 	background: transparent url( ../images/view-list.png ) left top no-repeat;
 	background-image: -webkit-linear-gradient( transparent, transparent ), url( ../images/view-list.svg );
 	background-image: -moz-linear-gradient( transparent, transparent ), url( ../images/view-list.svg );

@@ -4,14 +4,15 @@
 			"Asoxor",
 			"Lost Whispers",
 			"Épine",
-			"ئارام بکر"
+			"ئارام بکر",
+			"Arya sarhan"
 		]
 	},
 	"twnmp-mainpage": "دەستپێک",
-	"twnmp-s-translators": "وەرگێڕ",
+	"twnmp-s-translators": "{{PLURAL:$1|وەرگێڕ|وەرگێڕەکان}}",
 	"twnmp-s-projects": "{{PLURAL:$1|پرۆژە|پرۆژەکان}}",
-	"twnmp-s-languages": "زمانی چالاک",
-	"twnmp-s-messages": "پەیام بۆ وەرگێڕان",
+	"twnmp-s-languages": "{{PLURAL:$1|زمانی چالاک|زمانی چالاک}}",
+	"twnmp-s-messages": "{{PLURAL:$1|پەیام|پەیام}} بۆ وەرگێڕان",
 	"twnmp-bannerwho": "وێنەی $1",
 	"twnmp-show-more-projects": "بینینی ھەموو پرۆژەکان...",
 	"twnmp-brand-motto": "کۆمەڵگەی سەرچاوە کراوەی وەرگێڕان",
@@ -29,7 +30,8 @@
 	"twnmp-your-translations-stats": "ئاماری وەرگێڕانەکانت",
 	"twnmp-your-translations-stats-all-languages": "بۆ ھەموو زمانەکان",
 	"twnmp-your-view-language-stats": "بینینی ئامارەکانی زمان",
-	"twnmp-translations-per-month": "وەرگێڕان لە مانگدا",
+	"twnmp-translations-per-month": "{{PLURAL:$1|وەرگێڕان}}/مانگ",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|وەرگێڕانەکان}}",
 	"twnmp-reviews-per-month": "{{PLURAL:$1|بەسەرداچوونەوە}}/مانگ",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=تۆ تەنیا کەسیت<br />بۆ $4|لە ژمارە $2 لە $3 ھاتوویت<br />بۆ $4}}",
 	"twnmp-add-project": "پرۆژەی سەرچاوە کراوەکەت زیاد بکە بۆ وەرگێڕان",
@@ -40,7 +42,7 @@
 	"twnmp-bottom-about": "سه‌باره‌ت",
 	"twnmp-signup-username-placeholder": "ناوی بەکارھێنەر",
 	"twnmp-signup-password-placeholder": "تێپەڕوشە",
-	"twnmp-signup-email-placeholder": "ئیمەیڵ",
+	"twnmp-signup-email-placeholder": "ئیمەیل",
 	"twnmp-create-account-button": "دروستکردنی ھەژمار",
 	"twnmp-signup-error-invalidusername": "ئەم ناوە بەردەست نییە. تکایە ناوێکی تر ھەڵبژێرە.",
 	"twnmp-signup-error-nonfreeusername": "ئەم ناوە لە ئێستادا ھەیە. تکایە دانەیەکی تر ھەڵبژێرە.",
@@ -58,5 +60,5 @@
 	"twnmp-create-account-cancel": "ھەڵوەشاندنەوە",
 	"twnmp-join-community-info": "ناتوانیت لە ئێستادا وەرگێڕان پاشەکەوت بکەیت؟ ھێشتا دەتوانیت ببیتە ئەندام.",
 	"twnmp-stats-number-k": "$1٠٠٠",
-	"twn-mainpage-total-messages-in-language": "$1 پەیام"
+	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|یەک پەیام|$1 پەیام}}"
 }

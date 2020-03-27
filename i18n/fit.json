@@ -28,7 +28,7 @@
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1={{GENDER:$1|Sinä olet ainoa}}|Sinä olet sijalla $2/$3<br />\nkielele $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1={{GENDER:$1|Olet ainoa}}|Olet sijala $2/$3}}",
 	"twnmp-add-project": "Lissää avvoimen lähekootin prujekti käänettäväksi",
-	"twnmp-sandboxed": "Sinun täytyy tehä {{PLURAL:$1|0=joitakin|lissää}} käänöksiä saahaksesi rekisteröinnin valmiiksi.",
+	"twnmp-sandboxed": "Sinun häätyy tehä {{PLURAL:$1|0=joitakin|lissää}} käänöksiä saahaksesi rekisteröinnin valmiiksi.",
 	"twnmp-sandboxed-limit": "Olet saavuttanut käänösrajan. Ylläpitomme tarkistaa konttusi ja antaa sinule oikeuet pian.",
 	"twnmp-bottom-help": "Apua",
 	"twnmp-bottom-about": "Tästä",

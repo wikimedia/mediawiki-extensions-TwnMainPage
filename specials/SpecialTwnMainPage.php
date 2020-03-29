@@ -299,7 +299,8 @@ HTML;
 		$msggroupid = htmlspecialchars( $id );
 		$out = <<<HTML
 <div class="three columns twn-mainpage-project-tile">
-	<div class="project-tile $linked" $dataUrl data-lang="$escLang" data-msggroupid="$msggroupid">
+	<div class="project-tile $linked" $dataUrl data-lang="$escLang" data-msggroupid="$msggroupid"
+		tabindex="0">
 		<div class="row project-top">
 			<div class="project-icon four columns">$image</div>
 			<div class="project-content eight columns">
@@ -310,7 +311,7 @@ HTML;
 				</div>
 			</div>
 		</div>
-		<div class="row project-actions hide">
+		<div class="row project-actions">
 			{$this->getProjectActions( $id )}
 		</div>
 	</div>

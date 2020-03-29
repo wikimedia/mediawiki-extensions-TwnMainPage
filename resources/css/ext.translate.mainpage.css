@@ -106,9 +106,14 @@ body.mediawiki {
 	width: 80%;
 	padding: 10px;
 	cursor: pointer;
-	/* TODO: Utilize https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion */
 	-webkit-animation: fadein 1.5s backwards;
 	animation: fadein 1.5s backwards;
+}
+
+@media screen and ( prefers-reduced-motion: reduce ) {
+	.stats-tile {
+		animation: none;
+	}
 }
 
 .stats-tile-row:nth-child( 1 ) > div:nth-child( 2 ) .stats-tile,

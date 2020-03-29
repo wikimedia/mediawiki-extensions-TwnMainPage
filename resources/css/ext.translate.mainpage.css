@@ -551,6 +551,20 @@ a.langstats-link {
 	}
 }
 
+@media all and ( max-width: 650px ) {
+	.grid.twn-mainpage .row {
+		min-width: initial;
+	}
+
+	.twn-mainpage .row.twn-mainpage-project-tiles .twn-mainpage-project-tile {
+		width: 100%;
+	}
+
+	.grid.twn-mainpage .twn-mainpage-footer {
+		height: auto;
+	}
+}
+
 /* Non-JS cleanups */
 
 .client-nojs .uls-trigger {

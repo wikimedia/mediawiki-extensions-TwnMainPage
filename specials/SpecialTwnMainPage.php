@@ -103,9 +103,12 @@ class SpecialTwnMainPage extends SpecialPage {
 
 		$output .= Html::openElement( 'div', [ 'class' => 'grid twn-mainpage' ] );
 		$output .= $this->header();
+		$output .= Html::openElement( 'main' );
 		$output .= $this->banner();
 		$output .= $this->searchBar();
 		$output .= $this->projectSelector();
+		$output .= $this->newProject();
+		$output .= Html::closeElement( 'main' );
 		$output .= $this->footer();
 		$output .= Html::closeElement( 'div' );
 		return $output;
@@ -154,7 +157,7 @@ class SpecialTwnMainPage extends SpecialPage {
 		}
 
 		$html = <<<HTML
-<div class="row twn-mainpage-header">
+<header class="row twn-mainpage-header">
 	<div class="seven columns twn-mainpage-title">
 		<div class="twn-brand-name">$sitenameEsc</div>
 		<div class="twn-brand-motto">$sitemottoEsc</div>
@@ -164,7 +167,7 @@ class SpecialTwnMainPage extends SpecialPage {
 		$userLink
 		$loginout
 	</div>
-</div>
+</header>
 HTML;
 
 		return $html;
@@ -235,6 +238,22 @@ HTML;
 
 		$out .= implode( "\n\n", $tiles );
 		$out .= Html::closeElement( 'div' );
+
+		return $out;
+	}
+
+	public function newProject(): string {
+		$add = Title::newFromText( 'Special:MyLanguage/Translating:New_project' )
+			->getFullURL();
+
+		$out = Html::element(
+			'a',
+			[
+				'class' => 'row twn-mainpage-add-project',
+				'href' => $add
+			],
+			$this->msg( 'twnmp-add-project' )->text()
+		);
 
 		return $out;
 	}
@@ -370,18 +389,7 @@ HTML;
 	}
 
 	public function footer() {
-		$add = Title::newFromText( 'Special:MyLanguage/Translating:New_project' )
-			->getFullURL();
-
-		$out = Html::element(
-			'a',
-			[
-				'class' => 'row twn-mainpage-add-project',
-				'href' => $add
-			],
-			$this->msg( 'twnmp-add-project' )->text()
-		);
-
+		$out = Html::openElement( 'footer' );
 		$out .= Html::openElement( 'div', [ 'class' => 'row twn-mainpage-footer' ] );
 		$out .= Html::element( 'a', [
 			'class' => 'three column',
@@ -408,6 +416,8 @@ HTML;
 			$out .= $skin->makeFooterIcon( $icon, 'noicon' );
 			$out .= Html::closeElement( 'div' );
 		}
+
+		$out .= Html::closeElement( 'footer' );
 
 		return $out;
 	}

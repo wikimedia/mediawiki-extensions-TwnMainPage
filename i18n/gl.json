@@ -1,11 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño",
 			"Elisardojm",
 			"Fitoschido",
-			"Navhy",
-			"Iváns"
+			"Iváns",
+			"Toliño"
 		]
 	},
 	"twnmp-desc": "Proporciona a páxina principal de translatewiki.net",

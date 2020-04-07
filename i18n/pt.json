@@ -1,14 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fúlvio",
-			"Imperadeiro98",
-			"Vitorvicentevalente",
-			"Macofe",
-			"Hamilton Abreu",
-			"MokaAkashiyaPT",
 			"Athena in Wonderland",
-			"Eduardo Addad de Oliveira"
+			"Eduardo Addad de Oliveira",
+			"Fúlvio",
+			"Hamilton Abreu",
+			"Imperadeiro98",
+			"Macofe",
+			"MokaAkashiyaPT",
+			"Vitorvicentevalente"
 		]
 	},
 	"twnmp-desc": "Fornece a página principal da translatewiki.net",

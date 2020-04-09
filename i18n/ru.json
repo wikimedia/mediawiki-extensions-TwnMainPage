@@ -6,11 +6,12 @@
 			"Lockal",
 			"Movses",
 			"Okras",
+			"Pacha Tchernof",
 			"Ua2004"
 		]
 	},
 	"twnmp-desc": "Текст на заглавной странице translatewiki.net",
-	"twnmp-mainpage": "Заглавная страница",
+	"twnmp-mainpage": "Главная страница",
 	"twnmp-s-translators": "{{PLURAL:$1|переводчиков зарегистрировано}}",
 	"twnmp-s-projects": "{{PLURAL:$1|проект|проекта|проектов}}",
 	"twnmp-s-languages": "{{PLURAL:$1|активный язык|активных языка|активных языков}}",

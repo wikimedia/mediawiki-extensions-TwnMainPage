@@ -72,6 +72,7 @@ class SpecialTwnMainPage extends SpecialPage {
 
 		$this->setHeaders();
 		$out->setArticleBodyOnly( true );
+		$out->loadSkinModules( $skin );
 
 		// Enable this if you need useful debugging information
 		// $out->addHtml( MWDebug::getDebugHTML( $this->getContext() ) );

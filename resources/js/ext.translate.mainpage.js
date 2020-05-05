@@ -155,6 +155,7 @@
 			mw.loader.using( 'ext.translate.groupselector' ).done( function () {
 				$selector.msggroupselector( {
 					language: selectedLanguage,
+					preventSelector: true,
 					onSelect: function ( messageGroup ) {
 						location.href = mw.util.getUrl(
 							'Special:Translate',

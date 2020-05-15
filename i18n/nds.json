@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Servien"
+			"Servien",
+			"Slomox"
 		]
 	},
-	"twnmp-logout": "Afmellen"
+	"twnmp-logout": "Afmellen",
+	"twnmp-bottom-help": "Hülp"
 }

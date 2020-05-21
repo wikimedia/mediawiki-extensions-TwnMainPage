@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"N219",
 			"NoiX180"
 		]
 	},
@@ -40,7 +41,7 @@
 	"twnmp-bottom-languages-supported": "Basa kang kasengkuyung",
 	"twnmp-bottom-about": "Bab",
 	"twnmp-signup-username-placeholder": "Jeneng panganggo",
-	"twnmp-signup-password-placeholder": "Tembung wadi",
+	"twnmp-signup-password-placeholder": "Tembung sandi",
 	"twnmp-signup-email-placeholder": "Layang-èl",
 	"twnmp-create-account-button": "Gawé akun",
 	"twnmp-signup-error-invalidusername": "Jeneng panganggo iki ora ana. Mangga, piliha jeneng liya.",

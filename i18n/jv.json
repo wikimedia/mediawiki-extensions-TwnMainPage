@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Diki Ananta",
 			"N219",
 			"NoiX180"
 		]
@@ -40,12 +41,12 @@
 	"twnmp-bottom-support": "Méja panjurungan",
 	"twnmp-bottom-languages-supported": "Basa kang kasengkuyung",
 	"twnmp-bottom-about": "Bab",
-	"twnmp-signup-username-placeholder": "Jeneng panganggo",
+	"twnmp-signup-username-placeholder": "Jeneng naraguna",
 	"twnmp-signup-password-placeholder": "Tembung sandi",
 	"twnmp-signup-email-placeholder": "Layang-èl",
 	"twnmp-create-account-button": "Gawé akun",
-	"twnmp-signup-error-invalidusername": "Jeneng panganggo iki ora ana. Mangga, piliha jeneng liya.",
-	"twnmp-signup-error-nonfreeusername": "Jeneng panganggo iki wis ana. Mangga, piliha jeneng liya.",
+	"twnmp-signup-error-invalidusername": "Jeneng naraguna iki ora ana. Mangga, piliha jeneng liya.",
+	"twnmp-signup-error-nonfreeusername": "Jeneng naraguna iki wis ana. Mangga, piliha jeneng liya.",
 	"twnmp-signup-error-invalidpassword": "Tembung wadiné ora trep.",
 	"twnmp-signup-error-invalidemail": "Kayané alamat layang-èlé ora trep. Mangga, isi mawa alamat layang-èl kang trep.",
 	"twnmp-signup-error-other": "Wurung ndhaftar. Ing paladèn ana masalah: $1",

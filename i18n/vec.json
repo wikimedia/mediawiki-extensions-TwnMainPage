@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fierodelveneto"
+		]
+	},
+	"twnmp-show-more-projects": "Varda tuti i projeti..",
+	"twnmp-brand-motto": "Comunità de tradusion Open-source",
+	"twnmp-search-placeholder": "Cata e corexi łe tradusion",
+	"twnmp-search-button": "Cata fora",
+	"twnmp-search-choose-project": "Schicia el projeto che te vui tradùxare",
+	"twnmp-your-translations-stats": "Łe to statìsteghe de tradusion",
+	"twnmp-your-view-language-stats": "Varda łe statìsteghe de ła łéngua",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Tradusion}}/mexe",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|Revixion}}/mexe",
+	"twnmp-add-project": "Xonta el to software open-source a chełi traduxibiłi"
+}

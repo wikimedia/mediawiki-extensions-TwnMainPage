@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
+			"Fierodelveneto",
 			"Gianfranco",
 			"Nemo bis"
 		]
@@ -31,7 +32,7 @@
 	"twnmp-your-view-language-stats": "Visualizza le statistiche della lingua",
 	"twnmp-translations-per-month": "{{PLURAL:$1|Traduzione|Traduzioni}}/mese",
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Traduzione|Traduzioni}}",
-	"twnmp-reviews-per-month": "{{PLURAL:$1|Revisione|Revisioni}}/mese",
+	"twnmp-reviews-per-month": "{{PLURALE:$1|revisione|revisioni}}/mese",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Sei l'unico traduttore|{{GENDER:$1|Classificato $2º|Classificata $2ª|In posizione $2}} su $3<br />traduttori}} in $4",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Sei l'unico traduttore|{{GENDER:$1|Classificato $2º|Classificata $2ª|In posizione $2}} su $3<br />traduttori}}",
 	"twnmp-add-project": "Aggiungi il tuo software libero a quelli traducibili",

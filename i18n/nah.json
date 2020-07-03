@@ -4,5 +4,10 @@
 			"Akapochtli"
 		]
 	},
+	"twnmp-s-translators": "{{PLURAL:$1|Tlahtolcuepqui|Tlahtolcuepqueh}}",
+	"twnmp-translate-link": "Tictlahtolcuepaz",
+	"twnmp-translate-button": "Tictlahtolcuepaz",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Tlahtolcuepaliztli}}",
+	"twnmp-signup-username-placeholder": "Tequitiuhcatocaitl",
 	"twnmp-create-account-cancel": "Moxitiniz"
 }

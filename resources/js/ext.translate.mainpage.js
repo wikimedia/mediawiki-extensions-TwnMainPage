@@ -23,6 +23,7 @@
 
 	/**
 	 * Show the message group stats bars.
+	 *
 	 * @param {string} language
 	 */
 	function showMessageGroupStats( language ) {

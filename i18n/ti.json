@@ -7,7 +7,7 @@
 	"twnmp-mainpage": "መበገሲ ገጽ",
 	"twnmp-s-translators": "{{PLURAL:$1|ተርጓሚ|ተርጎምቲ}}",
 	"twnmp-s-projects": "{{PLURAL:$1|ፕሮጀክት|ፕሮጀክታት}}",
-	"twnmp-s-messages": "{{PLURAL:$1|መልእኽቲ|መልእክትታት}} ንምትርጓም",
+	"twnmp-s-messages": "{{PLURAL:$1|መልእኽቲ|መልእኽትታት}} ንምትርጓም",
 	"twnmp-bannerwho": "ምስሊ $1",
 	"twnmp-show-more-projects": "ኩሎም ፕሮጀክታት ኣርእይ...",
 	"twnmp-login": "ብመንነት እተው",
@@ -37,5 +37,5 @@
 	"twnmp-join-community": "ማሕበረሰብ ተጸንበር",
 	"twnmp-create-account-cancel": "ኣትርፍ",
 	"twnmp-stats-number-k": "$1ሽሕ",
-	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|ሓደ መልእኽቲ|$1 መልእክትታት}}"
+	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|ሓደ መልእኽቲ|$1 መልእኽትታት}}"
 }

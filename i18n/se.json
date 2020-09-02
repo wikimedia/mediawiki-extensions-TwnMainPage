@@ -1,8 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"Pyscowicz",
 			"Yupik"
 		]
 	},
-	"twnmp-s-translators": "{{PLURAL:$1|jorgaleaddji|jorgaleaddji}}"
+	"twnmp-s-translators": "{{PLURAL:$1|jorgaleaddji|jorgaleaddji}}",
+	"twnmp-login": "Logge sisa",
+	"twnmp-logout": "Logge olggos",
+	"twnmp-signup-username-placeholder": "Geavaheaddjinamma",
+	"twnmp-signup-password-placeholder": "Suollemassátni",
+	"twnmp-signup-email-placeholder": "E-poasta",
+	"twnmp-create-account-cancel": "Šluhtte"
 }

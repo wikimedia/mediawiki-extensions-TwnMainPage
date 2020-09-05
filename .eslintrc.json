@@ -7,5 +7,8 @@
 	"globals": {
 		"jQuery": false,
 		"mw": false
+	},
+	"rules": {
+		"no-shadow": "warn"
 	}
 }

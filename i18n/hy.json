@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kareyac",
 			"Vadgt",
 			"Xelgen"
 		]
 	},
 	"twnmp-logout": "Դուրս գալ",
-	"twnmp-your-translations-stats-all-languages": "Բոլոր լեզուների համար"
+	"twnmp-your-translations-stats-all-languages": "Բոլոր լեզուների համար",
+	"twnmp-create-account-cancel": "Չեղարկել"
 }

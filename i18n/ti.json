@@ -27,6 +27,7 @@
 	"twnmp-translations-per-month": "{{PLURAL:$1|ትርጉማት}}/ወርሒ",
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|ትርጉማት}}",
 	"twnmp-bottom-help": "ሓገዝ",
+	"twnmp-bottom-languages-supported": "ዝድገፉ ቋንቋታት",
 	"twnmp-bottom-about": "ብዛዕባ",
 	"twnmp-signup-username-placeholder": "ሽም ተጠቃሚ",
 	"twnmp-signup-password-placeholder": "ቃለ-ምስጢር",

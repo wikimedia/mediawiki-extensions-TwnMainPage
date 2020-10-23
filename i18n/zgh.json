@@ -7,7 +7,7 @@
 	"twnmp-mainpage": "ⵜⴰⵙⵏⴰ ⵏ ⵓⵙⵏⵓⴱⴳ",
 	"twnmp-s-translators": "{{PLURAL:$1|ⵓⵎⵙⵙⵓⵖⵍ|ⵉⵎⵙⵙⵓⵖⵍⵏ}}",
 	"twnmp-s-projects": "{{PLURAL:$1|ⵓⵙⵏⴼⴰⵕ|ⵉⵙⵏⴼⴰⵕⵏ}}",
-	"twnmp-s-messages": "ⵙⵙⵓⵖⵍ {{PLURAL:$1|ⵜⵓⵣⵉⵏⵜ|ⵜⵓⵣⵉⵏⵉⵏ}}",
+	"twnmp-s-messages": "{{PLURAL:$1|ⵜⵓⵣⵉⵏⵜ|ⵜⵓⵣⵉⵏⵉⵏ}} ⵉ ⵓⵙⵓⵖⵍ",
 	"twnmp-bannerwho": "ⵜⴰⵡⵍⴰⴼⵜ $1",
 	"twnmp-show-more-projects": "ⵙⴽⵏ ⵉⵙⵏⴼⴰⵕⵏ ⵎⴰⵕⵕⴰ...",
 	"twnmp-login": "ⴽⵛⵎ",

@@ -8,6 +8,8 @@
  * @license GPL-2.0-or-later
  */
 
+use MediaWiki\Extensions\Translate\TranslatorSandbox\TranslationStashStorage;
+
 /**
  * Provides the main page with stats and stuff.
  *

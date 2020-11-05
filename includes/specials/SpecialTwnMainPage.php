@@ -8,7 +8,8 @@
  * @license GPL-2.0-or-later
  */
 
-use MediaWiki\Extensions\Translate\TranslatorSandbox\TranslationStashStorage;
+use MediaWiki\Extensions\Translate\Services;
+use MediaWiki\Extensions\Translate\TranslatorSandbox\TranslationStashReader;
 
 /**
  * Provides the main page with stats and stuff.
@@ -17,9 +18,12 @@ use MediaWiki\Extensions\Translate\TranslatorSandbox\TranslationStashStorage;
  */
 class SpecialTwnMainPage extends SpecialPage {
 	protected $maxProjectTiles = 8;
+	/** @var TranslationStashReader */
+	private $translationStashReader;
 
 	public function __construct() {
 		parent::__construct( 'TwnMainPage' );
+		$this->translationStashReader = Services::getInstance()->getTranslationStashReader();
 	}
 
 	public function getDescription() {
@@ -857,8 +861,7 @@ HTML;
 	public function getSandboxRows() {
 		global $wgTranslateSandboxLimit;
 
-		$store = new TranslationStashStorage( wfGetDB( DB_REPLICA ) );
-		$count = count( $store->getTranslations( $this->getUser() ) );
+		$count = count( $this->translationStashReader->getTranslations( $this->getUser() ) );
 
 		if ( $count < $wgTranslateSandboxLimit ) {
 			$button = $this->msg( 'twnmp-translate-button' )->escaped();

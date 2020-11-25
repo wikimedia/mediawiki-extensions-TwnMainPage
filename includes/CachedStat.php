@@ -4,7 +4,7 @@
  *
  * @file
  * @author Niklas Laxström
- * @license GPL2+
+ * @license GPL-2.0-or-later
  */
 
 /**
@@ -40,21 +40,19 @@ class CachedStat implements DeferrableUpdate {
 	 * @param string $onMiss What to do on cache miss. 'update' or 'allow miss'.
 	 */
 	public function __construct( $key, $staleAge, $expiredAge, $worker, $onMiss = 'update' ) {
-		$this->key = wfMemcKey( __CLASS__, $key );
+		$this->key = $key;
 		$this->worker = $worker;
 
 		$this->staleAge = $staleAge;
 		$this->expiredAge = $expiredAge;
 
 		$this->onMiss = $onMiss;
+
+		$this->cache = ObjectCache::getInstance( CACHE_ANYTHING );
 	}
 
 	public function setCache( BagOStuff $cache ) {
 		$this->cache = $cache;
-	}
-
-	protected function getCache() {
-		return isset( $this->cache ) ? $this->cache : wfGetCache( CACHE_ANYTHING );
 	}
 
 	public function doUpdate() {
@@ -67,13 +65,13 @@ class CachedStat implements DeferrableUpdate {
 			't' => wfTimestamp( TS_UNIX ),
 		];
 
-		$this->getCache()->set( $this->key, $toStore, $this->expiredAge );
+		$this->cache->set( $this->getKey(), $toStore, $this->expiredAge );
 
 		return $value;
 	}
 
 	public function get() {
-		$value = $this->getCache()->get( $this->key );
+		$value = $this->cache->get( $this->getKey() );
 
 		if ( !is_array( $value ) ) {
 			if ( $this->onMiss !== 'update' ) {
@@ -98,6 +96,6 @@ class CachedStat implements DeferrableUpdate {
 	}
 
 	public function getKey() {
-		return $this->key;
+		$this->cache->makeKey( __CLASS__, $this->key );
 	}
 }

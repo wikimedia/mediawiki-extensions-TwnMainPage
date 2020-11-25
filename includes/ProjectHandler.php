@@ -14,8 +14,8 @@ class ProjectHandler {
 	public function getProjects() {
 		$projects = [];
 
-		$cache = wfGetCache( CACHE_ANYTHING );
-		$cacheKey = wfMemcKey( __METHOD__ );
+		$cache = ObjectCache::getInstance( CACHE_ANYTHING );
+		$cacheKey = $cache->makeKey( __METHOD__ );
 		$ids = $cache->get( $cacheKey );
 		if ( is_array( $ids ) ) {
 			$projects = array_map( 'MessageGroups::getGroup', $ids );

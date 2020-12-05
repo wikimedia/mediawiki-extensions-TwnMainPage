@@ -1,11 +1,9 @@
 <?php
+declare( strict_types = 1 );
 
-/**
- * @covers CachedStat
- * @group Database
- */
-class CachedStatTest extends PHPUnit\Framework\TestCase {
-
+/** @covers CachedStat */
+class CachedStatTest extends MediaWikiIntegrationTestCase {
+	// TODO: Could be an unit test if ObjectCache is injected
 	public function testDontAllowMiss() {
 		$value = 'test';
 
@@ -23,11 +21,9 @@ class CachedStatTest extends PHPUnit\Framework\TestCase {
 		);
 
 		$stub = $this->createMock( EmptyBagOStuff::class );
-		$stub->expects( self::once() )
-			->method( 'get' );
-
-		$stub->expects( self::once() )
-			->method( 'set' );
+		$stub->expects( self::once() )->method( 'get' );
+		$stub->expects( self::once() )->method( 'set' );
+		$stub->method( 'makeKey' )->willReturn( 'just-a-key' );
 
 		$cacher->setCache( $stub );
 		$this->assertEquals( $value, $cacher->get() );
@@ -45,12 +41,11 @@ class CachedStatTest extends PHPUnit\Framework\TestCase {
 			[ [ $updater, 'calculate' ] ],
 			'allow miss'
 		);
-		$stub = $this->createMock( EmptyBagOStuff::class );
-		$stub->expects( self::once() )
-			->method( 'get' );
 
-		$stub->expects( self::never() )
-			->method( 'set' );
+		$stub = $this->createMock( EmptyBagOStuff::class );
+		$stub->expects( self::once() )->method( 'get' );
+		$stub->expects( self::never() )->method( 'set' );
+		$stub->method( 'makeKey' )->willReturn( 'just-a-key' );
 
 		$cacher->setCache( $stub );
 		$this->assertNull( $cacher->get() );

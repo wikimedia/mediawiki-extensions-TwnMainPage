@@ -41,16 +41,15 @@ class CachedStat implements DeferrableUpdate {
 	 */
 	public function __construct( $key, $staleAge, $expiredAge, $worker, $onMiss = 'update' ) {
 		$this->key = $key;
-		$this->worker = $worker;
-
 		$this->staleAge = $staleAge;
 		$this->expiredAge = $expiredAge;
-
+		$this->worker = $worker;
 		$this->onMiss = $onMiss;
 
 		$this->cache = ObjectCache::getInstance( CACHE_ANYTHING );
 	}
 
+	/** @internal For testing only */
 	public function setCache( BagOStuff $cache ) {
 		$this->cache = $cache;
 	}
@@ -75,8 +74,7 @@ class CachedStat implements DeferrableUpdate {
 
 		if ( !is_array( $value ) ) {
 			if ( $this->onMiss !== 'update' ) {
-				$job = CachedStatJob::newJob( $this );
-				JobQueueGroup::singleton()->push( $job );
+				JobQueueGroup::singleton()->push( $this->makeJob() );
 
 				return null;
 			} else {
@@ -85,17 +83,29 @@ class CachedStat implements DeferrableUpdate {
 		}
 
 		if ( $value['t'] + $this->staleAge < wfTimestamp( TS_UNIX ) ) {
-			// Useless
-			// DeferredUpdates::addUpdate( $this );
-			// Use jobqueue instead
-			$job = CachedStatJob::newJob( $this );
-			JobQueueGroup::singleton()->push( $job );
+			JobQueueGroup::singleton()->push( $this->makeJob() );
 		}
 
 		return $value['v'];
 	}
 
-	public function getKey() {
-		$this->cache->makeKey( __CLASS__, $this->key );
+	private function getKey(): string {
+		return $this->cache->makeKey( __CLASS__, $this->key );
+	}
+
+	private function makeJob(): CachedStatJob {
+		return CachedStatJob::newFromSpec(
+			[
+				'class' => self::class,
+				'args' => [
+					$this->key,
+					$this->staleAge,
+					$this->expiredAge,
+					$this->worker,
+					$this->onMiss,
+				],
+				'calls' => [ 'doUpdate' => [] ],
+			]
+		);
 	}
 }

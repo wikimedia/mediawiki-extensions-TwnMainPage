@@ -1,31 +1,24 @@
 <?php
-/**
- * A job to update CachedStat
- *
- * @file
- */
+declare( strict_types = 1 );
 
- /**
-  * A simple job to update the CachedStat
-  */
-class CachedStatJob extends Job {
-	public static function newJob( CachedStat $stat ) {
-		return new self( Title::newMainPage(), [ 'obj' => $stat, 'key' => $stat->getKey() ] );
+use Wikimedia\ObjectFactory;
+
+/**
+ * A simple job to update the CachedStat
+ */
+class CachedStatJob extends Job implements GenericParameterJob {
+	public static function newFromSpec( array $spec ) {
+		return new self( [ 'spec' => $spec ] );
 	}
 
-	/**
-	 * @param Title $title
-	 * @param array $params
-	 * @param int $id
-	 */
-	public function __construct( $title, array $params, $id = 0 ) {
-		parent::__construct( __CLASS__, $title, $params, $id );
+	public function __construct( array $params ) {
+		parent::__construct( __CLASS__, $params );
 		$this->params = $params;
 		$this->removeDuplicates = true;
 	}
 
 	public function run() {
-		$this->params['obj']->doUpdate();
+		ObjectFactory::getObjectFromSpec( $this->params['spec'] );
 		return true;
 	}
 }

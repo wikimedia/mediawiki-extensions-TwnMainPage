@@ -304,11 +304,14 @@ a.langstats-link {
 	padding: 10px;
 }
 
-.twn-mainpage-search input,
-.twn-mainpage-search button {
+/* Increase specificity by adding .twn-mainpage to override skin CSS */
+.twn-mainpage .twn-mainpage-search input,
+.twn-mainpage .twn-mainpage-search button {
 	padding: 5px;
 	font-size: 16px;
 	height: 32px;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 .twn-mainpage-search button {

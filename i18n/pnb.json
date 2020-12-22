@@ -7,5 +7,6 @@
 	},
 	"twnmp-translate-button": "ترجمہ",
 	"twnmp-translations-per-month": "{{PLURAL:$1|ترجمے}}/مہینہ",
-	"twnmp-create-account-button": "کھاتہ بناؤ"
+	"twnmp-create-account-button": "کھاتہ بناؤ",
+	"twnmp-create-account-cancel": "رد کرو"
 }

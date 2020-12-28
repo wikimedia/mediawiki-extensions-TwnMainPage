@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Hugo.arg",
-			"Manvydasz"
+			"Manvydasz",
+			"Tomasdd"
 		]
 	},
 	"twnmp-mainpage": "Pagrindinis puslapis",
@@ -31,6 +32,7 @@
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Jūs esate {{GENDER:$1|vienintelis|vienintelė}}|$2 iš $3}}",
 	"twnmp-add-project": "Pridėkite savo atvirojo kodo projektą vertimui",
 	"twnmp-bottom-help": "Pagalba",
+	"twnmp-bottom-support": "Pagalbos tarnyba",
 	"twnmp-bottom-languages-supported": "Palaikomos kalbos",
 	"twnmp-bottom-about": "Apie projektą",
 	"twnmp-signup-username-placeholder": "Naudotojo vardas",

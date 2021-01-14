@@ -8,8 +8,8 @@
  * @license GPL-2.0-or-later
  */
 
-use MediaWiki\Extensions\Translate\Services;
-use MediaWiki\Extensions\Translate\TranslatorSandbox\TranslationStashReader;
+use MediaWiki\Extension\Translate\Services;
+use MediaWiki\Extension\Translate\TranslatorSandbox\TranslationStashReader;
 
 /**
  * Provides the main page with stats and stuff.

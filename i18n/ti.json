@@ -7,6 +7,7 @@
 	"twnmp-mainpage": "መበገሲ ገጽ",
 	"twnmp-s-translators": "{{PLURAL:$1|ተርጓሚ|ተርጎምቲ}}",
 	"twnmp-s-projects": "{{PLURAL:$1|ፕሮጀክት|ፕሮጀክታት}}",
+	"twnmp-s-languages": "ንጡፍ {{PLURAL:$1|ቋንቋ|ቋንቋታት}}",
 	"twnmp-s-messages": "{{PLURAL:$1|መልእኽቲ|መልእኽትታት}} ንምትርጓም",
 	"twnmp-bannerwho": "ምስሊ $1",
 	"twnmp-show-more-projects": "ኩሎም ፕሮጀክታት ኣርእይ...",

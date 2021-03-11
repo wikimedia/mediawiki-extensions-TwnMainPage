@@ -9,6 +9,7 @@
 			"Orlodrim",
 			"Thibaut120094",
 			"Urhixidur",
+			"Verdy p",
 			"Weft",
 			"Wladek92"
 		]
@@ -67,5 +68,6 @@
 	"twnmp-join-community-reason": "Pourquoi êtes-vous intéressé par le fait de nous rejoindre ?",
 	"twnmp-create-account-cancel": "Annuler",
 	"twnmp-join-community-info": "Pas encore traducteur  ? Vous pouvez toujours nous rejoindre.",
+	"twnmp-stats-number-k": "$1 k",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Un message|$1 messages}}"
 }

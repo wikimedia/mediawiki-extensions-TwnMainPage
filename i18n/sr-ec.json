@@ -65,6 +65,6 @@
 	"twnmp-join-community-reason": "Зашто желите да се придружите?",
 	"twnmp-create-account-cancel": "Откажи",
 	"twnmp-join-community-info": "Не можете одмах послати неке преводе? Свеједно се можете придружити.",
-	"twnmp-stats-number-k": "$1&nbsp;хиљ.",
+	"twnmp-stats-number-k": "$1&nbsp;хљ.",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Једна порука|$1 поруке|$1 порука}}"
 }

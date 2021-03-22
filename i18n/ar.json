@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Meno25",
+			"Michel Bakni",
 			"ديفيد",
 			"مشعل الحربي"
 		]
@@ -19,7 +20,7 @@
 	"twnmp-logout": "تسجيل الخروج",
 	"twnmp-search-placeholder": "البحث عن الترجمات وإصلاحها",
 	"twnmp-search-button": "ابحث",
-	"twnmp-search-choose-project": "اختر مشروعا لترجمته",
+	"twnmp-search-choose-project": "اختر مشروعاً لترجمته",
 	"twnmp-translate-link": "ترجم",
 	"twnmp-proofread-link": "راجع",
 	"twnmp-view-link": "عرض الترجمات",

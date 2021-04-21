@@ -11,7 +11,9 @@
 	"twnmp-s-messages": "{{PLURAL:$1|интерфейсацара хоам ба}} таржам де дезаш",
 	"twnmp-login": "Чудовла",
 	"twnmp-translate-link": "Таржам",
+	"twnmp-proofread-link": "Таллар",
 	"twnmp-translate-button": "Таржам",
+	"twnmp-proofread-button": "Таллар",
 	"twnmp-your-translations-stats": "Хьа таржамай статистика",
 	"twnmp-your-view-language-stats": "Метта статистикага хьажар",
 	"twnmp-translations-per-month": "{{PLURAL:$1|таржам}} даьд цхьан бетта",
@@ -21,5 +23,6 @@
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Алхха хьо ва/я|{{GENDER:$1|Хьо}} $2 моттиге ва/я $3-ненна юкъе}}",
 	"twnmp-bottom-help": "Новкъoстал",
 	"twnmp-signup-username-placeholder": "Доакъашхочун цӀи",
-	"twnmp-create-account-button": "Дагара йоазув хьакхолла"
+	"twnmp-create-account-button": "Дагара йоазув хьакхолла",
+	"twnmp-stats-number-k": "$1 эз."
 }

@@ -57,7 +57,7 @@ class ProjectHandler {
 			}
 		}
 
-		usort( $groups, function ( MessageGroup $a, MessageGroup $b ) use ( $stats ) {
+		usort( $groups, static function ( MessageGroup $a, MessageGroup $b ) use ( $stats ) {
 			$aStats = $stats[$a->getId()];
 			$bStats = $stats[$b->getId()];
 

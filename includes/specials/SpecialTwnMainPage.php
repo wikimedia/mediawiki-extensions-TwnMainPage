@@ -141,7 +141,7 @@ class SpecialTwnMainPage extends SpecialPage {
 		$userLink = '';
 
 		$user = $this->getUser();
-		if ( $user->isLoggedIn() ) {
+		if ( $user->isRegistered() ) {
 			$params = [
 				'class' => 'login username text-right',
 				'href' => $user->getUserPage()->getLocalURL(),
@@ -557,7 +557,7 @@ HTML;
 	}
 
 	public function userWidget() {
-		if ( $this->getUser()->isLoggedIn() ) {
+		if ( $this->getUser()->isRegistered() ) {
 			return $this->loggedInWidget();
 		} else {
 			return $this->loginForm();

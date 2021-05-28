@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Cwlin0416",
+			"FakeGreenHand",
 			"Hzy980512",
 			"Impersonator 1",
 			"Liuxinyu970226",
@@ -66,6 +67,6 @@
 	"twnmp-join-community-desc": "如果你只是一名开发人员而非文档译员，或者只是来平台看看，我们也都欢迎。",
 	"twnmp-join-community-reason": "您为何对加入感兴趣？",
 	"twnmp-create-account-cancel": "取消",
-	"twnmp-join-community-info": "现在不能提交一些翻译么？您仍可以加入。",
+	"twnmp-join-community-info": "不能现在就提交一些翻译？您仍可以加入。",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|$1个信息}}"
 }

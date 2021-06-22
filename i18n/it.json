@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Beta16",
 			"Fierodelveneto",
 			"Gianfranco",
@@ -61,5 +62,6 @@
 	"twnmp-join-community-reason": "Perché sei interessato a partecipare?",
 	"twnmp-create-account-cancel": "Annulla",
 	"twnmp-join-community-info": "Non puoi inviare alcuna traduzione adesso? È comunque possibile entrare nella comunità.",
+	"twnmp-stats-number-k": "$1 mila",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Un messaggio|$1 messaggi}}"
 }

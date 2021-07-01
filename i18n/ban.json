@@ -33,7 +33,7 @@
 	"twnmp-reviews-per-month": "{{PLURAL:$1|Turéksa}}/sasih",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Wantah Ida satunggal<br />antuk $4|{{GENDER:$1|Paringkat}} $2 saking $3<br />antuk $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Wantah Ida satunggal|{{GENDER:$1|Paringkat}} $2 saking $3}}",
-	"twnmp-add-project": "Tambahin proyék wit kabuka Ida antuk pangalihan basa",
+	"twnmp-add-project": "Weweh proyék wit kabuka Ida antuk pangalihan basa",
 	"twnmp-sandboxed": "Ida patut ngirimang {{PLURAL:$1|0=makudang|luwih akéh}} pangalihan basa antuk muputang pandaptaran Ida.",
 	"twnmp-sandboxed-limit": "Ida sampun ngentasin wates pangalihaan basa. Tim iraga pacang gelis nga-vérifikasi miwah munggahang akun Ida.",
 	"twnmp-bottom-help": "Wantuan",

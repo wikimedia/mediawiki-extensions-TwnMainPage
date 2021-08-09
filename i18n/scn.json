@@ -7,6 +7,7 @@
 		]
 	},
 	"twnmp-mainpage": "Pàggina principali",
+	"twnmp-s-projects": "{{PLURAL:$1|Pruggettu|Pruggetti}}",
 	"twnmp-login": "Trasi",
 	"twnmp-logout": "Nesci",
 	"twnmp-bottom-help": "Aiutu",

@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Mar(c)",
+			"McDutchie",
 			"SPQRobin",
 			"Siebrand",
 			"Sjoerddebruin",
@@ -62,6 +63,6 @@
 	"twnmp-join-community-desc": "Als u een ontwikkelaar bent, die vertalingen wil documenteren, of als u gewoon wilt rondkijken, dan bent u ook welkom.",
 	"twnmp-join-community-reason": "Waarom wilt u deelnemen?",
 	"twnmp-create-account-cancel": "Annuleren",
-	"twnmp-join-community-info": "Kunt u op dit moment niet een aantal vertalingen maken? Dan kunt u nog steeds meedoen.",
+	"twnmp-join-community-info": "Kunt u op dit moment geen vertalingen insturen? Dan kunt u toch meedoen.",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Eén bericht|$1 berichten}}"
 }

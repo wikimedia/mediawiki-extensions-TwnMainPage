@@ -56,7 +56,7 @@ class TwnUserStats {
 
 			$res = $dbr->select( $tables, $fields, $myconds, __METHOD__, $options, $joins );
 
-			// Avoid infite loop if there are no rows
+			// Avoid infinite loop if there are no rows
 			if ( $res->numRows() === 0 ) {
 				break;
 			}
@@ -94,7 +94,6 @@ class TwnUserStats {
 		];
 
 		$fields = [
-			'user_id' => 'actor_user',
 			'user_name' => 'actor_name',
 			'actions' => 'count(log_id)'
 		];

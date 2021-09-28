@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chinamoonroll"
+		]
+	},
+	"twnmp-desc": "ᬗᬲᭂᬤᬶᬬᬬᬂ​ᬓᬘ​ᬳᬸᬢᬫ​ ''translatewiki.net''",
+	"twnmp-mainpage": "ᬓᬘ​ᬳᬸᬢᬫ",
+	"twnmp-s-translators": "{{PLURAL:$1|ᬧᬗᬮᬶᬄ​ᬪᬵᬱ}}",
+	"twnmp-s-projects": "{{PLURAL:$1|ᬧ᭄ᬭᭀᬬᬾᬓ᭄}}",
+	"twnmp-s-languages": "{{PLURAL:$1|ᬪᬵᬱ}} ᬳᬸᬭᬶᬧ᭄",
+	"twnmp-s-messages": "{{PLURAL:$1|ᬲᬾᬯᬮ}} ᬳᬦ᭄ᬢᬸᬓ᭄​ᬧᬗᬮᬶᬳᬦ᭄​ᬪᬵᬱ",
+	"twnmp-bannerwho": "ᬕᬫ᭄ᬩᬃ $1",
+	"twnmp-show-more-projects": "ᬲᬶᬦᬳᬂ​ᬫᬓᬲᬫᬶ​ᬧ᭄ᬭᭀᬬᬾᬓ᭄᭟​᭟​᭟​",
+	"twnmp-brand-motto": "ᬲᭂᬓ​ᬧᬗᬮᬶᬳᬦ᭄​ᬪᬵᬱ​ᬯᬶᬢ᭄​ᬓᬩᬸᬓ",
+	"twnmp-login": "ᬫᬜ᭄ᬚᬶᬂᬮᭀᬕ᭄",
+	"twnmp-logout": "ᬫᭂᬤᬮ᭄​ᬮᭀᬕ᭄",
+	"twnmp-search-placeholder": "ᬲᭂᬍᬄ​ᬫᬶᬯᬄ​ᬩᭂᬘᬶᬓᬂ​ᬧᬗᬮᬶᬳᬦ᭄​ᬪᬵᬱ",
+	"twnmp-search-button": "ᬲᭂᬍᬄ",
+	"twnmp-search-choose-project": "ᬧᬶᬮᬶᬄ​ᬧ᭄ᬭᭀᬬᬾᬓ᭄​ᬳᬦ᭄ᬢᬸᬓ᭄​ᬳᬮᬶᬄ​ᬪᬵᬱ",
+	"twnmp-translate-link": "ᬧᬗᬮᬶᬳᬦ᭄​ᬪᬵᬱ"
+}

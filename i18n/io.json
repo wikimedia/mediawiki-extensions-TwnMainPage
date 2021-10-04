@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"JSantos",
 			"Joao Xavier"
 		]
 	},
@@ -25,6 +26,7 @@
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Tradukuri}}",
 	"twnmp-add-project": "Adjuntez vua projeto \"publika fonto\" (open source) por traduko",
 	"twnmp-bottom-languages-supported": "Suportita lingui",
+	"twnmp-signup-email-placeholder": "E-posto",
 	"twnmp-create-account-button": "Krear konto",
 	"twnmp-create-account-cancel": "Nuligar"
 }

@@ -8,6 +8,8 @@
 	"twnmp-s-translators": "{{PLURAL:$1|ꯍꯟꯗꯣꯛꯂꯤꯕ-ꯃꯤꯑꯣꯏ|ꯍꯟꯗꯣꯛꯂꯤꯕ-ꯃꯤꯑꯣꯏꯁꯤꯡ}}",
 	"twnmp-s-projects": "{{PLURAL:$1|ꯊꯧꯔꯥꯡ|ꯊꯧꯔꯥꯡꯁꯤꯡ}}",
 	"twnmp-s-languages": "ꯍꯤꯡꯂꯤꯕ {{PLURAL:$1|ꯂꯣꯟ|ꯂꯣꯟꯁꯤꯡ}}",
+	"twnmp-s-messages": "ꯍꯟꯗꯣꯛꯂꯤꯕꯗꯨꯗ {{PLURAL:$1|ꯄꯥꯎꯖꯦꯜ|ꯄꯥꯎꯖꯦꯜ }}",
+	"twnmp-bannerwho": "ꯁꯛꯇꯝ $1",
 	"twnmp-show-more-projects": "ꯑꯄꯨꯟꯕ ꯊꯧꯔꯥꯡꯁꯤꯡ ꯎꯠꯂꯨ...",
 	"twnmp-translate-link": "ꯍꯟꯗꯣꯛꯎ",
 	"twnmp-proofread-link": "ꯑꯃꯨꯛ ꯌꯦꯡꯁꯤꯟꯕ",

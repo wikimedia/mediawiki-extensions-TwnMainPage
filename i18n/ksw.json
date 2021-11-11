@@ -9,6 +9,7 @@
 	"twnmp-your-translations-stats": "နတၢ်ကျိာ်ထံစရီတဖၣ်",
 	"twnmp-translations-per-month": "{{PLURAL:$1|တၢ်ကျိာ်ထံတဖၣ်}}/လါ",
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|တၢ်ကျိာ်ထံတဖၣ်}}",
+	"twnmp-bottom-help": "တၢ်မၤစၢၤ",
 	"twnmp-bottom-languages-supported": "ကျိာ်လၢအမူတဖၣ်",
 	"twnmp-stats-number-k": "$1ကထိ"
 }

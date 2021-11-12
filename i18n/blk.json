@@ -4,5 +4,9 @@
 			"咽頭べさ"
 		]
 	},
-	"twnmp-mainpage": "အဓိကလိတ်မဲ့ငါ"
+	"twnmp-mainpage": "အဓိကလိတ်မဲ့ငါ",
+	"twnmp-proofread-link": "ထွားစဲစ်ချာ",
+	"twnmp-proofread-button": "ထွားစဲစ်ချာ",
+	"twnmp-stats-number-k": "$1ရိန်",
+	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|မဲက်သေ့ ၁ စော|$1 မဲက်သေ့ဖိုင်ႏ}}"
 }

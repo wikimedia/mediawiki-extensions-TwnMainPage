@@ -4,9 +4,17 @@
 			"Yupik"
 		]
 	},
+	"twnmp-desc": "translatewiki.net ouddseidd",
 	"twnmp-mainpage": "Ouddseidd",
 	"twnmp-login": "Ǩeeʹrjtõõđ sizz",
 	"twnmp-logout": "Ǩeeʹrjtõõđ åålǥas",
+	"twnmp-search-placeholder": "Ooʒʒ da koʹrvved jåårǥlâttmõõžžid",
+	"twnmp-search-button": "Ooʒʒ",
+	"twnmp-translate-link": "Jåårǥlââʹtt",
+	"twnmp-view-link": "Čuäʹjet jåårǥlâttmõõžžid",
+	"twnmp-translate-button": "Jåårǥlââʹtt",
+	"twnmp-view-button": "Čuäʹjet jåårǥlâttmõõžžid",
+	"twnmp-bottom-about": "Teâđ",
 	"twnmp-signup-username-placeholder": "Õõʹnninõmm",
 	"twnmp-signup-password-placeholder": "Peittsääʹnn",
 	"twnmp-signup-email-placeholder": "E-pååʹšt",

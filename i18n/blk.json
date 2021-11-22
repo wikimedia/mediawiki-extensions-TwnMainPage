@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Khun Kt",
 			"咽頭べさ"
 		]
 	},
 	"twnmp-mainpage": "အဓိကလိတ်မဲ့ငါ",
 	"twnmp-s-translators": "{{PLURAL:$1|ကေားပြန်ႏဘာႏသာႏသား|ကေားပြန်ႏဘာႏသာႏသားဖိုင်ႏ}}",
-	"twnmp-s-languages": "သောင်ႏသာႏဒါႏ {{PLURAL:$1|ဘာႏသာႏငဝ်းငွါ|ဘာႏသာႏငဝ်းငွါဖိုင်ႏ}}",
+	"twnmp-s-languages": "သောင်ႏသာဒါႏ {{PLURAL:$1|ဘာႏသာႏငဝ်းငွါ|ဘာႏသာႏငဝ်းငွါဖိုင်ႏ}}",
 	"twnmp-s-messages": "အဝ်ႏလိုႏပြန်ႏ {{PLURAL:$1|မဲက်သေ့ဘာႏသာႏ|မဲက်သေ့ဘာႏသာႏဖိုင်ႏ}}",
 	"twnmp-bannerwho": "ဓာတ်ပုင်ႏ $1",
 	"twnmp-show-more-projects": "အွောန်ႏနယ် ပရောစဲစ်ကားကအဝ်ႏ...",
@@ -25,6 +26,6 @@
 	"twnmp-choose-another-language": "လွိုက်ရွေꩻ ဘာႏသာႏငဝ်းငွါအလင်...",
 	"twnmp-choose-fill-account-details": "နျꩻသော့ꩻသွော့ နာꩻအကောက် ခရာႏစဲင်းစဲ့သြ",
 	"twnmp-join-community-info": "ကျာꩻယို တဲမ်းသော့ꩻနွောင်ꩻတဝ်းဒွုမ် ဘာႏသာႏပြန်ႏယဟန်ႏနဲ့ဟောင်း?  နာꩻလွောင်ႏဗူႏစွဲးကမ်းကို အဝ်ႏလꩻနွောင်ꩻဒွိုန်းကနဝ်ꩻသွူ။",
-	"twnmp-stats-number-k": "$1ရိန်",
+	"twnmp-stats-number-k": "$1ရေင်",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|မဲက်သေ့ ၁ စော|$1 မဲက်သေ့ဖိုင်ႏ}}"
 }

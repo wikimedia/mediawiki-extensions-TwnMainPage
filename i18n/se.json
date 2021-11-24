@@ -5,11 +5,26 @@
 			"Yupik"
 		]
 	},
-	"twnmp-s-translators": "{{PLURAL:$1|jorgaleaddji|jorgaleaddji}}",
+	"twnmp-desc": "translatewiki.net váldosiidu",
+	"twnmp-mainpage": "Váldosiidu",
+	"twnmp-s-translators": "{{PLURAL:$1|jorgaleaddji}}",
+	"twnmp-s-projects": "{{PLURAL:$1|prošeakta|prošeavtta}}",
+	"twnmp-bannerwho": "Govva $1",
+	"twnmp-show-more-projects": "Čájet buot prošeavttaid...",
 	"twnmp-login": "Logge sisa",
 	"twnmp-logout": "Logge olggos",
+	"twnmp-search-placeholder": "Oza ja divo jorgalusaid",
+	"twnmp-search-button": "Oza",
+	"twnmp-translate-link": "Jorgal",
+	"twnmp-view-link": "Čájet jorgalusaid",
+	"twnmp-translate-button": "Jorgal",
+	"twnmp-view-button": "Čájet jorgalusaid",
+	"twnmp-your-translations-stats-all-languages": "Buot gielat",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|jorgalus|jorgalusa}}",
+	"twnmp-bottom-about": "Dieđut",
 	"twnmp-signup-username-placeholder": "Geavaheaddjinamma",
 	"twnmp-signup-password-placeholder": "Suollemassátni",
 	"twnmp-signup-email-placeholder": "E-poasta",
+	"twnmp-create-account-button": "Ráhkat dovddaldaga",
 	"twnmp-create-account-cancel": "Šluhtte"
 }

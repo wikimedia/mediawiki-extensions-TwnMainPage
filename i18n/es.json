@@ -3,7 +3,8 @@
 		"authors": [
 			"Fitoschido",
 			"Macofe",
-			"Ovruni"
+			"Ovruni",
+			"Rodney Araujo"
 		]
 	},
 	"twnmp-desc": "Proporciona la página principal de translatewiki.net",
@@ -52,7 +53,7 @@
 	"twnmp-signup-error-other": "Falló el registro. Ocurrió un error en el servidor: $1.",
 	"twnmp-signup-error-unknown": "Falló la creación de la cuenta por un motivo desconocido.",
 	"twnmp-become-translator": "Conviértete en un traductor",
-	"twnmp-choose-languages-you-know": "Elige los idiomas que conozcas",
+	"twnmp-choose-languages-you-know": "Elige los idiomas que sepas",
 	"twnmp-choose-another-language": "Elegir otro idioma…",
 	"twnmp-choose-fill-account-details": "Escribe los detalles de tu cuenta",
 	"twnmp-join-community": "Únete a la comunidad",

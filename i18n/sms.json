@@ -4,7 +4,28 @@
 			"Yupik"
 		]
 	},
+	"twnmp-desc": "translatewiki.net ouddseidd",
 	"twnmp-mainpage": "Ouddseidd",
+	"twnmp-s-translators": "{{PLURAL:$1|jåårǥlõʹtti|jåårǥlõʹtti|jåårǥlõʹttjen}}",
+	"twnmp-s-projects": "{{PLURAL:$1|projeʹktt|projeeʹkt|projeʹktted}}",
+	"twnmp-show-more-projects": "Čuäʹjet puk projeeʹktid...",
+	"twnmp-login": "Ǩeeʹrjtõõđ sizz",
 	"twnmp-logout": "Ǩeeʹrjtõõđ åålǥas",
-	"twnmp-signup-password-placeholder": "Peittsääʹnn"
+	"twnmp-search-placeholder": "Ooʒʒ da koʹrvved jåårǥlâttmõõžžid",
+	"twnmp-search-button": "Ooʒʒ",
+	"twnmp-translate-link": "Jåårǥlââʹtt",
+	"twnmp-proofread-link": "Vuõigglooǥǥ",
+	"twnmp-view-link": "Čuäʹjet jåårǥlâttmõõžžid",
+	"twnmp-translate-button": "Jåårǥlââʹtt",
+	"twnmp-proofread-button": "Vuõigglooǥǥ",
+	"twnmp-view-button": "Čuäʹjet jåårǥlâttmõõžžid",
+	"twnmp-your-translations-stats-all-languages": "Puk ǩiõll",
+	"twnmp-your-view-language-stats": "Čuäʹjet ǩiõllstatistiikk",
+	"twnmp-translations-per-month": "{{PLURAL:$1|jåårǥlâttmõš|jåårǥlâttmõõžž|jåårǥlâttmõššâd}} määnpââʹjest",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|jåårǥlâttmõš|jåårǥlâttmõõžž|jåårǥlâttmõššâd}}",
+	"twnmp-bottom-about": "Teâđ",
+	"twnmp-signup-username-placeholder": "Õõʹnninõmm",
+	"twnmp-signup-password-placeholder": "Peittsääʹnn",
+	"twnmp-signup-email-placeholder": "E-pååʹšt",
+	"twnmp-create-account-button": "Raaj tobdldõõǥǥ"
 }

@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Awangba Mangang"
+		]
+	},
+	"twnmp-mainpage": "ꯃꯔꯨꯑꯣꯏꯕ ꯂꯃꯥꯏ",
+	"twnmp-s-translators": "{{PLURAL:$1|ꯍꯟꯗꯣꯛꯂꯤꯕ-ꯃꯤꯑꯣꯏ|ꯍꯟꯗꯣꯛꯂꯤꯕ-ꯃꯤꯑꯣꯏꯁꯤꯡ}}",
+	"twnmp-s-projects": "{{PLURAL:$1|ꯊꯧꯔꯥꯡ|ꯊꯧꯔꯥꯡꯁꯤꯡ}}",
+	"twnmp-s-languages": "ꯍꯤꯡꯂꯤꯕ {{PLURAL:$1|ꯂꯣꯟ|ꯂꯣꯟꯁꯤꯡ}}",
+	"twnmp-s-messages": "ꯍꯟꯗꯣꯛꯂꯤꯕꯗꯨꯗ {{PLURAL:$1|ꯄꯥꯎꯖꯦꯜ|ꯄꯥꯎꯖꯦꯜ }}",
+	"twnmp-bannerwho": "ꯁꯛꯇꯝ $1",
+	"twnmp-show-more-projects": "ꯑꯄꯨꯟꯕ ꯊꯧꯔꯥꯡꯁꯤꯡ ꯎꯠꯂꯨ...",
+	"twnmp-translate-link": "ꯍꯟꯗꯣꯛꯎ",
+	"twnmp-proofread-link": "ꯑꯃꯨꯛ ꯌꯦꯡꯁꯤꯟꯕ",
+	"twnmp-view-link": "ꯍꯟꯗꯣꯛꯈꯤꯕꯁꯤꯡ ꯌꯦꯡꯕ",
+	"twnmp-translate-button": "ꯍꯟꯗꯣꯛꯎ",
+	"twnmp-proofread-button": "ꯑꯃꯨꯛ ꯌꯦꯡꯁꯤꯟꯕ",
+	"twnmp-view-button": "ꯍꯟꯗꯣꯛꯈꯤꯕꯁꯤꯡ ꯌꯦꯡꯕ",
+	"twnmp-your-translations-stats": "ꯅꯍꯥꯛꯀꯤ ꯍꯟꯗꯣꯛꯄꯒꯤ ꯍꯥꯏꯒꯠ-ꯍꯥꯏꯗ",
+	"twnmp-your-translations-stats-all-languages": "ꯂꯣꯟ ꯂꯣꯏꯅꯃꯛꯀꯤ",
+	"twnmp-bottom-help": "ꯃꯇꯦꯡ",
+	"twnmp-bottom-support": "ꯇꯦꯡꯕꯥꯡ ꯂꯧꯐꯝ ꯍꯪꯕꯝ",
+	"twnmp-bottom-about": "ꯃꯔꯝꯗ",
+	"twnmp-signup-username-placeholder": "ꯁꯤꯖꯤꯟꯅꯔꯤꯕ ꯃꯃꯤꯡ",
+	"twnmp-signup-email-placeholder": "ꯏꯃꯦꯜ",
+	"twnmp-become-translator": "ꯍꯟꯗꯣꯛꯂꯤꯕ ꯃꯤꯑꯣꯏ ꯱ ꯑꯣꯏꯅꯕ",
+	"twnmp-choose-languages-you-know": "ꯅꯍꯥꯛꯅ ꯈꯪꯖꯕ ꯂꯣꯟꯁꯤꯡ ꯈꯟꯂꯨ",
+	"twnmp-choose-another-language": "ꯑꯇꯣꯞꯄ ꯂꯣꯟ ꯈꯟꯂꯨ...",
+	"twnmp-create-account-cancel": "ꯇꯣꯛꯄ"
+}

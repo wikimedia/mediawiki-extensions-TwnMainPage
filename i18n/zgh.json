@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hakim1bal"
+			"Hakim1bal",
+			"Brahim-essaidi"
 		]
 	},
 	"twnmp-mainpage": "ⵜⴰⵙⵏⴰ ⵏ ⵓⵙⵏⵓⴱⴳ",
@@ -22,7 +23,7 @@
 	"twnmp-view-button": "ⵙⴽⵏ ⵜⵉⵙⵓⵖⴰⵍ",
 	"twnmp-your-translations-stats": "ⵉⵙⵉⴹⵏⵏ ⵏ ⵜⵙⵓⵖⴰⵍ ⵏⵏⴽ/ⵎ",
 	"twnmp-your-translations-stats-all-languages": "ⵉ ⵜⵓⵜⵍⴰⵢⵉⵏ ⵎⴰⵕⵕⴰ",
-	"twnmp-your-view-language-stats": "ⵙⴽⵏ ⵉⵙⵉⴹⵏⵏ ⵏ ⵜⵓⵜⵍⴰⵢⵜ",
+	"twnmp-your-view-language-stats": "ⵙⴽⵏ ⵉⵙⵏⵎⴽⵜⴰⵜⵏ ⵏ ⵜⵓⵜⵍⴰⵢⵜ",
 	"twnmp-translations-per-month": "{{PLURAL:$1|ⵜⵉⵙⵓⵖⴰⵍ}}/ⵡⴰⵢⵢⵓⵔ",
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|ⵜⵉⵙⵓⵖⴰⵍ}}",
 	"twnmp-bottom-help": "ⵜⵉⵡⵉⵙⵉ",

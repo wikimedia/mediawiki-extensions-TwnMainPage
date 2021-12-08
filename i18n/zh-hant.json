@@ -6,10 +6,11 @@
 			"Kly",
 			"LNDDYL",
 			"Liuxinyu970226",
-			"Simon Shek"
+			"Simon Shek",
+			"Tranve"
 		]
 	},
-	"twnmp-desc": "提供 translatewiki.net 的主要頁面",
+	"twnmp-desc": "提供 translatewiki.net 的首頁",
 	"twnmp-mainpage": "首頁",
 	"twnmp-s-translators": "$1 位翻譯人員",
 	"twnmp-s-projects": "{{PLURAL:$1|個專案}}",
@@ -60,8 +61,8 @@
 	"twnmp-choose-fill-account-details": "輸入您的帳號詳細資料",
 	"twnmp-join-community": "加入社群",
 	"twnmp-join-community-desc": "若您是一位對文件翻譯有興趣的開發人員，或者只是要瀏覽本平台，同樣也非常歡迎。",
-	"twnmp-join-community-reason": "為什麼你有興趣參加？",
+	"twnmp-join-community-reason": "為什麼您有興趣參加？",
 	"twnmp-create-account-cancel": "取消",
-	"twnmp-join-community-info": "現在還無法提交一些翻譯嗎？但您仍可加入。",
+	"twnmp-join-community-info": "建立帳號之後不能立即開始翻譯工作嗎？您仍可以加入。",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|1 則訊息|$1 則訊息}}"
 }

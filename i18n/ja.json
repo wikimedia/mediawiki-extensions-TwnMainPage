@@ -4,7 +4,8 @@
 			"Aotake",
 			"Shirayuki",
 			"SkyDaisy9",
-			"Sujiniku"
+			"Sujiniku",
+			"RYU N"
 		]
 	},
 	"twnmp-desc": "translatewiki.net のメインページを提供する",
@@ -36,7 +37,7 @@
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=翻訳者はあなたのみです<br />言語: $4|$2 {{GENDER:$1|位の翻訳者}} ($3 人中)<br />言語: $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=翻訳者はあなたのみです|$2 {{GENDER:$1|位の翻訳者}} ($3 人中)}}",
 	"twnmp-add-project": "あなたのオープンソース プロジェクトを翻訳対象に追加",
-	"twnmp-sandboxed": "登録を完了するには、{{PLURAL:$1|0=some|more}}翻訳をする必要があります。",
+	"twnmp-sandboxed": "登録を完了するには、{{PLURAL:$1|0=いくつかの|さらに}}翻訳をする必要があります。",
 	"twnmp-bottom-help": "ヘルプ",
 	"twnmp-bottom-support": "サポート デスク",
 	"twnmp-bottom-languages-supported": "サポートしている言語",

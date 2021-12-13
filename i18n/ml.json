@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Praveenp",
-			"Santhosh.thottingal"
+			"Santhosh.thottingal",
+			"Adithyak1997"
 		]
 	},
 	"twnmp-desc": "translatewiki.net പ്രധാനതാൾ ഒരുക്കുന്നു.",
 	"twnmp-mainpage": "പ്രധാന താൾ",
 	"twnmp-s-translators": "പരിഭാഷകർ",
-	"twnmp-s-projects": "പദ്ധതികൾ",
+	"twnmp-s-projects": "{{PLURAL:$1|പദ്ധതി|പദ്ധതികൾ}}",
 	"twnmp-s-languages": "ഭാഷകൾ",
 	"twnmp-s-messages": "തർജ്ജമയ്ക്കുള്ള സന്ദേശങ്ങൾ",
 	"twnmp-bannerwho": "ചിത്രം $1",

@@ -10,7 +10,8 @@
 			"Thibaut120094",
 			"Urhixidur",
 			"Weft",
-			"Wladek92"
+			"Wladek92",
+			"Verdy p"
 		]
 	},
 	"twnmp-desc": "Fournit la page principale de translatewiki.net",
@@ -21,7 +22,7 @@
 	"twnmp-s-messages": "{{PLURAL:$1|Message|Messages}} à traduire",
 	"twnmp-bannerwho": "Image $1",
 	"twnmp-show-more-projects": "Afficher tous les projets…",
-	"twnmp-brand-motto": "Communauté de traduction au code source ouvert",
+	"twnmp-brand-motto": "Communauté de traduction à code source ouvert",
 	"twnmp-login": "Se connecter",
 	"twnmp-logout": "Déconnexion",
 	"twnmp-search-placeholder": "Rechercher et corriger des traductions",
@@ -41,7 +42,7 @@
 	"twnmp-reviews-per-month": "{{PLURAL:$1|Relectures}}/mois",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Vous êtes le seul<br />pour $4|{{GENDER:$1|Classé}} $2 sur $3<br />pour $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Vous êtes le seul|{{GENDER:$1|Classé}} $2 sur $3}}",
-	"twnmp-add-project": "Ajouter votre projet au code source ouvert pour sa traduction",
+	"twnmp-add-project": "Ajouter votre projet à code source ouvert pour sa traduction",
 	"twnmp-sandboxed": "Vous devez effectuer {{PLURAL:$1|0=quelques|plus de}} traductions pour terminer votre inscription.",
 	"twnmp-sandboxed-limit": "Vous avez atteint le nombre limite de traductions. Notre équipe va vérifier et mettre à niveau votre compte bientôt.",
 	"twnmp-bottom-help": "Aide",
@@ -67,5 +68,6 @@
 	"twnmp-join-community-reason": "Pourquoi êtes-vous intéressé par le fait de nous rejoindre ?",
 	"twnmp-create-account-cancel": "Annuler",
 	"twnmp-join-community-info": "Pas encore traducteur  ? Vous pouvez toujours nous rejoindre.",
+	"twnmp-stats-number-k": "$1 k",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Un message|$1 messages}}"
 }

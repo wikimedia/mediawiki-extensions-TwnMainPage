@@ -5,8 +5,13 @@
 		]
 	},
 	"twnmp-mainpage": "Hēafodtramet",
+	"twnmp-bannerwho": "Biliþ $1",
 	"twnmp-login": "Inmeldian",
 	"twnmp-logout": "Ūtmeldian",
+	"twnmp-search-button": "Findan",
+	"twnmp-bottom-about": "Cȳþþu",
 	"twnmp-signup-username-placeholder": "Brūcendnama",
-	"twnmp-signup-password-placeholder": "Þafungword"
+	"twnmp-signup-password-placeholder": "Þafungword",
+	"twnmp-create-account-button": "Scieppan reccinge",
+	"twnmp-create-account-cancel": "Undōn"
 }

@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Khun Kt",
+			"咽頭べさ"
+		]
+	},
+	"twnmp-mainpage": "အဓိကလိတ်မဲ့ငါ",
+	"twnmp-s-translators": "{{PLURAL:$1|ကေားပြန်ႏဘာႏသာႏသား|ကေားပြန်ႏဘာႏသာႏသားဖိုင်ႏ}}",
+	"twnmp-s-projects": "{{PLURAL:$1|ပရောစဲစ်|ပရောစဲစ်ဖိုင်ႏ}}",
+	"twnmp-s-languages": "သောင်ႏသာဒါႏ {{PLURAL:$1|ဘာႏသာႏငဝ်းငွါ|ဘာႏသာႏငဝ်းငွါဖိုင်ႏ}}",
+	"twnmp-s-messages": "အဝ်ႏလိုႏပြန်ႏ {{PLURAL:$1|မဲက်သေ့ဘာႏသာႏ|မဲက်သေ့ဘာႏသာႏဖိုင်ႏ}}",
+	"twnmp-bannerwho": "ဓာတ်ပုင်ႏ $1",
+	"twnmp-show-more-projects": "အွောန်ႏနယ် ပရောစဲစ်ကားကအဝ်ႏ...",
+	"twnmp-brand-motto": "စဲင်းဖြောင်ရွီးခိုႏ ဘာႏသာႏပြန်ႏအစွိုꩻ",
+	"twnmp-search-placeholder": "ထိုမ်ႏထွားထွူ မွဉ်းဖျင်ပါ ဘာႏသာႏပြန်ႏဖိုင်ႏ",
+	"twnmp-search-choose-project": "လွိုက်သွော့ ဘာႏသာႏပြန်ႏတာႏ ပရောစဲစ်တဗာႏ",
+	"twnmp-translate-link": "ပြန်ႏဘာႏသာႏ",
+	"twnmp-proofread-link": "ထွားစဲစ်ချာ",
+	"twnmp-proofread-button": "ထွားစဲစ်ချာ",
+	"twnmp-your-translations-stats": "နာꩻဘာႏသာႏပြန်ႏ စာႏရင်ꩻ",
+	"twnmp-your-view-language-stats": "ထွား ဘာႏသာႏငဝ်းငွါ စာႏရင်ꩻ",
+	"twnmp-translations-per-month": "{{PLURAL:$1|ဘာႏသာႏပြန်ႏဖိုင်ႏ}}/လာ",
+	"twnmp-add-project": "ထဲမ်သော့ꩻသွော့ ဘာႏသာႏပြန်ႏတာႏ နာꩻစဲင်းဖြောင်ရွီးခိုႏ ပရောစဲစ်သြ",
+	"twnmp-become-translator": "ကေားပြန်ႏဘာႏသာႏသား တဖြာꩻဒျာႏအလွိုးသြ",
+	"twnmp-choose-languages-you-know": "လွိုက်သွော့ နာꩻကသေနာႏဒါႏ ဘာႏသာႏငဝ်းငွါတဗာႏ",
+	"twnmp-choose-another-language": "လွိုက်ရွေꩻ ဘာႏသာႏငဝ်းငွါအလင်...",
+	"twnmp-choose-fill-account-details": "နျꩻသော့ꩻသွော့ နာꩻအကောက် ခရာႏစဲင်းစဲ့သြ",
+	"twnmp-join-community-info": "ကျာꩻယို တဲမ်းသော့ꩻနွောင်ꩻတဝ်းဒွုမ် ဘာႏသာႏပြန်ႏယဟန်ႏနဲ့ဟောင်း?  နာꩻလွောင်ႏဗူႏစွဲးကမ်းကို အဝ်ႏလꩻနွောင်ꩻဒွိုန်းကနဝ်ꩻသွူ။",
+	"twnmp-stats-number-k": "$1ရေင်",
+	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|မဲက်သေ့ ၁ စော|$1 မဲက်သေ့ဖိုင်ႏ}}"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yupik"
+		]
+	},
+	"twnmp-mainpage": "Ovdâsijđo",
+	"twnmp-bannerwho": "Kove $1",
+	"twnmp-login": "Čäälit jieijâd siisâ",
+	"twnmp-logout": "Čäälit jieijâd olgos",
+	"twnmp-bottom-help": "Iše",
+	"twnmp-bottom-support": "Ravvim",
+	"twnmp-bottom-about": "Tiäđuh",
+	"twnmp-signup-username-placeholder": "Kevtteenommâ",
+	"twnmp-signup-password-placeholder": "Syelisääni",
+	"twnmp-signup-email-placeholder": "Šleđgâpostâ",
+	"twnmp-create-account-button": "Räähti tubdâlduv",
+	"twnmp-create-account-cancel": "Jooskâ"
+}

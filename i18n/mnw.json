@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"咽頭べさ"
+		]
+	},
+	"twnmp-s-translators": "{{PLURAL:$1|ညးတၠကၠာဲဘာသာ|ညးတၠကၠာဲဘာသာဂမၠိုင်}}",
+	"twnmp-s-messages": "{{PLURAL:$1|ထိုင်လိက်|ထိုင်လိက်}} သွက်ကၠာဲဘာသာဂမၠိုင်",
+	"twnmp-bannerwho": "ဗီုရုပ် $1",
+	"twnmp-search-placeholder": "အရေဝ်ဘာသာဒးကၠာဲ ဂၠာဲတုဲပလေဝ်ဒါန်ညိ",
+	"twnmp-search-choose-project": "ရုဲကေတ်ပရဝ်ဂျေတ်မွဲ သွက်ဒးကၠာဲဘာသာ",
+	"twnmp-your-translations-stats": "စရင်ကၠာဲဘာသာဗှ်ေ",
+	"twnmp-translations-per-month": "ဂိတု/{{PLURAL:$1|ကၠာဲဘာသာဂမၠိုင်}}",
+	"twnmp-bottom-languages-supported": "အရေဝ်ဘာသာ ထံက်ပၚ်လဝ်ဂမၠိုင်",
+	"twnmp-stats-number-k": "$1လ္ၚီ"
+}

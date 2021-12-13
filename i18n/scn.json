@@ -2,10 +2,37 @@
 	"@metadata": {
 		"authors": [
 			"Gmelfi",
-			"Sarvaturi"
+			"Sarvaturi",
+			"Ajeje Brazorf"
 		]
 	},
+	"twnmp-mainpage": "Pàggina principali",
+	"twnmp-s-translators": "{{PLURAL:$1|Tradutturi|Traduttura}}",
+	"twnmp-s-projects": "{{PLURAL:$1|Pruggettu|Pruggetti}}",
+	"twnmp-s-languages": "{{PLURAL:$1|lingua attiva|lingui attivi}}",
+	"twnmp-s-messages": "{{PLURAL:$1|Missaggiu|Missaggi}} da tradùciri",
+	"twnmp-bannerwho": "Mmàggini $1",
+	"twnmp-show-more-projects": "Ammustra tutti li pruggetti...",
 	"twnmp-login": "Trasi",
 	"twnmp-logout": "Nesci",
-	"twnmp-bottom-languages-supported": "Lingui mantinuti"
+	"twnmp-translate-link": "Traduci",
+	"twnmp-view-link": "Talìa traduzzioni",
+	"twnmp-translate-button": "Traduci",
+	"twnmp-view-button": "Talìa traduzzioni",
+	"twnmp-your-translations-stats": "Li tò statìstichi di traduzzioni",
+	"twnmp-your-translations-stats-all-languages": "Pi tutti li lingui",
+	"twnmp-your-view-language-stats": "Talìa li statìstichi dâ lingua",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Traduzzioni}}/misi",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Traduzzioni}}",
+	"twnmp-bottom-help": "Aiutu",
+	"twnmp-bottom-languages-supported": "Lingui mantinuti",
+	"twnmp-bottom-about": "Nfurmazzioni",
+	"twnmp-signup-username-placeholder": "Nomu utenti",
+	"twnmp-signup-password-placeholder": "Password",
+	"twnmp-signup-email-placeholder": "Email",
+	"twnmp-create-account-button": "Crea nu cuntu",
+	"twnmp-signup-error-invalidpassword": "La password nun è vàlida.",
+	"twnmp-choose-another-language": "Scegghi n'àutra lingua...",
+	"twnmp-create-account-cancel": "Annulla",
+	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Nu missaggiu|$1 missaggi}}"
 }

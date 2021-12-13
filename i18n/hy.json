@@ -2,9 +2,27 @@
 	"@metadata": {
 		"authors": [
 			"Vadgt",
-			"Xelgen"
+			"Xelgen",
+			"Kareyac"
 		]
 	},
+	"twnmp-mainpage": "Գլխավոր էջ",
+	"twnmp-bannerwho": "Պատկեր $1",
+	"twnmp-show-more-projects": "Ցուցադրել բոլոր նախագծերը ...",
+	"twnmp-login": "Մուտք գործել",
 	"twnmp-logout": "Դուրս գալ",
-	"twnmp-your-translations-stats-all-languages": "Բոլոր լեզուների համար"
+	"twnmp-search-placeholder": "Գտնել և ուղղել թարգմանությունները",
+	"twnmp-search-button": "Գտնել",
+	"twnmp-search-choose-project": "Ընտրեք նախագիծ թարգմանության համար",
+	"twnmp-translate-link": "Թարգմանություն",
+	"twnmp-translate-button": "Թարգմանություն",
+	"twnmp-your-translations-stats": "Ձեր թարգմանությունների վիճակագրությունը",
+	"twnmp-your-translations-stats-all-languages": "Բոլոր լեզուների համար",
+	"twnmp-your-view-language-stats": "Լեզվի վիճակագրության դիտում",
+	"twnmp-bottom-help": "Օգնություն",
+	"twnmp-bottom-languages-supported": "Աջակցվող լեզուներ",
+	"twnmp-signup-password-placeholder": "Գաղտնաբառ",
+	"twnmp-signup-email-placeholder": "Էլ. փոստ",
+	"twnmp-create-account-button": "Ստեղծել հաշիվ",
+	"twnmp-create-account-cancel": "Չեղարկել"
 }

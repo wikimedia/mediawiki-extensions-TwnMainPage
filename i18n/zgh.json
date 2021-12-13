@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brahim-essaidi",
+			"Hakim1bal"
+		]
+	},
+	"twnmp-mainpage": "ⵜⴰⵙⵏⴰ ⵏ ⵓⵙⵏⵓⴱⴳ",
+	"twnmp-s-translators": "{{PLURAL:$1|ⵓⵎⵙⵙⵓⵖⵍ|ⵉⵎⵙⵙⵓⵖⵍⵏ}}",
+	"twnmp-s-projects": "{{PLURAL:$1|ⵓⵙⵏⴼⴰⵕ|ⵉⵙⵏⴼⴰⵕⵏ}}",
+	"twnmp-s-messages": "{{PLURAL:$1|ⵜⵓⵣⵉⵏⵜ|ⵜⵓⵣⵉⵏⵉⵏ}} ⵉ ⵓⵙⵓⵖⵍ",
+	"twnmp-bannerwho": "ⵜⴰⵡⵍⴰⴼⵜ $1",
+	"twnmp-show-more-projects": "ⵙⴽⵏ ⵉⵙⵏⴼⴰⵕⵏ ⵎⴰⵕⵕⴰ...",
+	"twnmp-login": "ⴽⵛⵎ",
+	"twnmp-logout": "ⴼⴼⵖ",
+	"twnmp-search-button": "ⴰⴼ",
+	"twnmp-search-choose-project": "ⴷⵖⵔ ⵢⴰⵏ ⵏ ⵓⵙⵏⴼⴰⵕ ⵉ ⵓⵙⵓⵖⵍ",
+	"twnmp-translate-link": "ⵙⵙⵓⵖⵍ",
+	"twnmp-proofread-link": "ⵣⵣⵔⵉ",
+	"twnmp-view-link": "ⵙⴽⵏ ⵜⵉⵙⵓⵖⴰⵍ",
+	"twnmp-translate-button": "ⵙⵙⵓⵖⵍ",
+	"twnmp-proofread-button": "ⵣⵣⵔⵉ",
+	"twnmp-view-button": "ⵙⴽⵏ ⵜⵉⵙⵓⵖⴰⵍ",
+	"twnmp-your-translations-stats": "ⵉⵙⵉⴹⵏⵏ ⵏ ⵜⵙⵓⵖⴰⵍ ⵏⵏⴽ/ⵎ",
+	"twnmp-your-translations-stats-all-languages": "ⵉ ⵜⵓⵜⵍⴰⵢⵉⵏ ⵎⴰⵕⵕⴰ",
+	"twnmp-your-view-language-stats": "ⵙⴽⵏ ⵉⵙⵏⵎⴽⵜⴰⵜⵏ ⵏ ⵜⵓⵜⵍⴰⵢⵜ",
+	"twnmp-translations-per-month": "{{PLURAL:$1|ⵜⵉⵙⵓⵖⴰⵍ}}/ⵡⴰⵢⵢⵓⵔ",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|ⵜⵉⵙⵓⵖⴰⵍ}}",
+	"twnmp-bottom-help": "ⵜⵉⵡⵉⵙⵉ",
+	"twnmp-bottom-about": "ⵖⴼ",
+	"twnmp-signup-username-placeholder": "ⵉⵙⵎ ⵏ ⵓⵙⵎⵔⴰⵙ",
+	"twnmp-signup-password-placeholder": "ⵜⴰⴳⵓⵔⵉ ⵏ ⵓⵣⵔⴰⵢ",
+	"twnmp-signup-email-placeholder": "ⵉⵎⴰⵢⵍ",
+	"twnmp-create-account-button": "ⵙⵏⴼⵍⵓⵍ ⴰⵎⵉⴹⴰⵏ",
+	"twnmp-become-translator": "ⴰⵖⵓⵍ ⴷ ⴰⵎⵙⵙⵓⵖⵍ",
+	"twnmp-choose-languages-you-know": "ⴷⵖⵔ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⴰ ⵜⵙⵙⵏⴷ",
+	"twnmp-choose-another-language": "ⴷⵖⵔ ⵜⵓⵜⵍⴰⵢⵜ ⵢⴰⴹⵏ...",
+	"twnmp-create-account-cancel": "ⵙⵔ",
+	"twnmp-stats-number-k": "$1k",
+	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|ⵜⵓⵣⵉⵏⵜ|$1 ⵜⵓⵣⵉⵏⵉⵏ}}"
+}

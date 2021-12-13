@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Michawiki",
-			"Mikławš"
+			"Mikławš",
+			"J budissin"
 		]
 	},
 	"twnmp-desc": "Staja hłownu stronu translatewiki.net k dispoziciji",
@@ -28,9 +29,9 @@
 	"twnmp-your-translations-stats": "Twoja statistika přełožkow",
 	"twnmp-your-translations-stats-all-languages": "Za wšě rěče",
 	"twnmp-your-view-language-stats": "Rěčnu statistiku pokazać",
-	"twnmp-translations-per-month": "Přełožki na měsac",
-	"twnmp-translations-in-sandbox": "Přełožki",
-	"twnmp-reviews-per-month": "Přepruwowanja na měsac",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Přełožk|Přełožkaj|Přełožki|Přełožkow}} na měsac",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Přełožk|Přełožkaj|Přełožki|Přełožkow}}",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|Přepruwowanje|Přepruwowani|Přepruwowanja|Přepruwowanjow}} na měsac",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Sy {{GENDER:$1|jenički|jenička}}<br />za $4|městno $2 z $3<br />za $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Sy {{GENDER:$1|jenički|jenička}}|městno $2 z $3}}",
 	"twnmp-add-project": "Dodaj swój open source projekt k přełožowanju",

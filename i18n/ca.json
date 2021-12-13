@@ -3,7 +3,8 @@
 		"authors": [
 			"Fitoschido",
 			"Pginer",
-			"Toniher"
+			"Toniher",
+			"Jmarchn"
 		]
 	},
 	"twnmp-desc": "Proporciona la pàgina principal de translatewiki.net",
@@ -29,13 +30,13 @@
 	"twnmp-your-translations-stats": "Les vostres estadístiques de traducció",
 	"twnmp-your-translations-stats-all-languages": "Totes les llengües",
 	"twnmp-your-view-language-stats": "Mostra les estadístiques de la llengua",
-	"twnmp-translations-per-month": "traduccions/mes",
-	"twnmp-translations-in-sandbox": "Traduccions",
-	"twnmp-reviews-per-month": "Revisions/mes",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Traducció|Traduccions}}/mes",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Traducció|Traduccions}}",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|Revisió|Revisions}}/mes",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Sou l'únic que tradueix<br />en $4|{{GENDER:$1|Sou el número}} $2 de $3<br /> que tradueix en $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Sou l'únic|{{GENDER:$1|Sou el}} $2 de $3}}",
 	"twnmp-add-project": "Afegeix el teu projecte de codi obert per traduir-lo",
-	"twnmp-sandboxed": "Cal que feu més traduccions per obtenir plens permisos de traducció.",
+	"twnmp-sandboxed": "Heu de proporcionar {{PLURAL:$1|0=alguna traducció|més traduccions}} per completar el registre.",
 	"twnmp-sandboxed-limit": "Heu arribat al límit de traducció. El nostre equip verificarà i actualitzarà el vostre compte ben aviat.",
 	"twnmp-bottom-help": "Ajuda",
 	"twnmp-bottom-support": "Assistència",
@@ -56,6 +57,6 @@
 	"twnmp-join-community-desc": "Si sou un desenvolupador interessat en documentar traduccions o simplement en explorar la plataforma també sou benvingut.",
 	"twnmp-join-community-reason": "Per què us interessa unir-vos-hi?",
 	"twnmp-create-account-cancel": "Cancel·la",
-	"twnmp-join-community-info": "No sou un traductor? També podeu unir-vos a la comunitat.",
+	"twnmp-join-community-info": "No podeu enviar algunes traduccions en aquest moment? Encara us podeu unir.",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Un missatge|$1 missatges}}"
 }

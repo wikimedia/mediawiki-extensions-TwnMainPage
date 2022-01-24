@@ -7,6 +7,8 @@
  * @license GPL-2.0-or-later
  */
 
+use MediaWiki\MediaWikiServices;
+
 /**
  * Simple wrapper over object cache that supports
  * serving stale data while triggering update in the
@@ -74,7 +76,7 @@ class CachedStat implements DeferrableUpdate {
 
 		if ( !is_array( $value ) ) {
 			if ( $this->onMiss !== 'update' ) {
-				JobQueueGroup::singleton()->push( $this->makeJob() );
+				MediaWikiServices::getInstance()->getJobQueueGroup()->push( $this->makeJob() );
 
 				return null;
 			} else {
@@ -83,7 +85,7 @@ class CachedStat implements DeferrableUpdate {
 		}
 
 		if ( $value['t'] + $this->staleAge < wfTimestamp( TS_UNIX ) ) {
-			JobQueueGroup::singleton()->push( $this->makeJob() );
+			MediaWikiServices::getInstance()->getJobQueueGroup()->push( $this->makeJob() );
 		}
 
 		return $value['v'];

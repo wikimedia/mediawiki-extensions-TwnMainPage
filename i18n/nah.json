@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Akapochtli"
+			"Akapochtli",
+			"Languaeditor"
 		]
 	},
 	"twnmp-s-translators": "{{PLURAL:$1|Tlahtolcuepqui|Tlahtolcuepqueh}}",
 	"twnmp-translate-link": "Tictlahtolcuepaz",
 	"twnmp-translate-button": "Tictlahtolcuepaz",
-	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Tlahtolcuepaliztli}}",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Tlahtolkwepalistli}}",
 	"twnmp-signup-username-placeholder": "Tequitiuhcatocaitl",
 	"twnmp-create-account-cancel": "Moxitiniz"
 }

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Seipinne",
 			"Yupik"
 		]
 	},
@@ -8,6 +9,11 @@
 	"twnmp-bannerwho": "Kove $1",
 	"twnmp-login": "Čäälit jieijâd siisâ",
 	"twnmp-logout": "Čäälit jieijâd olgos",
+	"twnmp-proofread-link": "Njuálguluuvâ",
+	"twnmp-proofread-button": "Njuálguluuvâ",
+	"twnmp-your-view-language-stats": "Čääiti kielâstatistiikijd",
+	"twnmp-translations-per-month": "{{PLURAL:$1|jurgâlus|jurgâlussâd}} mánuppaajeest",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|njuálguluuhâm|njuálguluuhâmid}} mánuppaajeest",
 	"twnmp-bottom-help": "Iše",
 	"twnmp-bottom-support": "Ravvim",
 	"twnmp-bottom-about": "Tiäđuh",

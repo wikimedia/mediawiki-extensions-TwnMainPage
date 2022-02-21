@@ -2,10 +2,26 @@
 	"@metadata": {
 		"authors": [
 			"CoderSI",
+			"Malikxan",
 			"Sociologist"
 		]
 	},
+	"twnmp-s-translators": "{{PLURAL:$1|Tarjimon|Tarjimonlar}}",
+	"twnmp-s-projects": "{{PLURAL:$1|Loyiha|Loyihalar}}",
+	"twnmp-s-languages": "Faol {{PLURAL:$1|til|tillar}}",
+	"twnmp-s-messages": "Tarjima qilish uchun {{PLURAL:$1|xabar|xabarlar}}",
+	"twnmp-bannerwho": "Tasvir: $1",
+	"twnmp-show-more-projects": "Barcha loyihalarni koʻrsatish...",
 	"twnmp-login": "Kirish",
 	"twnmp-logout": "Chiqish",
-	"twnmp-create-account-button": "Hisob yaratish"
+	"twnmp-search-placeholder": "Tarjimalarni topish va tuzatish",
+	"twnmp-search-choose-project": "Tarjima qilish uchun loyiha tanlash",
+	"twnmp-view-link": "Tarjimalarga razm solish",
+	"twnmp-view-button": "Tarjimalarga razm solish",
+	"twnmp-your-translations-stats": "Tarjimalaringiz statistikasi",
+	"twnmp-your-view-language-stats": "Til statistikalariga razm solish",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Tarjimalar}}/oy",
+	"twnmp-add-project": "Tarjima uchun oʻzingizning ochiq manbali loyihangizni qoʻshing",
+	"twnmp-create-account-button": "Hisob yaratish",
+	"twnmp-become-translator": "Tarjimon boʻlish"
 }

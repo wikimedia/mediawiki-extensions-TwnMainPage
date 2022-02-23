@@ -7,7 +7,7 @@
 		]
 	},
 	"twnmp-s-translators": "{{PLURAL:$1|таржамхо}} ва дӀаязваь",
-	"twnmp-s-projects": "{{PLURAL:$1|проект|проект}}",
+	"twnmp-s-projects": "{{PLURAL:$1|проект}}",
 	"twnmp-s-languages": "{{PLURAL:$1|мотт}}",
 	"twnmp-s-messages": "{{PLURAL:$1|интерфейсацара хоам ба}} таржам де дезаш",
 	"twnmp-bannerwho": "Сурт: $1",

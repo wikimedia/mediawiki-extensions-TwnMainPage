@@ -7,6 +7,8 @@
  * @license GPL2+
  */
 
+use Wikimedia\AtEase\AtEase;
+
 /**
  * Project icons via CSS using SVGs with PNG fallbacks.
  */
@@ -22,10 +24,10 @@ class ResourceLoaderProjectIconsModule extends ResourceLoaderModule {
 		$projects = $handler->getProjects();
 		$icons = [];
 		foreach ( $projects as $group ) {
-			Wikimedia\suppressWarnings();
+			AtEase::suppressWarnings();
 			$id = Sanitizer::escapeClass( $group->getId() );
 			$icons[$id] = TranslateUtils::getIcon( $group, 100 );
-			Wikimedia\restoreWarnings();
+			AtEase::restoreWarnings();
 		}
 
 		return $icons;

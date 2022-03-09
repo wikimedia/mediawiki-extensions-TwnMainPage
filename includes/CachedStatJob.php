@@ -1,7 +1,7 @@
 <?php
 declare( strict_types = 1 );
 
-use Wikimedia\ObjectFactory;
+use Wikimedia\ObjectFactory\ObjectFactory;
 
 /**
  * A simple job to update the CachedStat

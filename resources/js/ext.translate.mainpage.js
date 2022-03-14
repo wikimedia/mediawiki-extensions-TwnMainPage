@@ -46,7 +46,7 @@
 			} );
 		} );
 
-		mw.translate.loadLanguageStats( language ).done( function () {
+		mw.translate.loadMessageGroupStatsForLanguage( language ).done( function () {
 			$tiles.each( function () {
 				var stats, translated, proofread,
 					$tile = $( this ),

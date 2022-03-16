@@ -63,7 +63,7 @@
 					group: msggroupid
 				} );
 
-				stats = $statsbar.data( 'languagestatsbar' ).getStatsForGroup( msggroupid );
+				stats = $statsbar.data( 'languagestatsbar' ).getGroupStatsWithFallback();
 
 				// Avoid NaNs on display
 				if ( stats.total === 0 ) {

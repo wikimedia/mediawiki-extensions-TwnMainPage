@@ -28,6 +28,6 @@
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Алхха хьо ва/я|{{GENDER:$1|Хьо}} $2 моттиге ва/я $3-ненна юкъе}}",
 	"twnmp-bottom-help": "Новкъoстал",
 	"twnmp-signup-username-placeholder": "Доакъашхочун цӀи",
-	"twnmp-create-account-button": "Дагара йоазув хьакхолла",
+	"twnmp-create-account-button": "Аккаунт хьакхолла",
 	"twnmp-stats-number-k": "$1 эз."
 }

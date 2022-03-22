@@ -6,7 +6,8 @@
 			"FarsiNevis",
 			"Mjbmr",
 			"Omidh",
-			"Reza1615"
+			"Reza1615",
+			"Beginneruser"
 		]
 	},
 	"twnmp-desc": "صفحهٔ اصلی translatewiki.net فراهم می‌کند",
@@ -64,5 +65,5 @@
 	"twnmp-create-account-cancel": "فسخ",
 	"twnmp-join-community-info": "نمی‌توانید الان ترجمه اضافه کنید؟ با این وجود می‌توانید به ما بپیوندید.",
 	"twnmp-stats-number-k": "$1هزار",
-	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|یک پیغام|$1 پیغام}}"
+	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|یک پیام|$1 پیام}}"
 }

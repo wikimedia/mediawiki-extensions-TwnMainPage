@@ -4,7 +4,8 @@
 			"Meno25",
 			"Michel Bakni",
 			"ديفيد",
-			"مشعل الحربي"
+			"مشعل الحربي",
+			"FiberAhmed"
 		]
 	},
 	"twnmp-desc": "يوفر الصفحة الرئيسية لترانسليت ويكي.نت",
@@ -52,7 +53,7 @@
 	"twnmp-signup-error-invalidemail": "هذا لا يبدو وكأنه عنوان بريد إلكتروني صالح; من فضلك، اختر واحدا مختلفا.",
 	"twnmp-signup-error-other": "فشل التسجيل، عرض الخادم خطأً: $1.",
 	"twnmp-signup-error-unknown": "فشل إنشاء الحساب لسبب غير معروف.",
-	"twnmp-become-translator": "كن مترجما",
+	"twnmp-become-translator": "كُن مترجمًا",
 	"twnmp-choose-languages-you-know": "اختر اللغات التي تعرفها",
 	"twnmp-choose-another-language": "اختر لغة أخرى...",
 	"twnmp-choose-fill-account-details": "أدخل تفاصيل حسابك",

@@ -7,7 +7,8 @@
 			"Nike",
 			"Pxos",
 			"Pyscowicz",
-			"Stryn"
+			"Stryn",
+			"4shadoww"
 		]
 	},
 	"twnmp-desc": "translatewiki.netin etusivu",
@@ -38,7 +39,7 @@
 	"twnmp-reviews-per-month": "{{PLURAL:$1|oikoluku|oikolukua}} kuukaudessa",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1={{GENDER:$1|Olet ainoa}}|Olet sijalla $2/$3<br />\nkielelle $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1={{GENDER:$1|Olet ainoa}}|Olet sijalla $2/$3}}",
-	"twnmp-add-project": "Lisää avoin projekti käännettäväksi",
+	"twnmp-add-project": "Lisää avoimen lähdekoodin projekti käännettäväksi",
 	"twnmp-sandboxed": "Sinun täytyy tehdä {{PLURAL:$1|0=joitakin|lisää}} käännöksiä saadaksesi rekisteröinnin valmiiksi.",
 	"twnmp-sandboxed-limit": "Olet saavuttanut käännösrajan. Ylläpitomme tarkistaa tunnuksesi ja antaa sinulle oikeudet pian.",
 	"twnmp-bottom-help": "Ohjeet",

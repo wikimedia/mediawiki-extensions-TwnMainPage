@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Max20091",
-			"Minh Nguyen"
+			"Minh Nguyen",
+			"NguoiDungKhongDinhDanh"
 		]
 	},
 	"twnmp-desc": "Cung cấp trang đầu của translatewiki.net",
@@ -44,7 +45,7 @@
 	"twnmp-signup-password-placeholder": "Mật khẩu",
 	"twnmp-signup-email-placeholder": "Thư điện tử",
 	"twnmp-create-account-button": "Mở tài khoản",
-	"twnmp-signup-error-invalidusername": "Tên người dùng này không có sẵn. Xin vui lòng chọn một tên người dùng khác.",
+	"twnmp-signup-error-invalidusername": "Tên người dùng này đã tồn tại. Vui lòng chọn tên khác.",
 	"twnmp-signup-error-nonfreeusername": "Tên người dùng này đã tồn tại. Xin vui lòng chọn một tên người dùng khác.",
 	"twnmp-signup-error-invalidpassword": "Mật khẩu không hợp lệ.",
 	"twnmp-signup-error-invalidemail": "Văn bản này không có giống địa chỉ thư điện tử hợp lệ. Xin vui lòng nhập mọt địa chỉ thư điện tử hợp lệ.",

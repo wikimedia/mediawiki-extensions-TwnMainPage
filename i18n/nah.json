@@ -5,10 +5,11 @@
 			"Languaeditor"
 		]
 	},
+	"twnmp-mainpage": "Pewalistli",
 	"twnmp-s-translators": "{{PLURAL:$1|Tlahtolcuepqui|Tlahtolcuepqueh}}",
-	"twnmp-translate-link": "Tictlahtolcuepaz",
-	"twnmp-translate-button": "Tictlahtolcuepaz",
+	"twnmp-translate-link": "Xitlahtolkwapa",
+	"twnmp-translate-button": "Xitlahtolkwapa",
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Tlahtolkwepalistli}}",
 	"twnmp-signup-username-placeholder": "Tequitiuhcatocaitl",
-	"twnmp-create-account-cancel": "Moxitiniz"
+	"twnmp-create-account-cancel": "Xikxolewa"
 }

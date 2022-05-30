@@ -4,6 +4,7 @@
 			"Artsiom91",
 			"Chadyka",
 			"Irus",
+			"No Sleep till Krupki",
 			"ZlyiLev"
 		]
 	},
@@ -21,11 +22,11 @@
 	"twnmp-search-placeholder": "Знайсці і выправіць пераклады",
 	"twnmp-search-button": "Знайсці",
 	"twnmp-search-choose-project": "Выберыце праект для перакладу",
-	"twnmp-translate-link": "Перакласці",
-	"twnmp-proofread-link": "Вычытка",
+	"twnmp-translate-link": "Перакладаць",
+	"twnmp-proofread-link": "Вычытваць",
 	"twnmp-view-link": "Паглядзець пераклады",
-	"twnmp-translate-button": "Пераклад",
-	"twnmp-proofread-button": "Вычытка",
+	"twnmp-translate-button": "Перакладаць",
+	"twnmp-proofread-button": "Вычытваць",
 	"twnmp-view-button": "Паглядзець пераклады",
 	"twnmp-your-translations-stats": "Ваша статыстыка перакладу",
 	"twnmp-your-translations-stats-all-languages": "Для ўсіх моваў",

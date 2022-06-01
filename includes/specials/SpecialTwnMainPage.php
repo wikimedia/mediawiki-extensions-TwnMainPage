@@ -100,7 +100,7 @@ class SpecialTwnMainPage extends SpecialPage {
 		$out->addHTML(
 			$out->headElement( $skin ) .
 			$output .
-			$skin->bottomScripts() .
+			$out->getBottomScripts() .
 			 '</body></html>'
 		);
 	}

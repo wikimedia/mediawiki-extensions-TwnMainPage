@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Tumbuka Arch"
 		]
 	},
 	"twnmp-desc": "Ikupeleka translatewiki.net jani likulu",
 	"twnmp-mainpage": "Jani likulu",
-	"twnmp-s-translators": "{{PLURAL:$1|Mmasulili|Ẇamasulili}}",
+	"twnmp-s-translators": "{{PLURAL:$1|Mmasulili|Ŵamasulili}}",
 	"twnmp-s-projects": "{{PLURAL:$1|Project|Projects}}",
 	"twnmp-s-languages": "Voseŵeza {{PLURAL:$1|chiyowoyelo|viyowoyelo}}",
 	"twnmp-s-messages": "{{PLURAL:$1|Uthenga|Mauthenga}} ghokhumba kumasulilika",

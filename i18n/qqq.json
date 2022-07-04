@@ -8,6 +8,7 @@
 			"Purodha",
 			"Shirayuki",
 			"Umherirrender",
+			"Waldyrious",
 			"아라"
 		]
 	},
@@ -42,8 +43,8 @@
 	"twnmp-add-project": "Used as link text for the link pointing to [[Special:MyLanguage/Translating:New project|Translating:New project]].\n\nSee example: [[Special:MainPage]]",
 	"twnmp-sandboxed": "A text shown to sandboxed users in their personal area on the main page instead of proofreading statistics. Parameters:\n* $1 - the number of trial translations already submitted by the user",
 	"twnmp-sandboxed-limit": "A text shown to sandboxed users in their personal area on the main page instead of proofreading statistics.",
-	"twnmp-bottom-help": "A link that appears at the bottom of the main page.\n\nThe link points to [[Translating:Index]].\n{{Identical|Help}}",
-	"twnmp-bottom-support": "Used in [[Special:MainPage]].\n\nUsed as link text for the link pointing to [[Support]].\n\nPreceded by {{msg-mw|Twnmp-bottom-languages-supported}}.\n\nFollowed by {{msg-mw|Twnmp-bottom-help}}.",
+	"twnmp-bottom-help": "A link that appears at the bottom of the [[Special:MainPage|main page]].\n\nThe link points to [[Translating:Index]]. Note that the same link is shown in the sidebar, with the label {{msg-mw|bw-sidebar-documentation}}.\n\n{{Identical|Help}}",
+	"twnmp-bottom-support": "A link that appears at the bottom of the [[Special:MainPage|main page]].\n\nThe link points to [[Support]]. Note that the same link is shown in the sidebar, with the label {{msg-mw|bw-mainpage-support-title}}.",
 	"twnmp-bottom-languages-supported": "A link that appears at the bottom of the main page.\n\nThe link points to [[Special:SupportedLanguages]].\n{{Identical|Supported language}}",
 	"twnmp-bottom-about": "A link that appears at the bottom of the main page.\n\nThe link points to [[Special:MyLanguage/Project:About]].\n{{Identical|About}}",
 	"twnmp-signup-username-placeholder": "A placeholder for the username field in the sign up form.\n\nThe field is NOT preceded by a label.\n\nSee [[Special:MainPage]] as an anonymous user.\n{{Identical|Username}}",

@@ -31,7 +31,7 @@
 	"twnmp-reviews-per-month": "{{PLURAL:$1|vuõigglookkmõš|vuõigglookkmõõžž|vuõigglookkmõššâd}} määnpââʹjest",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Tun leäk oʹdinakai jåårǥlõʹtti ǩiõʹlle:<br />$4|{{GENDER:$1|Tun leäk sââʹjest}} $2/$3<br />ǩiõʹlle $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Tun leäk oʹdinakai jåårǥlõʹtti tän ǩiõʹlle.|{{GENDER:$1|Tun leäk sââʹjest}} $2/$3<br />}}",
-	"twnmp-bottom-about": "Teâđ",
+	"twnmp-bottom-about": "Lââʹssteâđ",
 	"twnmp-signup-username-placeholder": "Õõʹnninõmm",
 	"twnmp-signup-password-placeholder": "Peittsääʹnn",
 	"twnmp-signup-email-placeholder": "E-pååʹšt",

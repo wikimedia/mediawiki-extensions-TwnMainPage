@@ -10,6 +10,7 @@
 
 use MediaWiki\Extension\Translate\Services;
 use MediaWiki\Extension\Translate\TranslatorSandbox\TranslationStashReader;
+use MediaWiki\MainConfigNames;
 
 /**
  * Provides the main page with stats and stuff.
@@ -93,6 +94,8 @@ class SpecialTwnMainPage extends SpecialPage {
 		$out->addJsConfigVars( 'wgULSPosition', 'personal' );
 		$out->addJsConfigVars( 'maxProjectTiles', $this->maxProjectTiles );
 		$out->addMeta( 'viewport', 'width=device-width, initial-scale=0.5' );
+		// We very much do want this page to be indexed even though special pages normally aren't
+		$out->setRobotPolicy( $this->getConfig()->get( MainConfigNames::DefaultRobotPolicy ) );
 
 		// These add modules so this has to be called before headElement
 		$output = $this->makeContent();

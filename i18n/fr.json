@@ -59,7 +59,7 @@
 	"twnmp-signup-error-invalidemail": "Cela ne ressemble pas à une adresse de courriel valide. Veuilles en fournir une correcte.",
 	"twnmp-signup-error-other": "L’inscription a échoué. Le serveur a renvoyé une erreur : $1.",
 	"twnmp-signup-error-unknown": "Échec à la création du compte pour une raison inconnue.",
-	"twnmp-become-translator": "Devenir un traducteur",
+	"twnmp-become-translator": "Devenir traducteur ou traductrice",
 	"twnmp-choose-languages-you-know": "Choisir les langues que vous connaissez",
 	"twnmp-choose-another-language": "Choisir une autre langue…",
 	"twnmp-choose-fill-account-details": "Entrez les détails de votre compte",

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nurlan"
+		]
+	},
+	"twnmp-s-translators": "{{PLURAL:$1|Awdarmashı|Awdarmashılar}}",
+	"twnmp-login": "Kiriw",
+	"twnmp-logout": "Shıǵıw",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Awdarma}}/ayına",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|Tekserip shıǵıw}}/ayına",
+	"twnmp-bottom-help": "Járdem"
+}

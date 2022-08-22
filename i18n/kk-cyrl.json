@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Arystanbek"
+			"Arystanbek",
+			"СеніңШешең"
 		]
 	},
 	"twnmp-desc": "translatewiki.net басты бетінің аудармасы",
@@ -19,14 +20,14 @@
 	"twnmp-search-button": "Табу",
 	"twnmp-search-choose-project": "Аударуға жобаны таңдау",
 	"twnmp-translate-link": "Аудару",
-	"twnmp-proofread-link": "Қайта қарау",
-	"twnmp-view-link": "Аудармаларды қарау",
+	"twnmp-proofread-link": "Тексеру",
+	"twnmp-view-link": "Аудармаларды көру",
 	"twnmp-translate-button": "Аудару",
-	"twnmp-proofread-button": "Қайта қарау",
-	"twnmp-view-button": "Аудармаларды қарау",
+	"twnmp-proofread-button": "Тексеру",
+	"twnmp-view-button": "Аудармаларды көру",
 	"twnmp-your-translations-stats": "Сіздің аудару статистикаларыңыз",
 	"twnmp-your-translations-stats-all-languages": "Барлық тілдер үшін",
-	"twnmp-your-view-language-stats": "Тіл статистикаларын қарау",
+	"twnmp-your-view-language-stats": "Тіл статистикасын көру",
 	"twnmp-translations-per-month": "аударма/айына",
 	"twnmp-translations-in-sandbox": "Аудармалар",
 	"twnmp-reviews-per-month": "{{PLURAL:$1|Қайта қарап шығу}}/айына",

@@ -31,6 +31,7 @@
 	"twnmp-reviews-per-month": "{{PLURAL:$1|vuõigglookkmõš|vuõigglookkmõõžž|vuõigglookkmõššâd}} määnpââʹjest",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Ton leäk oʹdinakai jåårǥlõʹtti ǩiõʹlle:<br />$4|{{GENDER:$1|Ton leäk sââʹjest}} $2/$3<br />ǩiõʹlle $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Ton leäk oʹdinakai jåårǥlõʹtti tän ǩiõʹlle.|{{GENDER:$1|Ton leäk sââʹjest}} $2/$3<br />}}",
+	"twnmp-bottom-help": "Vuäʹpstõõzz",
 	"twnmp-bottom-about": "Lââʹssteâđ",
 	"twnmp-signup-username-placeholder": "Õõʹnninõmm",
 	"twnmp-signup-password-placeholder": "Peittsääʹnn",
@@ -38,6 +39,7 @@
 	"twnmp-create-account-button": "Raaj tobdldõõǥǥ",
 	"twnmp-signup-error-invalidpassword": "Peittsääʹnn lij vââǥǥlaž.",
 	"twnmp-choose-another-language": "Lââʹzzet nuuʹbb ǩiõl...",
+	"twnmp-create-account-cancel": "Jõõsk",
 	"twnmp-stats-number-k": "$1&nbsp;000",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|$1 saakk|$1 saaǥǥ|$1 saakkâd}}"
 }

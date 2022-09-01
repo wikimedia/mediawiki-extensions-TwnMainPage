@@ -32,6 +32,8 @@
 	"twnmp-translations-per-month": "{{PLURAL:$1|अनुवादहरू}}/महिना",
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|अनुवादहरू}}",
 	"twnmp-reviews-per-month": "{{PLURAL:$1|समीक्षाहरू}}/महिना",
+	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=तपाईं मात्र एक हुनुहुन्छ<br/> $4 को लागि |{{GENDER:$1|क्रमबद्ध}} $2 को $3<br/> $4को लागि}}",
+	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=तपाईं मात्र एक हुनुहुन्छ|{{GENDER:$1|क्रमबद्ध}} $2 को $3 }}",
 	"twnmp-add-project": "अनुवादको लागि आफ्नो खुला स्रोत परियोजना थप्नुहोस्",
 	"twnmp-sandboxed-limit": "तपाईं अनुवाद सीमामा पुग्नुभयो। हाम्रो टोलीले चाँडै तपाईंको खाता प्रमाणीकरण र स्तरवृद्धि गर्नेछ।",
 	"twnmp-bottom-help": "सहायता",

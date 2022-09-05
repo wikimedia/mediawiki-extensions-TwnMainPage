@@ -3,6 +3,7 @@
 		"authors": [
 			"Bada Kaji",
 			"पर्वत सुबेदी",
+			"बडा काजी",
 			"हिमाल सुबेदी"
 		]
 	},
@@ -35,6 +36,7 @@
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=तपाईं मात्र एक हुनुहुन्छ<br/> $4 को लागि |{{GENDER:$1|क्रमबद्ध}} $2 को $3<br/> $4को लागि}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=तपाईं मात्र एक हुनुहुन्छ|{{GENDER:$1|क्रमबद्ध}} $2 को $3 }}",
 	"twnmp-add-project": "अनुवादको लागि आफ्नो खुला स्रोत परियोजना थप्नुहोस्",
+	"twnmp-sandboxed": "तपाईंले आफ्नो दर्ता पूरा गर्न {{PLURAL:$1|0=केही|थप}} अनुवादहरू प्रदान गर्न आवश्यक छ।",
 	"twnmp-sandboxed-limit": "तपाईं अनुवाद सीमामा पुग्नुभयो। हाम्रो टोलीले चाँडै तपाईंको खाता प्रमाणीकरण र स्तरवृद्धि गर्नेछ।",
 	"twnmp-bottom-help": "सहायता",
 	"twnmp-bottom-support": "सहायता कक्ष",
@@ -55,6 +57,7 @@
 	"twnmp-choose-another-language": "अर्को भाषा छान्नुहोस्...",
 	"twnmp-choose-fill-account-details": "तपाईको खाताको बारेमा लेख्नुहोस्",
 	"twnmp-join-community": "समूदायमा सहभागी हुनुहोस्",
+	"twnmp-join-community-desc": "यदि तपाईं अनुवादहरू कागजात गर्न, वा मन्च अन्वेषण गर्न इच्छुक विकासकर्ता हुनुहुन्छ भने, तपाईंलाई पनि स्वागत छ।",
 	"twnmp-join-community-reason": "तपाई किन सामेल हुन इच्छुक हुनुहुन्छ?",
 	"twnmp-create-account-cancel": "रद्द गर्नुहोस्",
 	"twnmp-join-community-info": "अहिले केही अनुवाद पेश गर्न सक्नुहुन्न? तपाईं अझै पनि सामेल हुन सक्नुहुन्छ।",

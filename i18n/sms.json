@@ -32,6 +32,7 @@
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Ton leäk oʹdinakai jåårǥlõʹtti ǩiõʹlle:<br />$4|{{GENDER:$1|Ton leäk sââʹjest}} $2/$3<br />ǩiõʹlle $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Ton leäk oʹdinakai jåårǥlõʹtti tän ǩiõʹlle.|{{GENDER:$1|Ton leäk sââʹjest}} $2/$3<br />}}",
 	"twnmp-bottom-help": "Vuäʹpstõõzz",
+	"twnmp-bottom-languages-supported": "Tuärjjuum ǩiõl",
 	"twnmp-bottom-about": "Lââʹssteâđ",
 	"twnmp-signup-username-placeholder": "Õõʹnninõmm",
 	"twnmp-signup-password-placeholder": "Peittsääʹnn",

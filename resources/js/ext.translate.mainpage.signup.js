@@ -117,7 +117,10 @@
 				case 'nonfreeusername':
 					$element = $username;
 					break;
-				case 'invalidpassword':
+				case 'passwordtooshort':
+				case 'passwordincommonlist':
+				case 'passwordtoolong':
+				case 'password-substring-username-match':
 					$element = $password;
 					break;
 				case 'invalidemail':
@@ -130,12 +133,17 @@
 				// Messages used here:
 				// twnmp-signup-error-invalidusername
 				// twnmp-signup-error-nonfreeusername
-				// twnmp-signup-error-invalidpassword
 				// twnmp-signup-error-invalidemail
 				if ( result && result.error && result.error.info ) {
-					$element.parent().next( '.twnmp-signup-error' )
-						.removeClass( 'hide' )
-						.text( mw.msg( 'twnmp-signup-error-' + errorcode ) );
+					var $errorContainer = $element.parent().next( '.twnmp-signup-error' );
+					var errorTextMessage = mw.message( 'twnmp-signup-error-' + errorcode );
+					$errorContainer.removeClass( 'hide' );
+
+					if ( errorTextMessage.exists() ) {
+						$errorContainer.text( errorTextMessage.text() + result.error.info );
+					} else {
+						$errorContainer.text( result.error.info );
+					}
 				}
 			} else {
 				$genericErrorContainer.removeClass( 'hide' );

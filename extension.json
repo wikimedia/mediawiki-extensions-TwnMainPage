@@ -62,7 +62,6 @@
 			],
 			"messages": [
 				"twnmp-signup-error-invalidemail",
-				"twnmp-signup-error-invalidpassword",
 				"twnmp-signup-error-invalidusername",
 				"twnmp-signup-error-nonfreeusername",
 				"twnmp-signup-error-other",

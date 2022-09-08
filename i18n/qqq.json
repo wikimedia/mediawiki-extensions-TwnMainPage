@@ -53,7 +53,6 @@
 	"twnmp-create-account-button": "A label for the button that submits the account creation form.\n{{Identical|Create account}}",
 	"twnmp-signup-error-invalidusername": "An error message shown on the signup form.\n{{Related|Twnmp-signup-error}}",
 	"twnmp-signup-error-nonfreeusername": "An error message shown on the signup form.\n{{Related|Twnmp-signup-error}}",
-	"twnmp-signup-error-invalidpassword": "An error message shown on the signup form.\n{{Related|Twnmp-signup-error}}",
 	"twnmp-signup-error-invalidemail": "An error message shown on the signup form.\n{{Related|Twnmp-signup-error}}",
 	"twnmp-signup-error-other": "An error message shown on the signup form. Parameters:\n* $1 - an error code\n{{Related|Twnmp-signup-error}}",
 	"twnmp-signup-error-unknown": "An error message shown on the signup form when the reason for the error is unknown.\n{{Related|Twnmp-signup-error}}",

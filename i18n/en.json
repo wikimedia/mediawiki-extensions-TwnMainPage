@@ -46,7 +46,6 @@
 	"twnmp-create-account-button": "Create account",
 	"twnmp-signup-error-invalidusername": "This username is not available. Please, pick a different one.",
 	"twnmp-signup-error-nonfreeusername": "This username already exists. Please, pick a different one.",
-	"twnmp-signup-error-invalidpassword": "The password is invalid.",
 	"twnmp-signup-error-invalidemail": "This does not look like a valid email address. Please, provide a valid one.",
 	"twnmp-signup-error-other": "Signing up failed. The server returned an error: $1.",
 	"twnmp-signup-error-unknown": "Account creation failed for an unknown reason.",

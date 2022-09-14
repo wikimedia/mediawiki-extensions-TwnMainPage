@@ -47,7 +47,6 @@
 	"twnmp-create-account-button": "Napravi račun",
 	"twnmp-signup-error-invalidusername": "Korisničko ime nije dostupno. Izaberite drugo.",
 	"twnmp-signup-error-nonfreeusername": "Korisničko ime već postoji. Izaberite drugo.",
-	"twnmp-signup-error-invalidpassword": "Lozinka nije ispravna.",
 	"twnmp-signup-error-invalidemail": "Ovo ne liči na ispravnu adresu e-pošte. Upišite ispravnu.",
 	"twnmp-signup-error-other": "Registracija nije uspjela. Server je dao grešku: $1.",
 	"twnmp-signup-error-unknown": "Pravljenje računa nije uspjelo zbog nepoznatog razloga.",

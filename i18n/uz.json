@@ -48,7 +48,6 @@
 	"twnmp-create-account-button": "Hisob yaratish",
 	"twnmp-signup-error-invalidusername": "Bu foydalanuvchi nomi mavjud emas. Iltimos, boshqasini tanlang.",
 	"twnmp-signup-error-nonfreeusername": "Bu foydalanuvchi nomi allaqachon mavjud. Iltimos, boshqasini tanlang.",
-	"twnmp-signup-error-invalidpassword": "Kiritgan maxfiy soʻzingiz yaroqsiz.",
 	"twnmp-signup-error-invalidemail": "Bu haqiqiy elektron pochta manziliga o‘xshamaydi. Iltimos, to'g'risini kiriting.",
 	"twnmp-signup-error-other": "Ro‘yxatdan o‘tish amalga oshmadi. Server xatolik yuz berdi: $1 .",
 	"twnmp-signup-error-unknown": "Noma'lum sababga ko'ra hisob yaratib bo'lmadi.",

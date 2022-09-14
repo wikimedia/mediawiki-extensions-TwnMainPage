@@ -48,7 +48,6 @@
 	"twnmp-create-account-button": "Opprett konto",
 	"twnmp-signup-error-invalidusername": "Dette brukernavnet er ikke tilgjengelig. Velg et annet brukernavn.",
 	"twnmp-signup-error-nonfreeusername": "Dette brukernavnet finnes fra før. Velg et annet brukernavn.",
-	"twnmp-signup-error-invalidpassword": "Passordet er ugyldig.",
 	"twnmp-signup-error-invalidemail": "Dette ser ikke ut som en gyldig epostadresse. Oppgi epostadresse på nytt.",
 	"twnmp-signup-error-other": "Registrering mislyktes. Tjeneren returnerte en feil: $1.",
 	"twnmp-signup-error-unknown": "Kontooppretting mislyktes av ukjent grunn.",

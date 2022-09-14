@@ -47,7 +47,6 @@
 	"twnmp-create-account-button": "Създаване на сметка",
 	"twnmp-signup-error-invalidusername": "Потребителското име не е достъпно. Моля, изберете друго.",
 	"twnmp-signup-error-nonfreeusername": "Потребителското име вече съществува. Моля, изберете друго.",
-	"twnmp-signup-error-invalidpassword": "Паролата е невалидна.",
 	"twnmp-signup-error-invalidemail": "Въведеното не изглежда валиден адрес на електронна поща. Моля, въведете валиден адрес.",
 	"twnmp-signup-error-other": "Регистрацията не успя. Сървърът върна грешка: $1.",
 	"twnmp-signup-error-unknown": "Създаването на сметка не успя поради неизвестна причина.",

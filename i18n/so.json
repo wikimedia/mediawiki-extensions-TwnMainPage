@@ -45,7 +45,6 @@
 	"twnmp-create-account-button": "Sameey gudagale",
 	"twnmp-signup-error-invalidusername": "Magaca gudagalkaan lama heli karo. Fadlan, soo qaado mid kale.",
 	"twnmp-signup-error-nonfreeusername": "Guagalkaan wuu jiraa. Fadlan, soo qaado mid kale.",
-	"twnmp-signup-error-invalidpassword": "Eraysirta waa qalad.",
 	"twnmp-signup-error-invalidemail": "Kani uma eka e-mail shaqaynaya. Fadlan, soo gudbi mid shaqaynaya.",
 	"twnmp-signup-error-other": "Samayntii laguma guulaysan. Serverka wuxuu soo celiyey qalad: $1.",
 	"twnmp-signup-error-unknown": "Samaynta akoonka gudagalka ma suutoobin sabab aan la aqoon daradeed.",

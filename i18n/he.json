@@ -49,7 +49,6 @@
 	"twnmp-create-account-button": "יצירת חשבון",
 	"twnmp-signup-error-invalidusername": "שם המשתמש הזה אינו זמין. נא לבחור אחד אחר.",
 	"twnmp-signup-error-nonfreeusername": "שם המשתמש הזה כבר קיים. נא לבחור אחד אחר.",
-	"twnmp-signup-error-invalidpassword": "הסיסמה הזאת אינה תקינה.",
 	"twnmp-signup-error-invalidemail": "זה לא נראה כמו כתובת דוא\"ל תקינה. נא לכתוב אחת תקינה.",
 	"twnmp-signup-error-other": "הרישום לא עבד. השרת החזיר שגירה: $1.",
 	"twnmp-signup-error-unknown": "יצירת החשבון נכשלה מסיבה בלתי־ידועה.",

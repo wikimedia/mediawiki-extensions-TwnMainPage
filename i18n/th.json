@@ -48,7 +48,6 @@
 	"twnmp-create-account-button": "สร้างบัญชี",
 	"twnmp-signup-error-invalidusername": "ชื่อผู้ใช้นี้ใช้ไม่ได้ โปรดเลือกชื่อผู้ใช้อื่น",
 	"twnmp-signup-error-nonfreeusername": "ชื่อผู้ใช้นี้มีอยู่แล้ว โปรดเลือกชื่อผู้ใช้อื่น",
-	"twnmp-signup-error-invalidpassword": "รหัสผ่านไม่ถูกต้อง",
 	"twnmp-signup-error-invalidemail": "ที่อยู่อีเมลนี้ดูเหมือนว่าไม่ใช่ที่อยู่อีเมลที่ใช้ได้ โปรดระบุที่อยู่อีเมลที่ถูกต้อง",
 	"twnmp-signup-error-other": "การลงทะเบียนล้มเหลว เซิร์ฟเวอร์ส่งกลับข้อผิดพลาด: $1",
 	"twnmp-signup-error-unknown": "การสร้างบัญชีล้มเหลวโดยไม่ทราบสาเหตุ",

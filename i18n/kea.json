@@ -45,7 +45,6 @@
 	"twnmp-create-account-button": "Kria un konta",
 	"twnmp-signup-error-invalidusername": "Es nomi di uzuáriu ka sta dispunível. Tenta otu diferenti.",
 	"twnmp-signup-error-nonfreeusername": "Es nomi di uzuáriu dja foi uzadu. Tenta otu diferenti.",
-	"twnmp-signup-error-invalidpassword": "Senha ki bu skrevi e inválidu.",
 	"twnmp-signup-error-invalidemail": "Es textu ka parsi ser un email válidu. Bu ten ki skrevi un email válidu.",
 	"twnmp-signup-error-other": "Registu ka funsiona. Servidor respondi ku eru: $1.",
 	"twnmp-signup-error-unknown": "Kriason di konta ka funsiona pur un mutivu diskonxedu.",

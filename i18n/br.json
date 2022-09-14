@@ -46,7 +46,6 @@
 	"twnmp-create-account-button": "Krouiñ ur gont",
 	"twnmp-signup-error-invalidusername": "N'eo ket hegerz an anv implijer-se. Dibabit unan all.",
 	"twnmp-signup-error-nonfreeusername": "Kemeret eo an anv implijer-mañ c'hoazh. Dibabit unan all.",
-	"twnmp-signup-error-invalidpassword": "Direizh ar ger-tremen-mañ",
 	"twnmp-signup-error-invalidemail": "Evit doare n'eo ket reizh ar chomlec'h postel-se. Merkit unan reizh.",
 	"twnmp-signup-error-other": "C'hwitet eo an enskrivañ. Adkaset ez eus bet ur fazi gant ar servijer : $1.",
 	"twnmp-signup-error-unknown": "N'eus ket bet gallet, evit un abeg dianav, krouiñ ar gont.",

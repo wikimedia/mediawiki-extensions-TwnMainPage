@@ -51,7 +51,6 @@
 	"twnmp-create-account-button": "ایجاد حساب",
 	"twnmp-signup-error-invalidusername": "این نام کاربری در دسترس نیست. لطفاً، یکی دیگر انتخاب کنید.",
 	"twnmp-signup-error-nonfreeusername": "این نام کاربری از قبل وجود دارد. لطفاً، یکی دیگر انتخاب کنید.",
-	"twnmp-signup-error-invalidpassword": "رمز عبور نامعتبر است.",
 	"twnmp-signup-error-invalidemail": "این شبیه یک آدرس ایمیل به‌نظر نمی‌رسد. لطفاً، یکی دیگر ارائه دهید.",
 	"twnmp-signup-error-other": "ثبت‌نام کردن شکست خورد. سرور یک خطا برگرداند: $1.",
 	"twnmp-signup-error-unknown": "ایجاد حساب به یک دلیل ناشناخته شکست خورد.",

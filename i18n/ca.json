@@ -48,7 +48,6 @@
 	"twnmp-create-account-button": "Crea un compte",
 	"twnmp-signup-error-invalidusername": "Aquest nom d’usuari no està disponible. Trieu-ne un altre.",
 	"twnmp-signup-error-nonfreeusername": "Aquest nom d’usuari ja existeix. Trieu-ne un altre.",
-	"twnmp-signup-error-invalidpassword": "La contrasenya no és vàlida.",
 	"twnmp-become-translator": "Convertiu-vos en un traductor",
 	"twnmp-choose-languages-you-know": "Trieu les llengües que coneixeu",
 	"twnmp-choose-another-language": "Trieu una altra llengua…",

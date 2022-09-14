@@ -48,7 +48,6 @@
 	"twnmp-create-account-button": "Hesap oluştur",
 	"twnmp-signup-error-invalidusername": "Bu kullanıcı adı mevcut değil. Lütfen farklı bir tane seçin.",
 	"twnmp-signup-error-nonfreeusername": "Bu kullanıcı adı zaten mevcut. Lütfen farklı bir tane seçin.",
-	"twnmp-signup-error-invalidpassword": "Şifre geçersiz.",
 	"twnmp-signup-error-invalidemail": "Bu geçerli bir e-posta adresi gibi görünmüyor. Lütfen geçerli bir tane belirtiniz.",
 	"twnmp-signup-error-other": "Kaydolma başarısız oldu. Sunucu bir hata döndürdü: $1.",
 	"twnmp-signup-error-unknown": "Hesap oluşturma bilinmeyen bir nedenden dolayı başarısız oldu.",

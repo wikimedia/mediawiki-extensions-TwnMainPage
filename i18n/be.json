@@ -50,7 +50,6 @@
 	"twnmp-create-account-button": "Стварыць рахунак",
 	"twnmp-signup-error-invalidusername": "Гэта імя ўдзельніка недаступнае. Калі ласка, выберыце іншае.",
 	"twnmp-signup-error-nonfreeusername": "Гэта імя ўдзельніка ўжо існуе. Калі ласка, выберыце іншае.",
-	"twnmp-signup-error-invalidpassword": "Гэты пароль няслушны.",
 	"twnmp-signup-error-invalidemail": "Гэта не выглядае як слушны адрас электроннай пошты. Калі ласка, укажыце слушны адрас.",
 	"twnmp-signup-error-other": "Не атрымалася зарэгістравацца. Сервер вярнуў памылку: $1.",
 	"twnmp-signup-error-unknown": "Стварэнне рахунку не атрымалася па невядомай прычыне.",

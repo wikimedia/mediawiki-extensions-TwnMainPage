@@ -52,7 +52,6 @@
 	"twnmp-create-account-button": "Criar uma conta",
 	"twnmp-signup-error-invalidusername": "Este nome de utilizador não está disponível. Tente outro, por favor.",
 	"twnmp-signup-error-nonfreeusername": "Este nome de utilizador já existe, Tente outro, por favor.",
-	"twnmp-signup-error-invalidpassword": "A palavra-passe é inválida.",
 	"twnmp-signup-error-invalidemail": "Este não parece ser um endereço de correio eletrónico válido. Por favor, forneça um endereço válido.",
 	"twnmp-signup-error-other": "A criação da conta falhou. O servidor devolveu um erro: $1.",
 	"twnmp-signup-error-unknown": "A criação da conta falhou por razões desconhecidas.",

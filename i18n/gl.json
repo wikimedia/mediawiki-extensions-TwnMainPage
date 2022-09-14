@@ -48,7 +48,6 @@
 	"twnmp-create-account-button": "Crear a conta",
 	"twnmp-signup-error-invalidusername": "O nome de usuario non está dispoñible. Escolla outro.",
 	"twnmp-signup-error-nonfreeusername": "O nome de usuario xa existe. Escolla outro.",
-	"twnmp-signup-error-invalidpassword": "O contrasinal non é válido.",
 	"twnmp-signup-error-invalidemail": "Isto non semella un enderezo de correo electrónico válido. Proporcione un enderezo válido.",
 	"twnmp-signup-error-other": "Erro ao rexistrarse. O servidor devolveu un erro: $1.",
 	"twnmp-signup-error-unknown": "A creación da conta fallou por un motivo descoñecido.",

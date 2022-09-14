@@ -45,7 +45,6 @@
 	"twnmp-create-account-button": "Pangani akaunti",
 	"twnmp-signup-error-invalidusername": "Zina ili palije. Chonde sankhani zina linyake.",
 	"twnmp-signup-error-nonfreeusername": "Zina ili lilipo kale. Chonde, sankhani linyake lakupambanelako.",
-	"twnmp-signup-error-invalidpassword": "Pasiwedi ndiyo yayi.",
 	"twnmp-signup-error-invalidemail": "Email address iyi ikuoneka kuti iliko yayi. Chonde, ikani yakuti iliko.",
 	"twnmp-signup-error-other": "Kujuliska akaunti kwatondeka. Zina la suzgo ni : $1.",
 	"twnmp-signup-error-unknown": "Akaunti yatondeka kujulika na chifukwa chambula kumanyikwa.",

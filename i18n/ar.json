@@ -50,7 +50,6 @@
 	"twnmp-create-account-button": "إنشاء الحساب",
 	"twnmp-signup-error-invalidusername": "اسم المستخدم هذا غير متوفر; من فضلك، اختر واحدا مختلفا.",
 	"twnmp-signup-error-nonfreeusername": "اسم المستخدم هذا موجود بالفعل; من فضلك، اختر واحدا مختلفا.",
-	"twnmp-signup-error-invalidpassword": "كلمة المرور غير صالحة.",
 	"twnmp-signup-error-invalidemail": "هذا لا يبدو وكأنه عنوان بريد إلكتروني صالح; من فضلك، اختر واحدا مختلفا.",
 	"twnmp-signup-error-other": "فشل التسجيل، عرض الخادم خطأً: $1.",
 	"twnmp-signup-error-unknown": "فشل إنشاء الحساب لسبب غير معروف.",

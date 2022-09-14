@@ -48,7 +48,6 @@
 	"twnmp-create-account-button": "खाता खोल्नुहोस्",
 	"twnmp-signup-error-invalidusername": "यो प्रयोगकर्ता नाम उपलब्ध छैन। कृपया, एउटा फरक नाम छान्नुहोस्।",
 	"twnmp-signup-error-nonfreeusername": "यो प्रयोगकर्ता नाम पहिले नै अवस्थित छ। कृपया, एउटा फरक छान्नुहोस्।",
-	"twnmp-signup-error-invalidpassword": "निजी शब्द मान्य छैन।",
 	"twnmp-signup-error-invalidemail": "यो वैध इमेल ठेगाना जस्तो देखिदैन। कृपया, एक मान्य प्रदान गर्नुहोस्।",
 	"twnmp-signup-error-other": "प्रवेश गर्न असफल भयो। सर्भरले यो देखाएको छ: $1।",
 	"twnmp-signup-error-unknown": "अज्ञात कारणले खाता सिर्जना गर्न असफल भयो।",

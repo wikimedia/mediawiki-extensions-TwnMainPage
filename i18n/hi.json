@@ -46,7 +46,6 @@
 	"twnmp-create-account-button": "खाता बनाएँ",
 	"twnmp-signup-error-invalidusername": "यह सदस्यनाम उपलब्द नहीं है। कृपया एक दूसरा सदस्यनाम चुनें।",
 	"twnmp-signup-error-nonfreeusername": "यह सदस्यनाम पहले से ही मौजूद है। कृपया एक दूसरा सदस्यनाम चुनें।",
-	"twnmp-signup-error-invalidpassword": "पासवर्ड अमान्य है।",
 	"twnmp-signup-error-invalidemail": "ऐसा लगता है यह कोई मान्य ईमेल पता नहीं है। कृपया एक मान्य ईमेल पता प्रदान करें।",
 	"twnmp-signup-error-other": "साइन-अप न किया जा सका। सर्वर से त्रुटि आई: $1।",
 	"twnmp-signup-error-unknown": "अज्ञात कारणों से खाता न बनाया जा सका।",

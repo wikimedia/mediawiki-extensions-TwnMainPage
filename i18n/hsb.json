@@ -47,7 +47,6 @@
 	"twnmp-create-account-button": "Konto załožić",
 	"twnmp-signup-error-invalidusername": "Tute wužiwarske mjeno k dispoziciji njesteji. Prošu wubjer druhe.",
 	"twnmp-signup-error-nonfreeusername": "Tute wužiwarske mjeno hižo eksistuje. Prošu wubjer druhe.",
-	"twnmp-signup-error-invalidpassword": "Hesło je njepłaćiwe.",
 	"twnmp-signup-error-invalidemail": "Zda so, zo to płaćiwa e-mejlowa adresa njeje. Prošu podaj płaćiwu.",
 	"twnmp-signup-error-other": "Registrowanje je so njeporadźiło. Serwer je zmylk wróćił: $1.",
 	"twnmp-signup-error-unknown": "Wutworjenje konta je so z njeznateje přičiny njeporadźiło.",

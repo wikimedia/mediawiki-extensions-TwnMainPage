@@ -46,7 +46,6 @@
 	"twnmp-create-account-button": "Кхолла аккаунт",
 	"twnmp-signup-error-invalidusername": "И декъашхочун цӀе мегаш йац. Дехар до, харжа кхин цӀе.",
 	"twnmp-signup-error-nonfreeusername": "И декъашхочун цӀе йолуш йу, Дехар до харжа кхин цӀе.",
-	"twnmp-signup-error-invalidpassword": "Пароль нийса йац",
 	"twnmp-signup-error-invalidemail": "ХӀара электронан адрес нийса доцчух тера ду. Дехар до, нийса адрес йазде.",
 	"twnmp-signup-error-other": "ДӀайаздалар цахилира. Серверо делла гӀалат: $1.",
 	"twnmp-signup-error-unknown": "Хууш доцучу бахьнехь аккаунт кхолла йиш цахилира.",

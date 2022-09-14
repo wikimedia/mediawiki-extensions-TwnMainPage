@@ -45,7 +45,6 @@
 	"twnmp-create-account-button": "Crear una cuenta",
 	"twnmp-signup-error-invalidusername": "El nome d'usuariu nun ta disponible. Por favor, escueya otru distintu.",
 	"twnmp-signup-error-nonfreeusername": "El nome d'usuariu yá esiste. Por favor, escueya otru distintu.",
-	"twnmp-signup-error-invalidpassword": "La contraseña ye inválida.",
 	"twnmp-signup-error-invalidemail": "Esto nun paez una direición de corréu válida. Por favor, escriba una válida.",
 	"twnmp-signup-error-other": "Falló la inscripción. El sirvidor devolvió un error: $1.",
 	"twnmp-signup-error-unknown": "Falló la creación de la cuenta por un motivu desconocíu.",

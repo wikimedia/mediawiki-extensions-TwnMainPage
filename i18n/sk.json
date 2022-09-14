@@ -49,7 +49,6 @@
 	"twnmp-create-account-button": "Vytvoriť účet",
 	"twnmp-signup-error-invalidusername": "Toto používateľské meno nie je dostupné. Zvoľte si, prosím, iné.",
 	"twnmp-signup-error-nonfreeusername": "Toto používateľské meno už existuje. Zvoľte si, prosím, iné.",
-	"twnmp-signup-error-invalidpassword": "Heslo je neplatné.",
 	"twnmp-signup-error-invalidemail": "Toto nevypadá ako platná e-mailová adresa. Zadajte, prosím, platnú.",
 	"twnmp-signup-error-other": "Registrácia sa nepodarila. Server vrátil chybu: $1.",
 	"twnmp-signup-error-unknown": "Založenie účtu sa z neznámeho dôvodu nepodarilo.",

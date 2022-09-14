@@ -51,7 +51,6 @@
 	"twnmp-create-account-button": "Створити обліковий запис",
 	"twnmp-signup-error-invalidusername": "Це ім'я користувача недоступне. Будь ласка, виберіть інше.",
 	"twnmp-signup-error-nonfreeusername": "Це ім'я користувача вже існує. Будь ласка, виберіть інше.",
-	"twnmp-signup-error-invalidpassword": "Невірний пароль",
 	"twnmp-signup-error-invalidemail": "Це не схоже на дійсну адресу електронної пошти. Будь ласка, введіть справжню адресу.",
 	"twnmp-signup-error-other": "Реєстрація не вдалася. Сервер повернув помилку: $1.",
 	"twnmp-signup-error-unknown": "Не вдалося створити обліковий запис з невідомої причини.",

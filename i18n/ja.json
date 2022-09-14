@@ -48,7 +48,6 @@
 	"twnmp-create-account-button": "アカウント作成",
 	"twnmp-signup-error-invalidusername": "この利用者名は利用できません。別の利用者名にしてください。",
 	"twnmp-signup-error-nonfreeusername": "この利用者名は既に存在します。別の利用者名にしてください。",
-	"twnmp-signup-error-invalidpassword": "パスワードが無効です。",
 	"twnmp-signup-error-invalidemail": "このメールアドレスは有効ではないようです。有効なものを入力してください。",
 	"twnmp-signup-error-other": "利用者登録ができませんでした。サーバーが返したエラー: $1",
 	"twnmp-signup-error-unknown": "アカウントを作成できませんでした。理由は不明です。",

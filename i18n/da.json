@@ -46,7 +46,6 @@
 	"twnmp-create-account-button": "Opret en konto",
 	"twnmp-signup-error-invalidusername": "Dette Brugernavn er ikke tilgængeligt. Vælg venligst et andet.",
 	"twnmp-signup-error-nonfreeusername": "Dette brugernavn findes allerede. Vælg venligst et andet.",
-	"twnmp-signup-error-invalidpassword": "Adgangskoden er ugyldig.",
 	"twnmp-signup-error-invalidemail": "Dette ligner ikke en gyldig e-mailadresse. Angiv venligst en gyldig en.",
 	"twnmp-signup-error-other": "Tilmelding mislykkedes. Serveren returnerede en fejl: $1.",
 	"twnmp-signup-error-unknown": "Kontooprettelse mislykkedes af en ukendt årsag.",

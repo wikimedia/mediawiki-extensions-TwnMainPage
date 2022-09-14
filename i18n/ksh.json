@@ -45,7 +45,6 @@
 	"twnmp-create-account-button": "Donn ene neue Zohjang aanlääje",
 	"twnmp-signup-error-invalidusername": "Dä Nahme es nit ze han. Söhg_ene andere us.",
 	"twnmp-signup-error-nonfreeusername": "Dä Nahme jidd_et ald. Söhg_ene andere us.",
-	"twnmp-signup-error-invalidpassword": "Dat Paßwoot jeiht nit.",
 	"twnmp-signup-error-invalidemail": "Dat süht nit wi<sub>j</sub>en Adräß för de <i lang=\"en\" xml:lang=\"en\">e-mail</i> uß. Jivv_en reeschtejje aan, bes-esu joot.",
 	"twnmp-signup-error-other": "Et Aanmälde es donevve jejange. Dä Fähler es: $1.",
 	"twnmp-signup-error-unknown": "Et Aanmälde es donevve jejange. Mer weße ävver nit, woröm.",

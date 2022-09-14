@@ -42,7 +42,6 @@
 	"twnmp-create-account-button": "Esap bet jarat",
 	"twnmp-signup-error-invalidusername": "Bul paydalanıwshı atı jaramsız. Ótinish, basqasın saylań.",
 	"twnmp-signup-error-nonfreeusername": "Bul paydalanıwshı atı aldınnan bar. Ótinish, basqasın saylań.",
-	"twnmp-signup-error-invalidpassword": "Jasırın sóz jaramsız.",
 	"twnmp-signup-error-invalidemail": "Bul haqıyqıy elektron pochta adresine uqsamaydı. Ótinish, tuwrısın kiritiń.",
 	"twnmp-signup-error-other": "Dizimnen ótiw ámelge aspadı. Server qátelik júz berdi: $1.",
 	"twnmp-signup-error-unknown": "Belgisiz sebepke kóre esap jaratıp bolmadı.",

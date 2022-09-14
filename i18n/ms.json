@@ -45,7 +45,6 @@
 	"twnmp-create-account-button": "Buka akaun",
 	"twnmp-signup-error-invalidusername": "Nama pengguna ini tidak dibenarkan. Sila pilih nama yang lain.",
 	"twnmp-signup-error-nonfreeusername": "Nama pengguna ini sudah diambil. Sila pilih nama yang lain.",
-	"twnmp-signup-error-invalidpassword": "Kata laluan ini tidak sah.",
 	"twnmp-signup-error-invalidemail": "Alamat e-mel ini nampaknya tidak sah. Sila berikan alamat yang sah.",
 	"twnmp-signup-error-other": "Pendaftaran gagal Pelayan memulangkan ralat: $1.",
 	"twnmp-signup-error-unknown": "Pembukaan akaun gagal atas sebab yang tidak diketahui.",

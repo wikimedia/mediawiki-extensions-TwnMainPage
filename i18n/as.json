@@ -42,7 +42,6 @@
 	"twnmp-create-account-button": "একাউণ্ট সৃষ্টি কৰক",
 	"twnmp-signup-error-invalidusername": "এই সদস্যনাম উপলব্ধ নহয়। অনুগ্ৰহ কৰি, বেলেগ এটা বাছনি কৰক।",
 	"twnmp-signup-error-nonfreeusername": "এই সদস্যনাম ইতিমধ্যেই বিদ্যমান। অনুগ্ৰহ কৰি, বেলেগ এটা বাছনি কৰক।",
-	"twnmp-signup-error-invalidpassword": "গুপ্তশব্দটো অবৈধ।",
 	"twnmp-signup-error-invalidemail": "এইটো এটা বৈধ ই-মেইল ঠিকনা নহয় যেন লাগে। অনুগ্ৰহ কৰি, এটা বৈধ ঠিকনা প্ৰদান কৰক।",
 	"twnmp-signup-error-unknown": "একাউণ্ট সৃষ্টি এটা অজ্ঞাত কাৰণত ব্যৰ্থ হৈছে।",
 	"twnmp-become-translator": "অনুবাদক হওক",

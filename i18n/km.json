@@ -43,7 +43,6 @@
 	"twnmp-create-account-button": "បង្កើតគណនី",
 	"twnmp-signup-error-invalidusername": "អត្តនាមនេះមិនអាចប្រើបានទេ។ សូមជ្រើសរើសអត្តនាមមួយផ្សេងទៀត។",
 	"twnmp-signup-error-nonfreeusername": "អត្តនាមនេះមានគេប្រើហើយ។ សូមជ្រើសរើសអត្តនាមមួយផ្សេងទៀត។",
-	"twnmp-signup-error-invalidpassword": "ពាក្យសម្ងាត់គ្មានសុពលភាព",
 	"twnmp-signup-error-invalidemail": "អាសយដ្ឋានអ៊ីមែលដូចជាគ្មានសុពលភាពទេ។ សូមផ្ដល់អាសយដ្ឋានមានសុពលភាពមួយ។",
 	"twnmp-become-translator": "ក្លាយជាអ្នកប្រែសម្រួល",
 	"twnmp-choose-languages-you-know": "ជ្រើសរើសភាសាដែលអ្នកចេះ",

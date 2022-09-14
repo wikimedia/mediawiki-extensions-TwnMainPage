@@ -45,7 +45,6 @@
 	"twnmp-create-account-button": "کھاتہ بنائیں",
 	"twnmp-signup-error-invalidusername": "یہ صارف نام دستیاب نہیں، براہ کرم کوئی دوسرا صارف نام منتخب کریں۔",
 	"twnmp-signup-error-nonfreeusername": "یہ صارف نام پہلے ہی سے موجود ہے، براہ کرم کوئی دوسرا نام منتخب کریں۔",
-	"twnmp-signup-error-invalidpassword": "پاس ورڈ نادرست ہے۔",
 	"twnmp-signup-error-invalidemail": "یہ درست برقی ڈاک پتہ نہیں معلوم ہوتا، براہ کرم درست پتہ درج کریں۔",
 	"twnmp-signup-error-other": "کھاتہ بنانے میں ناکامی، نقص: $1۔",
 	"twnmp-signup-error-unknown": "نامعلوم وجوہ کی بنا پر کھاتہ سازی ناکام۔",

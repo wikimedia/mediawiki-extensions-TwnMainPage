@@ -46,7 +46,6 @@
 	"twnmp-create-account-button": "Kardi akun",
 	"twnmp-signup-error-invalidusername": "Parab anganggé puniki nénten kasedia. Durus pilih parab tiosan.",
 	"twnmp-signup-error-nonfreeusername": "Parab anganggé puniki sampun kaanggén. Durus pilih parab tiosan.",
-	"twnmp-signup-error-invalidpassword": "Kruna sandi nénten patut",
 	"twnmp-signup-error-invalidemail": "Kacingak puniki nénten alamat rerepél sané patut. Durus icain sané patut.",
 	"twnmp-signup-error-other": "Pendaptaran tan prasida. Peladén ngawaliang galat: $1.",
 	"twnmp-signup-error-unknown": "Pangardian akun tan kaprasida antuk hawanan sané nénten kauningin",

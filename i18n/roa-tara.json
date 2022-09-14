@@ -45,7 +45,6 @@
 	"twnmp-create-account-button": "Ccreje 'nu cunde utende",
 	"twnmp-signup-error-invalidusername": "Stu nome utende non g'è disponibbile. Pe piacere, scacchiane 'n'otre.",
 	"twnmp-signup-error-nonfreeusername": "Stu nome utende esiste ggià. Pe piacere, scacchiane 'n'otre.",
-	"twnmp-signup-error-invalidpassword": "'A passuord non g'è valide.",
 	"twnmp-signup-error-invalidemail": "Quiste non ge pare 'nu 'ndirizze email valide. Pe piacere, scacchiane 'n'otre.",
 	"twnmp-signup-error-other": "Reggistrazzione non riuscite. 'U server ave turnate st'errore: $1.",
 	"twnmp-signup-error-unknown": "'A ccrejazzione de l'utenze non ha riuscite pe 'nu mutive scanusciute.",

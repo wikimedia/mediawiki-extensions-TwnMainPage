@@ -48,7 +48,6 @@
 	"twnmp-create-account-button": "Gawé akun",
 	"twnmp-signup-error-invalidusername": "Jeneng naraguna iki ora ana. Mangga, piliha jeneng liya.",
 	"twnmp-signup-error-nonfreeusername": "Jeneng naraguna iki wis ana. Mangga, piliha jeneng liya.",
-	"twnmp-signup-error-invalidpassword": "Tembung sandiné ora trep.",
 	"twnmp-signup-error-invalidemail": "Kayané alamat layang-èlé ora trep. Mangga, isi mawa alamat layang-èl kang trep.",
 	"twnmp-signup-error-other": "Wurung ndhaftar. Ing paladèn ana masalah: $1",
 	"twnmp-signup-error-unknown": "Panggawéning akun ora dadi amarga jalaran kang ora konangan.",

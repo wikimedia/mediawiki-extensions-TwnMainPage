@@ -40,7 +40,6 @@
 	"twnmp-create-account-button": "Hasap döret",
 	"twnmp-signup-error-invalidusername": "Bu ulanyjy ady elýeterli däl. Başga birini saýlaň.",
 	"twnmp-signup-error-nonfreeusername": "Bu ulanyjy ady eýýäm bar. Başga birini saýlaň.",
-	"twnmp-signup-error-invalidpassword": "Parol nädogry",
 	"twnmp-signup-error-invalidemail": "Bu dogry e-poçta salgysyna meňzemeýär. Dogry birini bermegiňizi haýyş edýäris.",
 	"twnmp-signup-error-other": "Hasaba girmek şowsuz. Serwer ýalňyşlyk gaýtardy: $1.",
 	"twnmp-signup-error-unknown": "Hasap döretmek näbelli sebäplere görä şowsuz boldy.",

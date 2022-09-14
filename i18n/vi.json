@@ -47,7 +47,6 @@
 	"twnmp-create-account-button": "Mở tài khoản",
 	"twnmp-signup-error-invalidusername": "Tên người dùng này đã tồn tại. Vui lòng chọn tên khác.",
 	"twnmp-signup-error-nonfreeusername": "Tên người dùng này đã tồn tại. Xin vui lòng chọn một tên người dùng khác.",
-	"twnmp-signup-error-invalidpassword": "Mật khẩu không hợp lệ.",
 	"twnmp-signup-error-invalidemail": "Văn bản này không có giống địa chỉ thư điện tử hợp lệ. Xin vui lòng nhập mọt địa chỉ thư điện tử hợp lệ.",
 	"twnmp-signup-error-other": "Thất bại khi mở tài khoản. Máy chủ đã trả về lỗi này: $1.",
 	"twnmp-signup-error-unknown": "Thất bị khi mở tài khoản vì một lý do không rõ.",

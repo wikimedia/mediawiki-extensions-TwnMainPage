@@ -52,7 +52,6 @@
 	"twnmp-create-account-button": "建立帳號",
 	"twnmp-signup-error-invalidusername": "不可使用此使用者名稱，請選擇其他名稱。",
 	"twnmp-signup-error-nonfreeusername": "此使用者名稱已存在，請選擇其他名稱。",
-	"twnmp-signup-error-invalidpassword": "密碼不正確。",
 	"twnmp-signup-error-invalidemail": "這不是一個有效的電子郵件地址，請提供一個有效的電子郵件地址。",
 	"twnmp-signup-error-other": "註冊失敗，伺服器回應錯誤訊息：$1。",
 	"twnmp-signup-error-unknown": "因不明原因帳號建立失敗。",

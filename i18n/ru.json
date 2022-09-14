@@ -52,7 +52,6 @@
 	"twnmp-create-account-button": "Создать учётную запись",
 	"twnmp-signup-error-invalidusername": "Это имя участника недоступно. Пожалуйста, выберите другое.",
 	"twnmp-signup-error-nonfreeusername": "Это имя участника уже существует. Пожалуйста, выберите другое.",
-	"twnmp-signup-error-invalidpassword": "Пароль неверен",
 	"twnmp-signup-error-invalidemail": "Это не похоже на корректный адрес электронной почты. Пожалуйста, укажите корректный адрес.",
 	"twnmp-signup-error-other": "Регистрация не удалась. Сервер вернул ошибку: $1.",
 	"twnmp-signup-error-unknown": "Создание учётной записи не удалось по неизвестной причине.",

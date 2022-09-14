@@ -45,7 +45,6 @@
 	"twnmp-create-account-button": "Creer y cyfrif",
 	"twnmp-signup-error-invalidusername": "Nid yw'r enw hwn ar ddefnyddiwr ar gael. Byddwch gystal â dewis enw gwahanol.",
 	"twnmp-signup-error-nonfreeusername": "Mae'r enw hwn ar ddefnyddiwr eisoes yn cael ei ddefnyddio. Dewiswch enw gwahanol, os gwelwch yn dda.",
-	"twnmp-signup-error-invalidpassword": "Mae'r cyfrinair hwn yn annilys.",
 	"twnmp-signup-error-invalidemail": "Nid yw'r cyfeiriad ebost hwn yn ymddangos yn un dilys. Rhowch gyfeiriad dilys, os gwelwch yn dda.",
 	"twnmp-signup-error-other": "Ni lwyddodd y cofrestri. Adroddodd y gweinydd bod gwall i gael: $1.",
 	"twnmp-signup-error-unknown": "Nid yw'r rheswm dros aflwyddiant creu'r cyfrif yn hysbys.",

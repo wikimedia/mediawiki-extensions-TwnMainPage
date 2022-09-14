@@ -52,7 +52,6 @@
 	"twnmp-create-account-button": "Отвори налог",
 	"twnmp-signup-error-invalidusername": "Корисничко име није доступно. Изаберите друго.",
 	"twnmp-signup-error-nonfreeusername": "Корисничко име већ постоји. Изаберите друго.",
-	"twnmp-signup-error-invalidpassword": "Лозинка није важећа.",
 	"twnmp-signup-error-invalidemail": "Ово не личи на важећу имејл-адресу. Наведите важећу.",
 	"twnmp-signup-error-other": "Отварање налога није успело. Сервер је вратио грешку: $1",
 	"twnmp-signup-error-unknown": "Отварање налога није успело из непознатих разлога.",

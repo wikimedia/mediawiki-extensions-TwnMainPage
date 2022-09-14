@@ -45,7 +45,6 @@
 	"twnmp-create-account-button": "Nòtate",
 	"twnmp-signup-error-invalidusername": "Sto nome par ła to utensa no el xe disponìbiłe. Scrìvaghene on altro.",
 	"twnmp-signup-error-nonfreeusername": "Sto nome xa el existe. Scrìvaghene on altro.",
-	"twnmp-signup-error-invalidpassword": "Ła ciave no ła xe bona",
 	"twnmp-signup-error-invalidemail": "Sto cuà no el ne par èsar on inderiso email bon. Scrìvaghene on altro",
 	"twnmp-signup-error-other": "Notamento fałio. El sèrver el ga restituio on eror: $1",
 	"twnmp-signup-error-unknown": "Ła creasion de ła utensa ła xe fałia par na raxon sconosesta",

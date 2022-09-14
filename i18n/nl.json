@@ -51,7 +51,6 @@
 	"twnmp-create-account-button": "Registreren",
 	"twnmp-signup-error-invalidusername": "Deze gebruikersnaam is niet beschikbaar. Kies een andere.",
 	"twnmp-signup-error-nonfreeusername": "Deze gebruikersnaam bestaat al. Kies een andere.",
-	"twnmp-signup-error-invalidpassword": "Het wachtwoord is ongeldig",
 	"twnmp-signup-error-invalidemail": "Dit lijkt geen geldig e-mailadres. Geef een geldig e-mailadres op.",
 	"twnmp-signup-error-other": "Registeren is mislukt. De server gaf de volgende foutmelding: $1.",
 	"twnmp-signup-error-unknown": "Het aanmaken van het account is door een onbekende oorzaak mislukt.",

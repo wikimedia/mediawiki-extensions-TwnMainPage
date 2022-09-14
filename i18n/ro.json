@@ -47,7 +47,6 @@
 	"twnmp-create-account-button": "Creare cont",
 	"twnmp-signup-error-invalidusername": "Acest nume de utilizator nu este disponibil. Alegeți un altul.",
 	"twnmp-signup-error-nonfreeusername": "Acest nume de utilizator există deja. Alegeți un altul.",
-	"twnmp-signup-error-invalidpassword": "Parola nu este validă.",
 	"twnmp-signup-error-invalidemail": "Această adresă de e-mail nu pare validă. Indicați o adresă corectă.",
 	"twnmp-signup-error-other": "Înregistrarea nu a reușit. Serverul a returnat o eroare: $1.",
 	"twnmp-signup-error-unknown": "Crearea contului nu a reușit din cauza unui motiv necunoscut.",

@@ -49,7 +49,6 @@
 	"twnmp-create-account-button": "Benutzerkonto erstellen",
 	"twnmp-signup-error-invalidusername": "Dieser Benutzername ist nicht verfügbar. Bitte wähle einen anderen.",
 	"twnmp-signup-error-nonfreeusername": "Dieser Benutzername ist bereits vorhanden. Bitte wähle einen anderen.",
-	"twnmp-signup-error-invalidpassword": "Das Passwort ist ungültig",
 	"twnmp-signup-error-invalidemail": "Diese E-Mail-Adresse scheint nicht gültig zu sein. Bitte gib eine gültige an.",
 	"twnmp-signup-error-other": "Die Registrierung ist fehlgeschlagen. Der Server hat einen Fehler zurückgegeben: $1.",
 	"twnmp-signup-error-unknown": "Die Benutzerkontenerstellung ist aufgrund eines unbekannten Fehlers fehlgeschlagen.",

@@ -46,7 +46,6 @@
 	"twnmp-create-account-button": "အကောင့် ဖန်တီးရန်",
 	"twnmp-signup-error-invalidusername": "အသုံးပြုသူအမည်မှာ မရရှိနိုင်ပါ။ ကျေးဇူးပြု၍ အခြားတစ်ခုရွေးပါ။",
 	"twnmp-signup-error-nonfreeusername": "ဤအသုံးပြုသူအမည် ရှိနှင့်ပြီးဖြစ်သည်။ ကျေးဇူးပြု၍ အခြားတစ်ခု ရွေးပါ။",
-	"twnmp-signup-error-invalidpassword": "စကားဝှက်သည် မဆီလျော်ပါ။",
 	"twnmp-signup-error-invalidemail": "ဤသည်မှာ အီးမေးလ်လိပ်စာတစ်ခုနှင့် မတူပါ။ ဆီလျော်သောလိပ်စာတစ်ခု ထည့်ပေးပါ။",
 	"twnmp-signup-error-other": "မှတ်ပုံတင်ခြင်း မအောင်မြင်ပါ။ ဆာဗာဘက်မှ အမှားပြသည်မှာ: $1",
 	"twnmp-signup-error-unknown": "အမည်မသိရသော အကြောင်းပြချက်တစ်ခုအတွက် အကောင့်ဖန်တီးခြင်း မအောင်မြင်ပါ။",

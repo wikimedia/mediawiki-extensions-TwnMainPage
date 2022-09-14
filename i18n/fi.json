@@ -52,7 +52,6 @@
 	"twnmp-create-account-button": "Luo tunnus",
 	"twnmp-signup-error-invalidusername": "Tämä käyttäjänimi ei ole käytettävissä. Valitse toinen.",
 	"twnmp-signup-error-nonfreeusername": "Tämä käyttäjänimi on jo olemassa. Valitse toinen.",
-	"twnmp-signup-error-invalidpassword": "Salasana ei kelpaa.",
 	"twnmp-signup-error-invalidemail": "Tämä sähköpostiosoite ei ole kelvollinen. Anna kelvollinen sähköpostiosoite.",
 	"twnmp-signup-error-other": "Tunnuksen luonti epäonnistui. Palvelin palautti virheen: $1.",
 	"twnmp-signup-error-unknown": "Tunnuksen luonti epäonnistui tuntemattomasta syystä.",

@@ -52,7 +52,6 @@
 	"twnmp-create-account-button": "Hesab vıraz",
 	"twnmp-signup-error-invalidusername": "No nameyê karberi hewl niyo. Kerem ke, yewna bıgêre.",
 	"twnmp-signup-error-nonfreeusername": "No nameyê karberi xora esto. Kerem ke, yewna bıgêre.",
-	"twnmp-signup-error-invalidpassword": "Parola nêvêrena.",
 	"twnmp-signup-error-invalidemail": "Na adresa e-maili ravêrde nêasena. Kerem ke, yewna ravêrdiye cı ke.",
 	"twnmp-signup-error-other": "Qeydkerdış ser nêkewt. Serveri yew xeta çarnê we: $1.",
 	"twnmp-signup-error-unknown": "Hesabvıraştış seba yew sebebo nêzanıte ra ser nêkewt.",

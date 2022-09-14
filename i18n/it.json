@@ -49,7 +49,6 @@
 	"twnmp-create-account-button": "Registrati",
 	"twnmp-signup-error-invalidusername": "Questo nome utente non è disponibile. Scegline un altro.",
 	"twnmp-signup-error-nonfreeusername": "Questo nome utente esiste già. Scegline un altro.",
-	"twnmp-signup-error-invalidpassword": "La password non è valida.",
 	"twnmp-signup-error-invalidemail": "Questo non sembra essere un indirizzo email valido. Indicane uno valido.",
 	"twnmp-signup-error-other": "Registrazione non riuscita. Il server ha restituito un errore: $1.",
 	"twnmp-signup-error-unknown": "La creazione dell'utenza non è riuscita per un motivo sconosciuto.",

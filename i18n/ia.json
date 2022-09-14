@@ -45,7 +45,6 @@
 	"twnmp-create-account-button": "Crear conto",
 	"twnmp-signup-error-invalidusername": "Iste nomine de usator non es disponibile. Per favor, elige un altere.",
 	"twnmp-signup-error-nonfreeusername": "Iste nomine de usator jam existe. Per favor, elige un altere.",
-	"twnmp-signup-error-invalidpassword": "Le contrasigno non es valide.",
 	"twnmp-signup-error-invalidemail": "Isto non pare esser un adresse de e-mail valide. Per favor, forni un valide.",
 	"twnmp-signup-error-other": "Creation de conto fallite. Le servitor ha retornate un error: $1",
 	"twnmp-signup-error-unknown": "Le creation del conto ha fallite pro un ration incognite.",

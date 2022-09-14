@@ -40,7 +40,6 @@
 	"twnmp-create-account-button": "Irreġistra",
 	"twnmp-signup-error-invalidusername": "Dan l-isem l-utent mhuwiex disponibbli. Jekk jogħġbok, agħżel wieħed differenti.",
 	"twnmp-signup-error-nonfreeusername": "Dan isem l-utent diġà jeżisti. Jekk jogħġbok, agħżel wieħed differenti.",
-	"twnmp-signup-error-invalidpassword": "Il-password hi invalida.",
 	"twnmp-signup-error-invalidemail": "Dan ma jidhirx li huwa indirizz elettroniku validu. Jekk jogħġbok, agħti wieħed tajjeb.",
 	"twnmp-signup-error-other": "Ir-reġistrazzjonijiet ma setgħetx titkompla. Is-server irritorna dan l-iżball: $1.",
 	"twnmp-signup-error-unknown": "Il-ħolqien tal-kont ma rnexxiex għal raġuni mhux magħrufa.",

@@ -48,7 +48,6 @@
 	"twnmp-create-account-button": "Utwórz konto",
 	"twnmp-signup-error-invalidusername": "Ta nazwa użytkownika jest niedostępna. Proszę wybrać inną.",
 	"twnmp-signup-error-nonfreeusername": "Ta nazwa użytkownika już istnieje. Proszę wybrać inną.",
-	"twnmp-signup-error-invalidpassword": "Hasło jest nieprawidłowe.",
 	"twnmp-signup-error-invalidemail": "To nie wygląda na prawidłowy adres e-mail. Proszę podać prawidłowy.",
 	"twnmp-signup-error-other": "Rejestracja nie powiodła się. Serwer zwrócił błąd: $1.",
 	"twnmp-signup-error-unknown": "Utworzenie konta nie powiodło się z nieznanego powodu.",

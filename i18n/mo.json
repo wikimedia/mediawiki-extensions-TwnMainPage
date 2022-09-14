@@ -45,7 +45,6 @@
 	"twnmp-create-account-button": "Креаря контулуй",
 	"twnmp-signup-error-invalidusername": "Ачест нуме де утилизатор ну есте диспонибил, вэ ругэм сэ алеӂець алтул.",
 	"twnmp-signup-error-nonfreeusername": "Ачест нуме де утилизатор дежа екзистэ, вэ ругэм сэ алеӂець алтул.",
-	"twnmp-signup-error-invalidpassword": "Парола ну есте валидэ.",
 	"twnmp-signup-error-invalidemail": "Ачастэ адресэ де поштэ електроникэ ну паре валидэ. Вэ ругэм сэ индикаць о адресэ коректэ.",
 	"twnmp-signup-error-other": "Ынреӂистраря думнявоастрэ а ешуат. Серверул а ынторс ероаря: $1.",
 	"twnmp-signup-error-unknown": "Креаря контулуй а ешуат динтр'ун мотив некуноскут.",

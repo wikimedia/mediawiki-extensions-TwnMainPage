@@ -48,7 +48,6 @@
 	"twnmp-create-account-button": "Akkount oanmeitsje",
 	"twnmp-signup-error-invalidusername": "Dizze meidochnamme is net beskikber. Kies a.j.w. in oarenien.",
 	"twnmp-signup-error-nonfreeusername": "Dizze meidochnamme bestiet al. Kies a.j.w. in oarenien.",
-	"twnmp-signup-error-invalidpassword": "It wachtwurd is ûnjildich.",
 	"twnmp-signup-error-invalidemail": "Dit liket net op in jildich e-mailadres. Jou a.j.w. in jildigenien.",
 	"twnmp-signup-error-other": "Ynskriuwen net slagge. De server joech in flater: $1.",
 	"twnmp-signup-error-unknown": "It oanmeitsjen fan it akkount is om ûnbekende reden net slagge.",

@@ -46,7 +46,6 @@
 	"twnmp-create-account-button": "Направи сметка",
 	"twnmp-signup-error-invalidusername": "Тоа корисничко име е недостапно. Одберете друго.",
 	"twnmp-signup-error-nonfreeusername": "Ова корисничко име веќе постои. Одберете друго.",
-	"twnmp-signup-error-invalidpassword": "Лозинката е погрешна.",
 	"twnmp-signup-error-invalidemail": "Ова не личи на исправна е-пошта. Внесете точна.",
 	"twnmp-signup-error-other": "Зачленувањето не успеа. Опслужувачот ја даде грешката: $1.",
 	"twnmp-signup-error-unknown": "Создавањето на сметката не успеа од непозната причина.",

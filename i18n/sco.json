@@ -45,7 +45,6 @@
 	"twnmp-create-account-button": "Cræft accoont",
 	"twnmp-signup-error-invalidusername": "This uisername isna available. Please, pick ae different uisername.",
 	"twnmp-signup-error-nonfreeusername": "This uisername awreadie exeests. Please, pick ae different uisename.",
-	"twnmp-signup-error-invalidpassword": "The passwaird is onvalid.",
 	"twnmp-signup-error-invalidemail": "This ddisna luik like ae valid Wab-mail address. Please, gie ae valid yin.",
 	"twnmp-signup-error-other": "Signin up failed. The server returned ae mistak: $1.",
 	"twnmp-signup-error-unknown": "Accoont crzftin failed fer aen onkent raison.",

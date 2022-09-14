@@ -45,7 +45,6 @@
 	"twnmp-create-account-button": "Fiók létrehozása",
 	"twnmp-signup-error-invalidusername": "Ez a szerkesztőnév nem elérhető. Kérlek válassz egy másikat.",
 	"twnmp-signup-error-nonfreeusername": "Ilyen nevű szerkesztő már létezik. Kérlek, válassz egy másik nevet.",
-	"twnmp-signup-error-invalidpassword": "A jelszó nem megfelelő.",
 	"twnmp-signup-error-invalidemail": "Ez nem tűnik egy érvényes e-mail címnek. Kérlek adj meg egy érvényeset.",
 	"twnmp-signup-error-other": "A regisztráció sikertelen. A szerver hibát adott vissza: $1.",
 	"twnmp-signup-error-unknown": "A regisztráció ismeretlen ok miatt sikertelen.",

@@ -46,7 +46,6 @@
 	"twnmp-create-account-button": "Konto załožyś",
 	"twnmp-signup-error-invalidusername": "Toś to wužywarske mě njestoj k dispoziciji. Pšosym wubjeŕ druge.",
 	"twnmp-signup-error-nonfreeusername": "Toś to wužywarske mě južo eksistěrujo. Pšosym wubjeŕ druge.",
-	"twnmp-signup-error-invalidpassword": "Gronidło jo njepłaśiwe.",
 	"twnmp-signup-error-invalidemail": "Zda se, až to njejo płaśiwa e-mailowa adresa. Pšosym pódaj płaśiwu.",
 	"twnmp-signup-error-other": "Registrěrowanje njejo se raźiło. Serwer jo zmólku wrośił: $1.",
 	"twnmp-signup-error-unknown": "Napóranje konta njejo se z njeznateje pśicyny raźiło.",

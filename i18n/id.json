@@ -45,7 +45,6 @@
 	"twnmp-create-account-button": "Buat akun",
 	"twnmp-signup-error-invalidusername": "Nama pengguna ini tidak tersedia. Harap pilih nama lain.",
 	"twnmp-signup-error-nonfreeusername": "Nama pengguna ini sudah dipakai. Harap pilih nama lain.",
-	"twnmp-signup-error-invalidpassword": "Kata sandi tidak sah.",
 	"twnmp-signup-error-invalidemail": "Alamat surel ini nampaknya tidak benar. Harap berikan alamat yang sah.",
 	"twnmp-signup-error-other": "Pendaftaran gagal. Peladen mengembalikan galat: $1.",
 	"twnmp-signup-error-unknown": "Pembuatan akun gagal dengan alasan yang tak diketahui.",

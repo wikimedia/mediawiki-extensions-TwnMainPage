@@ -52,7 +52,6 @@
 	"twnmp-create-account-button": "계정 만들기",
 	"twnmp-signup-error-invalidusername": "이 사용자 계정 이름은 사용할 수 없습니다. 다른 이름을 고르세요.",
 	"twnmp-signup-error-nonfreeusername": "이 사용자 계정 이름은 이미 존재합니다. 다른 이름을 고르세요.",
-	"twnmp-signup-error-invalidpassword": "비밀번호가 잘못되었습니다.",
 	"twnmp-signup-error-invalidemail": "올바른 이메일 주소처럼 보이지 않습니다. 올바른 주소를 제공해주세요.",
 	"twnmp-signup-error-other": "가입에 실패했습니다. 서버가 오류를 반환했습니다: $1.",
 	"twnmp-signup-error-unknown": "계정 만들기가 알 수 없는 이유로 실패했습니다.",

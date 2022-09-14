@@ -46,7 +46,6 @@
 	"twnmp-create-account-button": "Criar ua cuonta",
 	"twnmp-signup-error-invalidusername": "Este nome de outelizador(a) nun stá çponible. Por fabor, scuolha un defrente.",
 	"twnmp-signup-error-nonfreeusername": "Este nome de outelizador(a) yá eisiste. Por fabor, scuolha un defrente.",
-	"twnmp-signup-error-invalidpassword": "La palabra-chabe nó ye bálida.",
 	"twnmp-signup-error-invalidemail": "Este nun parece ser un andereço de correio eiletrónico bálido. Por fabor, queloque un andereço bálido.",
 	"twnmp-signup-error-other": "La criaçon de la cuonta falhou. L serbidor retornou un erro: $1.",
 	"twnmp-signup-error-unknown": "La criaçon de la counta falhou por rezones çcoincidas.",

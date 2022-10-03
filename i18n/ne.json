@@ -4,7 +4,8 @@
 			"पर्वत सुबेदी",
 			"हिमाल सुबेदी",
 			"Bada Kaji",
-			"बडा काजी"
+			"बडा काजी",
+			"CAPTAIN MEDUSA"
 		]
 	},
 	"twnmp-desc": "translatewiki.net मुख्य पृष्ठ प्रदान गर्दछ",
@@ -61,5 +62,6 @@
 	"twnmp-join-community-reason": "तपाई किन सामेल हुन इच्छुक हुनुहुन्छ?",
 	"twnmp-create-account-cancel": "रद्द गर्नुहोस्",
 	"twnmp-join-community-info": "अहिले केही अनुवाद पेश गर्न सक्नुहुन्न? तपाईं अझै पनि सामेल हुन सक्नुहुन्छ।",
+	"twnmp-stats-number-k": "$1 हजार",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|सन्देश|$1 सन्देशहरू}}"
 }

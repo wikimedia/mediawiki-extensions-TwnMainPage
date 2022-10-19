@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"TayfunEt."
+		]
+	},
+	"twnmp-mainpage": "Baş saife",
+	"twnmp-s-languages": "Aktif {{PLURAL:$1|til}}",
+	"twnmp-login": "Kiriş",
+	"twnmp-logout": "Çıqış",
+	"twnmp-bottom-languages-supported": "Desteklengen tiller",
+	"twnmp-bottom-about": "Aqqında",
+	"twnmp-signup-username-placeholder": "Qullanıncı adı",
+	"twnmp-signup-password-placeholder": "Parol",
+	"twnmp-signup-email-placeholder": "E-mail",
+	"twnmp-create-account-button": "Qayd oluv",
+	"twnmp-create-account-cancel": "Lâğu"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"TayfunEt."
+		]
+	},
+	"twnmp-mainpage": "Паш пит",
+	"twnmp-login": "Кергәле",
+	"twnmp-logout": "Цыҡҡалы",
+	"twnmp-signup-username-placeholder": "Ҡатнашыуцының исеме",
+	"twnmp-signup-password-placeholder": "Пароль",
+	"twnmp-create-account-cancel": "Пулмайын иткәле"
+}

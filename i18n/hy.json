@@ -3,17 +3,22 @@
 		"authors": [
 			"Kareyac",
 			"Vadgt",
-			"Xelgen"
+			"Xelgen",
+			"Սերգեյ Սաֆարյան"
 		]
 	},
 	"twnmp-mainpage": "Գլխավոր էջ",
+	"twnmp-s-translators": "{{PLURAL:$1|թարգմանիչ}}",
+	"twnmp-s-projects": "{{PLURAL:$1|նախագիծ}}",
+	"twnmp-s-languages": "{{PLURAL:$1|ակտիվ լեզու}}",
+	"twnmp-s-messages": "Թարգմանելու {{PLURAL:$1|հաղորդագրություն}}",
 	"twnmp-bannerwho": "Պատկեր $1",
 	"twnmp-show-more-projects": "Ցուցադրել բոլոր նախագծերը ...",
 	"twnmp-login": "Մուտք գործել",
 	"twnmp-logout": "Դուրս գալ",
 	"twnmp-search-placeholder": "Գտնել և ուղղել թարգմանությունները",
 	"twnmp-search-button": "Գտնել",
-	"twnmp-search-choose-project": "Ընտրեք նախագիծ թարգմանության համար",
+	"twnmp-search-choose-project": "Նախագիծ ընտրեք թարգմանության համար",
 	"twnmp-translate-link": "Թարգմանություն",
 	"twnmp-translate-button": "Թարգմանություն",
 	"twnmp-your-translations-stats": "Ձեր թարգմանությունների վիճակագրությունը",

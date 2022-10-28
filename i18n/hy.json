@@ -35,8 +35,14 @@
 	"twnmp-bottom-help": "Օգնություն",
 	"twnmp-bottom-support": "Աջակցություն",
 	"twnmp-bottom-languages-supported": "Աջակցվող լեզուներ",
+	"twnmp-signup-username-placeholder": "Օգտանուն",
 	"twnmp-signup-password-placeholder": "Գաղտնաբառ",
 	"twnmp-signup-email-placeholder": "Էլ. փոստ",
 	"twnmp-create-account-button": "Ստեղծել հաշիվ",
-	"twnmp-create-account-cancel": "Չեղարկել"
+	"twnmp-become-translator": "Թարգմանիչ դառնալ",
+	"twnmp-choose-languages-you-know": "Ընտրեք լեզուներ, որոնք գիտեք",
+	"twnmp-choose-another-language": "Այլ լեզու ընտրեք...",
+	"twnmp-choose-fill-account-details": "Մուտքագրեք Ձեր հաշվի տվյալները",
+	"twnmp-create-account-cancel": "Չեղարկել",
+	"twnmp-join-community-info": "Այս պահին չե՞ք կարող թարգմանություններ ներկայացնել։ Այնուամենայնիվ կարող եք միանալ։"
 }

@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Abbas dhothar",
-			"BukhariSaeed"
+			"BukhariSaeed",
+			"Bgo eiu"
 		]
 	},
-	"twnmp-translate-button": "ترجمہ",
+	"twnmp-translate-button": "ترجمہ کرو",
 	"twnmp-translations-per-month": "{{PLURAL:$1|ترجمے}}/مہینہ",
-	"twnmp-create-account-button": "کھاتہ بناؤ",
+	"twnmp-create-account-button": "کھاتہ بݨاؤ",
 	"twnmp-create-account-cancel": "رد کرو"
 }

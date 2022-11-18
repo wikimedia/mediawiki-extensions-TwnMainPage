@@ -16,7 +16,7 @@
 	},
 	"twnmp-desc": "Fournit la page principale de translatewiki.net",
 	"twnmp-mainpage": "Accueil",
-	"twnmp-s-translators": "{{PLURAL:$1|Traducteur|Traducteurs}}",
+	"twnmp-s-translators": "Traducteur{{PLURAL:$1||s}} ou traductrice{{PLURAL:$1||s}}",
 	"twnmp-s-projects": "{{PLURAL:$1|Projet|Projets}}",
 	"twnmp-s-languages": "{{PLURAL:$1|Langue active|Langues actives}}",
 	"twnmp-s-messages": "{{PLURAL:$1|Message|Messages}} à traduire",

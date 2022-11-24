@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kimberli Mäkäräinen (WMNO)",
 			"Pyscowicz",
 			"Yupik"
 		]
@@ -11,8 +12,8 @@
 	"twnmp-s-projects": "{{PLURAL:$1|prošeakta|prošeavtta}}",
 	"twnmp-bannerwho": "Govva $1",
 	"twnmp-show-more-projects": "Čájet buot prošeavttaid...",
-	"twnmp-login": "Logge sisa",
-	"twnmp-logout": "Logge olggos",
+	"twnmp-login": "Čálit sisa",
+	"twnmp-logout": "Čálit olggos",
 	"twnmp-search-placeholder": "Oza ja divo jorgalusaid",
 	"twnmp-search-button": "Oza",
 	"twnmp-translate-link": "Jorgal",

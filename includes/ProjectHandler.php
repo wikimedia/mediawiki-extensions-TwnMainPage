@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\Extension\Translate\MessageGroupProcessing\MessageGroups;
+
 /**
  * Helper for project handling.
  *
@@ -18,7 +21,7 @@ class ProjectHandler {
 		$cacheKey = $cache->makeKey( __METHOD__ );
 		$ids = $cache->get( $cacheKey );
 		if ( is_array( $ids ) ) {
-			$projects = array_map( 'MessageGroups::getGroup', $ids );
+			$projects = array_map( [ MessageGroups::class, 'getGroup' ], $ids );
 			$projects = array_filter( $projects );
 			return $projects;
 		}

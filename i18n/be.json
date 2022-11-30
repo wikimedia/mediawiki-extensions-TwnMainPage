@@ -6,14 +6,15 @@
 			"Irus",
 			"ZlyiLev",
 			"No Sleep till Krupki",
-			"Tomato Cream"
+			"Tomato Cream",
+			"Maksim L."
 		]
 	},
 	"twnmp-desc": "Прадастаўляе галоўную старонку translatewiki.net",
 	"twnmp-mainpage": "Галоўная старонка",
 	"twnmp-s-translators": "{{PLURAL:$1|перакладчыкаў}}",
 	"twnmp-s-projects": "{{PLURAL:$1|праект|праекты|праектаў}}",
-	"twnmp-s-languages": "{{PLURAL:$1|актыўная мова|актыўныя мовы|актыўных моваў}}",
+	"twnmp-s-languages": "{{PLURAL:$1|актыўная мова|актыўныя мовы|актыўных моў}}",
 	"twnmp-s-messages": "{{PLURAL:$1|паведамленняў}} да перакладу",
 	"twnmp-bannerwho": "Выява $1",
 	"twnmp-show-more-projects": "Паказаць усе праекты...",
@@ -30,7 +31,7 @@
 	"twnmp-proofread-button": "Вычытваць",
 	"twnmp-view-button": "Паглядзець пераклады",
 	"twnmp-your-translations-stats": "Ваша статыстыка перакладу",
-	"twnmp-your-translations-stats-all-languages": "Для ўсіх моваў",
+	"twnmp-your-translations-stats-all-languages": "Для ўсіх моў",
 	"twnmp-your-view-language-stats": "Праглядзець моўную статыстыку",
 	"twnmp-translations-per-month": "{{PLURAL:$1|пераклад|пераклады|перакладаў}}/месяц",
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Пераклады}}",

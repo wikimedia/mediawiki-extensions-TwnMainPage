@@ -24,7 +24,7 @@
 	"twnmp-translate-button": "Tõlgi",
 	"twnmp-proofread-button": "Vaata üle",
 	"twnmp-view-button": "Vaata tõlkeid",
-	"twnmp-your-translations-stats": "Sinu tõlke arvandmed",
+	"twnmp-your-translations-stats": "Sinu tõlkimise arvandmed",
 	"twnmp-your-view-language-stats": "Vaata keele arvandmeid",
 	"twnmp-translations-per-month": "{{PLURAL:$1|tõlge|tõlget}} kuus",
 	"twnmp-reviews-per-month": "{{PLURAL:$1|ülevaatus|ülevaatust}} kuus",

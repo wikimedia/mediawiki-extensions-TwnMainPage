@@ -8,7 +8,7 @@
 	"twnmp-mainpage": "Ouddseidd",
 	"twnmp-s-translators": "{{PLURAL:$1|jåårǥlõʹtti|jåårǥlõʹtti|jåårǥlõʹttjed}}",
 	"twnmp-s-projects": "{{PLURAL:$1|projeʹktt|projeeʹkt|projeʹktted}}",
-	"twnmp-s-languages": "aktiivlaž {{PLURAL:$1|ǩiõll|ǩiõl|ǩiõllâd}}",
+	"twnmp-s-languages": "{{PLURAL:$1|aktiivlaž ǩiõll|aktiivlaž ǩiõl|aktiivlaž ǩiõllâd}}",
 	"twnmp-s-messages": "{{PLURAL:$1|saakk|saaǥǥ|saakkâd}} jåårǥlâʹttemnalla",
 	"twnmp-bannerwho": "Snimldõk $1",
 	"twnmp-show-more-projects": "Čuäʹjet puk projeeʹktid...",

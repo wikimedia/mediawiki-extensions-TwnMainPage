@@ -11,6 +11,7 @@
 use MediaWiki\Extension\Translate\MessageGroupProcessing\MessageGroups;
 use MediaWiki\Extension\Translate\Services;
 use MediaWiki\Extension\Translate\TranslatorSandbox\TranslationStashReader;
+use MediaWiki\Extension\Translate\Utilities\Utilities;
 use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
 
@@ -133,7 +134,7 @@ class SpecialTwnMainPage extends SpecialPage {
 		$sitemottoEsc = $this->msg( 'twnmp-brand-motto' )->escaped();
 
 		$code = $this->getLanguage()->getCode();
-		$languageName = TranslateUtils::getLanguageName( $code, $code );
+		$languageName = Utilities::getLanguageName( $code, $code );
 		$params = [
 			'href' => '#',
 			'class' => 'uls-trigger',
@@ -578,7 +579,7 @@ HTML;
 		$this->getOutput()->addModules( 'ext.translate.mainpage.signup' );
 
 		$languageCode = $this->getLanguage()->getCode();
-		$languageName = TranslateUtils::getLanguageName( $languageCode, $languageCode );
+		$languageName = Utilities::getLanguageName( $languageCode, $languageCode );
 
 		$defaultLanguage = Xml::checkLabel(
 			$languageName,
@@ -687,7 +688,7 @@ HTML;
 
 	public function loggedInWidget() {
 		$languageCode = $this->getLanguage()->getCode();
-		$languageName = TranslateUtils::getLanguageName( $languageCode, $languageCode );
+		$languageName = Utilities::getLanguageName( $languageCode, $languageCode );
 
 		$groupsSourceLanguage = MessageGroups::haveSingleSourceLanguage(
 			MessageGroups::getAllGroups()
@@ -763,7 +764,7 @@ HTML;
 			$languageName = '';
 		} else {
 			$translationStatsRankingMsg = 'twnmp-translations-translator-ranking';
-			$languageName = TranslateUtils::getLanguageName( $languageForStats, $languageForStats );
+			$languageName = Utilities::getLanguageName( $languageForStats, $languageForStats );
 		}
 
 		$myuser = $this->getUser()->getName();

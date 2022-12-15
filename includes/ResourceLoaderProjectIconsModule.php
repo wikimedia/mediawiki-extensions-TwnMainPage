@@ -7,6 +7,7 @@
  * @license GPL2+
  */
 
+use MediaWiki\Extension\Translate\Utilities\Utilities;
 use Wikimedia\AtEase\AtEase;
 
 /**
@@ -26,7 +27,7 @@ class ResourceLoaderProjectIconsModule extends ResourceLoaderModule {
 		foreach ( $projects as $group ) {
 			AtEase::suppressWarnings();
 			$id = Sanitizer::escapeClass( $group->getId() );
-			$icons[$id] = TranslateUtils::getIcon( $group, 100 );
+			$icons[$id] = Utilities::getIcon( $group, 100 );
 			AtEase::restoreWarnings();
 		}
 

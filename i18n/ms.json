@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Anakmalaysia"
+			"Anakmalaysia",
+			"Tofeiku"
 		]
 	},
 	"twnmp-desc": "Menyediakan halaman utama translatewiki.net",
@@ -27,7 +28,7 @@
 	"twnmp-your-translations-stats": "Statistik penterjemahan anda",
 	"twnmp-your-translations-stats-all-languages": "Untuk semua bahasa",
 	"twnmp-your-view-language-stats": "Lihat statistik bahasa",
-	"twnmp-translations-per-month": "Terjemahan sebulan",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Terjemahan}}/bulan",
 	"twnmp-translations-in-sandbox": "Terjemahan",
 	"twnmp-reviews-per-month": "Semakan sebulan",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Anda satu-satunya<br />penterjemah untuk $4|{{GENDER:$1|Nombor}} $2 daripada $3 orang<br />penterjemah untuk $4}}",

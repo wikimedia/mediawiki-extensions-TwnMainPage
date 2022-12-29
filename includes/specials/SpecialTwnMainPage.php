@@ -11,6 +11,7 @@
 use MediaWiki\Extension\Translate\Services;
 use MediaWiki\Extension\Translate\TranslatorSandbox\TranslationStashReader;
 use MediaWiki\MainConfigNames;
+use MediaWiki\MediaWikiServices;
 
 /**
  * Provides the main page with stats and stuff.
@@ -450,9 +451,10 @@ HTML;
 		$res = $dbr->select( $tables, $fields, $conds, __METHOD__, $options );
 
 		$count = 0;
+		$languageNameUtils = MediaWikiServices::getInstance()->getLanguageNameUtils();
 		foreach ( $res as $row ) {
 			// @todo FIXME: This has awful performance
-			if ( Language::isKnownLanguageTag( $row->lang ) ) {
+			if ( $languageNameUtils->isKnownLanguageTag( $row->lang ) ) {
 				$count++;
 			}
 		}

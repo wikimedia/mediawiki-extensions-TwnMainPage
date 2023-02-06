@@ -1,8 +1,32 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robin van der Vliet"
+			"Robin van der Vliet",
+			"Tbodt"
 		]
 	},
-	"twnmp-mainpage": "lipu open"
+	"twnmp-mainpage": "lipu open",
+	"twnmp-s-translators": "{{PLURAL:$1|jan mute li ante toki}}",
+	"twnmp-s-projects": "{{PLURAL:$1|ijo suli mute li kama toki ante}}",
+	"twnmp-s-languages": "{{PLURAL:$1|pali li lon toki mute}}",
+	"twnmp-s-messages": "{{PLURAL:$1|toki lili mute o toki ante}}",
+	"twnmp-bannerwho": "sitelen la $1",
+	"twnmp-show-more-projects": "o lukin e pali suli ale...",
+	"twnmp-brand-motto": "la jan ale li ante toki e ilo pi jan ale",
+	"twnmp-login": "o lon sijelo",
+	"twnmp-logout": "o weka tan sijelo",
+	"twnmp-search-placeholder": "o alasa e toki o pona e ona",
+	"twnmp-search-button": "o alasa",
+	"twnmp-search-choose-project": "sina wile ante toki e seme?",
+	"twnmp-translate-link": "o ante e toki",
+	"twnmp-proofread-link": "o lukin e toki",
+	"twnmp-translate-button": "o ante e toki",
+	"twnmp-proofread-button": "o lukin e toki",
+	"twnmp-your-translations-stats": "pali sina li mute ni lon...",
+	"twnmp-your-translations-stats-all-languages": "toki ale",
+	"twnmp-translations-per-month": "sina ante e {{PLURAL:$1|toki pi mute ni}} lon tenpo mun",
+	"twnmp-translations-in-sandbox": "sina ante e {{PLURAL:$1|toki pi mute ni}}",
+	"twnmp-reviews-per-month": "sina lukin e {{PLURAL:$1|toki pi mute ni}} lon tenpo mun",
+	"twnmp-translations-translator-ranking": "$4 la<br />{{PLURAL:$3|1=sina taso li pali|ni li mute #$2 lon jan pali $3{{GENDER:$1|}}}}",
+	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=sina taso li pali|ni li mute #$2 lon jan pali $3{{GENDER:$1|}}}}"
 }

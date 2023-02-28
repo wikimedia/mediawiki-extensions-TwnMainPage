@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nurlan"
+			"Nurlan",
+			"Ajiniyaz Nurniyazov"
 		]
 	},
 	"twnmp-desc": "translatewiki.net bas betiniń awdarması",
@@ -24,7 +25,7 @@
 	"twnmp-translate-button": "Awdarıw",
 	"twnmp-proofread-button": "Tekseriw",
 	"twnmp-view-button": "Awdarmalardı tekseriw",
-	"twnmp-your-translations-stats": "Sizdiń awdarmalaw statistikańız",
+	"twnmp-your-translations-stats": "Siziń awdarmalaw statistikańız",
 	"twnmp-your-translations-stats-all-languages": "Basqa tiller ushın",
 	"twnmp-your-view-language-stats": "Til statistikaların kóriw",
 	"twnmp-translations-per-month": "{{PLURAL:$1|Awdarma}}/ayına",

@@ -3,7 +3,8 @@
 		"authors": [
 			"Les Meloures",
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Volvox"
 		]
 	},
 	"twnmp-desc": "Stellt d'translatewiki.net-Haaptsäit zur Verfügung",
@@ -50,7 +51,7 @@
 	"twnmp-signup-error-invalidpassword": "D'Passwuert ass net valabel.",
 	"twnmp-signup-error-invalidemail": "Dëst gesäit net aus wéi eng valabel E-Mail-Adress. Gitt wgl. eng valabel un.",
 	"twnmp-become-translator": "Iwwersetzer ginn",
-	"twnmp-choose-languages-you-know": "Sproochen eraussichen déi Dir kënnt",
+	"twnmp-choose-languages-you-know": "Sproochen eraussichen, déi Dir kënnt",
 	"twnmp-choose-another-language": "Eng aner Sprooch eraussichen...",
 	"twnmp-choose-fill-account-details": "Gitt d'Detailer vu Ärem Benotzerkont an",
 	"twnmp-join-community": "Maacht bei eis mat",

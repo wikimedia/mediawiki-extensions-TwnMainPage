@@ -771,10 +771,8 @@ HTML;
 
 		$out = Html::openElement( 'form', [
 			'class' => 'row ranking',
-			'action' => SpecialPage::getTitleFor( 'Translate' )->getLocalURL(),
+			'action' => SpecialPage::getTitleFor( 'LanguageStats' )->getLocalURL(),
 		] );
-		$out .= Html::hidden( 'action', 'translate' );
-		$out .= Html::hidden( 'group', '!additions' );
 		$out .= Html::openElement( 'div', [ 'class' => 'row eight columns' ] );
 		$stats = $statsArray['translators'];
 		$i = 1;

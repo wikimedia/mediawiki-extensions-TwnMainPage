@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Har-wradim",
+			"Pacha Tchernof",
 			"פוילישער"
 		]
 	},
@@ -41,7 +42,7 @@
 	"twnmp-bottom-about": "וועגן",
 	"twnmp-signup-username-placeholder": "באַניצער נאָמען",
 	"twnmp-signup-password-placeholder": "פאַסווארט",
-	"twnmp-signup-email-placeholder": "ע-פאסט",
+	"twnmp-signup-email-placeholder": "בליצפּאָסט",
 	"twnmp-create-account-button": "שאַפֿן אַ קאנטע",
 	"twnmp-signup-error-invalidusername": "דעם באניצער־נאמען קען מען נישט ניצן. זײַט אזוי גוט קלויבט אן אנדערן.",
 	"twnmp-signup-error-nonfreeusername": "דער באניצער־נאמען איז שוין פֿאראן. זײַט אזוי גוט קלויבט אויס אן אנדערן.",

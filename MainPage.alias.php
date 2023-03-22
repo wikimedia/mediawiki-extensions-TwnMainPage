@@ -148,11 +148,6 @@ $specialPageAliases['vi'] = [
 	'TwnMainPage' => [ 'Trang_Chính' ],
 ];
 
-/** Chinese (中文) */
-$specialPageAliases['zh'] = [
-	'TwnMainPage' => [ '首页', '主页', '首頁', '主頁' ],
-];
-
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = [
 	'TwnMainPage' => [ '首页', '第一步' ],
@@ -160,5 +155,5 @@ $specialPageAliases['zh-hans'] = [
 
 /** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = [
-	'TwnMainPage' => [ '主頁' ],
+	'TwnMainPage' => [ '首頁', '第一步' ],
 ];

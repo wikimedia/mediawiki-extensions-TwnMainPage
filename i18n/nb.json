@@ -3,6 +3,7 @@
 		"authors": [
 			"Cocu",
 			"Danmichaelo",
+			"EdoAug",
 			"Jon Harald Søby",
 			"Njardarlogar"
 		]
@@ -14,7 +15,7 @@
 	"twnmp-s-languages": "{{PLURAL:$1|aktivt|aktive}} språk",
 	"twnmp-s-messages": "{{PLURAL:$1|melding|meldinger}} å oversette",
 	"twnmp-bannerwho": "Bilde $1",
-	"twnmp-show-more-projects": "Vis alle prosjekter...",
+	"twnmp-show-more-projects": "Vis alle prosjekter ...",
 	"twnmp-brand-motto": "Åpen kildekode-oversettelsesfelleskap",
 	"twnmp-login": "Logg inn",
 	"twnmp-logout": "Logg ut",
@@ -53,7 +54,7 @@
 	"twnmp-signup-error-unknown": "Kontooppretting mislyktes av ukjent grunn.",
 	"twnmp-become-translator": "Bli en oversetter",
 	"twnmp-choose-languages-you-know": "Velg språk du kan",
-	"twnmp-choose-another-language": "Velg et annet språk...",
+	"twnmp-choose-another-language": "Velg et annet språk ...",
 	"twnmp-choose-fill-account-details": "Fyll inn kontodetaljene dine",
 	"twnmp-join-community": "Bli med i fellesskapet",
 	"twnmp-join-community-desc": "Du er også velkommen om du er en utvikler som er interessert i å dokumentere oversettelser eller utforske plattformen.",

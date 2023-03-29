@@ -487,7 +487,7 @@ a.langstats-link {
 	background-color: #fff;
 }
 
-.twn-mainpage-search:before {
+.twn-mainpage-search::before {
 	display: inline-block;
 	content: '';
 	background: #252525 url( ../images/search.png ) no-repeat scroll left center;
@@ -584,7 +584,7 @@ button.same-language-uls-trigger {
 	float: right;
 }
 
-.same-language-uls-trigger:after {
+.same-language-uls-trigger::after {
 	content: '';
 	border-top: 4px solid #aaa;
 	border-left: 4px solid transparent;
@@ -595,8 +595,8 @@ button.same-language-uls-trigger {
 }
 
 /* Override group selector css to avoid pointing triangle */
-div.ext-translate-msggroup-selector-menu:after,
-div.ext-translate-msggroup-selector-menu:before {
+div.ext-translate-msggroup-selector-menu::after,
+div.ext-translate-msggroup-selector-menu::before {
 	display: none;
 }
 
@@ -617,7 +617,7 @@ div.ext-translate-msggroup-selector-menu:before {
 	border-radius: 2px;
 }
 
-.twnmp-signup-error:before {
+.twnmp-signup-error::before {
 	content: '';
 	display: inline-block;
 	border-bottom: 5px solid #cf1c1f;

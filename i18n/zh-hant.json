@@ -9,6 +9,7 @@
 			"Liuxinyu970226",
 			"Simon Shek",
 			"Tranve",
+			"Winston Sung",
 			"列维劳德"
 		]
 	},
@@ -25,7 +26,7 @@
 	"twnmp-logout": "登出",
 	"twnmp-search-placeholder": "搜尋並修正翻譯",
 	"twnmp-search-button": "搜尋",
-	"twnmp-search-choose-project": "請選擇一個專案翻譯",
+	"twnmp-search-choose-project": "請選擇要翻譯的專案",
 	"twnmp-translate-link": "翻譯",
 	"twnmp-proofread-link": "檢閱",
 	"twnmp-view-link": "檢視翻譯",

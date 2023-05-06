@@ -86,7 +86,7 @@ class SpecialTwnMainPage extends SpecialPage {
 
 		// Enable this if you need useful debugging information
 		// $out->addHtml( MWDebug::getDebugHTML( $this->getContext() ) );
-		Hooks::run( 'BeforePageDisplay', [ &$out, &$skin ] );
+		$this->getHookContainer()->run( 'BeforePageDisplay', [ &$out, &$skin ] );
 		$out->addModuleStyles( 'jquery.uls.grid' );
 		$out->addModuleStyles( 'ext.translate.mainpage.styles' );
 		$out->addModuleStyles( 'mediawiki.ui.button' );

@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"TayfunEt."
+			"TayfunEt.",
+			"Don Alessandro",
+			"Zolgoyo"
 		]
 	},
 	"twnmp-mainpage": "Baş saife",
-	"twnmp-s-languages": "Aktif {{PLURAL:$1|til}}",
+	"twnmp-s-languages": "Faal {{PLURAL:$1|til}}",
 	"twnmp-login": "Kiriş",
 	"twnmp-logout": "Çıqış",
 	"twnmp-bottom-languages-supported": "Desteklengen tiller",

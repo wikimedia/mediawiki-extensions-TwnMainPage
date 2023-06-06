@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Zolgoyo"
+		]
+	},
+	"twnmp-mainpage": "Baş saypa",
+	"twnmp-s-translators": "{{PLURAL:$1|Tercüman}}",
+	"twnmp-s-projects": "{{PLURAL:$1|Leyha}}",
+	"twnmp-s-languages": "Aktif {{PLURAL:$1|tĭl}}",
+	"twnmp-s-messages": "Tercüme etmek üşĭn {{PLURAL:$1|Qaber}}",
+	"twnmp-bannerwho": "Resim: $1",
+	"twnmp-show-more-projects": "Putun leyhalardı köster...",
+	"twnmp-brand-motto": "Aşıq menba tercüme cemiyetĭ",
+	"twnmp-login": "Kĭrĭş",
+	"twnmp-logout": "Şıqış",
+	"twnmp-search-placeholder": "Tercüme tapuw bĭrde tüzetüw",
+	"twnmp-search-button": "Tap",
+	"twnmp-search-choose-project": "Tercüme üşĭn leyha sayla",
+	"twnmp-translate-link": "Tercüme et",
+	"twnmp-proofread-link": "Közden keşĭr",
+	"twnmp-translate-button": "Tercüme et",
+	"twnmp-proofread-button": "Közden keşĭr",
+	"twnmp-your-translations-stats": "Tercüme statiklerĭñĭz",
+	"twnmp-your-translations-stats-all-languages": "Putun tĭller üşĭn",
+	"twnmp-bottom-help": "Yardım",
+	"twnmp-bottom-support": "Destek",
+	"twnmp-bottom-languages-supported": "Desteklengen tĭller",
+	"twnmp-bottom-about": "Haqqında",
+	"twnmp-signup-username-placeholder": "Qullanuwşı adı",
+	"twnmp-signup-password-placeholder": "Parola",
+	"twnmp-signup-email-placeholder": "E-mail",
+	"twnmp-create-account-button": "Hesap yasa",
+	"twnmp-create-account-cancel": "Wazkeş"
+}

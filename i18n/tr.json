@@ -4,7 +4,8 @@
 			"BaRaN6161 TURK",
 			"McAang",
 			"Meelo",
-			"Vito Genovese"
+			"Vito Genovese",
+			"Joseph"
 		]
 	},
 	"twnmp-desc": "translatewiki.net ana sayfasının çevirilerini sağlar",
@@ -33,7 +34,7 @@
 	"twnmp-translations-per-month": "{{PLURAL:$1|Çeviri}}/ay",
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Çeviri}}",
 	"twnmp-reviews-per-month": "{{PLURAL:$1|İnceleme}}/ay",
-	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=$4 dilinde sadece siz<br />çevirmensiniz|$4 dilinde $3 çevirmenden $2. {{GENDER:$1|sıradasınız}}<br />}}",
+	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=$4 için<br />sadece siz varsınız|$4 için<br />$3 kişiden $2. {{GENDER:$1|sıradasınız}}}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Sadece siz çevirmensiniz|$3 çevirmenden $2. {{GENDER:$1|sıradasınız}}}}",
 	"twnmp-add-project": "Çevrilmesi için açık kaynak projenizi ekleyin",
 	"twnmp-sandboxed": "Kaydınızı tamamlamak için {{PLURAL:$1|0=bir|fazla}} çevirileri girmelisiniz.",

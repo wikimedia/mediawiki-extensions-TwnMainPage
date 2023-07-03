@@ -6,9 +6,9 @@
 	},
 	"twnmp-desc": "translatewiki.net башкы барагын камсыздайт",
 	"twnmp-mainpage": "Башкы барак",
-	"twnmp-s-translators": "{{PLURAL:$1|Котормочу}}",
-	"twnmp-s-projects": "{{PLURAL:$1|Долбоор}}",
-	"twnmp-s-messages": "Которуу үчүн {{PLURAL:$1|билдирүү}}",
+	"twnmp-s-translators": "{{PLURAL:$1|КОТОРМОЧУ}}",
+	"twnmp-s-projects": "{{PLURAL:$1|ДОЛБООР}}",
+	"twnmp-s-messages": "{{PLURAL:$1|БИЛДИРҮҮ}} КОТОРУУГА ЖЕТКИЛИКТҮҮ",
 	"twnmp-show-more-projects": "Бардык долбоорлорду көрсөтүү...",
 	"twnmp-login": "Кирүү",
 	"twnmp-logout": "Чыгуу",
@@ -38,6 +38,6 @@
 	"twnmp-join-community": "Жамаатка кошулуу",
 	"twnmp-join-community-reason": "Эмне үчүн кошулууга кызыкдарсыз ?",
 	"twnmp-create-account-cancel": "Жокко чыгаруу",
-	"twnmp-stats-number-k": "$1 миң",
+	"twnmp-stats-number-k": "$1&nbsp;миң",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Бир билдирүү|$1 билдирүү}}"
 }

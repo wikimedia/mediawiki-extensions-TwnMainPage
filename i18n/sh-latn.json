@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"twnmp-desc": "Početna stranica translatewiki.net",
+	"twnmp-mainpage": "Glavna stranica",
+	"twnmp-s-translators": "{{PLURAL:$1|Prevodilac|Prevodioca|Prevodilaca}}",
+	"twnmp-s-projects": "{{PLURAL:$1|Projekt|Projekta|Projekata}}",
+	"twnmp-s-languages": "{{PLURAL:$1|Aktivni jezik|Aktivna jezika|Aktivnih jezika}}",
+	"twnmp-s-messages": "{{PLURAL:$1|Poruka}} za prevođenje",
+	"twnmp-bannerwho": "Slika $1",
+	"twnmp-show-more-projects": "Prikaži sve projekte...",
+	"twnmp-brand-motto": "Prevodilačka zajednica otvorenog kôda",
+	"twnmp-login": "Prijavi se",
+	"twnmp-logout": "Odjavi se",
+	"twnmp-search-placeholder": "Pronađite i popravite prijevode",
+	"twnmp-search-button": "Traži",
+	"twnmp-search-choose-project": "Izaberite projekat koji želite prevoditi",
+	"twnmp-translate-link": "Prevedi",
+	"twnmp-proofread-link": "Provjeri",
+	"twnmp-signup-password-placeholder": "Lozinka",
+	"twnmp-create-account-button": "Izradi račun",
+	"twnmp-create-account-cancel": "Otkaži"
+}

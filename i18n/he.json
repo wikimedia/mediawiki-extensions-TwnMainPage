@@ -8,8 +8,8 @@
 			"פוילישער"
 		]
 	},
-	"twnmp-desc": "דף ראשי עבור אתר translatewiki.net",
-	"twnmp-mainpage": "דף ראשי",
+	"twnmp-desc": "עמוד ראשי עבור אתר translatewiki.net",
+	"twnmp-mainpage": "עמוד ראשי",
 	"twnmp-s-translators": "{{PLURAL:$1|מתרגם|מתרגמים}}",
 	"twnmp-s-projects": "{{PLURAL:$1|מיזם|מיזמים}}",
 	"twnmp-s-languages": "{{PLURAL:$1|שפה פעילה|שפות פעילות}}",

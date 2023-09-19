@@ -20,11 +20,15 @@
 		"TwnMainPageHooks": "includes/TwnMainPageHooks.php",
 		"TwnUserStats": "includes/TwnUserStats.php"
 	},
+	"AutoloadNamespaces": {
+		"Translatewiki\\": "src/"
+	},
 	"ExtensionFunctions": [
 		"TwnMainPageHooks::setup"
 	],
 	"ExtensionMessagesFiles": {
-		"MainPageAlias": "MainPage.alias.php"
+		"MainPageAlias": "MainPage.alias.php",
+		"TranslatewikiMagic": "i18n/magic.php"
 	},
 	"JobClasses": {
 		"CachedStatJob": "CachedStatJob"
@@ -36,6 +40,17 @@
 		"MainPage": [
 			"i18n"
 		]
+	},
+	"HookHandlers": {
+		"location": {
+			"class": "Translatewiki\\Location\\HookHandler",
+			"services": [
+				"DBLoadBalancerFactory"
+			]
+		}
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "location"
 	},
 	"ResourceModules": {
 		"ext.translate.mainpage": {

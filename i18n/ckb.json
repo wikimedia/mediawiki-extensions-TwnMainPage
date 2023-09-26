@@ -8,14 +8,15 @@
 			"Roj im",
 			"Épine",
 			"ئارام بکر",
-			"Halbast"
+			"Halbast",
+			"TerranBoy"
 		]
 	},
 	"twnmp-mainpage": "دەستپێک",
 	"twnmp-s-translators": "{{PLURAL:$1|وەرگێڕ}}",
-	"twnmp-s-projects": "{{PLURAL:$1|پڕۆژە}}",
-	"twnmp-s-languages": "{{PLURAL:$1|زمانی چالاک|زمانی چالاک}}",
-	"twnmp-s-messages": "{{PLURAL:$1|پەیام|پەیام}} بۆ وەرگێڕان",
+	"twnmp-s-projects": "{{PLURAL:$1|پرۆژە}}",
+	"twnmp-s-languages": "{{PLURAL:$1|زمانی}} چالاک",
+	"twnmp-s-messages": "{{PLURAL:$1|پەیام}} بۆ وەرگێڕان",
 	"twnmp-bannerwho": "وێنەی $1",
 	"twnmp-show-more-projects": "بینینی ھەموو پڕۆژەکان...",
 	"twnmp-brand-motto": "کۆمەڵگەی سەرچاوە کراوەی وەرگێڕان",

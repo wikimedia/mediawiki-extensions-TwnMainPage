@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"TerranBoy"
+		]
+	},
+	"twnmp-mainpage": "دەسپێک",
+	"twnmp-s-translators": "{{PLURAL:$1|تەرجمان}}",
+	"twnmp-s-projects": "{{PLURAL:$1|پرۆژە}}",
+	"twnmp-s-languages": "{{PLURAL:$1|زوان}} چالاک",
+	"twnmp-s-messages": "{{PLURAL:$1|پەێام}} ئەڕا تەرجەمە",
+	"twnmp-bannerwho": "وێنەێ $1",
+	"twnmp-show-more-projects": "دین گشت پرۆژەگان...",
+	"twnmp-brand-motto": "کوومەڵگەێ سەرچاوە واز تەرجەمە",
+	"twnmp-login": "بچووە ناو",
+	"twnmp-logout": "بچووه دەشت",
+	"twnmp-search-button": "پەێدا بکە",
+	"twnmp-search-choose-project": "پرۆژەێگ هەڵوژن ئەڕا تەرجەمە",
+	"twnmp-translate-link": "تەرجەمە",
+	"twnmp-view-link": "تەرجەمەگان بۊن",
+	"twnmp-translate-button": "تەرجەمە",
+	"twnmp-view-button": "تەرجەمەگان بۊن",
+	"twnmp-your-translations-stats": "ئامار تەرجەمەگانت",
+	"twnmp-your-translations-stats-all-languages": "ئەڕا گشت زوانەگان",
+	"twnmp-your-view-language-stats": "دین ئامارەگان زوان",
+	"twnmp-translations-per-month": "{{PLURAL:$1|تەرجەمە}}/مانگ",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|تەرجەمە}}",
+	"twnmp-bottom-help": "دەسمێەت",
+	"twnmp-bottom-about": "لەبارە",
+	"twnmp-signup-username-placeholder": "ناو وەکاربەر",
+	"twnmp-signup-password-placeholder": "وێەروشه",
+	"twnmp-signup-email-placeholder": "ئیمەیل",
+	"twnmp-create-account-button": "دروسکردن حساو",
+	"twnmp-choose-another-language": "زوانێگ تر هەڵوژن...",
+	"twnmp-choose-fill-account-details": "وردەکاریەگان حساوەگەت داخڵ بکە",
+	"twnmp-join-community-reason": "ئەڕا چە خوازی بوویدە ئەندام؟",
+	"twnmp-create-account-cancel": "هەڵوەشاننەوە",
+	"twnmp-stats-number-k": "$1 هەزار",
+	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|یەک پەێام|$1 پەێام}}"
+}

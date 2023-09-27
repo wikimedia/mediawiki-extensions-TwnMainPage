@@ -45,7 +45,8 @@
 		"location": {
 			"class": "Translatewiki\\Location\\HookHandler",
 			"services": [
-				"DBLoadBalancerFactory"
+				"DBLoadBalancerFactory",
+				"TitleParser"
 			]
 		}
 	},

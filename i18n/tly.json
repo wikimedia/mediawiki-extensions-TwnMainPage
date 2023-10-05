@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Patriot Kor",
-			"Patriot Kur"
+			"Patriot Kur",
+			"Гусейн"
 		]
 	},
-	"twnmp-mainpage": "Sərlohə",
+	"twnmp-mainpage": "Sərnom",
 	"twnmp-login": "Dəşi",
+	"twnmp-logout": "Beši",
 	"twnmp-create-account-cancel": "Ləğv karde"
 }

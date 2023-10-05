@@ -31,7 +31,7 @@ class SpecialTwnMainPage extends SpecialPage {
 	}
 
 	public function getDescription() {
-		return $this->msg( 'twnmp-mainpage' )->text();
+		return $this->msg( 'twnmp-mainpage' );
 	}
 
 	protected function getProjectHandler() {

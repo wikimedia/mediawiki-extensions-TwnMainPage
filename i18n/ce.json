@@ -29,7 +29,7 @@
 	"twnmp-your-translations-stats-all-languages": "Массо меттанашана",
 	"twnmp-your-view-language-stats": "Меттан статистике хьажар",
 	"twnmp-translations-per-month": "баттахь {{PLURAL:$1|гочйина}}",
-	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Гочдинарш}}",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Гочдарш}}",
 	"twnmp-reviews-per-month": "{{PLURAL:$1|теллина}} баттахь",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Хьо цхьаъ<br />ву/йу гочдархо $4|{{GENDER:$1|Хьа}} $2- меттиг йу $3 <br /> $4 гочдархойн йукъехь}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Хьо цхьаъ ву/йу гочдархо|{{GENDER:$1|Хьа}} $2- меттиг йу $3 йукъехь}}",

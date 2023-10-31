@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Xuacu"
+			"Xuacu",
+			"YoaR"
 		]
 	},
 	"twnmp-desc": "Ufre la páxina principal de translatewiki.net",
@@ -56,7 +57,7 @@
 	"twnmp-join-community": "Xunise a la comunidá",
 	"twnmp-join-community-desc": "Si ye un desendolcador interesáu en documentar traducciones, o si namái ta esplorando la plataforma, tamién ye bienveníu.",
 	"twnmp-join-community-reason": "¿Por qué ta interesáu en xunise?",
-	"twnmp-create-account-cancel": "Encaboxar",
+	"twnmp-create-account-cancel": "Zarrar",
 	"twnmp-join-community-info": "¿Nun puedes unviar traducciones agora mesmo? Inda puedes xunite.",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Un mensaxe|$1 mensaxes}}"
 }

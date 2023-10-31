@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"AmaryllisGardener",
+			"CiphriusKane",
 			"John Reid"
 		]
 	},
@@ -38,7 +39,7 @@
 	"twnmp-bottom-help": "Heelp",
 	"twnmp-bottom-support": "Support desk.",
 	"twnmp-bottom-languages-supported": "Supported leids",
-	"twnmp-bottom-about": "Aneat",
+	"twnmp-bottom-about": "Anent",
 	"twnmp-signup-username-placeholder": "Uisername",
 	"twnmp-signup-password-placeholder": "Passwaird",
 	"twnmp-signup-email-placeholder": "Wab-mail",

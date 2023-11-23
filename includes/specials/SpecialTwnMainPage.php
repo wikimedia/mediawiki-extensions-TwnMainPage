@@ -10,6 +10,7 @@
 
 use MediaWiki\Extension\Translate\MessageGroupProcessing\MessageGroups;
 use MediaWiki\Extension\Translate\Services;
+use MediaWiki\Extension\Translate\TranslatorSandbox\TranslateSandbox;
 use MediaWiki\Extension\Translate\TranslatorSandbox\TranslationStashReader;
 use MediaWiki\Extension\Translate\Utilities\Utilities;
 use MediaWiki\MainConfigNames;

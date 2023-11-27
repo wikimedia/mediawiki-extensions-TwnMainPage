@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Huuchin"
+			"Huuchin",
+			"Алия"
 		]
 	},
-	"twnmp-translations-in-sandbox": "Орчуллһн"
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Орчуллһс}}"
 }

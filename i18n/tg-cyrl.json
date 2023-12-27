@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"ToJack",
-			"Vashgird"
+			"Vashgird",
+			"ZulfiqorF"
 		]
 	},
 	"twnmp-desc": "Матн дар саҳифаи аввали translatewiki.net",
@@ -36,7 +37,7 @@
 	"twnmp-add-project": "Лоиҳаи озоди худро барои тарҷума илова намоед",
 	"twnmp-sandboxed": "Шумо бояд {{PLURAL:$1|0=як|зиёдтар}} тарҷкма намоед барои пурра намудани сабтиноматон.",
 	"twnmp-bottom-help": "Кумак",
-	"twnmp-bottom-support": "Кумитаи дастгирӣ",
+	"twnmp-bottom-support": "Кумитаи пуштибон",
 	"twnmp-bottom-languages-supported": "Забонҳои пуштибонишуда",
 	"twnmp-bottom-about": "Дар бораи",
 	"twnmp-signup-username-placeholder": "Номи корбарӣ",

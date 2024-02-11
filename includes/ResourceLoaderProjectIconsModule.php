@@ -8,12 +8,14 @@
  */
 
 use MediaWiki\Extension\Translate\Utilities\Utilities;
+use MediaWiki\ResourceLoader\Context;
+use MediaWiki\ResourceLoader\Module;
 use Wikimedia\AtEase\AtEase;
 
 /**
  * Project icons via CSS using SVGs with PNG fallbacks.
  */
-class ResourceLoaderProjectIconsModule extends ResourceLoaderModule {
+class ResourceLoaderProjectIconsModule extends Module {
 	protected $targets = [ 'desktop', 'mobile' ];
 
 	/**
@@ -36,10 +38,10 @@ class ResourceLoaderProjectIconsModule extends ResourceLoaderModule {
 
 	/**
 	 * @see also resouces/css/ext.translate.mainpage.css
-	 * @param ResourceLoaderContext $context
+	 * @param Context $context
 	 * @return array CSS styles
 	 */
-	public function getStyles( ResourceLoaderContext $context ) {
+	public function getStyles( Context $context ) {
 		$out = '';
 		foreach ( $this->getData() as $key => $value ) {
 			if ( !isset( $value['raster'] ) ) {

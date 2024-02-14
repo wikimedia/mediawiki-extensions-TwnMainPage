@@ -4,10 +4,10 @@
 			"Zolgoyo"
 		]
 	},
-	"twnmp-mainpage": "Baş sayipa",
+	"twnmp-mainpage": "Baş sayifa",
 	"twnmp-s-translators": "{{PLURAL:$1|Terğúman}}",
 	"twnmp-s-projects": "{{PLURAL:$1|Tasawur}}",
-	"twnmp-s-languages": "Aktiv {{PLURAL:$1|tíl}}",
+	"twnmp-s-languages": "Etkín {{PLURAL:$1|tíl}}",
 	"twnmp-s-messages": "Terğúme etmek úşín {{PLURAL:$1|kaber}}",
 	"twnmp-bannerwho": "Resím: $1",
 	"twnmp-show-more-projects": "Bútún leyihalardî kóster...",

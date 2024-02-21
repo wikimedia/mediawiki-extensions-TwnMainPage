@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\MediaWikiServices;
+
 /**
  * Code for getting user rankings.
  *
@@ -15,7 +18,7 @@ class TwnUserStats {
 		$weekago = $now - $days * 24 * 60 * 60;
 		$ret = [];
 
-		$dbr = wfGetDB( DB_REPLICA );
+		$dbr = MediaWikiServices::getInstance()->getConnectionProvider()->getReplicaDatabase();
 
 		$tables = [
 			'recentchanges',
@@ -86,7 +89,7 @@ class TwnUserStats {
 		$weekago = $now - $days * 24 * 60 * 60;
 		$ret = [];
 
-		$dbr = wfGetDB( DB_REPLICA );
+		$dbr = MediaWikiServices::getInstance()->getConnectionProvider()->getReplicaDatabase();
 
 		$tables = [
 			'logging',

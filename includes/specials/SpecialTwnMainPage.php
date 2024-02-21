@@ -440,7 +440,7 @@ HTML;
 	public static function numberOfLanguages( $period ) {
 		global $wgTranslateMessageNamespaces;
 
-		$dbr = wfGetDB( DB_REPLICA );
+		$dbr = MediaWikiServices::getInstance()->getConnectionProvider()->getReplicaDatabase();
 		$tables = [ 'recentchanges' ];
 		$fields = [ 'substring_index(rc_title, \'/\', -1) as lang, count(rc_id) as count' ];
 		$conds = [

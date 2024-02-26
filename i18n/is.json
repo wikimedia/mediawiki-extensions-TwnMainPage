@@ -3,7 +3,8 @@
 		"authors": [
 			"LoveIceLang",
 			"Snævar",
-			"Sveinn í Felli"
+			"Sveinn í Felli",
+			"Stefán Örvar Sigmundsson"
 		]
 	},
 	"twnmp-mainpage": "Forsíða",
@@ -36,7 +37,7 @@
 	"twnmp-bottom-languages-supported": "Studd tungumál",
 	"twnmp-bottom-about": "Um",
 	"twnmp-signup-username-placeholder": "Notandanafn",
-	"twnmp-signup-password-placeholder": "Lykilorð",
+	"twnmp-signup-password-placeholder": "Aðgangsorð",
 	"twnmp-signup-email-placeholder": "Netfang",
 	"twnmp-create-account-button": "Stofna aðgang",
 	"twnmp-signup-error-nonfreeusername": "Þetta notendanafn er þegar í notkun. Vinsamlegast veldu annað.",

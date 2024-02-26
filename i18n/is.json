@@ -40,7 +40,7 @@
 	"twnmp-signup-password-placeholder": "Aðgangsorð",
 	"twnmp-signup-email-placeholder": "Netfang",
 	"twnmp-create-account-button": "Stofna aðgang",
-	"twnmp-signup-error-nonfreeusername": "Þetta notendanafn er þegar í notkun. Vinsamlegast veldu annað.",
+	"twnmp-signup-error-nonfreeusername": "Þetta notandanafn er þegar til. Vinsamlegast veldu annað.",
 	"twnmp-choose-languages-you-know": "Veldu tungumál sem þú kannt",
 	"twnmp-choose-another-language": "Velja annað tungumál...",
 	"twnmp-choose-fill-account-details": "Settu inn upplýsingar um þig",

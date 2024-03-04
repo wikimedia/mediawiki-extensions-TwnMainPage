@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"BAB ZAA",
 			"FiberAhmed",
 			"Meno25",
 			"Michel Bakni",
@@ -32,9 +33,9 @@
 	"twnmp-your-translations-stats": "إحصائيات الترجمة الخاصة بك",
 	"twnmp-your-translations-stats-all-languages": "لجميع اللغات",
 	"twnmp-your-view-language-stats": "عرض إحصائيات اللغة",
-	"twnmp-translations-per-month": "{{PLURAL:$1|ترجمات}}/شهر",
+	"twnmp-translations-per-month": "{{PLURAL:$1|ترجمة}} في الشهر",
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|ترجمات}}",
-	"twnmp-reviews-per-month": "{{PLURAL:$1|مراجعات}}/شهر",
+	"twnmp-reviews-per-month": "{{PLURAL:$1|مراجعة}} في الشهر",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1= أنت الشخص الوحيد<br />لـ$4|{{GENDER:$1|مصنف|مصنف}} $2 $3<br />لـ$4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=نت الشخص الوحيد|{{GENDER:$1|مصنف|مصنف}} $2 من $3}}",
 	"twnmp-add-project": "أضف مشروعك مفتوح المصدر للترجمة",

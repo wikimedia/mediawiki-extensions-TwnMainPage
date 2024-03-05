@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Augustus A C",
 			"Omarov M.",
 			"Аль-Гимравий"
 		]
 	},
-	"twnmp-mainpage": "БетӀераб гьумер"
+	"twnmp-mainpage": "БетӀераб гьумер",
+	"twnmp-bottom-help": "Квеки"
 }

@@ -27,7 +27,6 @@
 		"TwnMainPageHooks::setup"
 	],
 	"ExtensionMessagesFiles": {
-		"MainPageAlias": "MainPage.alias.php",
 		"TranslatewikiMagic": "i18n/magic.php"
 	},
 	"JobClasses": {
@@ -40,6 +39,9 @@
 		"MainPage": [
 			"i18n"
 		]
+	},
+	"TranslationAliasesDirs": {
+		"TwnMainPageAliases": "i18n/special-page-aliases"
 	},
 	"HookHandlers": {
 		"location": {

@@ -584,13 +584,13 @@ HTML;
 		$languageCode = $this->getLanguage()->getCode();
 		$languageName = Utilities::getLanguageName( $languageCode, $languageCode );
 
-		$defaultLanguage = Xml::checkLabel(
-			$languageName,
-			'signuplanguage',
-			'language-' . $languageCode,
-			true,
-			[ 'data-code' => $languageCode ]
-		);
+		$defaultLanguage = Html::rawElement( 'label', [],
+			Html::element( 'input', [
+			'type' => 'checkbox',
+			'name' => 'signuplanguage',
+			'value' => $languageCode,
+			'checked' => true,
+		] ) . ' ' . htmlspecialchars( $languageName ) );
 		$username = Html::element( 'input', [
 			'class' => 'twelve columns required',
 			'name' => 'wpName',

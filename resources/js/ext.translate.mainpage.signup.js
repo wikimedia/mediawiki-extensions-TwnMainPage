@@ -47,41 +47,31 @@
 		function initLanguageSelector() {
 			$form.find( '.signup-language-selector' ).uls( {
 				onSelect: function ( language ) {
-					var $checkbox, $label,
-						checkboxId = 'language-' + language,
-						$currentCheckbox = $( '#' + checkboxId );
-
-					if ( $currentCheckbox.length ) {
-						// Language already selected. Make sure it is checked.
-						$currentCheckbox.prop( 'checked', true );
-
+					var $checkbox = $form.find( 'input[name="signuplanguage"][value="' + language + '"]' );
+					if ( $checkbox.length ) {
+						// Language already listed. Make sure it is (re)checked.
+						$checkbox.prop( 'checked', true );
 						return;
 					}
 
 					$checkbox = $( '<input>' )
 						.attr( {
-							id: checkboxId,
 							type: 'checkbox',
 							name: 'signuplanguage',
+							value: language,
 							checked: 'checked'
-						} )
-						.data( 'code', language );
-					$label = $( '<label>' )
-						.text( $.uls.data.getAutonym( language ) )
+						} );
+					var $label = $( '<label>' )
 						.attr( {
-							for: checkboxId,
 							lang: language,
 							dir: $.uls.data.getDir( language )
-						} );
+						} )
+						// Space between checkbox and label
+						.append( $checkbox, ' ', $.uls.data.getAutonym( language ) );
 
 					$form.find( 'ul.signup-languages' )
-						.append( $( '<li>' )
-							.append(
-								$checkbox,
-								// Space between checkbox and label
-								$( '<span>' ).text( ' ' ),
-								$label
-							)
+						.append(
+							$( '<li>' ).append( $label )
 						);
 				},
 				ulsPurpose: 'twnmainpage-signup-userlanguage',
@@ -181,8 +171,8 @@
 			// Show loading
 			toggleLoading( true );
 
-			codes = $form.find( '.signup-languages :checked' ).map( function () {
-				return $( this ).data( 'code' );
+			codes = $form.find( 'input[name="signuplanguage"]:checked' ).map( function () {
+				return this.value;
 			} ).toArray();
 
 			preferences = JSON.stringify( {

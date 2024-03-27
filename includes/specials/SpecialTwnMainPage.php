@@ -25,6 +25,8 @@ class SpecialTwnMainPage extends SpecialPage {
 	protected $maxProjectTiles = 8;
 	/** @var TranslationStashReader */
 	private $translationStashReader;
+	/** @var ProjectHandler|null */
+	private $projectHandler;
 
 	public function __construct() {
 		parent::__construct( 'TwnMainPage' );

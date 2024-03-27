@@ -83,6 +83,11 @@ class SpecialTwnMainPage extends SpecialPage {
 		$out = $this->getOutput();
 		$skin = $this->getSkin();
 
+		if ( !$this->getConfig()->get( 'TranslateUseSandbox' ) ) {
+			$out->showFatalError( 'TwnMainPage requires $wgTranslateUseSandbox to be enabled.' );
+			return;
+		}
+
 		$this->setHeaders();
 		$out->setArticleBodyOnly( true );
 		$out->loadSkinModules( $skin );

@@ -238,12 +238,7 @@ body.mediawiki {
 
 .user-stats-title {
 	padding-left: 100px;
-	background: transparent url( ../images/user-small.png ) no-repeat scroll left center;
-	background-image: -webkit-linear-gradient( transparent, transparent ), url( ../images/user-small.svg );
-	background-image: -moz-linear-gradient( transparent, transparent ), url( ../images/user-small.svg );
-	/* @embed */
-	background-image: linear-gradient( transparent, transparent ), url( ../images/user-small.svg );
-	background-position: bottom left;
+	background: transparent url( ../images/user-small.svg ) no-repeat scroll bottom left;
 	background-size: 75px;
 	min-height: 75px;
 }
@@ -445,36 +440,20 @@ a.langstats-link {
 .project-tile span.translate {
 	padding-left: 20px;
 	padding-right: 5px;
-	background: transparent url( ../images/view-list.png ) left top no-repeat;
-	background-image: -webkit-linear-gradient( transparent, transparent ), url( ../images/view-list.svg );
-	background-image: -moz-linear-gradient( transparent, transparent ), url( ../images/view-list.svg );
-	/* @embed */
-	background-image: linear-gradient( transparent, transparent ), url( ../images/view-list.svg );
+	background: transparent url( ../images/view-list.svg ) no-repeat left top;
 }
 
 .project-tile span.proofread {
 	padding-left: 20px;
-	background: transparent url( ../images/view-proofread.png ) left top no-repeat;
-	background-image: -webkit-linear-gradient( transparent, transparent ), url( ../images/view-proofread.svg );
-	background-image: -moz-linear-gradient( transparent, transparent ), url( ../images/view-proofread.svg );
-	/* @embed */
-	background-image: linear-gradient( transparent, transparent ), url( ../images/view-proofread.svg );
+	background: transparent url( ../images/view-proofread.svg ) no-repeat left top;
 }
 
 .project-actions a.translate {
-	background: transparent url( ../images/view-list-hi.png ) left top no-repeat;
-	background-image: -webkit-linear-gradient( transparent, transparent ), url( ../images/view-list-hi.svg );
-	background-image: -moz-linear-gradient( transparent, transparent ), url( ../images/view-list-hi.svg );
-	/* @embed */
-	background-image: linear-gradient( transparent, transparent ), url( ../images/view-list-hi.svg );
+	background: transparent url( ../images/view-list-hi.svg ) no-repeat left top;
 }
 
 .project-actions a.proofread {
-	background: transparent url( ../images/view-proofread-hi.png ) left top no-repeat;
-	background-image: -webkit-linear-gradient( transparent, transparent ), url( ../images/view-proofread-hi.svg );
-	background-image: -moz-linear-gradient( transparent, transparent ), url( ../images/view-proofread-hi.svg );
-	/* @embed */
-	background-image: linear-gradient( transparent, transparent ), url( ../images/view-proofread-hi.svg );
+	background: transparent url( ../images/view-proofread-hi.svg ) no-repeat left top;
 }
 
 .searchbox {
@@ -488,11 +467,7 @@ a.langstats-link {
 .twn-mainpage-search::before {
 	display: inline-block;
 	content: '';
-	background: #252525 url( ../images/search.png ) no-repeat scroll left center;
-	background-image: -webkit-linear-gradient( transparent, transparent ), url( ../images/search.svg );
-	background-image: -moz-linear-gradient( transparent, transparent ), url( ../images/search.svg );
-	/* @embed */
-	background-image: linear-gradient( transparent, transparent ), url( ../images/search.svg );
+	background: #252525 url( ../images/search.svg ) no-repeat scroll left center;
 	background-size: 30px;
 	height: 30px;
 	width: 30px;
@@ -640,8 +615,7 @@ div.ext-translate-msggroup-selector-menu::before {
 }
 
 .twn-mainpage-loading-indicator {
-	/* @embed */
-	background-image: linear-gradient( transparent, transparent ), url( ../images/loading.svg );
+	background-image: url( ../images/loading.svg );
 	background-size: 100%;
 	animation-name: tux-loading-indicator-spin;
 	animation-duration: 1.5s;

@@ -481,7 +481,7 @@ HTML;
 	public static function getTwnStats( ProjectHandler $handler ) {
 		$projects = count( $handler->getProjects() );
 		$translators = SiteStats::numberingroup( 'translator' );
-		$messages = count( Services::getInstance()->getMessageIndex()->retrieve() );
+		$messages = count( Services::getInstance()->getMessageIndex()->getKeys() );
 		$languages = self::numberOfLanguages( 180 );
 
 		return [

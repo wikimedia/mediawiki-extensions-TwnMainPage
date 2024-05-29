@@ -1,6 +1,7 @@
 <?php
 
 use MediaWiki\Extension\Translate\MessageGroupProcessing\MessageGroups;
+use MediaWiki\Extension\Translate\Statistics\MessageGroupStats;
 
 /**
  * Helper for project handling.

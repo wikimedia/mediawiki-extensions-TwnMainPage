@@ -1,12 +1,4 @@
 <?php
-/**
- * Special:MainPage special page.
- *
- * @file
- * @author Niklas Laxström
- * @author Santhosh Thottingal
- * @license GPL-2.0-or-later
- */
 
 use MediaWiki\Extension\Translate\MessageGroupProcessing\MessageGroups;
 use MediaWiki\Extension\Translate\Services;
@@ -19,15 +11,15 @@ use MediaWiki\MediaWikiServices;
 
 /**
  * Provides the main page with stats and stuff.
- *
  * @ingroup SpecialPage
+ * @author Niklas Laxström
+ * @author Santhosh Thottingal
+ * @license GPL-2.0-or-later
  */
 class SpecialTwnMainPage extends SpecialPage {
-	protected $maxProjectTiles = 8;
-	/** @var TranslationStashReader */
-	private $translationStashReader;
-	/** @var ProjectHandler|null */
-	private $projectHandler;
+	protected int $maxProjectTiles = 8;
+	private TranslationStashReader $translationStashReader;
+	private ?ProjectHandler $projectHandler;
 
 	public function __construct() {
 		parent::__construct( 'TwnMainPage' );
@@ -38,7 +30,7 @@ class SpecialTwnMainPage extends SpecialPage {
 		return $this->msg( 'twnmp-mainpage' );
 	}
 
-	protected function getProjectHandler() {
+	private function getProjectHandler(): ProjectHandler {
 		if ( !isset( $this->projectHandler ) ) {
 			$this->projectHandler = new ProjectHandler();
 		}
@@ -46,8 +38,8 @@ class SpecialTwnMainPage extends SpecialPage {
 		return $this->projectHandler;
 	}
 
-	protected function getStatsTiles( $stats ) {
-		$data = [
+	private function getStatsTiles( $stats ): array {
+		return [
 			// Rows X cols
 			[
 				[
@@ -76,8 +68,6 @@ class SpecialTwnMainPage extends SpecialPage {
 				],
 			],
 		];
-
-		return $data;
 	}
 
 	public function execute( $parameters ) {
@@ -101,7 +91,7 @@ class SpecialTwnMainPage extends SpecialPage {
 		$out->addModuleStyles( 'mediawiki.ui.button' );
 		$out->addModuleStyles( 'ext.translate.mainpage.icons' );
 		$out->addModules( 'ext.translate.mainpage' );
-		// Forcing wgULSPosition to personal to mimick that behavior regardless
+		// Forcing wgULSPosition to personal to mimic that behavior regardless
 		// of the position of the uls trigger in other pages.
 		$out->addJsConfigVars( 'wgULSPosition', 'personal' );
 		$out->addJsConfigVars( 'maxProjectTiles', $this->maxProjectTiles );
@@ -120,10 +110,8 @@ class SpecialTwnMainPage extends SpecialPage {
 		);
 	}
 
-	public function makeContent() {
-		$output = '';
-
-		$output .= Html::openElement( 'div', [ 'class' => 'grid twn-mainpage' ] );
+	private function makeContent(): string {
+		$output = Html::openElement( 'div', [ 'class' => 'grid twn-mainpage' ] );
 		$output .= $this->header();
 		$output .= Html::openElement( 'main' );
 		$output .= $this->banner();
@@ -136,11 +124,11 @@ class SpecialTwnMainPage extends SpecialPage {
 		return $output;
 	}
 
-	public function header() {
+	private function header(): string {
 		global $wgSitename;
 
-		$sitenameEsc = htmlspecialchars( $wgSitename );
-		$sitemottoEsc = $this->msg( 'twnmp-brand-motto' )->escaped();
+		$siteNameEsc = htmlspecialchars( $wgSitename );
+		$siteMottoEsc = $this->msg( 'twnmp-brand-motto' )->escaped();
 
 		$code = $this->getLanguage()->getCode();
 		$languageName = Utilities::getLanguageName( $code, $code );
@@ -168,34 +156,32 @@ class SpecialTwnMainPage extends SpecialPage {
 				'class' => 'logout text-right',
 				'href' => $logout->getLocalURL( [ 'returnto' => 'Special:MainPage' ] ),
 			];
-			$loginout = Html::element( 'a', $params, $this->msg( 'twnmp-logout' )->text() );
+			$logInOut = Html::element( 'a', $params, $this->msg( 'twnmp-logout' )->text() );
 		} else {
 			$login = SpecialPage::getTitleFor( 'Userlogin' );
 			$params = [
 				'class' => 'login text-right',
 				'href' => $login->getLocalURL( [ 'returnto' => 'Special:MainPage' ] ),
 			];
-			$loginout = Html::element( 'a', $params, $this->msg( 'twnmp-login' )->text() );
+			$logInOut = Html::element( 'a', $params, $this->msg( 'twnmp-login' )->text() );
 		}
 
-		$html = <<<HTML
+		return <<<HTML
 <header class="row twn-mainpage-header">
 	<div class="seven columns twn-mainpage-title">
-		<div class="twn-brand-name">$sitenameEsc</div>
-		<div class="twn-brand-motto">$sitemottoEsc</div>
+		<div class="twn-brand-name">$siteNameEsc</div>
+		<div class="twn-brand-motto">$siteMottoEsc</div>
 	</div>
 	<div class="five columns twn-mainpage-personal-actions">
 		$uls
 		$userLink
-		$loginout
+		$logInOut
 	</div>
 </header>
 HTML;
-
-		return $html;
 	}
 
-	public function searchBar() {
+	private function searchBar(): string {
 		$out = Html::openElement( 'form',
 			[
 				'class' => 'row twn-mainpage-search',
@@ -232,7 +218,7 @@ HTML;
 		return $out;
 	}
 
-	public function projectSelector() {
+	private function projectSelector(): string {
 		$out = Html::element( 'div', [ 'class' => 'row twn-mainpage-project-selector-title' ],
 			$this->msg( 'twnmp-search-choose-project' )->text() );
 
@@ -264,11 +250,11 @@ HTML;
 		return $out;
 	}
 
-	public function newProject(): string {
+	private function newProject(): string {
 		$add = Title::newFromText( 'Special:MyLanguage/Translating:New_project' )
 			->getFullURL();
 
-		$out = Html::element(
+		return Html::element(
 			'a',
 			[
 				'class' => 'row twn-mainpage-add-project',
@@ -276,11 +262,9 @@ HTML;
 			],
 			$this->msg( 'twnmp-add-project' )->text()
 		);
-
-		return $out;
 	}
 
-	protected function makeGroupTile( MessageGroup $group, array $stats ) {
+	private function makeGroupTile( MessageGroup $group, array $stats ): string {
 		$id = $group->getId();
 		$uiLanguage = $this->getLanguage()->getCode();
 		$groupLanguage = $group->getSourceLanguage();
@@ -317,10 +301,10 @@ HTML;
 		$image = Html::element( 'div', [ 'class' => $class ] );
 		$label = htmlspecialchars( $group->getLabel( $this->getContext() ) );
 
-		$msggroupid = htmlspecialchars( $id );
-		$out = <<<HTML
+		$messageGroupId = htmlspecialchars( $id );
+		return <<<HTML
 <div class="three columns twn-mainpage-project-tile">
-	<div class="project-tile $linked" $dataUrl data-lang="$escLang" data-msggroupid="$msggroupid"
+	<div class="project-tile $linked" $dataUrl data-lang="$escLang" data-msggroupid="$messageGroupId"
 		tabindex="0">
 		<div class="row project-top">
 			<div class="project-icon four columns">$image</div>
@@ -338,15 +322,13 @@ HTML;
 	</div>
 </div>
 HTML;
-
-		return $out;
 	}
 
 	/**
 	 * @param string $id Message group id
 	 * @return string HTML
 	 */
-	protected function getProjectActions( $id ) {
+	private function getProjectActions( string $id ): string {
 		$user = $this->getUser();
 		$title = SpecialPage::getTitleFor( 'Translate' );
 
@@ -379,7 +361,7 @@ HTML;
 		}
 	}
 
-	public function banner() {
+	private function banner(): string {
 		global $wgMainPageImages;
 
 		$image = [];
@@ -411,7 +393,7 @@ HTML;
 		return $out;
 	}
 
-	public function footer() {
+	private function footer(): string {
 		$out = Html::openElement( 'footer' );
 		$out .= Html::openElement( 'div', [ 'class' => 'row twn-mainpage-footer' ] );
 		$out .= Html::element( 'a', [
@@ -451,13 +433,13 @@ HTML;
 		return $out;
 	}
 
-	public static function numberOfLanguages( $period ) {
+	private static function numberOfLanguages( int $period ): int {
 		global $wgTranslateMessageNamespaces;
 
 		$dbr = MediaWikiServices::getInstance()->getConnectionProvider()->getReplicaDatabase();
 		$tables = [ 'recentchanges' ];
 		$fields = [ 'substring_index(rc_title, \'/\', -1) as lang, count(rc_id) as count' ];
-		$conds = [
+		$conditions = [
 			'rc_title' . $dbr->buildLike( $dbr->anyString(), '/', $dbr->anyString() ),
 			'rc_namespace' => $wgTranslateMessageNamespaces,
 			'rc_timestamp > ' . $dbr->timestamp( wfTimestamp( TS_UNIX ) - 60 * 60 * 24 * $period ),
@@ -465,7 +447,7 @@ HTML;
 		];
 		$options = [ 'GROUP BY' => 'lang', 'HAVING' => 'count > 20' ];
 
-		$res = $dbr->select( $tables, $fields, $conds, __METHOD__, $options );
+		$res = $dbr->select( $tables, $fields, $conditions, __METHOD__, $options );
 
 		$count = 0;
 		$languageNameUtils = MediaWikiServices::getInstance()->getLanguageNameUtils();
@@ -484,7 +466,7 @@ HTML;
 	 * @param ProjectHandler $handler
 	 * @return array
 	 */
-	public static function getTwnStats( ProjectHandler $handler ) {
+	public static function getTwnStats( ProjectHandler $handler ): array {
 		$projects = count( $handler->getProjects() );
 		$translators = SiteStats::numberingroup( 'translator' );
 		$messages = count( Services::getInstance()->getMessageIndex()->getKeys() );
@@ -498,27 +480,22 @@ HTML;
 		];
 	}
 
-	/**
-	 * Callback for CachedStat
-	 * @param string $code
-	 * @param int $period
-	 * @return array
-	 */
-	public static function getUserStats( $code, $period ) {
+	/** Callback for CachedStat */
+	public static function getUserStats( string $code, int $period ): array {
 		return [
 			'translators' => TwnUserStats::getTranslationRankings( $code, $period ),
 			'proofreaders' => TwnUserStats::getProofreadRankings( $code, $period ),
 		];
 	}
 
-	public function twnStats() {
+	private function twnStats(): string {
 		$stale = 60 * 60 * 6;
 		$expired = 60 * 60 * 24;
 		$handler = $this->getProjectHandler();
 
-		$cacher = new CachedStat( 'twnstats', $stale, $expired,
+		$statesCache = new CachedStat( 'twnstats', $stale, $expired,
 			[ 'SpecialTwnMainPage::getTwnStats', $handler ], 'allow miss' );
-		$stats = $cacher->get();
+		$stats = $statesCache->get();
 
 		$data = [
 			[ null, null, null ],
@@ -529,8 +506,7 @@ HTML;
 			$data = $this->getStatsTiles( $stats );
 		}
 
-		$out = '';
-		$out .= '<div class="six columns twn-mainpage-stats-tiles">';
+		$out = '<div class="six columns twn-mainpage-stats-tiles">';
 
 		$lang = $this->getLanguage();
 
@@ -578,7 +554,7 @@ HTML;
 		return $out;
 	}
 
-	public function userWidget() {
+	private function userWidget(): string {
 		if ( $this->getUser()->isRegistered() ) {
 			return $this->loggedInWidget();
 		} else {
@@ -586,11 +562,8 @@ HTML;
 		}
 	}
 
-	/**
-	 * Form that allows users to signup via sandbox.
-	 * @return true
-	 */
-	public function loginForm() {
+	/** Form that allows users to signup via sandbox. */
+	private function loginForm(): string {
 		$this->getOutput()->addModules( 'ext.translate.mainpage.signup' );
 
 		$languageCode = $this->getLanguage()->getCode();
@@ -701,7 +674,7 @@ HTML;
 		return "\n$out\n";
 	}
 
-	public function loggedInWidget() {
+	private function loggedInWidget(): string {
 		$languageCode = $this->getLanguage()->getCode();
 		$languageName = Utilities::getLanguageName( $languageCode, $languageCode );
 
@@ -755,10 +728,10 @@ HTML;
 	 * @param string $languageForStats Language code or empty string.
 	 * @return string HTML
 	 */
-	public function getTranslationStatsRows( $languageForStats ) {
+	private function getTranslationStatsRows( string $languageForStats ): string {
 		$stale = 60 * 5;
 		$expired = 60 * 60 * 12;
-		$cacher = new CachedStat( "userstats-$languageForStats", $stale, $expired,
+		$statsCache = new CachedStat( "userstats-$languageForStats", $stale, $expired,
 			[
 				'SpecialTwnMainPage::getUserStats',
 				$languageForStats,
@@ -766,7 +739,7 @@ HTML;
 			],
 			'allow miss'
 		);
-		$statsArray = $cacher->get();
+		$statsArray = $statsCache->get();
 		if ( $statsArray === null ) {
 			$statsArray = [
 				'translators' => [],
@@ -782,7 +755,7 @@ HTML;
 			$languageName = Utilities::getLanguageName( $languageForStats, $languageForStats );
 		}
 
-		$myuser = $this->getUser()->getName();
+		$currentUser = $this->getUser()->getName();
 
 		$out = Html::openElement( 'form', [
 			'class' => 'row ranking',
@@ -793,7 +766,7 @@ HTML;
 		$i = 1;
 		$translators = count( $stats );
 		foreach ( $stats as $user => $count ) {
-			if ( $user === $myuser ) {
+			if ( $user === $currentUser ) {
 				$out .= Html::element(
 					'div',
 					[ 'class' => 'count' ],
@@ -807,7 +780,7 @@ HTML;
 
 				// @todo When refactoring, $languageName should not be used
 				// when using the message for the source page
-				$msg = $this->msg( $translationStatsRankingMsg, $myuser )
+				$msg = $this->msg( $translationStatsRankingMsg, $currentUser )
 					->numParams( $i, $translators )
 					->params( $languageName )
 					->plain();
@@ -840,7 +813,7 @@ HTML;
 		$i = 1;
 		$translators = count( $stats );
 		foreach ( $stats as $user => $count ) {
-			if ( $user === $myuser ) {
+			if ( $user === $currentUser ) {
 				$out .= Html::element(
 					'div',
 					[ 'class' => 'count' ],
@@ -854,7 +827,7 @@ HTML;
 
 				// @todo When refactoring, $languageName should not be used
 				// when using the message for the source page
-				$msg = $this->msg( $translationStatsRankingMsg, $myuser )
+				$msg = $this->msg( $translationStatsRankingMsg, $currentUser )
 					->numParams( $i, $translators )
 					->params( $languageName )
 					->plain();
@@ -878,7 +851,7 @@ HTML;
 		return $out;
 	}
 
-	public function getSandboxRows() {
+	private function getSandboxRows(): string {
 		global $wgTranslateSandboxLimit;
 
 		$count = count( $this->translationStashReader->getTranslations( $this->getUser() ) );
@@ -915,7 +888,7 @@ HTML;
 HTML;
 	}
 
-	protected function getGroupName() {
+	protected function getGroupName(): string {
 		return 'wiki';
 	}
 }

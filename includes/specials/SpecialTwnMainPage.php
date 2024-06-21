@@ -432,11 +432,17 @@ HTML;
 		], $this->msg( 'twnmp-bottom-help' )->text() );
 		$out .= Html::closeElement( 'div' );
 
-		global $wgFooterIcons;
-		$skin = $this->getSkin();
+		global $wgFooterIcons, $wgExternalLinkTarget;
 		foreach ( $wgFooterIcons['poweredby'] as $icon ) {
 			$out .= Html::openElement( 'div', [ 'class' => 'row twn-mainpage-poweredby' ] );
-			$out .= $skin->makeFooterIcon( $icon, 'noicon' );
+			$out .= Html::element(
+				'a',
+				[
+					'href' => $icon['url'],
+					'target' => $wgExternalLinkTarget
+				],
+				htmlspecialchars( $icon['alt'] )
+			);
 			$out .= Html::closeElement( 'div' );
 		}
 

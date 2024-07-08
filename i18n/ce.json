@@ -31,7 +31,7 @@
 	"twnmp-translations-per-month": "{{PLURAL:$1|гочдар дина}} цхьана баттахь",
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Гочдарш}}",
 	"twnmp-reviews-per-month": "{{PLURAL:$1|теллина}} баттахь",
-	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Хьо цхьаъ<br />ву/йу гочдархо $4|{{GENDER:$1|Хьан}} $2-гӀа меттиг йу $3 <br /> $4 гочдархочунна йукъахь}}",
+	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Хьо цхьаъ<br />ву/йу гочдархо $4|{{GENDER:$1|Хьан}} $2-гӀа меттиг йу $4 $3 гочдархочунна йукъахь}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Хьо цхьаъ ву/йу гочдархо|{{GENDER:$1|Хьан}} $2-гӀа меттиг йу $3 йукъахь}}",
 	"twnmp-add-project": "Кховдайе гочйан хьай маьрша дӀайолалун код",
 	"twnmp-sandboxed": "Ахьа кхин {{PLURAL:$1|0=цхьайолу гочйинарш|кхин сов гочйинарш}} гайта йезаш йу, регистраци чекхйаккха.",

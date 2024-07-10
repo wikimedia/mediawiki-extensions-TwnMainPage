@@ -13,7 +13,7 @@
 	"twnmp-s-translators": "{{PLURAL:$1|अनुवादक|अनुवादकहरू}}",
 	"twnmp-s-projects": "{{PLURAL:$1|परियोजना|परियोजनाहरू}}",
 	"twnmp-s-languages": "सक्रिय {{PLURAL:$1|भाषा|भाषाहरू}}",
-	"twnmp-s-messages": "अनुवाद गर्न को लागी {{PLURAL:$1|सन्देश|सन्देशहरू}}",
+	"twnmp-s-messages": "अनुवाद गर्नको लागि {{PLURAL:$1|सन्देश|सन्देशहरू}}",
 	"twnmp-bannerwho": "चित्र $1",
 	"twnmp-show-more-projects": "सबै परियोजनाहरू देखाउनुहोस्...",
 	"twnmp-brand-motto": "खुला स्रोत अनुवाद समुदाय",

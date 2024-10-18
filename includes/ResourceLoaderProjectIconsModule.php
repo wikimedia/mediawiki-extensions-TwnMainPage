@@ -37,7 +37,7 @@ class ResourceLoaderProjectIconsModule extends Module {
 	}
 
 	/**
-	 * @see also resouces/css/ext.translate.mainpage.css
+	 * @see also resouces/css/ext.translate.mainpage.less
 	 * @param Context $context
 	 * @return array CSS styles
 	 */

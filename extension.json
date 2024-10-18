@@ -91,7 +91,7 @@
 		},
 		"ext.translate.mainpage.styles": {
 			"targets": [ "desktop", "mobile" ],
-			"styles": "resources/css/ext.translate.mainpage.css"
+			"styles": "resources/css/ext.translate.mainpage.less"
 		},
 		"ext.translate.mainpage.icons": {
 			"class": "ResourceLoaderProjectIconsModule"

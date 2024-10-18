@@ -1,11 +1,13 @@
+@import 'mediawiki.skin.variables.less';
+
 /* High specificity to override skin styles */
 body.mediawiki {
-	background-color: #f6f6f6;
+	background-color: @background-color-interactive-subtle;
 }
 
 .twn-mainpage {
-	background-color: #fff;
-	color: #252525;
+	background-color: @background-color-base;
+	color: @color-base;
 	max-width: 1280px;
 	margin-left: auto;
 	margin-right: auto;
@@ -20,7 +22,7 @@ body.mediawiki {
 	height: 75px;
 	line-height: 1.5em;
 	box-shadow: 0 0 4px;
-	border-bottom: 4px solid #36b;
+	border-bottom: 4px solid @border-color-progressive;
 }
 
 .twn-mainpage-header .twn-mainpage-personal-actions {
@@ -31,7 +33,7 @@ body.mediawiki {
 .twn-mainpage-header .uls-trigger {
 	background-position: center left;
 	padding-left: 30px;
-	color: #36b;
+	color: @color-progressive;
 	margin-top: 8px;
 	cursor: pointer;
 	display: inline-block;
@@ -45,12 +47,12 @@ body.mediawiki {
 .twn-mainpage-title .twn-brand-motto {
 	padding-top: 5px;
 	font-size: 16px;
-	color: #555;
+	color: @color-subtle;
 }
 
 .twn-mainpage-header .login,
 .twn-mainpage-header .logout {
-	color: #36b;
+	color: @color-progressive;
 	padding-top: 50px;
 	padding-left: 20px;
 }
@@ -61,11 +63,11 @@ body.mediawiki {
 	background-size: 100%;
 	position: relative;
 	box-shadow: 0 0 4px, inset 0 0 40px;
-	border-top: 1px solid #5787e5;
+	border-top: 1px solid @border-color-progressive;
 }
 
 .banner-attribution {
-	color: #fff;
+	color: @color-inverted-fixed;
 	clear: left;
 	font-size: 10px;
 	padding: 10px 10px 20px 10px;
@@ -76,11 +78,11 @@ body.mediawiki {
 
 .banner-attribution a,
 .banner-attribution a:visited {
-	color: #fff;
+	color: @color-inverted-fixed;
 }
 
 .twn-mainpage-search {
-	background-color: #252525;
+	background-color: @color-base-fixed;
 	box-shadow: 0 2px 4px;
 	height: 50px;
 	padding: 10px 10px 10px 60px;
@@ -96,9 +98,8 @@ body.mediawiki {
 }
 
 .stats-tile {
-	background-color: #36b;
 	background-color: rgba( 51, 102, 187, 0.7 );
-	color: #fff;
+	color: @color-inverted-fixed;
 	height: 130px;
 	margin: auto;
 	width: 80%;
@@ -168,14 +169,13 @@ body.mediawiki {
 }
 
 .main-widget {
-	background-color: #f8f8f8;
-	background-color: rgba( 248, 248, 248, 0.85 );
-	color: #252525;
+	background-color: @background-color-backdrop-light;
+	color: @color-base;
 	max-height: 580px;
 	margin-left: 4%;
 	overflow: auto;
 	margin-top: 10px;
-	box-shadow: inset 0 0 4px #fff;
+	box-shadow: inset 0 0 4px @box-shadow-color-inverted;
 }
 
 /* Signup styles start here. */
@@ -198,8 +198,8 @@ body.mediawiki {
 	outline: 0;
 	border-style: solid;
 	border-width: 1px;
-	border-color: #c9c9c9;
-	color: #252525;
+	border-color: @background-color-disabled;
+	color: @color-base;
 }
 
 .login-widget h1,
@@ -209,19 +209,19 @@ body.mediawiki {
 }
 
 .login-widget .dev-signup {
-	border-top: 1px solid #ddd;
+	border-top: 1px solid @border-color-muted;
 	padding: 10px 0;
 }
 
 .login-widget .signup-language-selector {
 	font-size: 12pt;
-	background-color: #f8f8f8;
+	background-color: @background-color-interactive-subtle;
 	cursor: pointer;
 	padding: 5px 12px;
 }
 
 .login-widget .signup-language-selector:hover {
-	background-color: #e5e5e5;
+	background-color: @background-color-interactive;
 }
 
 .login-widget .signup-languages {
@@ -231,7 +231,7 @@ body.mediawiki {
 }
 
 .login-widget input.invalid {
-	border: 1px solid #e85355;
+	border: 1px solid @border-color-destructive;
 }
 
 /* Signup styles end here. */
@@ -246,7 +246,7 @@ body.mediawiki {
 .main-widget h2 {
 	border: 0;
 	font-weight: lighter;
-	color: #252525;
+	color: @color-base;
 	font-size: 20px;
 	line-height: 23px;
 	padding: 0.5em 0 0 0;
@@ -258,8 +258,8 @@ body.mediawiki {
 }
 
 .ranking {
-	background-color: #fff;
-	border-top: 1px solid #eee;
+	background-color: @background-color-base;
+	border-top: 1px solid @border-color-muted;
 	padding: 10px;
 }
 
@@ -273,7 +273,7 @@ body.mediawiki {
 }
 
 .ranking .rank-description {
-	color: #555;
+	color: @color-subtle;
 	font-size: 15px;
 }
 
@@ -283,13 +283,13 @@ body.mediawiki {
 }
 
 .sandbox-message {
-	color: #333;
-	background-color: #fbf9ce;
+	color: @color-base;
+	background-color: @background-color-warning-subtle;
 	font-size: 14px;
 }
 
 .langstats-link {
-	border-top: 1px solid #ddd;
+	border-top: 1px solid @border-color-muted;
 }
 
 a.langstats-link {
@@ -312,17 +312,17 @@ a.langstats-link {
 }
 
 .twn-mainpage-footer {
-	background-color: #f0f0f0;
+	background-color: @background-color-interactive;
 	height: 50px;
 	font-size: 16px;
 	padding: 10px;
 	margin: 10px;
-	border-bottom: 1px solid #aaa;
+	border-bottom: 1px solid @border-color-base;
 	line-height: 30px;
 }
 
 .twn-mainpage-poweredby {
-	background-color: #f0f0f0;
+	background-color: @background-color-interactive;
 	font-size: 18px;
 	height: 50px;
 	margin: 10px;
@@ -331,9 +331,9 @@ a.langstats-link {
 }
 
 .project-tile {
-	border: 1px solid #aaa;
-	box-shadow: 0 1px 2px rgba( 0, 0, 0, 0.25 );
-	background: #fcfcfc;
+	border: 1px solid @border-color-base;
+	box-shadow: @box-shadow-drop-small;
+	background: @background-color-neutral-subtle;
 	margin: 10px;
 	height: 180px;
 }
@@ -343,8 +343,8 @@ a.langstats-link {
 }
 
 .project-tile:hover {
-	border-color: #777;
-	box-shadow: 0 2px 3px rgba( 0, 0, 0, 0.25 );
+	border-color: @border-color-interactive;
+	box-shadow: @box-shadow-drop-medium;
 }
 
 .project-actions {
@@ -360,7 +360,7 @@ a.langstats-link {
 	font-size: 26px;
 	padding: 15px;
 	cursor: pointer;
-	color: #555;
+	color: @color-subtle;
 }
 
 .project-icon div {
@@ -411,16 +411,16 @@ a.langstats-link {
 	text-align: left;
 	height: 40px;
 	line-height: 40px;
-	background-color: #252525;
+	background-color: @background-color-inverted;
 	margin: 0;
 	overflow: hidden;
 }
 
 .twn-mainpage-project-tiles .twn-mainpage-project-tile .action {
-	border-right: 1px solid #333;
+	border-right: 1px solid @border-color-notice;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	color: #fff;
+	color: @color-inverted;
 	font-size: 14px;
 	padding: 0 5px 0 0;
 }
@@ -431,7 +431,7 @@ a.langstats-link {
 
 .project-actions a,
 .project-actions a:visited {
-	color: #fff;
+	color: @color-inverted;
 	text-decoration: none;
 	padding-left: 24px;
 	cursor: pointer;
@@ -457,17 +457,17 @@ a.langstats-link {
 }
 
 .searchbox {
-	border: 1px solid #777;
+	border: 1px solid @border-color-interactive;
 	height: 32px;
 	margin: 0 5px;
 	-webkit-appearance: none;
-	background-color: #fff;
+	background-color: @background-color-base;
 }
 
 .twn-mainpage-search::before {
 	display: inline-block;
 	content: '';
-	background: #252525 url( ../images/search.svg ) no-repeat scroll left center;
+	background: @color-base-fixed url( ../images/search.svg ) no-repeat scroll left center;
 	background-size: 30px;
 	height: 30px;
 	width: 30px;
@@ -490,7 +490,7 @@ a.langstats-link {
 .twn-mainpage-footer a,
 .twn-mainpage-footer a:visited {
 	text-align: center;
-	color: #36b;
+	color: @color-progressive;
 }
 
 @media all and ( max-width: 1200px ) {
@@ -519,7 +519,7 @@ a.langstats-link {
 	}
 
 	.main-widget {
-		background-color: #f8f8f8;
+		background-color: @background-color-interactive-subtle;
 	}
 
 	.twn-mainpage-banner {
@@ -559,7 +559,7 @@ button.same-language-uls-trigger {
 
 .same-language-uls-trigger::after {
 	content: '';
-	border-top: 4px solid #aaa;
+	border-top: 4px solid @border-color-base;
 	border-left: 4px solid transparent;
 	border-right: 4px solid transparent;
 	display: inline-block;
@@ -580,20 +580,20 @@ div.ext-translate-msggroup-selector-menu::before {
 
 .twn-mainpage-banner .main-widget .twnmp-signup-error,
 .twn-mainpage-banner .main-widget .twnmp-signup-generic-error {
-	background-color: #cf1c1f;
+	background-color: @background-color-destructive;
 	padding: 6px;
-	color: #fff;
+	color: @color-inverted;
 	position: relative;
 	top: -2px;
 	font-size: 14px;
-	border-bottom: 2px solid #a90000;
+	border-bottom: 2px solid @border-color-destructive;
 	border-radius: 2px;
 }
 
 .twnmp-signup-error::before {
 	content: '';
 	display: inline-block;
-	border-bottom: 5px solid #cf1c1f;
+	border-bottom: 5px solid @border-color-destructive;
 	border-right: 5px solid transparent;
 	border-left: 5px solid transparent;
 	position: absolute;

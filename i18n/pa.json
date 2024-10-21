@@ -6,8 +6,8 @@
 			"Cabal"
 		]
 	},
-	"twnmp-desc": "translatewiki.net ਦਾ ਮੁੱਢਲਾ ਵਰਕਾ ਦਿੰਦਾ ਹੈ",
-	"twnmp-mainpage": "ਮੁੱਢਲਾ ਵਰਕਾ",
+	"twnmp-desc": "translatewiki.net ਮੁੁੱਖ ਸਫ਼ਾ ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ",
+	"twnmp-mainpage": "ਮੁੱਖ ਸਫ਼ਾ",
 	"twnmp-s-translators": "{{PLURAL:$1|ਤਰਜਮੇਕਾਰ}}",
 	"twnmp-s-projects": "{{PLURAL:$1|ਪ੍ਰੋਜੈਕਟ}}",
 	"twnmp-s-languages": "ਸਰਗਰਮ {{PLURAL:$1|ਭਾਸ਼ਾ|ਭਾਸ਼ਾਵਾਂ}}",

@@ -70,6 +70,12 @@ class SpecialTwnMainPage extends SpecialPage {
 		];
 	}
 
+	/** @inheritDoc */
+	public function getRobotPolicy() {
+		// We very much do want this page to be indexed even though special pages normally aren't
+		return $this->getConfig()->get( MainConfigNames::DefaultRobotPolicy );
+	}
+
 	public function execute( $parameters ) {
 		$out = $this->getOutput();
 		$skin = $this->getSkin();
@@ -96,8 +102,6 @@ class SpecialTwnMainPage extends SpecialPage {
 		$out->addJsConfigVars( 'wgULSPosition', 'personal' );
 		$out->addJsConfigVars( 'maxProjectTiles', $this->maxProjectTiles );
 		$out->addMeta( 'viewport', 'width=device-width, initial-scale=0.5' );
-		// We very much do want this page to be indexed even though special pages normally aren't
-		$out->setRobotPolicy( $this->getConfig()->get( MainConfigNames::DefaultRobotPolicy ) );
 
 		// These add modules so this has to be called before headElement
 		$output = $this->makeContent();

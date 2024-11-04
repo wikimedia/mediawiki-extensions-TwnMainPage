@@ -33,6 +33,7 @@
 	"twnmp-reviews-per-month": "{{PLURAL:$1|átnézés}}/hó",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1={{GENDER:$1|Te}} vagy az egyetlen fordító|$2. a(z) $3 fordító közül}}<br />$4 nyelven",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1={{GENDER:$1|Te}} vagy az egyetlen fordító|$2. a(z) $3 fordító közül}}",
+	"twnmp-add-project": "Tedd fel a saját nyílt forráskódú projektedet fordításra",
 	"twnmp-sandboxed": "{{PLURAL:$1|0=El kell készítened néhány fordítást|Több fordítást kell elkészítened}} a regisztrációd befejezéséhez.",
 	"twnmp-sandboxed-limit": "Elérted a fordítási korlátot. A csapatunk hamarosan meg fog győződni róla és frissíti a fiókodat.",
 	"twnmp-bottom-help": "Segítség",

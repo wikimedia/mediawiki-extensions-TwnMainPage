@@ -3,10 +3,11 @@
 		"authors": [
 			"Ajeje Brazorf",
 			"Gmelfi",
-			"Sarvaturi"
+			"Sarvaturi",
+			"GianAntonucci"
 		]
 	},
-	"twnmp-mainpage": "Pàggina principali",
+	"twnmp-mainpage": "Pàggina mastra",
 	"twnmp-s-translators": "{{PLURAL:$1|Tradutturi|Traduttura}}",
 	"twnmp-s-projects": "{{PLURAL:$1|Pruggettu|Pruggetti}}",
 	"twnmp-s-languages": "{{PLURAL:$1|lingua attiva|lingui attivi}}",

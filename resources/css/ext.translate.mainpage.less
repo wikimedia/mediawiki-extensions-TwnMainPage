@@ -154,18 +154,20 @@ body.mediawiki {
 	cursor: auto;
 }
 
-.stats-number {
-	font-size: 42px;
-	opacity: 0.9;
-	line-height: 1.2em;
-}
-
 .stats-text {
 	font-size: 1em;
 	opacity: 0.85;
 	font-weight: normal;
 	overflow-wrap: break-word;
 	word-wrap: break-word;
+
+	strong {
+		display: block;
+		font-size: 42px;
+		opacity: 0.9;
+		line-height: 1.2em;
+		font-weight: normal;
+	}
 }
 
 .main-widget {
@@ -263,13 +265,14 @@ body.mediawiki {
 	padding: 10px;
 }
 
-.ranking .count {
-	font-size: 29px;
-	font-weight: bold;
-}
-
 .ranking .count-description {
 	font-size: 18px;
+
+	strong {
+		display: block;
+		font-weight: bold;
+		font-size: 29px;
+	}
 }
 
 .ranking .rank-description {

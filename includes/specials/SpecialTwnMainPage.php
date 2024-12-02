@@ -43,17 +43,17 @@ class SpecialTwnMainPage extends SpecialPage {
 			// Rows X cols
 			[
 				[
-					'name' => 'twnmp-s-projects',
+					'name' => 'twnmp-stat-projects',
 					'stats' => $stats['projects'],
 					'url' => Title::makeTitle( NS_CATEGORY, 'Supported projects' )->getLocalURL(),
 				],
 				[
-					'name' => 'twnmp-s-translators',
+					'name' => 'twnmp-stat-translators',
 					'stats' => $stats['translators'],
 					'url' => SpecialPage::getTitleFor( 'Activeusers' )->getLocalURL(),
 				],
 				[
-					'name' => 'twnmp-s-messages',
+					'name' => 'twnmp-stat-messages',
 					'stats' => $stats['messages'],
 					'url' => SpecialPage::getTitleFor( 'Translate' )->getLocalURL(),
 				],
@@ -62,7 +62,7 @@ class SpecialTwnMainPage extends SpecialPage {
 				null,
 				null,
 				[
-					'name' => 'twnmp-s-languages',
+					'name' => 'twnmp-stat-languages',
 					'stats' => $stats['languages'],
 					'url' => SpecialPage::getTitleFor( 'SupportedLanguages' )->getLocalURL(),
 				],
@@ -532,18 +532,20 @@ HTML;
 				if ( $value > 1000 ) {
 					$digits = 3 - ceil( log( $value, 100 ) );
 					$fmtValue = number_format( $value / 1000, $digits );
-					$fmtValue = $this->msg( 'twnmp-stats-number-k' )->numParams( $fmtValue )->escaped();
+					$fmtValue = $this->msg( 'twnmp-stats-number-k' )->numParams( $fmtValue )->parse();
 				} else {
 					$fmtValue = htmlspecialchars( $lang->formatNum( $value ) );
 				}
 
-				$text = $this->msg( $name )->numParams( $value )->escaped();
+				$text = $this->msg( $name )
+					->params( "<strong>{$fmtValue}</strong>" )
+					->numParams( $value )
+					->parse();
 
 				$out .= <<<HTML
 <div class="four columns">
 		<div class="stats-tile" id="$name">
 			<a href="$url"></a>
-			<div class="stats-number">$fmtValue</div>
 			<div class="stats-text">$text</div>
 		</div>
 </div>
@@ -773,13 +775,11 @@ HTML;
 			if ( $user === $currentUser ) {
 				$out .= Html::element(
 					'div',
-					[ 'class' => 'count' ],
-					$this->getLanguage()->formatNum( $count )
-				);
-				$out .= Html::element(
-					'div',
 					[ 'class' => 'count-description' ],
-					$this->msg( 'twnmp-translations-per-month' )->numParams( $count )->text()
+					$this->msg( 'twnmp-stat-translations-per-month' )
+						->params( "<strong>{$count}</strong>" )
+						->numParams( $count )
+						->parse()
 				);
 
 				// @todo When refactoring, $languageName should not be used
@@ -820,13 +820,11 @@ HTML;
 			if ( $user === $currentUser ) {
 				$out .= Html::element(
 					'div',
-					[ 'class' => 'count' ],
-					$this->getLanguage()->formatNum( $count )
-				);
-				$out .= Html::element(
-					'div',
 					[ 'class' => 'count-description' ],
-					$this->msg( 'twnmp-reviews-per-month' )->numParams( $count )->text()
+					$this->msg( 'twnmp-stat-reviews-per-month' )
+						->params( "<strong>{$count}</strong>" )
+						->numParams( $count )
+						->parse()
 				);
 
 				// @todo When refactoring, $languageName should not be used
@@ -869,7 +867,11 @@ HTML;
 		}
 
 		$count = $this->getLanguage()->formatNum( $count );
-		$count = htmlspecialchars( $count );
+
+		$countDescription = $this->msg( 'twnmp-stat-translations-in-sandbox' )
+			->params( "<strong>{$count}</strong>" )
+			->numParams( $count )
+			->parse();
 
 		$action = SpecialPage::getTitleFor( 'TranslationStash' )->getLocalURL();
 		$action = htmlspecialchars( $action );
@@ -878,9 +880,8 @@ HTML;
 
 <form class="row ranking" action="$action">
 	<div class="eight columns">
-		<div class="count">$count</div>
 		<div class="count-description">
-			{$this->msg( 'twnmp-translations-in-sandbox' )->numParams( $count )->escaped()}
+			$countDescription
 		</div>
 	</div>
 	<div class="four columns">

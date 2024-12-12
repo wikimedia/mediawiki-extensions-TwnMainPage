@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Munajad.MH"
+		]
+	},
+	"twnmp-desc": "Nyalasta tanèyan translatewiki.net",
+	"twnmp-mainpage": "Tanèyan",
+	"twnmp-s-translators": "{{PLURAL:$1|Panarjim}}",
+	"twnmp-s-projects": "{{PLURAL:$1|Projèk}}",
+	"twnmp-s-languages": "{{PLURAL:$1|Bhâsa}} aktif",
+	"twnmp-s-messages": "{{PLURAL:$1|Lajhing}} ka'angghuy ètarjim",
+	"twnmp-bannerwho": "Ghâmbhâr $1",
+	"twnmp-show-more-projects": "Abâs kabbhi projèk...",
+	"twnmp-brand-motto": "Maoran panarjiman sombhâr sardhâ",
+	"twnmp-login": "Alebbhu",
+	"twnmp-logout": "Mèjhil log",
+	"twnmp-search-placeholder": "Pangghi'i tor beccè' panarjiman",
+	"twnmp-search-button": "Pangghi'i",
+	"twnmp-search-choose-project": "Panakèd projèk ka'angghuy ètarjim'aghi",
+	"twnmp-translate-link": "Tarjim'aghi",
+	"twnmp-proofread-link": "Prèksa"
+}

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"William Surya Permana"
+			"William Surya Permana",
+			"Munajad.MH"
 		]
 	},
 	"twnmp-desc": "Menyediakan halaman utama translatewiki.net",
@@ -30,7 +31,7 @@
 	"twnmp-translations-per-month": "{{PLURAL:$1|Terjemahan}}/bulan",
 	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Terjemahan}}",
 	"twnmp-reviews-per-month": "{{PLURAL:$1|Tinjauan}}/bulan",
-	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Hanya Anda satu-satunya<br />untuk $4|{{GENDER:$1|Peringkat}} $2 dari $3<br />untuk $4}}",
+	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Among Dhika ṭong-siṭṭongnga<br />ḍâ' $4|{{GENDER:$1|Ondhâg}} $2 ḍâri $3<br />ḍâ' $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Hanya Anda satu-satunya|{{GENDER:$1|Peringkat}} $2 dari $3}}",
 	"twnmp-add-project": "Tambahkan proyek sumber terbuka Anda untuk diterjemahkan",
 	"twnmp-sandboxed": "Anda harus mengirimkan {{PLURAL:$1|0=beberapa|lebih banyak lagi}} terjemahan untuk menyelesaikan pendaftaran Anda.",

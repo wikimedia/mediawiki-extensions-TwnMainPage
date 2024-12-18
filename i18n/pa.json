@@ -47,7 +47,7 @@
 	"twnmp-create-account-button": "ਖਾਤਾ ਬਣਾਓ",
 	"twnmp-signup-error-invalidusername": "ਇਹ ਵਰਤੋਂਕਾਰ ਨਾਮ ਉਪਲਬਧ ਨਹੀਂ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ, ਕੋਈ ਵੱਖਰਾ ਚੁਣੋ।",
 	"twnmp-signup-error-nonfreeusername": "ਇਹ ਵਰਤੋਂਕਾਰ ਨਾਮ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ, ਕੋਈ ਵੱਖਰਾ ਚੁਣੋ।",
-	"twnmp-signup-error-invalidemail": "ਇਹ ਇੱਕ ਵੈਧ ਈਮੇਲ ਪਤੇ ਵਰਗਾ ਨਹੀਂ ਲੱਗਦਾ। ਕਿਰਪਾ ਕਰਕੇ, ਇੱਕ ਵੈਧ ਪ੍ਰਦਾਨ ਕਰੋ।",
+	"twnmp-signup-error-invalidemail": "ਇਹ ਇੱਕ ਜਾਇਜ਼ ਈਮੇਲ ਪਤੇ ਵਰਗਾ ਨਹੀਂ ਲੱਗਦਾ। ਕਿਰਪਾ ਕਰਕੇ, ਇੱਕ ਜਾਇਜ਼ ਪਤਾ ਦਿਓ।",
 	"twnmp-signup-error-other": "ਸਾਈਨ ਅੱਪ ਕਰਨਾ ਅਸਫਲ ਰਿਹਾ। ਸਰਵਰ ਨੇ ਇੱਕ ਗਲਤੀ ਵਾਪਸ ਕੀਤੀ: $1।",
 	"twnmp-signup-error-unknown": "ਕਿਸੇ ਅਗਿਆਤ ਕਾਰਨ ਕਰਕੇ ਖਾਤਾ ਬਣਾਉਣਾ ਅਸਫਲ ਰਿਹਾ।",
 	"twnmp-become-translator": "ਇੱਕ ਤਰਜਮੇਕਾਰ ਬਣੋ",

@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pyscowicz"
+			"Pyscowicz",
+			"Rocioun"
 		]
 	},
 	"twnmp-mainpage": "Hēafodtramet",
 	"twnmp-bannerwho": "Biliþ $1",
-	"twnmp-login": "Inmeldian",
+	"twnmp-login": "Ingan",
 	"twnmp-logout": "Ūtmeldian",
 	"twnmp-search-button": "Findan",
 	"twnmp-bottom-about": "Cȳþþu",

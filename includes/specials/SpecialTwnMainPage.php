@@ -419,17 +419,27 @@ HTML;
 		$out .= Html::closeElement( 'div' );
 
 		global $wgFooterIcons, $wgExternalLinkTarget;
-		foreach ( $wgFooterIcons['poweredby'] as $icon ) {
-			$out .= Html::openElement( 'div', [ 'class' => 'row twn-mainpage-poweredby' ] );
-			$out .= Html::element(
-				'a',
-				[
-					'href' => $icon['url'],
-					'target' => $wgExternalLinkTarget
-				],
-				htmlspecialchars( $icon['alt'] )
-			);
-			$out .= Html::closeElement( 'div' );
+		foreach ( $wgFooterIcons as $footerIcons ) {
+			foreach ( $footerIcons as $icon ) {
+				if ( !$icon ) {
+					break;
+				}
+
+				$out .= Html::openElement( 'div', [ 'class' => 'row twn-mainpage-poweredby' ] );
+				if ( is_string( $icon ) ) {
+					$out .= $icon;
+				} else {
+					$out .= Html::element(
+						'a',
+						[
+							'href' => $icon['url'],
+							'target' => $wgExternalLinkTarget
+						],
+						htmlspecialchars( $icon['alt'] )
+					);
+				}
+				$out .= Html::closeElement( 'div' );
+			}
 		}
 
 		$out .= Html::closeElement( 'footer' );

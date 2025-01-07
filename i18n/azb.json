@@ -7,15 +7,12 @@
 		]
 	},
 	"twnmp-mainpage": "آنا صفحه",
-	"twnmp-s-translators": "{{PLURAL:$1|چئویرن}}",
-	"twnmp-s-languages": "فعال {{PLURAL:$1|دیل}}",
 	"twnmp-show-more-projects": "بوتون پروژه‌لری گؤستر...",
 	"twnmp-brand-motto": "آچیق‌قایناق ترجومه توپلومو",
 	"twnmp-search-placeholder": "چئویرمه‌لری تاپ و دوزلت",
 	"twnmp-search-choose-project": "چئویرمک اوچون بیر پروژه سئچین",
 	"twnmp-your-translations-stats": "چئویرمک آمارلارینیز",
 	"twnmp-your-view-language-stats": "دیل آمارلارینا باخ",
-	"twnmp-translations-in-sandbox": "چئویرمه‌لر",
 	"twnmp-add-project": "اؤز آچیق‌قایناق پروژه‌نیزی ترجومه اوچون آرتیرین",
 	"twnmp-bottom-support": "دستک میزی",
 	"twnmp-bottom-languages-supported": "ساپورتلانان دیل‌لر"

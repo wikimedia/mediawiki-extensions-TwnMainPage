@@ -14,8 +14,6 @@
 	"twnmp-proofread-button": "راجع",
 	"twnmp-your-translations-stats": "الإحصائيّات تاع الطرجمات تاعك",
 	"twnmp-your-view-language-stats": "شوف الإحصائيّات تاع الخدمة ف هاد اللوغة",
-	"twnmp-translations-per-month": "طرجمات \\ شهَر",
-	"twnmp-reviews-per-month": "مراجعات \\ شهَر",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=كاين غير نتا<br />فل $4|{{GENDER:$1|مكلاصي}} $2 من مجموع تاع $3<br />فل $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=كاين غير نتا|{{GENDER:$1|مكلاصي}} $2 من مجموع $3}}"
 }

@@ -5,10 +5,6 @@
 		]
 	},
 	"twnmp-mainpage": "Sākumlapa",
-	"twnmp-s-translators": "{{PLURAL:$1|tulkotāji|tulkotājs|tulkotāji}}",
-	"twnmp-s-projects": "{{PLURAL:$1|projekti|projekts|projekti}}",
-	"twnmp-s-languages": "{{PLURAL:$1|aktīvas valodas|aktīva valoda|aktīvas valodas}}",
-	"twnmp-s-messages": "{{PLURAL:$1|tulkojami ziņojumi|tulkojams ziņojums|tulkojami ziņojumi}}",
 	"twnmp-show-more-projects": "Rādīt visus projektus...",
 	"twnmp-brand-motto": "Atvērtā pirmkoda tulkošanas kopiena",
 	"twnmp-login": "Pieslēgties",

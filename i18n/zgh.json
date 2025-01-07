@@ -6,9 +6,6 @@
 		]
 	},
 	"twnmp-mainpage": "ⵜⴰⵙⵏⴰ ⵏ ⵓⵙⵏⵓⴱⴳ",
-	"twnmp-s-translators": "{{PLURAL:$1|ⵓⵎⵙⵙⵓⵖⵍ|ⵉⵎⵙⵙⵓⵖⵍⵏ}}",
-	"twnmp-s-projects": "{{PLURAL:$1|ⵓⵙⵏⴼⴰⵕ|ⵉⵙⵏⴼⴰⵕⵏ}}",
-	"twnmp-s-messages": "{{PLURAL:$1|ⵜⵓⵣⵉⵏⵜ|ⵜⵓⵣⵉⵏⵉⵏ}} ⵉ ⵓⵙⵓⵖⵍ",
 	"twnmp-bannerwho": "ⵜⴰⵡⵍⴰⴼⵜ $1",
 	"twnmp-show-more-projects": "ⵙⵙⵓⵎⴰⵏ ⵉⵙⵏⴼⴰⵔⵏ ⴰⴽⴽⵯ...",
 	"twnmp-login": "ⴽⵛⵎ",
@@ -24,8 +21,6 @@
 	"twnmp-your-translations-stats": "ⵉⵙⵏⵎⴽⵜⴰⵜⵏ ⵏ ⵜⵙⵓⵖⵍⵉⵏ {{GENDER:|ⵏⵏⴽ|ⵏⵏⵎ|ⵏⵏⴽ/ⵎ}}",
 	"twnmp-your-translations-stats-all-languages": "ⵉ ⵜⵓⵜⵍⴰⵢⵉⵏ ⵎⴰⵕⵕⴰ",
 	"twnmp-your-view-language-stats": "ⵙⴽⵏ ⵉⵙⵏⵎⴽⵜⴰⵜⵏ ⵏ ⵜⵓⵜⵍⴰⵢⵜ",
-	"twnmp-translations-per-month": "{{PLURAL:$1|ⵜⵉⵙⵓⵖⴰⵍ}}/ⵡⴰⵢⵢⵓⵔ",
-	"twnmp-translations-in-sandbox": "{{PLURAL:$1|ⵜⵉⵙⵓⵖⴰⵍ}}",
 	"twnmp-bottom-help": "ⵜⵉⵡⵉⵙⵉ",
 	"twnmp-bottom-about": "ⵖⴼ",
 	"twnmp-signup-username-placeholder": "ⵉⵙⵎ ⵏ ⵓⵙⵎⵔⴰⵙ",

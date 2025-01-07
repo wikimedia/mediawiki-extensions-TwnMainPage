@@ -6,10 +6,6 @@
 			"Умар"
 		]
 	},
-	"twnmp-s-translators": "{{PLURAL:$1|таржамхо}} ва дӀаязваь",
-	"twnmp-s-projects": "{{PLURAL:$1|проект}}",
-	"twnmp-s-languages": "{{PLURAL:$1|мотт}}",
-	"twnmp-s-messages": "{{PLURAL:$1|интерфейсацара хоам ба}} таржам де дезаш",
 	"twnmp-bannerwho": "Сурт: $1",
 	"twnmp-login": "Чудовла",
 	"twnmp-search-placeholder": "Таржамаш хьа а лахе тоаде",
@@ -21,9 +17,6 @@
 	"twnmp-proofread-button": "Таллар",
 	"twnmp-your-translations-stats": "Хьа таржамай статистика",
 	"twnmp-your-view-language-stats": "Метта статистикага хьажар",
-	"twnmp-translations-per-month": "{{PLURAL:$1|таржам}} даьд цхьан бетта",
-	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Таржамаш}}",
-	"twnmp-reviews-per-month": "{{PLURAL:$1|таллар}} даьд цхьан бетта",
 	"twnmp-translations-translator-ranking": "$4 меттаца болх беш<br />{{PLURAL:$3|1=хьо цаӀ мара таржамхо вац|{{PLURAL:$3|$3 таржамхочунна юкъе}} хьо $2-ча моттиге {{GENDER:$1|ва|я}}}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Алхха цаӀ {{GENDER:$1|хьо ва|хьо я}}|Хьо $2 моттиге {{GENDER:$1|ва|я}} $3-нна юкъе}}",
 	"twnmp-bottom-help": "Новкъoстал",

@@ -4,10 +4,8 @@
 			"AlimanRuna"
 		]
 	},
-	"twnmp-s-messages": "t'ikrana {{PLURAL:$1|willay|willaykuna}}",
 	"twnmp-login": "Yaykuy",
 	"twnmp-translate-link": "T'ikray",
 	"twnmp-translate-button": "T'ikray",
-	"twnmp-translations-in-sandbox": "{{PLURAL:$1|T'ikrasqakuna}}",
 	"twnmp-bottom-help": "Yanapa"
 }

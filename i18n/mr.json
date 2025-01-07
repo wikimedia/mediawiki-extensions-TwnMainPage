@@ -4,10 +4,6 @@
 			"V.narsikar"
 		]
 	},
-	"twnmp-s-translators": "{{PLURAL:$1|भाषांतरकार}}",
-	"twnmp-s-projects": "{{PLURAL:$1|प्रकल्प}}",
-	"twnmp-s-languages": "सक्रिय {{PLURAL:$1|भाषा}}",
-	"twnmp-s-messages": "भाषांतरासाठीचे {{PLURAL:$1|संदेश}}",
 	"twnmp-brand-motto": "मुक्त स्रोत भाषांतर करणारा समाज",
 	"twnmp-logout": "सनोंद-निर्गम",
 	"twnmp-search-placeholder": "भाषांतरे शोधा व त्यांना ठिकठाक करा",
@@ -17,8 +13,6 @@
 	"twnmp-proofread-button": "पुनरावलोकन",
 	"twnmp-your-translations-stats": "आपली भाषांतर सांख्यिकी",
 	"twnmp-your-view-language-stats": "भाषांतर सांख्यिकी बघा",
-	"twnmp-translations-per-month": "{{PLURAL:$1|भाषांतरे}}/महिना",
-	"twnmp-reviews-per-month": "{{PLURAL:$1|पुनरावलोकने}}/महिना",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=आपण एकमेव आहात<br /> $4साठी|$4साठी <br /> $3 पैकी $2 {{GENDER:$1|ही आपली श्रेणी आहे}}}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=आपण एकमेव आहात|$3 पैकी $2 {{GENDER:$1|श्रेणी}} }}",
 	"twnmp-add-project": "भाषांतरासाठी आपला मुक्त स्रोत प्रकल्प येथे जोडा",

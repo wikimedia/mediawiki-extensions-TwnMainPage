@@ -5,10 +5,6 @@
 		]
 	},
 	"twnmp-mainpage": "Baş Sayipa",
-	"twnmp-s-translators": "{{PLURAL:$1|Terğúman}}",
-	"twnmp-s-projects": "{{PLURAL:$1|Tasawur}}",
-	"twnmp-s-languages": "Etkín {{PLURAL:$1|tíl}}",
-	"twnmp-s-messages": "Terğúme etmek úşún {{PLURAL:$1|kaber}}",
 	"twnmp-bannerwho": "Resím: $1",
 	"twnmp-show-more-projects": "Pútún tasawurlardî kórset...",
 	"twnmp-brand-motto": "Aşîk memba terğúme ğemiyetí",

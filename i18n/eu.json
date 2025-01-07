@@ -5,10 +5,6 @@
 			"Subi"
 		]
 	},
-	"twnmp-s-translators": "{{PLURAL:$1|itzultzaile}}",
-	"twnmp-s-projects": "{{PLURAL:$1|proiektu}}",
-	"twnmp-s-languages": "{{PLURAL:$1|hizkuntza}} aktibo",
-	"twnmp-s-messages": "{{PLURAL:$1|mezu}} itzultzeko",
 	"twnmp-show-more-projects": "Erakutsi proiektu guztiak...",
 	"twnmp-brand-motto": "Kode irekiko itzulpengintza komunitatea",
 	"twnmp-search-placeholder": "Itzulpenak aurkitu eta zuzendu",
@@ -17,8 +13,6 @@
 	"twnmp-view-link": "Itzulpenak ikusi",
 	"twnmp-view-button": "Itzulpenak ikusi",
 	"twnmp-your-translations-stats": "Zure itzulpen-estatistikak",
-	"twnmp-translations-per-month": "{{PLURAL:$1|itzulpen}}/hilabete",
-	"twnmp-reviews-per-month": "{{PLURAL:$1|berrikuspen}}/hilabete",
 	"twnmp-bottom-help": "Laguntza",
 	"twnmp-bottom-about": "Honi buruz",
 	"twnmp-signup-username-placeholder": "Erabiltzaile-izena",

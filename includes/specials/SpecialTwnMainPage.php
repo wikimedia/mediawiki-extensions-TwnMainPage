@@ -773,7 +773,7 @@ HTML;
 		$translators = count( $stats );
 		foreach ( $stats as $user => $count ) {
 			if ( $user === $currentUser ) {
-				$out .= Html::element(
+				$out .= Html::rawElement(
 					'div',
 					[ 'class' => 'count-description' ],
 					$this->msg( 'twnmp-stat-translations-per-month' )
@@ -818,7 +818,7 @@ HTML;
 		$translators = count( $stats );
 		foreach ( $stats as $user => $count ) {
 			if ( $user === $currentUser ) {
-				$out .= Html::element(
+				$out .= Html::rawElement(
 					'div',
 					[ 'class' => 'count-description' ],
 					$this->msg( 'twnmp-stat-reviews-per-month' )

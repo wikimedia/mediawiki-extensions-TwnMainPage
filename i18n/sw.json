@@ -1,9 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jon Harald Søby",
 			"Lloffiwr"
 		]
 	},
 	"twnmp-mainpage": "Mwanzo",
-	"twnmp-login": "Ingia"
+	"twnmp-stat-translators": "{{PLURAL:$2|Mfasiri|Wafasiri}} $1",
+	"twnmp-stat-projects": "{{PLURAL:$2|Mradi|Miradi}} $1",
+	"twnmp-login": "Ingia",
+	"twnmp-stat-translations-per-month": "{{PLURAL:$2|Tafsiri}} $1 kwa mwezi",
+	"twnmp-stat-translations-in-sandbox": "{{PLURAL:$2|Tafsiri}} $1"
 }

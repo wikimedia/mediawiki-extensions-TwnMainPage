@@ -10,6 +10,8 @@
 	},
 	"twnmp-desc": "translatewiki.net প্রধান পাতা প্রদান করে",
 	"twnmp-mainpage": "প্রধান পাতা",
+	"twnmp-stat-translators": "$1 জন {{PLURAL:$2|অনুবাদক}}",
+	"twnmp-stat-projects": "$1টি {{PLURAL:$2|প্রকল্প}}",
 	"twnmp-bannerwho": "চিত্র $1",
 	"twnmp-show-more-projects": "সকল প্রকল্প দেখান...",
 	"twnmp-brand-motto": "উন্মুক্ত উৎস অনুবাদ সম্প্রদায়",

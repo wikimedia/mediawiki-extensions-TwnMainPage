@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"GilPe",
 			"Les Meloures",
 			"Robby",
 			"Soued031",
@@ -32,6 +33,7 @@
 	"twnmp-your-view-language-stats": "Sproochstatistike weisen",
 	"twnmp-stat-translations-per-month": "$1 {{PLURAL:$2|Iwwersetzung|Iwwersetzunge}} pro Mount",
 	"twnmp-stat-translations-in-sandbox": "$1 {{PLURAL:$2|Iwwersetzung|Iwwersetzungen}}",
+	"twnmp-stat-reviews-per-month": "$1 {{PLURAL:$2|Iwwerpréiwungen}} / Mount",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Dir sidd deen Eenzege<!-- $1 --><br />fir $4|Plaz $2 vu(n) $3<br />fir $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Dir sidd deen Eenzegen<!-- $1 -->|Plaz $2 vu(n) $3}}",
 	"twnmp-add-project": "Setzt Ären Open-Source Projet fir d'Iwwersetzung dobäi",

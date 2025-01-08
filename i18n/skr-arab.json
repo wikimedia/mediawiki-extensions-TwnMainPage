@@ -4,5 +4,7 @@
 			"Saraiki"
 		]
 	},
-	"twnmp-translate-button": "ترجمہ کرو"
+	"twnmp-stat-translators": "$1 {{PLURAL:$2|مترجم|مترجمین}}",
+	"twnmp-translate-button": "ترجمہ کرو",
+	"twnmp-stat-translations-in-sandbox": "$1 {{PLURAL:$2|ترجمے}}"
 }

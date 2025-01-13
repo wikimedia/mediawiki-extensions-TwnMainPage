@@ -1,9 +1,49 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lloffiwr"
+			"Lloffiwr",
+			"Jon Harald Søby",
+			"Wangombe"
 		]
 	},
 	"twnmp-mainpage": "Mwanzo",
-	"twnmp-login": "Ingia"
+	"twnmp-bannerwho": "Picha $1",
+	"twnmp-show-more-projects": "Onyesha miradi yote...",
+	"twnmp-brand-motto": "Jumuiya ya utafsiri wa chanzo huria",
+	"twnmp-login": "Ingia",
+	"twnmp-logout": "Toka",
+	"twnmp-search-placeholder": "Tafuta na kurekebisha tafsiri",
+	"twnmp-search-button": "Tafuta",
+	"twnmp-search-choose-project": "Chagua mradi wa kutafsiri",
+	"twnmp-translate-link": "Tafsiri",
+	"twnmp-proofread-link": "Kagua",
+	"twnmp-view-link": "Tazama tafsiri",
+	"twnmp-translate-button": "Tafsiri",
+	"twnmp-proofread-button": "Kagua",
+	"twnmp-view-button": "Tazama tafsiri",
+	"twnmp-your-translations-stats": "Takwimu zako za tafsiri",
+	"twnmp-your-translations-stats-all-languages": "Kwa lugha zote",
+	"twnmp-your-view-language-stats": "Tazama takwimu za lugha",
+	"twnmp-translations-translator-ranking": "{{PLURAL:$3| 1=Wewe ndiye pekee<br /> kwa $4 | {{GENDER:$1| Imeorodheshwa}} $2 kati ya $3<br /> kwa $4 }}",
+	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3| 1=Wewe pekee ndiye| {{GENDER:$1| Imeorodheshwa}} $2 kati ya $3 }}",
+	"twnmp-add-project": "Ongeza mradi wako wa chanzo wazi kwa ajili ya tafsiri",
+	"twnmp-sandboxed-limit": "Umefikia kikomo cha kutafsiri. Timu yetu itahakikisha na kuboresha akaunti yako hivi karibuni.",
+	"twnmp-bottom-help": "Msaada",
+	"twnmp-bottom-support": "Dawati la usaidizi",
+	"twnmp-bottom-languages-supported": "Lugha zinazotumika",
+	"twnmp-bottom-about": "Kuhusu",
+	"twnmp-signup-username-placeholder": "Jina la mtumiaji:",
+	"twnmp-signup-password-placeholder": "Nenosiri",
+	"twnmp-signup-email-placeholder": "Barua pepe",
+	"twnmp-create-account-button": "Unda akaunti",
+	"twnmp-signup-error-invalidusername": "Jina hili la mtumiaji halipatikani. Tafadhali, chagua nyingine.",
+	"twnmp-signup-error-nonfreeusername": "Jina hili la mtumiaji tayari lipo. Tafadhali, chagua nyingine.",
+	"twnmp-signup-error-invalidemail": "Hii haionekani kama barua pepe halali. Tafadhali, toa halali.",
+	"twnmp-signup-error-other": "Kujiandikisha hakufanikiwa. Seva ilirudisha kosa: $1.",
+	"twnmp-signup-error-unknown": "Kuanzishwa kwa akaunti kulivunjika kwa sababu isiyojulikana.",
+	"twnmp-become-translator": "Kuwa mfasiri",
+	"twnmp-choose-languages-you-know": "Chagua lugha unazojua",
+	"twnmp-choose-another-language": "Chagua lugha nyingine...",
+	"twnmp-choose-fill-account-details": "Ingiza maelezo ya akaunti yako",
+	"twnmp-join-community": "Jiunge na jumuiya"
 }

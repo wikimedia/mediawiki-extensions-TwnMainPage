@@ -8,11 +8,16 @@
 			"Nike",
 			"Pxos",
 			"Pyscowicz",
+			"Samoasambia",
 			"Stryn"
 		]
 	},
 	"twnmp-desc": "translatewiki.netin etusivu",
 	"twnmp-mainpage": "Etusivu",
+	"twnmp-stat-translators": "$1 {{PLURAL:$2|kääntäjä|kääntäjää}}",
+	"twnmp-stat-projects": "$1 {{PLURAL:$2|projekti|projektia}}",
+	"twnmp-stat-languages": "$1 {{PLURAL:$2|aktiivinen kieli|aktiivista kieltä}}",
+	"twnmp-stat-messages": "$1 {{PLURAL:$2|viesti|viestiä}} käännettäväksi",
 	"twnmp-bannerwho": "Kuva $1",
 	"twnmp-show-more-projects": "Näytä kaikki projektit...",
 	"twnmp-brand-motto": "Avoin käännösyhteisö",
@@ -30,6 +35,9 @@
 	"twnmp-your-translations-stats": "Henkilökohtaiset käännöstilastot",
 	"twnmp-your-translations-stats-all-languages": "Kaikki kielet",
 	"twnmp-your-view-language-stats": "Näytä kielitilastot",
+	"twnmp-stat-translations-per-month": "$1 {{PLURAL:$2|käännöstä}}/kuukausi",
+	"twnmp-stat-translations-in-sandbox": "$1 {{PLURAL:$2|käännöstä}}",
+	"twnmp-stat-reviews-per-month": "$1 {{PLURAL:$2|oikolukua}}/kuukausi",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1={{GENDER:$1|Olet ainoa}}|Olet sijalla $2/$3<br />\nkielelle $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1={{GENDER:$1|Olet ainoa}}|Olet sijalla $2/$3}}",
 	"twnmp-add-project": "Lisää avoimen lähdekoodin projekti käännettäväksi",
@@ -57,5 +65,6 @@
 	"twnmp-join-community-reason": "Miksi haluat liittyä?",
 	"twnmp-create-account-cancel": "Peru",
 	"twnmp-join-community-info": "Et voi lähettää joitain käännöksiä juuri nyt? Voit silti liittyä.",
+	"twnmp-stats-number-k": "$1t",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|$1 viesti|$1 viestiä}}"
 }

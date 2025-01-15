@@ -8,7 +8,8 @@
 			"Nike",
 			"Pxos",
 			"Pyscowicz",
-			"Stryn"
+			"Stryn",
+			"Samoasambia"
 		]
 	},
 	"twnmp-desc": "translatewiki.netin etusivu",
@@ -64,5 +65,6 @@
 	"twnmp-join-community-reason": "Miksi haluat liittyä?",
 	"twnmp-create-account-cancel": "Peru",
 	"twnmp-join-community-info": "Et voi lähettää joitain käännöksiä juuri nyt? Voit silti liittyä.",
+	"twnmp-stats-number-k": "$1t",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|$1 viesti|$1 viestiä}}"
 }

@@ -9,7 +9,7 @@
 	"twnmp-mainpage": "Mwanzo",
 	"twnmp-stat-translators": "{{PLURAL:$2|Mfasiri|Wafasiri}} $1",
 	"twnmp-stat-projects": "{{PLURAL:$2|Mradi|Miradi}} $1",
-	"twnmp-stat-languages": "$1 Inayotumika {{PLURAL:$2| lugha|lugha}}",
+	"twnmp-stat-languages": "Lugha $1 {{PLURAL:$2|inayotumika|zinazotumika}}",
 	"twnmp-bannerwho": "Picha $1",
 	"twnmp-show-more-projects": "Onyesha miradi yote...",
 	"twnmp-brand-motto": "Jumuiya ya utafsiri wa chanzo huria",

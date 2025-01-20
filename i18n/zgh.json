@@ -31,6 +31,5 @@
 	"twnmp-choose-languages-you-know": "ⴷⵖⵔ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⴰ ⵜⵙⵙⵏⴷ",
 	"twnmp-choose-another-language": "ⴷⵖⵔ ⵜⵓⵜⵍⴰⵢⵜ ⵢⴰⴹⵏ...",
 	"twnmp-create-account-cancel": "ⵙⵔ",
-	"twnmp-stats-number-k": "$1k",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|ⵜⵓⵣⵉⵏⵜ|$1 ⵜⵓⵣⵉⵏⵉⵏ}}"
 }

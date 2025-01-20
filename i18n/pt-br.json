@@ -6,11 +6,16 @@
 			"Eduardoaddad",
 			"Felipe L. Ewald",
 			"Hamilton Abreu",
+			"Juwan",
 			"Luckas"
 		]
 	},
 	"twnmp-desc": "Oferece a página principal da translatewiki.net",
 	"twnmp-mainpage": "Página principal",
+	"twnmp-stat-translators": "$1 {{PLURAL:$2|Tradutor|Tradutores}}",
+	"twnmp-stat-projects": "$1 {{PLURAL:$2|Projeto|Projetos}}",
+	"twnmp-stat-languages": "$1 {{PLURAL:$2|Língua ativa|Línguas ativas}}",
+	"twnmp-stat-messages": "$1 {{PLURAL:$2|Mensagem|Mensagens}} para traduzir",
 	"twnmp-bannerwho": "Imagem $1",
 	"twnmp-show-more-projects": "Mostrar todos projetos...",
 	"twnmp-brand-motto": "Comunidade de tradução em código aberto",
@@ -28,6 +33,9 @@
 	"twnmp-your-translations-stats": "Suas estatísticas de tradução",
 	"twnmp-your-translations-stats-all-languages": "Para todas os idiomas",
 	"twnmp-your-view-language-stats": "Ver estatísticas de idioma",
+	"twnmp-stat-translations-per-month": "$1 {{PLURAL:$2|Tradução|Traduções}}/mês",
+	"twnmp-stat-translations-in-sandbox": "$1 {{PLURAL:$2|Tradução|Traduções}}",
+	"twnmp-stat-reviews-per-month": "$1 {{PLURAL:$2|Revisão|Revisões}}/mês",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Você é {{GENDER:$1|o único|a única}}<br />para $4|Na posição $2 de $3<br />para $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Você é {{GENDER:$1|o único|a única}}|Na posição $2 de $3}}",
 	"twnmp-add-project": "Adicione o seu projeto de código aberto para tradução",
@@ -52,8 +60,9 @@
 	"twnmp-choose-fill-account-details": "Introduza os detalhes da sua conta",
 	"twnmp-join-community": "Junte-se à comunidade",
 	"twnmp-join-community-desc": "Se é um programador interessado em documentar traduções, ou simplesmente em explorar a plataforma, também é bem-vindo.",
-	"twnmp-join-community-reason": "Por que está interessado(a) em participar?",
+	"twnmp-join-community-reason": "Por que tem interesse em participar?",
 	"twnmp-create-account-cancel": "Cancelar",
 	"twnmp-join-community-info": "Não consegue fazer traduções atualmente? Ainda pode participar na comunidade.",
+	"twnmp-stats-number-k": "$1 mil",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Uma mensagem|$1 mensagens}}"
 }

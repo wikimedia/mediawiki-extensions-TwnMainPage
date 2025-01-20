@@ -1,11 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
+			"Juwan",
 			"Robin van der Vliet",
 			"Tbodt"
 		]
 	},
 	"twnmp-mainpage": "lipu open",
+	"twnmp-stat-translators": "{{PLURAL:$2|jan $1 li ante toki}}",
+	"twnmp-stat-projects": "{{PLURAL:$2|ilo $1}}",
+	"twnmp-stat-languages": "{{PLURAL:$2|toki $1}}",
+	"twnmp-stat-messages": "{{PLURAL:$2|toki $1 li wile e toki ante}}",
 	"twnmp-bannerwho": "sitelen la $1",
 	"twnmp-show-more-projects": "o lukin e pali suli ale...",
 	"twnmp-brand-motto": "la jan ale li ante toki e ilo pi jan ale",
@@ -16,10 +21,24 @@
 	"twnmp-search-choose-project": "sina wile ante toki e seme?",
 	"twnmp-translate-link": "o ante e toki",
 	"twnmp-proofread-link": "o lukin e toki",
+	"twnmp-view-link": "o lukin e ante toki ale",
 	"twnmp-translate-button": "o ante e toki",
-	"twnmp-proofread-button": "o lukin e toki",
+	"twnmp-proofread-button": "o alasa e pakala toki",
+	"twnmp-view-button": "o lukin e ante toki ale",
 	"twnmp-your-translations-stats": "pali sina li mute ni lon...",
 	"twnmp-your-translations-stats-all-languages": "toki ale",
+	"twnmp-your-view-language-stats": "o lukin e nanpa toki",
+	"twnmp-stat-translations-per-month": "tenpo pi sike mun la jan li ante e {{PLURAL:$2|toki}} $1",
+	"twnmp-stat-translations-in-sandbox": "jan li ante e {{PLURAL:$2|toki $1}}",
+	"twnmp-stat-reviews-per-month": "tenpo pi sike mun la jan li alasa e {{PLURAL:$2|pakala}} $1",
 	"twnmp-translations-translator-ranking": "$4 la<br />{{PLURAL:$3|1=sina taso li pali|ni li mute #$2 lon jan pali $3{{GENDER:$1|}}}}",
-	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=sina taso li pali|ni li mute #$2 lon jan pali $3{{GENDER:$1|}}}}"
+	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=sina taso li pali|ni li mute #$2 lon jan pali $3{{GENDER:$1|}}}}",
+	"twnmp-bottom-help": "o sona pali",
+	"twnmp-bottom-languages-supported": "toki ale pona",
+	"twnmp-bottom-about": "sona pi lipu ni",
+	"twnmp-signup-username-placeholder": "nimi jan",
+	"twnmp-signup-password-placeholder": "nimi open",
+	"twnmp-signup-email-placeholder": "nimi Email",
+	"twnmp-create-account-button": "o pali e sijelo",
+	"twnmp-create-account-cancel": "o weka"
 }

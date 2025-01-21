@@ -40,5 +40,6 @@
 	"twnmp-signup-password-placeholder": "nimi open",
 	"twnmp-signup-email-placeholder": "nimi Email",
 	"twnmp-create-account-button": "o pali e sijelo",
-	"twnmp-create-account-cancel": "o weka"
+	"twnmp-create-account-cancel": "o weka",
+	"twnmp-stats-number-k": "$1 000"
 }

@@ -8,7 +8,8 @@
 			"Imperadeiro98",
 			"Macofe",
 			"MokaAkashiyaPT",
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Juwan"
 		]
 	},
 	"twnmp-desc": "Fornece a página principal da translatewiki.net",
@@ -61,8 +62,9 @@
 	"twnmp-choose-fill-account-details": "Introduza os detalhes da sua conta",
 	"twnmp-join-community": "Junte-se à comunidade",
 	"twnmp-join-community-desc": "Se é um programador interessado em documentar traduções, ou simplesmente em explorar a plataforma, também é bem-vindo.",
-	"twnmp-join-community-reason": "Porque tem interesse em participar?",
+	"twnmp-join-community-reason": "Por que tem interesse em participar?",
 	"twnmp-create-account-cancel": "Cancelar",
 	"twnmp-join-community-info": "Não consegue fazer traduções neste momento? Ainda pode participar na comunidade.",
+	"twnmp-stats-number-k": "$1 mil",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Uma mensagem|$1 mensagens}}"
 }

@@ -19,6 +19,7 @@
 	"twnmp-mainpage": "Accueil",
 	"twnmp-stat-translators": "$1 {{PLURAL:$2|traducteur|traducteurs}}",
 	"twnmp-stat-projects": "$1 {{PLURAL:$2|projet|projets}}",
+	"twnmp-stat-languages": "$1 {{PLURAL:$2|langue active|langues actives}}",
 	"twnmp-stat-messages": "$1 {{PLURAL:$2|message|messages}} à traduire",
 	"twnmp-bannerwho": "Image $1",
 	"twnmp-show-more-projects": "Afficher tous les projets…",

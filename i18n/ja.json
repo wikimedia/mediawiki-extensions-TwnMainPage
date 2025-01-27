@@ -5,7 +5,8 @@
 			"RYU N",
 			"Shirayuki",
 			"SkyDaisy9",
-			"Sujiniku"
+			"Sujiniku",
+			"Kokage si"
 		]
 	},
 	"twnmp-desc": "translatewiki.net のメインページを提供する",
@@ -38,6 +39,7 @@
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=翻訳者はあなたのみです|$2 {{GENDER:$1|位の翻訳者}} ($3 人中)}}",
 	"twnmp-add-project": "あなたのオープンソース プロジェクトを翻訳対象に追加",
 	"twnmp-sandboxed": "登録を完了するには、{{PLURAL:$1|0=いくつかの|さらに}}翻訳をする必要があります。",
+	"twnmp-sandboxed-limit": "あなたは翻訳の制限に達しました。私たちのチームがすぐにあなたのアカウントを確認して更新します。",
 	"twnmp-bottom-help": "ヘルプ",
 	"twnmp-bottom-support": "サポート デスク",
 	"twnmp-bottom-languages-supported": "サポートしている言語",
@@ -57,6 +59,8 @@
 	"twnmp-choose-another-language": "別の言語を選択...",
 	"twnmp-choose-fill-account-details": "アカウント情報を入力してください",
 	"twnmp-join-community": "コミュニティへの参加",
+	"twnmp-join-community-desc": "翻訳を文書化することに興味がある開発者も、単にプラットフォームを探索している開発者も歓迎します。",
+	"twnmp-join-community-reason": "参加することに興味を持った理由は何ですか？",
 	"twnmp-create-account-cancel": "キャンセル",
 	"twnmp-join-community-info": "翻訳作業ができなくてもご参加いただけます。",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|$1 メッセージ}}"

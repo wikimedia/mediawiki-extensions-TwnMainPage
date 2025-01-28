@@ -13,7 +13,7 @@
 	"twnmp-s-messages": "{{PLURAL:$1|toki lili mute o toki ante}}",
 	"twnmp-bannerwho": "sitelen la $1",
 	"twnmp-show-more-projects": "o lukin e pali suli ale...",
-	"twnmp-brand-motto": "la jan ale li ante toki e ilo pi jan ale",
+	"twnmp-brand-motto": "jan ale li ante toki e ilo pi jan ale",
 	"twnmp-login": "o lon sijelo",
 	"twnmp-logout": "o weka tan sijelo",
 	"twnmp-search-placeholder": "o alasa e toki o pona e ona",
@@ -40,5 +40,7 @@
 	"twnmp-signup-password-placeholder": "nimi open",
 	"twnmp-signup-email-placeholder": "nimi Email",
 	"twnmp-create-account-button": "o pali e sijelo",
-	"twnmp-create-account-cancel": "o weka"
+	"twnmp-create-account-cancel": "o weka",
+	"twnmp-stats-number-k": "$1 000",
+	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|toki $1}}"
 }

@@ -4,11 +4,16 @@
 			"Chrumps",
 			"M4sk1n",
 			"The Polish",
-			"WTM"
+			"WTM",
+			"Woytecr"
 		]
 	},
 	"twnmp-desc": "Tekst na głównej stronie translatewiki.net",
 	"twnmp-mainpage": "Strona główna",
+	"twnmp-stat-translators": "$1 {{PLURAL:$2|Tłumacz|Tłumaczy}}",
+	"twnmp-stat-projects": "$1 {{PLURAL:$2|Projekt|Projektów}}",
+	"twnmp-stat-languages": "$1 {{PLURAL:$2|aktywny język|aktywnych języków}}",
+	"twnmp-stat-messages": "$1 {{PLURAL:$2|Komunikat|Komunikaty|Komunikatów}} do przetłumaczenia",
 	"twnmp-bannerwho": "Grafika $1",
 	"twnmp-show-more-projects": "Pokaż wszystkie projekty...",
 	"twnmp-brand-motto": "Społeczność tłumaczy projektów open source",
@@ -26,6 +31,9 @@
 	"twnmp-your-translations-stats": "Statystyki Twoich tłumaczeń",
 	"twnmp-your-translations-stats-all-languages": "Dla wszystkich języków",
 	"twnmp-your-view-language-stats": "Statystyki tłumaczeń",
+	"twnmp-stat-translations-per-month": "$1 {{PLURAL:$2|Tłumaczenie|Tłumaczenia|Tłumaczeń}}/miesiąc",
+	"twnmp-stat-translations-in-sandbox": "$1 {{PLURAL:$2|Tłumaczenie|Tłumaczenia|Tłumaczeń}}",
+	"twnmp-stat-reviews-per-month": "$1 {{PLURAL:$2|Przejrzenie|Przejrzenia|Przejrzeń}}/miesiąc",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Jesteś jedynym tłumaczem<br />dla język $4|Jesteś {{GENDER:$1|tłumaczem|tłumaczką}} o rankingu $2 z $3<br />dla języka {{GRAMMAR:D.lp|$4}}}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Jesteś {{GENDER:$1|jedynym tłumaczem|jedyną tłumaczką}} |Jesteś {{GENDER:$1|tłumaczem|tłumaczką}} o rankingu $2 z $3}}",
 	"twnmp-add-project": "Dodaj do tłumaczenia swój projekt open source",
@@ -53,5 +61,6 @@
 	"twnmp-join-community-reason": "Dlaczego chcesz dołączyć?",
 	"twnmp-create-account-cancel": "Anuluj",
 	"twnmp-join-community-info": "Nie możesz dodać jakichś tłumaczeń? Możesz dołączyć do nas.",
+	"twnmp-stats-number-k": "$1 tys.",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Jedna wiadomość|$1 wiadomości}}"
 }

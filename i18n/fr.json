@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Eihel",
 			"Framawiki",
 			"Gomoko",
 			"Jean-Frédéric",
@@ -40,6 +41,7 @@
 	"twnmp-your-view-language-stats": "Afficher les statistiques de langue",
 	"twnmp-stat-translations-per-month": "$1 {{PLURAL:$2|traduction|traductions}} par mois",
 	"twnmp-stat-translations-in-sandbox": "$1 {{PLURAL:$2|traduction|traductions}}",
+	"twnmp-stat-reviews-per-month": "$1 {{PLURAL:$2|relecture|relectures}}/mois",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Vous êtes le seul<br />pour $4|{{GENDER:$1|Classé}} $2 sur $3<br />pour $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Vous êtes le seul|{{GENDER:$1|Classé}} $2 sur $3}}",
 	"twnmp-add-project": "Ajoutez votre projet en code source ouvert pour sa traduction",

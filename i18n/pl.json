@@ -4,7 +4,8 @@
 			"Chrumps",
 			"M4sk1n",
 			"The Polish",
-			"WTM"
+			"WTM",
+			"Woytecr"
 		]
 	},
 	"twnmp-desc": "Tekst na głównej stronie translatewiki.net",
@@ -60,5 +61,6 @@
 	"twnmp-join-community-reason": "Dlaczego chcesz dołączyć?",
 	"twnmp-create-account-cancel": "Anuluj",
 	"twnmp-join-community-info": "Nie możesz dodać jakichś tłumaczeń? Możesz dołączyć do nas.",
+	"twnmp-stats-number-k": "$1 tys.",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Jedna wiadomość|$1 wiadomości}}"
 }

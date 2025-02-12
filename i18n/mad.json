@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Munajad.MH"
+			"Munajad.MH",
+			"Boesenbergia"
 		]
 	},
 	"twnmp-desc": "Nyalasta tanèyan translatewiki.net",
@@ -17,7 +18,7 @@
 	"twnmp-logout": "Mèjhil log",
 	"twnmp-search-placeholder": "Pangghi'i tor beccè' panarjiman",
 	"twnmp-search-button": "Pangghi'i",
-	"twnmp-search-choose-project": "Panakèd projèk ka'angghuy ètarjim'aghi",
+	"twnmp-search-choose-project": "Pèlè sèttong proyèk ka'angghuy èpertal",
 	"twnmp-translate-link": "Tarjim'aghi",
 	"twnmp-proofread-link": "Prèksa",
 	"twnmp-view-link": "Oladhi tarjimma",

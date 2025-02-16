@@ -39,10 +39,10 @@
 			// Update the links to go to the correct language
 			$tile.find( '.project-actions a' ).each( function () {
 				var $this = $( this ),
-					uri = new mw.Uri( $this.prop( 'href' ) );
+					uri = new URL( $this.prop( 'href' ) );
 
-				uri.extend( { language: language } );
-				$this.prop( 'href', uri );
+				uri.searchParams.append( 'language', language );
+				$this.prop( 'href', uri.href );
 			} );
 		} );
 

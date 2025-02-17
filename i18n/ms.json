@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Anakmalaysia",
-			"Tofeiku"
+			"Tofeiku",
+			"Hakimi97"
 		]
 	},
 	"twnmp-desc": "Menyediakan halaman utama translatewiki.net",
-	"twnmp-mainpage": "Halaman Utama",
+	"twnmp-mainpage": "Laman Utama",
 	"twnmp-s-translators": "{{PLURAL:$1|Penterjemah}}",
 	"twnmp-s-projects": "{{PLURAL:$1|Projek}}",
 	"twnmp-s-languages": "{{PLURAL:$1|Bahasa}} aktif",

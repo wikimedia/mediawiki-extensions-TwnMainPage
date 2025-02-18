@@ -56,7 +56,7 @@ class ProjectHandler {
 	public function sortByPriority( &$groups, $language, array $stats ) {
 		foreach ( $groups as $index => $g ) {
 			$supported = $g->getTranslatableLanguages();
-			if ( is_array( $supported ) && !isset( $supported[$language] ) ) {
+			if ( $supported !== MessageGroup::DEFAULT_LANGUAGES && !isset( $supported[$language] ) ) {
 				unset( $groups[$index] );
 			}
 		}

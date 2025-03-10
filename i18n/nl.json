@@ -48,7 +48,7 @@
 	"twnmp-signup-username-placeholder": "Gebruikersnaam",
 	"twnmp-signup-password-placeholder": "Wachtwoord",
 	"twnmp-signup-email-placeholder": "E-mailadres",
-	"twnmp-create-account-button": "Registreren",
+	"twnmp-create-account-button": "Account aanmaken",
 	"twnmp-signup-error-invalidusername": "Deze gebruikersnaam is niet beschikbaar. Kies een andere.",
 	"twnmp-signup-error-nonfreeusername": "Deze gebruikersnaam bestaat al. Kies een andere.",
 	"twnmp-signup-error-invalidpassword": "Het wachtwoord is ongeldig",

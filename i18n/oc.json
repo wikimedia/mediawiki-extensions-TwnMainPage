@@ -2,11 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Cedric31",
-			"Fitoschido"
+			"Fitoschido",
+			"Lhanars"
 		]
 	},
 	"twnmp-desc": "Provesís la pagina principala de translatewiki.net",
 	"twnmp-mainpage": "Acuèlh",
+	"twnmp-stat-translators": "$1 {{PLURAL:$2|traductor|traductors}}",
+	"twnmp-stat-projects": "$1 {{PLURAL:$2|projècte|projèctes}}",
+	"twnmp-stat-languages": "$1 {{PLURAL:$2|lenga activa|lengas activas}}",
+	"twnmp-stat-messages": "$1 {{PLURAL:$2|messatge|messatges}} de traduire",
 	"twnmp-bannerwho": "Imatge $1",
 	"twnmp-show-more-projects": "Afichar totes los projèctes...",
 	"twnmp-brand-motto": "Comunautat de traduccion en font liura",
@@ -24,8 +29,10 @@
 	"twnmp-your-translations-stats": "Vòstras estatisticas de traduccion",
 	"twnmp-your-translations-stats-all-languages": "Per totas las lengas",
 	"twnmp-your-view-language-stats": "Afichar las estatisticas de lenga",
+	"twnmp-stat-translations-per-month": "$1 {{PLURAL:$2|traduccion|traduccions}} per mes",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Sètz lo sol<br />per $4|{{GENDER:$1|Classat}} $2 sus $3<br />per $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Sètz lo sol|{{GENDER:$1|Classat}} $2 sus $3}}",
+	"twnmp-add-project": "Afichar vòstre projècte de còdi obèrt per traduir-lo.",
 	"twnmp-bottom-help": "Ajuda",
 	"twnmp-bottom-support": "Sosten",
 	"twnmp-bottom-languages-supported": "Lengas presas en carga",

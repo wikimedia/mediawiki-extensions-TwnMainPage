@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Cedric31",
-			"Fitoschido"
+			"Fitoschido",
+			"Lhanars"
 		]
 	},
 	"twnmp-desc": "Provesís la pagina principala de translatewiki.net",
@@ -33,6 +34,7 @@
 	"twnmp-reviews-per-month": "{{PLURAL:$1|Relectura|Relecturas}}/mes",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Sètz lo sol<br />per $4|{{GENDER:$1|Classat}} $2 sus $3<br />per $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Sètz lo sol|{{GENDER:$1|Classat}} $2 sus $3}}",
+	"twnmp-add-project": "Afichar vòstre projècte de còdi obèrt per traduir-lo.",
 	"twnmp-bottom-help": "Ajuda",
 	"twnmp-bottom-support": "Sosten",
 	"twnmp-bottom-languages-supported": "Lengas presas en carga",

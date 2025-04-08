@@ -33,7 +33,7 @@
 	"twnmp-reviews-per-month": "{{PLURAL:$1|yoxlama}}/ay",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=$4 dili üzrə<br /> sadəcə sizsiniz|$4 dili üzrə $3 nəfər arasındakı {{GENDER:$1|yeriniz}}: $2}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Sadəcə sizsiniz|$3 nəfər arasındakı {{GENDER:$1|yeriniz}}: $2}}",
-	"twnmp-add-project": "Tərcümə edilməsi açıq mənbə layihənizi əlavə edin",
+	"twnmp-add-project": "Tərcümə ediləcək açıq mənbə layihənizi əlavə edin",
 	"twnmp-sandboxed": "Qeydiyyatınızı tamamlamaq üçün {{PLURAL:$1|0=bir neçə|daha çox}} tərcümə tamamlamalısınız.",
 	"twnmp-sandboxed-limit": "Tərcümə limitinə çatdınız. Komandamız tezliklə hesabınızı yoxlayacaq və qəbul edəcək.",
 	"twnmp-bottom-help": "Kömək",

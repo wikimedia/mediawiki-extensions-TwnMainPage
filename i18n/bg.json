@@ -25,6 +25,8 @@
 	"twnmp-your-translations-stats": "Вашите преводни статистики",
 	"twnmp-your-translations-stats-all-languages": "За всички езици",
 	"twnmp-your-view-language-stats": "Преглед на преводната статистика",
+	"twnmp-stat-translations-per-month": "$1 {{PLURAL:$2|Преводи}}/месец",
+	"twnmp-stat-reviews-per-month": "$1 {{PLURAL:$2|Проверки}}/месец",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Вие сте единственият<br />за $4|{{GENDER:$1|Класиран|Класирана}} $2 от $3<br />за $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Вие сте единственият|{{GENDER:$1|Класиран|Класирана}} $2 от $3}}",
 	"twnmp-add-project": "Добавете вашия проект с отворен код за превод",

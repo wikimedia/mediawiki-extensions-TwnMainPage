@@ -8,20 +8,20 @@
 	'use strict';
 
 	mw.translate.setupSignupForm = function ( $form ) {
-		var $username = $form.find( 'input[name="wpName"]' ),
+		const $username = $form.find( 'input[name="wpName"]' ),
 			$email = $form.find( 'input[name="wpEmail"]' ),
 			$password = $form.find( 'input[name="wpPassword"]' ),
 			$reason = $form.find( 'input[name="reason"]' );
 
 		function initDeveloperSignup() {
-			$form.find( '.dev-signup' ).on( 'click', function () {
+			$form.find( '.dev-signup' ).on( 'click', () => {
 				$form.find( '.only-dev' ).removeClass( 'hide' );
 				$form.find( '.only-nondev' ).addClass( 'hide' );
 				$form.find( '.required' ).trigger( 'change' );
 				$reason.prop( 'required', true );
 			} );
 
-			$form.find( 'button.cancel' ).on( 'click', function ( e ) {
+			$form.find( 'button.cancel' ).on( 'click', ( e ) => {
 				e.preventDefault();
 				$form.find( '.only-dev' ).addClass( 'hide' );
 				$form.find( '.only-nondev' ).removeClass( 'hide' );
@@ -31,11 +31,11 @@
 		}
 
 		function initSubmitButtonDisabler() {
-			var $submit = $form.find( 'button[type=submit]' );
+			const $submit = $form.find( 'button[type=submit]' );
 
 			$submit.prop( 'disabled', true );
-			$form.on( 'change keyup', '.required', function () {
-				var anyEmpty = false;
+			$form.on( 'change keyup', '.required', () => {
+				let anyEmpty = false;
 
 				$form.find( '.required:visible' ).each( function () {
 					anyEmpty = anyEmpty || $( this ).val().trim() === '';
@@ -47,7 +47,7 @@
 		function initLanguageSelector() {
 			$form.find( '.signup-language-selector' ).uls( {
 				onSelect: function ( language ) {
-					var $checkbox = $form.find( 'input[name="signuplanguage"][value="' + language + '"]' );
+					let $checkbox = $form.find( 'input[name="signuplanguage"][value="' + language + '"]' );
 					if ( $checkbox.length ) {
 						// Language already listed. Make sure it is (re)checked.
 						$checkbox.prop( 'checked', true );
@@ -61,7 +61,7 @@
 							value: language,
 							checked: 'checked'
 						} );
-					var $label = $( '<label>' )
+					const $label = $( '<label>' )
 						.attr( {
 							lang: language,
 							dir: $.uls.data.getDir( language )
@@ -80,7 +80,7 @@
 		}
 
 		function toggleLoading( isLoading ) {
-			var $submitBtn = $form.find( 'button[type=submit]' ),
+			const $submitBtn = $form.find( 'button[type=submit]' ),
 				$loading = $form.find( '.twn-mainpage-loading-indicator' );
 
 			if ( isLoading ) {
@@ -99,7 +99,7 @@
 		 * @param {Object} result Result retuned by MW api
 		 */
 		function handleAccountCreationFailure( errorcode, result ) {
-			var $element = $( [] ),
+			let $element = $( [] ),
 				$genericErrorContainer = $form.find( '.twnmp-signup-generic-error' ).last();
 
 			switch ( errorcode ) {
@@ -125,8 +125,8 @@
 				// twnmp-signup-error-nonfreeusername
 				// twnmp-signup-error-invalidemail
 				if ( result && result.error && result.error.info ) {
-					var $errorContainer = $element.parent().next( '.twnmp-signup-error' );
-					var errorTextMessage = mw.message( 'twnmp-signup-error-' + errorcode );
+					const $errorContainer = $element.parent().next( '.twnmp-signup-error' );
+					const errorTextMessage = mw.message( 'twnmp-signup-error-' + errorcode );
 					$errorContainer.removeClass( 'hide' );
 
 					if ( errorTextMessage.exists() ) {
@@ -153,7 +153,7 @@
 		 * @param {jQuery.Event} e
 		 */
 		function handleSubmit( e ) {
-			var reqCreate, codes, preferences,
+			let reqCreate, codes, preferences,
 				api = new mw.Api(),
 				username = $username.val(),
 				password = $password.val(),
@@ -189,21 +189,21 @@
 			} );
 
 			reqCreate.fail( handleAccountCreationFailure );
-			reqCreate.then( function () {
-				var api = new mw.Api();
+			reqCreate.then( () => {
+				const api = new mw.Api();
 				// This should not fail on normal conditions
 				return api.login( username, password );
-			} ).then( function () {
-				var api = new mw.Api();
+			} ).then( () => {
+				const api = new mw.Api();
 				return api.postWithToken( 'csrf', {
 					action: 'options',
 					optionname: 'translate-sandbox',
 					optionvalue: preferences
 				} );
-			} ).then( function () {
+			} ).then( () => {
 				isRefreshing = true;
 				window.location.reload();
-			} ).always( function () {
+			} ).always( () => {
 				if ( !isRefreshing ) {
 					// If the page is not refreshing stop the loading,
 					// probably there was an error or validation failure.
@@ -220,7 +220,7 @@
 		$form.on( 'submit', handleSubmit );
 	};
 
-	$( function () {
+	$( () => {
 		mw.translate.setupSignupForm( $( '.login-widget' ) );
 	} );
 }( jQuery, mw ) );

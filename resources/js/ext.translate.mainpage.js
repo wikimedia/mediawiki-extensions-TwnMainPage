@@ -7,13 +7,13 @@
 ( function ( $, mw ) {
 	'use strict';
 
-	var selectedLanguage = mw.config.get( 'wgUserLanguage' );
+	let selectedLanguage = mw.config.get( 'wgUserLanguage' );
 
 	/**
 	 * Setup the stats tiles.
 	 */
 	function setupStatsTiles() {
-		var $tiles = $( '.stats-tile' ).not( '.unused' );
+		const $tiles = $( '.stats-tile' ).not( '.unused' );
 
 		$tiles.on( 'click', function ( e ) {
 			e.stopPropagation();
@@ -27,18 +27,18 @@
 	 * @param {string} language
 	 */
 	function showMessageGroupStats( language ) {
-		var $tiles = $( '.project-tile' );
+		const $tiles = $( '.project-tile' );
 
 		// Clear current numbers first so they don't stay if something goes wrong
 		$tiles.each( function () {
-			var $tile = $( this );
+			const $tile = $( this );
 
 			$tile.find( '.project-statsbar' ).empty()
 				.removeData( 'languagestatsbar' );
 			$tile.find( '.project-statstext' ).empty();
 			// Update the links to go to the correct language
 			$tile.find( '.project-actions a' ).each( function () {
-				var $this = $( this ),
+				const $this = $( this ),
 					uri = new URL( $this.prop( 'href' ) );
 
 				uri.searchParams.append( 'language', language );
@@ -46,9 +46,9 @@
 			} );
 		} );
 
-		mw.translate.loadMessageGroupStatsForLanguage( language ).done( function () {
+		mw.translate.loadMessageGroupStatsForLanguage( language ).done( () => {
 			$tiles.each( function () {
-				var stats, translated, proofread,
+				let stats, translated, proofread,
 					$tile = $( this ),
 					$statsbar = $tile.find( '.project-statsbar' ),
 					msggroupid = $tile.data( 'msggroupid' ),
@@ -89,15 +89,15 @@
 	 * Provide a language selector to select the target language above the tiles.
 	 */
 	function setupTargetLanguageSelector() {
-		var $ulsTrigger = $( '<button>' )
+		const $ulsTrigger = $( '<button>' )
 			.text( $.uls.data.getAutonym( selectedLanguage ) )
 			.addClass( 'same-language-uls-trigger mw-ui-button' );
 
 		$( '.twn-mainpage-project-selector-title' ).append( $ulsTrigger );
 
 		// Delayed setup
-		$ulsTrigger.one( 'click', function () {
-			mw.loader.using( 'ext.uls.mediawiki' ).done( function () {
+		$ulsTrigger.one( 'click', () => {
+			mw.loader.using( 'ext.uls.mediawiki' ).done( () => {
 				$ulsTrigger.uls( {
 					onSelect: function ( code ) {
 						selectedLanguage = code;
@@ -117,14 +117,14 @@
 	 * Setup the project tiles in the main page.
 	 */
 	function setupProjectTiles() {
-		var $selector,
+		let $selector,
 			maxProjectTiles = mw.config.get( 'maxProjectTiles' ),
 			$tiles = $( '.project-tile' );
 
 		showMessageGroupStats( selectedLanguage );
 
 		$tiles.on( 'click', function () {
-			var url = $( this ).data( 'url' );
+			const url = $( this ).data( 'url' );
 
 			if ( url ) {
 				location.href = url;
@@ -152,8 +152,8 @@
 		// Users without JavaScript will just see the original one.
 		$tiles.eq( maxProjectTiles - 1 ).replaceWith( $selector );
 
-		$selector.one( 'click', function () {
-			mw.loader.using( 'ext.translate.groupselector' ).done( function () {
+		$selector.one( 'click', () => {
+			mw.loader.using( 'ext.translate.groupselector' ).done( () => {
 				$selector.msggroupselector( {
 					language: selectedLanguage,
 					preventSelector: true,

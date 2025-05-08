@@ -9,7 +9,8 @@
 			"Omidh",
 			"Reza1615",
 			"Darafsh",
-			"Ebrahim"
+			"Ebrahim",
+			"Jeeputer"
 		]
 	},
 	"twnmp-desc": "صفحهٔ اصلی translatewiki.net فراهم می‌کند",
@@ -25,7 +26,7 @@
 	"twnmp-logout": "خروج از سامانه",
 	"twnmp-search-placeholder": "یافتن و اصلاح ترجمه‌ها",
 	"twnmp-search-button": "جستجو",
-	"twnmp-search-choose-project": "انتخاب یک پروژه برای ترجمه",
+	"twnmp-search-choose-project": "انتخاب پروژه‌ای برای ترجمه",
 	"twnmp-translate-link": "ترجمه",
 	"twnmp-proofread-link": "بازبینی",
 	"twnmp-view-link": "نمایش ترجمه‌ها",

@@ -84,7 +84,8 @@ class SpecialTwnMainPage extends SpecialPage {
 		$skin = $this->getSkin();
 
 		if ( !$this->getConfig()->get( 'TranslateUseSandbox' ) ) {
-			$out->showFatalError( 'TwnMainPage requires $wgTranslateUseSandbox to be enabled.' );
+			$out->showErrorPage( 'internalerror',
+				new RawMessage( 'TwnMainPage requires $wgTranslateUseSandbox to be enabled.' ) );
 			return;
 		}
 

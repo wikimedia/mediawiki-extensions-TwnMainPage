@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bashkorttan"
+			"Bashkorttan",
+			"MR973"
 		]
 	},
+	"twnmp-desc": "translatewiki.net баш битендәге текст",
 	"twnmp-mainpage": "Баш бит",
 	"twnmp-s-translators": "{{PLURAL:$1|Тәржемәсе}}",
 	"twnmp-s-projects": "{{PLURAL:$1|Проект}}",
@@ -36,7 +38,7 @@
 	"twnmp-sandboxed-limit": "Һеҙ тәржемәләү сигенә еттегеҙ. Тиҙҙән беҙҙең команда һеҙҙең иҫәбегеҙҙе раҫлаясаҡ һәм яңыртасаҡ.",
 	"twnmp-bottom-help": "Ярҙам",
 	"twnmp-bottom-support": "Ярҙам",
-	"twnmp-bottom-languages-supported": "Терәкләнгән телдәр",
+	"twnmp-bottom-languages-supported": "Хупланған телдәр",
 	"twnmp-bottom-about": "Тураһында",
 	"twnmp-signup-username-placeholder": "Ҡулланыусы исеме",
 	"twnmp-signup-password-placeholder": "Серһүҙ",

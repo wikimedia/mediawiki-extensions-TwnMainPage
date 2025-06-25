@@ -3,7 +3,8 @@
 		"authors": [
 			"Juwan",
 			"Robin van der Vliet",
-			"Tbodt"
+			"Tbodt",
+			"Juwan~backup"
 		]
 	},
 	"twnmp-mainpage": "lipu open",
@@ -13,7 +14,7 @@
 	"twnmp-stat-messages": "{{PLURAL:$2|toki $1 li wile e toki ante}}",
 	"twnmp-bannerwho": "sitelen la $1",
 	"twnmp-show-more-projects": "o lukin e pali suli ale...",
-	"twnmp-brand-motto": "jan ale li ante toki e ilo pi jan ale",
+	"twnmp-brand-motto": "kulupu li ante e toki ilo tawa toki ale tawa jan ale",
 	"twnmp-login": "o lon sijelo",
 	"twnmp-logout": "o weka tan sijelo",
 	"twnmp-search-placeholder": "o alasa e toki o pona e ona",

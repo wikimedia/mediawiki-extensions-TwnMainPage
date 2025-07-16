@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Csega",
-			"Tacsipacsi"
+			"Tacsipacsi",
+			"Urbalazs"
 		]
 	},
 	"twnmp-desc": "A translatewiki.net kezdőlapját szolgáltatja",
@@ -39,7 +40,7 @@
 	"twnmp-bottom-help": "Segítség",
 	"twnmp-bottom-support": "Támogatás",
 	"twnmp-bottom-languages-supported": "Támogatott nyelvek",
-	"twnmp-bottom-about": "Rólunk",
+	"twnmp-bottom-about": "Névjegy",
 	"twnmp-signup-username-placeholder": "Szerkesztőnév",
 	"twnmp-signup-password-placeholder": "Jelszó",
 	"twnmp-signup-email-placeholder": "E-mail-cím",

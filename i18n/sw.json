@@ -3,6 +3,7 @@
 		"authors": [
 			"Jon Harald Søby",
 			"Lloffiwr",
+			"Muddyb",
 			"Wangombe"
 		]
 	},
@@ -10,6 +11,7 @@
 	"twnmp-stat-translators": "{{PLURAL:$2|Mfasiri|Wafasiri}} $1",
 	"twnmp-stat-projects": "{{PLURAL:$2|Mradi|Miradi}} $1",
 	"twnmp-stat-languages": "Lugha $1 {{PLURAL:$2|inayotumika|zinazotumika}}",
+	"twnmp-stat-messages": "{{PLURAL:$2|Ujumbe|Jumbe}} $1 za kutafsiri",
 	"twnmp-bannerwho": "Picha $1",
 	"twnmp-show-more-projects": "Onyesha miradi yote...",
 	"twnmp-brand-motto": "Jumuiya ya utafsiri wa chanzo huria",

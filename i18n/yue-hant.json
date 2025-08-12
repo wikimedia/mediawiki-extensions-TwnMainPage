@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Winston Sung",
-			"JeffreyKim"
+			"JeffreyKim",
+			"Ktchankt"
 		]
 	},
 	"twnmp-desc": "提供translatewiki.net主頁",
@@ -11,7 +12,7 @@
 	"twnmp-show-more-projects": "顯示晒所有項目 ...",
 	"twnmp-brand-motto": "開放源碼翻譯社群",
 	"twnmp-login": "簽到",
-	"twnmp-logout": "登出",
+	"twnmp-logout": "簽走",
 	"twnmp-search-placeholder": "搵同埋修正啲翻譯",
 	"twnmp-search-button": "搵",
 	"twnmp-search-choose-project": "揀一個要翻譯嘅項目",
@@ -28,7 +29,7 @@
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=你係唯一一個|{{GENDER:$1|排名咗}}$3 入面嘅 $2}}",
 	"twnmp-add-project": "加入你嘅開放源碼項目嚟翻譯",
 	"twnmp-sandboxed": "你需要提供{{PLURAL:$1|0=some|多啲}}翻譯嚟完成你嘅註冊。",
-	"twnmp-sandboxed-limit": "你已經達到翻譯上限，我哋嘅團隊會好快驗證同升級你嘅帳戶。",
+	"twnmp-sandboxed-limit": "你已經達到翻譯上限，我哋嘅團隊會好快驗證同升級你嘅戶口。",
 	"twnmp-bottom-help": "幫手",
 	"twnmp-bottom-support": "支援櫃檯",
 	"twnmp-bottom-languages-supported": "支援嘅語言",
@@ -36,16 +37,16 @@
 	"twnmp-signup-username-placeholder": "用戶名",
 	"twnmp-signup-password-placeholder": "密碼",
 	"twnmp-signup-email-placeholder": "電郵",
-	"twnmp-create-account-button": "建立帳戶",
+	"twnmp-create-account-button": "開戶口",
 	"twnmp-signup-error-invalidusername": "呢個用戶名唔可以用，唔該揀另一個。",
 	"twnmp-signup-error-nonfreeusername": "呢個用戶名已經存在，唔該揀另一個。",
 	"twnmp-signup-error-invalidemail": "呢個唔似有效嘅電郵地址，請提供有效嘅電郵地址。",
 	"twnmp-signup-error-other": "註冊失敗咗。伺服器返咗個錯誤： $1。",
-	"twnmp-signup-error-unknown": "帳戶建立失敗，原因唔清楚。",
+	"twnmp-signup-error-unknown": "開戶口失敗，原因唔清楚。",
 	"twnmp-become-translator": "成為翻譯員",
 	"twnmp-choose-languages-you-know": "揀你識嘅語言",
 	"twnmp-choose-another-language": "揀另一種語言 ...",
-	"twnmp-choose-fill-account-details": "輸入你嘅帳戶詳情",
+	"twnmp-choose-fill-account-details": "輸入你嘅戶口詳情",
 	"twnmp-join-community": "加入社群",
 	"twnmp-join-community-desc": "如果你係一個有興趣記錄翻譯嘅開發人員，或者只係探索呢個平台，亦都歡迎你。",
 	"twnmp-join-community-reason": "點解你有興趣加入？",

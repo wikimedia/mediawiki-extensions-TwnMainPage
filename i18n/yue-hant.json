@@ -27,7 +27,7 @@
 	"twnmp-translate-button": "翻譯",
 	"twnmp-proofread-button": "審查",
 	"twnmp-view-button": "審查翻譯",
-	"twnmp-your-translations-stats": "您嘅翻譯統計",
+	"twnmp-your-translations-stats": "你嘅翻譯統計",
 	"twnmp-your-translations-stats-all-languages": "適用晒所有嘅語言",
 	"twnmp-your-view-language-stats": "睇話嘅統計",
 	"twnmp-stat-translations-per-month": "每月$1{{PLURAL:$2|次翻譯}}",

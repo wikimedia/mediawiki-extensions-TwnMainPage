@@ -3,7 +3,8 @@
 		"authors": [
 			"Winston Sung",
 			"JeffreyKim",
-			"Ktchankt"
+			"Ktchankt",
+			"Yueman"
 		]
 	},
 	"twnmp-desc": "提供translatewiki.net主頁",
@@ -17,11 +18,11 @@
 	"twnmp-search-button": "搵",
 	"twnmp-search-choose-project": "揀一個要翻譯嘅項目",
 	"twnmp-translate-link": "翻譯",
-	"twnmp-proofread-link": "睇返",
+	"twnmp-proofread-link": "審查",
 	"twnmp-view-link": "睇返翻譯",
 	"twnmp-translate-button": "翻譯",
-	"twnmp-proofread-button": "睇返",
-	"twnmp-view-button": "睇返翻譯",
+	"twnmp-proofread-button": "審查",
+	"twnmp-view-button": "審查翻譯",
 	"twnmp-your-translations-stats": "您嘅翻譯統計",
 	"twnmp-your-translations-stats-all-languages": "適用晒所有嘅語言",
 	"twnmp-your-view-language-stats": "睇話嘅統計",
@@ -52,5 +53,5 @@
 	"twnmp-join-community-reason": "點解你有興趣加入？",
 	"twnmp-create-account-cancel": "取消",
 	"twnmp-join-community-info": "你而家提交唔到啲翻譯？你仲可以加入得。",
-	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|One message|$1 訊息}}"
+	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|$1個訊息}}"
 }

@@ -8,7 +8,7 @@
 	},
 	"twnmp-desc": "Prikaže glavno stran projekta translatewiki.net",
 	"twnmp-mainpage": "Glavna stran",
-	"twnmp-stat-translators": "$1 {{PLURAL:$2|prevajalec|prevajalca|prevajalci|prevajalcev}}",
+	"twnmp-stat-translators": "$1 {{PLURAL:$2|prevajalec|prevajalcev}}",
 	"twnmp-stat-projects": "$1 {{PLURAL:$2|projekt|projekta|projekti|projektov}}",
 	"twnmp-stat-languages": "$1 {{PLURAL:$2|aktivni jezik|aktivna jezika|aktivni jeziki|aktivnih jezikov}}",
 	"twnmp-stat-messages": "$1 {{PLURAL:$2|sporočilo|sporočili|sporočila|sporočil}} za prevod",

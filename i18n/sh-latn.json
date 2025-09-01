@@ -6,8 +6,9 @@
 			"Winston Sung"
 		]
 	},
-	"twnmp-desc": "Početna stranica translatewiki.net",
+	"twnmp-desc": "Sadržaj glavne stranice projekta translatewiki.net",
 	"twnmp-mainpage": "Glavna stranica",
+	"twnmp-stat-messages": "$1 {{PLURAL:$2|poruka|poruke|poruka}} za prijevod",
 	"twnmp-bannerwho": "Slika: $1",
 	"twnmp-show-more-projects": "Svi projekti…",
 	"twnmp-brand-motto": "Zajednica za lokalizaciju projekata otvorenog koda",
@@ -27,5 +28,6 @@
 	"twnmp-your-view-language-stats": "Statistika jezika",
 	"twnmp-signup-password-placeholder": "Lozinka",
 	"twnmp-create-account-button": "Izradi račun",
-	"twnmp-create-account-cancel": "Otkaži"
+	"twnmp-create-account-cancel": "Otkaži",
+	"twnmp-stats-number-k": "$1k"
 }

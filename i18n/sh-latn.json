@@ -6,7 +6,7 @@
 			"Aca"
 		]
 	},
-	"twnmp-desc": "Početna stranica translatewiki.net",
+	"twnmp-desc": "Sadržaj glavne stranice projekta translatewiki.net",
 	"twnmp-mainpage": "Glavna stranica",
 	"twnmp-s-translators": "{{PLURAL:$1|prevodilac|prevodioca|prevodilaca}}",
 	"twnmp-s-projects": "{{PLURAL:$1|projekt|projekta|projekata}}",
@@ -34,5 +34,6 @@
 	"twnmp-reviews-per-month": "{{PLURAL:$1|provjera}} mjesečno",
 	"twnmp-signup-password-placeholder": "Lozinka",
 	"twnmp-create-account-button": "Izradi račun",
-	"twnmp-create-account-cancel": "Otkaži"
+	"twnmp-create-account-cancel": "Otkaži",
+	"twnmp-stats-number-k": "$1k"
 }

@@ -60,5 +60,6 @@
 	"twnmp-join-community-reason": "Защо искате да се присъедините към нас?",
 	"twnmp-create-account-cancel": "Отказ",
 	"twnmp-join-community-info": "Не можете веднага да направите някои преводи? Все още можете да се присъедините към общността.",
+	"twnmp-stats-number-k": "$1 хил.",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Едно съобщение|$1 съобщения}}"
 }

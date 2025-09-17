@@ -16,6 +16,7 @@
 	"twnmp-translate-link": "Set om",
 	"twnmp-translate-button": "Set om",
 	"twnmp-your-translations-stats": "Omsetjingsstatistikken din",
+	"twnmp-stat-translations-per-month": "$1 {{PLURAL:$2|omsetjingar}} per månad",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Du er den einaste<br />for $4|{{GENDER:$1|Rangert}} som nummer $2 av $3<br />for $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Du er den einaste|{{GENDER:$1|Rangert}} som nummer $2 av $3}}",
 	"twnmp-add-project": "Legg til prosjektet ditt med open kjeldekode for omsetjing",

@@ -49,7 +49,8 @@ class HookHandler implements ParserFirstCallInitHook {
 		if ( $categoryDatabaseName !== null ) {
 			$query
 				->join( 'page', null, 'page_id=pp_page' )
-				->join( 'categorylinks', null, [ 'cl_from=page_id', 'cl_to' => $categoryDatabaseName ] );
+				->join( 'categorylinks', null, [ 'cl_from=page_id' ] )
+				->join( 'linktarget', null, [ 'lt_title' => $categoryDatabaseName ] );
 		}
 
 		$locations = $query->caller( __METHOD__ )->fetchFieldValues();

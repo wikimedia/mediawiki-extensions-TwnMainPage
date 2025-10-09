@@ -50,7 +50,11 @@ class HookHandler implements ParserFirstCallInitHook {
 			$query
 				->join( 'page', null, 'page_id=pp_page' )
 				->join( 'categorylinks', null, [ 'cl_from=page_id' ] )
-				->join( 'linktarget', null, [ 'lt_title' => $categoryDatabaseName ] );
+				->join( 'linktarget', null, [
+					'cl_target_id=lt_id',
+					'lt_title' => $categoryDatabaseName,
+					'lt_namespace' => NS_CATEGORY
+				] );
 		}
 
 		$locations = $query->caller( __METHOD__ )->fetchFieldValues();

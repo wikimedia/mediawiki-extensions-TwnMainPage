@@ -787,11 +787,12 @@ HTML;
 		$translators = count( $stats );
 		foreach ( $stats as $user => $count ) {
 			if ( $user === $currentUser ) {
+				$fmtCount = $this->getLanguage()->formatNum( $count );
 				$out .= Html::rawElement(
 					'div',
 					[ 'class' => 'count-description' ],
 					$this->msg( 'twnmp-stat-translations-per-month' )
-						->params( "<strong>{$count}</strong>" )
+						->params( "<strong>{$fmtCount}</strong>" )
 						->numParams( $count )
 						->parse()
 				);
@@ -832,11 +833,12 @@ HTML;
 		$translators = count( $stats );
 		foreach ( $stats as $user => $count ) {
 			if ( $user === $currentUser ) {
+				$fmtCount = $this->getLanguage()->formatNum( $count );
 				$out .= Html::rawElement(
 					'div',
 					[ 'class' => 'count-description' ],
 					$this->msg( 'twnmp-stat-reviews-per-month' )
-						->params( "<strong>{$count}</strong>" )
+						->params( "<strong>{$fmtCount}</strong>" )
 						->numParams( $count )
 						->parse()
 				);
@@ -880,10 +882,10 @@ HTML;
 			$message = $this->msg( 'twnmp-sandboxed-limit' )->escaped();
 		}
 
-		$count = $this->getLanguage()->formatNum( $count );
+		$fmtCount = $this->getLanguage()->formatNum( $count );
 
 		$countDescription = $this->msg( 'twnmp-stat-translations-in-sandbox' )
-			->params( "<strong>{$count}</strong>" )
+			->params( "<strong>{$fmtCount}</strong>" )
 			->numParams( $count )
 			->parse();
 

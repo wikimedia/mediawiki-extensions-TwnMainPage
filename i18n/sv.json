@@ -8,6 +8,10 @@
 	},
 	"twnmp-desc": "Tillhandahåller translatewiki.net:s huvudsida",
 	"twnmp-mainpage": "Huvudsida",
+	"twnmp-stat-translators": "$1 {{PLURAL:$2|Översättare}}",
+	"twnmp-stat-projects": "$1 {{PLURAL:$2|Projekt}}",
+	"twnmp-stat-languages": "$1 {{PLURAL:$2|Aktivt språk|Aktiva språk}}",
+	"twnmp-stat-messages": "$1 {{PLURAL:$2|Meddelande|Meddelanden}} att översätta",
 	"twnmp-bannerwho": "Bild $1",
 	"twnmp-show-more-projects": "Visa alla projekt...",
 	"twnmp-brand-motto": "Gemenskap för översättningar med öppen källkod",
@@ -25,6 +29,9 @@
 	"twnmp-your-translations-stats": "Din översättningsstatistik",
 	"twnmp-your-translations-stats-all-languages": "För alla språk",
 	"twnmp-your-view-language-stats": "Visa språkstatistik",
+	"twnmp-stat-translations-per-month": "$1 {{PLURAL:$2|Översättningar}}/månad",
+	"twnmp-stat-translations-in-sandbox": "$1 {{PLURAL:$2|Översättningar}}",
+	"twnmp-stat-reviews-per-month": "$1 {{PLURAL:$2|Granskningar}}/månad",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Du är den enda på $4<br />|{{GENDER:$1|med rank}} $2 av $3<br />för $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Du är den enda|{{GENDER:$1|Rankad}} som nummer $2 av $3}}",
 	"twnmp-add-project": "Lägg till ditt projekt med öppen källkod för översättning",
@@ -52,5 +59,6 @@
 	"twnmp-join-community-reason": "Varför är du intresserad av att delta?",
 	"twnmp-create-account-cancel": "Avbryt",
 	"twnmp-join-community-info": "Kan inte skicka in några översättningar just nu? Du kan fortfarande gå med.",
+	"twnmp-stats-number-k": "$1k",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Ett meddelande|$1 meddelanden}}"
 }

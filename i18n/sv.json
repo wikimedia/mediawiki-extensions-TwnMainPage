@@ -60,5 +60,6 @@
 	"twnmp-join-community-reason": "Varför är du intresserad av att delta?",
 	"twnmp-create-account-cancel": "Avbryt",
 	"twnmp-join-community-info": "Kan inte skicka in några översättningar just nu? Du kan fortfarande gå med.",
+	"twnmp-stats-number-k": "$1k",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Ett meddelande|$1 meddelanden}}"
 }

@@ -3,7 +3,8 @@
 		"authors": [
 			"Ilnur efende",
 			"Ерней",
-			"Ильнар"
+			"Ильнар",
+			"Ильгиз"
 		]
 	},
 	"twnmp-desc": "translatewiki.net баш битендәге текст",
@@ -49,7 +50,7 @@
 	"twnmp-become-translator": "Тәрҗемәче булып китү",
 	"twnmp-choose-languages-you-know": "Белгән телләрне сайлагыз",
 	"twnmp-choose-another-language": "Башка телне сайлагыз…",
-	"twnmp-choose-fill-account-details": "Хисап язмасыгыз мәгълүматларын кертегез",
+	"twnmp-choose-fill-account-details": "Хисапъязмагыз турында мәгълүмат кертегез",
 	"twnmp-join-community": "Җәмгыятькә кушылу",
 	"twnmp-join-community-reason": "Ни өчен сезнең кушыласыгыз килә?",
 	"twnmp-create-account-cancel": "Кире алу",

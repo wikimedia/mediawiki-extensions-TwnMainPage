@@ -53,14 +53,14 @@
 	"twnmp-signup-error-other": "نوم‌ليکنه نابريالۍ شوه. پالنگر يوه تېروتنه راوگرځوله: $1.",
 	"twnmp-signup-error-unknown": "گڼون جوړول د يوې ناڅرگند لامل له کبله ناکام شول.",
 	"twnmp-become-translator": "يو ژباړن شۍ",
-	"twnmp-choose-languages-you-know": "هغه ژبې مو چې زده دي وټاکۍ",
+	"twnmp-choose-languages-you-know": "هغه ژبې مو چې زده دي وټاکئ",
 	"twnmp-choose-another-language": "بله ژبه ټاکل...",
-	"twnmp-choose-fill-account-details": "تاسې خپل د گڼون تفصيل ورکړئ",
+	"twnmp-choose-fill-account-details": "تاسې خپل د گڼون سپيناوی ورکړئ",
 	"twnmp-join-community": "دې ټولنې سره يوځای شئ",
-	"twnmp-join-community-desc": "که تاسو د هغه ژباړونکو څخه یاست چې د ژباړي د ښه کولو لپاره لیوالتیا لري، يا یوازې د کومي ژباړي پلټنه کوي، نو تاسو هم هرکلۍ ويل کيږي.",
+	"twnmp-join-community-desc": "که تاسو د هغه ژباړونکو څخه یاست چې د ژباړې د ښه کولو لپاره لېوالتیا لري، يا یوازې د کومې ژباړې پلټنه کوي؛ نو تاسو هم هرکلی ويل کېږي.",
 	"twnmp-join-community-reason": "تاسو ولې زموږ سره يوځای کېدو ته لیواله ياست؟",
 	"twnmp-create-account-cancel": "ناگارل",
-	"twnmp-join-community-info": "نشي کولی ژباړه ورګډه کړئ؟ خو بيا هم تاسو زموږ سره یوځای کيداي شئ.",
+	"twnmp-join-community-info": "نشې کولی ژباړه ورگډه کړې؟ خو بيا هم تاسو زموږ سره یوځای کېدای شئ.",
 	"twnmp-stats-number-k": "$1 زره",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|يو پيغام|$1 پيغامونه}}"
 }

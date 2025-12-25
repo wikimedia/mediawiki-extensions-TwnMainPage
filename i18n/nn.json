@@ -5,6 +5,9 @@
 		]
 	},
 	"twnmp-mainpage": "Hovudside",
+	"twnmp-stat-translators": "$1 {{PLURAL:$2|omsetjar|omsetjarar}}",
+	"twnmp-stat-projects": "$1 {{PLURAL:$2|prosjekt}}",
+	"twnmp-stat-messages": "$1 {{PLURAL:$2|melding|meldingar}} å setja om",
 	"twnmp-bannerwho": "Bilete $1",
 	"twnmp-show-more-projects": "Vis alle prosjekt …",
 	"twnmp-brand-motto": "Felleskap for omsetjing med open kjeldekode",

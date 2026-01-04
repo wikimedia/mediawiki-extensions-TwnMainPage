@@ -96,7 +96,7 @@
 		 * Account creation can fail on invalid user input.
 		 *
 		 * @param {string} errorcode Error code as returned by MW api
-		 * @param {Object} result Result retuned by MW api
+		 * @param {Object} result Result returned by MW api
 		 */
 		function handleAccountCreationFailure( errorcode, result ) {
 			let $element = $( [] ),

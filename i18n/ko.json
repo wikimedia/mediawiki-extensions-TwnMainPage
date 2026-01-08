@@ -8,7 +8,8 @@
 			"Priviet",
 			"Revi",
 			"Ykhwong",
-			"아라"
+			"아라",
+			"YeBoy371"
 		]
 	},
 	"twnmp-desc": "translatewiki.net 대문을 제공합니다",
@@ -36,7 +37,7 @@
 	"twnmp-your-view-language-stats": "언어 통계 보기",
 	"twnmp-stat-translations-per-month": "{{PLURAL:$2|번역}} $1개/월",
 	"twnmp-stat-translations-in-sandbox": "{{PLURAL:$2|번역}} $1개",
-	"twnmp-stat-reviews-per-month": "{{PLURAL:$2|리뷰}} $1개/월",
+	"twnmp-stat-reviews-per-month": "{{PLURAL:$2|검토}} $1개/월",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=$4에서는<br />한 명뿐입니다|$4에서<br />$3명 중 $2{{GENDER:$1|위}}}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=한 명뿐입니다|$3명 중 $2{{GENDER:$1|위}}}}",
 	"twnmp-add-project": "여러분의 오픈 소스 프로젝트를 번역에 추가하세요",

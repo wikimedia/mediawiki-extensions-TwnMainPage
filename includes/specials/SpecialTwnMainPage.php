@@ -584,18 +584,28 @@ HTML;
 
 	/** Form that allows users to signup via sandbox. */
 	private function loginForm(): string {
+		$languageCode = $this->getLanguage()->getCode();
+		$definedLanguages = Utilities::getLanguageNames( $languageCode );
+
 		$this->getOutput()->addModules( 'ext.translate.mainpage.signup' );
 
 		$languageCode = $this->getLanguage()->getCode();
-		$languageName = Utilities::getLanguageName( $languageCode, $languageCode );
 
-		$defaultLanguage = Html::rawElement( 'label', [],
-			Html::element( 'input', [
-			'type' => 'checkbox',
-			'name' => 'signuplanguage',
-			'value' => $languageCode,
-			'checked' => true,
-		] ) . ' ' . htmlspecialchars( $languageName ) );
+		$options = '';
+		foreach ( $definedLanguages as $code => $name ) {
+			$options .= Html::element( 'option', [
+				'value' => $code,
+				'selected' => $code === $languageCode
+			], $name );
+		}
+
+		$selectedLanguages = Html::rawElement( 'select', [
+			'name' => 'signupLanguage',
+			'multiple' => true,
+			'class' => 'mw-widgets-languageSelectWidget-select',
+			'data-mw-languages' => FormatJson::encode( $definedLanguages ),
+			'data-mw-placeholder' => $this->msg( 'twnmp-choose-another-language' )->text(),
+		], $options );
 		$username = Html::element( 'input', [
 			'class' => 'twelve columns required',
 			'name' => 'wpName',
@@ -638,15 +648,8 @@ HTML;
 	<h2 class="row only-nondev">
 		{$this->msg( 'twnmp-choose-languages-you-know' )->escaped()}
 	</h2>
-	<ul class="row signup-languages only-nondev autonym">
-		<li>
-			$defaultLanguage
-		</li>
-	</ul>
 	<div class="row only-nondev">
-		<button class="signup-language-selector mw-ui-button" type="button">
-			{$this->msg( 'twnmp-choose-another-language' )->escaped()}
-		</button>
+		$selectedLanguages
 	</div>
 	<h2 class="row">
 		{$this->msg( 'twnmp-choose-fill-account-details' )->escaped()}

@@ -2,6 +2,7 @@
  * Handle the signup thingie.
  *
  * @author Niklas Laxström
+ * @author Jon Harald Søby
  * @license GPL-2.0-or-later
  */
 ( function ( $, mw ) {
@@ -41,41 +42,6 @@
 					anyEmpty = anyEmpty || $( this ).val().trim() === '';
 				} );
 				$submit.prop( 'disabled', anyEmpty );
-			} );
-		}
-
-		function initLanguageSelector() {
-			$form.find( '.signup-language-selector' ).uls( {
-				onSelect: function ( language ) {
-					let $checkbox = $form.find( 'input[name="signuplanguage"][value="' + language + '"]' );
-					if ( $checkbox.length ) {
-						// Language already listed. Make sure it is (re)checked.
-						$checkbox.prop( 'checked', true );
-						return;
-					}
-
-					$checkbox = $( '<input>' )
-						.attr( {
-							type: 'checkbox',
-							name: 'signuplanguage',
-							value: language,
-							checked: 'checked'
-						} );
-					const $label = $( '<label>' )
-						.attr( {
-							lang: language,
-							dir: $.uls.data.getDir( language )
-						} )
-						// Space between checkbox and label
-						.append( $checkbox, ' ', $.uls.data.getAutonym( language ) );
-
-					$form.find( 'ul.signup-languages' )
-						.append(
-							$( '<li>' ).append( $label )
-						);
-				},
-				ulsPurpose: 'twnmainpage-signup-userlanguage',
-				quickList: mw.uls.getFrequentLanguageList
 			} );
 		}
 
@@ -171,9 +137,7 @@
 			// Show loading
 			toggleLoading( true );
 
-			codes = $form.find( 'input[name="signuplanguage"]:checked' ).map( function () {
-				return this.value;
-			} ).toArray();
+			codes = $form.find( 'select[name="signupLanguage"]' ).val() || [];
 
 			preferences = JSON.stringify( {
 				languages: codes,
@@ -215,7 +179,6 @@
 		// Set the thing up
 		initSubmitButtonDisabler();
 		initDeveloperSignup();
-		initLanguageSelector();
 
 		$form.on( 'submit', handleSubmit );
 	};

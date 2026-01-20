@@ -193,15 +193,28 @@ body.mediawiki {
 	margin-bottom: 0;
 }
 
-.grid .login-widget input,
-.grid .login.widget textarea {
-	padding: 6px;
-	font-size: 16px;
-	outline: 0;
-	border-style: solid;
-	border-width: 1px;
-	border-color: @background-color-disabled;
-	color: @color-base;
+.grid .login-widget .row {
+	& > input,
+	& > textarea {
+		padding: 6px;
+		font-size: 16px;
+		outline: 0;
+		border-style: @border-style-base;
+		border-width: @border-width-base;
+		border-color: @border-color-interactive;
+		color: @color-base;
+		transition-property: @transition-property-base;
+		transition-duration: @transition-duration-medium;
+
+		&:hover {
+			border-color: @border-color-input--hover;
+		}
+
+		&:focus {
+			border-color: @border-color-progressive--focus;
+			box-shadow: @box-shadow-inset-small @box-shadow-color-progressive--focus;
+		}
+	}
 }
 
 .login-widget h1,
@@ -215,22 +228,16 @@ body.mediawiki {
 	padding: 10px 0;
 }
 
-.login-widget .signup-language-selector {
-	font-size: 12pt;
-	background-color: @background-color-interactive-subtle;
-	cursor: pointer;
-	padding: 5px 12px;
-	margin-top: 0.5em;
-}
+/* Set explicit size for <select> element to avoid FOUC */
+.login-widget select.mw-widgets-languageSelectWidget-select {
+	visibility: hidden;
+	height: @min-size-interactive-pointer;
+	width: @size-full;
 
-.login-widget .signup-language-selector:hover {
-	background-color: @background-color-interactive;
-}
-
-.login-widget .signup-languages {
-	list-style-type: none;
-	list-style-image: none;
-	padding-top: 5px;
+	.client-nojs & {
+		visibility: initial;
+		height: @size-1200;
+	}
 }
 
 .login-widget input.invalid {

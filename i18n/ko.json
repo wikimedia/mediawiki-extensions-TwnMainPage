@@ -8,7 +8,8 @@
 			"Priviet",
 			"Revi",
 			"Ykhwong",
-			"아라"
+			"아라",
+			"YeBoy371"
 		]
 	},
 	"twnmp-desc": "translatewiki.net 대문을 제공합니다",
@@ -22,7 +23,7 @@
 	"twnmp-brand-motto": "오픈 소스 번역 공동체",
 	"twnmp-login": "로그인",
 	"twnmp-logout": "로그아웃",
-	"twnmp-search-placeholder": "번역을 찾아서 교정하기",
+	"twnmp-search-placeholder": "번역 찾기 및 수정",
 	"twnmp-search-button": "찾기",
 	"twnmp-search-choose-project": "번역할 프로젝트를 선택하세요",
 	"twnmp-translate-link": "번역",

@@ -23,6 +23,8 @@
 	"twnmp-proofread-button": "Ло̄гкэ я вӯййкъе",
 	"twnmp-your-translations-stats": "То̄н ёарркмужэ статистика",
 	"twnmp-your-view-language-stats": "Выльшхэ кӣл статистика э̄л",
+	"twnmp-stat-translations-per-month": "$1 {{PLURAL:$2|ёарркмушш|ёарркмуж|ёарркмушшэ}} ма̄н байя",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=То̄нн {{GENDER:$1|о̄ххтэ}}<br />те̄дак $4|{{GENDER:$1|То̄нн ля̄к}} саесьт $2/$3<br>кӣлэсьт $4}}",
-	"twnmp-choose-another-language": "Воа̄лэшьт мудта кӣл..."
+	"twnmp-choose-another-language": "Воа̄лэшьт мудта кӣл...",
+	"twnmp-stats-number-k": "$1&nbsp;тфн."
 }

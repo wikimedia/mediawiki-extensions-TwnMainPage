@@ -14,11 +14,12 @@
 	"twnmp-search-button": "Коа̄ввнэ",
 	"twnmp-search-choose-project": "Воа̄лэшьт проэкт ёарркэм гуэйкэ",
 	"twnmp-translate-link": "Ёарркмушш",
-	"twnmp-proofread-link": "Ло̄гкмушш я вӯййкъемушш",
+	"twnmp-proofread-link": "Кӣһчлэмушш",
 	"twnmp-translate-button": "Ёарркэ",
 	"twnmp-proofread-button": "Ло̄гкэ я вӯййкъе",
 	"twnmp-your-translations-stats": "То̄н ёарркмужэ статистика",
 	"twnmp-your-view-language-stats": "Выльшхэ кӣл статистика э̄л",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=То̄нн {{GENDER:$1|о̄ххтэ}}<br />те̄дак $4|{{GENDER:$1|То̄нн ля̄к}} саесьт $2/$3<br>кӣлэсьт $4}}",
-	"twnmp-choose-another-language": "Воа̄лэшьт мудта кӣл..."
+	"twnmp-choose-another-language": "Воа̄лэшьт мудта кӣл...",
+	"twnmp-stats-number-k": "$1&nbsp;тфн."
 }

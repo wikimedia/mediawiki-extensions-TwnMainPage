@@ -10,7 +10,6 @@
 use MediaWiki\Extension\Translate\Utilities\Utilities;
 use MediaWiki\ResourceLoader\Context;
 use MediaWiki\ResourceLoader\Module;
-use Wikimedia\AtEase\AtEase;
 
 /**
  * Project icons via CSS using SVGs with PNG fallbacks.
@@ -27,10 +26,8 @@ class ResourceLoaderProjectIconsModule extends Module {
 		$projects = $handler->getProjects();
 		$icons = [];
 		foreach ( $projects as $group ) {
-			AtEase::suppressWarnings();
 			$id = Sanitizer::escapeClass( $group->getId() );
 			$icons[$id] = Utilities::getIcon( $group, 100 );
-			AtEase::restoreWarnings();
 		}
 
 		return $icons;

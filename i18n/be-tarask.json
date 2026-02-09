@@ -26,6 +26,7 @@
 	"twnmp-your-view-language-stats": "Праглядзець моўную статыстыку",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Вы адзіны перакладнік<br />для мовы $4|{{GENDER:$1|на}} $2 з $3<br />для мовы $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Вы адзіны|{{GENDER:$1|на}} $2 месцы з $3}}",
+	"twnmp-bottom-languages-supported": "Забясьпечваюцца мовы",
 	"twnmp-create-account-button": "Стварыць рахунак",
 	"twnmp-become-translator": "Стаць перакладнікам",
 	"twnmp-create-account-cancel": "Скасаваць",

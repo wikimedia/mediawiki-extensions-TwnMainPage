@@ -39,6 +39,7 @@
 	"twnmp-signup-error-nonfreeusername": "Taat kevtteenommâ lii jo kiästnii. Valjii nube.",
 	"twnmp-become-translator": "Riemâ jurgâleijen",
 	"twnmp-choose-languages-you-know": "Valjii kielâid maid máátáh",
+	"twnmp-join-community-desc": "Tun lah meid tiervâpuáttám, jis lah ovdedeijee já perustum viestâi dokumentistmist tâi vuáđu keččâlmist.",
 	"twnmp-create-account-cancel": "Jooskâ",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|$1 viestâ|$1 viestâ|$1 viestâ|$1 viestâd}}"
 }

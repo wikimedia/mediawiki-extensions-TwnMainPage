@@ -8,10 +8,10 @@
 	},
 	"twnmp-desc": "Furnisi pájina prinsipal di translatewiki.net",
 	"twnmp-mainpage": "Pájina prinsipal",
-	"twnmp-stat-translators": "$1 {{PLURAL:$2|Tradutor|Tradutoris}}",
-	"twnmp-stat-projects": "$1 {{PLURAL:$2|Prujétu|Prujétus}}",
-	"twnmp-stat-languages": "$1 {{PLURAL:$2|Linga ativu|Lingas ativu}}",
-	"twnmp-stat-messages": "$1 {{PLURAL:$2|Mensáji|Mensájis}} pa traduzi",
+	"twnmp-stat-translators": "$1 {{PLURAL:$2|Tradutor}}",
+	"twnmp-stat-projects": "$1 {{PLURAL:$2|Prujétu}}",
+	"twnmp-stat-languages": "$1 {{PLURAL:$2|Linga ativu}}",
+	"twnmp-stat-messages": "$1 {{PLURAL:$2|Mensáji}} pa traduzi",
 	"twnmp-bannerwho": "Imáji $1",
 	"twnmp-show-more-projects": "Mustra tudu prujétu...",
 	"twnmp-brand-motto": "Kumunidadi di traduson na kódi abértu",
@@ -38,7 +38,7 @@
 	"twnmp-sandboxed": "Bu ten ki manda {{PLURAL:$1|0=alguns|más alguns}} traduson pa kunpleta bu rajistu.",
 	"twnmp-sandboxed-limit": "Dja bu atinji limiti di tradusons. Nos ikipa ta sta balida i kunpleta rajistu di bu kónta di tradutor.",
 	"twnmp-bottom-help": "Djuda",
-	"twnmp-bottom-support": "Djuda",
+	"twnmp-bottom-support": "Balkon di sapórti",
 	"twnmp-bottom-languages-supported": "Lingas saportadu",
 	"twnmp-bottom-about": "Sobri",
 	"twnmp-signup-username-placeholder": "Nómi di uzuári",
@@ -59,5 +59,5 @@
 	"twnmp-join-community-reason": "Purkê ki bu kre djunta?",
 	"twnmp-create-account-cancel": "Kansela",
 	"twnmp-join-community-info": "Bu ka ta kunsigi nvia tradusons grinhasin? Inda bu podi partisipa di es kumunidadi.",
-	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Un mensáji|$1 mensájis}}"
+	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Un mensáji|$1 mensáji}}"
 }

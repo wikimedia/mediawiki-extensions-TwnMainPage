@@ -37,7 +37,7 @@
 	"twnmp-signup-email-placeholder": "Электрон почта",
 	"twnmp-create-account-button": "Хисап язмасын төзү",
 	"twnmp-signup-error-invalidusername": "Бу кулланучы исемен алып булмый. Башкасын сайлагыз әле.",
-	"twnmp-signup-error-nonfreeusername": "Бу кулланучы исеме бар инде. Башкасын сайлагыз әле.",
+	"twnmp-signup-error-nonfreeusername": "Бу кулланучы исеме кулланыла инде. Башкасын сайлагызчы.",
 	"twnmp-signup-error-other": "Теркәлү чыкмады. Сервер хатаны кайтарды: $1.",
 	"twnmp-become-translator": "Тәрҗемәче булып китү",
 	"twnmp-choose-languages-you-know": "Белгән телләрне сайлагыз",

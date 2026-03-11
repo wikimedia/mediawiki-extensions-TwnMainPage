@@ -2,9 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Jason924tw",
-			"Yanteng3"
+			"Yanteng3",
+			"Davidzdh"
 		]
 	},
 	"twnmp-mainpage": "卷首",
-	"twnmp-signup-username-placeholder": "簿名"
+	"twnmp-login": "籍記",
+	"twnmp-signup-username-placeholder": "簿名",
+	"twnmp-create-account-button": "登簿"
 }

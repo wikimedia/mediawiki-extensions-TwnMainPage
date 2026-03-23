@@ -11,6 +11,7 @@ use MediaWiki\Language\RawMessage;
 use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
+use MediaWiki\Widget\LanguageSelectWidget;
 
 /**
  * Provides the main page with stats and stuff.
@@ -591,21 +592,14 @@ HTML;
 
 		$languageCode = $this->getLanguage()->getCode();
 
-		$options = '';
-		foreach ( $definedLanguages as $code => $name ) {
-			$options .= Html::element( 'option', [
-				'value' => $code,
-				'selected' => $code === $languageCode
-			], $name );
-		}
-
-		$selectedLanguages = Html::rawElement( 'select', [
+		$widget = new LanguageSelectWidget( [
 			'name' => 'signupLanguage',
 			'multiple' => true,
-			'class' => 'mw-widgets-languageSelectWidget-select',
-			'data-mw-languages' => FormatJson::encode( $definedLanguages ),
-			'data-mw-placeholder' => $this->msg( 'twnmp-choose-another-language' )->text(),
-		], $options );
+			'languages' => $definedLanguages,
+			'value' => $languageCode,
+			'placeholder' => $this->msg( 'twnmp-choose-another-language' )->text()
+		] );
+		$selectedLanguages = $widget->toString();
 		$username = Html::element( 'input', [
 			'class' => 'twelve columns required',
 			'name' => 'wpName',

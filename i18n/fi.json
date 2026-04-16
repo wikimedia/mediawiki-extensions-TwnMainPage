@@ -38,7 +38,7 @@
 	"twnmp-stat-translations-per-month": "$1 {{PLURAL:$2|käännöstä}}/kuukausi",
 	"twnmp-stat-translations-in-sandbox": "$1 {{PLURAL:$2|käännöstä}}",
 	"twnmp-stat-reviews-per-month": "$1 {{PLURAL:$2|oikolukua}}/kuukausi",
-	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1={{GENDER:$1|Olet ainoa}}|Olet sijalla $2/$3<br />\nkielelle $4}}",
+	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1={{GENDER:$1|Olet ainoa}}|Olet sijalla $2/$3<br />\nkielessä $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1={{GENDER:$1|Olet ainoa}}|Olet sijalla $2/$3}}",
 	"twnmp-add-project": "Lisää avoimen lähdekoodin projekti käännettäväksi",
 	"twnmp-sandboxed": "Sinun täytyy tehdä {{PLURAL:$1|0=joitakin|lisää}} käännöksiä saadaksesi rekisteröinnin valmiiksi.",

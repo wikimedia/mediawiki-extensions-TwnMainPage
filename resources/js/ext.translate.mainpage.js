@@ -91,7 +91,7 @@
 	function setupTargetLanguageSelector() {
 		const $ulsTrigger = $( '<button>' )
 			.text( $.uls.data.getAutonym( selectedLanguage ) )
-			.addClass( 'same-language-uls-trigger mw-ui-button' );
+			.addClass( 'same-language-uls-trigger cdx-button' );
 
 		$( '.twn-mainpage-project-selector-title' ).append( $ulsTrigger );
 

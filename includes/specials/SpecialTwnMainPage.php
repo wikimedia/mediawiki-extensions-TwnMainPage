@@ -99,7 +99,7 @@ class SpecialTwnMainPage extends SpecialPage {
 		$this->getHookContainer()->run( 'BeforePageDisplay', [ &$out, &$skin ] );
 		$out->addModuleStyles( 'jquery.uls.grid' );
 		$out->addModuleStyles( 'ext.translate.mainpage.styles' );
-		$out->addModuleStyles( 'mediawiki.ui.button' );
+		$out->addModuleStyles( 'codex-styles' );
 		$out->addModuleStyles( 'ext.translate.mainpage.icons' );
 		$out->addModules( 'ext.translate.mainpage' );
 		// Forcing wgULSPosition to personal to mimic that behavior regardless
@@ -217,7 +217,7 @@ HTML;
 
 		$out .= Html::element( 'button',
 			[
-				'class' => 'mw-ui-button mw-ui-progressive',
+				'class' => 'cdx-button cdx-button--weight-primary cdx-button--action-progressive',
 				'type' => 'submit',
 				'id' => 'twnmp-search-button',
 			],
@@ -659,10 +659,11 @@ HTML;
 	</div>
 	<div class="row only-dev hide">$reasonInput</div>
 	<div class="row">
-		<button class="mw-ui-button mw-ui-progressive mw-ui-big" type="submit" id="twnmp-create-account">
+		<button class="cdx-button cdx-button--weight-primary cdx-button--action-progressive cdx-button--size-large"
+			type="submit" id="twnmp-create-account">
 			{$this->msg( 'twnmp-create-account-button' )->escaped()}
 		</button>
-		<button class="mw-ui-button mw-ui-big mw-ui-quiet only-dev cancel hide">
+		<button class="cdx-button cdx-button--size-large cdx-button--weight-quiet only-dev cancel hide">
 			{$this->msg( 'twnmp-create-account-cancel' )->escaped()}
 		</button>
 		<span class="twn-mainpage-loading-indicator hide"></span>
@@ -812,7 +813,7 @@ HTML;
 		$out .= Html::element( 'button', [
 			'id' => 'twnmp-translate',
 			'type' => 'submit',
-			'class' => 'mw-ui-button mw-ui-progressive'
+			'class' => 'cdx-button cdx-button--weight-primary cdx-button--action-progressive'
 		], $this->msg( 'twnmp-translate-button' )->text() );
 		$out .= Html::closeElement( 'div' );
 		$out .= Html::closeElement( 'form' );
@@ -858,7 +859,7 @@ HTML;
 		$out .= Html::element( 'button', [
 			'id' => 'twnmp-proofread',
 			'type' => 'submit',
-			'class' => 'mw-ui-button mw-ui-progressive'
+			'class' => 'cdx-button cdx-button--weight-primary cdx-button--action-progressive'
 		], $this->msg( 'twnmp-proofread-button' )->text() );
 		$out .= Html::closeElement( 'div' );
 		$out .= Html::closeElement( 'form' );
@@ -898,7 +899,8 @@ HTML;
 		</div>
 	</div>
 	<div class="four columns">
-		<button type="submit" class="mw-ui-button mw-ui-progressive">$button</button>
+		<button type="submit"
+			class="cdx-button cdx-button--weight-primary cdx-button--action-progressive">$button</button>
 	</div>
 </form>
 <div class="row sandbox-message">$message</div>

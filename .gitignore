@@ -6,3 +6,6 @@ node_modules/
 /vendor/
 .eslintcache
 /.stylelintcache
+/docs/
+/.agent-work/
+/.idea/

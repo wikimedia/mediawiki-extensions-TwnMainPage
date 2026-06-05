@@ -5,11 +5,16 @@
 			"Luky001",
 			"Robert Važan",
 			"TomášPolonec",
-			"Vegetator"
+			"Vegetator",
+			"Wizzard"
 		]
 	},
 	"twnmp-desc": "Poskytuje hlavnú stránku translatewiki.net",
 	"twnmp-mainpage": "Hlavná stránka",
+	"twnmp-stat-translators": "$1 {{PLURAL:$2|prekladateľ|prekladatelia|prekladateľov}}",
+	"twnmp-stat-projects": "$1 {{PLURAL:$2|projekt|projekty|projektov}}",
+	"twnmp-stat-languages": "$1 {{PLURAL:$2|aktívny jazyk|aktívne jazyky|aktívnych jazykov}}",
+	"twnmp-stat-messages": "$1 {{PLURAL:$2|správa|správy|správ}} na preklad",
 	"twnmp-bannerwho": "Obrázok: $1",
 	"twnmp-show-more-projects": "Zobraziť všetky projekty...",
 	"twnmp-brand-motto": "Open-source prekladateľská komunita",
@@ -27,6 +32,9 @@
 	"twnmp-your-translations-stats": "Vaša štatistika prekladov",
 	"twnmp-your-translations-stats-all-languages": "Pre všetky jazyky",
 	"twnmp-your-view-language-stats": "Zobraziť jazykové štatistiky",
+	"twnmp-stat-translations-per-month": "$1 {{PLURAL:$2|preklad|preklady|prekladov}} za mesiac",
+	"twnmp-stat-translations-in-sandbox": "$1 {{PLURAL:$2|preklad|preklady|prekladov}}",
+	"twnmp-stat-reviews-per-month": "$1 {{PLURAL:$2|korektúra|korektúry|korektúr}} za mesiac",
 	"twnmp-translations-translator-ranking": "Ste {{PLURAL:$3|1={{GENDER:$1|jediný|jediná}}|$2. z $3}}<br />pre jazyk $4",
 	"twnmp-translations-translator-ranking-source": "Ste {{PLURAL:$3|1={{GENDER:$1|jediný|jediná}}|$2. z $3}}",
 	"twnmp-add-project": "Pridajte svoj open-source projekt na preklad",
@@ -54,5 +62,6 @@
 	"twnmp-join-community-reason": "Prečo sa chcete pridať?",
 	"twnmp-create-account-cancel": "Zrušiť",
 	"twnmp-join-community-info": "Nemôžete práve teraz pridávať niektoré preklady? Aj tak sa stále môžete pridať.",
+	"twnmp-stats-number-k": "$1 tis.",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Jedna správa|$1 správy|$1 správ}}"
 }

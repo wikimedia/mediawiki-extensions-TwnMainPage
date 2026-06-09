@@ -5,7 +5,8 @@
 			"Luky001",
 			"Robert Važan",
 			"TomášPolonec",
-			"Vegetator"
+			"Vegetator",
+			"Wizzard"
 		]
 	},
 	"twnmp-desc": "Poskytuje hlavnú stránku translatewiki.net",
@@ -61,5 +62,6 @@
 	"twnmp-join-community-reason": "Prečo sa chcete pridať?",
 	"twnmp-create-account-cancel": "Zrušiť",
 	"twnmp-join-community-info": "Nemôžete práve teraz pridávať niektoré preklady? Aj tak sa stále môžete pridať.",
+	"twnmp-stats-number-k": "$1 tis.",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Jedna správa|$1 správy|$1 správ}}"
 }

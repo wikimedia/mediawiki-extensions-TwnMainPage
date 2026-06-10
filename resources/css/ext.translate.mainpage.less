@@ -5,6 +5,16 @@ body.mediawiki {
 	background-color: @background-color-interactive-subtle;
 }
 
+/* Override the variable for skins using them */
+html[ dir ]:root {
+	--background-color-base: @background-color-interactive-subtle;
+}
+
+/* Hide the heading if the skin doesn't hide it automatically */
+body.mw-special-TwnMainPage .firstHeading:empty {
+	display: none;
+}
+
 .twn-mainpage {
 	background-color: @background-color-base;
 	color: @color-base;

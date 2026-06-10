@@ -83,6 +83,7 @@ class SpecialTwnMainPage extends SpecialPage {
 	public function execute( $parameters ) {
 		$out = $this->getOutput();
 		$skin = $this->getSkin();
+		$user = $this->getUser();
 
 		if ( !$this->getConfig()->get( 'TranslateUseSandbox' ) ) {
 			$out->showErrorPage( 'internalerror',
@@ -90,9 +91,13 @@ class SpecialTwnMainPage extends SpecialPage {
 			return;
 		}
 
-		$this->setHeaders();
-		$out->setArticleBodyOnly( true );
-		$out->loadSkinModules( $skin );
+		if ( $user->isRegistered() ) {
+			$out->setPageTitle( '' );
+		} else {
+			$this->setHeaders();
+			$out->setArticleBodyOnly( true );
+			$out->loadSkinModules( $skin );
+		}
 
 		// Enable this if you need useful debugging information
 		// $out->addHtml( MWDebug::getDebugHTML( $this->getContext() ) );
@@ -109,26 +114,40 @@ class SpecialTwnMainPage extends SpecialPage {
 		$out->addMeta( 'viewport', 'width=device-width, initial-scale=0.5' );
 
 		// These add modules so this has to be called before headElement
-		$output = $this->makeContent();
+		$output = $this->makeContent( $user->isRegistered() );
 
-		$out->addHTML(
-			$out->headElement( $skin ) .
-			$output .
-			$out->getBottomScripts() .
-			 '</body></html>'
-		);
+		if ( $user->isRegistered() ) {
+			$out->addHTML( $output );
+		} else {
+			$out->addHTML(
+				$out->headElement( $skin ) .
+				$output .
+				$out->getBottomScripts() .
+				 '</body></html>'
+			);
+		}
 	}
 
 	private function makeContent(): string {
+		$user = $this->getUser();
+		$mainTag = 'main';
+		if ( $user->isRegistered() ) {
+			// Skins provide <main> tag already and there can’t be two
+			$mainTag = 'div';
+		}
+
 		$output = Html::openElement( 'div', [ 'class' => 'grid twn-mainpage' ] );
 		$output .= $this->header();
-		$output .= Html::openElement( 'main' );
+		$output .= Html::openElement( $mainTag );
 		$output .= $this->banner();
 		$output .= $this->searchBar();
 		$output .= $this->projectSelector();
 		$output .= $this->newProject();
-		$output .= Html::closeElement( 'main' );
-		$output .= $this->footer();
+		$output .= Html::closeElement( $mainTag );
+		if ( !$user->isRegistered() ) {
+			// For logged-in users, a regular footer is shown
+			$output .= $this->footer();
+		}
 		$output .= Html::closeElement( 'div' );
 		return $output;
 	}
@@ -138,35 +157,22 @@ class SpecialTwnMainPage extends SpecialPage {
 
 		$siteNameEsc = htmlspecialchars( $wgSitename );
 		$siteMottoEsc = $this->msg( 'twnmp-brand-motto' )->escaped();
-
-		$code = $this->getLanguage()->getCode();
-		$languageName = Utilities::getLanguageName( $code, $code );
-		$params = [
-			'href' => '#',
-			'class' => 'uls-trigger',
-			'tabindex' => 0,
-			'role' => 'button',
-			'aria-haspopup' => 'true'
-		];
-		$uls = Html::element( 'a', $params, $languageName );
-
-		$userLink = '';
+		$uls = '';
+		$logInOut = '';
 
 		$user = $this->getUser();
-		if ( $user->isRegistered() ) {
+		if ( !$user->isRegistered() ) {
+			$code = $this->getLanguage()->getCode();
+			$languageName = Utilities::getLanguageName( $code, $code );
 			$params = [
-				'class' => 'login username text-right',
-				'href' => $user->getUserPage()->getLocalURL(),
+				'href' => '#',
+				'class' => 'uls-trigger',
+				'tabindex' => 0,
+				'role' => 'button',
+				'aria-haspopup' => 'true'
 			];
-			$userLink = Html::element( 'a', $params, $user->getName() );
+			$uls = Html::element( 'a', $params, $languageName );
 
-			$logout = SpecialPage::getTitleFor( 'Userlogout' );
-			$params = [
-				'class' => 'logout text-right',
-				'href' => $logout->getLocalURL( [ 'returnto' => 'Special:MainPage' ] ),
-			];
-			$logInOut = Html::element( 'a', $params, $this->msg( 'twnmp-logout' )->text() );
-		} else {
 			$login = SpecialPage::getTitleFor( 'Userlogin' );
 			$params = [
 				'class' => 'login text-right',
@@ -183,7 +189,6 @@ class SpecialTwnMainPage extends SpecialPage {
 	</div>
 	<div class="five columns twn-mainpage-personal-actions">
 		$uls
-		$userLink
 		$logInOut
 	</div>
 </header>

@@ -8,7 +8,7 @@
 	"twnmp-mainpage": "Э̄ввт лысст",
 	"twnmp-stat-translators": "$1 {{PLURAL:$2|ёарркэй|ёарркэй|ёарркэйе}}",
 	"twnmp-stat-projects": "$1 {{PLURAL:$2|проэкт|проэкт|проэктэдтӭ}}",
-	"twnmp-stat-languages": "$1 {{PLURAL:$2|активнэ кӣлл|активнэ кӣл|активнэ кӣллэ}}",
+	"twnmp-stat-languages": "$1 ва̄ймэль {{PLURAL:$2|кӣлл|кӣл|кӣллэ}}",
 	"twnmp-stat-messages": "$1 {{PLURAL:$2|соа̄гк|соа̄г|соа̄гкэ}} ёарркэм гуэйкэ",
 	"twnmp-show-more-projects": "Вӯзьхэ пугк проэктэтҍ...",
 	"twnmp-brand-motto": "А̄в ка̄ййв ко̄дэнҍ проэктэтҍ локализация се̄ббр",

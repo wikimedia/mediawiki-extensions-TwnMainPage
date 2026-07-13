@@ -7,5 +7,6 @@ node_modules/
 .eslintcache
 /.stylelintcache
 /docs/
-/.agent-work/
 /.idea/
+/.agent-work/
+/.agentbridge/

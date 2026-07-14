@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Abshirdheere"
+			"Abshirdheere",
+			"AhmedG612"
 		]
 	},
 	"twnmp-desc": "Bogga Hore wuxuu soo dhan dhigayaa translatewiki.net",
@@ -33,7 +34,7 @@
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Waxaa tahay qofka kaliya|{{GENDER:$1|gaaray $2º|gaartay $2ª|heerka ah $2}} in ka badan $3<br />turjumaad}} ee $4",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Sei Waxaa tahay turjumaanka qura|{{GENDER:$1|kusoo baxay $2º|ku soo baxday $2ª|heerka ah $2}} in ka badan $3<br />turjumaad}}",
 	"twnmp-add-project": "Ku dar mashruuc xog furan ee turjumaada",
-	"twnmp-sandboxed": "Waxaad u baahantahay inaad soo gudbiso turjumaad dheeraad ah si aad u hesho darajada turjumaanimo buuxda.",
+	"twnmp-sandboxed": "Waxaad u baahan tahay inaad bixiso tarjumaado {{PLURAL:$1|qaar|dheeraad ah}} si aad u dhammaystirto diiwaangelintaada.",
 	"twnmp-sandboxed-limit": "Waad gaartay xadkii turjumidda. Kooxdeenu waxay samayn doontaa in ay hubiso iyo in ay wax ka bedesho akoonkaada dhawaan.",
 	"twnmp-bottom-help": "Caawinaad",
 	"twnmp-bottom-support": "Nacaawi",
@@ -56,6 +57,6 @@
 	"twnmp-join-community-desc": "Haddii aad tahay horumariye daneeynaya diiwaangelinta fasiraadaha, ama ay iska tahay helidda sallax, ku soo dhowoow.",
 	"twnmp-join-community-reason": "Maxaad u doonaysaa inaad ku soo biirto?",
 	"twnmp-create-account-cancel": "Ka noqo",
-	"twnmp-join-community-info": "Turjumaan ma tihid? Si kastaba ha ahaatee waa suurtagal inaad ku biirto bulshada.",
+	"twnmp-join-community-info": "Ma soo gudbin kartid turjumaadaha qaarkood hadda? Weli waad ku biiri kartaa.",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Farrin kaliya|$1 farriimo}}"
 }

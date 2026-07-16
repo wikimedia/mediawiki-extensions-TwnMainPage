@@ -14,7 +14,7 @@
 	"twnmp-stat-translators": "$1 {{PLURAL:$2|tłumacz|tłumaczy}}",
 	"twnmp-stat-projects": "$1 {{PLURAL:$2|projekt|projekty|projektów}}",
 	"twnmp-stat-languages": "$1 {{PLURAL:$2|aktywny język|aktywne języki|aktywnych języków}}",
-	"twnmp-stat-messages": "$1 {{PLURAL:$2|komunikat|komunikaty|komunikatów}} do przetłumaczenia",
+	"twnmp-stat-messages": "$1 {{PLURAL:$2|komunikat|komunikatów}} do przetłumaczenia",
 	"twnmp-bannerwho": "Grafika: $1",
 	"twnmp-show-more-projects": "Pokaż wszystkie projekty…",
 	"twnmp-brand-motto": "Społeczność tłumaczy projektów open source",
@@ -62,6 +62,6 @@
 	"twnmp-join-community-reason": "Dlaczego chcesz dołączyć?",
 	"twnmp-create-account-cancel": "Anuluj",
 	"twnmp-join-community-info": "Nie możesz dodać jakichś tłumaczeń? Możesz dołączyć do nas.",
-	"twnmp-stats-number-k": "$1 tys.",
+	"twnmp-stats-number-k": "<span style=\"white-space: nowrap;\">$1&nbsp;tys.</span>",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Jedna wiadomość|$1 wiadomości}}"
 }

@@ -10,7 +10,7 @@ class CachedStatTest extends MediaWikiIntegrationTestCase {
 		$updater = $this->createMock( NullUpdater::class );
 		$updater->expects( self::once() )
 			->method( 'calculate' )
-			->will( self::returnValue( $value ) );
+			->willReturn( $value );
 
 		$cacher = new CachedStat(
 			__METHOD__,

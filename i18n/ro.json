@@ -3,7 +3,8 @@
 		"authors": [
 			"Andrei Stroe",
 			"ImGelu",
-			"Minisarm"
+			"Minisarm",
+			"Vellion Eagle"
 		]
 	},
 	"twnmp-desc": "Furnizează pagina principală pentru translatewiki.net",
@@ -46,7 +47,7 @@
 	"twnmp-become-translator": "Deveniți un traducător",
 	"twnmp-choose-languages-you-know": "Alegeți limbile pe care le cunoașteți",
 	"twnmp-choose-another-language": "Alegeți încă o limbă...",
-	"twnmp-choose-fill-account-details": "Introduceți detaliile contului dumnevoastră",
+	"twnmp-choose-fill-account-details": "Introduceți detaliile contului dumneavoastră",
 	"twnmp-join-community": "Alăturați-vă comunității",
 	"twnmp-join-community-desc": "Dacă sunteți un dezvoltator interesat de documentarea traducerilor sau pur și simplu explorați platforma, sunteți de asemenea binevenit.",
 	"twnmp-join-community-reason": "De ce ați doriți să vă alăturați?",

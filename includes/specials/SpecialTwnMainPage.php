@@ -99,6 +99,12 @@ class SpecialTwnMainPage extends SpecialPage {
 			$out->loadSkinModules( $skin );
 		}
 
+		// Copy page title logic from core (includes/Page/Article.php) for a custom page title
+		$titleMsg = $this->msg( 'pagetitle-view-mainpage' )->inContentLanguage();
+		if ( !$titleMsg->isDisabled() ) {
+			$out->setHTMLTitle( $titleMsg->text() );
+		}
+
 		// Enable this if you need useful debugging information
 		// $out->addHtml( MWDebug::getDebugHTML( $this->getContext() ) );
 		$this->getHookContainer()->run( 'BeforePageDisplay', [ &$out, &$skin ] );

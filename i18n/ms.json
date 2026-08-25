@@ -32,10 +32,10 @@
 	"twnmp-translations-per-month": "{{PLURAL:$1|Terjemahan}}/bulan",
 	"twnmp-translations-in-sandbox": "Terjemahan",
 	"twnmp-reviews-per-month": "Semakan sebulan",
-	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Anda satu-satunya<br />penterjemah untuk $4|{{GENDER:$1|Nombor}} $2 daripada $3 orang<br />penterjemah untuk $4}}",
+	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Anda satu-satunya<br />penterjemah untuk $4|{{GENDER:$1|Kedudukan}} $2 dalam kalangan $3<br />penterjemah $4}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Anda satu-satunya penyemak|{{GENDER:$1|Nombor}} $2 daripada $3 orang}}",
 	"twnmp-add-project": "Serahkan projek sumber terbuka anda untuk diterjemahkan",
-	"twnmp-sandboxed": "Anda perlu memberikan lebih banyak terjemahan untuk memperoleh hak penterjemahan sepenuhnya.",
+	"twnmp-sandboxed": "Anda perlu menyediakan {{PLURAL:$1|0=beberapa|lebih banyak}} terjemahan untuk melengkapkan pendaftaran anda.",
 	"twnmp-sandboxed-limit": "Anda telah mencapai had penterjemahan. Pasukan kami akan menentusahkan dan menaik taraf akaun anda tidak lama lagi.",
 	"twnmp-bottom-help": "Bantuan",
 	"twnmp-bottom-support": "Meja bantuan",
@@ -58,6 +58,7 @@
 	"twnmp-join-community-desc": "Jika anda seorang pemaju yang berminat untuk mendokumenkan terjemahan atau sekadar menjelajahi platform kami, anda juga dialu-alukan.",
 	"twnmp-join-community-reason": "Mengapakah anda berminat untuk menyertai?",
 	"twnmp-create-account-cancel": "Batalkan",
-	"twnmp-join-community-info": "Bukan penterjemah? Anda tetap dialu-alukan untuk menyertai komuniti.",
+	"twnmp-join-community-info": "Tidak dapat menghantar beberapa terjemahan sekarang? Anda masih boleh menyertai.",
+	"twnmp-stats-number-k": "$1 ribu",
 	"twn-mainpage-total-messages-in-language": "{{PLURAL:$1|Satu mesej|$1 mesej}}"
 }

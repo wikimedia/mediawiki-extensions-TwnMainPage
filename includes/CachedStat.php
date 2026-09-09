@@ -7,6 +7,7 @@
  * @license GPL-2.0-or-later
  */
 
+use MediaWiki\JobQueue\Exceptions\JobQueueReadOnlyError;
 use MediaWiki\MediaWikiServices;
 
 /**
@@ -76,7 +77,7 @@ class CachedStat implements DeferrableUpdate {
 
 		if ( !is_array( $value ) ) {
 			if ( $this->onMiss !== 'update' ) {
-				MediaWikiServices::getInstance()->getJobQueueGroup()->push( $this->makeJob() );
+				$this->pushJob();
 
 				return null;
 			} else {
@@ -85,10 +86,18 @@ class CachedStat implements DeferrableUpdate {
 		}
 
 		if ( $value['t'] + $this->staleAge < wfTimestamp( TS_UNIX ) ) {
-			MediaWikiServices::getInstance()->getJobQueueGroup()->push( $this->makeJob() );
+			$this->pushJob();
 		}
 
 		return $value['v'];
+	}
+
+	private function pushJob(): void {
+		try {
+			MediaWikiServices::getInstance()->getJobQueueGroup()->push( $this->makeJob() );
+		} catch ( JobQueueReadOnlyError ) {
+			// Ignore when job queue is read-only
+		}
 	}
 
 	private function getKey(): string {

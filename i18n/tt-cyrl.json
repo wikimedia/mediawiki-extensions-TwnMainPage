@@ -35,6 +35,7 @@
 	"twnmp-reviews-per-month": "{{PLURAL:$1|тикшерү}} бер ай эчендә",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Сез $4га<br />бердәнбер тәрҗемәче|{{GENDER:$1|Сез}}  $4га<br />$3 тәрҗәмәчедән $2 урында}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Сез бердәнберегез|{{GENDER:$1|Сез}} $3 арасында $2 урында}}",
+	"twnmp-add-project": "Үзегезнең ачык кодлы проектыгызны тәрҗемә итүгә тәкъдим итегез",
 	"twnmp-bottom-help": "Ярдәм",
 	"twnmp-bottom-support": "Ярдәм хезмәте",
 	"twnmp-bottom-languages-supported": "Кулланылган телләр",

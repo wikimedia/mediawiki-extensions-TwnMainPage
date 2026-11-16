@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Brahim-essaidi",
+			"Daoudsfouli",
 			"Hakim1bal"
 		]
 	},
 	"twnmp-mainpage": "ⵜⴰⵙⵏⴰ ⵏ ⵓⵙⵏⵓⴱⴳ",
 	"twnmp-bannerwho": "ⵜⴰⵡⵍⴰⴼⵜ $1",
-	"twnmp-show-more-projects": "ⵙⵙⵓⵎⴰⵏ ⵉⵙⵏⴼⴰⵔⵏ ⴰⴽⴽⵯ...",
+	"twnmp-show-more-projects": "ⵙⵙⵓⵎⴰⵏ ⵉⵙⵏⴼⴰⵕⵏ ⴰⴽⴽⵯ...",
 	"twnmp-login": "ⴽⵛⵎ",
 	"twnmp-logout": "ⴼⴼⵖ",
 	"twnmp-search-button": "ⴰⴼ",

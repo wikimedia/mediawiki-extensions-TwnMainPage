@@ -26,6 +26,7 @@
 	"twnmp-your-translations-stats": "Тәрҗемәләрегез статистикасы",
 	"twnmp-your-translations-stats-all-languages": "Барлык телләр өчен",
 	"twnmp-your-view-language-stats": "Тел статистикасын карау",
+	"twnmp-stat-translations-per-month": "Аена $1 {{PLURAL:$2|тәрҗемә}}",
 	"twnmp-translations-translator-ranking": "{{PLURAL:$3|1=Сез $4га<br />бердәнбер тәрҗемәче|{{GENDER:$1|Сез}}  $4га<br />$3 тәрҗәмәчедән $2 урында}}",
 	"twnmp-translations-translator-ranking-source": "{{PLURAL:$3|1=Сез бердәнберегез|{{GENDER:$1|Сез}} $3 арасында $2 урында}}",
 	"twnmp-add-project": "Үзегезнең ачык кодлы проектыгызны тәрҗемә итүгә тәкъдим итегез",

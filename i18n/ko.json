@@ -9,7 +9,8 @@
 			"Revi",
 			"YeBoy371",
 			"Ykhwong",
-			"아라"
+			"아라",
+			"Tensama0415"
 		]
 	},
 	"twnmp-desc": "translatewiki.net 대문을 제공합니다",
@@ -18,7 +19,7 @@
 	"twnmp-stat-projects": "{{PLURAL:$2|프로젝트}} $1개",
 	"twnmp-stat-languages": "활동적인 {{PLURAL:$2|언어}} $1개",
 	"twnmp-stat-messages": "번역할 {{PLURAL:$2|메시지}} $1개",
-	"twnmp-bannerwho": "그림: $1",
+	"twnmp-bannerwho": "이미지: $1",
 	"twnmp-show-more-projects": "모든 프로젝트 보기...",
 	"twnmp-brand-motto": "오픈 소스 번역 공동체",
 	"twnmp-login": "로그인",
